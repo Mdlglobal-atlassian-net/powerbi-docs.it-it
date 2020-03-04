@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2020
+ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076709"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609934"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -118,7 +118,7 @@ Dopo avere creato un codice di incorporamento di **Pubblica sul Web**, è possib
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Aggiornamenti ai report e aggiornamenti dei dati
 
-Dopo la creazione e la condivisione del codice di incorporamento di **Pubblica sul Web**, il report viene aggiornato con eventuali modifiche apportate e il collegamento al codice di incorporamento è immediatamente attivo. Gli utenti che aprono il collegamento possono visualizzarlo. Dopo questa azione iniziale, tuttavia, gli aggiornamenti dei report o oggetti visivi possono richiedere circa un'ora prima di diventare visibili agli utenti. Per altre informazioni, vedere la sezione [**Come funziona**](#howitworks) più avanti in questo articolo. 
+Dopo la creazione e la condivisione del codice di incorporamento di **Pubblica sul Web**, il report viene aggiornato con eventuali modifiche apportate e il collegamento al codice di incorporamento è immediatamente attivo. Gli utenti che aprono il collegamento possono visualizzarlo. Dopo questa azione iniziale, tuttavia, gli aggiornamenti dei report o degli oggetti visivi possono richiedere da due a tre ore prima di diventare visibili agli utenti. Per altre informazioni, vedere la sezione [**Come funziona**](#howitworks) più avanti in questo articolo. 
 
 ## <a name="data-refresh"></a>Aggiornamento dei dati
 

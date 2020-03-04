@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223722"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609896"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelli di grandi dimensioni in Power BI Premium (anteprima)
 
-I set di dati di Power BI possono archiviare i dati in una cache in memoria altamente compressa per ottimizzare le prestazioni delle query. Ciò assicura un'interattività rapida degli utenti su set di dati di grandi dimensioni. La funzionalità dei modelli di grandi dimensioni consente di aumentare le dimensioni dei set di dati di Power BI Premium oltre 10 GB. Le dimensioni del set di dati sono invece limitate dalle dimensioni della capacità di Power BI Premium. Questo comportamento è simile a quello di Azure Analysis Services in termini di limitazioni delle dimensioni del modello. Per altre informazioni sulle dimensioni della capacità di Power BI Premium, vedere Nodi di capacità. È possibile configurare modelli di grandi dimensioni per tutti gli SKU Premium P ed Embedded A, ma funzionano solo con le [nuove aree di lavoro](service-create-the-new-workspaces.md).
+I set di dati di Power BI possono archiviare i dati in una cache in memoria altamente compressa per ottimizzare le prestazioni delle query e offrire un'interattività utente rapida in set di dati di grandi dimensioni. La funzionalità dei modelli di grandi dimensioni consente di aumentare le dimensioni dei set di dati di Power BI Premium oltre 10 GB. La dimensione del set di dati è invece limitata dalle dimensioni della capacità di Power BI Premium, un funzionamento simile a quello di Azure Analysis Services in termini di limitazioni delle dimensioni del modello. Per altre informazioni sulle dimensioni della capacità di Power BI Premium, vedere Nodi di capacità. È possibile configurare modelli di grandi dimensioni per tutti gli SKU Premium P ed Embedded A, ma funzionano solo con le [nuove aree di lavoro](service-create-the-new-workspaces.md).
 
 I modelli di grandi dimensioni non influiscono sulle dimensioni di caricamento dei file PBIX, che sono ancora limitate a 10 GB. Al contrario, le dimensioni dei set di dati aumentano oltre 10 GB nel servizio dopo l'aggiornamento. È possibile usare l'aggiornamento incrementale per configurare l'aumento delle dimensioni dei set di dati oltre 10 GB.
 
@@ -110,7 +110,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>Limitazioni correnti della funzionalità
+## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
 Quando si usano modelli di grandi dimensioni, tenere presenti le restrizioni seguenti:
 
@@ -118,4 +118,46 @@ Quando si usano modelli di grandi dimensioni, tenere presenti le restrizioni seg
 - **Supporto Multi-Geo**: i set di dati abilitati per File Premium e anche per [Multi-Geo](service-admin-premium-multi-geo.md) genereranno errori di capacità.
 
 - **Download in Power BI Desktop**: se un set di dati viene archiviato in File Premium, il [download come file con estensione pbix](service-export-to-pbix.md) avrà esito negativo.
-- **Aree supportate**: I modelli di grandi dimensioni sono supportati in tutte le aree di Azure che supportano l'archiviazione file Premium. Per altre informazioni, vedere [Prodotti disponibili in base all'area geografica](https://azure.microsoft.com/global-infrastructure/services/?products=storage).
+- **Aree supportate**: I modelli di grandi dimensioni sono supportati in tutte le aree di Azure che supportano l'archiviazione file Premium. Per altre informazioni, vedere [Prodotti disponibili in base all'area](https://azure.microsoft.com/global-infrastructure/services/?products=storage) e consultare la tabella nella sezione seguente.
+
+
+## <a name="availability-in-regions"></a>Disponibilità nelle aree
+
+I modelli di grandi dimensioni non sono disponibili in tutte le aree in cui è disponibile Power BI. I modelli di grandi dimensioni in Power BI sono disponibili solo nelle aree di Azure che supportano l'[archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+
+L'elenco seguente indica le aree in cui sono disponibili modelli di grandi dimensioni in Power BI. Le aree non presenti nell'elenco seguente non sono supportate per i modelli di grandi dimensioni:
+
+
+|Area di Azure  |Abbreviazione dell'area di Azure  |
+|---------|---------|
+|Australia orientale     | australiaeast        |
+|Australia sud-orientale     | australiasoutheast        |
+|Stati Uniti centrali     | centralus        |
+|Asia orientale     | eastasia        |
+|Stati Uniti orientali     | eastus        |
+|Stati Uniti orientali 2     | eastus2        |
+|Giappone orientale     | japaneast        |
+|Giappone occidentale     | japanwest        |
+|Corea centrale     | koreacentral        |
+|Corea meridionale     | koreasouth        |
+|Stati Uniti centro-settentrionali     | northcentralus        |
+|Europa settentrionale     | northeurope        |
+|Stati Uniti centro-meridionali     | southcentralus        |
+|Asia sud-orientale     | southeastasia        |
+|Regno Unito meridionale     | uksouth        |
+|Regno Unito occidentale     | ukwest        |
+|Europa occidentale     | westeurope        |
+|Stati Uniti occidentali     | westus        |
+|Stati Uniti occidentali 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>Passaggi successivi
+
+I collegamenti seguenti offrono informazioni che possono essere utili per l'uso di modelli di grandi dimensioni:
+
+* [Archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Configurare il supporto Multi-Geo per Power BI Premium](service-admin-premium-multi-geo.md)
+* [Usare chiavi di crittografia personalizzate per Power BI](service-encryption-byok.md)
+* [Come funzionano le capacità](service-premium-what-is.md#how-capacities-function)
+* [Aggiornamento incrementale](service-premium-incremental-refresh.md).

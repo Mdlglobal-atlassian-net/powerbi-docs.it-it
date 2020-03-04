@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154280"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576829"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelle nei report e nei dashboard di Power BI
 
@@ -175,7 +175,10 @@ A volte Power BI tronca un'intestazione di colonna in un report o un dashboard. 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
-Quando si applica la formattazione di colonna, è possibile scegliere una sola opzione di allineamento per colonna: **Automatico**, **A sinistra**, **Al centro**, **A destra**. In genere, una colonna contiene solo testo o solo numeri e non una combinazione di testo e numeri. Se una colonna contiene numeri e testo, l'opzione **Automatico** allinea il testo a sinistra e i numeri a destra. Questo comportamento supporta le lingue con lettura da sinistra a destra.
+* Quando si applica la formattazione di colonna, è possibile scegliere una sola opzione di allineamento per colonna: **Automatico**, **A sinistra**, **Al centro**, **A destra**. In genere, una colonna contiene solo testo o solo numeri e non una combinazione di testo e numeri. Se una colonna contiene numeri e testo, l'opzione **Automatico** allinea il testo a sinistra e i numeri a destra. Questo comportamento supporta le lingue con lettura da sinistra a destra.
+
+* Se i dati di testo nelle celle o nelle intestazioni della tabella contengono caratteri di nuova riga, questi caratteri vengono ignorati a meno che si selezioni l'opzione "Ritorno a capo automatico" nella scheda del riquadro di formattazione associato all'elemento. 
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 

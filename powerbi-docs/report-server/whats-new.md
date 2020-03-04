@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026716"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782440"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -165,6 +165,10 @@ Impostare i valori di intestazione per tutti gli URL che corrispondono al modell
 #### <a name="transparent-database-encryption"></a>Crittografia trasparente del database
 
 Server di report di Power BI supporta ora Transparent Data Encryption per il database del catalogo di Server di report di Power BI per le edizioni Enterprise e Standard.
+
+#### <a name="power-bi-visuals-api"></a>API per gli oggetti visivi di Power BI
+
+La versione dell'API disponibile in questa versione è 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>Aggiornamento di Generatore report Microsoft
 
@@ -446,34 +450,34 @@ La versione di marzo 2018 presenta molte nuove funzionalità aggiunte alla versi
 
 Nel lungo elenco di nuove funzionalità emergono quelle riportate di seguito, particolarmente interessanti.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Formattazione condizionale basata su regole per oggetti visivi tabella e matrice](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Formattazione condizionale basata su regole per oggetti visivi tabella e matrice](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Permette di creare regole per applicare colore in modo condizionale allo sfondo o al carattere di una colonna in base a una specifica logica di business in una tabella o matrice.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Mostrare e nascondere pagine](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Mostrare e nascondere pagine](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 Talvolta si desidera che i lettori accedano al report, ma alcune delle pagine non sono ancora finite; ora è possibile nasconderle fino a quando non saranno pronte. In alternativa, è possibile nascondere le pagine dalla consultazione normale e i lettori potranno accedere alla pagina tramite segnalibri o drill-through.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Aggiunta di segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Aggiunta di segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Per quanto riguarda i segnalibri, è possibile creare segnalibri in modo da fare una sintesi con i dati del report.
 
 - [Evidenziazione incrociata per i segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): i segnalibri gestiscono e visualizzano lo stato di evidenziazione incrociata della pagina del report nel momento in cui è stato creato il segnalibro.
 - [Più flessibilità nei segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): i segnalibri riflettono le proprietà impostate nel report e influiscono solo sugli oggetti visivi scelti.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Selezione multipla di punti dati in più grafici](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Selezione multipla di punti dati in più grafici](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Selezionare più punti dati in più grafici e applicare il filtro incrociato all'intera pagina.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Sincronizzazione dei filtri dei dati tra più pagine di un report](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Sincronizzazione dei filtri dei dati tra più pagine di un report](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 È possibile applicare un filtro dei dati a una, due o più pagine in un report.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Misure rapide](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Misure rapide](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Creare nuove misure basate su misure e colonne numeriche esistenti in una tabella.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Drill-down di filtri su altri oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Drill-down di filtri su altri oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 Quando si esegue il drill-down in una categoria specificata in un oggetto visivo, è possibile che filtri tutti gli oggetti visivi nella pagina in base alla stessa categoria.
 

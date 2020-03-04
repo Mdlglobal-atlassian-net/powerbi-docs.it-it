@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537911"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576777"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
 
@@ -49,13 +49,13 @@ Evidenzia quando vi sono modifiche significative nelle tendenze in una serie tem
 
 ![Esempio di punti di modifica nella serie temporale](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>Correlation
+### <a name="correlation"></a>Correlazione
 Rileva i casi in cui più misure mostrano un modello o una tendenza simile quando vengono tracciati in base a una categoria o a un valore nel set di dati.
 
 ![Esempio di correlazione](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Varianza bassa
-Consente di rilevare i casi in cui i punti dati non sono distanti dalla media.
+Rileva i casi in cui i punti dati per una dimensione non sono distanti dalla media, quindi la "varianza" è bassa. Supponiamo di avere la misura "Sales" e una dimensione "Region". Osservando l'area si può notare che la differenza tra i punti dati e la media (dei punti dati) è minima. Le informazioni dettagliate vengono attivate quando la varianza delle vendite in tutte le aree è inferiore a una soglia, vale a dire quando le vendite sono pressoché simili in tutte le aree.
 
 ![Esempio di varianza bassa](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Trova modelli periodici nei dati della serie temporale, ad esempio stagionalità
 ![Esempio di stagionalità](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Condivisione stabile
-Evidenzia i casi in cui è presente una correlazione padre-figlio tra la condivisione di un valore figlio in relazione al valore complessivo dell'elemento padre in una variabile continua.
+Evidenzia i casi in cui è presente una correlazione padre-figlio tra la condivisione di un valore figlio in relazione al valore complessivo dell'elemento padre in una variabile continua. Le informazioni dettagliate della quota stazionaria vengono applicate al contesto di una misura, una dimensione e un'altra dimensione di data/ora. Queste informazioni vengono attivate quando un particolare valore della dimensione, ad esempio "the northeast region", ha una percentuale costante di vendite complessive in tale dimensione di data/ora.
+
+Le informazioni dettagliate della quota stazionaria simili a quelle della varianza bassa perché entrambe si riferiscono alla mancanza di varianza di un valore nel tempo. I dettagli della quota stazionaria misurano però la mancanza di varianza della **percentuale complessiva** nel tempo, mentre i dettagli della varianza bassa misurano la mancanza di varianza dei valori di misura assoluti in una dimensione.
 
 ![Esempio di condivisione stabile](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

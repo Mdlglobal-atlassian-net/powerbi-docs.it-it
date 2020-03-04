@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429350"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576858"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Connessione a Snowflake nel servizio Power BI
 
@@ -49,7 +49,7 @@ A causa della modalità di funzionamento di Power BI, l'accesso SSO è possibile
 
 * Se nel modello di dati si usa solo un'origine Snowflake, è possibile usare SSO se si sceglie di non usare il gateway dati locale
 * Se si usa un'origine Snowflake insieme a un'altra origine, è possibile usare SSO se nessuna delle origini usa il gateway dati locale
-* Se si usa un'origine Snowflake tramite il gateway dati locale, è possibile usare le credenziali AAD, ma non SSO. Questo può essere importante nel caso in cui si stia tentando di accedere a una rete virtuale da un singolo IP con il gateway installato, anziché dall'intero intervallo IP di Power BI.
+* Se si usa un'origine Snowflake tramite il gateway dati locale, le credenziali AAD non sono attualmente supportate. Questo può essere importante nel caso in cui si stia tentando di accedere a una rete virtuale da un singolo IP con il gateway installato, anziché dall'intero intervallo IP di Power BI.
 * Se si usa un'origine Snowflake insieme a un'altra origine che richiede un gateway, anche in questo caso sarà necessario usare Snowflake tramite il gateway dati locale e non sarà possibile usare SSO.
 
 Per altre informazioni su come usare il gateway dati locale, vedere l'articolo [Informazioni sul gateway dati locale](https://docs.microsoft.com/power-bi/service-gateway-onprem).

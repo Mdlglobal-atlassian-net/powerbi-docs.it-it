@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221276"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609803"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Usare Informazioni dettagliate sull'intelligenza artificiale in Power BI Desktop (anteprima)
 
@@ -153,7 +153,7 @@ Numerose organizzazioni usano modelli di **Machine Learning** per ottenere infor
 
 Per usare questa funzionalità, un data scientist può semplicemente concedere all'analista di Power BI l'accesso al modello di Azure Machine Learning usando il portale di Azure. Quindi, all'inizio di ogni sessione, Power Query individua tutti i modelli di Azure Machine Learning a cui l'utente ha accesso e li espone come funzioni dinamiche di Power Query. L'utente può quindi richiamare queste funzioni accedendovi dalla barra multifunzione dell'editor di Power Query o richiamando direttamente la funzione M. Power BI inoltre invia in batch automaticamente le richieste di accesso quando richiama il modello di Azure Machine Learning per un set di righe, al fine di ottenere prestazioni migliori.
 
-Questa funzionalità è attualmente supportata solo per i flussi di dati di Power BI e per Power Query Online nel servizio Power BI.
+Questa funzionalità è supportata nei flussi di dati di Power BI Desktop e Power BI e per Power Query Online nel servizio Power BI.
 
 Per altre informazioni sui flussi di dati, vedere [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md).
 

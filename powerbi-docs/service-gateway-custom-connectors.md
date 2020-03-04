@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699464"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609875"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Usare i connettori dati personalizzati con il gateway dati locale
 
@@ -46,6 +46,7 @@ Quando questa opzione è abilitata, i connettori personalizzati vengono visualiz
 
 * Assicurarsi che la cartella creata sia accessibile per il servizio gateway in background. In genere, le cartelle nella cartella di Windows o le cartelle di sistema dell'utente non saranno accessibili. L'app del gateway dati locale visualizza un messaggio se la cartella non è accessibile. Ciò non si applica al gateway dati locale (modalità personale).
 * Affinché i connettori personalizzati possano interagire con il gateway dati locale, è necessario implementare una sezione "TestConnection" nel codice del connettore personalizzato. Questa sezione non è necessaria quando si usano connettori personalizzati con Power BI Desktop. Per questo motivo, è possibile avere un connettore che funziona con Power BI Desktop ma non con il gateway. Per altre informazioni su come implementare una sezione TestConnection, vedere [questa documentazione](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
+* OAuth per i connettori personalizzati tramite gateway è attualmente supportato solo per gli amministratori del gateway ma non per altri utenti dell'origine dati.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154407"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576834"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creare oggetti visivi Matrice in Power BI
 
@@ -218,6 +218,10 @@ Per applicare la formattazione condizionale, selezionare l'oggetto visivo Matric
 Selezionare *Controlli avanzati* per visualizzare una finestra di dialogo che consente di apportare modifiche. Questo esempio mostra la finestra di dialogo per **Barre dei dati**.
 
 ![riquadro Barre dei dati](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+
+* Se i dati di testo nelle celle o nelle intestazioni della matrice contengono caratteri di nuova riga, questi caratteri vengono ignorati a meno che si selezioni l'opzione "Ritorno a capo automatico" nella scheda del riquadro di formattazione associato all'elemento. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 1/16/2020
+ms.date: 2/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: afc14e4d1ebd1e68045c2aa38a43e9d7cbc0f1c1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76537555"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576716"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 
@@ -50,8 +50,9 @@ E questo è tutto. È possibile scaricare il file e aprirlo con qualsiasi visual
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Quando si usa la funzionalità **Esporta in PDF** è necessario tenere presenti alcune considerazioni e limitazioni.
 
-* Gli oggetti visivi R non sono attualmente supportati. Nel file PDF questi oggetti visivi sono vuoti e visualizzano un messaggio di errore. 
-* Gli oggetti visivi personalizzati che sono stati certificati sono supportati. Per altre informazioni sugli oggetti visivi personalizzati certificati, tra cui come certificare un oggetto visivo personalizzato, vedere [Ottenere la certificazione di un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md). Gli oggetti visivi personalizzati non certificati non sono supportati. Nel file PDF vengono visualizzati con un messaggio di errore. 
+* Gli oggetti visivi R e Python non sono attualmente supportati. Nel file PDF questi oggetti visivi sono vuoti e visualizzano un messaggio di errore. 
+* Gli oggetti visivi personalizzati che sono stati certificati sono supportati. Per altre informazioni sugli oggetti visivi personalizzati certificati, tra cui come certificare un oggetto visivo personalizzato, vedere [Ottenere la certificazione di un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md). Gli oggetti visivi personalizzati non certificati non sono supportati. Nel file PDF vengono visualizzati con un messaggio di errore.
+* L'oggetto visivo ESRI non è supportato.
 * I report con più di 30 pagine non possono attualmente essere esportati.
 * Il completamento del processo di esportazione del report in PDF può richiedere alcuni minuti. I fattori che possono influire sul tempo necessario includono la struttura del report e il carico corrente del servizio Power BI.
 * Se la voce di menu **Esporta in PDF** non è disponibile nel servizio Power BI, con molta probabilità l'amministratore tenant ha disabilitato questa funzionalità. Per informazioni dettagliate, contattare l'amministratore tenant.

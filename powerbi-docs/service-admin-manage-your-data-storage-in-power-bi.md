@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: f5bf1b55c2e092dc755da9f391c83ce3c42661b2
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709875"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652520"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gestire l'archiviazione dei dati nelle aree di lavoro di Power BI
 
@@ -28,8 +28,8 @@ I limiti di archiviazione, sia l'area di lavoro personale sia per quella relativ
 ### <a name="shared-capacity-limits"></a>Limiti della capacità condivisa
 Per le aree di lavoro con capacità condivisa: 
 
-- È previsto un limite di archiviazione per area di lavoro di 10 GB.
-- Per le aree di lavoro relative alle app, l'utilizzo totale non può superare 10 GB, moltiplicati per il numero di licenze Pro nel tenant.
+- È previsto un limite di archiviazione per area di lavoro di 100 GB.
+- Per le aree di lavoro delle app, l'utilizzo totale non può superare il limite di archiviazione del tenant di 10 GB moltiplicato per il numero di licenze Pro nel tenant.
 
 ### <a name="premium-capacity-limits"></a>Limiti della capacità Premium
 Per le aree di lavoro con capacità Premium:
