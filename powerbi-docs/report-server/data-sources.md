@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540591"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237524"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -30,18 +30,18 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 
 | **Origine dati** | **Dati memorizzati nella cache** | **Aggiornamento pianificato** | **Dinamico/DirectQuery** |
 | --- | --- | --- | --- |
-| Database SQL Server |Sì |Sì |Sì |
+| Database di SQL Server |Sì |Sì |Sì |
 | SQL Server Analysis Services |Sì |Sì |Sì |
-| database SQL di Azure |Sì |Sì |Sì |
+| Database SQL di Azure |Sì |Sì |Sì |
 | Azure SQL Data Warehouse |Sì |Sì |Sì |
 | Excel |Sì |Sì |No |
 | Database di Access |Sì |Sì |No |
 | Active Directory |Sì |Sì |No |
 | Amazon Redshift |Sì |No |No |
 | Archiviazione BLOB di Azure |Sì |Sì |No |
-| Archivio Azure Data Lake |Sì |No |No |
+| Azure Data Lake Store |Sì |No |No |
 | Azure HDInsight (HDFS) |Sì |No |No |
-| Azure HDInsight (Spark) |Sì |Sì |No |
+| Azure HDInsight (Spark) |Sì |No |No |
 | Archiviazione tabelle di Azure |Sì |Sì |No |
 | Dynamics 365 (online) |Sì |No |No |
 | Facebook |Sì |No |No |
@@ -57,7 +57,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Feed OData |Sì |Sì |No |
 | ODBC |Sì |Sì |No |
 | OLE DB |Sì |Sì |No |
-| Oracle Database |Sì |Sì |Sì |
+| Database Oracle |Sì |Sì |Sì |
 | Database PostgreSQL |Sì |Sì |No |
 | Servizio Power BI |No |No |No |
 | Script R |Sì |No |No |
@@ -118,17 +118,17 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** |
 | --- | --- | --- | --- | --- |
-| Database SQL Server |No |No |Sì |Sì |
+| Database di SQL Server |No |No |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |
 | Web |Sì |No |Sì |Sì |
-| database SQL di Azure |No |No |Sì |No |
+| Database SQL di Azure |No |No |Sì |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |
 | Active Directory |No |No |Sì |Sì |
 | Amazon Redshift |No |No |No |No |
 | Archiviazione BLOB di Azure |Sì |Sì |No |No |
-| Archivio Azure Data Lake |No |No |No |No |
+| Azure Data Lake Store |No |No |No |No |
 | Azure HDInsight (HDFS) |No |No |No |No |
-| Azure HDInsight (Spark) |Sì |Sì |No |No |
+| Azure HDInsight (Spark) |No |No |No |No |
 | Archiviazione tabelle di Azure |No |Sì |No |No |
 | Dynamics 365 (online) |No |No |No |No |
 | Facebook |No |No |No |No |
@@ -143,7 +143,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Feed OData |Sì |Sì |Sì |Sì |
 | ODBC |Sì |No |Sì |Sì |
 | OLE DB |Sì |No |Sì |Sì |
-| Oracle Database |No |No |Sì |Sì |
+| Database Oracle |No |No |Sì |Sì |
 | Database PostgreSQL |No |No |Sì |No |
 | Servizio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
@@ -194,13 +194,13 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 Il server di report di Microsoft Power BI non supporta l'autenticazione basata su OAuth per DirectQuery.
 
-| **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione integrata di Windows** |
+| **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione di Windows integrata** |
 | --- | --- | --- | --- | --- | --- |
-| Database SQL Server |No |No |Sì |Sì |Sì |
+| Database di SQL Server |No |No |Sì |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |Sì |
-| database SQL di Azure |No |No |Sì |No |No |
+| Database SQL di Azure |No |No |Sì |No |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |No |
-| Oracle Database |No |No |Sì |Sì |Sì |
+| Database Oracle |No |No |Sì |Sì |Sì |
 | Server SAP Business Warehouse |No |No |Sì |No |No |
 | Database SAP HANA |No |No |Sì |Sì |Sì** |
 | Teradata |No |No |Sì |Sì |Sì |

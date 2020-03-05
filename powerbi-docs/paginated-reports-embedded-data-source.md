@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/02/2020
+ms.openlocfilehash: 1d7b355987163ede2c70a4052e98ec02522db751
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304317"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237892"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
@@ -53,9 +53,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
   
     -   Digitare la stringa di connessione direttamente nella casella di testo **Stringa di connessione**. 
   
-    -   Selezionare il pulsante espressione (**fx)** per creare un'espressione che restituisca una stringa di connessione. Nella finestra di dialogo **Espressione** digitare l'espressione nel riquadro Espressione. Seleziona **OK**. 
-  
-    -   Selezionare **Compila** per aprire la finestra di dialogo **Proprietà di connessione** relativa all'origine dati scelta nel passaggio 2.  
+     -   Selezionare **Compila** per aprire la finestra di dialogo **Proprietà di connessione** relativa all'origine dati scelta nel passaggio 2.  
   
         Compilare i campi della finestra di dialogo **Proprietà di connessione** in base al tipo di origine dati. Le proprietà di connessione includono il tipo di origine dati, il nome dell'origine dati e le credenziali da usare. Dopo aver specificato i valori richiesti in questa finestra di dialogo, selezionare **Test connessione** per verificare che l'origine dati sia disponibile e che le credenziali specificate siano corrette.  
   

@@ -57,7 +57,7 @@ I [dashboard](end-user-dashboards.md) sono spesso confusi con i report perché s
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
+| Filtro |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |È possibile creare avvisi da ricevere per posta elettronica quando il dashboard soddisfa determinate condizioni |No |
 | Feature |È possibile impostare un dashboard come "in primo piano" |Non permette di creare un report in primo piano |
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati, ma non è possibile vedere i campi e le tabelle del set di dati nel dashboard stesso |Sì. È possibile vedere i campi e le tabelle del set di dati e i valori che si è autorizzati a vedere |
