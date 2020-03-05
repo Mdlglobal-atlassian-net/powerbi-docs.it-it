@@ -50,5 +50,5 @@ Altre informazioni su come [impostare un filtro geografico](../../desktop-mobile
 ### <a name="next-steps"></a>Passaggi successivi
 * [Connettersi ai dati di Power BI dal mondo reale](mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
 * [Categorizzazione dei dati in Power BI Desktop](../../desktop-data-categorization.md) 
-* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

@@ -45,7 +45,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **Auto Insights (Informazioni dettagliate automatiche)** sono ora denominate *Informazioni rapide*.
 
-## <a name="b"></a>b
+## <a name="b"></a>B
 
 **BI, business intelligence**
 

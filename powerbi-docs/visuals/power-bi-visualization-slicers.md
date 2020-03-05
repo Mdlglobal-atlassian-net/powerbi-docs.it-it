@@ -51,9 +51,9 @@ I filtri dei dati di Power BI non supportano:
    
 1. Passare al file **Retail Analysis Sample PBIX.pbix** e quindi selezionare **Apri**.
 
-1. Nel riquadro sinistro selezionare l'icona **Report** ![icona Report](media/power-bi-visualization-kpi/power-bi-report-view.png) per aprire il file in visualizzazione report.
+1. Nel riquadro sinistro selezionare l'icona **Report**![icona Report](media/power-bi-visualization-kpi/power-bi-report-view.png) per aprire il file in visualizzazione report.
 
-1. Nella pagina **Overview**, senza elementi selezionati nell'area di disegno del report, selezionare l'icona **Filtro dei dati** ![icona Filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel riquadro **Visualizzazioni** per creare un nuovo filtro dei dati. 
+1. Nella pagina **Overview**, senza elementi selezionati nell'area di disegno del report, selezionare l'icona **Filtro dei dati**![icona Filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel riquadro **Visualizzazioni** per creare un nuovo filtro dei dati. 
 
 1. Con il nuovo filtro dei dati selezionato, selezionare **District** > **DM** nel riquadro **Campi** per popolare il filtro dei dati. 
 
@@ -163,7 +163,7 @@ Nel report corrente la pagina **District Monthly Sales** contiene un filtro dei 
 ## <a name="format-slicers"></a>Formattare i filtri dei dati
 A seconda del tipo di filtro dei dati sono disponibili diverse opzioni di formattazione. Usando l'orientamento **Orizzontale**, il layout **Reattivo** e la colorazione **Elemento**, è possibile generare pulsanti o riquadri, anziché voci di elenco standard, e ridimensionare gli elementi del filtro dei dati in base a layout e dimensioni dello schermo differenti.  
 
-1. Con il filtro dei dati **District Manager** selezionato in una pagina qualsiasi, nel riquadro **Visualizzazioni** selezionare l'icona **Formatta** ![icona di formattazione](media/power-bi-visualization-slicers/power-bi-paintroller.png) per visualizzare i controlli di formattazione. 
+1. Con il filtro dei dati **District Manager** selezionato in una pagina qualsiasi, nel riquadro **Visualizzazioni** selezionare l'icona **Formatta**![icona di formattazione](media/power-bi-visualization-slicers/power-bi-paintroller.png) per visualizzare i controlli di formattazione. 
     
     ![Selezione di Formatta](media/power-bi-visualization-slicers/3-format.png)
     

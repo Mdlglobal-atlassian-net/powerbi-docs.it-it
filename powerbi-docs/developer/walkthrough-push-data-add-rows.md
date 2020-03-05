@@ -19,7 +19,7 @@ ms.locfileid: "74265164"
 
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
-Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) per aggiungere righe a un set di dati di **PowerBI**. 
+Nel **passaggio 4**[Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di datiè stata usata l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) per aggiungere righe a un set di dati di **PowerBI**. 
 
 Quando si chiama l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), vengono aggiunte righe a un set di dati.
 

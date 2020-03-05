@@ -38,7 +38,7 @@ Se non è visualizzata, verificare che sia stata abilitata nelle impostazioni di
 
 Eseguire il server dell'oggetto visivo con il comando `pbiviz start` nella riga di comando del terminal dalla radice del progetto di oggetto visivo. Se il server non è in esecuzione, è probabile che i certificati SSL non siano stati installati correttamente.
 
-È possibile contattare il team di supporto per gli oggetti visivi di Power BI: *pbicvsupport@microsoft.com* per eventuali domande, commenti o problemi.
+È possibile contattare il team di supporto per gli oggetti visivi di Power BI: *pbicvsupport@microsoft.com*  per eventuali domande, commenti o problemi.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

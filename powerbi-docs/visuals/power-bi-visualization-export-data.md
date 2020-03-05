@@ -196,7 +196,7 @@ I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Pe
 
 ### <a name="set-the-export-options"></a>Impostare le opzioni di esportazione
 
-I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Scegliere tra:
+I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Le scelte disponibili sono:
 
 - Consenti agli utenti finali di esportare i dati di riepilogo dal servizio Power BI o da Server di report di Power BI
 

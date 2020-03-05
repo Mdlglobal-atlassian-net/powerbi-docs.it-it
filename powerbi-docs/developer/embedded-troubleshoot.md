@@ -23,7 +23,7 @@ Questo articolo illustra alcuni problemi comuni che possono verificarsi quando s
 
 ### <a name="fiddler-trace"></a>Traccia di Fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP.  È possibile visualizzare il traffico con le API Power BI dal computer client. Questo strumento potrebbe visualizzare errori e altre informazioni correlate.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che consente di monitorare il traffico HTTP.  È possibile visualizzare il traffico con le API Power BI dal computer client. Questo strumento potrebbe visualizzare errori e altre informazioni correlate.
 
 ![Traccia di Fiddler](media/embedded-troubleshoot/fiddler.png)
 

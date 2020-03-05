@@ -43,11 +43,11 @@ Altre informazioni sui [movimenti della mano in Microsoft per la realtà mista](
 
 **Aggiungere un elemento** 
 
-Puntare l'indice sull'icona **Aggiungi** ![icona Aggiungi](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) per aggiungere un dashboard o report dalla visualizzazione classica di Windows alla visualizzazione olografica. È possibile aggiungere diversi elementi alla visualizzazione olografica. 
+Puntare l'indice sull'icona **Aggiungi**![icona Aggiungi](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) per aggiungere un dashboard o report dalla visualizzazione classica di Windows alla visualizzazione olografica. È possibile aggiungere diversi elementi alla visualizzazione olografica. 
 
 **Passare alla visualizzazione olografica**
 
-Dopo aver aggiunto gli elementi nella visualizzazione classica di Windows, puntare l'indice sull'icona **Schermo intero** ![icona Schermo intero](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) per passare alla visualizzazione olografica. 
+Dopo aver aggiunto gli elementi nella visualizzazione classica di Windows, puntare l'indice sull'icona **Schermo intero**![icona Schermo intero](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) per passare alla visualizzazione olografica. 
 
 
 ## <a name="holographic-view-basics"></a>Informazioni di base sulla visualizzazione olografica

@@ -1,5 +1,5 @@
 ---
-title: Esplorare i report nelle app per dispositivi mobili di Power BI
+title: Esplorare i report nelle app Power BI per dispositivi mobili
 description: Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop e quindi interagire con essi nelle app per dispositivi mobili.
 author: paulinbar
 ms.reviewer: ''
@@ -15,7 +15,7 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 01/23/2020
 ms.locfileid: "76538129"
 ---
-# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app per dispositivi mobili di Power BI
+# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telefono Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tablet Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivi Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
@@ -116,7 +116,7 @@ Quando si tocca il pulsante **Altre opzioni** (...) nel piè di pagina del repor
 ![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 È possibile che alcune azioni siano disabilitate perché dipendono dalle funzionalità specifiche del report.
-Ad esempio:
+ad esempio:
 
 **Segnalibri** è presente solo se nel report sono stati impostati [segnalibri](mobile-reports-in-the-mobile-apps.md#bookmarks). Vengono visualizzati sia i segnalibri personali che è possibile definire nel servizio Power BI che i segnalibri definiti dall'autore del report. Se uno dei segnalibri è stato definito come segnalibro predefinito, il report viene aperto su tale vista quando viene caricato.
 
@@ -154,5 +154,5 @@ Per informazioni su come modificare queste impostazioni, vedere le [impostazioni
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)
 * [Creare una versione di un report ottimizzata per i telefoni](../../desktop-create-phone-report.md)
-* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

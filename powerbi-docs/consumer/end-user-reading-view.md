@@ -152,7 +152,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>Eseguire lo zoom avanti su singoli oggetti visivi
-Passare il puntatore del mouse sull'oggetto visivo e selezionare l'icona **Modalità messa a fuoco** ![](media/end-user-reading-view/pbi_popouticon.jpg). Quando si espande in Modalità messa a fuoco, la visualizzazione riempie tutta l'area di disegno del report, come illustrato di seguito.
+Passare il puntatore del mouse sull'oggetto visivo e selezionare l'icona **Modalità messa a fuoco**![](media/end-user-reading-view/pbi_popouticon.jpg). Quando si espande in Modalità messa a fuoco, la visualizzazione riempie tutta l'area di disegno del report, come illustrato di seguito.
 
 ![modalità messa a fuoco](media/end-user-reading-view/power-bi-full-screen-before.png)
 

@@ -42,7 +42,7 @@ Per la prima impostazione nel *filtro dei dati per la data relativa* sono dispon
 
 * Ultimi
 
-* Argomento successivo
+* Avanti
 
 * This
 
@@ -60,7 +60,7 @@ La terza impostazione consente di selezionare l'unità di misura relativa alla d
 
 * Settimane (calendario)
 
-* Mesi
+* Months
 
 * Mesi (calendario)
 

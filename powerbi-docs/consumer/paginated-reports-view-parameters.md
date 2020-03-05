@@ -27,9 +27,9 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
   
 1.  **Riquadro parametri**: nella barra degli strumenti del Visualizzatore di report viene visualizzato un prompt come "Obbligatorio" o un valore predefinito per ogni parametro.    
   
-2.  **Parametri Invoices From Date / To Date (Fatture dalla data / alla data)**: a questi due parametri di dati sono associati valori predefiniti. Per modificare la data, digitare una data nella casella di testo oppure scegliere una data nel calendario.  
+2.  **Parametri Invoices From Date / To Date (Fatture dalla data / alla data)** : a questi due parametri di dati sono associati valori predefiniti. Per modificare la data, digitare una data nella casella di testo oppure scegliere una data nel calendario.  
   
-3.  **Parametro Location (Località)**: questo parametro è impostato in modo da consentire la selezione di uno, più o tutti i valori. 
+3.  **Parametro Location (Località)** : questo parametro è impostato in modo da consentire la selezione di uno, più o tutti i valori. 
   
 4.  **Visualizza report**: dopo avere immesso o modificato i valori dei parametri, fare clic su **Visualizza report** per eseguire il report. 
 

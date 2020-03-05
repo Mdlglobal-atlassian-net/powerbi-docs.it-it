@@ -86,7 +86,7 @@ Usare lo stesso istogramma a colonne raggruppate selezionato ed espandere le opz
 
 1. Selezionare l'elenco a discesa e scegliere un colore grigio.
 
-1. Impostare **Trasparenza** su **74%**.
+1. Impostare **Trasparenza** su **74%** .
 
 A questo punto dell'esercitazione lo sfondo dell'istogramma a colonne raggruppate sarà simile al seguente:
 

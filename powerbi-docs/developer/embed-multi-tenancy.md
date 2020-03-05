@@ -36,17 +36,17 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **Tenant** - Singolo cliente (organizzazione) che usa l'applicazione SaaS ed eventuali risorse o dati inseriti dal cliente nell'applicazione SaaS.
 
-**[Power BI](../fundamentals/power-bi-overview.md)**  - Servizio cloud di Power BI che funge da piattaforma per Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)** - Servizio cloud di Power BI che funge da piattaforma per Power BI Embedded.
 
 **Tenant di Power BI** - Set di risorse di Power BI associato a un singolo tenant AAD.
 
-**[Area di lavoro di Power BI](../service-create-workspaces.md)**  - Contenitore per il contenuto in Power BI.
+**[Area di lavoro di Power BI](../service-create-workspaces.md)** - Contenitore per il contenuto in Power BI.
 
 **Artefatti di Power BI** - Esistono diversi artefatti di Power BI nelle aree di lavoro di Power BI, ad esempio dashboard, report, set di dati e flussi di dati.
 
-**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)**  - Set di API pubbliche che consentono agli sviluppatori di creare applicazioni per gestire il contenuto di Power BI e incorporare gli elementi di Power BI.
+**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** - Set di API pubbliche che consentono agli sviluppatori di creare applicazioni per gestire il contenuto di Power BI e incorporare gli elementi di Power BI.
 
-**[Sicurezza a livello di riga](embedded-row-level-security.md)**  - Offre la possibilità di controllare l'accesso utente ai dati per le singole righe in una tabella. È possibile implementare la sicurezza a livello di riga a livello di origine dati o nel modello semantico di Power BI.
+**[Sicurezza a livello di riga](embedded-row-level-security.md)** - Offre la possibilità di controllare l'accesso utente ai dati per le singole righe in una tabella. È possibile implementare la sicurezza a livello di riga a livello di origine dati o nel modello semantico di Power BI.
 
 **Utente master** - Identità che rappresenta l'applicazione SaaS di Power BI e usata dall'applicazione SaaS per le chiamate alle API di Power BI. Deve essere un utente AAD con una licenza di Power BI Pro.
 
@@ -56,7 +56,7 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **[Licenza di Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licenza per utente che concede i diritti per pubblicare contenuti nelle aree di lavoro, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report.
 
-**[Modalità di connettività dati](../desktop-directquery-about.md)**  - Connessione a origini dati in Power BI che può essere stabilita in modalità diverse:
+**[Modalità di connettività dati](../desktop-directquery-about.md)** - Connessione a origini dati in Power BI che può essere stabilita in modalità diverse:
 
    * Importazione, ovvero il modo più comune per ottenere i dati.
    * DirectQuery, per la connessione diretta ai dati nel relativo repository di origine.

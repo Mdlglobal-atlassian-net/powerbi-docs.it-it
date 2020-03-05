@@ -67,9 +67,9 @@ Per supportare la gestione delle capacità con più aree geografiche tramite API
 
 1. **[Get Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** -L'API restituisce un elenco di capacità con accesso all'utente. La risposta include ora una proprietà aggiuntiva denominata 'region', che specifica la località della capacità.
 
-2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)**  -L'API consente l'assegnazione di un'area di lavoro a una capacità. Questa operazione non consente di assegnare le aree di lavoro a una capacità all'esterno dell'area iniziale o di spostare aree di lavoro tra le capacità in aree diverse. Per eseguire questa operazione, l'utente o l'[entità servizio](embed-service-principal.md) necessita ancora delle autorizzazioni di amministratore per l'area di lavoro e delle autorizzazioni di amministratore o per l'assegnazione per la capacità di destinazione.
+2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)** -L'API consente l'assegnazione di un'area di lavoro a una capacità. Questa operazione non consente di assegnare le aree di lavoro a una capacità all'esterno dell'area iniziale o di spostare aree di lavoro tra le capacità in aree diverse. Per eseguire questa operazione, l'utente o l'[entità servizio](embed-service-principal.md) necessita ancora delle autorizzazioni di amministratore per l'area di lavoro e delle autorizzazioni di amministratore o per l'assegnazione per la capacità di destinazione.
 
-3. **[API di Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**  - Tutte le operazioni dell'API di Azure Resource Manager, tra cui *Create* e *Delete*, supportano più aree geografiche.
+3. **[API di Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - Tutte le operazioni dell'API di Azure Resource Manager, tra cui *Create* e *Delete*, supportano più aree geografiche.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 

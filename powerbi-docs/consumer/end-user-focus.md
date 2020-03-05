@@ -30,7 +30,7 @@ La modalità schermo intero e la modalità messa a fuoco sono due modi diversi p
 |Dashboard     |   Non consentita     | sì |
 |Pagina del report   | Non consentita  | sì|
 |Oggetto visivo del report | sì    | sì |
-|Riquadro Dashboard | sì    | Non consentita |
+|Riquadro del dashboard | sì    | Non consentita |
 |Windows 10 Mobile | Non consentita | Sì |
 
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero
