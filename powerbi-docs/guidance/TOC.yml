@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Data/ora automatica
               href: auto-date-time.md
-            - name: Linee guida per le relazioni molti-a-molti
+            - name: Relazioni uno a uno
+              href: relationships-one-to-one.md
+            - name: Relazioni molti-a-molti
               href: relationships-many-to-many.md
+            - name: Relazioni attive e inattive
+              href: relationships-active-inactive.md
+            - name: Relazioni bidirezionali
+              href: relationships-bidirectional-filtering.md
+            - name: Risoluzione dei problemi relativi alle relazioni
+              href: relationships-troubleshoot.md
             - name: Linee guida per il modello DirectQuery
               href: directquery-model-guidance.md
             - name: Linee guida per il modello composito

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040344"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290614"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estendere gli oggetti visivi con descrizioni comando per le pagine dei report
 
@@ -88,5 +88,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Creare descrizioni comando basate sulle pagine del report in Power BI Desktop](../desktop-tooltips.md)
 - [Personalizzazione delle descrizioni comando in Power BI Desktop](../desktop-custom-tooltips.md)
 - [Usare gli elementi visivi per migliorare i report di Power BI](../desktop-visual-elements-for-reports.md)
-- Video Guy in a Cube: [Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw) (Come crearne una descrizione comando di una pagina di un report di Power BI in Power BI Desktop)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
