@@ -140,6 +140,8 @@
           items:
             - name: Capacità e SKU per le funzionalità di analisi incorporata di Power BI
               href: embedded-capacity.md
+            - name: Pianificazione della capacità
+              href: embedded-capacity-planning.md
             - name: Procedure consigliate per le prestazioni
               href: embedded-performance-best-practices.md
             - name: Entità servizio
