@@ -1,0 +1,112 @@
+- name: App Power BI per dispositivi mobili
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Cosa sono le app per dispositivi mobili?
+          href: mobile-apps-for-mobile-devices.md
+        - name: Presentazione della home page
+          href: mobile-apps-home-page.md
+    - name: Guide introduttive
+      expanded: true
+      items:
+        - name: Esplorare dashboard e report
+          href: mobile-apps-quickstart-view-dashboard-report.md
+    - name: Esercitazioni
+      expanded: true
+      items:
+        - name: Porre domande nelle app per dispositivi mobili iOS
+          href: tutorial-mobile-apps-ios-qna.md
+    - name: Concetti
+      expanded: true
+      items:
+        - name: Novità delle app per dispositivi mobili
+          href: mobile-whats-new-in-the-mobile-apps.md
+        - name: Ottenere dati concreti con le app per dispositivi mobili
+          href: mobile-apps-data-in-real-world-context.md
+        - name: Visualizzazione dei dati offline nelle app per dispositivi mobili
+          href: mobile-apps-offline-data.md
+        - name: App Power BI per realtà mista (anteprima)
+          href: mobile-mixed-reality-app.md
+    - name: Procedura
+      items:
+        - name: Tutte le app per dispositivi mobili
+          items:
+            - name: Dashboard di Power BI per dispositivi mobili
+              href: mobile-apps-view-dashboard.md
+            - name: Report nelle app per dispositivi mobili
+              href: mobile-reports-in-the-mobile-apps.md
+            - name: Interagire con i riquadri nelle app per dispositivi mobili
+              href: mobile-tiles-in-the-mobile-apps.md
+            - name: Condividere un dashboard dall'app Power BI per dispositivi mobili
+              href: mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Preferiti nelle app per dispositivi mobili
+              href: mobile-apps-favorites.md
+            - name: Configurare le impostazioni di interazione (solo telefono)
+              href: mobile-app-interaction-settings.md
+            - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
+              href: mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
+              href: mobile-apps-notification-center.md
+            - name: Creare un collegamento diretto che indirizzi a una posizione specifica
+              href: mobile-apps-deep-link-specific-location.md
+            - name: Filtrare un report in base alla posizione geografica nelle app per dispositivi mobili di Power BI
+              href: mobile-apps-geographic-filtering.md
+            - name: Uso di OAuth per connettersi a Reporting Services
+              href: mobile-oauth-ssrs.md
+        - name: iOS e Android
+          items:
+            - name: Visualizzare i report ottimizzati per il proprio telefono
+              href: mobile-apps-view-phone-report.md
+            - name: Visualizzare report locali nelle app per dispositivi mobili
+              href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Accedere al contenuto da un'organizzazione esterna (B2B)
+              href: mobile-apps-b2b.md
+            - name: Scansionare un codice a matrice di Power BI dal telefono
+              href: mobile-apps-qr-code.md
+            - name: Annotare e condividere nelle app per dispositivi mobili
+              href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: Effettuare la scansione di un codice a barre dall'app Power BI per dispositivi mobili
+              href: mobile-apps-scan-barcode-iphone.md
+            - name: Configurazione mediante gestione dei dispositivi mobili
+              href: mobile-app-configuration.md
+        - name: iOS
+          items:
+            - name: Introduzione all'app iOS
+              href: mobile-iphone-app-get-started.md
+            - name: 'Proteggere con Face ID, Touch ID o Passcode'
+              href: mobile-ios-native-secure-access.md
+            - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
+              href: mobile-apps-ios-qna.md
+            - name: Integrazione dell'App Power BI per dispositivi mobili con tasti di scelta rapida Siri
+              href: mobile-apps-iOS-siri-Shortcuts.md
+            - name: Integrazione della ricerca di dispositivi iOS
+              href: mobile-apps-iOS-search-integration.md
+            - name: App Power BI per Apple Watch
+              href: mobile-apple-watch.md
+        - name: Dispositivi Android
+          items:
+            - name: Introduzione all'app Android
+              href: mobile-android-app-get-started.md
+            - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Risoluzione dell'errore di aggiornamento di Android System WebView
+              href: mobile-android-error-update-android-system-webview.md
+        - name: App Power BI per dispositivi Windows 10
+          items:
+            - name: Introduzione all'app Windows 10
+              href: mobile-windows-10-phone-app-get-started.md
+            - name: Aggiungere un dashboard alla schermata Start
+              href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services
+              href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Visualizzare Power BI in Surface Hub
+              href: mobile-windows-10-app-presentation-mode.md
+            - name: Single Sign-On nell'app Windows
+              href: mobile-windows-10-app-single-sign-on-sso.md
+    - name: Risorse
+      items:
+        - name: Lingue supportate nelle app per dispositivi mobili
+          href: mobile-apps-supported-languages.md
