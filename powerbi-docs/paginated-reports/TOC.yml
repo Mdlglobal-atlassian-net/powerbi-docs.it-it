@@ -1,0 +1,61 @@
+- name: Report impaginati di Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Che cosa sono i report impaginati?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Generatore report in Power BI
+          href: report-builder-power-bi.md
+    - name: Esercitazioni
+      expanded: true
+      items:
+        - name: 'Esercitazione pratica: Creare un report impaginato'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Creare un report impaginato e caricarlo
+          href: paginated-reports-quickstart-aw.md
+    - name: Concetti
+      expanded: true
+      items:
+        - name: Presentazione della visualizzazione Progettazione report
+          href: paginated-reports-report-design-view.md
+        - name: Pianificazione di un report
+          href: report-builder-planning-report.md
+        - name: Dati di Generatore report
+          href: report-builder-data.md
+        - name: Origini dati supportate
+          href: paginated-reports-data-sources.md
+        - name: Suggerimenti relativi alla progettazione
+          href: report-builder-design-tips.md
+        - name: 'Tabelle, matrici, elenchi'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parametri
+          href: report-builder-parameters.md
+        - name: Parametri URL nei report impaginati
+          href: report-builder-url-parameters.md
+        - name: Esempi di espressioni
+          href: report-builder-expression-examples.md
+        - name: Paginazione del report
+          href: paginated-reports-pagination.md
+        - name: Anteprima dei report
+          href: report-builder-previewing-reports.md
+        - name: Domande frequenti sui report impaginati
+          href: paginated-reports-faq.md
+    - name: Procedura
+      items:
+        - name: Immettere i dati direttamente in un report impaginato
+          href: paginated-reports-enter-data.md
+        - name: Creare un'origine dati incorporata
+          href: paginated-reports-embedded-data-source.md
+        - name: Creare un set di dati incorporato
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Creare un report con un set di dati condiviso di Power BI
+          href: report-builder-shared-datasets.md
+        - name: Creare parametri
+          href: paginated-reports-parameters.md
+        - name: Passare un parametro del report in un URL
+          href: report-builder-url-pass-parameters.md
+        - name: Pubblicare un report impaginato
+          href: paginated-reports-save-to-power-bi-service.md
