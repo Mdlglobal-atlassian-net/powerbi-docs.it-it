@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentazione per l'amministrazione di Power BI
-summary: La documentazione per l'amministrazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+title: Documentazione di Power BI per amministratori e aziende
+summary: La documentazione di Power BI per amministratori e aziende offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
 metadata:
-  title: Documentazione per l'amministrazione di Power BI
-  description: La documentazione per l'amministrazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+  title: Documentazione di Power BI per amministratori e aziende
+  description: La documentazione di Power BI per amministratori e aziende offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959515"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919441"
 landingContent:
-- title: Informazioni su Power BI per gli amministratori
+- title: Power BI per amministratori e aziende
   linkLists:
   - linkListType: overview
     links:
@@ -49,9 +49,23 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Dove si trova il tenant?
+    - text: Dove si trova il tenant personale?
       url: ../service-admin-where-is-my-tenant-located.md
-    - text: Trovare utenti che hanno eseguito l'accesso
+    - text: Trovare gli utenti che hanno eseguito l'accesso
+      url: ../service-admin-access-usage.md
+    - text: Controllo di Power BI
+      url: ../service-admin-auditing.md
+    - text: Tenere traccia dell'integrità del servizio
+      url: ../service-admin-health.md
+    - text: Chiusura dell'account Power BI
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Dove si trova il tenant personale?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Trovare gli utenti che hanno eseguito l'accesso
       url: ../service-admin-access-usage.md
     - text: Controllo di Power BI
       url: ../service-admin-auditing.md

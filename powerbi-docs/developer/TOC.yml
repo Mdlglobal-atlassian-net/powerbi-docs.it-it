@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Utilità per gli oggetti visivi di Power BI
               items:
+                - name: Aggiunta di librerie esterne
+                  href: visuals/adding-external-libraries.md
                 - name: Utilità di interattività
                   href: visuals/utils-interactivity-selections.md
                 - name: Utilità per la formattazione
                   href: visuals/utils-formatting.md
+                - name: Utilità per la vista dati
+                  href: visuals/utils-dataview.md
                 - name: Utilità per i grafici
                   href: visuals/utils-chart.md
+                - name: Utilità per i colori
+                  href: visuals/utils-color.md
                 - name: Utilità per SVG
                   href: visuals/utils-svg.md
                 - name: Utilità per i tipi

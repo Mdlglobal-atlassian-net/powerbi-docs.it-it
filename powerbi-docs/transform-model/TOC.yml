@@ -1,0 +1,115 @@
+- name: 'Data shaping, trasformazione e modellazione dei dati in Power BI'
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Panoramica dell'editor di query
+          href: ../desktop-query-overview.md
+        - name: Preparazione dei dati self-service con flussi di dati
+          href: ../service-dataflows-overview.md
+    - name: Esercitazioni
+      expanded: true
+      items:
+        - name: Creare misure personalizzate
+          href: ../desktop-tutorial-create-measures.md
+        - name: Creare colonne calcolate
+          href: ../desktop-tutorial-create-calculated-columns.md
+    - name: Concetti
+      expanded: true
+      items:
+        - name: Creare relazioni per i modelli
+          href: ../desktop-relationships-understand.md
+        - name: Usare la visualizzazione di modellazione
+          href: ../desktop-modeling-view.md
+        - name: Gestisci aggregazioni
+          href: ../desktop-aggregations.md
+        - name: Usare i modelli compositi
+          href: ../desktop-composite-models.md
+        - name: Applicare le relazioni molti-a-molti
+          href: ../desktop-many-to-many-relationships.md
+        - name: Gestire la modalità di archiviazione
+          href: ../desktop-storage-mode.md
+        - name: Abilitare il filtro incrociato bidirezionale
+          href: ../desktop-bidirectional-filtering.md
+        - name: Usare i modelli multidimensionali in Power BI
+          href: ../desktop-default-member-multidimensional-models.md
+    - name: Guide pratiche
+      items:
+        - name: Eseguire attività di query comuni
+          href: ../desktop-common-query-tasks.md
+        - name: Creare e gestire relazioni
+          href: ../desktop-create-and-manage-relationships.md
+        - name: Usare il riquadro Analisi
+          href: ../desktop-analytics-pane.md
+        - name: Usare la vista dati
+          href: ../desktop-data-view.md
+        - name: Applicare i concetti di base di DAX
+          href: ../desktop-quickstart-learn-dax-basics.md
+        - name: Usare la visualizzazione delle relazioni
+          href: ../desktop-relationship-view.md
+        - name: Trasformare i dati ed eseguire il data shaping
+          items:
+            - name: Combinare file (binari)
+              href: ../desktop-combine-binaries.md
+            - name: Usare Informazioni dettagliate sull'intelligenza artificiale (anteprima)
+              href: ../desktop-ai-insights.md
+        - name: Modellare i dati
+          items:
+            - name: Creare misure rapide per calcoli comuni
+              href: ../desktop-quick-measures.md
+            - name: Creare e usare i parametri di simulazione per visualizzare le variabili
+              href: ../desktop-what-if.md
+            - name: Specificare le categorie di dati in Power BI Desktop
+              href: ../desktop-data-categorization.md
+            - name: Contrassegnare i campi di codice a barre nell'app Power BI per dispositivi mobili
+              href: ../desktop-mobile-barcodes.md
+            - name: Impostare filtri geografici nell'app Power BI per dispositivi mobili
+              href: ../desktop-mobile-geofiltering.md
+            - name: Creare colonne calcolate
+              href: ../desktop-calculated-columns.md
+            - name: Creare tabelle calcolate
+              href: ../desktop-calculated-tables.md
+            - name: Creare misure per l'analisi dei dati
+              href: ../desktop-measures.md
+            - name: Importare e visualizzare gli indicatori KPI
+              href: ../desktop-import-and-display-kpis.md
+        - name: Preparazione dei dati self-service
+          items:
+            - name: Creare e usare flussi di dati
+              href: ../service-dataflows-create-use.md
+            - name: Usare il motore di calcolo avanzato con i flussi di dati
+              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: Entità calcolate con Power BI Premium
+              href: ../service-dataflows-computed-entities-premium.md
+            - name: Connettersi alle origini dati con flussi di dati
+              href: ../service-dataflows-data-sources.md
+            - name: Usare flussi di dati con origini dati locali
+              href: ../service-dataflows-on-premises-gateways.md
+            - name: Collegare entità tra flussi di dati
+              href: ../service-dataflows-linked-entities.md
+            - name: Usare l'aggiornamento incrementale con i flussi di dati
+              href: ../service-dataflows-incremental-refresh.md
+            - name: Risorse per sviluppatori per i flussi di dati
+              href: ../service-dataflows-developer-resources.md
+            - name: Connettersi a flussi di dati in Power BI Desktop
+              href: ../desktop-connect-dataflows.md
+            - name: Integrazione di flussi di dati e Azure Data Lake (anteprima)
+              href: ../service-dataflows-azure-data-lake-integration.md
+            - name: Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati
+              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
+              href: ../service-dataflows-configure-workspace-storage-settings.md
+            - name: Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
+              href: ../service-dataflows-add-cdm-folder.md
+            - name: Integrare Machine Learning in Power BI
+              href: ../service-machine-learning-integration.md
+            - name: Usare Servizi cognitivi in Power BI
+              href: ../service-cognitive-services.md
+            - name: Machine Learning automatizzato in Power BI
+              href: ../service-machine-learning-automated.md
+    - name: Riferimento
+      items:
+        - name: Tasti di scelta rapida per l'Editor formule
+          href: ../desktop-formula-editor.md

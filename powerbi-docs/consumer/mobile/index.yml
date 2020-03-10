@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Documentazione delle app Power BI per dispositivi mobili
+summary: La documentazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+metadata:
+  title: Documentazione delle app Power BI per dispositivi mobili
+  description: La documentazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923909"
+landingContent:
+- title: Informazioni sulle app Power BI per dispositivi mobili
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Cosa sono le app per dispositivi mobili?
+      url: mobile-apps-for-mobile-devices.md
+    - text: Novità delle app per dispositivi mobili
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: Home page delle app per dispositivi mobili
+      url: mobile-apps-home-page.md
+- title: Inizia
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Introduzione per Android
+      url: mobile-android-app-get-started.md
+    - text: Introduzione per iOS
+      url: mobile-iphone-app-get-started.md
+    - text: Introduzione per Windows 10
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: Esplorare dashboard e report
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: Esplora
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Porre domande sui dati
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: Visualizzare i dati offline
+      url: mobile-apps-offline-data.md
+    - text: Condividere un dashboard o un report
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: Impostare gli avvisi per i dati
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: Report locali
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Visualizzare report locali e indicatori KPI
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: Connettersi con OAuth ai report locali
+      url: mobile-oauth-ssrs.md

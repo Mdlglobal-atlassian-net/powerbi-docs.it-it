@@ -1,0 +1,85 @@
+- name: 'Collaborare, condividere e integrare prodotti con Power BI'
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Modalità per la condivisione del lavoro
+          href: ../service-how-to-collaborate-distribute-dashboards-reports.md
+    - name: Concetti
+      expanded: true
+      items:
+        - name: Organizzare il lavoro
+          href: ../service-new-workspaces.md
+        - name: Monitorare l'utilizzo nelle aree di lavoro classiche
+          href: ../service-usage-metrics.md
+        - name: Monitorare l'utilizzo nelle nuove aree di lavoro
+          href: ../service-modern-usage-metrics.md
+    - name: Guide pratiche
+      expanded: true
+      items:
+        - name: Collaborazione in Power BI
+          items:
+            - name: Creare le nuove aree di lavoro
+              href: ../service-create-the-new-workspaces.md
+            - name: Aggiornare le aree di lavoro classiche
+              href: ../designer/service-upgrade-workspaces.md
+            - name: Creare aree di lavoro
+              href: ../service-create-workspaces.md
+            - name: Pubblicare app dalle aree di lavoro
+              href: ../service-create-distribute-apps.md
+            - name: Gestire l'archiviazione dei dati nelle aree di lavoro
+              href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Connettersi ai file nell'OneDrive del gruppo
+              href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
+            - name: Collaborare in un'area di lavoro classica
+              href: ../service-collaborate-power-bi-workspace.md
+            - name: Gestire il gruppo in Power BI e Office 365
+              href: ../service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Pubblicare e condividere il lavoro
+          items:
+            - name: Condividere dashboard e report
+              href: ../service-share-dashboards.md
+            - name: Filtrare e condividere un report
+              href: ../service-share-reports.md
+            - name: Filtrare un report usando parametri nell'URL
+              href: ../service-url-filters.md
+            - name: Abbonarsi e abbonare altri utenti
+              href: ../service-report-subscribe.md
+            - name: Incorporare un report in Microsoft Teams
+              href: ../service-embed-report-microsoft-teams.md
+            - name: Incorporare report in SharePoint Online
+              href: ../service-embed-report-spo.md
+            - name: Incorporare report in un portale o un sito Web sicuro
+              href: ../service-embed-secure.md
+            - name: Pubblicare da Power BI al Web
+              href: ../service-publish-to-web.md
+            - name: Condividere un dashboard che si collega a una cartella di lavoro di Excel in OneDrive
+              href: ../service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Power BI Publisher per Excel
+              href: ../publisher-for-excel.md
+        - name: Estendi Power BI
+          items:
+            - name: Analizza in Excel
+              href: ../service-analyze-in-excel.md
+            - name: Risolvere i problemi di Analizza in Excel
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: Power Automate e Power BI
+              href: ../service-flow-integration.md
+            - name: Usare app di terze parti
+              href: ../service-power-bi-get-started-third-party-apps.md
+        - name: Pacchetti di contenuto aziendali
+          items:
+            - name: Introduzione ai pacchetti di contenuto aziendali
+              href: ../service-organizational-content-pack-introduction.md
+            - name: Creare e pubblicare un pacchetto di contenuto
+              href: ../service-organizational-content-pack-create-and-publish.md
+            - name: 'Copiare, aggiornare e ottenere l''accesso ai pacchetti di contenuto'
+              href: ../service-organizational-content-pack-copy-refresh-access.md
+            - name: 'Gestire, aggiornare ed eliminare pacchetti di contenuto'
+              href: ../service-organizational-content-pack-manage-update-delete.md
+            - name: Rimuovere una connessione a un pacchetto di contenuto
+              href: ../service-organizational-content-pack-disconnect.md

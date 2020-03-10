@@ -1,0 +1,55 @@
+- name: Introduzione a Power BI - Documentazione
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Che cos'è Power BI?
+          href: ../power-bi-overview.md
+        - name: Che cos'è Power BI Desktop?
+          href: ../desktop-what-is-desktop.md
+        - name: Che cos'è il servizio Power BI?
+          href: ../power-bi-service-overview.md
+        - name: Confronto tra Power BI Desktop e il servizio
+          href: ../service-service-vs-desktop.md
+    - name: Concetti
+      items:
+        - name: Novità dell'ultimo aggiornamento di Power BI Desktop
+          href: ../desktop-latest-update.md
+        - name: Novità del servizio Power BI
+          href: ../service-whats-new.md
+        - name: Informazioni sul servizio Power BI
+          href: ../service-basic-concepts.md
+        - name: 10 suggerimenti per chiedere assistenza
+          href: ../service-tips-for-finding-help.md
+        - name: Gestione delle licenze
+          items:
+            - name: Iscriversi a Power BI
+              href: ../service-self-service-signup-for-power-bi.md
+            - name: Funzionalità in base al tipo di licenza
+              href: ../service-features-license-type.md
+    - name: Guide pratiche
+      items:
+        - name: Scarica Power BI Desktop
+          href: ../desktop-get-the-desktop.md
+        - name: Introduzione a Power BI Desktop
+          href: ../desktop-getting-started.md
+    - name: Riferimento
+      items:
+        - name: Lingue e paesi/aree geografiche supportate
+          href: ../supported-languages-countries-regions.md
+        - name: Browser supportati
+          href: ../power-bi-browsers.md
+    - name: Risorse
+      items:
+        - name: Video
+          href: ../videos.md
+        - name: Webinar
+          href: ../webinars.md
+        - name: Video su Power BI Desktop
+          href: ../desktop-videos.md
+        - name: Archivio degli aggiornamenti di Power BI Desktop
+          href: ../desktop-latest-update-archive.md
+        - name: Informativa sulla privacy Invia smile di Power BI Desktop
+          href: ../desktop-send-smile-privacy-statement.md

@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Collaborazione, condivisione e integrazione tra prodotti con Power BI - Documentazione
+summary: La documentazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+metadata:
+  title: Collaborazione, condivisione e integrazione tra prodotti con Power BI - Documentazione
+  description: La documentazione di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 4eda6f30d043ac4b1001d6f37ab0dcf6d6ec33b0
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924001"
+landingContent:
+- title: Introduzione alla collaborazione e alla condivisione
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Modalità per la condivisione del lavoro
+      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+  - linkListType: concept
+    links:
+    - text: Confronto tra Power BI Desktop e il servizio Power BI
+      url: ../service-service-vs-desktop.md
+- title: Collaborare con i colleghi
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Introduzione ai set di dati in aree di lavoro diverse
+      url: ../service-datasets-across-workspaces.md
+    - text: Autorizzazioni di compilazione per set di dati condivisi
+      url: ../service-datasets-build-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Organizzare il lavoro in nuove aree di lavoro
+      url: ../service-new-workspaces.md
+- title: Condividere il lavoro
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Pubblicare un'app
+      url: ../service-create-distribute-apps.md
+    - text: Monitorare le metriche di utilizzo
+      url: ../service-modern-usage-metrics.md
+  - linkListType: how-to-guide
+    links:
+    - text: Condividere report e dashboard
+      url: ../service-share-dashboards.md
+    - text: Filtrare e condividere un report
+      url: ../service-share-reports.md
+    - text: Condividere un set di dati
+      url: ../service-datasets-share.md
+- title: Integrazione con altri servizi
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Azure e Power BI
+      url: ../service-azure-and-power-bi.md
+    - text: Analizza in Excel
+      url: ../service-analyze-in-excel.md
+  - linkListType: how-to-guide
+    links:
+    - text: Incorpora in SharePoint Online
+      url: ../service-embed-report-spo.md

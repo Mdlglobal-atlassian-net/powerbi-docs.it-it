@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Documentazione del server di report di Power BI
+summary: La documentazione per il server di report di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+metadata:
+  title: Documentazione del server di report di Power BI
+  description: La documentazione per il server di report di Power BI offre le informazioni degli esperti e le risposte per soddisfare ogni esigenza, indipendentemente da come si usa Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924622"
+landingContent:
+- title: Informazioni sul server di report di Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Che cos'è Server di report di Power BI?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: Confronto tra il server di report e il servizio
+      url: compare-report-server-service.md
+    - text: Novità del Server di report di Power BI
+      url: whats-new.md
+- title: Inizia
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Esplorare Server di report di Power BI in una macchina virtuale
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: Panoramica amministratore
+      url: admin-handbook-overview.md
+    - text: Panoramica per sviluppatori
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Installare Power BI Desktop
+      url: install-powerbi-desktop.md
+    - text: Installare Generatore report
+      url: install-report-builder.md
+- title: Server di report per gli amministratori
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Requisiti hardware e software
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: Installare un server di report
+      url: install-report-server.md
+    - text: Trovare il codice Product Key del server di report
+      url: find-product-key.md
+    - text: Migrazione di un'installazione del server di report
+      url: migrate-report-server.md
+    - text: Configurare Kerberos
+      url: configure-kerberos-powerbi-reports.md
+- title: Server di report per gli autori di report
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Aggiornamento pianificato dei report di Power BI
+      url: scheduled-refresh.md
+    - text: Origini dati dei report di Power BI
+      url: data-sources.md
+    - text: Origini dati dei report impaginati
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Creare un report di Power BI
+      url: quickstart-create-powerbi-report.md
+    - text: Gestire il contenuto nel portale Web
+      url: getting-around.md
+    - text: Accedere ai set di dati condivisi come feed OData
+      url: access-dataset-odata.md
+    - text: Sicurezza a livello di riga
+      url: row-level-security-report-server.md
