@@ -1,4 +1,5 @@
-- name: Server di report Power BI
+- name: Documentazione del server di report di Power BI
+  href: index.yml
   expanded: true
   items:
     - name: Panoramica
