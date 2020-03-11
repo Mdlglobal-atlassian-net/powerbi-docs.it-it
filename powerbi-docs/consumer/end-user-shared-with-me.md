@@ -25,7 +25,7 @@ Quando un collega condivide contenuto con un altro utente tramite il pulsante **
 
 ![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Il video seguente illustra l'elenco dei contenuti **Condivisi con l'utente corrente** e dimostra come accedervi e filtrarlo. Seguire quindi le istruzioni successive per sotto il video per fare una prova in prima persona. Per poter visualizzare i dashboard condivisi con l'utente è necessario disporre di una licenza Power BI Pro. Per informazioni dettagliate, leggere [What is Power BI Premium?](../service-premium-what-is.md) (Che cos'è Power BI Premium?).
+Il video seguente illustra l'elenco dei contenuti **Condivisi con l'utente corrente** e dimostra come accedervi e filtrarlo. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli. Per poter visualizzare i dashboard condivisi con l'utente è necessario disporre di una licenza Power BI Pro. Per informazioni dettagliate, leggere [What is Power BI Premium?](../service-premium-what-is.md) (Che cos'è Power BI Premium?).
     
 
 > [!NOTE]

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576784"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237869"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Pubblicare oggetti visivi di Power BI nel Centro per i partner
 
@@ -37,8 +37,8 @@ Quando si è pronti a inviare l'oggetto visivo di Power BI, verificare che l'ogg
 | File di report PBIX di esempio |Sì |Per presentare l'oggetto visivo, aiutare gli utenti ad acquisire familiarità con lo stesso. Evidenziare il valore che l'oggetto visivo offre all'utente con esempi di utilizzo e opzioni di formattazione. È anche possibile aggiungere una pagina *"hints"* alla fine con alcuni suggerimenti, trucchi e cose da evitare.<br>Il file di report PBIX di esempio deve funzionare offline, senza connessioni esterne. |
 | Icona |Sì |È necessario includere il logo dell'oggetto visivo personalizzato che verrà visualizzato nella pagina principale dello store. Il formato può essere PNG, JPG, JPEG o GIF. Deve avere dimensioni pari esattamente a 300 px (larghezza) x 300 px (altezza).<BR>**Importante** Leggere attentamente la [guida alle immagini dello store di AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) prima di inviare l'icona. |
 | Schermate |Sì |Aggiungere almeno una schermata. Il formato può essere PNG, JPG, JPEG o GIF. Le dimensioni devono essere esattamente 1366 px (larghezza) per 768 px (altezza). La dimensione del file non può superare 1024 KB.<br>Per un migliore utilizzo, aggiungere fumetti di testo per descrivere la proposta di valore delle caratteristiche principali in ogni schermata. |
-| Collegamento per il download di supporto |Sì |Specificare un URL di supporto per i clienti. Questo collegamento viene immesso come parte della presentazione del Dashboard venditori ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato dell'URL deve includere https:// o http://. |
-| Collegamento al documento sulla privacy |Sì |Specificare un collegamento all'informativa sulla privacy dell'oggetto visivo. Questo collegamento viene immesso come parte della presentazione del Dashboard venditori ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato del collegamento deve includere https:// o http://. |
+| Collegamento per il download di supporto |Sì |Specificare un URL di supporto per i clienti. Questo collegamento viene immesso come parte della presentazione del Centro per i partner ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato dell'URL deve includere https:// o http://. |
+| Collegamento al documento sulla privacy |Sì |Specificare un collegamento all'informativa sulla privacy dell'oggetto visivo. Questo collegamento viene immesso come parte della presentazione del Centro per i partner ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato del collegamento deve includere https:// o http://. |
 | Contratto di licenza con l'utente finale (EULA) |Sì |Specificare un file EULA per l'oggetto visivo di Power BI. |
 | Collegamento video |No |Per aumentare l'interesse degli utenti per l'oggetto visivo personalizzato, aggiungere un collegamento a un video sull'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
 | Repository GitHub |No |Condividere un collegamento pubblico a un repository [GitHub](https://www.github.com) con le origini dei dati di esempio e dell'oggetto visivo di Power BI. Ciò offre ad altri sviluppatori la possibilità di inviare un feedback e suggerire miglioramenti da apportare al codice. |
@@ -74,9 +74,6 @@ Il team di Power BI deve controllare i file per verificare la presenza di nuovi 
 Per inviare l'oggetto visivo di Power BI al Centro per i partner, è necessario essere registrati nel Centro. Se non è ancora stata eseguita la registrazione, [aprire un account per sviluppatore nel Centro per i partner](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
 Attenersi alla procedura seguente per inviare l'oggetto visivo di Power BI al Centro per i partner. Per altre informazioni sul processo di invio, vedere l'articolo relativo all'[invio delle soluzioni Office ad AppSource attraverso il Centro per i partner](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
-
->[!NOTE]
-> Se è in corso il processo di invio di un oggetto visivo di Power BI ed è necessario usare il [Dashboard venditori](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (lo strumento di gestione precedente), rivedere le istruzioni in [Inviare un oggetto visivo di Power BI ad AppSource usando il Dashboard venditori](seller-dashboard.md).
 
 1. Accedere al **Centro per i partner**.
 

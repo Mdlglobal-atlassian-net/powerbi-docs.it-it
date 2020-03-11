@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527523"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260417"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
@@ -25,7 +25,7 @@ Questo articolo non intende fornire una trattazione completa sulla progettazione
 
 Lo **schema a stella** è un approccio maturo alla modellazione, ampiamente adottato dai data warehouse relazionali. In base a questo schema, gli esperti di modellazione devono classificare le tabelle del modello come _dimensione_ o _fatto_.
 
-Le **tabelle delle dimensioni** descrivono le entità aziendali, ovvero gli elementi modellati. Le entità possono includere prodotti, persone, luoghi e concetti, incluso il tempo stesso. La tabella più coerente che è possibile trovare in uno schema a stella è una tabella delle dimensioni data. Una tabella delle dimensioni è costituita da una o più colonne chiave, con funzione di identificatore univoco, e da colonne descrittive.
+Le **tabelle delle dimensioni** descrivono le entità aziendali, ovvero gli _elementi_ modellati. Le entità possono includere prodotti, persone, luoghi e concetti, incluso il tempo stesso. La tabella più coerente che è possibile trovare in uno schema a stella è una tabella delle dimensioni data. Una tabella delle dimensioni è costituita da una o più colonne chiave, con funzione di identificatore univoco, e da colonne descrittive.
 
 Le **tabelle dei fatti**, in cui sono archiviate osservazioni o eventi, possono essere ordini di vendita, saldi azionari, tassi di cambio, temperature e così via. Una tabella dei fatti contiene colonne chiave di dimensione correlate alle tabelle delle dimensioni e alle colonne di misure numeriche. Le colonne chiave di dimensione determinano la _dimensionalità_ di una tabella dei fatti, mentre i valori chiave di dimensione determinano la _granularità_ di una tabella dei fatti. Si consideri, ad esempio, una tabella dei fatti progettata per archiviare obiettivi di vendita con due colonne chiave di dimensione, **Date** e **ProductKey**. È evidente che la tabella ha due dimensioni. Non è tuttavia possibile determinare la granularità senza considerare i valori chiave di dimensione. In questo esempio, si consideri che i valori archiviati nella colonna **Date** corrispondono al primo giorno di ogni mese. In questo caso, la granularità è a livello di mese-prodotto.
 
@@ -42,11 +42,11 @@ Si tenga presente che ogni oggetto visivo di report Power BI genera una query ch
 - Le tabelle delle dimensioni supportano il _filtraggio_ e il _raggruppamento_
 - Le tabelle dei fatti supportano la _generazione di riepiloghi_
 
-Anche se non esiste una proprietà di tabella che gli esperti di modellazione possono impostare per configurare il tipo di tabella (dimensioni o fatti), il tipo è determinato dalle relazioni tra modelli. Una relazione tra modelli stabilisce un percorso di propagazione dei filtri tra due tabelle ed è la proprietà **Cardinality** della relazione a determinare il tipo di tabella. Una cardinalità di relazione comune è "uno-a-molti" o il relativo inverso "molti-a-uno". Il lato "uno" è sempre rappresentato da una tabella di tipo dimensione mentre il lato "molti" corrisponde sempre a una tabella di tipo fatto.
+Non è presente alcuna proprietà di tabella che i modeler impostano per configurare il tipo di tabella dimensione o fact. Il tipo è determinato dalle relazioni tra modelli. Una relazione tra modelli stabilisce un percorso di propagazione dei filtri tra due tabelle ed è la proprietà **Cardinality** della relazione a determinare il tipo di tabella. Una cardinalità di relazione comune è _uno-a-molti_ o il relativo inverso _molti-a-uno_. Il lato "uno" è sempre rappresentato da una tabella di tipo dimensione mentre il lato "molti" corrisponde sempre a una tabella di tipo fatto. Per altre informazioni sulle relazioni, vedere [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md).
 
 ![Schema a stella concettuale](media/star-schema/star-schema-example2.png)
 
-La progettazione di un modello ben strutturato deve prevedere tabelle di tipo dimensione o tabelle di tipo fatto. È opportuno evitare di combinare i due tipi per una singola tabella. È anche consigliabile specificare il numero corretto di tabelle con le corrette relazioni. È inoltre importante che le tabelle di tipo fatto carichino sempre dati a un livello di granularità coerente.
+La progettazione di un modello ben strutturato deve prevedere tabelle di tipo dimensione o tabelle di tipo fatto. Evitare di combinare i due tipi per una singola tabella. È anche consigliabile specificare il numero corretto di tabelle con le corrette relazioni. È inoltre importante che le tabelle di tipo fatto carichino sempre dati a un livello di granularità coerente.
 
 È infine importante comprendere che progettare un modello in modo ottimale è una questione di scienza ma anche di arte. Talvolta è possibile deviare dagli standard quando ha senso farlo.
 
@@ -73,17 +73,17 @@ In un modello di Power BI una **misura** ha una definizione diversa, anche se si
 
 Vi sono tuttavia tre validi motivi per creare misure, anche per semplici riepiloghi a livello di colonna:
 
-- Se si è a conoscenza del fatto che gli autori dei report eseguiranno query sul modello usando [espressioni MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), il modello deve includere _misure esplicite_. Le misure esplicite vengono definite tramite DAX. Questo approccio di progettazione è molto pertinente quando si eseguono query su un set di dati di Power BI tramite MDX, perché MDX non è in grado di ottenere il riepilogo dei valori di colonna. In particolare, il linguaggio MDX viene usato per l'esecuzione di [Analizza in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (le tabelle pivot rilasciano query MDX).
+- Se si è a conoscenza del fatto che gli autori dei report eseguiranno query sul modello usando [espressioni MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), il modello deve includere _misure esplicite_. Le misure esplicite vengono definite tramite DAX. Questo approccio di progettazione è molto pertinente quando si eseguono query su un set di dati di Power BI tramite MDX, perché MDX non è in grado di ottenere il riepilogo dei valori di colonna. In particolare, il linguaggio MDX viene usato per l'esecuzione di [Analizza in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) poiché le tabelle pivot rilasciano query MDX.
 - Se si è a conoscenza del fatto che gli autori di report creeranno report impaginati di Power BI usando lo strumento di progettazione di query MDX, il modello deve includere misure esplicite. Solo lo strumento di progettazione di query MDX supporta gli [aggregati di server](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Pertanto, se gli autori di report devono disporre di misure valutate da Power BI, anziché dal motore dei report impaginati, devono usare lo strumento di progettazione di query MDX.
 - Se è necessario assicurarsi che gli autori dei report possano riepilogare le colonne solo in modi specifici. Ad esempio, la colonna **Unit Price** relativa alle vendite dei rivenditori (che rappresenta una tariffa per unità) può essere riepilogata, ma solo tramite funzioni di aggregazione specifiche. I valori della colonna non dovrebbero essere mai sommati, ma è opportuno riepilogarli usando altre funzioni di aggregazione (min, max, average e così via). In questo esempio, l'esperto di modellazione può nascondere la colonna **Unit Price** e creare misure per tutte le funzioni di aggregazione appropriate.
 
-Si noti che questo approccio di progettazione funziona bene per i report creati nel servizio Power BI e per Domande e risposte. Le connessioni dinamiche di Power BI Desktop, tuttavia, consentono agli autori di report di mostrare i campi nascosti nel riquadro **Campi**, eludendo così questo approccio di progettazione.
+Questo approccio di progettazione è adatto ai report creati nel servizio Power BI e per Domande e risposte. Le connessioni dinamiche di Power BI Desktop, tuttavia, consentono agli autori di report di mostrare i campi nascosti nel riquadro **Campi**, eludendo così questo approccio di progettazione.
 
 ## <a name="surrogate-keys"></a>Chiavi sostitutive
 
 Una **chiave sostitutiva** è un identificatore univoco che viene aggiunto a una tabella per supportare la modellazione dello schema a stella. Per definizione, non è definito né archiviato nei dati di origine. Le chiavi sostitutive vengono in genere aggiunte alle tabelle delle dimensioni di un data warehouse relazionale per fornire un identificatore univoco per ogni riga di tabella delle dimensioni.
 
-Le relazioni del modello di Power BI sono basate su una singola colonna univoca in una tabella, che propaga i filtri a una singola colonna in un'altra tabella. Quando una tabella di tipo dimensione nel modello non include una singola colonna univoca, è necessario aggiungere un identificatore univoco che diventerà il lato "uno" di una relazione. In Power BI Desktop è possibile ottenere facilmente questo risultato creando una [colonna indice di Power Query](https://docs.microsoft.com/powerquery-m/table-addindexcolumn).
+Le relazioni del modello di Power BI sono basate su una singola colonna univoca in una tabella, che propaga i filtri a una singola colonna in un'altra tabella. Quando una tabella di tipo dimensione nel modello non include una singola colonna univoca, è necessario aggiungere un identificatore univoco che diventerà il lato "uno" di una relazione. In Power BI Desktop è possibile soddisfare facilmente questo requisito creando una [colonna indice di Power Query](https://docs.microsoft.com/powerquery-m/table-addindexcolumn).
 
 ![Creare una colonna indice sulla barra degli strumenti di Power Query](media/star-schema/toolbar-index.png)
 
@@ -118,13 +118,13 @@ La teoria della progettazione con schema a stella fa riferimento a due tipi comu
 
 ### <a name="type-1-scd"></a>Dimensione a modifica lenta di tipo 1
 
-Una **dimensione a modifica lenta** di **tipo 1** riflette sempre i valori più recenti e, quando vengono rilevate modifiche ai dati di origine, i dati della tabella corrispondente vengono semplicemente sovrascritti. Questo approccio di progettazione è comune per le colonne in cui vengono archiviati valori supplementari, ad esempio l'indirizzo di posta elettronica o il numero di telefono di un cliente. Quando viene modificato l'indirizzo di posta elettronica o il numero di telefono di un cliente, la tabella della dimensione aggiorna la riga del cliente con i nuovi valori. È come se il cliente avesse sempre avuto queste informazioni di contatto.
+Una **dimensione a modifica lenta** di **tipo 1** riflette sempre i valori più recenti e, quando vengono rilevate modifiche ai dati di origine, i dati della tabella delle dimensioni vengono sovrascritti. Questo approccio di progettazione è comune per le colonne in cui vengono archiviati valori supplementari, ad esempio l'indirizzo di posta elettronica o il numero di telefono di un cliente. Quando viene modificato l'indirizzo di posta elettronica o il numero di telefono di un cliente, la tabella della dimensione aggiorna la riga del cliente con i nuovi valori. È come se il cliente avesse sempre avuto queste informazioni di contatto.
 
 Un aggiornamento non incrementale di una tabella di tipo dimensione del modello di Power BI ha come risultato una dimensione a modifica lenta di tipo 1. Aggiorna i dati della tabella per verificare che vengano caricati i valori più recenti.
 
 ### <a name="type-2-scd"></a>Dimensione a modifica lenta di tipo 2
 
-Una **dimensione a modifica lenta** di **tipo 2** supporta il controllo delle versioni dei propri membri. Se il sistema di origine non archivia le versioni, è in genere il processo di caricamento del data warehouse a rilevare le modifiche e a gestire in modo appropriato la modifica in una tabella delle dimensioni. In questo caso, la tabella delle dimensioni deve usare una chiave sostitutiva per fornire un riferimento univoco a una _versione_ del membro della dimensione. Sono incluse anche le colonne che definiscono la validità dell'intervallo di date della versione (ad esempio **StartDate** ed **EndDate**) e possibilmente una colonna di flag (ad esempio **IsCurrent**) per filtrare facilmente in base ai membri della dimensione corrente.
+Una **dimensione a modifica lenta** di **tipo 2** supporta il controllo delle versioni dei propri membri. Se il sistema di origine non archivia le versioni, è in genere il processo di caricamento del data warehouse a rilevare le modifiche e a gestire in modo appropriato la modifica in una tabella delle dimensioni. In questo caso, la tabella delle dimensioni deve usare una chiave sostitutiva per fornire un riferimento univoco a una _versione_ del membro della dimensione. Sono incluse anche le colonne che definiscono la validità dell'intervallo di date della versione (ad esempio, **StartDate** ed **EndDate**) e possibilmente una colonna di flag (ad esempio, **IsCurrent**) per filtrare facilmente in base ai membri della dimensione corrente.
 
 Adventure Works, ad esempio, assegna i venditori a un'area di vendita. Quando un venditore si sposta in un'altra area, è necessario creare una nuova versione del venditore per assicurarsi che i fatti cronologici rimangano associati all'area precedente. Per supportare un'analisi cronologica accurata delle vendite per venditore, è necessario che nella tabella delle dimensioni vengano archiviate le versioni dei venditori e le aree associate. La tabella deve includere anche i valori delle date di inizio e di fine per definire la validità a livello temporale. Le versioni correnti possono definire una data di fine vuota (o 31/12/9999), in modo da indicare che la riga corrisponde alla versione corrente. La tabella deve inoltre definire una chiave sostitutiva perché la chiave aziendale (in questo caso, l'ID dipendente) non sarà univoca.
 
@@ -166,6 +166,8 @@ Quando si creano tabelle di tipo dimensione del modello per ogni ruolo, osservar
 - Verificare che i nomi delle colonne siano autodescrittivi. Anche se è possibile avere una colonna **Year** in tutte le tabelle delle date (i nomi di colonna sono univoci all'interno della rispettiva tabella), questo nome non è autodescrittivo in base ai titoli predefiniti degli oggetti visivi. È consigliabile rinominare ogni tabella dei ruoli di dimensione in modo che la tabella **Ship Date** (Data spedizione) abbia una colonna relativa all'anno denominata **Ship Year** (Anno spedizione) e così via.
 - Quando opportuno, assicurarsi che le descrizioni delle tabelle forniscano feedback agli autori di report (tramite le descrizioni comandi del riquadro **Campi**) sulla configurazione della propagazione dei filtri. La chiarezza è importante quando il modello contiene una tabella con un nome generico, ad esempio **Data**, che viene usata per filtrare molte tabelle di tipo fatto. Nel caso in cui la tabella abbia, ad esempio, una relazione attiva con la colonna delle date degli ordini di vendita del rivenditore, è consigliabile fornire una descrizione di tabella, ad esempio "Filtra le vendite del rivenditore per data dell'ordine".
 
+Per altre informazioni, vedere [Linee guida per relazioni attive e inattive](relationships-active-inactive.md).
+
 ## <a name="junk-dimensions"></a>Dimensioni di tipo junk
 
 Una **dimensione di tipo junk** è utile quando vi sono molte dimensioni, costituite in particolare da pochi attributi (talvolta anche uno solo), e quando questi attributi hanno pochi valori. Nelle colonne di questo tipo sono incluse in genere le colonne relative allo stato degli ordini o quelle relative ai dati demografici dei clienti (sesso, età e così via).
@@ -182,9 +184,11 @@ Questa query viene caricata nel modello come tabella di tipo dimensione. È inol
 
 Una **dimensione degenere** fa riferimento a un attributo della tabella dei fatti necessario per il filtraggio. In Adventure Works, un valido esempio è rappresentato dal numero di ordine di vendita di un rivenditore. In questo caso, quando si progetta un modello non ha molto senso creare una tabella indipendente costituita da una sola colonna, perché questo aumenterebbe le dimensioni di archiviazione del modello e genererebbe disordine nel riquadro **Campi**.
 
-Nel modello di Power BI, può essere opportuno aggiungere la colonna dei numeri di ordine di vendita alla tabella di tipo fatto per consentire il filtraggio o il raggruppamento in base al numero di ordine di vendita. Si tratta di un'eccezione alla regola introdotta in precedenza in base alla quale non è consigliabile combinare i tipi di tabella. In altre parole, le tabelle del modello devono essere in genere di tipo dimensione o di tipo fatto.
+Nel modello di Power BI, può essere opportuno aggiungere la colonna dei numeri di ordine di vendita alla tabella di tipo fatto per consentire il filtraggio o il raggruppamento in base al numero di ordine di vendita. Si tratta di un'eccezione alla regola introdotta in precedenza in base alla quale non è consigliabile combinare i tipi di tabella. In altre parole, le tabelle del modello devono essere in genere di tipo dimensione o di tipo fact.
 
 ![Esempio di dimensione degenere](media/star-schema/degenerate-dimension.png)
+
+Per altre informazioni, vedere [Linee guida per relazioni uno-a-uno (Dimensioni degenere)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Tabelle dei fatti senza fatti
 
@@ -198,7 +202,7 @@ Si consideri, ad esempio, il caso in cui i venditori possono essere assegnati a 
 
 ![Esempio di tabelle dei fatti senza fatti](media/star-schema/factless-fact.png)
 
-Questo approccio di progettazione basato su relazioni molti-a-molti è ben documentato e può essere ottenuto senza una tabella di bridging. Tuttavia, l'approccio della tabella di bridging è considerato ottimale quando si stabilisce una relazione tra due dimensioni. Per altre informazioni, vedere [Relazioni con cardinalità molti-a-molti in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
+Questo approccio di progettazione basato su relazioni molti-a-molti è ben documentato e può essere ottenuto senza una tabella di bridging. Tuttavia, l'approccio della tabella di bridging è considerato ottimale quando si stabilisce una relazione tra due dimensioni. Per altre informazioni, vedere [Linee guida per le relazioni molti-a-molti (Correlare due tabelle di tipo dimensione)](relationships-many-to-many.md#relate-many-to-many-dimensions).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -206,6 +210,9 @@ Per altre informazioni sulla progettazione di uno schema a stella o di un modell
 
 - [Articolo di Wikipedia sulla modellazione dimensionale](https://go.microsoft.com/fwlink/p/?linkid=246459)
 - [Creare e gestire le relazioni in Power BI Desktop](../desktop-create-and-manage-relationships.md)
-- [Relazioni con cardinalità molti-a-molti in Power BI Desktop](../desktop-many-to-many-relationships.md)
-- [Esperienza di apprendimento guidato per la creazione di modelli](/learn/modules/model-data-power-bi/)
+- [Linee guida per relazioni uno-a-uno](relationships-one-to-one.md)
+- [Linee guida per le relazioni molti-a-molti](relationships-many-to-many.md)
+- [Linee guida per la relazione bidirezionale](relationships-bidirectional-filtering.md)
+- [Linee guida per relazioni attive e inattive](relationships-active-inactive.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

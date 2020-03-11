@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Aggiungere un segnalibro a un report
               href: end-user-bookmarks.md
+            - name: Aggiungere un elemento in evidenza a un report
+              href: end-user-spotlight.md
             - name: Report impaginati in Power BI
               items:
                 - name: Report impaginati
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Recupera dati
           items:
+            - name: Aree di lavoro in Power BI
+              href: end-user-workspaces.md
             - name: App in Power BI
               href: end-user-apps.md
             - name: Installare e usare app

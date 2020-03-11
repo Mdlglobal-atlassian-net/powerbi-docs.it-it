@@ -35,7 +35,7 @@ Anche se non si ha accesso a un portale Web di Reporting Services, è comunque p
 
 1. Aprire l'app Power BI nel dispositivo Windows 10.
 2. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) nell'angolo in alto a sinistra.
-3. Toccare l'icona **Impostazioni** ![Icona Impostazioni](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), fare clic con il pulsante destro del mouse oppure toccare e tenere premuto **Connetti al server**, quindi toccare **Visualizza esempi**.
+3. Toccare l'icona **Impostazioni**![Icona Impostazioni](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), fare clic con il pulsante destro del mouse oppure toccare e tenere premuto **Connetti al server**, quindi toccare **Visualizza esempi**.
    
    ![Visualizzare esempi SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Aprire la cartella dei report sulle vendite al dettaglio o dei report sulle vendite per analizzare gli indicatori KPI e i report per dispositivi mobili.

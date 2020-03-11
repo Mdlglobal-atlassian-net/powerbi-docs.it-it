@@ -44,7 +44,7 @@ La ricerca nel dispositivo, basata sulla tecnologia Siri, includerà anche i sug
 
 >[!NOTE]
 >
->Per disabilitare la ricerca nel dispositivo e i suggerimenti di Siri, andare a **Impostazioni del dispositivo** > **Impostazioni di Power BI** > **Siri e ricerca** e disabilitare l'impostazione **Siri & suggestions** (Siri e suggerimenti).
+>Per disabilitare la ricerca nel dispositivo e i suggerimenti di Siri, andare a **Impostazioni del dispositivo** > **Impostazioni di Power BI** > **Siri & Search** (Siri e ricerca) e disabilitare l'impostazione **Siri & suggestions** (Siri e suggerimenti).
 >
 
 ## <a name="next-steps"></a>Passaggi successivi

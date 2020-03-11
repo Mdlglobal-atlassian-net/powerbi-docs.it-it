@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609934"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237984"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -134,6 +134,7 @@ La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle o
 
 - Report che usano la sicurezza a livello di riga
 - Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale e Azure Analysis Services.
+- Report che usano un [set di dati condiviso](service-datasets-across-workspaces.md), archiviato in un'area di lavoro diversa dal report.
 - Report condivisi con l'utente direttamente o con un pacchetto di contenuto aziendale
 - Report in un gruppo in cui non si è un membro a cui sono consentite modifiche
 - Gli oggetti visivi "R" non sono attualmente supportati nei report di **Pubblica sul Web**.

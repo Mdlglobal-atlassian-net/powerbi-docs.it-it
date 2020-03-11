@@ -6,23 +6,20 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161295"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260452"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Linee guida per le relazioni molti-a-molti
 
 Questo articolo è destinato agli autori di modelli di dati che usano Power BI Desktop. Descrive tre diversi scenari di modellazione molti-a-molti. Vengono inoltre fornite indicazioni per la corretta progettazione all'interno dei modelli.
 
-> [!NOTE]
-> Questo articolo non fornisce un'introduzione alle relazioni nei modelli. Se non si ha familiarità con le relazioni, le relative proprietà o le modalità di configurazione, è consigliabile leggere per prima cosa l'articolo [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md).
->
-> È anche importante avere una conoscenza di base della progettazione dello schema star. Per altre informazioni, vedere [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md).
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
 Esistono, di fatto, tre scenari molti-a-molti, che possono verificarsi quando è necessario:
 
@@ -164,7 +161,7 @@ L'oggetto visivo presenta un risultato accurato. Tuttavia, l'utilità del modell
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Indicazioni per la correlazione di fatti molti-a-molti
 
-In genere, non è consigliabile correlare due tabelle di tipo fatto direttamente usando la cardinalità molti-a-molti. Il motivo principale è che il modello non garantirà flessibilità nelle modalità di filtro o raggruppamento degli oggetti visivi dei report. Nell'esempio, negli oggetti visivi è possibile filtrare o raggruppare solo in base alla colonna **OrderID** della tabella **Order**. Un ulteriore motivo è correlato alla qualità dei dati. Se i dati sono soggetti a problemi di integrità, è possibile che alcune righe vengano omesse durante l'esecuzione di query a causa della natura della _relazione debole_. Per altre informazioni, vedere [Valutazione della relazione](../desktop-relationships-understand.md#relationship-evaluation).
+In genere, non è consigliabile correlare due tabelle di tipo fatto direttamente usando la cardinalità molti-a-molti. Il motivo principale è che il modello non garantirà flessibilità nelle modalità di filtro o raggruppamento degli oggetti visivi dei report. Nell'esempio, negli oggetti visivi è possibile filtrare o raggruppare solo in base alla colonna **OrderID** della tabella **Order**. Un ulteriore motivo è correlato alla qualità dei dati. Se i dati sono soggetti a problemi di integrità, è possibile che alcune righe vengano omesse durante l'esecuzione di query a causa della natura della _relazione debole_. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../desktop-relationships-understand.md#relationship-evaluation).
 
 Anziché correlare direttamente le tabelle di tipo fatto, è consigliabile adottare i principi di progettazione dello [schema star](star-schema.md). A tale scopo, aggiungere tabelle di tipo dimensione. Le tabelle di tipo dimensione vengono quindi correlate alle tabelle di tipo fatto usando relazioni uno-a-molti. Questo approccio di progettazione è affidabile perché offre opzioni di reporting flessibili. Consente infatti di filtrare o raggruppare in base a una qualsiasi delle colonne di tipo dimensione e di riepilogare qualsiasi tabella di tipo fatto correlata.
 
@@ -187,7 +184,7 @@ L'applicazione dei principi di progettazione di uno schema star offre i vantaggi
 - Gli oggetti visivi del report possono _filtrare o raggruppare_ in base a qualsiasi colonna visibile delle tabelle di tipo dimensione
 - Gli oggetti visivi del report possono _riepilogare_ qualsiasi colonna visibile delle tabelle di tipo fatto
 - I filtri applicati alle tabelle **OrderLine**, **OrderDate** o **Product** verranno propagati a entrambe le tabelle di tipo fatto
-- Tutte le relazioni sono uno-a-molti e ogni relazione è una _relazione forte_. I problemi di integrità dei dati non verranno mascherati. Per altre informazioni, vedere [Valutazione della relazione](../desktop-relationships-understand.md#relationship-evaluation).
+- Tutte le relazioni sono uno-a-molti e ogni relazione è una _relazione forte_. I problemi di integrità dei dati non verranno mascherati. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Correlare fatti con granularità più elevata
 
@@ -300,4 +297,6 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
+- [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

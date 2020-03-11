@@ -27,7 +27,7 @@ Sono disponibili molti tipi diversi di oggetti visivi direttamente dal riquadro 
 
 ![riquadro con icone per ogni tipo di visualizzazione](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Per ampliare le opzioni, visitare il [sito della community di Microsoft AppSource](https://appsource.microsoft.com) per trovare e [scaricare](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [oggetti visivi personalizzati](../developer/visuals/custom-visual-develop-tutorial.md) forniti da Microsoft e dalla community.
+Per altre opzioni, visitare il [sito della community di Microsoft AppSource](https://appsource.microsoft.com) per trovare e [scaricare](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [oggetti visivi personalizzati](../developer/visuals/custom-visual-develop-tutorial.md) forniti da Microsoft e dalla community.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

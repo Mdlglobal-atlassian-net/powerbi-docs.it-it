@@ -7,6 +7,8 @@
       items:
         - name: Cosa sono le app per dispositivi mobili?
           href: mobile-apps-for-mobile-devices.md
+        - name: Novità delle app per dispositivi mobili
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Presentazione della home page
           href: mobile-apps-home-page.md
     - name: Guide introduttive
@@ -22,8 +24,6 @@
     - name: Concetti
       expanded: true
       items:
-        - name: Novità delle app per dispositivi mobili
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Ottenere dati concreti con le app per dispositivi mobili
           href: mobile-apps-data-in-real-world-context.md
         - name: Visualizzazione dei dati offline nelle app per dispositivi mobili
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Preferiti nelle app per dispositivi mobili
               href: mobile-apps-favorites.md
-            - name: Configurare le impostazioni di interazione (solo telefono)
-              href: mobile-app-interaction-settings.md
             - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Effettuare la scansione di un codice a barre dall'app Power BI per dispositivi mobili
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Configurare le impostazioni di interazione
+              href: mobile-app-interaction-settings.md
             - name: Configurazione mediante gestione dei dispositivi mobili
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Aggiungere un dashboard alla schermata Start
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services
+            - name: Visualizzare report e indicatori KPI locali
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Visualizzare Power BI in Surface Hub
               href: mobile-windows-10-app-presentation-mode.md

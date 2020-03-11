@@ -26,7 +26,7 @@ In queste istruzioni viene usata l'app Sales and Marketing Sample per creare un 
 
 1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report in [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
-2. Nel riquadro Campi selezionare **SalesFact** \> **Total units** (Dati vendite > Unità totali) e quindi **Date** > **Month** (Data > Mese).  Power BI crea un istogramma nell'area di disegno del report.
+2. Nel riquadro Campi selezionare **SalesFact** \> **Total units**, quindi selezionare **Date** > **Month**.  Power BI crea un istogramma nell'area di disegno del report.
 
     ![Selezionare le opzioni nel riquadro Campi](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -35,7 +35,7 @@ In queste istruzioni viene usata l'app Sales and Marketing Sample per creare un 
     ![Convertire in un grafico a linee](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filtrare il grafico a linee per visualizzare i dati relativi agli anni 2012-2014. Se il riquadro Filtri è compresso, espanderlo. Nel riquadro Campi selezionare **Date** \> **Year** (Data > Anno) e trascinare la selezione nel riquadro Filtri. Rilasciarla sotto l'intestazione **Filtri in questo oggetto visivo**. 
+4. Filtrare il grafico a linee per visualizzare i dati relativi agli anni 2012-2014. Se il riquadro Filtri è compresso, espanderlo. Nel riquadro Campi selezionare **Date** \> **Year** e trascinare la selezione nel riquadro Filtri. Rilasciarla sotto l'intestazione **Filtri in questo oggetto visivo**. 
      
     ![Linea accanto al riquadro Campi](media/power-bi-line-charts/power-bi-year-filter.png)
 
