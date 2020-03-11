@@ -3,19 +3,18 @@ title: Selezionare il dashboard da visualizzare all'apertura del servizio Power 
 description: Documentazione su come creare un dashboard in primo piano nel servizio Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 27a7bdce79d0cf39a15b3350d06fd01d7d9e13c2
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852542"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040033"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboard in primo piano nel servizio Power BI
 
@@ -33,9 +32,6 @@ Quando si seleziona un dashboard *in primo piano*, questo viene visualizzato ogn
 Se non è stato impostato un dashboard in primo piano, Power BI viene aperto con l'ultimo dashboard usato o con **Home** di Power BI. 
 
 ### <a name="set-a-dashboard-as-featured"></a>Impostare un dashboard in primo piano
-Guardare Amanda che crea un dashboard in primo piano nel video. Seguire quindi la procedura per provare a usare la funzionalità.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
 1. Aprire il dashboard da impostare come dashboard in primo piano. 
@@ -51,7 +47,6 @@ Se in seguito si cambia idea, è possibile impostare un nuovo dashboard come das
 
 1. Seguire i passaggi 1 e 2 precedenti.
    
-    ![Finestra Cambia dashboard in primo piano](./media/end-user-featured/power-bi-change-feature.png)
 2. Selezionare **Imposta come dashboard in primo piano**. Quando si annulla l'impostazione in primo piano per un dashboard, il dashboard non viene rimosso da Power BI. 
    
     ![Messaggio di operazione completata](./media/end-user-featured/power-bi-unfeature-new.png)
@@ -62,9 +57,9 @@ Se non si vuole più usare dashboard in primo piano, ecco come fare per disabili
 1. Aprire il dashboard attualmente impostato come in primo piano.
 2. Nella barra dei menu in alto selezionare **Altre opzioni** (...) e selezionare **Disabilita in primo piano**.
 
-    ![Opzione Disabilita in primo piano selezionata](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![Opzione Disabilita in primo piano selezionata](./media/end-user-featured/power-bi-unfeature.png)
    
 ## <a name="next-steps"></a>Passaggi successivi
-- [Aggiungere un dashboard ai Preferiti](end-user-favorite.md)
+- [Aggiungere un dashboard ai Preferiti](end-user-favorite.md)    
 - Altre domande? Provare la [Community di Power BI](https://community.powerbi.com/).
 

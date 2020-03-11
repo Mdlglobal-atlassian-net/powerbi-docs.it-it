@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539782"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946869"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Esportare i dati usati per creare una visualizzazione
 
@@ -166,7 +166,7 @@ Per gli amministratori e i progettisti di Power BI sono disponibili diverse stra
 
 - I proprietari del set di dati possono impostare la sicurezza a livello di riga, che limita l'accesso agli utenti con diritti di sola lettura. Se tuttavia è stata configurata un'area di lavoro per le app e sono state assegnate le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Per altre informazioni, vedere [Sicurezza a livello di riga](../service-admin-rls.md).
 
-- I progettisti di report possono nascondere le colonne in modo che non compaiano nell'elenco **Campi**. Per altre informazioni, vedere [Proprietà dei set di dati](../developer/api-dataset-properties.md).
+- I progettisti di report possono nascondere le colonne in modo che non compaiano nell'elenco **Campi**. Per altre informazioni, vedere [Proprietà dei set di dati](../developer/automation/api-dataset-properties.md).
 
 - Gli amministratori di Power BI possono aggiungere [etichette di riservatezza](../admin/service-security-data-protection-overview.md) a dashboard, report, set di impostazioni e flussi di dati. Possono quindi applicare le impostazioni di protezione, ad esempio la crittografia o le filigrane, durante l'esportazione dei dati. 
 

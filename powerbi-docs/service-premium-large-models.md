@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260877"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401946"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelli di grandi dimensioni in Power BI Premium (anteprima)
 
@@ -123,7 +123,7 @@ Quando si usano modelli di grandi dimensioni, tenere presenti le restrizioni seg
 
 ## <a name="availability-in-regions"></a>Disponibilità nelle aree
 
-I modelli di grandi dimensioni in Power BI sono disponibili solo in alcune aree di Azure che supportano l'[archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+I modelli di grandi dimensioni in Power BI sono disponibili solo in alcune aree di Azure che supportano l'[archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
 L'elenco seguente indica le aree in cui sono disponibili modelli di grandi dimensioni in Power BI. Le aree non presenti nell'elenco seguente non sono supportate per i modelli di grandi dimensioni:
 
@@ -156,7 +156,7 @@ L'elenco seguente indica le aree in cui sono disponibili modelli di grandi dimen
 
 I collegamenti seguenti offrono informazioni che possono essere utili per l'uso di modelli di grandi dimensioni:
 
-* [Archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Archiviazione file Premium di Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Configurare il supporto Multi-Geo per Power BI Premium](service-admin-premium-multi-geo.md)
 * [Usare chiavi di crittografia personalizzate per Power BI](service-encryption-byok.md)
 * [Come funzionano le capacità](service-premium-what-is.md#how-capacities-function)

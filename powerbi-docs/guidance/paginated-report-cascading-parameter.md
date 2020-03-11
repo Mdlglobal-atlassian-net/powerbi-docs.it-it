@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162412"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920775"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Usare i parametri a cascata nei report impaginati
 
-Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports-report-builder-power-bi.md) di Power BI. Offre scenari per la progettazione di parametri a cascata. I parametri a cascata sono parametri di report con dipendenze. Quando l'utente di un report seleziona il valore (o i valori) di un parametro, esso viene usato per impostare i valori disponibili per un altro parametro.
+Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports/paginated-reports-report-builder-power-bi.md) di Power BI. Offre scenari per la progettazione di parametri a cascata. I parametri a cascata sono parametri di report con dipendenze. Quando l'utente di un report seleziona il valore (o i valori) di un parametro, esso viene usato per impostare i valori disponibili per un altro parametro.
 
 > [!NOTE]
 > Questo articolo non include un'introduzione ai parametri a cascata e alla relativa configurazione. Se non si ha familiarità con i parametri a cascata, è consigliabile leggere prima di tutto [Aggiungere parametri a cascata a un report (Generatore report e SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs).
@@ -281,7 +281,7 @@ Per assicurarsi di ottimizzare le origini dati:
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Parametri dei report in Power BI Report Builder](../report-builder-parameters.md)
+- [Parametri dei report in Power BI Report Builder](../paginated-reports/report-builder-parameters.md)
 - [Aggiungere parametri a cascata a un report (Generatore report e SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

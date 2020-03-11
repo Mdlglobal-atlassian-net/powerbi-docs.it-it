@@ -9,18 +9,18 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: c2eeca81cb3c43c04ef649fb1228be7e25073069
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: f5b2de4f7da2ac7af368d969b2f2fef2d9ae7678
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523005"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041701"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Power BI per gli utenti di Microsoft Azure 
 
 Si lavora con i dati, si gestisce un'infrastruttura o si compilano applicazioni in Microsoft Azure? Si vuole ottenere valore dai dati o dalle applicazioni usando Power BI? Queste risorse consentono di accelerare le attività. Benvenuti.
 
-L'utente è più di un semplice consumer di Power BI? Di nuovo benvenuti. È consigliabile iniziare con [Power BI per i consumer](consumer/power-bi-consumer-landing.md).
+L'utente è più di un semplice consumer di Power BI? Di nuovo benvenuti. È consigliabile iniziare con [Power BI per i consumer](consumer/index.yml).
 
 <ul class="panelContent cardsF"> 
             <li> 

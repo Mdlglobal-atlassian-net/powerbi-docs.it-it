@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290499"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920726"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando usare report impaginati in Power BI
 
-Questo articolo è destinato agli autori di report che progettano report per Power BI. Fornisce suggerimenti utili per decidere quando sviluppare [report impaginati di Power BI](../paginated-reports-report-builder-power-bi.md).
+Questo articolo è destinato agli autori di report che progettano report per Power BI. Fornisce suggerimenti utili per decidere quando sviluppare [report impaginati di Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
 > La pubblicazione di report impaginati di Power BI richiede una sottoscrizione di Power BI Premium. Il rendering dei report viene eseguito solo quando i report si trovano in un'area di lavoro in una capacità dedicata con il [carico di lavoro Report impaginati abilitato](../service-admin-premium-workloads.md#paginated-reports).
@@ -49,7 +49,7 @@ Ci sono molti scenari interessanti in cui è preferibile sviluppare un report im
 - **Layout di precisione**: è possibile progettare layout molto precisi con formattazione avanzata, scegliendo le dimensioni e la posizione esatte, con precisione di frazioni di pollici o centimetri.
 - **Layout dinamico**: è possibile produrre layout molto reattivi impostando numerose proprietà del report per l'uso di espressioni VB.NET. Le espressioni possono accedere a molte librerie .NET Framework principali.
 - **Layout specifico del rendering**: è possibile usare le espressioni per modificare il layout del report in base al formato di rendering applicato. Ad esempio, è possibile progettare il report in modo da disabilitare l'opzione per attivare o disattivare la visibilità (per eseguire il drill-down e il drill-up) quando viene eseguito il rendering usando un formato non interattivo, come PDF.
-- **Query native**: non è necessario sviluppare prima un set di dati di Power BI. È possibile creare query native (o usare stored procedure) per qualsiasi [origine dati supportata](../paginated-reports-data-sources.md). Le query possono includere la parametrizzazione.
+- **Query native**: non è necessario sviluppare prima un set di dati di Power BI. È possibile creare query native (o usare stored procedure) per qualsiasi [origine dati supportata](../paginated-reports/paginated-reports-data-sources.md). Le query possono includere la parametrizzazione.
 - **Progettazione query con interfaccia grafica**: Power BI Report Builder include strumenti di progettazione di query con interfaccia grafica che aiutano a scrivere e testare le query sui set di dati.
 - **Set di dati statici**: è possibile definire un set di dati e immettere i dati direttamente nella definizione di report. Questa funzionalità è particolarmente utile per supportare una demo o per la distribuzione di un modello di verifica.
 - **Integrazione dei dati**: è possibile combinare dati da origini dati diverse o con set di dati statici. A tale scopo, è possibile creare campi personalizzati usando espressioni VB.NET.
@@ -70,7 +70,7 @@ Ci sono molti scenari interessanti in cui è preferibile sviluppare un report im
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Eseguire la migrazione di report di SQL Server Reporting Services in Power BI](migrate-ssrs-reports-to-power-bi.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

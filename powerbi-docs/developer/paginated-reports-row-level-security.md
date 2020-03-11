@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953776"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920916"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementazione della sicurezza a livello di riga nei report impaginati incorporati (anteprima)
 
@@ -26,13 +26,13 @@ Questa funzionalità offre un modo sicuro per visualizzare un subset dei dati, s
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Configurazione di un parametro per filtrare il set di dati
 
-Quando si applica la sicurezza a livello di riga a un report impaginato di Power BI, è necessario assegnare un [parametro](../report-builder-parameters.md) all'attributo **UserID**. Questo parametro consente di limitare i dati estratti dal set di dati, prima che il report venga incorporato.
+Quando si applica la sicurezza a livello di riga a un report impaginato di Power BI, è necessario assegnare un [parametro](../paginated-reports/report-builder-parameters.md) all'attributo **UserID**. Questo parametro consente di limitare i dati estratti dal set di dati, prima che il report venga incorporato.
 
 Dopo aver assegnato il parametro a **UserID**, usare l'API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) per ottenere il token di incorporamento.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Usare UserID come filtro a livello di report o di query
 
-È possibile usare **UserId** come *filtro* o in una *query* sull'origine dati in [Power BI Report Builder](../report-builder-power-bi.md).
+È possibile usare **UserId** come *filtro* o in una *query* sull'origine dati in [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 ### <a name="using-the-filter"></a>Uso del filtro
 

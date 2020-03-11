@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530373"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920722"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Linee guida per l'uso di immagini nei report impaginati
 
-Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports-report-builder-power-bi.md) di Power BI. Questo articolo offre suggerimenti relativi all'uso di immagini. Nei layout dei report le immagini mostrano in genere un oggetto grafico, ad esempio un logo aziendale o una foto.
+Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports/paginated-reports-report-builder-power-bi.md) di Power BI. Questo articolo offre suggerimenti relativi all'uso di immagini. Nei layout dei report le immagini mostrano in genere un oggetto grafico, ad esempio un logo aziendale o una foto.
 
 Le immagini possono essere archiviate in tre posizioni diverse:
 
@@ -53,6 +53,6 @@ Per offrire layout di report professionali, facilità di gestione e prestazioni 
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

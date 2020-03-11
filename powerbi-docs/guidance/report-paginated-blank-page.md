@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041866"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920806"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Evitare le pagine vuote durante la stampa di report impaginati
 
-Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports-report-builder-power-bi.md) di Power BI. Offre raccomandazioni per evitare pagine vuote quando il report viene esportato in un formato con interruzione di pagina, ad esempio PDF o Microsoft Word, oppure quando viene stampato.
+Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports/paginated-reports-report-builder-power-bi.md) di Power BI. Offre raccomandazioni per evitare pagine vuote quando il report viene esportato in un formato con interruzione di pagina, ad esempio PDF o Microsoft Word, oppure quando viene stampato.
 
 ## <a name="page-setup"></a>Impostazioni di pagina
 
 Le proprietà relative alle dimensioni della pagina di report determinano l'orientamento, le dimensioni e i margini della pagina. Per accedere a queste proprietà del report:
 
 - Usare la **pagina delle proprietà** del report: fare clic con il pulsante destro del mouse sull'area grigio scuro all'esterno dell'area di disegno del report e quindi selezionare _Proprietà report_.
-- Usare il [riquadro **Proprietà**](../paginated-reports-report-design-view.md#4-properties-pane): fare clic sull'area grigio scuro all'esterno dell'area di disegno del report per selezionare l'oggetto report. Assicurarsi che il riquadro **Proprietà** sia aperto.
+- Usare il [riquadro **Proprietà**](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane): fare clic sull'area grigio scuro all'esterno dell'area di disegno del report per selezionare l'oggetto report. Assicurarsi che il riquadro **Proprietà** sia aperto.
 
 La pagina **Imposta pagina** della **pagina delle proprietà** del report offre un'interfaccia intuitiva per visualizzare e aggiornare le proprietà di impostazione della pagina.
 
@@ -91,7 +91,7 @@ Infine, se il report viene stampato su carta, assicurarsi che sia stata caricata
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
-- [Paginazione dei report impaginati in Power BI](../paginated-reports-pagination.md)
+- [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Paginazione dei report impaginati in Power BI](../paginated-reports/paginated-reports-pagination.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265146"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041448"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory da usare con Power BI
 
-Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) per un'applicazione personalizzata che chiama le [API REST di Power BI](rest-api-reference.md).
+Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) per un'applicazione personalizzata che chiama le [API REST di Power BI](automation/rest-api-reference.md).
 
 Un tenant rappresenta un'organizzazione in Azure Active Directory. È un'istanza del servizio Azure AD dedicata che un'organizzazione riceve e possiede quando esegue l'iscrizione a un servizio cloud di Microsoft, ad esempio Azure, Microsoft Intune oppure Office 365. Ogni tenant di Azure AD è distinto e separato dagli altri tenant di Azure AD.
 
-Dopo aver creato un tenant di Azure AD, è possibile definire un'applicazione e assegnare le autorizzazioni in modo che l'applicazione possa usare le [API REST di Power BI](rest-api-reference.md).
+Dopo aver creato un tenant di Azure AD, è possibile definire un'applicazione e assegnare le autorizzazioni in modo che l'applicazione possa usare le [API REST di Power BI](automation/rest-api-reference.md).
 
 È possibile che l'organizzazione disponga già di un tenant di Azure AD da usare per l'applicazione. È anche possibile creare un nuovo tenant specifico per l'applicazione. In questo articolo viene descritto come creare un nuovo tenant.
 

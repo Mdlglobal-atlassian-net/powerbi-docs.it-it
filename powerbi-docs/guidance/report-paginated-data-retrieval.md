@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530442"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920763"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Linee guida per il recupero dei dati per i report impaginati
 
-Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports-report-builder-power-bi.md) di Power BI. Offre indicazioni utili per progettare un recupero dei dati efficace ed efficiente.
+Questo articolo è rivolto agli autori di report che progettano [report impaginati](../paginated-reports/paginated-reports-report-builder-power-bi.md) di Power BI. Offre indicazioni utili per progettare un recupero dei dati efficace ed efficiente.
 
 ## <a name="data-source-types"></a>Tipi di origini dati
 
@@ -101,13 +101,13 @@ Entrambi gli approcci di progettazione possono filtrare i dati del report ed ent
 
 ## <a name="non-native-data-sources"></a>Origini dati non native
 
-Se è necessario sviluppare report impaginati basati su origini dati che non sono [supportate in modo nativo dai report impaginati](../paginated-reports-data-sources.md), è possibile sviluppare prima di tutto un modello di dati di Power BI Desktop. In questo modo, è possibile connettersi a più di 100 [origini dati di Power BI](../power-bi-data-sources.md). Dopo la pubblicazione nel servizio Power BI, è possibile sviluppare un report impaginato che si connette al set di dati di Power BI.
+Se è necessario sviluppare report impaginati basati su origini dati che non sono [supportate in modo nativo dai report impaginati](../paginated-reports/paginated-reports-data-sources.md), è possibile sviluppare prima di tutto un modello di dati di Power BI Desktop. In questo modo, è possibile connettersi a più di 100 [origini dati di Power BI](../power-bi-data-sources.md). Dopo la pubblicazione nel servizio Power BI, è possibile sviluppare un report impaginato che si connette al set di dati di Power BI.
 
 ## <a name="data-integration"></a>Integrazione dei dati
 
 Se è necessario combinare dati da più origini dati, sono disponibili due opzioni:
 
-- **Combinare i set di dati del report**: se le origini dati sono [supportate in modo nativo dai report impaginati](../paginated-reports-data-sources.md), è possibile creare campi calcolati che usano le funzioni [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) o [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) di Report Builder.
+- **Combinare i set di dati del report**: se le origini dati sono [supportate in modo nativo dai report impaginati](../paginated-reports/paginated-reports-data-sources.md), è possibile creare campi calcolati che usano le funzioni [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) o [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) di Report Builder.
 - **Sviluppare un modello di Power BI Desktop**: è tuttavia probabilmente più efficiente sviluppare un modello di dati in Power BI Desktop. È possibile usare Power Query per combinare query basate su qualsiasi [origine dati supportata](../power-bi-data-sources.md). Dopo la pubblicazione nel servizio Power BI, è possibile sviluppare un report impaginato che si connette al set di dati di Power BI.
 
 ## <a name="sql-server-complex-data-types"></a>Tipi di dati complessi di SQL Server
@@ -143,6 +143,6 @@ Quando si esegue un report, vengono valutati tutti i set di dati, anche se non s
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Origini dati supportate per i report impaginati di Power BI](../paginated-reports-data-sources.md)
+- [Origini dati supportate per i report impaginati di Power BI](../paginated-reports/paginated-reports-data-sources.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

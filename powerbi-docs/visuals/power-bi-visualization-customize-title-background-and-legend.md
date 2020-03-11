@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757832"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78893439"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizzare i titoli, gli sfondi e le legende delle visualizzazioni
 
@@ -56,8 +56,8 @@ Per seguire la procedura, accedere a Power BI Desktop e aprire il report [Retail
 1. Impostare il colore bianco per **Colore carattere** e il blu per **Colore sfondo**.    
 
     a. Selezionare l'elenco a discesa e scegliere un colore in **Colori tema**, **Colori recenti** o **Colore personalizzato**.
-
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    
+    ![Screenshot delle opzioni per Colore carattere e Colore sfondo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. Selezionare l'elenco a discesa per chiudere la finestra del colore.
 

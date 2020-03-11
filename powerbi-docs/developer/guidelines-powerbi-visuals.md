@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000090"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400437"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Linee guida per gli oggetti visivi di Power BI
 Prima di [pubblicare](https://docs.microsoft.com/power-bi/developer/office-store) l'oggetto visivo di Power BI in Microsoft AppSource in modo che altri utenti possano trovarlo e usarlo, seguire con attenzione le linee guida per creare un'esperienza ottimale per gli utenti.
@@ -28,7 +28,7 @@ Come per gli oggetti visivi di Power BI gratuiti, è anche possibile certificare
 
 Un oggetto visivo di Power BI con acquisto in-app è un oggetto visivo *gratuito* che offre *funzionalità gratuite*. Include anche alcune funzionalità avanzate per le quali potrebbe essere previsto un costo aggiuntivo. Nella descrizione dell'oggetto visivo di Power BI gli sviluppatori devono segnalare agli utenti la presenza di funzionalità che richiedono un acquisto aggiuntivo per poter essere usate. Attualmente, Microsoft non fornisce API native per supportare l'acquisto di app e componenti aggiuntivi.
 
-Per questo tipo di acquisti, gli sviluppatori possono usare un sistema di pagamento di terze parti. Per altre informazioni, vedere l'[informativa per lo store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+Per questo tipo di acquisti, gli sviluppatori possono usare un sistema di pagamento di terze parti. Per altre informazioni, vedere l'[informativa per lo store](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads).
 
 
 >[!IMPORTANT]  
