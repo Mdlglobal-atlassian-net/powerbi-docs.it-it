@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Gestire l'archiviazione dei dati nelle aree di lavoro
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Derivazione dei dati
+              href: service-data-lineage.md
             - name: Connettersi ai file nell'OneDrive del gruppo
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Collaborare in un'area di lavoro classica

@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Tasti di scelta rapida in Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Derivazione dei dati
-          href: ../service-data-lineage.md
         - name: Report impaginati
           items:
             - name: Immettere i dati direttamente in un report impaginato
