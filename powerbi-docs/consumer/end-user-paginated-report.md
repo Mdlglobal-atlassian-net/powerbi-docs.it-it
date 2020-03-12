@@ -6,17 +6,20 @@ ms.reviewer: chris finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/02/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830486"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113108"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Report impaginati nel servizio Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 I [report di Power BI](end-user-reports.md) sono già stati presentati e questi sono i tipi di report con i quali ci si troverà più probabilmente a interagire. Esiste tuttavia un altro tipo di report denominato *report impaginato*. I *progettisti* di report possono condividere i report impaginati con altri utenti in un'area di lavoro in una capacità Premium o in un'app da tale area di lavoro. 
 
 ## <a name="what-is-a-paginated-report"></a>Che cos'è un report impaginato?

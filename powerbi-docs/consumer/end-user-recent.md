@@ -7,17 +7,20 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862438"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114364"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Trovare il contenuto **recente** nel servizio Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Il contenuto recente è costituito dagli ultimi elementi visitati nel servizio Power BI, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro.
 
 ![Finestra del contenuto recente](./media/end-user-recent/power-bi-recent.png)

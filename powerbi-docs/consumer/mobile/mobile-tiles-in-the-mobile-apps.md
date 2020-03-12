@@ -1,19 +1,19 @@
 ---
 title: Esplorare i riquadri nelle app Power BI per dispositivi mobili
 description: I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. Informazioni sull'interazione con i riquadri nell'app Power BI per dispositivi mobili.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221193"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114708"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:

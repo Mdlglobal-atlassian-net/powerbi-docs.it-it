@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039129"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114167"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 Gli oggetti visivi sono disponibili in report, dashboard e Domande e risposte. Alcuni di questi tipi di oggetti visivi sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dai *progettisti* dei report ai report, ai dashboard e alle app di Power BI. 
 
 Questo articolo offre una panoramica degli oggetti visivi inclusi in Power BI.  Si tratta degli oggetti visivi usati più di frequente. Per informazioni approfondite su uno di questi oggetti visivi, vedere la [documentazione sui tipi di oggetti visivi per i *progettisti* di report di Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)

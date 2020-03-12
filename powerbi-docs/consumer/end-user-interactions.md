@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888501"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113041"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Filtro incrociato per gli oggetti visivi in un report di Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Una delle funzionalità interessanti di Power BI è il modo in cui sono interconnessi tutti gli oggetti visivi in una pagina del report. Se si seleziona un punto dati in uno degli oggetti visivi, tutti gli altri oggetti visivi nella pagina che contengono tali dati cambiano in base alla selezione. 
 
 ![Video delle interazioni tra oggetti visivi](media/end-user-interactions/interactions.gif)
