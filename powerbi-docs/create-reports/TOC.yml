@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Creare pulsanti
               href: ../desktop-buttons.md
+            - name: Creare pulsanti di drill-through
+              href: ../desktop-drill-through-buttons.md
             - name: Creare segnalibri per salvare e condividere le informazioni dettagliate
               href: ../desktop-bookmarks.md
             - name: Usare i temi dei report

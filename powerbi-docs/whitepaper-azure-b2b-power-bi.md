@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870882"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213604"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuire Power BI contenuto a utenti Guest esterni usando Azure Active Directory B2B
 
@@ -218,7 +218,7 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
 
 - Il team di business intelligence di Contoso crea un'area di lavoro in Power BI
 
-    ![area](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![area di lavoro](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Altri autori vengono aggiunti all'area di lavoro
@@ -283,7 +283,7 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
     > Gli inviti sono necessari solo la prima volta che un utente esterno viene invitato alla propria organizzazione.
 
 
-3. Distribuire contenuto
+3. Distribuisci contenuto
 
     Ora che il team di business intelligence di Contoso ha creato il portale di business intelligence e ha invitato gli utenti guest, può distribuire il portale ai propri utenti finali, concedendo agli utenti guest l'accesso all'app e la pubblicazione. Power BI completa automaticamente i nomi degli utenti Guest aggiunti in precedenza al tenant di contoso. A questo punto è anche possibile aggiungere inviti ad hoc ad altri utenti guest.
 
@@ -331,12 +331,12 @@ L'integrazione di Power BI con Azure AD B2B funziona con tutti gli indirizzi di 
 
 È importante riconoscere che l'account Azure AD verrà usato o creato nell'Azure AD della parte esterna, in modo che Lucy possa usare il nome utente e la password e le relative credenziali smetteranno automaticamente di funzionare in altri tenant ogni volta che Lucy lascia la società quando l'organizzazione usa anche Azure AD.
 
-## <a name="licensing"></a>Gestione delle licenze
+## <a name="licensing"></a>Licenze
 
 Contoso può scegliere uno dei tre approcci per concedere le licenze agli utenti Guest dei propri fornitori e organizzazioni partner per accedere ai contenuti Power BI.
 
 > [!NOTE]
-> _Il livello gratuito di Azure ad B2B's è sufficiente per l'uso di Power bi con Azure ad B2B. Alcune funzionalità avanzate Azure AD B2B come i gruppi dinamici richiedono licenze aggiuntive. Per ulteriori informazioni, fare riferimento alla documentazione di Azure ad B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Il livello gratuito di Azure ad B2B's è sufficiente per l'uso di Power bi con Azure ad B2B. Alcune funzionalità avanzate Azure AD B2B come i gruppi dinamici richiedono licenze aggiuntive. Per ulteriori informazioni, fare riferimento alla documentazione di Azure ad B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Approccio 1: contoso USA Power BI Premium
 
@@ -586,7 +586,7 @@ Nell'esempio precedente, gli utenti di ogni fornitore accedono al portale per i 
 
 All'interno dell'app Web, i report Power BI sono incorporati da una distribuzione di Power BI Embedded. L'app Web semplifica l'accesso ai report e ai servizi correlati in un'esperienza coesa per facilitare l'interazione dei fornitori con contoso. Questo ambiente del portale viene isolato dall'ambiente interno di Azure AAD e da Power BI interno di Contoso per garantire che i fornitori non possano accedere a tali risorse. In genere, i dati vengono archiviati in un partner separato data warehouse per garantire anche l'isolamento dei dati. Questo isolamento presenta dei vantaggi poiché limita il numero di utenti esterni con accesso diretto ai dati dell'organizzazione, limitando i dati potenzialmente disponibili per l'utente esterno e limitando la condivisione accidentale con utenti esterni.
 
-Con Power BI Embedded, il portale può sfruttare le licenze vantaggiose, usando il token dell'app o l'utente Master, oltre alla capacità Premium acquistata nel modello di Azure, che semplifica l'assegnazione delle licenze agli utenti finali e consente di aumentare o ridurre le prestazioni in base alle esigenze previste utilizzo. Il portale può offrire un'esperienza complessiva di qualità e coerenza superiore, poiché i partner accedono a un singolo portale progettato con tutte le esigenze di un partner. Infine, poiché le soluzioni basate su Power BI Embedded sono in genere progettate per essere multi-tenant, rendono più semplice garantire l'isolamento tra le organizzazioni partner.
+Con Power BI Embedded, il portale può sfruttare le licenze vantaggiose, usando il token dell'app o l'utente Master, oltre alla capacità Premium acquistata nel modello di Azure, che semplifica l'assegnazione delle licenze agli utenti finali e consente di aumentare o ridurre le prestazioni in base all'utilizzo previsto. Il portale può offrire un'esperienza complessiva di qualità e coerenza superiore, poiché i partner accedono a un singolo portale progettato con tutte le esigenze di un partner. Infine, poiché le soluzioni basate su Power BI Embedded sono in genere progettate per essere multi-tenant, rendono più semplice garantire l'isolamento tra le organizzazioni partner.
 
 Motivi per scegliere questa alternativa:
 
@@ -606,7 +606,7 @@ Motivi per non scegliere questa alternativa:
 
 
 
-## <a name="faq"></a>DOMANDE FREQUENTI
+## <a name="faq"></a>Domande frequenti
 
 **Contoso può inviare un invito che viene riscattato automaticamente, in modo che l'utente sia semplicemente pronto per l'uso? In alternativa, l'utente deve sempre fare clic sull'URL di riscatto?**
 
