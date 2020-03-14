@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304349"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381400"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -45,7 +45,7 @@ Ogni distribuzione di Power BI è costituita da due cluster: un cluster Web Fron
 
 ![WFE e back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI usa Azure Active Directory (**AAD**) per l'autenticazione e la gestione degli account. Power BI usa anche **Gestione traffico di Microsoft Azure** per indirizzare il traffico utente al data center più vicino, determinato dal record DNS del client che sta provando a connettersi, per il processo di autenticazione e per scaricare il contenuto e i file statici. Power BI usa la WFE geograficamente più vicina per distribuire in modo efficiente il contenuto e i file statici necessari agli utenti, ad eccezione degli oggetti visivi personalizzati che vengono recapitati tramite la rete per la **distribuzione di contenuti (CDN) di Azure**.
+Power BI usa Azure Active Directory (**AAD**) per l'autenticazione e la gestione degli account. Power BI usa anche **Gestione traffico di Microsoft Azure** per indirizzare il traffico utente al data center più vicino, determinato dal record DNS del client che sta provando a connettersi, per il processo di autenticazione e per scaricare il contenuto e i file statici. Power BI usa la WFE geograficamente più vicina per distribuire in modo efficiente il contenuto e i file statici necessari agli utenti, ad eccezione degli oggetti visivi Power BI che vengono recapitati tramite la rete per la **distribuzione di contenuti (CDN) di Azure**.
 
 ### <a name="the-wfe-cluster"></a>Cluster Web front-end
 
@@ -83,7 +83,7 @@ Dopo la creazione, tutte le comunicazioni con il cluster Premium vengono instrad
 
 Power BI usa due repository principali per l'archiviazione e la gestione dei dati: i dati caricati degli utenti vengono in genere inviati all'archiviazione **BLOB di Azure** e tutti i metadati e gli artefatti del sistema vengono archiviati, protetti da un firewall, nel **database SQL di Azure**.
 
-![Archiviazione dati](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
+![Archiviazione dei dati](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
 
 Ad esempio, quando un utente importa una cartella di lavoro di Excel nel servizio Power BI, viene creato un database tabulare di Analysis Services in memoria e i dati vengono archiviati in memoria per un massimo di un'ora (o fino a quando si verifica un utilizzo elevato di memoria nel sistema). I dati vengono inviati anche all'archiviazione **BLOB di Azure**.
 
@@ -172,7 +172,7 @@ Una query per un seti di dati di importazione è costituita da una raccolta di q
 La tabella seguente descrive i dati di Power BI in base al tipo di query in uso. Una **X** indica la presenza di dati di Power BI quando si usa il tipo di query associata.
 
 
-|  |Importa  |DirectQuery  |Live Connect  |
+|  |Import  |DirectQuery  |Live Connect  |
 |---------|---------|---------|---------|
 |Schema     |     X    |    X     |         |
 |Riga di dati     |    X     |         |         |
@@ -200,7 +200,7 @@ Le chiavi di crittografia del gateway basate sulla chiave di ripristino non lasc
 
 Per le origini dati basate su cloud, il ruolo di spostamento dei dati consente di crittografare le chiavi di crittografia usando i metodi [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Per altre informazioni, vedere [Always Encrypted (motore di database)](https://msdn.microsoft.com/library/mt163865.aspx).
 
-#### <a name="datasets"></a>Datasets
+#### <a name="datasets"></a>Dataset
 
 1. Metadati (tabelle, colonne, misure, calcoli, stringhe di connessione e così via)
 
@@ -223,7 +223,7 @@ Per le origini dati basate su cloud, il ruolo di spostamento dei dati consente d
         - Se il set di dati è impostato per l'aggiornamento, le credenziali vengono archiviate crittografate nel database SQL di Azure usato per lo spostamento dati. La chiave di crittografia viene archiviata nel computer che esegue il gateway nell'infrastruttura del cliente.
         - Se il set di dati non è impostato per l'aggiornamento, non sono disponibili credenziali archiviate per le origini dati
 
-1. dati
+1. Data
 
     a. Analysis Services in locale e DirectQuery: non viene archiviato nulla nel servizio Power BI.
 
@@ -241,7 +241,7 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
 * Per i dati inattivi in Archiviazione BLOB di Azure, Power BI usa la crittografia lato client e HTTPS per trasferire i dati nell'archiviazione che include controlli di integrità durante il recupero dei dati. È possibile consultare [altre informazioni sulla sicurezza di Archiviazione BLOB di Azure](https://azure.microsoft.com/documentation/articles/storage-security-guide/).
 
-#### <a name="reports"></a>Relazioni
+#### <a name="reports"></a>Report
 
 1. Metadati (definizione del report)
 
@@ -253,13 +253,13 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
 2. Dati statici
 
-   I dati statici includono elementi come immagini di sfondo e oggetti visivi personalizzati.
+   I dati statici includono elementi come immagini di sfondo e Power BI oggetti visivi.
 
     &ensp; &ensp;. Per i report creati con Excel per Office 365, non viene memorizzato alcun valore.
 
     &ensp; &ensp; b. Per i report di Power BI, i dati statici vengono archiviati e crittografati in Archiviazione BLOB di Azure.
 
-3. cache
+3. Cache
 
     &ensp; &ensp;. Per i report creati con Excel per Office 365, nella cache non viene memorizzato alcun valore.
 
@@ -274,7 +274,7 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
 1. Cache: i dati necessari per gli oggetti visivi nel dashboard in genere vengono memorizzati nella cache e archiviati crittografati nel database SQL di Azure. Altri riquadri, ad esempio gli oggetti visivi aggiunti da Excel o SQL Server Reporting Services, vengono archiviati in BLOB di Azure come immagini e vengono anche crittografati.
 
-2. Dati statici: includono artefatti come le immagini di sfondo e gli oggetti visivi personalizzati, che vengono archiviati e crittografati in Archiviazione BLOB di Azure.
+2. Dati statici, che includono elementi come immagini di sfondo e oggetti visivi Power BI archiviati, crittografati, nell'archivio BLOB di Azure.
 
 Indipendentemente dal metodo di crittografia in uso, Microsoft gestisce la crittografia delle chiavi per conto dei clienti, in un archivio segreto o in Azure Key Vault.
 
@@ -282,7 +282,7 @@ Indipendentemente dal metodo di crittografia in uso, Microsoft gestisce la critt
 
 I dispositivi non volatili sono dispositivi che hanno memoria che viene mantenute senza alimentazione costante. Di seguito vengono descritti i dati che vengono temporaneamente archiviati nei dispositivi non volatili. 
 
-#### <a name="datasets"></a>Datasets
+#### <a name="datasets"></a>Dataset
 
 1. Metadati (tabelle, colonne, misure, calcoli, stringhe di connessione e così via)
 
@@ -300,7 +300,7 @@ I dispositivi non volatili sono dispositivi che hanno memoria che viene mantenut
     c. Push dei dati: nessuno (non applicabile)
 
     d. ETL: nessuno (non vengono archiviati dati nel nodo di calcolo né in modo diverso da quello illustrato nella sezione relativa ai **dati inattivi**)
-4. dati
+4. Data
 
     Alcuni artefatti di dati possono essere archiviati sul disco dei nodi di calcolo per un periodo di tempo limitato.
 
@@ -347,8 +347,8 @@ La tabella seguente elenca il supporto dell'autenticazione basata su certificati
 
 | **Supporto dell'autenticazione basata su certificati** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (accesso al servizio) | Supportato | Supportato | Non supportato |
-| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportato | Supportato | Non supportato |
+| **Power BI** (accesso al servizio) | supportati | supportati | Non supportate |
+| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportate | Supportato | Non supportate |
 
 Le app Power BI per dispositivi mobili comunicano attivamente con il servizio Power BI. Per raccogliere statistiche sull'utilizzo delle app per dispositivi mobili e dati simili per la trasmissione a servizi di monitoraggio dell'utilizzo e dell'attività, viene usata la telemetria. Con i dati di telemetria non vengono inviati dati personali dell'utente.
 
@@ -376,7 +376,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 * **SQL Server Analysis Services e Power bi:** Per le organizzazioni che usano SQL Server Analysis Services locali, Power BI offre il Power BI gateway dati locale, ovvero un **gateway**, come a cui si fa riferimento nelle sezioni precedenti.  Il gateway dati locale di Power BI è in grado di applicare la sicurezza a livello di ruolo sulle origini dati. Per altre informazioni sulla sicurezza a livello di ruolo, vedere **Autenticazione utente alle origini dati** più indietro in questo documento. Per altre informazioni sui gateway, vedere [gateway dati locale](service-gateway-onprem.md).
 
-  Le organizzazioni possono anche usare Kerberos per **l'accesso Single Sign-On** (SSO) e connettersi in modo semplice da Power BI a origini dati locali, ad esempio SQL Server, SAP HANA e Teradata. Per altre informazioni e per i requisiti di configurazione specifici, vedere [ **Usare Kerberos per SSO da Power BI alle origini dati locali**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
+  Le organizzazioni possono anche usare Kerberos per **l'accesso Single Sign-On** (SSO) e connettersi in modo semplice da Power BI a origini dati locali, ad esempio SQL Server, SAP HANA e Teradata. Per altre informazioni e per i requisiti di configurazione specifici, vedere [**Usare Kerberos per SSO da Power BI alle origini dati locali**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
 * **Connessioni non di dominio**: per le connessioni dati non appartenenti a un dominio e che non sono idonee per la sicurezza a livello di ruolo, l'utente deve fornire le credenziali durante la sequenza di connessione, che Power bi quindi passa all'origine dati per stabilire la connessione. Se le autorizzazioni sono sufficienti, i dati vengono caricati dall'origine dati nel servizio Power BI.
 
@@ -438,16 +438,16 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
   In base alle informazioni specificate durante la connessione iniziale al servizio Power BI, il browser dell'utente contatta la **rete di distribuzione dei contenuti** di Azure specificata (o, per alcuni file, il **WFE**) per scaricare la raccolta di file comuni specifici, necessari per consentire l'interazione del browser con il servizio Power BI. Per l'intera durata della sessione del browser del servizio Power BI, la pagina del browser include quindi il token AAD, le informazioni sulla sessione, il percorso del cluster **back-end** associato e la raccolta di file scaricati dalla rete **CDN** di Azure e dal cluster **Web front-end**.
 
-**Per gli oggetti visivi personalizzati, Microsoft esegue valutazioni sulla sicurezza o la privacy del codice dell'oggetto visivo personalizzato prima di pubblicare gli elementi nella raccolta?**
+**Per gli oggetti visivi Power BI, Microsoft esegue una valutazione della sicurezza o della privacy del codice visivo personalizzato prima di pubblicare gli elementi nella raccolta?**
 
-* N. È responsabilità del cliente esaminare il codice dell'oggetto visivo personalizzato per determinare se possa essere ritenuto affidabile. L'intero codice dell'oggetto visivo personalizzato viene gestito in un ambiente sandbox per evitare che qualsiasi codice fuori controllo di un oggetto visivo personalizzato possa compromettere il resto del servizio Power BI.
+* No. È responsabilità del cliente esaminare il codice dell'oggetto visivo personalizzato per determinare se possa essere ritenuto affidabile. L'intero codice dell'oggetto visivo personalizzato viene gestito in un ambiente sandbox per evitare che qualsiasi codice fuori controllo di un oggetto visivo personalizzato possa compromettere il resto del servizio Power BI.
 
 **Esistono altri oggetti visivi di Power BI che inviano informazioni all'esterno della rete del cliente?**
 
 * Sì. Gli oggetti visivi Bing Map ed ESRI trasmettono i dati degli oggetti visivi che usano tali servizi all'esterno del servizio Power BI.
 
 **Per le app modello, Microsoft esegue una valutazione della sicurezza o della privacy dell'app modello prima di pubblicare gli elementi nella raccolta?**
-* N. L'autore dell'app è responsabile del contenuto, mentre la responsabilità del cliente di rivedere e determinare se considerare attendibile l'autore dell'app modello. 
+* No. L'autore dell'app è responsabile del contenuto, mentre la responsabilità del cliente di rivedere e determinare se considerare attendibile l'autore dell'app modello. 
 
 **Sono disponibili app modello in grado di inviare informazioni all'esterno della rete del cliente?**
 * Sì. È responsabilità del cliente esaminare l'informativa sulla privacy dell'editore e determinare se installare l'app modello nel tenant. Inoltre, l'editore è responsabile della notifica del comportamento e delle funzionalità dell'app.
@@ -462,7 +462,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 * Le connessioni stabilite per i clienti con sottoscrizioni di Power BI Premium implementano un processo di autorizzazione [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) usando Azure Active Directory (AD) per abilitare il controllo di accesso e autorizzazione. Power BI gestisce le connessioni provenienti dai sottoscrittori di Power BI Premium verso le risorse di Power BI Premium esattamente come gestisce qualsiasi altro utente di Azure AD.
 
-## <a name="conclusion"></a>Conclusioni
+## <a name="conclusion"></a>Conclusione
 
 L'architettura del servizio Power BI è basata su due cluster: il cluster Web front-end (WFE) e il cluster back-end. Il cluster WFE è responsabile della connessione e dell'autenticazione iniziale al servizio Power BI e, dopo l'autenticazione, il cluster Back End gestisce tutte le successive interazioni con l'utente. Power BI usa Azure Active Directory (AAD) per archiviare e gestire le identità degli utenti e gestisce l'archiviazione di dati e metadati usando rispettivamente l'archivio BLOB di Azure e il database SQL di Azure.
 
@@ -480,7 +480,7 @@ Per altre informazioni su Power BI, vedere le risorse seguenti.
 - [Introduzione a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Riferimento all'API di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)
+- [Gateway dati locale](service-gateway-onprem.md)
 - [Cloud nazionali di Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Usare Kerberos per l'accesso SSO da Power BI alle origini dati locali](service-gateway-sso-overview.md)
