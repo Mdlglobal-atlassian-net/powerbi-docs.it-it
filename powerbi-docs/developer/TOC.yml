@@ -129,79 +129,79 @@
         - name: Panoramica
           items:
             - name: Informazioni sull'incorporamento con Power BI
-              href: embedding.md
+              href: embedded/embedding.md
             - name: Informazioni su Power BI Embedded in Azure
-              href: azure-pbie-what-is-power-bi-embedded.md
+              href: embedded/azure-pbie-what-is-power-bi-embedded.md
         - name: Esercitazioni
           items:
             - name: Incorporare contenuto per i clienti
-              href: embed-sample-for-customers.md
+              href: embedded/embed-sample-for-customers.md
             - name: Incorporare contenuto per l'organizzazione
-              href: embed-sample-for-your-organization.md
+              href: embedded/embed-sample-for-your-organization.md
             - name: Incorporare report impaginati per i clienti
-              href: embed-paginated-reports-customers.md
+              href: embedded/embed-paginated-reports-customers.md
             - name: Incorporare contenuto per i cloud nazionali
-              href: embed-sample-for-customers-national-clouds.md
+              href: embedded/embed-sample-for-customers-national-clouds.md
         - name: Concetti
           items:
             - name: Capacità e SKU per le funzionalità di analisi incorporata di Power BI
-              href: embedded-capacity.md
+              href: embedded/embedded-capacity.md
             - name: Pianificazione della capacità
-              href: embedded-capacity-planning.md
+              href: embedded/embedded-capacity-planning.md
             - name: Procedure consigliate per le prestazioni
-              href: embedded-performance-best-practices.md
+              href: embedded/embedded-performance-best-practices.md
             - name: Entità servizio
-              href: embed-service-principal.md
+              href: embedded/embed-service-principal.md
             - name: Sicurezza a livello di riga
-              href: embedded-row-level-security.md
+              href: embedded/embedded-row-level-security.md
             - name: Sicurezza a livello di riga per i report impaginati
-              href: paginated-reports-row-level-security.md
+              href: embedded/paginated-reports-row-level-security.md
             - name: Gestire multi-tenant
-              href: embed-multi-tenancy.md
+              href: embedded/embed-multi-tenancy.md
             - name: Registrazione diagnostica di Azure per Power BI Embedded
-              href: azure-pbie-diag-logs.md
+              href: embedded/azure-pbie-diag-logs.md
             - name: Domande frequenti sull'incorporamento
-              href: embedded-faq.md
+              href: embedded/embedded-faq.md
             - name: Autorizzazioni di Power BI
-              href: power-bi-permissions.md
+              href: embedded/power-bi-permissions.md
         - name: Procedura
           items:
             - name: Incorporare da un'app
-              href: embed-from-apps.md
+              href: embedded/embed-from-apps.md
             - name: Esportare il report nel file
-              href: export-to.md
+              href: embedded/export-to.md
             - name: Installazione automatica di app
-              href: embed-auto-install-app.md
+              href: embedded/embed-auto-install-app.md
             - name: Creare un tenant di Azure Active Directory
-              href: create-an-azure-active-directory-tenant.md
+              href: embedded/create-an-azure-active-directory-tenant.md
             - name: Registrare un'applicazione
-              href: register-app.md
+              href: embedded/register-app.md
             - name: Ottenere un token di accesso di Azure AD
-              href: get-azuread-access-token.md
+              href: embedded/get-azuread-access-token.md
             - name: Connettere un report tramite binding dinamico
-              href: embed-dynamic-binding.md
+              href: embedded/embed-dynamic-binding.md
             - name: Incorporamento di domande e risposte
-              href: qanda.md
+              href: embedded/qanda.md
             - name: Risolvere i problemi dell'applicazione incorporata
-              href: embedded-troubleshoot.md
+              href: embedded/embedded-troubleshoot.md
             - name: Gestire le capacità in Azure
               items:
                 - name: Creare una capacità in Azure
-                  href: azure-pbie-create-capacity.md
+                  href: embedded/azure-pbie-create-capacity.md
                 - name: Creare una capacità tramite Multi-Geo in Azure
-                  href: embedded-multi-geo.md
+                  href: embedded/embedded-multi-geo.md
                 - name: Ridimensionare una capacità in Azure
-                  href: azure-pbie-scale-capacity.md
+                  href: embedded/azure-pbie-scale-capacity.md
                 - name: Sospendere e avviare una capacità in Azure
-                  href: azure-pbie-pause-start.md
+                  href: embedded/azure-pbie-pause-start.md
             - name: Eseguire la migrazione dalle raccolte di aree di lavoro
               items:
                 - name: Come eseguire la migrazione dalle raccolte di aree di lavoro di Power BI
-                  href: migrate-from-powerbi-embedded.md
+                  href: embedded/migrate-from-powerbi-embedded.md
                 - name: Strumento di migrazione
-                  href: migrate-tool.md
+                  href: embedded/migrate-tool.md
                 - name: Frammenti di codice per la migrazione
-                  href: migrate-code-snippets.md
+                  href: embedded/migrate-code-snippets.md
         - name: Riferimento
           items:
             - name: API
@@ -215,7 +215,7 @@
             - name: Download di .NET SDK
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Incorporare layout personalizzati in un'app
-              href: embedded-custom-layout.md
+              href: embedded/embedded-custom-layout.md
         - name: Risorse
           items:
             - name: Dev Center
