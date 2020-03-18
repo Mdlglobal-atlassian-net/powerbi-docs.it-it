@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079279"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488201"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
 
 L'API Power BI consente di eseguire il push dei dati in un set di dati di Power BI. Questo articolo illustra come eseguire il push di un set di dati Sales Marketing contenente una tabella Product in un set di dati esistente.
 
-Per iniziare è necessario avere Azure Active Directory (Azure AD) e un [account Power BI](../create-an-azure-active-directory-tenant.md).
+Per iniziare è necessario avere Azure Active Directory (Azure AD) e un [account Power BI](../embedded/create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Procedura per eseguire il push dei dati in un set di dati
 
-* Passaggio 1: [Registrare un'app in Azure AD](../register-app.md)
+* Passaggio 1: [Registrare un'app in Azure AD](../embedded/register-app.md)
 * Passaggio 2: [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md)
 * Passaggio 3: [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md)
 * Passaggio 4: [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Per uno schema di tabella di Power BI, è possibile usare i tipi di dati seguent
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Altre informazioni sul push dei dati in Power BI
 
-Per iniziare il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app con Azure AD](../register-app.md) nel riquadro di spostamento.
+Per iniziare il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app con Azure AD](../embedded/register-app.md) nel riquadro di spostamento.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Iscriversi a Power BI](../create-an-azure-active-directory-tenant.md)  
+* [Iscriversi a Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Introduzione a JSON](https://json.org/)  
 * [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 

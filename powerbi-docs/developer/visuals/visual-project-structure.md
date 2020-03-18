@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 2db9cdcb1238b5f26a34cf652f8f614411c2992b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427071"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379044"
 ---
 # <a name="power-bi-visual-project-structure"></a>Struttura del progetto per un oggetto visivo di Power BI
 
@@ -63,8 +63,6 @@ Per altre informazioni, vedere [Impostazioni per l'utente e l'area di lavoro](ht
 Questa cartella contiene il file `icon.png`.
 
 Lo strumento per oggetti visivi di Power BI usa questo file come nuova icona visiva di Power BI nel riquadro di visualizzazione di Power BI.
-
-<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
 ### <a name="src"></a>src
 

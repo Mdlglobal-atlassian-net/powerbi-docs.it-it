@@ -1,19 +1,19 @@
 ---
 title: App Power BI per realtà mista (anteprima)
 description: È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima), sia immersi nel mondo virtuale sia nel contesto del proprio ambiente.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879134"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205919"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
 È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima) mentre si è immersi nel mondo virtuale o inserire tali elementi in posizioni specifiche nel contesto del proprio ambiente. 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880315"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380560"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Modalità di modifica avanzata negli oggetti visivi di Power BI
 
@@ -39,7 +39,7 @@ Un pulsante **Modifica** viene visualizzato se:
 
 Se la proprietà `advancedEditModeSupport` non è presente nel file *capabilities.json* o è impostata su `NotSupported`, il pulsante **Modifica** non viene visualizzato.
 
-![Attivare la modalità di modifica](./media/edit-mode.png)
+![Attivare la modalità di modifica](media/advanced-edit-mode/edit-mode.png)
 
 Quando si seleziona **Modifica**, l'oggetto visivo ottiene una chiamata a update() con EditMode impostato su `Advanced`. A seconda del valore impostato nel file *capabilities.json*, vengono eseguite le azioni seguenti:
 

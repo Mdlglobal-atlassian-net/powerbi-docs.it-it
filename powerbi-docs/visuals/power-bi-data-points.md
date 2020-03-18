@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885248"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381446"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Applicare limiti e strategie per i punti dati in base al tipo di oggetto visivo
 
@@ -74,7 +74,7 @@ Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-
 ### <a name="combo-chart"></a>Grafico combinato
  Usa le stesse strategie dell'istogramma. Si noti che la linea nel **grafico combinato** non usa l'algoritmo ad alta densità usato dal **grafico a linee**.
 
-### <a name="custom-visuals"></a>Oggetti visivi personalizzati
+### <a name="power-bi-visuals"></a>Oggetti visivi di Power BI
 È possibile arrivare fino a 30.000, ma sono gli autori dell'oggetto visivo che devono indicare le strategie da usare. Il limite predefinito è 1.000, ma l'autore dell'oggetto visivo può modificarlo, fino a un massimo di 30.000.
 
 ### <a name="doughnut"></a>Anello

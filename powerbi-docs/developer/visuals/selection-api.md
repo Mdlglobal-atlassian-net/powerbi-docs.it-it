@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818894"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379698"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Aggiungere interattività negli oggetti visivi tramite le selezioni degli oggetti visivi di Power BI
 
@@ -179,11 +179,11 @@ Quando l'utente seleziona `Import Car` per `Type` (seleziona i dati in base alla
 | Nissan | **Import Car** | 5485 |
 | Toyota | **Import Car** | 20799 |
 
-![Oggetto visivo con le selezioni per categorie e serie](media/visual-selections-sample.png)
+![Oggetto visivo con le selezioni per categorie e serie](media/selection-api/visual-selections-sample.png)
 
 È necessario compilare i carrelli dati degli oggetti visivi.
 
-![Carrelli dati dell'oggetto visivo con selezioni](media/visual-selections-databuckets.png)
+![Carrelli dati dell'oggetto visivo con selezioni](media/selection-api/visual-selections-databuckets.png)
 
 Sono presenti `Manufacturer` come categoria (colonne), `Type` come serie (righe) e `Value` come `Values` per le serie.
 

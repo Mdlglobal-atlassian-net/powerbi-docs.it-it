@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133728"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208012"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Set di dati nel servizio Power BI
 
@@ -26,7 +26,7 @@ I set di dati del servizio Power BI rappresentano un'origine di dati pronti per 
 - Connessione a un modello di dati esistente non ospitato in una capacità di Power BI
 - Caricamento di un file di Power BI Desktop contenente un modello
 - Caricamento di una cartella di lavoro di Excel (contenente una o più tabelle di Excel e/o un modello di dati della cartella di lavoro) o caricamento di un file con estensione csv (valori delimitati da virgole)
-- Uso del servizio Power BI per creare un [set di dati push](developer/walkthrough-push-data.md)
+- Uso del servizio Power BI per creare un [set di dati push](developer/automation/walkthrough-push-data.md)
 - Uso del servizio Power BI per creare un [set di dati di streaming o di streaming ibrido](service-real-time-streaming.md)
 
 Salvo nel caso dei set di dati di streaming, il set di dati rappresenta un modello di dati che sfrutta le tecnologie di modellazione consolidate di [Analysis Services](/analysis-services/analysis-services-overview).

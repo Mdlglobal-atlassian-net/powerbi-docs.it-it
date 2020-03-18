@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819170"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380041"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Evidenziare i punti dati in oggetti visivi di Power BI
 
 Per impostazione predefinita, ogni volta che un elemento viene selezionato, la matrice `values` nell'oggetto `dataView` viene filtrata in base ai soli valori selezionati. Tutti gli altri oggetti visivi nella pagina visualizzeranno solo i dati selezionati.
 
-![Comportamento di evidenziazione predefinito di "dataView"](./media/highlight-dataview.png)
+![Comportamento di evidenziazione predefinito di "dataView"](media/highlight/highlight-dataview.png)
 
 Se si imposta la proprietà `supportsHighlight` nel file `capabilities.json` su `true`, si riceve la matrice `values` completa non filtrata insieme a una matrice `highlights`. La matrice `highlights` avrà la stessa lunghezza della matrice values e tutti i valori non selezionati verranno impostati su `null`. Se questa proprietà è abilitata, è responsabilità dell'oggetto visivo evidenziare i dati appropriati confrontando la matrice `values` con la matrice `highlights`.
 
-!['dataview' supporta highlight](./media/highlight-dataview-supports.png)
+!['dataview' supporta highlight](media/highlight/highlight-dataview-supports.png)
 
 Nell'esempio si può notare che una barra è selezionata. È l'unico valore nella matrice highlights. È anche importante notare che possono essere presenti più selezioni ed evidenziazioni parziali. I valori evidenziati vengono presentati nella visualizzazione dati.
 
-> [!Note]
+> [!NOTE]
 > Il mapping di viste dati della tabella non supporta la caratteristica highlights.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Evidenziare i punti dati con mapping di visualizzazione dati categorica
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Dove `categoryValues` è una matrice di valori di categoria, `measureValues` è una matrice di misure e `measureHighlights` rappresenta le parti evidenziate dei valori.
 
-> [!Note]
+> [!NOTE]
 > I valori della proprietà `measureHighlights` possono essere minori dei valori della proprietà `categoryValues`.
 > Ciò significa che il valore è stato evidenziato parzialmente.
 
@@ -271,7 +271,7 @@ div.value {
 
 La visualizzazione dell'oggetto visivo nel risultato dovrebbe essere la seguente.
 
-![Oggetti visivi con mapping di visualizzazione dati categorica ed evidenziazione](./media/dev-categorical-visual-highlight-demo.gif)
+![Oggetti visivi con mapping di visualizzazione dati categorica ed evidenziazione](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Evidenziare i punti dati con mapping di visualizzazione dati di matrice
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Dove la proprietà `value` rappresenta il valore del nodo senza applicare una selezione da un altro oggetto visivo e la proprietà highlight indica quale parte dei dati è stata evidenziata.
 
-> [!Note]
+> [!NOTE]
 > Il valore della proprietà `highlight` può essere minore del valore della proprietà `value`.
 > Ciò significa che il valore è stato evidenziato parzialmente.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Come risultato si otterrà l'oggetto visivo con pulsanti e valori `highlighted value/default value`
 
-![Oggetto visivo con mapping della visualizzazione dati della matrice](./media/dev-matrix-visual-highlight-demo.gif)
+![Oggetto visivo con mapping della visualizzazione dati della matrice](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

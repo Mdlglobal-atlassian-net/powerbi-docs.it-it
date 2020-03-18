@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155020"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487810"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Linee guida per le impostazioni di amministrazione del tenant
 
@@ -128,7 +128,7 @@ Se è necessario autorizzare utenti esterni a modificare e gestire il contenuto,
 
 ### <a name="developer-settings"></a>Impostazioni modalità sviluppatore
 
-Sono disponibili due impostazioni del tenant correlate all'[incorporamento del contenuto di Power BI](../developer/embedding.md), ovvero:
+Sono disponibili due impostazioni del tenant correlate all'[incorporamento del contenuto di Power BI](../developer/embedded/embedding.md), ovvero:
 
 - Incorpora il contenuto nelle app (abilitata per impostazione predefinita)
 - Consenti alle entità servizio di usare le API Power BI (disabilitata per impostazione predefinita)

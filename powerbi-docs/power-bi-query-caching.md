@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 1f1d88e2484d48e1f479523dddf6bb0cb63e5d0f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bf9248b29c71f42de9fed53ee0148847a8f60d30
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488638"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Memorizzazione di query nella cache in Power BI Premium/Power BI Embedded
 
@@ -41,4 +41,4 @@ I risultati delle query memorizzate nella cache sono specifici per l'utente e il
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Che cos'è Power BI Premium?](service-premium-what-is.md)
-* [Che cos'è Azure Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)
+* [Che cos'è Azure Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)

@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427715"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207966"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
-Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)** , **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports-save-to-power-bi-service.md)** .
+Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)** , **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
 
@@ -67,7 +67,7 @@ Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non 
 | **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è 1 milione e l'intervallo consentito è compreso tra 100000 e 2147483647. |
 | **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB. |
 | **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. |
-| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile nel carico di lavoro che può essere usata per l'esecuzione di una query MDX o DAX. |
+| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile nel carico di lavoro che può essere usata per l'esecuzione di una query MDX o DAX. Il valore predefinito è 0, che comporta l'applicazione di un limite di memoria query automatico specifico dello SKU. |
 | **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. |
 | **Aggiornamento pagina automatico (anteprima)** | Abilitare/disabilitare l'opzione per consentire alle aree di lavoro Premium di avere report con aggiornamento automatico delle pagine. |
 | **Intervallo di aggiornamento minimo** | Se l'aggiornamento automatico delle pagine è abilitato, è l'intervallo minimo consentito per l'intervallo di aggiornamento della pagina. Il valore predefinito è 5 minuti, il minimo consentito è 1 secondo. |
@@ -102,6 +102,14 @@ Usare questa impostazione per controllare l'effetto dei report a elevato utilizz
 Questa impostazione si applica a tutte le query DAX e MDX eseguite da report Power BI, da report Analizza in Excel e da altri strumenti che possono connettersi tramite l'endpoint XMLA.
 
 Si noti che le operazioni di aggiornamento dei dati possono eseguire anche query DAX nell'ambito dell'aggiornamento dei riquadri del dashboard e delle cache visive dopo l'aggiornamento dei dati nel set di dati. È anche possibile che a causa di questa impostazione tali query abbiano esito negativo e che di conseguenza l'operazione di aggiornamento dei dati venga visualizzata con uno stato di errore, anche se i dati nel set di dati sono stati aggiornati correttamente.
+
+Il valore predefinito è 0, che comporta l'applicazione del limite di memoria query automatico specifico dello SKU indicato di seguito.
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| Limite di memoria query automatico | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>Timeout query
 
@@ -200,7 +208,7 @@ L'[app Metrica per la capacità Power BI Premium](service-admin-premium-monitor-
 
 [Ottimizzazione delle capacità di Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparazione dei dati self-service in Power BI con flusso di dati](service-dataflows-overview.md)   
-[Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Che cosa sono i report impaginati in Power BI Premium?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Aggiornamento automatico della pagina in Power BI Desktop (anteprima)](desktop-automatic-page-refresh.md)
 
 Altre domande? [Inviare una domanda alla community di Power BI](https://community.powerbi.com/)

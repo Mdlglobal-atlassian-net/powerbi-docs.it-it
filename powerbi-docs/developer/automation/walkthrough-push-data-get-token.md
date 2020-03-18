@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079118"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488270"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passaggio 2: Ottenere un token di accesso per l'autenticazione
 
 Questo articolo è il secondo passaggio della serie [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md).
 
-Nel passaggio 1 è stata eseguita la [registrazione di un'app client in Azure AD](../register-app.md). In questo passaggio si ottiene un token di accesso per l'autenticazione. Le app di Power BI sono integrate con Azure Active Directory per offrire accesso e autorizzazione sicuri per l'app. L'app usa un token per l'autenticazione in Azure AD e per l'accesso alle risorse di Power BI.
+Nel passaggio 1 è stata eseguita la [registrazione di un'app client in Azure AD](../embedded/register-app.md). In questo passaggio si ottiene un token di accesso per l'autenticazione. Le app di Power BI sono integrate con Azure Active Directory per offrire accesso e autorizzazione sicuri per l'app. L'app usa un token per l'autenticazione in Azure AD e per l'accesso alle risorse di Power BI.
 
 ## <a name="get-an-authentication-access-token"></a>Ottenere un token di accesso per l'autenticazione
 
-Prima di iniziare, assicurarsi di aver completato il [passaggio precedente](../register-app.md) della serie [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md). 
+Prima di iniziare, assicurarsi di aver completato il [passaggio precedente](../embedded/register-app.md) della serie [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md). 
 
 Questa procedura richiede Visual Studio 2015 o versione successiva.
 
@@ -39,7 +39,7 @@ Questa procedura richiede Visual Studio 2015 o versione successiva.
 
 3. Aggiungere a Program.cs il codice di esempio riportato dopo la procedura.
 
-4. Sostituire "{ClientID}", con l'**ID Client** ottenuto nel [precedente articolo della serie](../register-app.md) quando l'app è stata registrata.
+4. Sostituire "{ClientID}", con l'**ID Client** ottenuto nel [precedente articolo della serie](../embedded/register-app.md) quando l'app è stata registrata.
 
 5. Eseguire l'app console e accedere al proprio account di Power BI. 
 

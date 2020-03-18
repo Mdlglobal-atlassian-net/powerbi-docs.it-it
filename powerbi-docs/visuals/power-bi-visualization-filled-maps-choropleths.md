@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757854"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436066"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creare e usare mappe colorate (coropletiche) in Power BI
 
@@ -63,7 +63,7 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
    > 
    > 
 
-[VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Creare una mappa colorata
 1. Nel riquadro Campi selezionare il campo **Geo** \> **State**.    
@@ -130,7 +130,7 @@ I dati delle mappe possono essere ambigui.  Ad esempio, Washington può corrispo
 
 Se sono disponibili le autorizzazioni per modificare il set di dati in Power BI Desktop, guardare questo video per informazioni su come risolvere le ambiguità della mappa.
 
-[VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Se i dati relativi a latitudine e longitudine non sono disponibili, ma si dispone dell'accesso per la modifica del set di dati, [seguire queste istruzioni per aggiornare il set di dati](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079417"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488433"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 
@@ -25,10 +25,10 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 
 | **Per altre informazioni** | **Vedere questo argomento** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, i report e i riquadri di Power BI](../embed-sample-for-customers.md) |
+| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, i report e i riquadri di Power BI](../embedded/embed-sample-for-customers.md) |
 | Eseguire attività di gestione per oggetti di Power BI. | [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. | [Eseguire il push dei dati in un dashboard](walkthrough-push-data.md) |
-| Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione in Power BI](../get-azuread-access-token.md) |
+| Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione in Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Le API Power BI fanno ancora riferimento alle aree di lavoro come gruppi. I riferimenti ai gruppi indicano che si stanno usando le aree di lavoro.

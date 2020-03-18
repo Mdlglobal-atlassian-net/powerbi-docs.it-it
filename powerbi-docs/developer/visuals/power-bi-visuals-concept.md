@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925605"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378145"
 ---
 # <a name="visuals-in-power-bi"></a>Oggetti visivi in Power BI
 
@@ -22,7 +22,7 @@ Questo articolo descrive come gli oggetti visivi si integrano con Power BI e com
 
 La figura seguente illustra in che modo le azioni comuni basate sugli oggetti visivi eseguite da un utente, ad esempio la selezione di un segnalibro, vengono elaborate in Power BI.
 
-![Diagramma delle azioni su un oggetto visivo di Power BI](./media/visual-concept.svg)
+![Diagramma delle azioni su un oggetto visivo di Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Aggiornamenti degli oggetti visivi da Power BI
 
@@ -131,4 +131,4 @@ Le azioni e i successivi aggiornamenti degli oggetti visivi di Power BI si verif
 Sono disponibili altre informazioni sulla creazione di visualizzazioni e la relativa aggiunta a Microsoft AppSource. Vedere i seguenti articoli:
 
 * [Sviluppare un oggetto visivo di Power BI](./custom-visual-develop-tutorial.md)
-* [Pubblicare oggetti visivi di Power BI nel Centro per i partner](../office-store.md)
+* [Pubblicare oggetti visivi di Power BI nel Centro per i partner](office-store.md)

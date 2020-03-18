@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079325"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488293"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Listato di codice completo per il push dei dati in un set di dati
 
@@ -225,7 +225,7 @@ Al termine dei passaggi da 2 a 5 in **Eseguire il push dei dati in un set di dat
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md)
-* [Registrare un'app in Azure AD](../register-app.md)  
+* [Registrare un'app in Azure AD](../embedded/register-app.md)  
 * [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md)  
 * [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md)  
 * [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md)  

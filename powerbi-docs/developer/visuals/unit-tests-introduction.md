@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879948"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379562"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Esercitazione: Aggiungere unit test per progetti con oggetti visivi di Power BI
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` esegue il test case nel browser Chrome.
 
-![JavaScript Karma aperto in Chrome](./media/karmajs-chrome.png)
+![JavaScript Karma aperto in Chrome](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > È necessario installare Google Chrome in locale.
@@ -453,7 +453,7 @@ La classe `SampleBarChartDataBuilder` estende `TestDataViewBuilder` e implementa
 
 Quando si inseriscono i dati in bucket di campi dati, Power BI produce un oggetto `dataview` categorico basato sui dati.
 
-![Bucket di campi dati](./media/fields-buckets.png)
+![Bucket di campi dati](media/unit-tests-introduction/fields-buckets.png)
 
 Negli unit test non sono disponibili funzioni di base di Power BI per riprodurre i dati. Tuttavia, è necessario eseguire il mapping dei dati statici all'oggetto `dataview` categorico. La classe `TestDataViewBuilder` consente di eseguirne il mapping.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 L'oggetto visivo verrà aperto nel browser Chrome, come illustrato:
 
-![Avvio dello unit test in Chrome](./media/karmajs-chrome-ut-runned.png)
+![Avvio dello unit test in Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 Il riepilogo mostra che la copertura è aumentata. Per altre informazioni sulla code coverage corrente, aprire `coverage\index.html`.
 
-![Indice di code coverage dello unit test](./media/code-coverage-index.png)
+![Indice di code coverage dello unit test](media/unit-tests-introduction/code-coverage-index.png)
 
 In alternativa, esaminare l'ambito della cartella `src`:
 
-![Code coverage della cartella src](./media/code-coverage-src-folder.png)
+![Code coverage della cartella src](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 Nell'ambito del file è possibile visualizzare il codice sorgente. Le utilità `Coverage` evidenzieranno la riga in rosso se un determinato codice non viene eseguito durante gli unit test.
 
-![Code coverage del file visual.ts](./media/code-coverage-visual-src.png)
+![Code coverage del file visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > Il valore della code coverage non significa che la code coverage della funzionalità sia appropriata per l'oggetto visivo. Un semplice unit test fornisce il 96% di code coverage in `src\visual.ts`.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Quando l'oggetto visivo è pronto, è possibile inviarlo per la pubblicazione. Per altre informazioni, vedere [Pubblicare oggetti visivi di Power BI in AppSource](../office-store.md).
+Quando l'oggetto visivo è pronto, è possibile inviarlo per la pubblicazione. Per altre informazioni, vedere [Pubblicare oggetti visivi di Power BI in AppSource](office-store.md).

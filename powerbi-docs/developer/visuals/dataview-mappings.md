@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696645"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380845"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informazioni sul mapping di viste dati in oggetti visivi di Power BI
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Di conseguenza, l'oggetto visivo mostra un valore singolo da Power BI:
 
-![Esempio di oggetto visivo con mapping di vista dati singolo](./media/visual-simple-dataview-mapping.png)
+![Esempio di oggetto visivo con mapping di vista dati singolo](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Mapping dei dati categorico
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 Risultato dell'oggetto visivo:
 
-![Oggetto visivo con mapping di vista dati categorico](./media/categorical-data-view-mapping-visual.png)
+![Oggetto visivo con mapping di vista dati categorico](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Mapping di dati tabella
 
@@ -508,7 +508,7 @@ Con le funzionalità specificate:
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Esempio di dati:
 
 Associazione dati:
 
-![associazioni dati di mapping della vista dati tabella](./media/table-dataview-mapping-data.png)
+![associazioni dati di mapping della vista dati tabella](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI visualizza i dati come vista dati tabella. I dati non sono necessariamente ordinati.
 
@@ -603,7 +603,7 @@ Power BI visualizza i dati come vista dati tabella. I dati non sono necessariame
 
 È possibile aggregare i dati selezionando il campo desiderato e quindi selezionando Somma.  
 
-![Aggregazione di dati](./media/data-aggregation.png)
+![Aggregazione di dati](media/dataview-mappings/data-aggregation.png)
 
 Esempio di codice per elaborare il mapping della vista dati tabella.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![Oggetto visivo con mapping della vista dati tabella](./media/table-dataview-mapping-visual.png)
+![Oggetto visivo con mapping della vista dati tabella](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Mapping di dati matrice
 
@@ -767,7 +767,7 @@ Set di dati:
 
 L'oggetto visivo matrice di base di Power BI esegue il rendering dei dati come tabella.
 
-![Oggetto visivo matrice](./media/matrix-visual-smaple.png)
+![Oggetto visivo matrice](media/dataview-mappings/matrix-visual-smaple.png)
 
 L'oggetto visivo ottiene la struttura dei dati come descritto nel codice seguente (vengono visualizzate solo le prime due righe della tabella):
 

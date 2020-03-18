@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496761"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205551"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
 
@@ -22,8 +22,8 @@ L'app Power BI per dispositivi mobili iOS e Android supporta le impostazioni del
 L'app Power BI per dispositivi mobili supporta gli scenari di configurazione seguenti:
 
 * Configurazione del server di report (iOS e Android)
-* Impostazioni di protezione dei dati (iOS e Android)
-* Impostazioni di interazione (Android)
+* Impostazioni di protezione dei dati (iOS)
+* Impostazioni di interazione (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configurazione del server di report (iOS e Android)
 
@@ -38,19 +38,23 @@ L'app Power BI per iOS e Android consente agli amministratori di eseguire il pus
 
 ## <a name="data-protection-settings-ios"></a>Impostazioni di protezione dei dati (iOS)
 
-L'app Power BI per iOS e Android offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
+L'app Power BI per iOS offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
 
 | Key | Tipo | Descrizione |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | Il valore predefinito è False. <br><br>Per consentire agli utenti di accedere all'app sul loro dispositivo, possono essere necessari dati biometrici come TouchID o FaceID. Quando richiesto, oltre all'autenticazione vengono usati dati biometrici.<br><br>Se si usano criteri di protezione delle app, è consigliabile disabilitare questa impostazione per impedire le richieste di doppio accesso. |
 
-## <a name="interaction-settings-android"></a>Impostazioni di interazione (Android)
+## <a name="interaction-settings-ios-and-android"></a>Impostazioni di interazione (iOS e Android)
 
-L'app Power BI per Android offre agli amministratori la possibilità di configurare le impostazioni di interazione se si decide che le impostazioni di interazione predefinite devono essere modificate per gruppi di utenti in un'organizzazione. 
+L'app Power BI per iOS e Android offre agli amministratori la possibilità di configurare le impostazioni di interazione se si decide che le impostazioni di interazione predefinite devono essere modificate per gruppi di utenti in un'organizzazione.
+
+>[!NOTE]
+>Non tutte le interazioni sono attualmente supportate in tutti i dispositivi. Vedere [Configurare le impostazioni di interazione con i report](mobile-app-interaction-settings.md) per un grafico che mostra la disponibilità attuale tra i dispositivi.
 
 | Key | Tipo | Valori | Descrizione |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Stringa |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Consente di specificare se il tocco su un oggetto visivo consentirà anche di selezionare un punto dati. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | Consente di specificare se un tocco su un punto dati sostituirà la selezione corrente o verrà aggiunto alla stessa. |
 | com.microsoft.powerbi.mobile.RefreshAction | Stringa |  <nobr>pull-to-refresh</nobr><br>. | Consente di specificare se l'utente avrà a disposizione un pulsante per aggiornare il report o se dovrà trascinare verso il basso. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Stringa |  docked<br>dinamico | Consente di specificare se il piè di pagina del report sarà ancorato alla parte inferiore del report o nascosto automaticamente. |
 

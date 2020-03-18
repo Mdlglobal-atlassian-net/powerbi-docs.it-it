@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875080"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488868"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Usare Domande e risposte di Power BI per esplorare dati e creare oggetti visivi
 
 A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. La funzionalità Domande e risposte di Power BI consente di esplorare i dati usando le parole del linguaggio naturale.  La prima parte di questo articolo spiega come usare Domande e risposte nei dashboard del servizio Power BI. La seconda parte illustra le operazioni che è possibile eseguire con Domande e risposte quando si creano report nel servizio Power BI o in Power BI Desktop. Per altre informazioni, vedere l'articolo [Domande e risposte per i consumer](consumer/end-user-q-and-a.md). 
 
-Gli argomenti relativi a [Domande e risposte nelle app Power BI per dispositivi mobili](consumer/mobile/mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati. 
+Gli argomenti relativi a [Domande e risposte nelle app Power BI per dispositivi mobili](consumer/mobile/mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/embedded/qanda.md) vengono illustrati in articoli separati. 
 
 Domande e risposte è una funzionalità interattiva, anche divertente. Una domanda porta spesso a formulare altre domande man mano che le visualizzazioni rivelano percorsi interessanti da perseguire. Il video seguente mostra come usare Domande e risposte per creare visualizzazioni, analizzare questi oggetti visivi e aggiungerli ai dashboard.
 

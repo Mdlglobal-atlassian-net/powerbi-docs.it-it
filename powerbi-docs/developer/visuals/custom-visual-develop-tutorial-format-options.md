@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498492"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381009"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
@@ -287,4 +287,4 @@ Per suggerimenti sul debug dell'oggetto visivo personalizzato, vedere la [guida 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-È possibile elencare l'oggetto visivo di recente sviluppo per consentirne l'uso da parte di altri utenti inviandolo ad **AppSource**. Per altre informazioni su questo processo, fare riferimento a [Pubblicare oggetti visivi personalizzati in AppSource](../office-store.md).
+È possibile elencare l'oggetto visivo di recente sviluppo per consentirne l'uso da parte di altri utenti inviandolo ad **AppSource**. Per altre informazioni su questo processo, vedere [Pubblicare oggetti visivi di Power BI in AppSource](office-store.md).

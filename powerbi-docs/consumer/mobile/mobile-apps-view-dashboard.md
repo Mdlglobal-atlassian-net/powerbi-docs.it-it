@@ -1,19 +1,19 @@
 ---
 title: Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 description: Dopo aver creato dashboard o report o aver eseguito la connessione a tali elementi nel servizio Power BI, è possibile visualizzarli nelle app Power BI per dispositivi mobili.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218364"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205528"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758084"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436089"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creare e usare grafici combinati in Power BI
 
@@ -98,8 +98,7 @@ La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, pe
    ![Esempio di grafico combinato cluster](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Aggiungere titoli agli assi
-1. Selezionare l'icona del rullo 
-1. ![Icona del rullo](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro Formato.
+1. Selezionare l'icona del rullo ![Icona del rullo](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro Formato.
 1. Selezionare la freccia rivolta verso il basso per espandere le opzioni relative all' **asse Y** .
 1. Per **Asse Y (colonna)** , impostare **Posizione** su **A sinistra**, **Titolo** su **Sì**, **Stile** su **Mostra solo titolo** e **Unità visualizzate** su **Milioni**.
 

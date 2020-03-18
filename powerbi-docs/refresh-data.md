@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039045"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488799"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -76,7 +76,7 @@ Poiché Power BI non importa i dati, non è necessario eseguire un aggiornamento
 I set di dati di push non contengono una definizione formale di un'origine dati, quindi non richiedono l'esecuzione di un aggiornamento dei dati in Power BI. Per aggiornarli, eseguire il push dei dati nel set di dati usando un processo o servizio esterno, ad esempio Analisi di flusso di Azure. Si tratta di un approccio comune le analisi in tempo reale con Power BI. Power BI esegue comunque gli aggiornamenti della cache per tutti i riquadri usati per un set di dati di push. Per una procedura dettagliata, vedere l'[esercitazione: Analisi di flusso e Power BI: un dashboard di analisi in tempo reale per il flusso di dati](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> La modalità push presenta diverse limitazioni, come spiegato in [Limitazioni dell'API REST di Power BI](developer/api-rest-api-limitations.md).
+> La modalità push presenta diverse limitazioni, come spiegato in [Limitazioni dell'API REST di Power BI](developer/automation/api-rest-api-limitations.md).
 
 ### <a name="power-bi-refresh-types"></a>Tipi di aggiornamento di Power BI
 
@@ -317,7 +317,7 @@ L'icona di avviso consente di rilevare i problemi correnti dei set di dati, ma �
 
 ## <a name="automatic-page-refresh"></a>Aggiornamento automatico delle pagine
 
-L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium e le [aree di lavoro incorporate](developer/embedding.md).
+L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium e le [aree di lavoro incorporate](developer/embedded/embedding.md).
 
 Per altre informazioni sull'aggiornamento automatico delle pagine, vedere l'articolo [Aggiornamento automatico della pagina](desktop-automatic-page-refresh.md).
 
