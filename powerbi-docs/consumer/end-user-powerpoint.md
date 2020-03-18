@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830547"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113768"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ Da questo momento in poi, le operazioni da eseguire con la presentazione di Powe
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Quando si lavora con la funzionalità **Esporta in PowerPoint** è necessario tenere presenti alcune considerazioni e limitazioni.
 
-* Gli oggetti visivi R non sono attualmente supportati. Tutti questi oggetti visivi vengono esportati come un'immagine vuota in PowerPoint con un messaggio di errore che informa che l'oggetto visivo non è supportato.
+* Gli oggetti visivi R e Python non sono attualmente supportati. Tutti questi oggetti visivi vengono esportati come un'immagine vuota in PowerPoint con un messaggio di errore che informa che l'oggetto visivo non è supportato.
 * Gli oggetti visivi personalizzati che sono stati certificati sono supportati. Per altre informazioni sugli oggetti visivi personalizzati certificati, tra cui come certificare un oggetto visivo personalizzato, vedere [Ottenere la certificazione di un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md). Gli oggetti visivi personalizzati non certificati non sono supportati. Vengono esportati come un'immagine vuota in PowerPoint con un messaggio di errore che informa che l'oggetto visivo non è supportato.
+* L'oggetto visivo ESRI non è supportato.
 * I report con più di 30 pagine attualmente non possono essere esportati.
 * Gli oggetti visivi con barre di scorrimento vengono esportati nello stato predefinito. L'oggetto visivo in PowerPoint mostrerà solo la parte superiore dei dati. Lo scorrimento in PowerPoint non è disponibile perché ogni diapositiva è un'immagine. 
 * Il completamento del processo di esportazione del report in PowerPoint potrebbe richiedere alcuni minuti, quindi è consigliabile attendere. I fattori che possono influire sul tempo necessario includono la struttura del report e il carico corrente del servizio Power BI.
@@ -89,6 +92,7 @@ Quando si lavora con la funzionalità **Esporta in PowerPoint** è necessario te
 * Come indicato in precedenza, ogni pagina del report viene esportata come singola immagine nel file di PowerPoint.
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PowerPoint. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) > **Impostazioni** > **Generale** > **Lingua**.
 * L'orario **scaricato alle** indicato sulla diapositiva di copertina per il file di PowerPoint esportato è impostata sul fuso orario del computer al momento dell'esportazione.
+* Quando si esegue l'esportazione in un file con estensione pptx, nei report che usano temi con tipi di carattere personalizzati il tipo di carattere personalizzato viene sostituito con un tipo di carattere predefinito.
 * I filtri URL non vengono attualmente rispettati quando si sceglie **Valori correnti** per l'esportazione.
 
 ## <a name="next-steps"></a>Passaggi successivi

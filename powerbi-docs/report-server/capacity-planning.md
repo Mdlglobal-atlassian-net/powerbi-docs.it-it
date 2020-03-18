@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565720"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401994"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 Il server di report di Power BI è una soluzione di business intelligence aziendale self-service e di creazione di report aziendali che i clienti possono distribuire localmente, dietro a firewall. Combina le funzionalità di report interattivi di Power BI Desktop con la piattaforma server locale di SQL Server Reporting Services. Con la crescita dell'utilizzo intenso delle analisi e dei report all'interno delle aziende, può risultare difficile allocare fondi sufficienti per l'infrastruttura hardware e le licenze software necessarie per la scalabilità per una base utenti aziendale. Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. Benché i report, le query e i modelli di utilizzo delle organizzazioni possano presentare differenze significative, i risultati presentati in questo articolo, oltre ai test effettivi usati e a una descrizione dettagliata della relativa modalità di esecuzione, possono servire da punto di riferimento per chiunque stia completando le fasi preliminari del processo di pianificazione della distribuzione del server di report di Power BI.
@@ -143,4 +143,3 @@ Se si vuole eseguire lo strumento Reporting Services LoadTest con la propria dis
 5. Dopo aver completato la distribuzione dell'ambiente, seguire le istruzioni riportate in https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution per eseguire i test.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

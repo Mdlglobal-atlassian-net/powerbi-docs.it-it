@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74310980"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401250"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usare il drill-through in Power BI Desktop
 Con il *drill-through* in Power BI Desktop, è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Per usare la funzione di drill-through, è possibile selezionarla facendo clic con il pulsante destro del mouse su un punto dati in altre pagine di report ed eseguendo il drill-through nella pagina evidenziata per ottenere dettagli che vengono filtrati in base a tale contesto.
@@ -33,6 +33,11 @@ Con il *drill-through* in Power BI Desktop, è possibile creare una pagina nel r
     Quando si aggiunge un campo all'area **Filtri di drill-through**, Power BI Desktop crea automaticamente un oggetto visivo pulsante *Indietro*. Tale oggetto visivo diventa un pulsante nei report pubblicati. Gli utenti che utilizzano il report nel servizio Power BI usano questo pulsante per tornare alla pagina del report da cui sono arrivati.
 
     ![Immagine del drill-through](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> È possibile configurare ed eseguire il drill-through a una pagina nello stesso report, ma non si può eseguire il drill-through a una pagina in un report diverso.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Usare un'immagine personalizzata per un pulsante Indietro    
  Poiché il pulsante Indietro è un'immagine, è possibile sostituire l'immagine di tale oggetto visivo con qualsiasi altra immagine desiderata. Tale immagine continuerà a funzionare come pulsante Indietro per permettere agli utenti del report di tornare alla pagina originale. 
@@ -54,13 +59,12 @@ Per usare un'immagine personalizzata per un pulsante Indietro, seguire questa pr
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Filtri in drill-through
 
-A partire dalla versione di maggio 2018 di Power BI Desktop, è possibile passare tutti i filtri applicati alla finestra di drill-through. Ad esempio, è possibile selezionare solo una determinata categoria di prodotti e gli oggetti visivi filtrati per tale categoria e quindi selezionare il drill-through. È interessante vedere che aspetto ha il drill-through con tutti questi filtri applicati.
+È possibile passare tutti i filtri applicati alla finestra di drill-through. Ad esempio, è possibile selezionare solo una determinata categoria di prodotti e gli oggetti visivi filtrati per tale categoria e quindi selezionare il drill-through. È interessante vedere che aspetto ha il drill-through con tutti questi filtri applicati.
 
 Per mantenere tutti i filtri applicati, nella sezione **Drill-through** del riquadro **Visualizzazioni** impostare **Mantieni tutti i filtri** su **Attivato**. 
 
 ![Mantieni tutti i filtri](media/desktop-drillthrough/drillthrough_06.png)
 
-Nelle versioni di Power BI Desktop precedenti a quella di maggio 2018, il comportamento equivale a impostare l'interruttore su **Disattivato**.
 
 Quando si esegue il drill-through su un oggetto visivo, è possibile vedere quali filtri sono stati applicati come risultato dell'applicazione di filtri temporanei all'oggetto visivo di origine. Nella sezione **Drill-through** del riquadro **Visualizzazione** tali filtri temporanei vengono visualizzati in corsivo. 
 

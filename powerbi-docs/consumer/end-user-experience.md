@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975149"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040148"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -72,7 +72,7 @@ Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero da
 
 ![Aree di lavoro personali ](./media/end-user-experience/power-bi-workspaces.png)
 
-In **Area di lavoro personale** viene archiviato tutto il contenuto di cui si è proprietari o autori. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Per molti *utenti finali* di Power BI, l'**Area di lavoro personale** rimane vuota perché il loro lavoro non implica la creazione di nuovi contenuti.  Gli *utenti finali*, per definizione, usufruiscono di dati creati da altri e li usano per prendere decisioni aziendali. Se si è autori di contenuto, è consigliabile leggere invece gli [articoli di Power BI per *progettisti*](../power-bi-creator-landing.md).
+In **Area di lavoro personale** viene archiviato tutto il contenuto di cui si è proprietari o autori. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Per molti *utenti finali* di Power BI, l'**Area di lavoro personale** rimane vuota perché il loro lavoro non implica la creazione di nuovi contenuti.  Gli *utenti finali*, per definizione, usufruiscono di dati creati da altri e li usano per prendere decisioni aziendali. Se si è autori di contenuto, è invece consigliabile leggere gli [articoli di Power BI per *autori di report*](../index.yml).
 
 Le **aree di lavoro per le app** includono tutto il contenuto per l'app specifica.  Quando un *progettista* crea un'app, aggrega tutto il contenuto necessario per utilizzare tale app.  Selezionare l'area di lavoro Sales and Marketing per visualizzare il contenuto incluso dal *progettista* nell'app. 
 

@@ -1,19 +1,19 @@
 ---
 title: Esplorare i dati di Power BI nell'app per dispositivi mobili in Apple Watch
 description: App Power BI per Apple Watch
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73870719"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114529"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Esplorare i dati nell'app Power BI per dispositivi mobili in Apple Watch
 Con l'app Power BI per Apple Watch è possibile visualizzare gli indicatori KPI e i riquadri del dashboard di Power BI direttamente sull'orologio. Gli indicatori KPI e i riquadri sono ideali per fornire una misura heartbeat su uno schermo di piccole dimensioni. È possibile aggiornare un dashboard da iPhone o dallo stesso Apple Watch.
@@ -83,7 +83,7 @@ Dato lo spazio ridotto sul quadrante dell'Apple Watch, l'app Power BI per Apple 
 > 
 
 ## <a name="next-steps"></a>Passaggi successivi
-I commenti e suggerimenti degli utenti ci aiutano a decidere quali funzioni implementare in futuro, quindi è importante votare per proporre altre funzionalità da aggiungere nelle app per dispositivi mobili di Power BI. 
+I commenti e suggerimenti degli utenti ci aiutano a decidere quali funzioni implementare in futuro, quindi è importante che gli utenti votino per proporre altre funzionalità da aggiungere alle app per dispositivi mobili di Power BI. 
 
 * Scaricare l'[app Power BI per dispositivi mobili per iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * Seguire [@MSPowerBI su Twitter](https://twitter.com/MSPowerBI)

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875666"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114982"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. I dati potrebbero essere un foglio di calcolo di Excel o una raccolta di data warehouse basati sul cloud o ibridi locali. Power BI consente di connettersi facilmente alle origini dati, visualizzare e scoprire le informazioni importanti e condividerle con tutti gli utenti o con quelli necessari.
@@ -51,9 +51,9 @@ Esplorare i documenti pertinenti al ruolo:
 Un flusso di lavoro comune in Power BI inizia con la connessione alle origini dati e la creazione di un report in Power BI Desktop. Il report viene poi pubblicato da Power BI Desktop nel servizio Power BI e condiviso, in modo che gli utenti finali del servizio Power BI e dei dispositivi mobili possano visualizzare e interagire con il report.
 Questo flusso di lavoro è comune e illustra le interazioni e la complementarietà dei tre elementi principali di Power BI.
 
-Di seguito viene proposto un [confronto dettagliato tra Power BI Desktop e il servizio Power BI](../designer/service-service-vs-desktop.md).
+Di seguito viene proposto un [confronto dettagliato tra Power BI Desktop e il servizio Power BI](../fundamentals/service-service-vs-desktop.md).
 
-## <a name="on-premises-reporting-with-power-bi-report-server"></a>Creazione di report in locale con il server di report di Power BI
+## <a name="on-premises-reporting-with-power-bi-report-server"></a>Report locali con Server di report di Power BI
 
 Se non si è pronti a passare al cloud ed è necessario mantenere i report dietro un firewall aziendale,  continuare a leggere.
 

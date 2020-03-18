@@ -1,19 +1,19 @@
 ---
 title: Single Sign-On nell'app per dispositivi mobili Power BI per Windows
 description: Informazioni sull'autenticazione Single Sign-On (SSO) nell'app per dispositivi mobili Power BI per Windows. SSO consente di accedere a tutte le applicazioni e a tutte le risorse necessarie per le proprie attività effettuando la procedura di accesso una sola volta, con un unico account utente.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876662"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114733"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Single Sign-On nell'app per dispositivi mobili Power BI per Windows
 
@@ -29,7 +29,7 @@ Per semplificare la procedura di accesso, quando si installa l'app per la prima 
 
 Se si sta già usando l'app Power BI per dispositivi mobili per Windows, con l'aggiornamento alla nuova versione sarà possibile usare anche l'accesso SSO. Disconnettersi dall'app, chiuderla e riaprirla. Quando l'app verrà riaperta, proverà automaticamente ad autenticare l'utente con il servizio Power BI tramite le credenziali Windows correnti. 
 
-Se non si vogliono usare le credenziali della sessione attiva di Windows per accedere a Power BI, è sufficiente passare a **Impostazioni**, disconnettersi e accedere con credenziali diverse. 
+Se non si vogliono usare le credenziali della sessione attiva di Windows per accedere a Power BI, passare a **Impostazioni**, disconnettersi e accedere con credenziali diverse. 
  
 ## <a name="next-steps"></a>Passaggi successivi
 

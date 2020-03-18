@@ -5,21 +5,21 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496214"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039949"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servizio Power BI per i consumer
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-La cultura attuale prevede che le decisioni aziendali siano basate sui fatti e non sulle opinioni. Sono necessari dati per prendere queste decisioni e si ricevono dati in tutte le forme:     
+La cultura attuale prevede che le decisioni aziendali siano basate sui fatti e non sulle opinioni. Per prendere queste decisioni sono necessari dati, e si ricevono dati in qualsiasi formato:     
  
 report, fogli di calcolo, messaggi di posta elettronica con grafici e anche stampe. Quando i dati si accumulano, diventa sempre più difficile trovare le informazioni necessarie in modo rapido e si corre il rischio di non riuscire a usare le informazioni più aggiornate.  
  
@@ -31,11 +31,11 @@ Con Power BI il processo è più semplice e più efficace allo stesso tempo. Tut
 
 ![Dashboard di Power BI](media/end-user-consumer/power-bi-consumer-examples.png)
  
-È sufficiente aprire il servizio Power BI, in un browser o in un dispositivo mobile. Tutti gli utenti possono lavorare basandosi sugli stessi dashboard e report attendibili, che vengono aggiornati automaticamente, in modo da avere sempre a disposizione il contenuto più aggiornato.   
+È sufficiente aprire il servizio Power BI, in un browser o in un dispositivo mobile. Tutti gli utenti possono lavorare basandosi sugli stessi dashboard e report attendibili, che vengono aggiornati automaticamente, in modo da offrire sempre il contenuto più aggiornato.   
 
 ![Dashboard di Power BI](media/end-user-consumer/power-bi-funnel.png)
 
-Dato che il contenuto non è statico, è possibile approfondire, cercare tendenze, informazioni dettagliate e altri dati di business intelligence, nonché filtrare e sezionare il contenuto o persino porre domande usando parole proprie. È anche possibile sfruttare le funzionalità automatiche di individuazione di informazioni interessanti dai dati, invio di avvisi per le modifiche dei dati e invio dei report tramite posta elettronica in base a una pianificazione impostata. Tutti i dati sono a disposizione in qualsiasi momento, nel cloud o in locale, da qualsiasi dispositivo. Questi sono solo pochi esempi delle potenzialità di Power BI. 
+Dato che il contenuto non è statico, è possibile approfondire e cercare tendenze, informazioni cognitive dettagliate e altri dati di business intelligence, nonché filtrare e sezionare il contenuto o persino porre domande usando parole proprie. È anche possibile sfruttare le funzionalità automatiche di individuazione di informazioni interessanti dai dati, invio di avvisi per le modifiche dei dati e invio dei report tramite posta elettronica in base a una pianificazione impostata. Tutti i dati sono a disposizione in qualsiasi momento, nel cloud o in locale, da qualsiasi dispositivo. Questi sono solo alcuni esempi delle potenzialità di Power BI. 
 
 ## <a name="am-i-a-power-bi-consumer"></a>Caratteristiche dei *consumer* di Power BI
 
@@ -45,7 +45,7 @@ I consumer non hanno accesso a tutte le funzionalità di Power BI e ciò è corr
 
 Il termine "Power BI Desktop" o semplicemente "Desktop" indica uno strumento autonomo usato dai *progettisti*, che creano i dashboard e i report e li condividono con gli utenti.  È importante sapere che sono disponibili altri strumenti di Power BI, ma che il consumer usa solo il servizio Power BI. 
 
-Poiché si lavora con contenuto *condiviso*, sarà necessaria una licenza di Power BI Pro o Premium. [Quali licenze sono disponibili?](end-user-license.md)
+Poiché si sta lavorando con contenuto *condiviso*, è necessario avere una licenza standard **gratuita** funzionante in un'organizzazione che usa la capacità **Premium**. [Quali licenze sono disponibili?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagire in modo sicuro con i contenuti 

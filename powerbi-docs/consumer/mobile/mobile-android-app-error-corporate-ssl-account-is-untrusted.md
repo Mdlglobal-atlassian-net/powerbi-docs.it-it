@@ -1,23 +1,23 @@
 ---
 title: Risoluzione di "Il certificato SSL aziendale non è considerato attendibile"
-description: Quando si accede all'app Android per Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile
+description: Quando si accede all'app Android per Power BI può essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile"
 .": ''
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/28/2019
-ms.author: mshenhav
-ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879471"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114611"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Risoluzione di "Il certificato SSL aziendale non è considerato attendibile" - Power BI
-Quando si accede all'app per dispositivi mobili Android per Microsoft Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile da questo dispositivo. Contattare l'amministratore IT della società". 
+Quando si accede all'app per dispositivi mobili Android per Microsoft Power BI può essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile da questo dispositivo. Contattare l'amministratore IT della società". 
 
 Le operazioni necessarie di solito dipendono dal sistema operativo nel dispositivo Android, ma ci sono un paio di altri problemi che potrebbero causare questo errore.
 

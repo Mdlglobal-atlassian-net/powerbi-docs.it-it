@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888880"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113292"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Trovare i dashboard, i report e le app
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 In Power BI il termine *contenuto* si riferisce ad app, dashboard e report. Il contenuto viene creato dai *progettisti* di Power BI, che lo condividono con i colleghi. Il contenuto è accessibile e visualizzabile nel servizio Power BI e il punto di partenza migliore per lavorare in Power BI è l'area **Home** di Power BI.
 
 ## <a name="explore-power-bi-home"></a>Esplorare l'area Home di Power BI
@@ -29,7 +31,7 @@ Power BI visualizza l'area Home, come illustrato nella figura seguente.
  
 ![Screenshot dell'area Home per il servizio Power BI.](media/end-user-home/power-bi-home.png)
 
-Home di Power BI consente di individuare e visualizzare il contenuto in tre modi diversi. Tutti e tre permettono di accedere allo stesso pool di contenuti, sono semplicemente modi diversi per ottenere tale contenuto. In alcuni casi, la ricerca sarà il modo più semplice e rapido per trovare qualcosa, in altri invece l'opzione migliore consisterà nel selezionare una *scheda* nell'area Home.
+Home di Power BI consente di individuare e visualizzare il contenuto in tre modi diversi. Tutti e tre consentono di accedere allo stesso pool di contenuti e sono semplicemente modi diversi per ottenere tale contenuto. In alcuni casi, la ricerca sarà il modo più semplice e rapido per trovare qualcosa, in altri invece l'opzione migliore consisterà nel selezionare una *scheda* nell'area Home.
 
 - L'area Home visualizza e organizza i contenuti preferiti e più recenti, oltre ai contenuti consigliati e alle risorse per l'apprendimento. Ogni parte del contenuto viene visualizzata come *scheda*, con un titolo e un'icona. Selezionando una scheda si apre il contenuto.
 - Lungo il lato sinistro si trova un riquadro di spostamento. In questo riquadro lo stesso contenuto è organizzato in modo leggermente diverso, in Preferiti, Recenti, App e Condivisi con l'utente corrente. Da qui è possibile visualizzare gli elenchi di contenuto e selezionare quello da aprire.
@@ -42,7 +44,7 @@ Nell'area Home è possibile visualizzare tutti i contenuti che si è autorizzati
 
 L'area Home viene aggiornata anche con i contenuti consigliati e le risorse per l'apprendimento. 
  
-Quando si lavora nel servizio Power BI, si riceveranno dashboard, report e app dai colleghi e quindi l'area Home di Power BI finirà per riempirsi. Nel corso del tempo, potrebbe essere simile all'area seguente.
+Quando si lavora nel servizio Power BI si ricevono dashboard, report e app dai colleghi fino a quando l'area Home di Power BI risulta piena. Nel corso del tempo, potrebbe essere simile all'area seguente.
 
 ![Screenshot della schermata iniziale per il servizio Power BI.](media/end-user-home/power-bi-home-oldest.png)
 
@@ -52,7 +54,7 @@ Gli argomenti successivi esaminano l'area Home nel dettaglio, dall'alto verso il
 ## <a name="most-important-content-at-your-fingertips"></a>Contenuti più importanti a portata di mano
 
 ### <a name="favorites-and-frequents"></a>Preferiti e ad accesso frequente
-Questa sezione superiore contiene i collegamenti ai contenuti che si visitano più spesso o che sono stati contrassegnati come [in primo piano o preferiti](end-user-favorite.md). Si noti che alcune schede hanno le stelle gialle. Quelle due app e quel dashboard sono stati contrassegnati come preferiti. 
+Questa sezione superiore contiene collegamenti ai contenuti che si visitano più spesso o che sono stati contrassegnati come [in primo piano o preferiti](end-user-favorite.md). Si noti che alcune schede hanno le stelle gialle. Quelle due app e quel dashboard sono stati contrassegnati come preferiti. 
 
 ![Riquadro a comparsa Preferiti](./media/end-user-home/power-bi-favorites-frequents.png)
 
@@ -109,7 +111,7 @@ Il riquadro di spostamento organizza il contenuto in contenitori simili a quelli
 Il riquadro di spostamento offre un altro modo per trovare rapidamente il contenuto desiderato. Il contenuto è organizzato in modo simile all'area Home, ma viene visualizzato in elenchi invece che in schede. 
 
 ## <a name="search-all-of-your-content"></a>Cercare tutto il contenuto
-In alcuni casi, il modo più rapido per trovare il contenuto è cercarlo. Si supponga, ad esempio, di essersi accorti che un dashboard che non viene usato da un po' non è visualizzato nell'area Home o di ricordare che il collega Aaron ha condiviso un contenuto ma non ricordare come lo ha chiamato o che tipo di contenuto ha condiviso, ovvero un dashboard o un report. Oppure di avere un contenuto di grandi dimensioni in cui è più semplice la ricerca rispetto allo scorrimento o all'ordinamento. 
+In alcuni casi, il modo più rapido per trovare il contenuto è cercarlo. Si supponga ad esempio di aver notato che un dashboard non usato da qualche tempo non è visualizzato nell'area Home, oppure di ricordare che il collega Aaron ha condiviso un contenuto, ma di non ricordare come lo ha chiamato o che tipo di contenuto ha condiviso (un dashboard o un report). Oppure di avere un contenuto di grandi dimensioni in cui è più semplice la ricerca rispetto allo scorrimento o all'ordinamento. 
  
 Il campo di ricerca si trova nella sezione superiore destra della barra dei menu dell'area Home. È possibile immettere il nome completo o parziale del dashboard e cercarlo. È anche possibile immettere il nome del collega e cercare il contenuto che ha condiviso. L'ambito della ricerca è limitato alle corrispondenze in tutto il contenuto di cui si è proprietari o a cui si ha accesso.
 

@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537808"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040091"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -22,7 +22,9 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 ## <a name="a"></a>A
 
-**account** Esistono diversi tipi di account Power BI.  Un account Power BI Pro è una sottoscrizione mensile a pagamento.  Un account Power BI gratuito consente la visualizzazione del contenuto ospitato nella capacità Power BI Premium.  
+**account** Esistono diversi tipi di account Power BI, detti anche *licenze*.  Gli account possono essere account per utente o aziendali. Gli account per utente possono essere *gratuiti* o *Pro*.  Un utente di Power BI con *licenza gratuita* usa Power BI Desktop in modalità autonoma oppure usa il servizio Power BI nel contesto di un account aziendale Premium. L'account per utente *Pro* di Power BI è una sottoscrizione mensile a pagamento, che consente la collaborazione e la condivisione di contenuti con altri utenti *Pro*. 
+
+L'account aziendale *Premium* (detto anche *capacità Premium*) aggiunge un livello di funzionalità supplementari alle licenze per utente. Ad esempio, i titolari di account per utente *gratuiti* all'interno di un'organizzazione che dispone di una licenza *Premium* possono eseguire molte più operazioni con Power BI rispetto agli utenti con account *gratuiti* senza licenza *Premium*. Ad esempio, gli utenti con account *gratuiti* negli account aziendali *Premium* possono collaborare con i colleghi e visualizzare il contenuto ospitato nella capacità Power BI Premium.  
 
 **admin portal (portale di amministrazione)** La posizione in cui gli amministratori di Power BI gestiscono utenti, funzionalità e impostazioni di Power BI nell'organizzazione. (Nota: Office 365, Azure e PowerApps usano l'interfaccia di amministrazione.)
 
@@ -170,6 +172,8 @@ I controlli lungo il bordo sinistro del servizio Power BI.
 
 Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostamento
 
+**licenza** Vedere *account*.
+
 **pagina elenco** o **elenco del contenuto** Una delle pagine di sezione per gli elementi nel riquadro di spostamento. Ad esempio, Preferiti, Recenti, Area di lavoro personale, e così via.
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 
 **Power BI Embedded** Un prodotto usato dagli sviluppatori per incorporare dashboard e report Power BI nelle proprie app, siti e strumenti.
 
-**Power BI Premium** Un componente aggiuntivo alla licenza Power BI Pro che consente alle organizzazioni di scalare in modo prevedibile le soluzioni di business intelligence tramite l'acquisto di hardware dedicato.
+**Power BI Premium** Un componente aggiuntivo alla licenza Power BI Pro che consente alle organizzazioni di scalare in modo prevedibile le soluzioni di business intelligence tramite l'acquisto di hardware dedicato. Vedere *account*.
 
-**Power BI Pro license (licenza Power BI Pro)** Una licenza utente mensile che consente di compilare dashboard, collaborare sui dati condivisi, mantenere automaticamente i dati aggiornati, controllare e regolare la modalità di accesso e uso dei dati e la possibilità di inserire in pacchetti il contenuto da distribuire (le app di Power BI).
+**Power BI Pro** Licenza per utente mensile che consente di compilare report e dashboard, collaborare sui dati condivisi, mantenere automaticamente i dati aggiornati, controllare e regolare la modalità di accesso e uso dei dati e inserire in pacchetti il contenuto da distribuire (app di Power BI). Vedere *account*.
 
 **Power BI Report Server (Server di report di Power BI)** Una nuova offerta personalizzata di SSRS proposta con Power BI Premium per consentire alle organizzazioni di creare sistemi di business intelligence distribuiti e ibridi (un misto tra le distribuzioni cloud e locali). Embedded offre un modo localizzato per archiviare e gestire report di Power BI.
 
 **Power BI service (Servizio Power BI)** Servizio SaaS (Software as a Service) online. Per altre informazioni, vedere [Che cos'è Power BI](../fundamentals/power-bi-overview.md).
 
 **Premium workspace (area di lavoro Premium)** Un'area di lavoro in esecuzione nella capacità dedicata, indicata ai clienti da un'icona a forma di rombo.  
+
+**Pro** (licenza) o **Pro** (account): vedere *account*.
 
 **publish (pubblicare)** I *progettisti* di report di Power BI aggregano i contenuti di un'area di lavoro di Power BI per renderli disponibili ad altri utenti sotto forma di app Power BI. I *progettisti* di report di Power BI usano il termine "pubblicare" per indicare l'invio di un report di Power BI Desktop in formato pbix al servizio Power BI in modo da poter compilare i dashboard a partire da tale report e condividerlo con altri utenti. 
 

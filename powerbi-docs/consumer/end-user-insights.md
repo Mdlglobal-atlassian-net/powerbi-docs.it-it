@@ -7,24 +7,27 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863392"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113099"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Ogni [riquadro](end-user-tiles.md) di oggetto visivo nel dashboard è una porta di accesso per l'esplorazione dei dati. Quando si seleziona un riquadro, viene aperto un report o [viene aperto Domande e risposte](end-user-q-and-a.md) in cui è possibile filtrare e ordinare il set di dati del report oppure esaminare i dati in maggiore dettaglio. E quando si eseguono informazioni dettagliate, Power BI esegue automaticamente l'esplorazione dei dati.
 
 ![Menu puntini di sospensione](./media/end-user-insights/power-bi-insight.png)
 
 Usare la funzionalità Informazioni dettagliate per generare oggetti interattivi interessanti basati sui dati. Le informazioni dettagliate possono essere eseguite su un riquadro del dashboard specifico ed è anche possibile eseguire informazioni dettagliate su altre informazioni dettagliate.
 
-La funzionalità Informazioni dettagliate si basa su un [set di algoritmi analitici avanzati](end-user-insight-types.md) sviluppati in collaborazione con Microsoft Research per consentire a più utenti di trovare informazioni dettagliate nei propri dati in modi nuovi e intuitivi.
+La funzionalità Informazioni dettagliate si basa su un [set di algoritmi analitici avanzati](end-user-insight-types.md) sviluppati in collaborazione con Microsoft Research, che consentono a più utenti di trovare informazioni dettagliate nei propri dati in modi nuovi e intuitivi.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Eseguire informazioni dettagliate su un riquadro del dashboard
 Quando si eseguono informazioni dettagliate su un riquadro del dashboard, Power BI cerca solo i dati usati per creare tale riquadro specifico. 

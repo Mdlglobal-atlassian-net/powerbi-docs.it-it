@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537508"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040150"
 ---
 # <a name="export-data-from-a-visual"></a>Esportare dati da un oggetto visivo
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-I dati usati per creare un oggetto visivo [possono essere visualizzati in Power BI](end-user-show-data.md) oppure possono essere esportati in Excel. L'opzione per esportare i dati richiede un certo tipo o una licenza e le autorizzazioni di modifica per il contenuto. Se non è possibile eseguire l'esportazione, contattare l'amministratore di Power BI. 
+I dati usati per creare un oggetto visivo [possono essere visualizzati in Power BI](end-user-show-data.md) oppure possono essere esportati in Excel. L'opzione per esportare i dati richiede un certo tipo o una licenza e le autorizzazioni di modifica per il contenuto. Se non è possibile eseguire l'esportazione, contattare l'amministratore di Power BI. L'esportazione dei dati richiede una licenza di Power BI Pro, ovvero una licenza Pro per utente o una licenza Pro per utente all'interno di un'organizzazione che dispone di una licenza con capacità Premium. In genere questo tipo di licenza viene usato dai *progettisti* di report e non dai *consumer* di report. Per altre informazioni, vedere [Quali licenze sono disponibili?](end-user-license.md).
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Da un oggetto visivo in un dashboard di Power BI
 

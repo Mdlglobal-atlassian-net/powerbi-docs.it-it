@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259817"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041564"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -21,6 +21,29 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>Febbraio 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Modalità selezione multipla (Android e iOS)
+
+È stata aggiunta la possibilità di selezionare più punti dati in una pagina del report. Quando la selezione multipla è attivata, ogni punto dati toccato viene aggiunto agli altri punti dati selezionati e i risultati combinati vengono evidenziati automaticamente in tutti gli oggetti visivi della pagina. Per attivare la modalità di selezione multipla, passare alla pagina delle [impostazioni dell'app per dispositivi mobili](./mobile-app-interaction-settings.md).
+
+>[!NOTE]
+>La modalità di selezione multipla sarà supportata nei server di report di Power BI a partire dalla versione successiva del server di report.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>Il piè di pagina del report ora può essere sempre visibile nell'app per dispositivi mobili per iPhone
+
+Nell'iPhone, come nel telefono Android, ora è possibile decidere di ancorare il piè di pagina del report nella parte inferiore della pagina del report, dove è sempre visibile e disponibile indipendentemente dalle azioni eseguite nella pagina. Questo semplifica l'uso di tutte le opzioni incluse nel piè di pagina. Per ancorare il piè di pagina, attivare o disattivare l'opzione **Docked report footer** (Piè di pagina del report ancorato) nella pagina delle [impostazioni dell'app per dispositivi mobili](./mobile-app-interaction-settings.md).
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>Supporto per i report PBIRS (anteprima) (Windows)
+
+Ora è possibile aprire i report del Server di report di Power BI (PBIRS, Power BI Report Server) nell'app Power BI.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Accedere rapidamente agli elementi recenti (Windows)
+
+Fare clic con il pulsante destro del mouse sull'icona dell'app Power BI nella barra delle applicazioni di Windows per ottenere un elenco di tutti gli elementi visualizzati di recente. Fare clic su qualsiasi elemento nell'elenco per tornare a visualizzarlo direttamente.
+
+![Menu di accesso rapido della barra delle applicazioni](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Gennaio 2020
 
@@ -38,7 +61,7 @@ Gli utenti Android hanno segnalato un'esperienza non ottimale per l'uso dei repo
 
 Gli utenti che preferiscono il comportamento precedente possono ripristinare questi comportamenti con le nuove [impostazioni di interazione](./mobile-app-interaction-settings.md) ampliate dell'app per dispositivi mobili.
 
-Inoltre, gli amministratori IT possono [sostituire in remoto le nuove impostazioni predefinite](./mobile-app-configuration.md#interaction-settings-android) per conto dei propri utenti, usando lo strumento MDM preferito con un file di configurazione dell'app. In questo modo è possibile configurare lo stesso comportamento per tutti gli utenti di un'organizzazione.
+Inoltre, gli amministratori IT possono [sostituire in remoto le nuove impostazioni predefinite](./mobile-app-configuration.md#interaction-settings-ios-and-android) per conto dei propri utenti, usando lo strumento MDM preferito con un file di configurazione dell'app. In questo modo è possibile configurare lo stesso comportamento per tutti gli utenti di un'organizzazione.
 
 > [!NOTE]
 > Le impostazioni di interazione per il pulsante di aggiornamento e per l'ancoraggio del piè di pagina del report non vengono applicate attualmente ai report del server di report. Questo comportamento cambierà nella versione del server di report di gennaio.
@@ -96,7 +119,7 @@ Vedere altre informazioni sull'[esperienza di spostamento personalizzata](https:
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Presentazione del nuovo aspetto di Power BI per dispositivi mobili (anteprima) (iOS e Android)
 
-L'app è stata aggiornata e sono state introdotte nuove esperienze, con l'aggiunta di una home page che consente di accedere rapidamente ai contenuti usati di frequente e di nuovi riquadri di spostamento che offrono un modo semplice per spostarsi nell'app. Con le esperienze nuove e aggiornate, ora è più veloce e più semplice trovare quello che ti serve, quando ti serve.
+L'app è stata aggiornata e sono state introdotte nuove esperienze, con l'aggiunta di una home page che consente di accedere rapidamente ai contenuti usati di frequente e di nuovi riquadri di spostamento che offrono un modo semplice per spostarsi nell'app. Con le esperienze nuove e aggiornate, ora è più veloce e più semplice trovare quello che serve, quando serve.
 Poiché il nuovo aspetto è disponibile in anteprima, per poterlo apprezzare sarà necessario attivarlo.
 Altre informazioni sul [ nuovo aspetto di Power BI](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/).
 
@@ -210,7 +233,7 @@ Il riquadro del filtro del report è ora disponibile per i report orizzontali (o
 
 ### <a name="modern-visual-header"></a>Intestazione moderna dell'oggetto visivo 
 
-I report che usano la nuova 'intestazione moderna dell'oggetto visivo' non allocheranno più spazio per le intestazioni, di conseguenza lo spazio vuoto risulterà ridotto e ci sarà più spazio per le visualizzazioni.
+I report che usano la nuova "intestazione moderna dell'oggetto visivo" non allocano più spazio per le intestazioni, pertanto lo spazio vuoto risulta ridotto ed è disponibile più spazio per le visualizzazioni.
 
 ### <a name="enhance-presentation-mode-windows"></a>Modalità di presentazione migliorata (Windows)
 
@@ -521,7 +544,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di di
 #### <a name="all-devices"></a>Tutti i dispositivi
 **Aggiornamento in background non in linea**
 
-Per assicurarsi che sia possibile accedere ai dati più recenti mentre non in linea, viene eseguito un aggiornamento in background dell'app in modo che le informazioni aziendali siano aggiornate, anche se non vi si accede da tempo. Per assicurarsi che determinati dashboard siano sempre aggiornati, contrassegnarli come preferiti. Altre informazioni sulle [funzionalità offline nelle app Power BI per dispositivi mobili](mobile-apps-offline-data.md).
+Per garantire che sia possibile accedere ai dati più recenti non in linea viene eseguito un aggiornamento in background dell'app, in modo che le informazioni aziendali siano aggiornate anche se non vi si accede da tempo. Per assicurarsi che determinati dashboard siano sempre aggiornati, contrassegnarli come preferiti. Altre informazioni sulle [funzionalità offline nelle app Power BI per dispositivi mobili](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivi iOS
 **Aggiungere annotazioni e condividere**
@@ -703,7 +726,7 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 
 **Raccolta report** Aprire i report direttamente nella raccolta report.​
 
-**Dati aggiornati offline**: il nuovo aggiornamento in background aggiorna automaticamente i dati memorizzati nella cache quando si è online, per poter usare i dati più recenti [anche quando si passa alla modalità offline](mobile-apps-offline-data.md). 
+**Dati aggiornati offline**: il nuovo aggiornamento in background aggiorna automaticamente i dati memorizzati nella cache quando si è online, per consentire l'uso dei dati più recenti [anche quando si passa alla modalità offline](mobile-apps-offline-data.md). 
 
 **Riquadri Bing e R** Aprire i riquadri Bing e R in modalità messa a fuoco.​
 
@@ -712,10 +735,10 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 
 **Visualizzare i report** Aprire i report dai riquadri nei dashboard.​
 
-**Dati aggiornati offline**: il nuovo aggiornamento in background aggiorna automaticamente i dati memorizzati nella cache quando si è online, per poter usare i dati più recenti [anche quando si passa alla modalità offline](mobile-apps-offline-data.md). 
+**Dati aggiornati offline**: il nuovo aggiornamento in background aggiorna automaticamente i dati memorizzati nella cache quando si è online, per consentire l'uso dei dati più recenti [anche quando si passa alla modalità offline](mobile-apps-offline-data.md). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>App Power BI per dispositivi Windows 10
-**Accesso rapido**: accedere rapidamente a dashboard, report e gruppi con un nuovo elenco "visualizzati di recente" e la ricerca rapida per trovare i dati di cui si ha bisogno.
+**Accesso rapido**: è possibile accedere rapidamente a dashboard, report e gruppi con un nuovo elenco "visualizzati di recente" e la ricerca rapida per trovare i dati desiderati.
 
 **Riquadri Bing e R** Aprire i riquadri Bing e R in modalità messa a fuoco.​
 
@@ -812,7 +835,7 @@ Miglioramenti delle app Power BI per dispositivi mobili: Android, iOS (iPhone e 
 
 #### <a name="android"></a>Telefoni
 * Supporto per le aree di lavoro di gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
-* Supporto per gli utenti non autenticati:  per i rari casi in cui gli utenti non riescono ad accedere all'app è stato aggiunto un modo pratico e veloce per contattare il supporto e inviare commenti e suggerimenti.
+* Supporto per gli utenti non autenticati:  nei rari casi in cui gli utenti non riescono ad accedere all'app, è stato aggiunto un modo pratico e veloce per contattare il supporto e inviare commenti e suggerimenti.
 * Miglioramento dell'esperienza utente per l'accesso ai dashboard con la sicurezza basata sui ruoli.          
 * Miglioramento della formattazione dei dati dei grafici e allineamento di tutti i riquadri dei dashboard. 
 
@@ -825,11 +848,10 @@ Miglioramenti delle app Power BI per dispositivi mobili: Android, iOS (iPhone e 
 * Miglioramenti ottimizzati per il tocco per i riquadri dei grafici a matrice: è ora possibile scorrere i dati della matrice e visualizzare tutti i relativi dati in modo semplice e intuitivo.
 * Miglioramento della formattazione dei dati dei grafici e allineamenti dei riquadri dei dashboard. 
 * Rimozione del supporto di iOS 7: per garantire i massimi standard di sicurezza per Power BI, i dispositivi con iOS 7 non sono più supportati. È necessario iOS 8 o versioni successive. 
-* Aggiunta nell'app della funzionalità per l'invio di commenti e suggerimenti nonché di valutazioni: è stata aggiunta una funzionalità in-app per inviare commenti e suggerimenti e fornire valutazioni in modo da poter aumentare l'influenza della community sulla roadmap e rilasciare nuove versioni facilmente e direttamente dall'app.
+* Aggiunta nell'app della funzionalità per l'invio di commenti e suggerimenti nonché di valutazioni: è stata aggiunta una funzionalità in-app per inviare commenti e suggerimenti e offrire valutazioni, in modo da poter aumentare l'influenza della community sulla roadmap e aumentare il grado di importanza dei problemi in modo facile, direttamente dall'app.
 
 #### <a name="windows"></a>Windows
 * Miglioramento del rendering delle tessere mappa nello stato attivo per ingrandire l'area dello schermo.
 * Miglioramento dell'esperienza utente per l'accesso ai dashboard con la sicurezza basata sui ruoli. 
 * Una nuova funzionalità consente di spostarsi avanti e indietro tra i riquadri del dashboard esplorandoli direttamente nello stato attivo senza dover tornare al dashboard per selezionare il riquadro successivo.
 * Ulteriori miglioramenti alla stabilità e alle prestazioni. 
-

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851235"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114237"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ In Power BI un report si basa su un singolo set di dati. I *designer* di report 
 Durante l'esplorazione e l'interazione con il contenuto, ovvero l'applicazione di filtri, il sezionamento, la sottoscrizione e l'esportazione, non è possibile danneggiare i report in alcun modo. Le attività svolte non influiscono sul set di dati sottostante o sul contenuto originale condiviso. Ciò si applica a dashboard, report e app.
 
 > [!NOTE]
-> Ricordare che non esiste il pericolo di danneggiare i dati. Power BI è un ambiente ideale in cui esplorare e sperimentare senza il timore di danneggiare qualcosa.
+> Ricordare che non esiste il pericolo di danneggiare i dati. Power BI è un ambiente ideale in cui esplorare e sperimentare senza il timore di danneggiare elementi esistenti.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Salvare le modifiche oppure ripristinare le impostazioni predefinite
 

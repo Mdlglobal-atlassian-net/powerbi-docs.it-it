@@ -12,7 +12,7 @@
         - name: Panoramica
           items:
             - name: Oggetti visivi in Power BI
-              href: power-bi-custom-visuals.md
+              href: visuals/power-bi-custom-visuals.md
         - name: Esercitazioni
           items:
             - name: Sviluppare un oggetto visivo di Power BI
@@ -28,11 +28,11 @@
             - name: Concetti per gli oggetti visivi
               href: visuals/power-bi-visuals-concept.md
             - name: Oggetti visivi per le organizzazioni in Power BI
-              href: power-bi-custom-visuals-organization.md
+              href: visuals/power-bi-custom-visuals-organization.md
             - name: Linee guida per gli oggetti visivi di Power BI
-              href: guidelines-powerbi-visuals.md
+              href: visuals/guidelines-powerbi-visuals.md
             - name: Domande frequenti sugli oggetti visivi
-              href: power-bi-custom-visuals-faq.md
+              href: visuals/power-bi-custom-visuals-faq.md
             - name: Uso delle funzionalità
               href: visuals/capabilities.md
             - name: Mapping di visualizzazione dati
@@ -44,9 +44,9 @@
         - name: Procedura
           items:
             - name: Ottenere un oggetto visivo Power BI certificato
-              href: power-bi-custom-visuals-certified.md
+              href: visuals/power-bi-custom-visuals-certified.md
             - name: Pubblicare oggetti visivi di Power BI in AppSource
-              href: office-store.md
+              href: visuals/office-store.md
             - name: Usare oggetti visivi di Power BI basati su R in Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Interazioni oggetti visivi
@@ -76,7 +76,7 @@
             - name: Eseguire il debug degli oggetti visivi
               href: visuals/visuals-how-to-debug.md
             - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
-              href: power-bi-custom-visuals-troubleshoot.md
+              href: visuals/power-bi-custom-visuals-troubleshoot.md
         - name: Riferimento
           items:
             - name: Pagina di destinazione
@@ -119,7 +119,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Esempi
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Repository Git degli oggetti visivi personalizzati
+            - name: Archivio GIT di oggetti visivi di Power BI
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: Creazione del certificato SSL
               href: visuals/create-ssl-certificate.md

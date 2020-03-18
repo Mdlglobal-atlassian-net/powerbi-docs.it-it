@@ -7,279 +7,284 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: be7a708dfcc6ebc40c62a1a9075e2cbf134363b1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.topic: how-to
+ms.date: 02/24/2020
+ms.openlocfilehash: 3614505cec185779bce3f63c6e7a565a5ef39443
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818687"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920885"
 ---
-# <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Utilità di interattività per gli oggetti visivi di Microsoft Power BI
+# <a name="power-bi-visuals-interactivity-utils"></a>Utilità di interattività per gli oggetti visivi di Power BI
 
-InteractivityUtils è un set di funzioni e classi che consentono di semplificare l'implementazione di selezione incrociata e filtro incrociato per gli oggetti visivi personalizzati di Power BI.
+L'utilità di interattività (`InteractivityUtils`) è un set di funzioni e classi che consentono di semplificare l'implementazione di selezione incrociata e filtro incrociato.
+
+> [!NOTE]
+> I nuovi aggiornamenti dell'utilità di interattività supportano solo la versione più recente degli strumenti (3.x.x e versioni successive).
 
 ## <a name="installation"></a>Installazione
 
-> [!NOTE]
-> Se si continua a usare la versione precedente di powerbi-visuals-tools (numero di versione inferiore a 3.x.x), installare la nuova versione degli strumenti (3.x.x).
+1. Per installare il pacchetto, eseguire il comando seguente nella directory con l'oggetto visivo di Power BI corrente.
 
-> [!IMPORTANT]
-> I nuovi aggiornamenti dell'utilità di interattività supporteranno solo la versione più recente degli strumenti. [Altre informazioni su come aggiornare il codice dell'oggetto visivo da usare con gli strumenti più recenti](migrate-to-new-tools.md)
+    ```bash
+    npm install powerbi-visuals-utils-interactivityutils --save
+    ```
 
-Per installare il pacchetto, è necessario eseguire il comando seguente nella directory con l'oggetto visivo personalizzato corrente:
+2. Se si usa la versione 3.0 o successiva dello strumento, installare `powerbi-models` per risolvere le dipendenze.
 
-```bash
-npm install powerbi-visuals-utils-interactivityutils --save
-```
+    ```bash
+    npm install powerbi-models --save
+    ```
 
-A partire dalla versione 3.0 o successive, è necessario installare anche ```powerbi-models``` per risolvere le dipendenze.
+3. Per usare l'utilità di interattività, importare il componente necessario nel codice sorgente dell'oggetto visivo di Power BI.
 
-```bash
-npm install powerbi-models --save
-```
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```
 
-Per usare l'utilità di interattività, è necessario importare il componente necessario nel codice sorgente dell'oggetto visivo.
+### <a name="including-the-css-files"></a>Inclusione dei file CSS
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
-```
-
-### <a name="including-css-artifacts-to-the-custom-visual"></a>Inclusione di artefatti CSS nell'oggetto visivo personalizzato
-
-Per usare il pacchetto con gli oggetti visivi personalizzati, è necessario importare il file CSS seguente nel file `your.less`:
+Per usare il pacchetto con gli oggetti visivi di Power BI, è necessario importare il file CSS seguente nel file `.less`.
 
 `node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css`
 
-Si otterrà quindi la struttura di file seguente:
+Importare il file CSS come file `.less` perché lo strumento per gli oggetti visivi di Power BI esegue il wrapping delle regole CSS esterne.
 
 ```less
 @import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
 ```
 
-> [!NOTE]
-> È necessario importare il file con estensione css come file con estensione less perché gli strumenti per oggetti visivi di Power BI eseguono il wrapping delle regole CSS esterne.
+## <a name="selectabledatapoint-properties"></a>Proprietà SelectableDataPoint
 
-## <a name="usage"></a>Usage
+I punti dati contengono in genere selezioni e valori. L'interfaccia estende l'interfaccia `SelectableDataPoint`.
 
-### <a name="define-interface-for-data-points"></a>Definire l'interfaccia per i punti dati
-
-I punti dati contengono in genere selezioni e valori. L'interfaccia estende l'interfaccia `SelectableDataPoint`. `SelectableDataPoint` contiene già proprietà:
+`SelectableDataPoint` contiene già le proprietà descritte di seguito.
 
 ```typescript
-  /** Flag for identifying that data point was selected */
+  /** Flag for identifying that a data point was selected */
   selected: boolean;
+
   /** Identity for identifying the selectable data point for selection purposes */
   identity: powerbi.extensibility.ISelectionId;
-  /**
+
+  /*
    * A specific identity for when data points exist at a finer granularity than
-   * selection is performed.  For example, if your data points should select based
-   * only on series even if they exist as category/series intersections.
+   * selection is performed.  For example, if your data points select based
+   * only on series, even if they exist as category/series intersections.
    */
+
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-Il primo passaggio dell'uso dell'utilità di interattività prevede la creazione di un'istanza dell'utilità di interattività e il salvataggio dell'oggetto come proprietà dell'oggetto visivo
+## <a name="defining-an-interface-for-data-points"></a>Definizione di un'interfaccia per i punti dati
 
-```typescript
-export class Visual implements IVisual {
-  // ...
-  private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
-  // ...
-  constructor(options: VisualConstructorOptions) {
+1. Creare un'istanza dell'utilità di interattività e salvare l'oggetto come proprietà dell'oggetto visivo
+
+    ```typescript
+    export class Visual implements IVisual {
       // ...
-      this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+      private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
       // ...
-  }
-}
-```
+      constructor(options: VisualConstructorOptions) {
+          // ...
+          this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+          // ...
+      }
+    }
+    ```
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
 
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-```
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+    ```
 
-Il secondo passaggio consiste nell'estendere la classe di comportamento di base:
+2. Estendere la classe del comportamento di base.
 
-> [!NOTE]
-> La classe BaseBehavior è stata introdotta nella [versione 5.6.x dell'utilità di interattività](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Se si usa la versione precedente, creare la classe di comportamento dall'esempio seguente (la classe `BaseBehavior` è la stessa):
+    > [!NOTE]
+    > La classe `BaseBehavior` è stata introdotta nella [versione 5.6.x dell'utilità di interattività](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Se si usa una versione precedente, creare la classe di comportamento dall'esempio seguente.
 
-Definire l'interfaccia per le opzioni della classe di comportamento:
+3. Definire l'interfaccia per le opzioni della classe di comportamento.
 
-```typescript
-import { SelectableDataPoint } from "./interactivitySelectionService";
+    ```typescript
+    import { SelectableDataPoint } from "./interactivitySelectionService";
 
-import {
-    IBehaviorOptions,
-    BaseDataPoint
-} from "./interactivityBaseService";
+    import {
+        IBehaviorOptions,
+        BaseDataPoint
+    } from "./interactivityBaseService";
 
-export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
-    /** D3 selection object of main elements on the chart */
+    export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
+
+    /** d3 selection object of the main elements on the chart */
     elementsSelection: Selection<any, SelectableDataPoint, any, any>;
-    /** D3 selection object of some element on backgroup to hadle click of reset selection */
+
+    /** d3 selection object of some elements on backgroup, to hadle click of reset selection */
     clearCatcherSelection: d3.Selection<any, any, any, any>;
-}
-```
+    }
+    ```
 
-Definire una classe per `visual behavior`. La classe è responsabile della gestione degli eventi del mouse `click`, `contextmenu`.
-Quando un utente fa clic sugli elementi dati, l'oggetto visivo chiama il gestore di selezione per selezionare i punti dati. Se l'utente fa clic sull'elemento di sfondo dell'oggetto visivo, viene chiamato il gestore di cancellazione della selezione. La classe ha i metodi corrispondenti: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+4. Definire una classe per `visual behavior`. In alternativa, estendere la classe `BaseBehavior`.
 
-```typescript
-export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
-    /** D3 selection object of main elements on the chart */
-    protected options: BaseBehaviorOptions<SelectableDataPointType>;
-    protected selectionHandler: ISelectionHandler;
+    **Definizione di una classe per `visual behavior`**
 
+    La classe è responsabile della gestione degli eventi del mouse `click` `contextmenu`.
+
+    Quando un utente fa clic sugli elementi dati, l'oggetto visivo chiama il gestore di selezione per selezionare i punti dati. Se l'utente fa clic sull'elemento di sfondo dell'oggetto visivo, viene chiamato il gestore di cancellazione della selezione.
+
+    La classe ha i metodi corrispondenti indicati di seguito:
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`.
+
+    ```typescript
+    export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
+
+        /** d3 selection object of main elements in the chart */
+        protected options: BaseBehaviorOptions<SelectableDataPointType>;
+        protected selectionHandler: ISelectionHandler;
+    
+        protected bindClick() {
+          // ...
+        }
+    
+        protected bindClearCatcher() {
+          // ...
+        }
+    
+        protected bindContextMenu() {
+          // ...
+        }
+    
+        public bindEvents(
+            options: BaseBehaviorOptions<SelectableDataPointType>,
+            selectionHandler: ISelectionHandler): void {
+          // ...
+        }
+    
+        public renderSelection(hasSelection: boolean): void {
+          // ...
+        }
+    }
+    ```
+
+    **Estensione della classe `BaseBehavior`**
+
+    ```typescript
+    import powerbi from "powerbi-visuals-api";
+    import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
+
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+
+    export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
+      // ...
+    }
+    ```
+
+5. Per gestire il clic sugli elementi, chiamare il metodo `on` dell'oggetto di selezione *d3*. Questo vale anche per `elementsSelection` e `clearCatcherSelection`.
+
+    ```typescript
     protected bindClick() {
-      // ...
+      const {
+          elementsSelection
+      } = this.options;
+    
+      elementsSelection.on("click", (datum) => {
+          const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
+          mouseEvent && this.selectionHandler.handleSelection(
+              datum,
+              mouseEvent.ctrlKey);
+      });
     }
+    ```
 
-    protected bindClearCatcher() {
-      // ...
-    }
+6. Aggiungere un gestore simile per l'evento `contextmenu` per chiamare il metodo `showContextMenu` di gestione selezione.
 
+    ```typescript
     protected bindContextMenu() {
-      // ...
+        const {
+            elementsSelection
+        } = this.options;
+    
+        elementsSelection.on("contextmenu", (datum) => {
+            const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
+            if (event) {
+                this.selectionHandler.handleContextMenu(
+                    datum,
+                    {
+                        x: event.clientX,
+                        y: event.clientY
+                    });
+                event.preventDefault();
+            }
+        });
     }
+    ```
 
-    public bindEvents(
-        options: BaseBehaviorOptions<SelectableDataPointType>,
-        selectionHandler: ISelectionHandler): void {
-      // ...
-    }
+7. Per assegnare le funzioni ai gestori, l'utilità di interattività chiama il metodo `bindEvents`. Aggiungere le chiamate seguenti al metodo `bindEvents`:
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`
 
+    ```typescript
+      public bindEvents(
+          options: BaseBehaviorOptions<SelectableDataPointType>,
+          selectionHandler: ISelectionHandler): void {
+
+          this.options = options;
+          this.selectionHandler = selectionHandler;
+
+          this.bindClick();
+          this.bindClearCatcher();
+          this.bindContextMenu();
+      }
+    ```
+
+8. Il metodo `renderSelection` è responsabile dell'aggiornamento dello stato di visualizzazione degli elementi nel grafico. Di seguito è riportata un'implementazione di esempio di `renderSelection`.
+
+    ```typescript
     public renderSelection(hasSelection: boolean): void {
-      // ...
+        this.options.elementsSelection.style("opacity", (category: any) => {
+            if (category.selected) {
+                return 0.5;
+            } else {
+                return 1;
+            }
+        });
     }
-}
-```
+    ```
 
-In alternativa, è possibile estendere la classe`BaseBehavior`:
+9. L'ultimo passaggio consiste nella creazione di un'istanza di `visual behavior` e nella chiamata del metodo `bind` dell'istanza dell'utilità di interattività.
 
-```typescript
-import powerbi from "powerbi-visuals-api";
-import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
-
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-
-export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
-  // ...
-}
-```
-
-Per gestire i clic sugli elementi, chiamare il metodo `on` dell'oggetto di selezione D3 (anche per elementsSelection e clearCatcherSelection):
-
-```typescript
-protected bindClick() {
-  const {
-      elementsSelection
-  } = this.options;
-
-  elementsSelection.on("click", (datum) => {
-      const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
-      mouseEvent && this.selectionHandler.handleSelection(
-          datum,
-          mouseEvent.ctrlKey);
-  });
-}
-```
-
-Aggiungere un gestore simile per l'evento `contextmenu` per chiamare il metodo `showContextMenu` di gestione selezione:
-
-```typescript
-protected bindContextMenu() {
-    const {
-        elementsSelection
-    } = this.options;
-
-    elementsSelection.on("contextmenu", (datum) => {
-        const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
-        if (event) {
-            this.selectionHandler.handleContextMenu(
-                datum,
-                {
-                    x: event.clientX,
-                    y: event.clientY
-                });
-            event.preventDefault();
-        }
+    ```typescript
+    this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
+        behavior: this.behavior,
+        dataPoints: this.categories,
+        clearCatcherSelection: select(this.target),
+        elementsSelection: selectionMerge
     });
-}
-```
+    ```
 
-L'utilità di interattività chiama i metodi `bindEvents` per assegnare le funzioni ai gestori e aggiungere le chiamate di `bindClick`, `bindClearCatcher` e `bindContextMenu` nel metodo `bindEvents`:
+    * `selectionMerge` è l'oggetto di selezione *d3*, che rappresenta tutti gli elementi selezionabili dell'oggetto visivo.
+    * `select(this.target)` è l'oggetto di selezione *d3*, che rappresenta gli elementi DOM principali dell'oggetto visivo.
+    * `this.categories` rappresenta i punti dati con elementi, dove l'interfaccia è `VisualDataPoint` o `categories: VisualDataPoint[];`.
+    * `this.behavior` è una nuova istanza di `visual behavior` creata nel costruttore dell'oggetto visivo, come illustrato di seguito.
 
-```typescript
-  public bindEvents(
-      options: BaseBehaviorOptions<SelectableDataPointType>,
-      selectionHandler: ISelectionHandler): void {
-
-      this.options = options;
-      this.selectionHandler = selectionHandler;
-
-      this.bindClick();
-      this.bindClearCatcher();
-      this.bindContextMenu();
-  }
-```
-
-Il metodo `renderSelection` è responsabile dell'aggiornamento dello stato di visualizzazione degli elementi nel grafico.
-
-Implementazione di esempio del metodo `renderSelection`:
-
-```typescript
-public renderSelection(hasSelection: boolean): void {
-    this.options.elementsSelection.style("opacity", (category: any) => {
-        if (category.selected) {
-            return 0.5;
-        } else {
-            return 1;
-        }
-    });
-}
-```
-
-L'ultimo passaggio consiste nella creazione di un'istanza di `visual behavior` e nella chiamata del metodo `bind` dell'istanza dell'utilità di interattività:
-
-```typescript
-this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
-    behavior: this.behavior,
-    dataPoints: this.categories,
-    clearCatcherSelection: select(this.target),
-    elementsSelection: selectionMerge
-});
-```
-
-* `selectionMerge` è l'oggetto di selezione D3, che rappresenta tutti gli elementi selezionabili nell'oggetto visivo.
-
-* `select(this.target)` è l'oggetto di selezione D3, che rappresenta gli elementi DOM principali dell'oggetto visivo.
-
-* `this.categories` rappresenta i punti dati con elementi, dove l'interfaccia è `VisualDataPoint` (o `categories: VisualDataPoint[];`)
-
-* `this.behavior` è una nuova istanza di `visual behavior`
-
-  creata nel costruttore dell'oggetto visivo:
-
-  ```typescript
-  export class Visual implements IVisual {
-    // ...
-    constructor(options: VisualConstructorOptions) {
+      ```typescript
+      export class Visual implements IVisual {
         // ...
-        this.behavior = new Behavior();
-    }
-    // ...
-  }
-  ```
-
-L'oggetto visivo è ora pronto per gestire la selezione.
-
+        constructor(options: VisualConstructorOptions) {
+            // ...
+            this.behavior = new Behavior();
+        }
+        // ...
+      }
+      ```
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Informazioni su come gestire le selezioni sul passaggio tra segnalibri](bookmarks-support.md#visuals-with-selection)

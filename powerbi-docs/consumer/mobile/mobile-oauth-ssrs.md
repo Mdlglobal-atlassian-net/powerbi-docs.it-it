@@ -1,19 +1,19 @@
 ---
 title: Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 description: Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con l'app Power BI per dispositivi mobili e connettersi a SQL Server Reporting Services 2016 o versioni successive.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220609"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114950"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 
@@ -54,7 +54,7 @@ Il record DNS per i **fs** all'indirizzo IP pubblico del server Proxy applicazio
 
 ## <a name="reporting-services-configuration"></a>Configurazione di Reporting Services
 
-Per quanto riguarda Reporting Services, non c'è molto da configurare. È sufficiente assicurarsi di avere un nome dell'entità servizio (SPN) valido per abilitare l'autenticazione Kerberos corretta e che il server di Reporting Services sia abilitato per la negoziazione dell'autenticazione.
+Per Reporting Services gli elementi da configurare sono limitati. È sufficiente assicurarsi di avere un nome dell'entità servizio (SPN) valido per abilitare l'autenticazione Kerberos corretta e che il server di Reporting Services sia abilitato per la negoziazione dell'autenticazione.
 
 ### <a name="service-principal-name-spn"></a>Nome dell'entità servizio (SPN)
 
@@ -148,7 +148,7 @@ Al termine, le proprietà del gruppo di applicazioni avranno un aspetto simile a
 
 Per passare dall'autenticazione OAuth all'autenticazione di Windows, è necessario usare la delega vincolata con transizione del protocollo. Fa parte della configurazione di Kerberos. È già stato definito il nome SPN di Reporting Services all'interno della configurazione di Reporting Services.
 
-È necessario configurare la delega vincolata nell'account del computer Server WAP all'interno di Active Directory. Potrebbe essere necessario collaborare con un amministratore di dominio se non si hanno i diritti per Active Directory.
+È necessario configurare la delega vincolata nell'account del computer Server WAP all'interno di Active Directory. Se non si hanno diritti per Active Directory, può essere necessario collaborare con un amministratore di dominio.
 
 Per configurare la delega vincolata, eseguire le operazioni seguenti.
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Dopo aver aggiunto l'applicazione WAP, è necessario impostare BackendServerAuthenticationMode in modo da usare IntegratedWindowsAuthentication. A tale scopo, è necessario l'ID dell'applicazione WAP.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Aggiungi gruppo di applicazioni](media/mobile-oauth-ssrs/wap-application-id.png)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427094"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041678"
 ---
 # <a name="power-bi-data-sources"></a>Origini dati di Power BI
 
@@ -43,7 +43,7 @@ La tabella seguente visualizza le origini dati supportate da Power BI per i set 
 | Azure HDInsight (HDFS) | Sì | Sì | No | No | No |
 | Azure HDInsight Spark | Sì | Sì | Sì | No | No |
 | Database SQL di Azure | Sì | Sì | Sì | Sì<sup>2</sup> | No |
-| Azure SQL Data Warehouse | Sì | Sì | Sì | No | No |
+| Azure SQL Data Warehouse | Sì | Sì | Sì | Sì<sup>2</sup> | No |
 | Archiviazione tabelle di Azure | Sì | Sì | No | Sì | No |
 | Connettore BI | Sì | Sì | Sì | Sì | Sì |
 | BI360 - Budgeting & Financial Reporting | Sì | Sì | No | No | No |
@@ -134,7 +134,7 @@ La tabella seguente visualizza le origini dati supportate da Power BI per i set 
 | Twilio | Sì | Sì | No | No | No |
 | tyGraph | Sì | Sì | No | No | No |
 | Vertica | Sì | Sì | Sì | Sì | Sì |
-| Web | Sì | Sì | No | Sì | Sì |
+| Web | Sì | Sì | No | Sì | Sì <sup>6</sup> |
 | Webtrends | Sì | Sì | No | No | No |
 | Workforce Dimensions | Sì | Sì | No | Sì | No |
 | XML | Sì | Sì | No | Sì | No<sup>4</sup> |
@@ -143,13 +143,15 @@ La tabella seguente visualizza le origini dati supportate da Power BI per i set 
 
 <sup>1</sup> Supportato con il [provider ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920), installato nello stesso computer del gateway.
 
-<sup>2</sup> Supportato con la stessa funzione M della versione locale.
+<sup>2</sup> Supportato con la stessa funzione M della versione locale, determinando opzioni di autenticazione con restrizioni (il gateway non supporta OAuth).
 
 <sup>3</sup> I file di Excel 1997-2003 (con estensione xls) richiedono il [provider ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920).
 
 <sup>4</sup> Obbligatorio per la versione locale della tecnologia.
 
 <sup>5</sup> Supportato solo con il [gateway dati (modalità personale)](service-gateway-personal-mode.md).
+
+<sup>6</sup> Necessario per i file con estensione html, xls, e i database di Access
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Single Sign-On (SSO) per le origini DirectQuery
 

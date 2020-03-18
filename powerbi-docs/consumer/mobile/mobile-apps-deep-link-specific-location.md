@@ -1,19 +1,19 @@
 ---
 title: Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
 description: Informazioni su come creare un collegamento diretto a un dashboard, un riquadro o un report specifico nell'app Power BI per dispositivi mobili con un collegamento Uniform Resource Identifier (URI).
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879285"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114502"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
 È possibile usare i collegamenti per accedere direttamente a elementi specifici in Power BI: report, dashboard e riquadro.
@@ -112,7 +112,7 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 Per altre informazioni, vedere [Filtrare un report usando i parametri della stringa di query nell'URL](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Passaggi successivi
-I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementare in futuro, quindi non perdete l'occasione di votare quali funzionalità vorreste avere a disposizione nelle app per dispositivi mobili di Power BI. 
+I commenti e i suggerimenti degli utenti aiutano a decidere quali funzioni implementare in futuro, quindi è consigliabile votare le funzionalità che si vorrebbe avere nelle app per dispositivi mobili di Power BI. 
 
 * [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md)
 * Seguire @MSPowerBI su Twitter

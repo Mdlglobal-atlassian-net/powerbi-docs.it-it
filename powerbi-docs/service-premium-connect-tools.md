@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871893"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946832"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Connettersi a set di dati con applicazioni client e strumenti (anteprima)
 
-Le aree di lavoro e i set di dati di Power BI Premium supportano le connessioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti. Per impostazione predefinita, le connessioni sono abilitate
+Le aree di lavoro e i set di dati di Power BI Premium supportano le connessioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti. Per impostazione predefinita, le connessioni sono abilitate.
 
 > [!NOTE]
 > Questo articolo offre un'introduzione alla connettività di sola lettura alle aree di lavoro e ai set di dati di Power BI Premium. L'articolo *non* include informazioni dettagliate su programmazione, strumenti e applicazioni specifici, architettura e gestione delle aree di lavoro e dei set di dati. Gli argomenti descritti richiedono una conoscenza approfondita dell'architettura e dell'amministrazione dei database modello tabulare di Analysis Services.
@@ -104,17 +104,13 @@ I set di dati seguenti non sono supportati nel servizio Power BI:
 
 Attualmente, i ruoli dei modelli e le appartenenze ai ruoli non sono individuabili né visualizzati tramite gli endpoint XMLA.
 
-## <a name="disable-connectivity"></a>Disabilitare la connettività
-
-Per impostazione predefinita, la connettività dell'endpoint XMLA è abilitata per il carico di lavoro dei set di dati. È possibile disabilitare la connettività nelle [impostazioni del carico di lavoro](service-admin-premium-workloads.md#workload-settings).
-
 ## <a name="audit-logs"></a>Log di controllo 
 
 Quando le applicazioni client e gli strumenti si connettono a un'area di lavoro, l'accesso tramite gli endpoint XMLA viene registrato nei log di controllo di Power BI per l'operazione **GetWorkspaces**. Per altre informazioni, vedere [Controllo di Power BI](service-admin-auditing.md).
 
 ## <a name="see-also"></a>Vedere anche
 
-[Riferimenti di Analysis Services](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Riferimenti di Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [Protocollo tabulare di SQL Server Analysis Services](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [DMV (Dynamic Management View)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

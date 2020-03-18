@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/24/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576777"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113163"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 È possibile richiedere a Power BI di esaminare i dati e individuare tendenze e modelli interessanti. Queste tendenze e modelli vengono presentati sotto forma di oggetti visivi denominati *Informazioni dettagliate*. 
 
@@ -75,7 +77,7 @@ Trova modelli periodici nei dati della serie temporale, ad esempio stagionalità
 ![Esempio di stagionalità](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Condivisione stabile
-Evidenzia i casi in cui è presente una correlazione padre-figlio tra la condivisione di un valore figlio in relazione al valore complessivo dell'elemento padre in una variabile continua. Le informazioni dettagliate della quota stazionaria vengono applicate al contesto di una misura, una dimensione e un'altra dimensione di data/ora. Queste informazioni vengono attivate quando un particolare valore della dimensione, ad esempio "the northeast region", ha una percentuale costante di vendite complessive in tale dimensione di data/ora.
+Evidenzia i casi in cui è presente una correlazione padre-figlio tra la condivisione di un valore figlio in relazione al valore complessivo dell'elemento padre in una variabile continua. Le informazioni dettagliate della quota stazionaria vengono applicate al contesto di una misura, una dimensione e un'altra dimensione di data/ora. Queste informazioni vengono attivate quando un particolare valore della dimensione, ad esempio "the northeast region", ha una percentuale costante di vendite complessive in quella dimensione di data/ora.
 
 Le informazioni dettagliate della quota stazionaria simili a quelle della varianza bassa perché entrambe si riferiscono alla mancanza di varianza di un valore nel tempo. I dettagli della quota stazionaria misurano però la mancanza di varianza della **percentuale complessiva** nel tempo, mentre i dettagli della varianza bassa misurano la mancanza di varianza dei valori di misura assoluti in una dimensione.
 
