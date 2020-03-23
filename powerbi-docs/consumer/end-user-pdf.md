@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e23f56da424ae18565b6cbec591c9d855f23139
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113135"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377214"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 
@@ -53,7 +53,7 @@ E questo è tutto. È possibile scaricare il file e aprirlo con qualsiasi visual
 Quando si usa la funzionalità **Esporta in PDF** è necessario tenere presenti alcune considerazioni e limitazioni.
 
 * Gli oggetti visivi R e Python non sono attualmente supportati. Nel file PDF questi oggetti visivi sono vuoti e visualizzano un messaggio di errore. 
-* Gli oggetti visivi personalizzati che sono stati certificati sono supportati. Per altre informazioni sugli oggetti visivi personalizzati certificati, tra cui come certificare un oggetto visivo personalizzato, vedere [Ottenere la certificazione di un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md). Gli oggetti visivi personalizzati non certificati non sono supportati. Nel file PDF vengono visualizzati con un messaggio di errore.
+* Gli oggetti visivi di Power BI che sono stati certificati sono supportati. Per altre informazioni sugli oggetti visivi di Power BI certificati, tra cui come certificare un oggetto visivo di Power BI, vedere [Ottenere la certificazione di un oggetto visivo di Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Gli oggetti visivi di Power BI non certificati non sono supportati. Nel file PDF vengono visualizzati con un messaggio di errore.
 * L'oggetto visivo ESRI non è supportato.
 * I report con più di 30 pagine non possono attualmente essere esportati.
 * Il completamento del processo di esportazione del report in PDF può richiedere alcuni minuti. I fattori che possono influire sul tempo necessario includono la struttura del report e il carico corrente del servizio Power BI.

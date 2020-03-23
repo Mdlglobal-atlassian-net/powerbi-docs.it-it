@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527443"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133232"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Usare la barra multifunzione aggiornata in Power BI Desktop (anteprima)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Usare la barra multifunzione aggiornata in Power BI Desktop
 
-A partire dall'aggiornamento di novembre 2019, Power BI Desktop sta rivedendo la barra multifunzione per allinearne meglio l'aspetto e l'esperienza con altri prodotti Microsoft, ad esempio Microsoft Office.
+A partire dall'aggiornamento di marzo 2020, Power BI Desktop sta rivedendo la barra multifunzione per allinearne meglio l'aspetto e l'esperienza con altri prodotti Microsoft, ad esempio Microsoft Office. La barra multifunzione aggiornata è stata introdotta con gli aggiornamenti mensili a partire da novembre 2019 come funzionalità di anteprima e, a partire dall'aggiornamento di marzo 2020, la nuova barra multifunzione è l'esperienza predefinita.
 
 ![Nuova barra multifunzione in Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
-La barra multifunzione aggiornata è in anteprima. Ciò consente la raccolta di feedback proveniente da utenti e clienti per poter offrire un'esperienza eccellente. Prima che la barra multifunzione aggiornata di Power BI Desktop sia resa disponibile a livello generale sono previsti alcuni mesi dedicati all'anteprima, al feedback e ai miglioramenti. 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>Come abilitare la barra multifunzione aggiornata
 
-La barra multifunzione aggiornata in Power BI è una funzionalità di anteprima e deve essere abilitata. Per abilitarla, selezionare **File > Opzioni e impostazioni > Opzioni** e selezionare **Funzionalità di anteprima** dalla colonna a sinistra. Nel riquadro a destra è disponibile la selezione **Barra multifunzione aggiornata**. Selezionare la casella accanto a **Barra multifunzione aggiornata** per abilitare la funzionalità di anteprima. Per rendere effettiva la modifica relativa alla funzionalità di anteprima è necessario riavviare Power BI Desktop.
+A partire dall'aggiornamento di marzo 2020, la barra multifunzione aggiornata è attiva per impostazione predefinita. Per le versioni di Power BI Desktop precedenti (a partire dall'aggiornamento di novembre 2019), la barra multifunzione aggiornata in Power BI era una funzionalità di anteprima e doveva essere abilitata. Per abilitarla in questi aggiornamenti precedenti, selezionare **File > Opzioni e impostazioni > Opzioni** e quindi selezionare **Funzionalità di anteprima** dalla colonna a sinistra. Nel riquadro a destra è disponibile la selezione **Barra multifunzione aggiornata**. Selezionare la casella accanto a **Barra multifunzione aggiornata** per abilitare la funzionalità di anteprima. Per rendere effettiva la modifica relativa alla funzionalità di anteprima è necessario riavviare Power BI Desktop.
 
 ![Opzione della barra multifunzione aggiornata per Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> Per le versioni di Power BI Desktop a partire da marzo 2020 non è necessario abilitare la barra multifunzione aggiornata, perché a partire da tale data la nuova barra multifunzione è l'esperienza predefinita.
 
 ## <a name="features-of-the-new-ribbon"></a>Funzionalità della nuova barra multifunzione
 

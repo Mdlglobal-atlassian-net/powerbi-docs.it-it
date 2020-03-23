@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698855"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488569"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurare il supporto di più aree geografiche per Power BI Premium
 
@@ -33,7 +33,7 @@ Il supporto di più aree geografiche è una funzionalità di Power BI Premium ch
 
 Le aree geografiche multiple non sono disponibili per Power BI Germania, Power BI gestito da 21Vianet in Cina o Power BI per Governo degli Stati Uniti.
 
-Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedded. Per altre informazioni, vedere [Supporto di più aree geografiche per Power BI Embedded](developer/embedded-multi-geo.md).
+Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedded. Per altre informazioni, vedere [Supporto di più aree geografiche per Power BI Embedded](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Abilitare e configurare
 
@@ -99,6 +99,6 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Che cos'è Power BI Premium?](service-premium-what-is.md)
-- [Supporto di più aree geografiche per Power BI Embedded](developer/embedded-multi-geo.md)
+- [Supporto di più aree geografiche per Power BI Embedded](developer/embedded/embedded-multi-geo.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

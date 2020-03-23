@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925682"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379100"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Progettare report di Power BI per l'accessibilità
 È possibile progettare e creare report accattivanti senza compromettere l'accessibilità. Ogni volta che si compila un report, indipendentemente dal tipo di destinatari, è consigliabile creare i report in modo che siano utilizzabili dal maggior numero di persone possibile, senza che sia necessario adattarli a una particolare progettazione.
@@ -55,7 +55,7 @@ Queste funzionalità di accessibilità predefinite verranno ora analizzate singo
 
 ### <a name="keyboard-navigation"></a>Navigazione da tastiera
 
-L'autore di un report non deve preoccuparsi che gli utenti possano utilizzare la tastiera per spostarsi in un report. Tutti gli oggetti visivi di Power BI possono essere esplorati tramite la tastiera e l'utente del report può esaminare i punti dati negli oggetti visivi, passare da una scheda della pagina all'altra e accedere alle funzionalità interattive, tra cui l'evidenziazione incrociata, l'applicazione di filtri e il sezionamento.
+L'autore di un report non deve preoccuparsi che gli utenti possano usare la tastiera per spostarsi in un report. Tutti gli oggetti visivi di Power BI possono essere esplorati tramite la tastiera e l'utente del report può esaminare i punti dati negli oggetti visivi, passare da una scheda della pagina all'altra e accedere alle funzionalità interattive, tra cui l'evidenziazione incrociata, l'applicazione di filtri e il sezionamento.
 
 Quando un utente del report si sposta in un report, compare la messa a fuoco per indicare la posizione dell'utente nel report. A seconda del browser in uso, è possibile che la modalità messa a fuoco venga visualizzata in modo diverso.
 
@@ -253,8 +253,8 @@ Oltre agli strumenti e alle funzionalità di accessibilità, Power BI fornisce l
 * Assicurarsi che le immagini decorative siano contrassegnate come nascoste nell'ordine di tabulazione, in modo che non vengano annunciate da un'utilità per la lettura dello schermo.
 * Evitare di usare un numero tale di immagini decorative da distrarre l'utente.
 
-### <a name="custom-visuals"></a>Oggetti visivi personalizzati
-* Cercare gli oggetti visivi personalizzati nella tabella **Mostra dati** accessibile. Se le informazioni visualizzate non sono sufficienti, cercare un altro oggetto visivo.
+### <a name="power-bi-visuals"></a>Oggetti visivi di Power BI
+* Cercare gli oggetti visivi di Power BI nella tabella **Mostra dati** accessibile. Se le informazioni visualizzate non sono sufficienti, cercare un altro oggetto visivo.
 * Se si usa l'oggetto visivo personalizzato *Asse di riproduzione*, assicurarsi che non venga riprodotto automaticamente. Indicare chiaramente che l'utente deve premere il pulsante Riproduci/Sospendi per avviare/arrestare la modifica dei valori.
 
 ### <a name="across-visuals-on-the-page"></a>Negli oggetti visivi nella pagina

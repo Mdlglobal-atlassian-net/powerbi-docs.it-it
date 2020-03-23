@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880347"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380640"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Descrizioni comando negli oggetti visivi di Power BI
 
@@ -27,7 +27,7 @@ Le descrizioni comando possono visualizzare un elemento di testo con un titolo i
 
 Nell'immagine seguente è illustrata una descrizione comando in un grafico a barre di esempio:
 
-![Descrizioni comando del grafico a barre di esempio](./media/tooltips-in-samplebarchart.png)
+![Descrizioni comando del grafico a barre di esempio](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 L'immagine della descrizione comando precedente presenta una singola categoria e un valore per la barra. È possibile estendere una singola descrizione comando per visualizzare più valori.
 
@@ -209,7 +209,7 @@ Uno schema di esempio è
 
 È possibile definire le descrizioni comando della pagina del report nel riquadro **Formato**.
 
-![Descrizione comando della pagina del report](media/report-page-tooltip.png)
+![Descrizione comando della pagina del report](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: è la configurazione delle descrizioni comando supportata dall'oggetto visivo e riflessa nell'area campi. 
    * `default`: specifica se è supportata l'associazione di descrizioni comando "automatiche" tramite il campo dati. 

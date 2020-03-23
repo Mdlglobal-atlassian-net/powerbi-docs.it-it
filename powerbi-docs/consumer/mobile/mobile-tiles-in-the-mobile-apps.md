@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114708"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435905"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -85,6 +85,10 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
 4. Toccare la freccia nell'angolo in alto a sinistra per chiudere il riquadro e tornare al dashboard.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Riquadri nell’app per dispositivi mobili Windows 10
+
+>[!NOTE]
+>Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Aprire un [dashboard nell'app Power BI per dispositivi mobili](mobile-apps-view-dashboard.md) per Windows 10.
 2. Toccare i puntini di sospensione verticali nel riquadro. Da qui, è possibile: 
    

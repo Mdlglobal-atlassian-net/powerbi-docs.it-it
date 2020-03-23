@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426657"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381124"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 
@@ -70,7 +70,7 @@ Per Power BI Desktop ottimizzato per Server di report di Power BI, selezionare l
 
 ### <a name="report-visuals-in-a-browser"></a>Oggetti visivi del report in un browser
 
-I report di Server di report di Power BI supportano tutte le visualizzazioni, inclusi gli oggetti visivi personalizzati. I report del server di report di Power BI non supportano:
+I report di Server di report di Power BI supportano tutte le visualizzazioni, inclusi gli oggetti visivi di Power BI. I report del server di report di Power BI non supportano:
 
 * Oggetti visivi R
 * Mappe di ArcGIS
@@ -89,7 +89,7 @@ I report del server di report di Power BI non supportano queste funzionalità ne
 
 * Oggetti visivi R
 * Mappe di ArcGIS
-* Oggetti visivi personalizzati
+* Oggetti visivi di Power BI
 * Percorsi di navigazione
 * Filtro geografico o codici a barre
 

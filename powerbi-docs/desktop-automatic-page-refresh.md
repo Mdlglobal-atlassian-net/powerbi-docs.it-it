@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548576"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488523"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Aggiornamento automatico della pagina in Power BI Desktop (anteprima)
 
@@ -35,9 +35,9 @@ La figura seguente mostra la scheda **Aggiornamento della pagina**. Le descrizio
 
 ![Scheda Aggiornamento della pagina](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Dispositivo di scorrimento Aggiornamento pagina automatico: attiva o disattiva l'aggiornamento della pagina
-2.  Valore di intervallo Aggiornamento della pagina: valore numerico per l'intervallo di aggiornamento
-3.  Unità di intervallo Aggiornamento della pagina: unità dell'intervallo per l'aggiornamento della pagina
+1.    Dispositivo di scorrimento Aggiornamento pagina automatico: attiva o disattiva l'aggiornamento della pagina
+2.    Valore di intervallo Aggiornamento della pagina: valore numerico per l'intervallo di aggiornamento
+3.    Unità di intervallo Aggiornamento della pagina: unità dell'intervallo per l'aggiornamento della pagina
 
 In questa scheda è possibile attivare l'aggiornamento della pagina e selezionare la durata dell'aggiornamento. Il valore predefinito è 30 minuti (l'intervallo di aggiornamento minimo è di un secondo). Il report inizierà a essere aggiornato con l'intervallo impostato. 
 
@@ -62,10 +62,10 @@ La figura seguente mostra i risultati di una DirectQuery nell'analizzatore prest
 
 Di seguito vengono descritte alcune altre caratteristiche relative a questa origine dati. 
 
-1.  I dati arrivano con una frequenza di due secondi. 
-2.  L'analizzatore prestazioni mostra un tempo massimo di query e visualizzazione di circa 4,9 secondi (4688 millisecondi). 
-3.  L'origine dati è configurata in modo da gestire circa 1000 query simultanee al secondo. 
-4.  Si prevede che circa 10 utenti visualizzino il report simultaneamente.
+1.    I dati arrivano con una frequenza di due secondi. 
+2.    L'analizzatore prestazioni mostra un tempo massimo di query e visualizzazione di circa 4,9 secondi (4688 millisecondi). 
+3.    L'origine dati è configurata in modo da gestire circa 1000 query simultanee al secondo. 
+4.    Si prevede che circa 10 utenti visualizzino il report simultaneamente.
 
 Il risultato è il seguente:
 
@@ -83,13 +83,13 @@ Di seguito viene descritto come è possibile rilevare e diagnosticare i problemi
 
 È anche possibile impostare gli intervalli di aggiornamento pagina automatico per i report creati in Power BI Desktop e pubblicati nel servizio Power BI. 
 
-L'aggiornamento pagina automatico per i report nel servizio Power BI viene configurato con passaggi simili alla configurazione in Power BI Desktop. Se configurato nel servizio Power BI, l'aggiornamento pagina automatico supporta anche contenuto [incorporato di Power BI](developer/embedding.md). L'immagine seguente mostra la configurazione **Aggiornamento della pagina** per il servizio Power BI:
+L'aggiornamento pagina automatico per i report nel servizio Power BI viene configurato con passaggi simili alla configurazione in Power BI Desktop. Se configurato nel servizio Power BI, l'aggiornamento pagina automatico supporta anche contenuto [incorporato di Power BI](developer/embedded/embedding.md). L'immagine seguente mostra la configurazione **Aggiornamento della pagina** per il servizio Power BI:
 
 ![Aggiornamento pagina automatico nel servizio Power BI](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Dispositivo di scorrimento Aggiornamento pagina automatico: attiva o disattiva l'aggiornamento della pagina
-2.  Valore di intervallo Aggiornamento della pagina: valore numerico per l'intervallo di aggiornamento, deve essere un numero intero
-3.  Unità di intervallo Aggiornamento della pagina: unità dell'intervallo per l'aggiornamento della pagina
+1.    Dispositivo di scorrimento Aggiornamento pagina automatico: attiva o disattiva l'aggiornamento della pagina
+2.    Valore di intervallo Aggiornamento della pagina: valore numerico per l'intervallo di aggiornamento, deve essere un numero intero
+3.    Unità di intervallo Aggiornamento della pagina: unità dell'intervallo per l'aggiornamento della pagina
 
 ### <a name="page-refresh-intervals"></a>Intervalli di aggiornamento della pagina
 

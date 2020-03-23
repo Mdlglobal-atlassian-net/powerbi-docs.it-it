@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920949"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381055"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -52,7 +52,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro](../service-collaborate-power-bi-workspace.md) con Office 365 |
 | Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../desktop-r-visuals.md) in Power BI Desktop e pubblicarli nel servizio Power BI. Non è possibile salvare i report di Power BI con oggetti visivi R in Server di report di Power BI.  |
 | Funzionalità di anteprima | No | Sì | [Acconsentire esplicitamente alle funzionalità di anteprima del servizio Power BI](../consumer/end-user-preview-features.md) |
-| Oggetti visivi personalizzati | Sì | Sì | [Oggetti visivi personalizzati in Power BI](../developer/power-bi-custom-visuals.md) |
+| Oggetti visivi di Power BI | Sì | Sì | [Oggetti visivi di Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | Modelli compositi | No | Sì |
 | Power BI Desktop | Versione ottimizzata per Server di report, disponibile per il download con Server di report | Versione ottimizzata per il servizio Power BI, disponibile da Windows Store | [Power BI Desktop per il server di report](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop per il servizio Power BI](https://aka.ms/pbidesktopstore) |
 

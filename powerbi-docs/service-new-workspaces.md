@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426565"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488730"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -54,7 +54,7 @@ Le aree di lavoro nuove e aggiornate e le aree di lavoro classiche coesistono ed
 
 ## <a name="roles-in-the-new-workspaces"></a>Ruoli nelle nuove aree di lavoro
 
-Per concedere l'accesso a una nuova area di lavoro, aggiungere gruppi di utenti o singoli utenti a uno dei ruoli dell'area di lavoro: visualizzatori, membri, collaboratori o amministratori. A tutti i membri in un gruppo di utenti viene assegnato il ruolo definito. Se un utente appartiene a più gruppi di utenti, ottiene il livello di autorizzazione più elevato fornito dai ruoli a lui assegnati.
+Per concedere l'accesso a una nuova area di lavoro, aggiungere gruppi di utenti o singoli utenti a uno dei ruoli dell'area di lavoro: amministratori, membri, collaboratori o visualizzatori. A tutti i membri in un gruppo di utenti viene assegnato il ruolo definito. Se un utente appartiene a più gruppi di utenti, ottiene il livello di autorizzazione più elevato fornito dai ruoli a lui assegnati.
 
 I ruoli consentono di gestire chi può fare cosa in un'area di lavoro per permettere ai team di collaborare. Le nuove aree di lavoro consentono di assegnare ruoli a singoli utenti e gruppi di utenti: gruppi di sicurezza, gruppi di Office 365 e liste di distribuzione. 
 
@@ -70,11 +70,14 @@ Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e
 | Pubblicare e aggiornare un'app. |  X | X  |   |   |
 | Condividere un elemento o un'app.<sup>1</sup> |  X | X  |   |   |
 | Consentire ad altri utenti di ricondividere a loro volta gli elementi.<sup>1</sup> |  X | X  |   |   |
+| Includere app nella sezione In primo piano nella home page dei colleghi |  X | X  |   |   |
+| Includere dashboard e report nella sezione In primo piano nella home page dei colleghi |  X | X  | X |   |
 | Creare, modificare ed eliminare contenuto nell'area di lavoro.  |  X | X  | X  |   |
 | Pubblicare report nell'area di lavoro, eliminare contenuto.  |  X | X  | X  |   |
 | Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro.<sup>1</sup> |  X | X  | X  |   |
 | Copiare un report.<sup>2</sup> | X | X | X |  |
 | Visualizzare un elemento e interagire con esso.<sup>3</sup> |  X | X  | X  | X  |
+| Leggere i dati archiviati nei flussi di dati dell'area di lavoro | X | X | X | X |
 
 1. I collaboratori e i visualizzatori possono condividere elementi in un'area di lavoro se hanno autorizzazioni di ricondivisione.
 2. Per copiare un report e crearne uno in un'altra area di lavoro in base a un set di dati all'interno di questa, è necessario soddisfare criteri aggiuntivi:
@@ -99,7 +102,7 @@ Con le nuove aree di lavoro, alcune funzionalità sono state riprogettate. Ecco 
 * La creazione di queste aree di lavoro non comporta la creazione di gruppi di Office 365 come avviene con le aree di lavoro classiche. Tuttavia, ora è possibile usare un gruppo di Office 365 per concedere agli utenti l'accesso all'area di lavoro assegnando al gruppo un ruolo. 
 * Nelle aree di lavoro classiche è possibile aggiungere solo singoli utenti agli elenchi di membri e amministratori. Nelle nuove aree di lavoro è possibile aggiungere più gruppi di sicurezza di Active Directory, liste di distribuzione o gruppi di Office 365 a questi elenchi per semplificare la gestione degli utenti. 
 - È possibile creare un pacchetto di contenuto aziendale da un'area di lavoro classica. Non è possibile crearne uno dalle nuove aree di lavoro.
-- È possibile utilizzare un pacchetto di contenuto aziendale da un'area di lavoro classica. Non è possibile usarne uno dalle nuove aree di lavoro.
+- È possibile utilizzare un pacchetto di contenuto aziendale da un'area di lavoro classica. Non è possibile utilizzarne uno dalle nuove aree di lavoro.
 
 ## <a name="workspace-contact-list"></a>Elenco contatti dell'area di lavoro
 La nuova funzionalità **Elenco contatti** consente di specificare quali utenti ricevono una notifica relativa ai problemi che si verificano nell'area di lavoro. Per impostazione predefinita, qualsiasi utente o gruppo specificato come amministratore dell'area di lavoro riceve una notifica, ma è possibile personalizzare l'elenco. Gli utenti o i gruppi elencati nell'elenco contatti verranno visualizzati nell'interfaccia utente per consentire agli utenti di ottenere informazioni correlate all'area di lavoro. 

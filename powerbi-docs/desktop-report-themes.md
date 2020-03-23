@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753698"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378962"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi del report in Power BI Desktop
 
@@ -55,7 +55,7 @@ La tabella seguente visualizza i modelli di temi del report predefiniti disponib
 | Tema del report predefinito | Sequenza di colori predefinita |
 |------ |---------- |
 | Predefinito | ![Predefinito](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Altezza | ![Altezza](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
 | Executive | ![Executive](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
 | Frontiera| ![Frontiera](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
 | Innovazione | ![Innovazione](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
@@ -64,8 +64,8 @@ La tabella seguente visualizza i modelli di temi del report predefiniti disponib
 | Temperatura | ![Temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
 | Solare| ![Solare](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
 | Divergente | ![Divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Classico | ![Classico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| Tempesta | ![Tempesta](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Classic | ![Classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
 | Parco cittadino | ![Parco cittadino](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
 | Classe | ![Classe](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
 | Per daltonici | ![Per daltonici](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
@@ -108,7 +108,7 @@ Per personalizzare un tema direttamente in Power BI Desktop:
 Le impostazioni del tema personalizzabili rientrano nelle categorie seguenti, che rispecchiano quelle della finestra **Personalizza tema**:
 
 - **Nome e colori**: le impostazioni relative al nome e ai colori del tema includono i [colori del tema](#how-report-theme-colors-stick-with-your-reports), i colori sentiment, i colori divergenti e i [colori strutturali (opzione avanzata)](#setting-structural-colors).
-- **Text**: le impostazioni del testo includono la famiglia, la dimensione e il colore dei caratteri, che specificano [le impostazioni predefinite della classe di testo primaria](#setting-formatted-text-defaults) per le etichette, i titoli, le schede, gli indicatori KPI e le intestazioni delle schede.
+- **Testo**: le impostazioni del testo includono la famiglia, la dimensione e il colore dei caratteri, che specificano [le impostazioni predefinite della classe di testo primaria](#setting-formatted-text-defaults) per le etichette, i titoli, le schede, gli indicatori KPI e le intestazioni delle schede.
 - **Oggetti visivi**: le impostazioni degli oggetti visivi includono lo sfondo, il bordo, l'intestazione e le descrizioni comando.
 - **Pagina**: le impostazioni degli elementi della pagina includono gli sfondi.
 - **Riquadro filtro**: le impostazioni del riquadro filtro includono colore di sfondo, trasparenza, colore dei caratteri e delle icone, dimensioni e schede dei filtri.
@@ -195,7 +195,7 @@ In alternativa, si immagini di voler impostare manualmente il colore di un punto
 
 ![Ripristina valori predefiniti](media/desktop-report-themes/report-themes_9.png)
 
-Molti oggetti visivi personalizzati non si applicano ai temi del report.
+Molti oggetti visivi di Power BI non si applicano ai temi del report.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>File di temi del report personalizzati pronti all'uso
 
@@ -312,10 +312,10 @@ La tabella seguente visualizza le sei classi di colori che è possibile formatta
 |---------|---------|
 | **firstLevelElements** <br> **foreground** (deprecato) | Colore di sfondo delle etichette (se esterne ai punti dati) <br> Colore della linea di tendenza <br>  Colore predefinito della casella di testo <br> Colori dei caratteri di valori e totali di tabella e matrice, colore degli assi delle barre dei dati <br> Etichette dati della scheda <br> Colore del valore del callout del misuratore <br> Colore dell'obiettivo KPI <br>  Colore del testo KPI <br> Colore dell'elemento filtro dei dati (in modalità messa a fuoco)  <br> Colore carattere elemento a discesa del filtro dei dati <br> Colore carattere dell'input numerico del filtro dei dati <br> Colore carattere dell'intestazione filtro dei dati <br> Colore della linea del rapporto del grafico a dispersione <br> Colore della linea di previsione del grafico a linee <br> Colore della guida della mappa <br> Colore del riquadro del filtro e del testo della scheda|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (deprecato) | [classi di testo secondarie](#setting-formatted-text-defaults) "light" <br> Colori dell'etichetta  <br> Colore etichetta della legenda <br> Colore etichetta dell'asse <br> Colore carattere dell'intestazione di tabella e matrice <br> Colore linea destinazione misuratore e guida di destinazione <br>  Colore asse tendenza dell'indicatore KPI <br> Colore dispositivo di scorrimento del filtro dei dati <br> Colore carattere elemento del filtro dei dati <br> Colore contorno del filtro dei dati <br> Colore al passaggio sul grafico a linee <br> Colore del titolo di scheda con più righe <br> Colore del tratto del grafico a nastri <br> Colore bordo delle forme mappa <br> Colore carattere del testo del pulsante <br> Colore linea dell'icona del pulsante <br> Colore del contorno del pulsante |
-| **thirdLevelElements** <br >**backgroundLight** (deprecato) | Colore della griglia dell'asse <br> Colore della griglia di tabella e matrice <br> Colore di sfondo dell'intestazione del filtro dei dati (in modalità messa a fuoco)  <br> Colore del contorno della scheda a più righe  <br> Colore del riempimento della forma <br> Colore di sfondo arco del misuratore <br> Colore di sfondo scheda del filtro applicato <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (deprecato) | Colore della legenda disattivata <br> Colore etichetta categoria della scheda <br> Colore etichette categoria della scheda con più righe <br> Colore della barra della scheda con più righe <br> Colore tratto del tasso di conversione del grafico a imbuto
+| **thirdLevelElements** <br >**backgroundLight** (deprecato) | Colore della griglia dell'asse <br> Colore della griglia di tabella e matrice <br> Colore di sfondo dell'intestazione del filtro dei dati (in modalità messa a fuoco)  <br> Colore del contorno della scheda a più righe  <br> Colore del riempimento della forma <br> Colore di sfondo arco del misuratore <br> Colore di sfondo scheda del filtro applicato <br> Quando lo sfondo = FFFFFF: <br> Colore di riempimento del pulsante disabilitato <br> Colore del contorno del pulsante disabilitato <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (deprecato) | Colore della legenda disattivata <br> Colore etichetta categoria della scheda <br> Colore etichette categoria della scheda con più righe <br> Colore della barra della scheda con più righe <br> Colore tratto del tasso di conversione del grafico a imbuto <br> Colore carattere del testo del pulsante disabilitato <br> Colore linea dell'icona del pulsante disabilitato <br> |
 | **background** | Colore di sfondo delle etichette (se all'interno di punti dati) <br> Colore di sfondo degli elementi del menu a discesa del filtro dei dati  <br> Colore tratto del grafico ad anello <br> Colore tratto della mappa ad albero <br> Colore di sfondo del grafico combinato <br> Colore di riempimento del pulsante <br> Colore di sfondo del riquadro Filtro e della scheda del filtro disponibile |
-| **secondaryBackground** <br> **backgroundNeutral** (deprecato) | Colore contorno della griglia di tabella e matrice <br> Colore predefinito delle forme mappa <br> Colore di riempimento della barra del grafico a barre (quando l'opzione Abbina al colore della serie è disattivata) |
+| **secondaryBackground** <br> **backgroundNeutral** (deprecato) | Colore contorno della griglia di tabella e matrice <br> Colore predefinito delle forme mappa <br> Colore di riempimento della barra del grafico a barre (quando l'opzione Abbina al colore della serie è disattivata) <br> Quando lo sfondo != FFFFFF: <br> Colore di riempimento del pulsante disabilitato <br> Colore del contorno del pulsante disabilitato <br> |
 | **tableAccent** | Esegue l'override del colore del contorno della griglia di tabella e matrice se presente |
 
 Ecco un tema di esempio che imposta le classi di colori:
@@ -359,8 +359,8 @@ La tabella che segue include le informazioni seguenti:
 |-| Titolo grande | largeTitle |14pt |Titolo oggetto visivo |
 |Etichetta ||label |Segoe UI<br>#252423<br>10pt |Intestazioni colonna di tabella e matrice <br> Intestazioni di riga matrice<br>Griglia di tabella e matrice<br>Valori di tabella e matrice |
 |-|Semibold |semiboldLabel| Segoe UI Semibold | Testo profilo dei fattori di influenza chiave
-|-|large |largeLabel |12pt | Etichette dati scheda a più righe |
-|-|Piccolo |smallLabel |9pt |Etichette linea di riferimento* <br>Etichette intervallo data del filtro dei dati<br> Stile testo dell'input numerico del filtro dei dati<br>Casella di ricerca del filtro dei dati<br>Testo fattore di influenza dei fattori di influenza chiave|
+|-|Grande |largeLabel |12pt | Etichette dati scheda a più righe |
+|-|Piccola |smallLabel |9pt |Etichette linea di riferimento* <br>Etichette intervallo data del filtro dei dati<br> Stile testo dell'input numerico del filtro dei dati<br>Casella di ricerca del filtro dei dati<br>Testo fattore di influenza dei fattori di influenza chiave|
 |-|Light |lightLabel |#605E5C |Testo legenda<br>Testo del pulsante<br>Etichette asse delle categorie<br>Etichette dati del grafico a imbuto<br>Etichette tasso di conversione del grafico a imbuto<br>Destinazione misuratore<br>Etichetta categoria grafico a dispersione<br>Elementi filtro dei dati|
 |-|Grassetto |boldLabel |Segoe UI Bold |Subtotali della matrice<br>Totali complessivi della matrice<br>Totali della tabella |
 |-|Large e Light |largeLightLabel |#605E5C<br>12pt |Etichette categorie della scheda<br>Etichette misuratore<br>Etichette categoria della scheda a più righe |
@@ -401,7 +401,7 @@ Il tema di esempio seguente imposta solo le classi di testo primarie:
 }
 ```
 
-Poiché le classi secondarie ereditano dalle classi primarie, non è necessario impostarle nel file del tema. Tuttavia, se non si vuole usare regole di ereditarietà (ad esempio, se non si vuole che i totali siano una versione in grassetto dei valori di una tabella), è possibile formattare in modo esplicito le classi secondarie nel file del tema, esattamente come per la formattazione delle classi primarie.
+Poiché le classi secondarie ereditano dalle classi primarie, non è necessario impostarle nel file del tema. Tuttavia, se non si vogliono usare regole di ereditarietà (ad esempio, se non si vuole che i totali siano una versione in grassetto dei valori di una tabella), è possibile formattare in modo esplicito le classi secondarie nel file del tema, esattamente come per la formattazione delle classi primarie.
 
 ### <a name="setting-visual-property-defaults-visualstyles"></a>Configurazione delle impostazioni predefinite delle proprietà di oggetti visivi (`visualStyles`)
 
@@ -423,7 +423,7 @@ Per le sezioni **visualName** e **cardName** usare un nome oggetto visivo e un n
 
 Per **visualName** e **cardName** usare un asterisco tra virgolette se si vuole che l'impostazione si applichi a tutti gli oggetti visivi o a tutte le schede che hanno una proprietà. Se si usa un asterisco sia per l'oggetto visivo che per il nome della scheda, si applica un'impostazione a livello globale nel report, ad esempio una dimensione del carattere o una famiglia di caratteri specifica per tutto il testo in tutti gli oggetti visivi.
 
-L'esempio seguente imposta alcune proprietà tramite gli stili di visualizzazione:
+L'esempio seguente imposta alcune proprietà tramite gli stili degli oggetti visivi:
 
 ```json
 {
@@ -516,7 +516,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | breakdown: Scomposizione |
 | bubbles: Bolle |
 | calloutValue: Valore callout |
-| card: Card |
+| card: Scheda |
 | cardTitle: Titolo scheda |
 | categoryAxis: Asse X |
 | categoryLabels: Etichette categorie |
@@ -530,13 +530,13 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | goals: Obiettivi |
 | grid: Griglia |
 | header: Intestazione |
-| imageScaling: Scalabilità |
+| imageScaling: Scala |
 | indicator: Indicatore |
-| items: Items |
+| items: Elementi |
 | labels: Etichette dati |
 | legend: Legenda |
 | lineStyles: Forme |
-| mapControls: Controlli mappa |
+| mapControls: Controlli della mappa |
 | mapStyles: Stili mappa |
 | numericInputStyle: Input numerici |
 | percentBarLabel: Etichetta tasso di conversione |
@@ -549,7 +549,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | rowHeaders: Intestazioni di riga |
 | selection: Comandi di selezione |
 | sentimentColors: Colori sentiment |
-| shape: Con forme |
+| shape: Forma |
 | slider: Dispositivo di scorrimento |
 | status: Codifica a colori |
 | subTotals: Subtotali |
@@ -559,7 +559,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | trendline: Asse tendenza |
 | valueAxis: Asse Y |
 | values: Valori |
-| wordWrap: A capo automatico |
+| wordWrap: Ritorno a capo automatico |
 | xAxisReferenceLine: Linea costante asse X |
 | y1AxisReferenceLine: Linea costante |
 | zoom: Zoom |
@@ -4494,7 +4494,7 @@ La sezione seguente definisce le enumerazioni che è possibile usare nel file JS
 Se si usa uno dei temi originali, il tema "Classico" o un tema personalizzato importato per primo, la sezione di testo della finestra di dialogo del tema non è disponibile per la configurazione.
 
 I temi predefiniti interessati da questa limitazione includono:
-* Classico
+* Classic
 * Parco cittadino
 * Classe
 * Per daltonici

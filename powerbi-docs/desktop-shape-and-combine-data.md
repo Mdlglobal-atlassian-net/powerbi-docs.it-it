@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877809"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206770"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Data shaping e combinazione di dati in Power BI Desktop
 
@@ -269,7 +269,7 @@ In questo caso verrà eseguito il merge delle query. A tale scopo, seguire quest
 
    ![Finestra Merge](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
    Alla fine della query l'Editor di query crea una colonna **NewColumn**, che include i contenuti della tabella (query) dopo il merge con la query esistente. Tutte le colonne della query sottoposta a merge vengono condensate nella colonna **NewColumn**, ma è possibile **espandere** la tabella e includere le colonne desiderate.
 

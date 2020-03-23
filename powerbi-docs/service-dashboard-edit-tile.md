@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877479"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207598"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Modificare o rimuovere un riquadro del dashboard
 
@@ -126,7 +126,7 @@ Per impostazione predefinita, se si seleziona un riquadro viene in genere aperto
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Aggiungere il riquadro a un altro dashboard
-1. Dal menu a discesa con puntini di sospensione selezionare **Aggiungi sezione** ![Icona della puntina](media/service-dashboard-edit-tile/pinnooutline.png).
+1. Dal menu a discesa con puntini di sospensione selezionare **Aggiungi sezione**![Icona della puntina](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Decidere se aggiungere un duplicato di questo riquadro a un dashboard esistente o a un nuovo dashboard. 
    
    ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
@@ -145,7 +145,7 @@ Per impostazione predefinita, se si seleziona un riquadro viene in genere aperto
 
 [Dashboard in Power BI](consumer/end-user-dashboards.md)
 
-[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
+[Concetti di base del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

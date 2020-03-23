@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881337"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376754"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Modalità per la condivisione del lavoro in Power BI
 
@@ -23,10 +23,12 @@ Vengono creati dashboard e report. È probabile che si sia anche collaborato al 
 * Collaborare con i colleghi allo scopo di creare report e dashboard significativi nelle *aree di lavoro*.
 * Creare *app* contenenti i dashboard e i report e distribuire le app a un gruppo più ampio o all'intera organizzazione.
 * Creare *set di dati condivisi* che i colleghi possono usare come base per personalizzare i report nelle proprie aree di lavoro.
-* Creare un'*app modello* che è possibile distribuire a utenti di Power BI esterni tramite Microsoft AppSource.
 * Condividere dashboard o report con alcune persone dal servizio o dalle app Power BI per dispositivi mobili.
+* Annotare e condividere dalle app Power BI per dispositivi mobili.
+* Incorporare un report in Microsoft Teams.
 * Stampare i report.
 * *Incorporare* i report in portali sicuri o siti Web pubblici.
+* Creare un'*app modello* che è possibile distribuire a utenti di Power BI esterni tramite Microsoft AppSource.
 
 Indipendentemente dall'opzione scelta, per condividere contenuto è necessaria una [licenza di Power BI Pro](service-features-license-type.md). In caso contrario, il contenuto deve avere una [capacità Premium](service-premium-what-is.md). I requisiti relativi alla licenza per i colleghi che visualizzano il contenuto dipendono dall'opzione scelta. Le sezioni seguenti illustrano i dettagli. 
 
@@ -44,7 +46,7 @@ Le aree di lavoro offrono ruoli che determinano le autorizzazioni dei colleghi. 
 
 È naturalmente possibile inserire contenuto nell'area di lavoro personale e condividerlo da questa posizione. Per la collaborazione, le aree di lavoro sono tuttavia preferibili rispetto all'area di lavoro personale in quanto offrono la comproprietà del contenuto. L'utente e l'intero team possono eseguire facilmente aggiornamenti o concedere l'accesso ad altri utenti. L'area di lavoro personale è più adatta per gli utenti singoli per contenuto occasionale o personale.
 
-Supponiamo di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. 
+Si supponga di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. 
 
 - Se i colleghi devono mantenere aggiornato il dashboard o devono accedere a tutto il contenuto nell'area di lavoro, è consigliabile aggiungerli all'area di lavoro. 
 - Se invece devono semplicemente visualizzare il dashboard e non tutto il contenuto nell'area di lavoro, è possibile scegliere tra diverse alternative. Se per alcuni è necessario solo un dashboard, la soluzione migliore potrebbe essere condividere il dashboard in questione.
@@ -97,6 +99,10 @@ Si condivide uno snapshot del riquadro, del report o dell'oggetto visivo e i des
 Altre informazioni su come [aggiungere annotazioni e condividere riquadri, report e oggetti visivi](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) dalle app per dispositivi mobili iOS e Android.
 
 È anche possibile [condividere uno snapshot di un riquadro](consumer/mobile/mobile-windows-10-phone-app-get-started.md) dall'app Power BI per i dispositivi Windows 10.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Incorporare un report in Microsoft Teams
+
+È possibile favorire la collaborazione basata sui dati nell'organizzazione incorporando i report di Power BI e i report impaginati di Power BI in Microsoft Teams. Si possono aggiungere schede di Power BI separate per ogni singolo report e assegnare a ogni scheda il nome del report o qualsiasi altro nome. I colleghi possono visualizzare i report così condivisi nelle schede di Power BI in Teams. Possono anche aprire la finestra di conversazione e commentare il report direttamente in Teams. Vedere altre informazioni sull'[incorporamento di un report in Microsoft Teams](service-embed-report-microsoft-teams.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Stampare o salvare in formato PDF o altri file statici
 

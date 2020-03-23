@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927115"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488684"
 ---
 # <a name="power-bi-premium-metrics-app"></a>App Power BI Premium Metrics
 
@@ -48,7 +48,7 @@ Poiché la metrica della **memoria attiva** è inclusa nella categoria di *piani
 
 La **memoria attiva** è la memoria usata per elaborare i set di dati attualmente in uso e che non verranno eliminati quando viene richiesta memoria. La metrica della memoria attiva indica se la capacità è in grado di gestire un carico aggiuntivo o, prossimo o superiore alla capacità, il carico corrente della capacità. La memoria attiva attualmente utilizzata indica che è disponibile una quantità minore di memoria per supportare aggiornamenti e query aggiuntivi. 
 
-L'indicatore KPI della **memoria attiva** misura il numero di volte in cui la memoria attiva della capacità ha superato le 50 volte della soglia del 70% (il marcatore è impostato sul 30% degli ultimi sette giorni) che indica che la capacità sta per raggiungere un punto in cui gli utenti possono iniziare a rilevare problemi di prestazioni con le query.
+L'indicatore KPI della **memoria attiva** misura il numero di volte in cui la memoria attiva della capacità ha superato per 50 volte la soglia del 70% (il marcatore è impostato sul 30% degli ultimi sette giorni) che indica che la capacità sta per raggiungere un punto in cui gli utenti potrebbero iniziare a rilevare problemi di prestazioni con le query.
 
 L'oggetto visivo del misuratore illustrato in questa sezione indica che negli ultimi sette giorni dall'ultima volta in cui il report è stato aggiornato la capacità ha superato la soglia del 70% quattro volte, suddivisa per bucket orari. Il valore massimo del misuratore, 168, rappresenta gli ultimi sette giorni, in ore.
 
@@ -138,7 +138,7 @@ Per risolvere i problemi associati allo Scenario 2, è possibile eseguire le ope
 
 ## <a name="the-query-waits-metric"></a>Metrica delle attese delle query
 
-La categoria **Queries** (Query) indica se è possibile che gli utenti rilevino oggetti visivi dei report con tempi di risposta lunghi o che potrebbero non rispondere. **Query waits** (Attese query) è il tempo richiesto dalla query per essere avviata a partire dal momento dell'attivazione. L'indicatore KPI misura se il 25% o più delle query della capacità selezionata richiede 100 millisecondi o più per essere eseguite. Le attese delle query si verificano quando la CPU disponibile non è sufficiente per l'esecuzione di tutte le query in sospeso. 
+La categoria **Queries** (Query) indica se è possibile che gli utenti rilevino oggetti visivi dei report con tempi di risposta lunghi o che potrebbero non rispondere. **Query waits** (Attese query) è il tempo richiesto dalla query per essere avviata a partire dal momento dell'attivazione. L'indicatore KPI misura se il 25% o più delle query della capacità selezionata richiede un'attesa di 100 millisecondi o più per l'esecuzione. Le attese delle query si verificano quando la CPU disponibile non è sufficiente per l'esecuzione di tutte le query in sospeso. 
 
 ![Misuratore delle attese delle query](media/service-premium-metrics-app/premium-metrics-app-09.png)
 
@@ -262,7 +262,7 @@ Se non è disponibile memoria sufficiente per caricare un set di dati per una qu
 
 Per diagnosticare lo Scenario 1, determinare innanzitutto se la limitazione è dovuta a memoria insufficiente. A tale scopo, eseguire le operazioni seguenti.
 
-1.  Selezionare il set di dati a cui si è interessati dalla **Tabella A** facendo clic su di esso: 
+1.    Selezionare il set di dati a cui si è interessati dalla **Tabella A** facendo clic su di esso: 
 
     ![Tabella A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ Per le capacità dedicate, Power BI limita il numero di aggiornamenti che posson
 
 Per diagnosticare lo Scenario 2, determinare innanzitutto se la limitazione è dovuta al raggiungimento del numero massimo di aggiornamenti simultanei. A tale scopo, eseguire le operazioni seguenti.
 
-1.  Selezionare il set di dati a cui si è interessati dalla **Tabella A** facendo clic su di esso: 
+1.    Selezionare il set di dati a cui si è interessati dalla **Tabella A** facendo clic su di esso: 
 
     ![Tabella A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Per diagnosticare lo Scenario 2, determinare innanzitutto se la limitazione è d
 * [Microsoft Power BI Premium whitepaper](https://aka.ms/pbipremiumwhitepaper) (White paper su Microsoft Power BI Premium)
 * [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (White paper sulla pianificazione della distribuzione aziendale di Power BI)
 * [Extended Pro Trial activation](service-extended-pro-trial.md) (Attivazione della versione di valutazione Pro estesa)
-* [Domande frequenti su Power BI Embedded](developer/embedded-faq.md)
+* [Domande frequenti su Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

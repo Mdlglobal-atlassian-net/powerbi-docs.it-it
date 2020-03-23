@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761888"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378985"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Creare segnalibri in Power BI Desktop per condividere informazioni dettagliate e creare storie
 Con i *segnalibri* in Power BI Desktop è possibile acquisire la visualizzazione attualmente configurata di una pagina del report, tra cui il filtro e lo stato degli oggetti visivi. In seguito, sarà possibile tornare a tale stato selezionando il segnalibro salvato. 
@@ -198,7 +198,7 @@ Per abilitare la funzionalità dei segnalibri in anteprima:
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Per questa versione della funzionalità dei segnalibri, tenere presenti alcune limitazioni e considerazioni.
 
-* La maggior parte degli oggetti visivi personalizzati dovrebbero funzionare bene con i segnalibri. Se tuttavia si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
+* La maggior parte degli oggetti visivi di Power BI dovrebbero funzionare bene con i segnalibri. Se tuttavia si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
 * Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo viene visualizzato nel suo stato predefinito, ovvero, se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporta in base allo stato predefinito.
 * Se dopo aver creato un segnalibro un oggetto visivo viene spostato, le modifiche si riflettono automaticamente nel segnalibro. 
 

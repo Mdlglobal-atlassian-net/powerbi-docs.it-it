@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
-ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259979"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435997"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualizzare report e dashboard in modalità presentazione in Surface Hub e nei dispositivi Windows 10
 È possibile usare la modalità presentazione per visualizzare report e dashboard a schermo intero nei dispositivi Windows 10 e in Surface Hub. 
@@ -28,8 +28,9 @@ In modalità presentazione nell'app Power BI per dispositivi mobili per Windows 
 
 > [!NOTE]
 > La modalità presentazione è diversa dalla [modalità messa a fuoco per i riquadri](mobile-tiles-in-the-mobile-apps.md).
-> 
-> 
+
+>[!NOTE]
+>Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="use-presentation-mode"></a>Usare la modalità presentazione
 Nell'app Power BI per dispositivi mobili toccare l'icona **Schermo intero** per passare alla modalità schermo intero.

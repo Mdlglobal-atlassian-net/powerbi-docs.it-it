@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427588"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376685"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Che cosa sono le app modello di Power BI?
 
@@ -102,7 +102,7 @@ Per altri suggerimenti, vedere [Suggerimenti per la creazione di app modello in 
 | Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
 | Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
 | Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
-| Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](developer/power-bi-custom-visuals-organization.md) non supportati |
+| Oggetti visivi di Power BI | Sono supportati solo gli oggetti visivi di Power BI disponibili pubblicamente. Gli [oggetti visivi di Power BI dell'organizzazione](developer/visuals/power-bi-custom-visuals-organization.md) non sono supportati |
 
 ## <a name="support"></a>Supporto
 Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Questo sito viene monitorato e gestito attivamente. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.

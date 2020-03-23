@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041724"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436020"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -30,7 +30,7 @@ I requisiti per la creazione di un'app modello sono i seguenti:
 - Una [licenza di Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Un'[installazione di Power BI Desktop](desktop-get-the-desktop.md) (facoltativa)
 - Conoscenza dei [concetti di base di Power BI](service-basic-concepts.md)
-- Autorizzazioni per condividere un'app modello pubblicamente. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI.
+- Autorizzazioni per condividere un'app modello pubblicamente (per altre informazioni, vedere [portale di amministrazione, Impostazioni app modello](service-admin-portal.md#template-apps-settings) di Power BI)
 
 ## <a name="create-the-template-workspace"></a>Creare l'area di lavoro modello
 
@@ -87,9 +87,9 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
 
     Attivare il **Nuovo generatore di struttura di spostamento** in cui è possibile definire il riquadro di spostamento dell'app. Per informazioni dettagliate, vedere [Progettare l'esperienza di spostamento](service-create-distribute-apps.md#design-the-navigation-experience) in questo articolo.
 
-   ![Impostare la pagina di destinazione dell'app](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Impostare la pagina di destinazione dell'app](media/service-template-apps-create/power-bi-install-app-content.png)
     
-    **Pagina di destinazione dell'app:** Se si decide di rifiutare esplicitamente il generatore della struttura di spostamento, è possibile selezionare la pagina di destinazione dell'app. definire un report o un dashboard come pagina di destinazione dell'app. Usare una pagina di destinazione che offra la giusta impressione.
+    **Pagina di destinazione dell'app:** se si decide di rifiutare esplicitamente il generatore della struttura di spostamento, è possibile selezionare la pagina di destinazione dell'app. definire un report o un dashboard come pagina di destinazione dell'app. Usare una pagina di destinazione che offra la giusta impressione.
 
     **Controllo**
 
@@ -109,7 +109,7 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
     - **Obbligatorio**: usare questa opzione per richiedere che il programma di installazione inserisca un parametro specifico dell'utente.
     - **Blocco**: il blocco impedisce al programma di installazione di aggiornare un parametro.
 
-    **Accesso** Nella fase di test è possibile decidere quali altri utenti nell'organizzazione possono installare e testare l'app. È sempre possibile tornare indietro e modificare queste impostazioni in un secondo momento. Questa impostazione non influisce sull'accesso all'app modello distribuita.
+    **Accesso** Nella fase di test è possibile decidere quali altri utenti nell'organizzazione possono installare e testare l'app. È sempre possibile tornare indietro e modificare queste impostazioni in un secondo momento. L'impostazione non influisce sull'accesso all'app modello distribuita.
 
 2. Selezionare **Crea app**.
 

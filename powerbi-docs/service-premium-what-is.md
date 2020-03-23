@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889398"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381170"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -88,7 +88,7 @@ Le risorse e i limiti di ogni SKU Premium (e della SKU A di dimensioni equivalen
 
 ### <a name="capacity-workloads"></a>Carichi di lavoro delle capacità
 
-I carichi di lavoro delle capacità sono servizi resi disponibili agli utenti. Per impostazione predefinita, le capacità Premium e Azure supportano solo il carico di lavoro di un set di dati associato all'esecuzione delle query di Power BI. Il carico di lavoro del set di dati non può essere disabilitato. È possibile abilitare carichi di lavoro aggiuntivi per [intelligenza artificiale (Servizi cognitivi)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [report impaginati](paginated-reports-save-to-power-bi-service.md). Questi carichi di lavoro sono supportati solo nelle sottoscrizioni Premium. 
+I carichi di lavoro delle capacità sono servizi resi disponibili agli utenti. Per impostazione predefinita, le capacità Premium e Azure supportano solo il carico di lavoro di un set di dati associato all'esecuzione delle query di Power BI. Il carico di lavoro del set di dati non può essere disabilitato. È possibile abilitare carichi di lavoro aggiuntivi per [intelligenza artificiale (Servizi cognitivi)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [report impaginati](paginated-reports/paginated-reports-save-to-power-bi-service.md). Questi carichi di lavoro sono supportati solo nelle sottoscrizioni Premium. 
 
 Ogni carico di lavoro aggiuntivo consente di configurare la memoria massima (come percentuale della memoria totale disponibile) che può essere usata dal carico di lavoro. I valori predefiniti per la memoria massima sono determinati dalla SKU. È possibile ottimizzare le risorse disponibili della capacità abilitando solo i carichi di lavoro aggiuntivi in uso. È possibile modificare le impostazioni della memoria solo quando le impostazioni predefinite determinate non soddisfano i requisiti relativi alle risorse della capacità. Gli amministratori delle capacità possono abilitare e configurare i carichi di lavoro per una capacità usando **Impostazioni di capacità** nel [portale di amministrazione](service-admin-portal.md) o usando le [API REST Capacità](https://docs.microsoft.com/rest/api/power-bi/capacities).  
 
@@ -209,7 +209,7 @@ I report impaginati, supportati nelle SKU P1-P3 e A4_A6, sono basati sulla tecno
 
 In Power BI Premium i report impaginati sono un carico di lavoro che deve essere abilitato per una capacità usando il portale di amministrazione. Gli amministratori della capacità possono abilitare e quindi specificare la quantità di memoria come percentuale delle risorse di memoria complessive della capacità. A differenza di altri carichi di lavoro, Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. Viene usata la memoria massima specificata per questo spazio, indipendentemente dal fatto che il carico di lavoro sia attivo o meno. Il valore predefinito è 20%. 
 
-Per altre informazioni, vedere [Report impaginati in Power BI Premium](paginated-reports-report-builder-power-bi.md). Per altre informazioni sull'abilitazione del carico di lavoro dei report impaginati, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
+Per altre informazioni, vedere [Report impaginati in Power BI Premium](paginated-reports/paginated-reports-report-builder-power-bi.md). Per altre informazioni sull'abilitazione del carico di lavoro dei report impaginati, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Server di report Power BI
  
@@ -227,7 +227,7 @@ Premium consente anche una distribuzione generalizzata dei contenuti da parte de
 
 Per altre informazioni, vedere [Licenze di Power BI](service-admin-licensing-organization.md).
 
-## <a name="tool-connectivity-preview"></a>Connettività degli strumenti (anteprima)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (anteprima)
 
 In background, il **motore Vertipaq di Analysis Services** di Microsoft alimenta i set di dati di Power BI. Analysis Services offre programmabilità e supporto delle applicazioni client e degli strumenti tramite librerie client e API che supportano il protocollo XMLA standard aperto. Attualmente i set di dati di Power BI Premium supportano le operazioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti tramite gli **endpoint XMLA**. 
 

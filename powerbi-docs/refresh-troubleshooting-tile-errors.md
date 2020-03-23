@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699545"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381147"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.
@@ -35,9 +35,10 @@ L'accesso ai dati non è riuscito perché l'origine dati non era raggiungibile. 
 
 Contattare il proprietario del dashboard per verificare che le origini dati e il modello esistano e siano accessibili all'account.
 
-**Gli oggetti visivi sono stati disabilitati dall'amministratore.**
+**Gli oggetti visivi di Power BI sono stati disabilitati dall'amministratore.**
 
-L'amministratore di Power BI ha disabilitato l'utilizzo di oggetti visivi personalizzati per l'organizzazione o il gruppo di sicurezza. Non sarà possibile usare oggetti visivi personalizzati da [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) o importare oggetti visivi privati da un file. Sarà possibile usare solo il set di oggetti visivi già inserito nel pacchetto.
+L'amministratore di Power BI ha disabilitato l'utilizzo di oggetti visivi di Power BI per l'organizzazione o il gruppo di sicurezza.
+Non sarà possibile usare oggetti visivi di Power BI da [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) o importare oggetti visivi privati da un file. Sarà possibile usare solo il set di oggetti visivi già inserito nel pacchetto.
 
 
 **Le forme dati devono contenere almeno un gruppo o un calcolo che esegua l'output dei dati. Contattare il proprietario del dashboard.**

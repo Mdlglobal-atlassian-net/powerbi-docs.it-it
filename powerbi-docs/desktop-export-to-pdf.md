@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867687"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378732"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Esportare report in formato PDF da Power BI Desktop
 In **Power BI Desktop** o nel servizio Power BI, è possibile esportare i report in un file PDF e in tal modo condividere o stampare facilmente i report da tale file PDF.
@@ -34,7 +34,7 @@ Al termine dell'esportazione, il PDF viene caricato nel visualizzatore PDF prede
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Esistono alcune considerazioni da tenere presenti con la funzionalità **Esporta in PDF**:
 
-* La funzionalità esporta gli oggetti visivi personalizzati, ma *non* esporta eventuali sfondi applicati al report.
+* La funzionalità esporta gli oggetti visivi di Power BI, ma *non* esporta eventuali sfondi applicati al report.
 
 Dato che lo sfondo non viene esportato nel PDF, è necessario prestare particolare attenzione ai report che usano uno sfondo scuro. Se il testo nel report è chiaro o bianco, per farlo risaltare su sfondo scuro, sarà difficile da leggere o illeggibile nell'esportazione in formato PDF perché lo sfondo non verrà esportato con il resto del report. 
 

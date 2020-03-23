@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762532"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201958"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Usare i filtri nei report di Power BI
 
@@ -52,8 +52,11 @@ Se è stato attivato il **nuovo aspetto** nel servizio Power BI ![Attiva nuovo a
 
 Se non è stato attivato il nuovo aspetto, è comunque possibile visualizzare la nuova esperienza di filtro seguendo questa procedura.
 
-1. Nel servizio Power BI selezionare la scheda **Report** nell'elenco del contenuto per un'area di lavoro.
-2. Individuare il report che si vuole abilitare e selezionare l'icona **Impostazioni**![icona Impostazioni report](media/power-bi-report-filter/power-bi-settings-icon.png) per il report.
+1. Nel servizio Power BI aprire l'elenco di contenuto per un'area di lavoro.
+2. Trovare il report da abilitare, selezionare **Altre opzioni (...)** e quindi selezionare **Impostazioni** per il report.
+
+    ![Impostazioni report](media/power-bi-report-filter/power-bi-filter-options.png)
+
 3. In **Esperienza di filtro** selezionare **Abilita il riquadro del filtro aggiornato e visualizza i filtri nell'intestazione dell'oggetto visivo per questo report**.
 
     ![Abilitare il riquadro dei filtri aggiornato](media/power-bi-report-filter/power-bi-service-filter-enable.png)
@@ -82,11 +85,21 @@ Dopo essere stato abilitato, il nuovo riquadro Filtri viene visualizzato a destr
 
 1. Per impostazione predefinita, gli utenti del report possono vedere il riquadro Filtri. Se si vuole fare in modo che gli utenti non lo vedano, selezionare l'icona a forma di occhio accanto a **Filtri**.
 
-    ![Icona a forma di occhio relativa ai filtri di Power BI](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Icona a forma di occhio relativa ai filtri di Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. Per iniziare a creare il nuovo riquadro Filtri, trascinare i campi desiderati nel nuovo riquadro come filtri a livello di oggetto visivo, pagina o report.
 
 Quando si aggiunge un oggetto visivo a un'area di disegno report, Power BI aggiunge automaticamente un filtro al riquadro Filtri per ogni campo nell'oggetto visivo. 
+
+## <a name="hide-the-filters-pane-while-editing"></a>Nascondere il riquadro Filtri durante la modifica
+
+Power BI Desktop include una nuova barra multifunzione in anteprima. Nella scheda **Visualizza** l'interruttore **Filtri** consente di visualizzare o nascondere il riquadro Filtri. Questa funzionalità è utile quando non si usa il riquadro Filtri e si ha bisogno di spazio aggiuntivo sullo schermo. Con questa aggiunta, il riquadro Filtri viene allineato agli altri riquadri che è possibile aprire e chiudere, ad esempio i riquadri Segnalibri e Selezione. 
+
+![Visualizzare o nascondere il riquadro Filtri durante la modifica](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+Questa impostazione nasconde solo il riquadro Filtri in Power BI Desktop. Se si vuole nascondere il riquadro Filtri per gli utenti finali, selezionare invece l'icona a forma di **occhio** accanto a **Filtri**.
+
+![Icona a forma di occhio](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>Bloccare o nascondere i filtri
 
@@ -124,16 +137,16 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 1. Nel report fare clic sul report stesso o sullo *sfondo*, quindi nel riquadro **Visualizzazioni** selezionare **Formato**. 
     Vengono visualizzate le opzioni per formattare la pagina del report, lo sfondo e anche il riquadro Filtri e le schede filtro.
 
-1. Espandere **Riquadro filtro** per impostare il colore per lo sfondo, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
+1. Espandere **Riquadro Filtri** per impostare il colore per lo sfondo, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
 
-    ![Espandere Riquadro filtro](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![Espandere il riquadro Filtri](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Espandere **Schede filtro** per impostare il colore e il bordo **disponibili** e **applicati**. Se le schede disponibili e applicate hanno colori diversi, è facile capire quali filtri sono applicati. 
   
     ![Espandere Schede filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>Applicazione di un tema per il riquadro di filtro
-È ora possibile modificare le impostazioni predefinite del riquadro di filtro con il file del tema. Ecco un frammento di codice relativo a un tema di esempio per provare:
+## <a name="theming-for-filters-pane"></a>Applicazione di un tema per il riquadro Filtri
+È ora possibile modificare le impostazioni predefinite del riquadro Filtri con il file del tema. Ecco un frammento di codice relativo a un tema di esempio per provare:
 
  
 ```
@@ -204,9 +217,9 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>Ordinare il riquadro di filtro
+## <a name="sort-the-filters-pane"></a>Ordinare il riquadro Filtri
 
-La funzionalità di ordinamento personalizzato fa parte della nuova esperienza del riquadro di filtro. I creatori di report possono trascinare e rilasciare i filtri per ridisporli in qualsiasi ordine.
+La funzionalità di ordinamento personalizzato fa parte della nuova esperienza del riquadro Filtri. I creatori di report possono trascinare e rilasciare i filtri per ridisporli in qualsiasi ordine.
 
 ![Modificare l'ordinamento dei filtri](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
@@ -223,11 +236,25 @@ Quando si modifica il riquadro Filtri, è possibile fare doppio clic sul titolo 
 
 ![Rinominare un filtro](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>Ricerca nel riquadro Filtri
+
+La funzionalità di ricerca del riquadro Filtri consente di eseguire ricerche nelle schede dei filtri in base al titolo. Questa funzionalità è utile se sono disponibili diverse schede di filtro nel riquadro Filtri e serve aiuto per trovare quelle di interesse.
+
+![Cercare un filtro](media/power-bi-report-filter/power-bi-filter-search.png)
+
+È anche possibile formattare la casella di ricerca, così come è possibile formattare gli altri elementi del riquadro Filtri.
+
+![Formattazione dalla casella di ricerca](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+Sebbene questa funzionalità di ricerca nel riquadro Filtri sia attiva per impostazione predefinita, è anche possibile scegliere di attivarla o disattivarla selezionando **Enable search for Filters pane** (Abilita la ricerca per il riquadro Filtri) in Impostazioni report nella finestra di dialogo Opzioni.
+
+![Attivare o disattivare la ricerca](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>Limitare le modifiche del tipo di filtro
 
 Nella sezione Esperienza di filtro delle impostazioni del report è disponibile un'opzione per controllare se gli utenti possono modificare il tipo di filtro.
 
-![Limitare la modifica del tipo di filtro](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![Limitare la modifica del tipo di filtro](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

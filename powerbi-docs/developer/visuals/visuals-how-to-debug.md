@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264244"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377903"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Come eseguire il debug degli oggetti visivi di Power BI
 
 Questa pagina illustra alcuni suggerimenti per eseguire il debug durante la compilazione dell'oggetto visivo. Vengono illustrati i passaggi di base e le differenze tra l'esecuzione del dubug nelle applicazioni front-end standard e negli oggetti visivi di Power BI.
-Dopo aver letto l'articolo, sarà possibile eseguire il debug di oggetti visivi personalizzati usando i punti di interruzione, registrare le eccezioni e rilevarle in Chrome ed Edge.
+Dopo aver letto l'articolo, sarà possibile eseguire il debug di oggetti visivi di Power BI usando i punti di interruzione, registrare le eccezioni e intercettarle in Chrome ed Edge.
 
 ## <a name="using-breakpoints"></a>Uso dei punti di interruzione
 
@@ -35,7 +35,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="showing-exceptions"></a>Visualizzazione delle eccezioni
 
-Quando si lavora sull'oggetto visivo, si noterà che tutti gli errori vengono "utilizzati" dal servizio Power BI. Si tratta di una funzionalità intenzionale di Power BI per impedire che gli oggetti visivi con un comportamento anomalo rendano instabile l'intera app.
+Quando si lavora sull'oggetto visivo, si noterà che tutti gli errori vengono 'utilizzati' dal servizio Power BI. Si tratta di una funzionalità intenzionale di Power BI per impedire che gli oggetti visivi con un comportamento anomalo rendano instabile l'intera app.
 
 Come soluzione alternativa, aggiungere codice per rilevare e registrare le eccezioni oppure impostare il debugger in modo che interrompa le eccezioni rilevate.
 
@@ -80,7 +80,7 @@ public update(options: VisualUpdateOptions) {
 3. Fare clic sull'icona che consente di **interrompere in caso di eccezioni** (esagono con un simbolo di pausa).
 4. Selezionare **Interrompi per tutte le eccezioni**.
 
-![Campi dei ruoli dei dati](./media/how-to-debug-edge.png)
+![Campi dei ruoli dei dati](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ public update(options: VisualUpdateOptions) {
 3. Fare clic sull'icona che consente di **interrompere in caso di eccezioni** (segnale di arresto con un simbolo di pausa).
 4. Selezionare la casella di controllo **Pause On Caught Exceptions** (Sospendi per le eccezioni rilevate).
 
-![Campi dei ruoli dei dati](./media/how-to-debug-chrome.png)
+![Campi dei ruoli dei dati](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Risoluzione dei problemi relativi agli oggetti visivi di Power BI](../power-bi-custom-visuals-troubleshoot.md)
-* Per altre informazioni e risposte, vedere [Domande frequenti sugli oggetti visivi di Power BI](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
+* [Risoluzione dei problemi relativi agli oggetti visivi di Power BI](power-bi-custom-visuals-troubleshoot.md)
+* Per altre informazioni e risposte, vedere [Domande frequenti sugli oggetti visivi di Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

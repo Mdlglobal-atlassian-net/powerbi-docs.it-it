@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538129"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435767"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -21,6 +21,9 @@ Si applica a:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telefono Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tablet Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivi Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
+
+>[!NOTE]
+>Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Un report di Power BI è una vista interattiva dei dati con elementi visivi che rappresentano conclusioni e approfondimenti diversi ottenuti da tali dati. La visualizzazione dei report nella app Power BI per dispositivi mobili è il terzo passaggio in un processo in tre fasi:
 
@@ -59,6 +62,14 @@ Quando si scarica l'app per dispositivi mobili Power BI, è impostata per l'inte
 Se si preferisce, è possibile passare all'interazione con doppio tocco. Con l'interazione con doppio tocco è prima necessario toccare un oggetto visivo per selezionarlo e poi toccare di nuovo l'oggetto visivo per eseguire l'azione desiderata.
 
 Per passare all'interazione con doppio tocco o per tornare all'interazione con tocco singolo, passare alle [impostazioni di interazione dell'app](./mobile-app-interaction-settings.md).
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Modalità selezione singola rispetto alla modalità selezione multipla per la selezione del punto dati
+
+In un report toccare un punto dati per selezionarlo. È possibile scegliere se si desidera usare la modalità selezione singola o selezione multipla. In modalità selezione singola, quando si tocca un punto dati per selezionarlo, questa selezione sostituisce le selezioni precedenti effettuate. In modalità di selezione multipla, quando si tocca un punto dati per selezionarlo, la selezione viene *aggiunta* a qualsiasi selezione attualmente disponibile e il risultato combinato di tutte le selezioni viene evidenziato in tutti gli oggetti visivi del report.
+
+Per deselezionare un punto dati selezionato, è sufficiente toccarlo di nuovo.
+
+Per passare dalla modalità a selezione singola a quella a selezione multipla, passare alle [impostazioni di interazione delle app](./mobile-app-interaction-settings.md).
 
 ### <a name="using-tap-and-long-tap"></a>Uso del tocco e del tocco lungo
 Un tocco equivale a un clic del mouse. Di conseguenza, per l'evidenziazione incrociata del report in base a un punto dati, toccare il punto dati.

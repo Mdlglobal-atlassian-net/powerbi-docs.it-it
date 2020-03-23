@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115286"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381078"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
 Con lo streaming in tempo reale di Power BI, è possibile trasmettere i dati e aggiornare i dashboard in tempo reale. Gli oggetti visivi o i dashboard che possono essere creati in Power BI possono essere creati anche per visualizzare e aggiornare gli oggetti visivi e i dati in tempo reale. I dispositivi e le origini dei dati in streaming possono essere sensori factory, origini di social media, metriche di utilizzo del servizio e qualsiasi altra origine da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.
@@ -33,7 +33,7 @@ Esistono tre tipi di set di dati in tempo reale, progettati per la visualizzazio
 In primo luogo si analizzerà in che modo questi set di dati differiscono l'uno dall'altro (questa sezione), quindi si discuterà come eseguire il push dei dati in ciascuno di tali set di dati.
 
 ### <a name="push-dataset"></a>Set di dati di push
-Con un **set di dati di push**, viene eseguito il push dei dati nel servizio Power BI. Quando viene creato il set di dati, il servizio Power BI crea automaticamente un nuovo database nel servizio per memorizzare i dati. Poiché è presente un database sottostante che continua a memorizzare i dati in arrivo, è possibile creare report con i dati. Questi report e i rispettivi oggetti visivi sono esattamente come qualsiasi altro oggetto visivo di report, vale a dire che è possibile usare tutte le funzionalità di creazione di report di Power BI per creare oggetti visivi, inclusi oggetti visivi personalizzati, avvisi dati, riquadri del dashboard aggiunti e molto altro.
+Con un **set di dati di push**, viene eseguito il push dei dati nel servizio Power BI. Quando viene creato il set di dati, il servizio Power BI crea automaticamente un nuovo database nel servizio per memorizzare i dati. Poiché è presente un database sottostante che continua a memorizzare i dati in arrivo, è possibile creare report con i dati. Questi report e i rispettivi oggetti visivi sono esattamente come qualsiasi altro oggetto visivo di report, vale a dire che è possibile usare tutte le funzionalità di creazione di report di Power BI per creare oggetti visivi, inclusi oggetti visivi di Power BI, avvisi dati, riquadri del dashboard aggiunti e molto altro.
 
 Dopo aver creato un report usando il set di dati di push, sarà possibile aggiungere uno qualsiasi dei suoi oggetti visivi a un dashboard. Nel dashboard, gli oggetti visivi si aggiornano in tempo reale ogni volta che i dati vengono aggiornati. All'interno del servizio, il dashboard attiva un aggiornamento del riquadro ogni volta che si ricevono nuovi dati.
 
@@ -45,16 +45,16 @@ Esistono due aspetti da considerare relativamente ai riquadri aggiunti da un set
 ### <a name="streaming-dataset"></a>Set di dati di streaming
 Anche con un **set di dati di streaming** viene eseguito il push dei dati nel servizio Power BI, con una differenza importante: Power BI archivia solo i dati in una cache temporanea, che scade rapidamente. La cache temporanea viene usata solo per visualizzare gli oggetti visivi che hanno un certo senso cronologico temporaneo, ad esempio un grafico a linee con un intervallo di tempo di un'ora.
 
-Con un **set di dati di streaming**, *non* c'è un database sottostante, quindi *non si possono* generare oggetti visivi del report usando i dati trasmessi dal flusso. Di conseguenza, non è possibile usare le funzionalità del report, ad esempio i filtri, gli oggetti visivi personalizzati e altre funzioni di report.
+Con un **set di dati di streaming**, *non* c'è un database sottostante, quindi *non si possono* generare oggetti visivi del report usando i dati trasmessi dal flusso. Di conseguenza, non è possibile usare le funzionalità del report, ad esempio i filtri, gli oggetti visivi di Power BI e altre funzioni di report.
 
-L'unico modo per visualizzare un set di dati di streaming consiste nell'aggiungere un riquadro e usare il set di dati di streaming come un'origine dati per i **dati di streaming personalizzati**. I riquadri di streaming personalizzati che si basano su un **set di dati di streaming** sono ottimizzati per visualizzare rapidamente i dati in tempo reale. C'è una latenza minima tra il momento in cui i dati vengono spostati nel servizio Power BI e quello in cui l'oggetto visivo viene aggiornato, perché non è necessario che i dati vengano immessi o letti in un database.
+L'unico modo per visualizzare un set di dati di streaming consiste nell'aggiungere un riquadro e usare il set di dati di streaming come un'origine dati per i **dati di streaming personalizzati**. I riquadri di streaming personalizzati che si basano su un **set di dati di streaming** sono ottimizzati per visualizzare rapidamente i dati in tempo reale. C'è una latenza minima tra il momento in cui i dati vengono inseriti nel servizio Power BI e quello in cui l'oggetto visivo viene aggiornato, perché non è necessario che i dati vengano immessi o letti in un database.
 
 In pratica, i set di dati di streaming e i relativi oggetti visivi di streaming risultano particolarmente adatti in situazioni in cui è fondamentale ridurre al minimo la latenza tra il momento in cui i dati vengono spostati e quello in cui vengono visualizzati. È anche consigliabile eseguire il push di dati in un formato che può essere visualizzato così com'è, senza alcuna aggregazione aggiuntiva. Tra gli esempi di dati che sono pronti "così come sono" sono incluse le temperature e le medie pre-calcolate.
 
 ### <a name="pubnub-streaming-dataset"></a>Set di dati di streaming PubNub
 Con un set di dati di streaming **PubNub** il client Web di Power BI usa l'SDK PubNub per leggere un flusso di dati PubNub e nessun dato viene memorizzato dal servizio Power BI.
 
-Come con il **set di dati di streaming**, con il **set di dati di streaming PubNub** non c'è nessun database sottostante in Power BI, quindi non è possibile creare oggetti visivi del report in base ai dati trasmessi né sfruttare le funzionalità dei report come i filtri, gli oggetti visivi personalizzati e così via. Di conseguenza, anche il **set di dati di streaming PubNub** può essere visualizzato solo aggiungendo un riquadro al dashboard e configurando un flusso di dati PubNub come origine.
+Come con il **set di dati di streaming**, con il **set di dati di streaming PubNub** non c'è nessun database sottostante in Power BI, quindi non è possibile creare oggetti visivi del report in base ai dati trasmessi né sfruttare le funzionalità dei report come i filtri, gli oggetti visivi di Power BI e così via. Di conseguenza, anche il **set di dati di streaming PubNub** può essere visualizzato solo aggiungendo un riquadro al dashboard e configurando un flusso di dati PubNub come origine.
 
 I riquadri basati su un **set di dati di streaming PubNub** sono ottimizzati per visualizzare rapidamente i dati in tempo reale. Dal momento che Power BI è direttamente connesso al flusso di dati PubNub, c'è una latenza minima tra il momento in cui i dati vengono spostati nel servizio Power BI e quello in cui l'oggetto visivo viene aggiornato.
 
@@ -64,9 +64,7 @@ La tabella seguente (o matrice, se si preferisce) descrive i tre tipi di set di 
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Vedere [questo articolo](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) per informazioni sui limiti del **push** relativi alla quantità di dati su cui è possibile eseguirlo.
-> 
-> 
+> Vedere [questo articolo](developer/automation/api-rest-api-limitations.md) per informazioni sui limiti del **push** relativi alla quantità di dati su cui è possibile eseguirlo.
 
 ## <a name="pushing-data-to-datasets"></a>Push dei dati nei set di dati
 La sezione precedente descriveva tre tipi principali di set di dati in tempo reale che è possibile usare nello streaming in tempo reale e le relative differenze. Questa sezione descrive come creare ed eseguire il push dei dati in tali set di dati.
@@ -110,7 +108,7 @@ Quando l'opzione **Analisi dati cronologici** è disabilitata (lo è per imposta
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Uso dell'analisi di flusso di Azure per il push dei dati
 È possibile aggiungere Power BI come output all'interno dell'**Analisi di flusso di Azure** (ASA) e quindi visualizzare i flussi di dati nel servizio Power BI in tempo reale. Questa sezione descrive i dettagli tecnici sulle modalità di tale processo.
 
-Analisi di flusso di Azure usa le API REST di Power BI per creare il relativo flusso di dati in Power BI, con il flag *defaultMode* impostato su *pushStreaming* (vedere le precedenti sezioni in questo articolo per informazioni su *defaultMode*), che risulta in un set di dati che può sfruttare sia **push** che **streaming**. Durante la creazione del set di dati, Analisi di flusso di Azure imposta anche il flag **retentionPolicy* su *basicFIFO*; con tale impostazione, il database che supporta il set di dati di push archivia 200.000 righe e una volta raggiunto tale limite, le righe vengono eliminate secondo il metodo First In, First Out (FIFO).
+Analisi di flusso di Azure usa le API REST di Power BI per creare il relativo flusso di dati in Power BI, con il flag *defaultMode* impostato su *pushStreaming* (vedere le precedenti sezioni in questo articolo per informazioni su *defaultMode*), che risulta in un set di dati che può sfruttare sia **push** che **streaming**. Durante la creazione del set di dati, Analisi di flusso di Azure imposta anche il flag **retentionPolicy** su *basicFIFO*; con tale impostazione, il database che supporta il set di dati di push archivia 200.000 righe e, raggiunto tale limite, le righe vengono eliminate secondo il metodo First In, First Out (FIFO).
 
 > [!CAUTION]
 > Se la query Analisi di flusso di Azure produce un output estremamente rapido in Power BI (ad esempio, una o due volte al secondo), Analisi di flusso di Azure inizierà a inviare in batch tali output in un'unica richiesta. Ciò potrebbe far sì che la dimensione della richiesta superi il limite del riquadro di streaming. In tal caso, come indicato nelle sezioni precedenti, i riquadri di streaming non riusciranno a eseguire il rendering. In questi casi, la procedura consigliata consiste nel diminuire la velocità dell'output dei dati in Power BI; ad esempio, anziché un valore massimo ogni secondo, impostarlo su un valore massimo per 10 secondi.

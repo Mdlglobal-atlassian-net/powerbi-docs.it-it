@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753192"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525638"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Acquistare e assegnare licenze utente di Power BI Pro
 
@@ -28,7 +28,7 @@ Power BI Pro è una licenza per singolo utente che consente agli utenti di legge
 Questo articolo illustra come acquistare licenze utente di Power BI Pro nell'interfaccia di amministrazione di Microsoft 365. Dopo aver acquistato le licenze, è possibile assegnarle agli utenti nell'interfaccia di amministrazione di Microsoft 365 o nel portale di Azure.
 
 > [!NOTE]
-> A partire dal 14 gennaio 2020, le funzionalità di acquisto in modalità self-service, sottoscrizione e gestione licenze per i prodotti Power Platform (Power BI, Power Apps e Power Automate) sono disponibili per i clienti cloud commerciali negli Stati Uniti. Per altre informazioni, inclusa la procedura per abilitare o disabilitare l'acquisto in modalità self-service nell'organizzazione, vedere [Domande frequenti sull'acquisto in modalità self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> A partire dal 14 gennaio 2020, le funzionalità di acquisto in modalità self-service, sottoscrizione e gestione licenze per i prodotti Power Platform (Power BI, Power Apps e Power Automate) sono disponibili per i clienti cloud commerciali. Per altre informazioni, inclusa la procedura per abilitare o disabilitare l'acquisto in modalità self-service nell'organizzazione, vedere [Domande frequenti sull'acquisto in modalità self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Prerequisiti
 

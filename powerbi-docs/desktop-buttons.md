@@ -1,36 +1,45 @@
 ---
-title: Uso dei pulsanti in Power BI
-description: I pulsanti in Power BI Desktop consentono di ottenere un comportamento simile a quello delle app per i report e i dashboard, offrendo un'esperienza più coinvolgente agli utenti
+title: Usare i pulsanti in Power BI
+description: È possibile aggiungere pulsanti nei report di Power BI, in modo che il comportamento dei report sia simile a quello delle app per un maggiore coinvolgimento degli utenti.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878727"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201643"
 ---
-# <a name="using-buttons-in-power-bi"></a>Uso dei pulsanti in Power BI
-L'uso dei **pulsanti** in Power BI consente di creare report e dashboard con un comportamento simile alle app e in tal modo di creare un ambiente coinvolgente in modo che gli utenti possano passare il mouse, fare clic e interagire in altri modi con il contenuto di Power BI. È possibile aggiungere pulsanti ai report in **Power BI Desktop** e condividere o pubblicare questi report nel servizio Power BI per creare dashboard con un comportamento simile alle app per gli utenti.
+# <a name="use-buttons-in-power-bi"></a>Usare i pulsanti in Power BI
+L'uso dei **pulsanti** in Power BI consente di creare report con un comportamento simile alle app e in tal modo di creare un ambiente coinvolgente in modo che gli utenti possano passare il mouse, fare clic e interagire in altri modi con il contenuto di Power BI. È possibile aggiungere pulsanti ai report in **Power BI Desktop** e nel **servizio Power BI**. Quando si condividono i report nel servizio Power BI, questi forniscono un'esperienza simile a un'app per gli utenti.
 
-![Pulsanti in Power BI](media/desktop-buttons/desktop-buttons_01.png)
+![Pulsanti in Power BI](media/desktop-buttons/power-bi-buttons.png)
 
-I pulsanti creati in **Power BI Desktop** sono disponibili per l'uso nei report o nei dashboard pubblicati nel **servizio Power BI**.
+## <a name="create-buttons-in-reports"></a>Creare pulsanti nei report
 
-## <a name="creating-buttons-in-reports"></a>Creazione di pulsanti nei report
-Per creare un pulsante in un report di **Power BI Desktop**, selezionare **Pulsanti** nella barra multifunzione **Home**. Viene visualizzato un menu a discesa in cui è possibile selezionare il pulsante desiderato da una raccolta di opzioni, come illustrato nella figura seguente. 
+### <a name="create-a-button-in-power-bi-desktop"></a>Creare un pulsante in Power BI Desktop
 
-![Aggiungere un controllo pulsante in Power BI Desktop](media/desktop-buttons/desktop-buttons_02.png)
+Per creare un pulsante in **Power BI Desktop**, selezionare **Pulsanti** nella barra multifunzione **Inserisci**. Viene visualizzato un menu a discesa in cui è possibile selezionare il pulsante desiderato da una raccolta di opzioni, come illustrato nella figura seguente. 
 
-Quando si crea un pulsante e lo si seleziona nell'area di disegno report, il riquadro **Visualizzazioni** mostra i diversi modi per personalizzare il pulsante in base alle specifiche esigenze. Ad esempio, è possibile attivare o disattivare **Testo pulsante**, spostando il dispositivo di scorrimento in tale sezione del riquadro **Visualizzazioni**. È anche possibile modificare l'icona del pulsante, il riempimento del pulsante, il titolo e l'azione eseguita quando gli utenti fanno clic sul pulsante in un report o un dashboard, tra le altre proprietà.
+![Aggiungere un controllo pulsante in Power BI Desktop](media/desktop-buttons/power-bi-button-dropdown.png)
 
-![Formattare un pulsante in Power BI Desktop](media/desktop-buttons/desktop-buttons_03.png)
+### <a name="create-a-button-in-the-power-bi-service"></a>Creare un pulsante nel servizio Power BI
+
+Per creare un pulsante nel **servizio Power BI**, aprire il report nella visualizzazione di modifica. Selezionare **Pulsanti** nella barra dei menu superiore. Viene visualizzato un menu a discesa in cui è possibile selezionare il pulsante desiderato da una raccolta di opzioni, come illustrato nella figura seguente. 
+
+![Aggiungere un controllo pulsante nel servizio Power BI](media/desktop-buttons/power-bi-button-service-dropdown.png)
+
+## <a name="customize-a-button"></a>Personalizzare un pulsante
+
+Indipendentemente dal fatto che il pulsante venga creato in Power BI Desktop o nel servizio Power BI, il resto della procedura è uguale. Quando si seleziona un pulsante nell'area di disegno report, il riquadro **Visualizzazioni** mostra i diversi modi per personalizzare il pulsante in base alle specifiche esigenze. Ad esempio, è possibile attivare o disattivare **Testo pulsante**, spostando il dispositivo di scorrimento in tale sezione del riquadro **Visualizzazioni**. È anche possibile modificare l'icona del pulsante, il riempimento del pulsante, il titolo e l'azione eseguita quando gli utenti selezionano il pulsante in un report, tra le altre proprietà.
+
+![Formattare un pulsante in un report di Power BI](media/desktop-buttons/power-bi-button-properties.png)
 
 ## <a name="set-button-properties-when-idle-hovered-over-or-selected"></a>Impostare le proprietà dei pulsanti per lo stato inattivo, al passaggio del mouse o selezionato
 
@@ -43,37 +52,46 @@ Le sezioni seguenti nel riquadro **Visualizzazioni** consentono di modificare la
 * Bordo
 * Riempimento
 
-Per specificare l'aspetto del pulsante per ogni stato, espandere una di queste sezioni e selezionare l'elenco a discesa visualizzato nella parte superiore della sezione. Nella figura seguente è visualizzata la sezione **Bordo** espansa con l'elenco a discesa selezionato per mostrare i tre stati:
+Per specificare l'aspetto del pulsante per ogni stato, espandere una di queste sezioni e selezionare l'elenco a discesa visualizzato nella parte superiore della sezione. Nella figura seguente è visualizzata la sezione **Icona** espansa con l'elenco a discesa selezionato per mostrare i tre stati.
 
-![Tre stati di un pulsante in Power BI Desktop](media/desktop-buttons/desktop-buttons_04.png)
+![Tre stati di un pulsante in un report di Power BI](media/desktop-buttons/power-bi-button-format.png)
 
 
 ## <a name="select-the-action-for-a-button"></a>Selezionare l'azione per un pulsante
 
 È possibile selezionare l'azione da eseguire quando un utente seleziona un pulsante in Power BI. È possibile accedere alle opzioni per le azioni del pulsante dalla sezione **Azione** nel riquadro **Visualizzazioni**.
 
-![Azione per un pulsante in Power BI](media/desktop-buttons/desktop-buttons_05.png)
+![Azione per un pulsante in Power BI](media/desktop-buttons/power-bi-button-action.png)
 
-Le opzioni per le azioni dei pulsanti sono:
+Le opzioni per le azioni dei pulsanti sono le seguenti:
 
-* Indietro
-* Segnalibro
-* Domande e risposte
+- **Indietro** consente all'utente di tornare alla pagina precedente del report. Questa operazione è utile per le pagine di drill-through.
+- **Segnalibro** visualizza la pagina del report associata a un segnalibro definito per il report corrente. Vedere altre informazioni sui [segnalibri in Power BI](desktop-bookmarks.md). 
+- **Drill-through (anteprima)** sposta l'utente in una pagina di drill-through filtrata in base alla selezione, senza usare i segnalibri. Vedere altre informazioni sui [pulsanti di drill-through nei report](desktop-drill-through-buttons.md).
+- **Navigazione sulle pagine** sposta l'utente in un'altra pagina all'interno del report, anche in questo caso senza usare i segnalibri. Per informazioni dettagliate, vedere [Creare l'esperienza di navigazione tra le pagine](#create-page-navigation) in questo articolo.
+- **Domande e risposte** apre una finestra **Esplora domande e risposte**. 
 
-Selezionando **Indietro** l'utente torna alla pagina precedente del report. Questa azione è particolarmente utile per le pagine di drill-down.
-
-Selezionando **Segnalibro** viene visualizzata la pagina del report associata a un segnalibro definito per il report corrente. Sono disponibili [altre informazioni sui segnalibri in Power BI](desktop-bookmarks.md). 
-
-Selezionando **Domande e risposte** nell'elenco a discesa viene visualizzata una finestra **Esplora domande e risposte**. 
-
-Per alcuni pulsanti sarà disponibile un'azione predefinita selezionata automaticamente. Ad esempio, per il tipo di pulsante **Domande e risposte** è selezionata automaticamente l'azione **Domande e risposte**. Per altre informazioni su **Esplora domande e risposte**, vedere [questo post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
+Per alcuni pulsanti è disponibile un'azione predefinita selezionata automaticamente. Ad esempio, per il tipo di pulsante **Domande e risposte** è selezionata automaticamente l'azione **Domande e risposte**. Per altre informazioni su **Esplora domande e risposte**, vedere [questo post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
 
 È possibile provare o testare i pulsanti creati per il report usando *CTRL+clic* sul pulsante da provare. 
+
+### <a name="create-page-navigation"></a>Creare l'esperienza di navigazione tra le pagine
+
+Con il tipo di **Azione** **Navigazione sulle pagine** è possibile creare rapidamente un'intera esperienza di navigazione senza dover salvare o gestire alcun segnalibro.
+
+Per impostare un pulsante di navigazione tra le pagine, creare un pulsante con il tipo di azione **Navigazione sulle pagine** e selezionare la pagina **Destinazione**.
+
+![Azione Navigazione sulle pagine](media/desktop-buttons/power-bi-page-navigation.png)
+
+È possibile creare rapidamente un riquadro di spostamento personalizzato. Si possono così evitare la modifica e la gestione dei segnalibri se si vogliono cambiare le pagine da visualizzare nel riquadro di spostamento.
+
+![Creare una pagina di navigazione](media/desktop-buttons/power-bi-build-navigation-pane.png)
+
+È anche possibile formattare in modo condizionale la descrizione comando come per gli altri tipi di pulsanti.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sulle funzionalità simili o su come interagire con i pulsanti, vedere gli articoli seguenti:
 
-* [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
-* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](consumer/end-user-focus.md)
+* [Usare il drill-through nei report di Power BI](desktop-drillthrough.md)
 * [Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI](desktop-bookmarks.md)
 

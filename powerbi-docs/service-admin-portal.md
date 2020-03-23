@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488707"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -104,7 +104,7 @@ Vedere [Monitorare le metriche di utilizzo per dashboard e report di Power BI](s
 
 ### <a name="per-user-data-in-usage-metrics"></a>Dati per utente nelle metriche di utilizzo
 
-Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del consumer di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account vengono quindi visualizzate nel report come *Senza nome*.
+Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del consumer di contenuto sono incluse nel report delle metriche. Se non si vogliono includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account vengono quindi visualizzate nel report come *Senza nome*.
 
 ![Dati di utilizzo per utente](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -277,6 +277,14 @@ Gli utenti dell'organizzazione possono creare sottoscrizioni di posta elettronic
 
 ![Abilitare le sottoscrizioni di posta elettronica](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>Contenuti in primo piano
+
+Consentire ad alcuni o a tutti gli autori di report nell'organizzazione di presentare il proprio contenuto nella sezione In primo piano della home page di Power BI. I nuovi utenti visualizzeranno il contenuto in primo piano nella parte superiore della home page di Power BI. Il contenuto in primo piano viene spostato verso il basso nella home page, man mano che gli utenti aggiungono elementi nelle sezioni **Preferiti**, **Frequenti** e **Recenti**. 
+
+È consigliabile iniziare con un piccolo set di elementi in primo piano. Se si consente all'intera organizzazione di includere contenuto in primo piano nella home page, può diventare difficile tenere traccia di tutti i contenuti messi in evidenza. 
+
+Dopo aver abilitato il contenuto in primo piano, è anche possibile gestirlo nel portale di amministrazione. Vedere [Gestire il contenuto in primo piano](#manage-featured-content) in questo articolo per informazioni sul controllo del contenuto in primo piano nel proprio dominio.
+
 ## <a name="content-pack-and-app-settings"></a>Impostazioni dell'app e del pacchetto di contenuto
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Pubblicare pacchetti di contenuto e app per l'intera organizzazione
@@ -312,17 +320,16 @@ Gli utenti dell'organizzazione possono usare la visualizzazione Mappe ArcGIS per
 
 Gli utenti dell'organizzazione possono usare funzionalità di ricerca esterne basate su Ricerca di Azure.
 
-## <a name="custom-visuals-settings"></a>Impostazioni degli oggetti visivi personalizzati
+## <a name="power-bi-visuals-settings"></a>Impostazioni degli oggetti visivi di Power BI
 
-### <a name="add-and-use-custom-visuals"></a>Aggiungi e usa oggetti visivi personalizzati
+### <a name="add-and-use-power-bi-visuals"></a>Aggiungere e usare oggetti visivi di Power BI
 
-Gli utenti dell'organizzazione possono interagire con gli oggetti visivi personalizzati e condividerli. [Altre informazioni](developer/power-bi-custom-visuals.md)
+Gli utenti dell'organizzazione possono interagire con gli oggetti visivi di Power BI e condividerli. [Altre informazioni](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Questa impostazione può essere applicata all'intera organizzazione o limitata a gruppi specifici.
 
-
-Power BI Desktop (a partire dalla versione del marzo '19) supporta l'utilizzo dei **Criteri di gruppo** per disabilitare l'uso di oggetti visivi personalizzati nei computer distribuiti di un'organizzazione.
+Power BI Desktop (a partire dalla versione di marzo 2019) supporta l'uso di **Criteri di gruppo** per disabilitare l'uso di oggetti visivi di Power BI nei computer distribuiti di un'organizzazione.
 
 <table>
 <tr><th>Attributo</th><th>Valore</th>
@@ -335,16 +342,16 @@ Power BI Desktop (a partire dalla versione del marzo '19) supporta l'utilizzo de
 </tr>
 </table>
 
-Il valore 1 (decimale) abilita l'uso di oggetti visivi personalizzati in Power BI (opzione predefinita).
+Il valore 1 (decimale) abilita l'uso di oggetti visivi di Power BI in Power BI (opzione predefinita).
 
-Il valore 0 (decimale) disabilita l'uso di oggetti visivi personalizzati in Power BI.
+Il valore 0 (decimale) disabilita l'uso di oggetti visivi di Power BI in Power BI.
 
 ### <a name="allow-only-certified-visuals"></a>Consenti solo oggetti visivi personalizzati certificati
 
-Gli utenti dell'organizzazione a cui sono state assegnate le autorizzazioni per aggiungere e usare gli oggetti visivi personalizzati, tramite l'impostazione "Aggiungi e usa oggetti visivi personalizzati", potranno usare solo [oggetti visivi personalizzati certificati](https://go.microsoft.com/fwlink/?linkid=2002010) (gli oggetti visivi non certificati verranno bloccati e verrà visualizzato un messaggio di errore quando vengono usati). 
+Gli utenti dell'organizzazione a cui sono state assegnate le autorizzazioni per aggiungere e usare gli oggetti visivi di Power BI, tramite l'impostazione "Aggiungi e usa oggetti visivi personalizzati", potranno usare solo [oggetti visivi di Power BI certificati](https://go.microsoft.com/fwlink/?linkid=2002010) (gli oggetti visivi non certificati verranno bloccati e verrà visualizzato un messaggio di errore quando vengono usati). 
 
 
-Power BI Desktop (a partire dalla versione del marzo '19) supporta l'utilizzo dei **criteri di gruppo** per disabilitare l'uso di oggetti visivi personalizzati non certificati nei computer distribuiti di un'organizzazione.
+Power BI Desktop (a partire dalla versione di marzo 2019) supporta l'uso di **Criteri di gruppo** per disabilitare l'utilizzo di oggetti visivi di Power BI non certificati nei computer distribuiti di un'organizzazione.
 
 <table>
 <tr><th>Attributo</th><th>Valore</th>
@@ -357,9 +364,9 @@ Power BI Desktop (a partire dalla versione del marzo '19) supporta l'utilizzo de
 </tr>
 </table>
 
-Il valore 1 (decimale) abilita l'uso di oggetti visivi personalizzati non certificati in Power BI (opzione predefinita).
+Il valore 1 (decimale) abilita l'uso di oggetti visivi di Power BI non certificati in Power BI (opzione predefinita).
 
-Il valore 0 (decimale) disabilita l'uso di oggetti visivi personalizzati non certificati in Power BI (questa opzione consente solo l'uso di [oggetti visivi personalizzati certificati](https://go.microsoft.com/fwlink/?linkid=2002010)).
+Il valore 0 (decimale) disabilita l'uso di oggetti visivi di Power BI non certificati in Power BI (questa opzione consente solo l'uso di [oggetti visivi di Power BI certificati](https://go.microsoft.com/fwlink/?linkid=2002010)).
 
 ## <a name="r-visuals-settings"></a>Impostazioni degli oggetti visivi R
 
@@ -404,11 +411,11 @@ Gli utenti dell'organizzazione possono contrassegnare i dashboard con classifica
 
 ### <a name="embed-content-in-apps"></a>Incorpora il contenuto nelle app
 
-Gli utenti dell'organizzazione possono incorporare i dashboard e i report di Power BI nelle applicazioni SaaS (Software as a Service). Se si disabilita questa impostazione, si impedisce agli utenti di usare le API REST per incorporare contenuto Power BI nelle loro applicazioni. [Altre informazioni](developer/embedding.md)
+Gli utenti dell'organizzazione possono incorporare i dashboard e i report di Power BI nelle applicazioni SaaS (Software as a Service). Se si disabilita questa impostazione, si impedisce agli utenti di usare le API REST per incorporare contenuto Power BI nelle loro applicazioni. [Altre informazioni](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Consenti alle entità servizio di usare le API Power BI
 
-Le app Web registrate in Azure Active Directory (Azure AD) useranno un'entità servizio assegnata per accedere alle API Power BI senza un utente connesso. Per consentire a un'app di usare l'autenticazione dell'entità servizio, l'entità servizio deve essere inclusa in un gruppo di sicurezza consentito. [Altre informazioni](developer/embed-service-principal.md)
+Le app Web registrate in Azure Active Directory (Azure AD) useranno un'entità servizio assegnata per accedere alle API Power BI senza un utente connesso. Per consentire a un'app di usare l'autenticazione dell'entità servizio, l'entità servizio deve essere inclusa in un gruppo di sicurezza consentito. [Altre informazioni](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > Le entità servizio ereditano le autorizzazioni per tutte le impostazioni del tenant di Power BI dal relativo gruppo di sicurezza. Per limitare le autorizzazioni, creare un gruppo di sicurezza dedicato per le entità servizio e aggiungerlo all'elenco "Eccetto gruppi di sicurezza specifici" relativo alle impostazioni pertinenti abilitate di Power BI.
@@ -456,9 +463,9 @@ La scheda **Power BI Premium** consente di gestire qualsiasi capacità di Power 
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-La scheda **Power BI Embedded** consente di visualizzare le capacità di Power BI Embedded (SKU A) acquistate per il cliente. Poiché è possibile acquistare SKU A solo da Azure, [gestire le capacità incorporate in Azure](developer/azure-pbie-create-capacity.md) dal **portale di Azure**.
+La scheda **Power BI Embedded** consente di visualizzare le capacità di Power BI Embedded (SKU A) acquistate per il cliente. Poiché è possibile acquistare SKU A solo da Azure, [gestire le capacità incorporate in Azure](developer/embedded/azure-pbie-create-capacity.md) dal **portale di Azure**.
 
-Per altre informazioni su come gestire le impostazioni di Power BI Embedded (SKU) A, vedere [Che cos'è Azure Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md).
+Per altre informazioni su come gestire le impostazioni di Power BI Embedded (SKU) A, vedere [Che cos'è Azure Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md).
 
 ## <a name="embed-codes"></a>Codici di incorporamento
 
@@ -466,14 +473,14 @@ Un amministratore può visualizzare i codici di incorporamento generati per il t
 
 ![Codici di incorporamento nel portale di amministrazione di Power BI](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">Oggetti visivi dell'organizzazione</a> 
+ ## <a name=""></a><a name="organizational-visuals">Oggetti visivi dell'organizzazione</a> 
 
-La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](developer/power-bi-custom-visuals-organization.md)
+La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi di Power BI all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Un oggetto visivo personalizzato può contenere codice rischioso a livello di sicurezza o privacy. Verificare che l'autore e l'origine dell'oggetto visivo personalizzato siano attendibili prima di distribuirlo nel repository dell'organizzazione.
 
-La figura mostra tutti gli oggetti visivi personalizzati attualmente distribuiti nel repository di un'organizzazione.
+La figura mostra tutti gli oggetti visivi di Power BI attualmente distribuiti nel repository di un'organizzazione.
 
 ![Oggetti visivi dell'organizzazione](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Per aggiungere un nuovo oggetto visivo personalizzato all'elenco, seguire questa
 
 1. Nel riquadro di destra selezionare **Aggiungi un oggetto visivo personalizzato**.
 
-    ![Modulo per gli oggetti visivi personalizzati](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Modulo degli oggetti visivi di Power BI](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. Compilare il modulo **Aggiungi oggetto visivo personalizzato**:
 
-    * **Scegli un file con estensione pbiviz** (obbligatorio): selezionare un file di oggetto visivo personalizzato da caricare. Sono supportati solo oggetti visivi personalizzati basati su API con controllo della versione (vedere qui cosa significa).
+    * **Scegli un file con estensione pbiviz** (obbligatorio): selezionare un file di oggetto visivo personalizzato da caricare. Sono supportati solo oggetti visivi di Power BI basati su API con controllo della versione (vedere qui cosa significa).
 
     Prima di caricare un oggetto visivo personalizzato è necessario controllarne sicurezza e privacy per assicurarsi che sia conforme agli standard della propria organizzazione.
 
@@ -524,9 +531,9 @@ Per aggiornare l'oggetto visivo dall'archivio dell'organizzazione, selezionare l
 
 Assicurarsi che l'ID dell'oggetto visivo rimanga invariato. Il nuovo file sostituisce il file precedente per tutti i report in tutta l'organizzazione. Tuttavia, se esiste la possibilità che la nuova versione dell'oggetto visivo comprometta l'utilizzo o la struttura di dati della versione precedente dell'oggetto visivo, evitare di sostituire la versione precedente. In questo caso, è invece necessario creare una nuova voce per la nuova versione dell'oggetto visivo. Ad esempio, aggiungere un nuovo numero di versione (versione x.x) al titolo del nuovo oggetto visivo presentato. In questo modo risulta chiaro che si tratta dello stesso oggetto visivo solo con un numero di versione aggiornato e che la funzionalità dei report esistenti non verrà compromessa. Assicurarsi anche in questo caso che l'ID dell'oggetto visivo rimanga invariato. Al successivo accesso al repository dell'organizzazione da Power BI Desktop, gli utenti possono importare la nuova versione e viene loro richiesto di sostituire la versione corrente disponibile nei report.
 
-Per altre informazioni, vedere le [Domande frequenti sugli oggetti visivi personalizzati di Power BI](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals).
+Per altre informazioni, vedere [Domande frequenti sugli oggetti visivi di Power BI dell'organizzazione](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
-## <a name="dataflowStorage">Archiviazione del flusso di dati (anteprima)</a>
+## <a name=""></a><a name="dataflowStorage">Archiviazione del flusso di dati (anteprima)</a>
 
 Per impostazione predefinita, i dati usati con Power BI vengono archiviati nello spazio di archiviazione interno fornito da Power BI. Con l'integrazione di flussi di dati e Azure Data Lake Storage Gen2 (ADLS Gen2), è possibile archiviare i flussi di dati nell'account di Azure Data Lake Storage Gen2 della propria organizzazione. Per altre informazioni, vedere [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md).
 
@@ -542,7 +549,7 @@ Nella scheda **Aree di lavoro** viene visualizzato lo *stato* per ogni area di l
 |---------|---------|
 | Attivo | Una normale area di lavoro. Non indica informazioni sull'utilizzo o il contenuto, ma segnala solo che l'area di lavoro stessa è "normale". |
 | Orfana | Un'area di lavoro senza utente amministratore. |
-| Eliminata | Un'area di lavoro eliminata. Se lo si desidera, vengono mantenuti metadati sufficienti per ripristinare l'area di lavoro. |
+| Eliminata | Un'area di lavoro eliminata. Se si desidera, per un massimo di 90 giorni vengono mantenuti metadati sufficienti per ripristinare l'area di lavoro. |
 | Rimozione | È in corso l'eliminazione di un'area di lavoro, ma l'area di lavoro è ancora disponibile. Gli utenti possono eliminare le aree di lavoro personali, attivando lo stato Rimozione e poi Eliminata per gli elementi. |
 
 ## <a name="custom-branding"></a>Personalizzazione
@@ -561,6 +568,17 @@ In qualità di amministratore è possibile personalizzare l'aspetto di Power BI 
 Per altre informazioni, vedere [Personalizzazione per l'organizzazione](https://aka.ms/orgBranding).
 
 ![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>Gestire il contenuto in primo piano
+
+L'amministratore del tenant può gestire tutti i report, i dashboard e le app presentati nella sezione In primo piano nella home page di Power BI per l'intera organizzazione.
+
+- Nel portale di amministrazione selezionare **Contenuto in primo piano**.
+
+Qui viene visualizzata una panoramica degli utenti che hanno inserito il contenuto nella sezione In primo piano, di quando è stato contrassegnato come in primo piano e di tutti i relativi metadati. Se un elemento sembra sospetto o si vuole pulire la sezione In primo piano, è possibile eliminare il contenuto presente in tale sezione in base alle esigenze.
+
+Per informazioni sull'abilitazione del contenuto in primo piano, vedere [Contenuto in primo piano](#featured-content) in questo articolo.
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Amministrazione di Power BI nell'organizzazione](service-admin-administering-power-bi-in-your-organization.md)  

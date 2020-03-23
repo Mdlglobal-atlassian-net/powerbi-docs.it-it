@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946869"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381377"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Esportare i dati usati per creare una visualizzazione
 
@@ -252,7 +252,7 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 
 - Se la visualizzazione usa dati provenienti da più tabelle di dati e non esiste alcuna relazione per le tabelle nel modello di dati, Power BI esporta solo i dati per la prima tabella.
 
-- Gli oggetti visivi personalizzati e gli oggetti visivi R non sono attualmente supportati.
+- Gli oggetti visivi di Power BI e gli oggetti visivi R non sono attualmente supportati.
 
 - In Power BI è possibile rinominare un campo (colonna) facendo doppio clic sul campo e digitando un nuovo nome. Power BI fa riferimento al nuovo nome come un *alias*. Anche se un report di Power BI può contenere nomi di campi duplicati, Excel non consente i duplicati. Pertanto, quando Power BI esporta i dati in Excel, gli alias dei campi vengono reimpostati sui nomi di campo (colonna) originali.  
 

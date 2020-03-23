@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290614"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377743"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estendere gli oggetti visivi con descrizioni comando per le pagine dei report
 
@@ -31,7 +31,7 @@ Le descrizioni comando delle pagine del report possono migliorare l'esperienza d
 >
 > Le descrizioni comando delle pagine non supportano l'interattività. Se si vuole che gli utenti del report interagiscano, creare invece una [pagina drill-through](../desktop-drillthrough.md).
 >
-> Gli oggetti visivi personalizzati non supportano le descrizioni comando delle pagine.
+> Gli oggetti visivi di Power BI non supportano le descrizioni comando delle pagine.
 
 Ecco alcuni scenari di progettazione consigliati:
 

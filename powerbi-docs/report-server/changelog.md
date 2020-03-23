@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237961"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381101"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -200,7 +200,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
         - Funzionalità
             - È ora disponibile il supporto di DirectQuery SSO SAP HANA per i report di Power BI
             - API per oggetti visivi personalizzati fornita con questa versione - Versione 1.13.0
-            - Per gli oggetti visivi personalizzati verrà eseguito il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile)
+            - Per gli oggetti visivi di Power BI verrà eseguito il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile)
 
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
     - *Versione: 2.61.5192.641 (agosto 2018), data di rilascio: 15 agosto 2018*
@@ -322,7 +322,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
             - Il tag `{{UserId}}` si risolve nelle credenziali archiviate anziché nell'utente che esegue il report in Report di Power BI
             - Non è possibile eseguire il rendering di alcune immagini nei report del server di report di Power BI
             - Non è possibile modificare il nome di un report di Power BI nel server di report di Power BI
-            - Non è possibile caricare gli oggetti visivi personalizzati nell'applicazione Power BI per dispositivi mobili (è necessario reinstallare l'app mobile per cancellare la cache locale)
+            - Non è possibile caricare gli oggetti visivi di Power BI nell'applicazione Power BI per dispositivi mobili (è necessario reinstallare l'app per dispositivi mobili per cancellare la cache locale)
 
     - *Build 14.0.600.271, data di rilascio: 12 giugno 2017*
         - Versione iniziale del server di report di Power BI

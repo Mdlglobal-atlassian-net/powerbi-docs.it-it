@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260417"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133260"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
 Questo articolo è destinato a esperti di modellazione di dati in Power BI Desktop. Illustra la progettazione di uno schema a stella e la pertinenza di questo schema per lo sviluppo di modelli di dati di Power BI ottimizzati per le prestazioni e l'usabilità.
 
-Questo articolo non intende fornire una trattazione completa sulla progettazione di uno schema a stella. Per informazioni più dettagliate, fare direttamente riferimento alla documentazione pubblicata, ad esempio **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (seconda edizione, 2002) di Ralph Kimball et al.
+Questo articolo non intende fornire una trattazione completa sulla progettazione di uno schema a stella. Per informazioni più dettagliate, fare direttamente riferimento alla documentazione pubblicata, ad esempio **The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (terza edizione, 2013) di Ralph Kimball et al.
 
 ## <a name="star-schema-overview"></a>Panoramica dello schema a stella
 

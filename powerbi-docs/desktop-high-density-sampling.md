@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867475"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378594"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Campionamento di linee ad alta densità in Power BI
 A partire dalla versione di giugno 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora gli oggetti visivi che campionano i dati ad alta densità. Ad esempio, è possibile creare un grafico a linee dai risultati delle vendite dei negozi, ciascuno dei quali con più di diecimila ricevute di vendita all'anno. Un grafico a linee di tali informazioni di vendita campionerebbe i dati (selezionerebbe cioè una rappresentazione significativa dei dati, per illustrare come le vendite variano nel tempo) dai dati di ogni negozio, creando un grafico a linee multiserie che quindi rappresenta i dati sottostanti. Si tratta di una pratica comune nella visualizzazione dei dati ad alta densità. Power BI Desktop ha migliorato il campionamento dei dati ad alta densità, come descritto dettagliatamente in questo articolo.
@@ -46,7 +46,7 @@ Per qualsiasi visualizzazione specificata, si applicano le seguenti limitazioni 
 Il numero massimo di soglie dei dati è superiore per i tipi di oggetti visivi seguenti, che rappresentano *eccezioni* al limite di 3.500 punti dati:
 
 * **150.000** punti dati per gli oggetti visivi R.
-* **30.000** punti dati per gli oggetti visivi personalizzati.
+* **30.000** punti dati per gli oggetti visivi di Power BI.
 * **10.000** punti dati per i grafici a dispersione, per i quali, tuttavia, 3.500 è il numero predefinito
 * **3.500** per tutti gli altri oggetti visivi
 
@@ -61,12 +61,12 @@ Come accennato in precedenza, per la maggior parte degli oggetti visivi la granu
 
 Ogni contenitore è rappresentato da due punti dati, che diventano i punti dati rappresentativi del contenitore nell'oggetto visivo. I punti dati sono semplicemente il valore alto e basso per tale contenitore e, selezionandoli, il processo di creazione contenitori garantisce che qualsiasi importante valore alto o significativo valore basso sia acquisito e che ne venga eseguito il rendering nell'oggetto visivo.
 
-Se tutto ciò suggerisce una gran quantità di analisi per assicurarsi di acquisire occasionalmente un outlier e di visualizzarlo correttamente nell'oggetto visivo, è proprio così: ma questo è l'esatto motivo alla base del nuovo algoritmo e del processo di binning.
+Se tutto ciò suggerisce una gran quantità di analisi per assicurarsi di acquisire occasionalmente un outlier occasionale e di visualizzarlo correttamente nell'oggetto visivo, è proprio così: ma questo è l'esatto motivo alla base del nuovo algoritmo e del processo di binning.
 
 ## <a name="tooltips-and-high-density-line-sampling"></a>Descrizioni comandi e campionamento di linee ad alta densità
-È importante notare che è il processo di binning, che restituisce il valore minimo e massimo in un determinato bin acquisito e visualizzato, può influire sul modo in cui le descrizioni comandi mostrano i dati quando si passa il mouse sui punti dati. Per illustrare come e perché ciò accade, rivediamo l'esempio dei prezzi delle azioni.
+È importante notare che questo processo di binning, che consente l'acquisizione e la visualizzazione del valore minimo e massimo in un determinato bin, può influire sul modo in cui le descrizioni comando mostrano i dati al passaggio del mouse sui punti dati. Per illustrare come e perché ciò accade, si userà di nuovo l'esempio dei prezzi delle azioni.
 
-Si supponga che si stia creando un oggetto visivo in base al prezzo azionario e che si stia eseguendo il confronto di due azioni diverse, che usano entrambe **il campionamento ad alta densità**. I dati sottostanti per ogni serie contengono molti punti dati (è possibile acquisire il prezzo azionario ogni secondo del giorno). L'algoritmo di campionamento di linee ad alta densità esegue il binning per ogni serie indipendentemente dall'altra.
+Si supponga che si stia creando un oggetto visivo in base al prezzo azionario e che si stia eseguendo il confronto di due azioni diverse, che usano entrambe il **campionamento ad alta densità**. I dati sottostanti per ogni serie contengono molti punti dati (è possibile acquisire il prezzo azionario ogni secondo del giorno). L'algoritmo di campionamento di linee ad alta densità esegue il binning per ogni serie indipendentemente dall'altra.
 
 Ora si supponga che il prezzo della prima azione aumenti improvvisamente alle 12:02, quindi diminuisca rapidamente dieci secondi dopo. Si tratta di un punto dati importante. Durante la creazione di contenitori per tale azione, il valore alto delle 12:02 sarà un punto dati rappresentativo per tale contenitore.
 

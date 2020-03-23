@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496888"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377146"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i consumer
 
@@ -118,7 +118,7 @@ Alcune delle visualizzazioni disponibili in Power BI sono: grafico a cascata, gr
 
 Vedere l'[elenco completo delle visualizzazioni incluse in Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-Le visualizzazioni chiamate *oggetti visivi personalizzati* vengono rese disponibili anche dalla community. Se si riceve un report con un oggetto visivo che non si riconosce, probabilmente si tratta di un oggetto visivo personalizzato. Se occorre assistenza per interpretare l'oggetto visivo personalizzato, cercare il nome del *designer* del report o del dashboard e contattarlo.
+Le visualizzazioni chiamate *oggetti visivi di Power BI* vengono rese disponibili anche dalla community. Se si riceve un report con un oggetto visivo che non si riconosce, probabilmente si tratta di un oggetto visivo personalizzato. Se occorre assistenza per interpretare l'oggetto visivo personalizzato, cercare il nome del *designer* del report o del dashboard e contattarlo.
 
 Una visualizzazione in un report...
 

@@ -1,6 +1,6 @@
 ---
 title: Quali operazioni possono eseguire gli sviluppatori con Power BI?
-description: Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
+description: Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi di Power BI fino ai set di dati in streaming.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: overview
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: c92eea927368d885a297fd83d39f528f7dae848e
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041356"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487787"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Quali operazioni possono eseguire gli sviluppatori con Power BI?
 
-Gli sviluppatori hanno diverse opzioni per provare a includere contenuto di Power BI nelle applicazioni. Gli sviluppatori possono usare queste opzioni, tra cui**incorporamento con Power BI**, **oggetti visivi personalizzati** e **push dei dati in Power BI**.
+Gli sviluppatori hanno diverse opzioni per provare a includere contenuto di Power BI nelle applicazioni. Gli sviluppatori possono usare queste opzioni, tra cui **incorporamento con Power BI**, **oggetti visivi di Power BI** e **push dei dati in Power BI**.
 
 ## <a name="embedding-power-bi-content"></a>Incorporamento di contenuto di Power BI
 
@@ -27,19 +27,19 @@ Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offr
 
 Scegliere la soluzione adatta alle proprie esigenze:
 
-* L'[incorporamento per i clienti](embedding.md#embedding-for-your-customers) offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Eseguire la soluzione [Incorporare per i clienti](https://aka.ms/embedsetup/AppOwnsData).
+* L'[incorporamento per i clienti](embedded/embedding.md#embedding-for-your-customers) offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Eseguire la soluzione [Incorporare per i clienti](https://aka.ms/embedsetup/AppOwnsData).
 
-* L'[incorporamento per l'organizzazione](embedding.md#embedding-for-your-organization) consente di estendere il servizio Power BI. Eseguire la soluzione [Incorporare per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData).
+* L'[incorporamento per l'organizzazione](embedded/embedding.md#embedding-for-your-organization) consente di estendere il servizio Power BI. Eseguire la soluzione [Incorporare per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData).
 
 ![Esempio di Power BI Embedded](media/what-can-you-do/what-can-you-do-02.png)
 
-Per altre informazioni sull'incorporamento con Power BI, vedere [Incorporamento con Power BI](embedding.md).
+Per altre informazioni sull'incorporamento con Power BI, vedere [Incorporamento con Power BI](embedded/embedding.md).
 
-## <a name="developing-custom-visuals"></a>Sviluppo di oggetti visivi personalizzati
+## <a name="developing-power-bi-visuals"></a>Sviluppo di oggetti visivi di Power BI
 
-È possibile usare oggetti visivi personalizzati con Power BI per creare un tipo di oggetto visivo esclusivo in base alle esigenze dell'utente o della società. Spesso gli oggetti visivi personalizzati vengono creati dagli sviluppatori quando la pur grande varietà di oggetti visivi inclusi in Power BI non soddisfa le esigenze contingenti.
+È possibile usare oggetti visivi di Power BI con Power BI per creare un tipo di oggetto visivo esclusivo in base alle esigenze dell'utente o della società. Spesso gli oggetti visivi di Power BI vengono creati dagli sviluppatori quando la pur grande varietà di oggetti visivi inclusi in Power BI non soddisfa le esigenze contingenti.
 
-Gli oggetti visivi personalizzati consentono di creare oggetti visivi da usare all'interno di report di Power BI. Gli oggetti visivi personalizzati sono scritti in TypeScript, un soprainsieme di JavaScript. TypeScript supporta caratteristiche più avanzate e l'accesso anticipato alla funzionalità ES6/ES7. L'applicazione di stili visivi viene gestita tramite i fogli di stile CSS. Per praticità verrà usato il servizio di pre-compilazione Less, che supporta alcune funzionalità avanzate, ad esempio l'annidamento, le variabili e i cicli. Se non si vuole usare alcuna di queste funzionalità, è possibile scrivere fogli di stile CSS normali nel file di Less.
+Gli oggetti visivi di Power BI consentono di creare oggetti visivi personalizzati da usare all'interno di report di Power BI. Gli oggetti visivi di Power BI sono scritti in TypeScript, un superset di JavaScript. TypeScript supporta caratteristiche più avanzate e l'accesso anticipato alla funzionalità ES6/ES7. L'applicazione di stili visivi viene gestita tramite i fogli di stile CSS. Per praticità verrà usato il servizio di pre-compilazione Less, che supporta alcune funzionalità avanzate, ad esempio l'annidamento, le variabili e i cicli. Se non si vuole usare alcuna di queste funzionalità, è possibile scrivere fogli di stile CSS normali nel file di Less.
 
 ![Esempio di oggetti visivi](media/what-can-you-do/powerbi-custom-visual-store.png)
 
@@ -57,7 +57,7 @@ Per informazioni su alcune attività che è possibile eseguire con le API Power 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Incorporamento con Power BI](embedding.md)  
+[Incorporamento con Power BI](embedded/embedding.md)  
 
 [Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (Sviluppo di un oggetto visivo personalizzato di Power BI)
 

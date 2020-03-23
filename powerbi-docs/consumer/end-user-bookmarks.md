@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496612"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205643"
 ---
 # <a name="what-are-bookmarks"></a>Che cosa sono i segnalibri?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Per questa versione dei **segnalibri**, tenere presenti alcune limitazioni e considerazioni.
 
-* La maggior parte degli oggetti visivi personalizzati dovrebbero funzionare bene con i segnalibri. Se si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
+* La maggior parte degli oggetti visivi di Power BI dovrebbero funzionare bene con i segnalibri. Se si verificano problemi con i segnalibri e un oggetto visivo di Power BI, contattare l'autore di tale oggetto visivo di Power BI e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo.
 * Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo verrà visualizzato nel suo stato predefinito. Questo significa anche se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporterà in base allo stato predefinito.
 * Se il *progettista* del report aggiorna o ripubblica il report, in genere i segnalibri personali non ne saranno interessati. Se tuttavia il progettista apporta modifiche sostanziali al report, ad esempio la rimozione di campi usati da un segnalibro, al successivo tentativo di apertura del segnalibro verrà visualizzato un messaggio di errore. 
 

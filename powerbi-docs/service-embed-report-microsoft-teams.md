@@ -1,5 +1,5 @@
 ---
-title: Incorporare il report con la scheda Power BI per Microsoft Teams
+title: Incorporare report con la scheda Power BI per Microsoft Teams
 description: Con la scheda Power BI per Microsoft Teams, è possibile incorporare facilmente report interattivi in canali e chat.
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530488"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381215"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Incorporare il report con la scheda Power BI per Microsoft Teams
 
@@ -68,6 +68,18 @@ L'incorporamento di un report in Microsoft Teams non autorizza automaticamente g
 > Assicurarsi di controllare chi può visualizzare il report all'interno del servizio Power BI e concedere l'accesso a chi non è elencato.
 
 Un modo per assicurarsi che tutti gli utenti del team possano accedere ai report incorporati è quello di inserirli in un'unica area di lavoro in Power BI e concedere al gruppo di Office 365 del team l'accesso all'area di lavoro.
+
+## <a name="start-a-conversation"></a>Avvia una conversazione
+
+Quando si aggiunge una scheda per un report di Power BI a Teams, Teams crea automaticamente una conversazione nella scheda di accompagnamento al report. 
+
+- Selezionare **Mostra scheda conversazione** nell'angolo in alto a destra.
+
+    ![Icona Mostra scheda conversazione](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    Il primo commento è un collegamento al report. Tutti gli utenti in tale canale di Teams possono visualizzare il report e discuterne nella conversazione.
+
+    ![Conversazione nella scheda](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
 

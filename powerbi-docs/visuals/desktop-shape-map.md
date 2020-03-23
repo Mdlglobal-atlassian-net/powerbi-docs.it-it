@@ -2,19 +2,19 @@
 title: Usare forme mappa in Power BI Desktop (anteprima)
 description: Creare confronti relativi con aree usando forme mappa in Power BI Desktop
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762325"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525661"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Creare oggetti visivi forme mappa in Power BI Desktop (anteprima)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762325"
 
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
 
-Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
+Gli oggetti visivi **forme mappa** si basano sulle mappe TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
 
 ## <a name="creating-shape-maps"></a>Creazione di forme mappa
 È possibile testare il controllo **Mappa forme** con le mappe fornite con questa versione di anteprima oppure usare una mappa personalizzata, purché soddisfi i requisiti descritti nella sezione **Usare le mappe personalizzate**.
@@ -79,7 +79,7 @@ Poiché gli stati degli Stati Uniti possono essere suddivisi in distretti, è ne
 
 ![Forme mappa Texas](media/desktop-shape-map/shape-map-7b.png)
 
-Per eseguire test con questo set di dati e questa visualizzazione, è possibile scaricare il file originale con estensione pbix usato per generare il report usando il collegamento seguente.
+Per eseguire test con questo set di dati e questa visualizzazione, è possibile scaricare il file PBIX originale usato per generare il report usando il collegamento seguente.
 
 * [File demo con estensione pbix delle forme mappa personalizzate](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
@@ -400,7 +400,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OPPURE |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

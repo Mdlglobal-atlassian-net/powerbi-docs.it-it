@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819239"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380502"
 ---
 # <a name="add-drill-down-support"></a>Aggiungere il supporto del drill-down
 
-Gli oggetti visivi personalizzati possono usare il drill-down di Power BI.
+Gli oggetti visivi di Power BI possono usare il drill-down di Power BI.
 
 Per altre informazioni sul drill-down di Power BI, vedere [qui](./../../consumer/end-user-drill.md)
 
@@ -205,38 +205,38 @@ button {
 
 Preparare i dati di esempio per testare l'oggetto visivo:
 
-|   H1  |   H2    | H3  |   VALORI  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Creare la gerarchia in Power BI Desktop:
 
-![Creare la nuova gerarchia](./media/create-new-hierarchy.png)
+![Creare la nuova gerarchia](media/drill-down-support/create-new-hierarchy.png)
 
 Includere tutte le colonne delle categorie (H1, H2, H3) nella nuova gerarchia:
 
-![Creare la nuova gerarchia](./media/new-hierarchy.png)
+![Creare la nuova gerarchia](media/drill-down-support/new-hierarchy.png)
 
 Dopo questi passaggi verrà visualizzato l'oggetto visivo seguente:
 
-![Oggetto visivo dev con pulsanti](./media/dev-visual-drilldown1.png)
+![Oggetto visivo dev con pulsanti](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Aggiungere un menu di scelta rapida agli elementi visivi
 
 In questo passaggio si aggiungerà il menu di scelta rapida ai pulsanti nell'oggetto visivo:
 
-![Menu di scelta rapida nell'oggetto visivo](./media/dev-visual-drilldown-context-menu.png)
+![Menu di scelta rapida nell'oggetto visivo](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Per creare un menu di scelta rapida, salvare l'oggetto `host` nelle proprietà dell'oggetto visivo e chiamare il metodo `createSelectionManager` per creare l'utilità di gestione della selezione in modo da visualizzare un menu di scelta rapida usando l'API degli oggetti visivi di Power BI.
 
@@ -305,11 +305,11 @@ Modificare il corpo del callback della funzione in `forEach`:
 
 Applicare i dati all'oggetto visivo:
 
-![Oggetto visivo con dati](./media/dev-visual-drilldown-data.png)
+![Oggetto visivo con dati](media/drill-down-support/dev-visual-drilldown-data.png)
 
 Nel passaggio finale si otterrà l'oggetto visivo con le selezioni e il menu di scelta rapida:
 
-![Oggetto visivo con supporto del drill-down](./media/dev-visual-drilldown-demo.gif)
+![Oggetto visivo con supporto del drill-down](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Aggiungere il supporto del drill-down per il mapping della visualizzazione dati di matrice
 
@@ -389,7 +389,7 @@ Applicare il mapping della visualizzazione dati seguente per l'oggetto visivo:
 
 Applicare i dati all'oggetto visivo:
 
-![Oggetto visivo con dati](./media/dev-matrix-visual-drilldown-data.png)
+![Oggetto visivo con dati](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importare le interfacce necessarie per elaborare i mapping della visualizzazione dati di matrice:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 Nel passaggio finale si otterrà l'oggetto visivo con il menu di scelta rapida:
 
-![Oggetto visivo con supporto del drill-down](./media/dev-matrix-visual-drilldown-demo.gif)
+![Oggetto visivo con supporto del drill-down](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

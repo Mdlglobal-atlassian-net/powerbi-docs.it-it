@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819124"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379873"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Aggiungere le impostazioni locali in Power BI per gli oggetti visivi personalizzati
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Aggiungere le impostazioni locali in Power BI per gli oggetti visivi di Power BI
 
 Gli oggetti visivi possono recuperare le impostazioni locali di Power BI per localizzare il contenuto nella lingua pertinente.
 
@@ -24,7 +24,7 @@ Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per P
 
 È ad esempio possibile recuperare le impostazioni locali nell'oggetto visivo grafico a barre di esempio.
 
-![Localizzazione in un oggetto visivo grafico a barre di esempio](media/locale-in-samplebarchart.png)
+![Localizzazione in un oggetto visivo grafico a barre di esempio](media/localization/locale-in-samplebarchart.png)
 
 Ognuno di questi grafici a barre è stato creato con impostazioni locali diverse (inglese, basco e hindi), visualizzate nella descrizione comando.
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (cinese tradizionale)
 > [!NOTE]
 > In Power BI Desktop la proprietà locale conterrà la lingua della versione di Power BI Desktop installata.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Localizzazione del riquadro delle proprietà per gli oggetti visivi personalizzati
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Localizzazione del riquadro delle proprietà per gli oggetti visivi di Power BI
 
 È possibile localizzare i campi nel riquadro delle proprietà per offrire un'esperienza più integrata e coerente, in cui gli oggetti visivi personalizzati si comportano come qualsiasi altro oggetto visivo di base di Power BI.
 
 Ad esempio, un oggetto visivo personalizzato non localizzato creato usando il comando `pbiviz new` mostrerà i campi seguenti nel riquadro delle proprietà:
 
-![Localizzazione nel riquadro delle proprietà](media/property-pane.png)
+![Localizzazione nel riquadro delle proprietà](media/localization/property-pane.png)
 
 Sia Category Data che Measure Data sono definiti nel file capabilities.json come `displayName`.
 
@@ -128,11 +128,11 @@ Prima di tutto aggiungere una chiave a ogni nome visualizzato che si vuole local
 }
 ```
 
-Aggiungere quindi una directory chiamata stringResources. La directory conterrà tutti i diversi file di risorse stringa in base alle impostazioni locali che l'oggetto visivo deve supportare. Sotto questa directory sarà necessario aggiungere un file JSON per ognuna delle impostazioni locali che si vuole supportare. Tali file contengono le informazioni sulle impostazioni locali e i valori delle stringhe localizzate per ogni displayNameKey che si vuole sostituire.
+Aggiungere quindi una directory chiamata stringResources. La directory conterrà tutti i diversi file di risorse stringa in base alle impostazioni locali che l'oggetto visivo deve supportare. In questa directory sarà necessario aggiungere un file JSON per ognuna delle impostazioni locali che si vuole supportare. Tali file contengono le informazioni sulle impostazioni locali e i valori delle stringhe localizzate per ogni displayNameKey che si vuole sostituire.
 
 Si supponga, ad esempio, di dover supportare l'arabo e l'ebraico. Sarà necessario aggiungere due file JSON nel modo seguente:
 
-![Stringhe per le localizzazioni nella cartella delle risorse stringa](media/stringresources-files.png)
+![Stringhe per le localizzazioni nella cartella delle risorse stringa](media/localization/stringresources-files.png)
 
 Ogni file JSON definisce una singola impostazione locale (questo file deve essere una delle impostazioni locali supportate elencate sopra), con i valori delle stringhe per le chiavi dei nomi visualizzati desiderate. Nell'esempio il file di risorse stringa per l'ebraico sarà simile al seguente:
 
@@ -161,13 +161,13 @@ Per l'utilizzo del desktop, scaricare la versione localizzata di Power BI Deskto
 
 Se si usa il client Web (browser) nel servizio, cambiare la lingua nelle impostazioni:
 
-![Localizzazione nel servizio Web](media/webservice-settings.png)
+![Localizzazione nel servizio Web](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>File di risorse
 
 All'interno della cartella stringResources aggiungere un file resources.resjson a una cartella con il nome corrispondente alle impostazioni locali da usare. Nell'esempio si tratta delle cartelle en-US e ru-RU.
 
-![Nuovo file con estensione resjson](media/new-resjson.png)
+![Nuovo file con estensione resjson](media/localization/new-resjson.png)
 
 Nel file resources.resjson aggiunto nel passaggio precedente aggiungere tutte le stringhe di localizzazione da usare.
 

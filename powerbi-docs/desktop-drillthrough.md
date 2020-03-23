@@ -1,27 +1,29 @@
 ---
-title: Usare il drill-through in Power BI Desktop
-description: Informazioni su come usare il drill-through per eseguire il drill-down nei dati, nella pagina di un nuovo report, in Power BI Desktop
+title: Configurare il drill-through nei report di Power BI
+description: Informazioni su come usare il drill-through per eseguire il drill-down nei dati, nella pagina di un nuovo report, nei report di Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401250"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201459"
 ---
-# <a name="use-drillthrough-in-power-bi-desktop"></a>Usare il drill-through in Power BI Desktop
-Con il *drill-through* in Power BI Desktop, è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Per usare la funzione di drill-through, è possibile selezionarla facendo clic con il pulsante destro del mouse su un punto dati in altre pagine di report ed eseguendo il drill-through nella pagina evidenziata per ottenere dettagli che vengono filtrati in base a tale contesto.
+# <a name="set-up-drill-through-in-power-bi-reports"></a>Configurare il drill-through nei report di Power BI
+Con il *drill-through* nei report di Power BI è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Quando i lettori del report usano la funzione di drill-through, possono fare clic con il pulsante destro del mouse su un punto dati in altre pagine del report ed eseguire il drill-through nella pagina specifica per ottenere dettagli che vengono filtrati in base al contesto selezionato. È anche possibile [creare un pulsante che consente di eseguire il drill-through](desktop-drill-through-buttons.md) per visualizzare i dettagli quando si fa clic su di esso.
 
-![Uso del drill-through](media/desktop-drillthrough/drillthrough_01.png)
+Il drill-through può essere configurato nei report in Power BI Desktop o nel servizio Power BI.
 
-## <a name="using-drillthrough"></a>Uso del drill-through
+![Uso del drill-through](media/desktop-drillthrough/power-bi-drill-through-right-click.png)
+
+## <a name="set-up-the-drill-through-destination-page"></a>Configurare la pagina di destinazione del drill-through
 1. Per usare il drill-through, creare una pagina di report con gli oggetti visivi voluti per il tipo di entità per la quale si fornirà il drill-through. 
 
     Si supponga, ad esempio, di voler fornire il drill-through per i produttori. In questo caso è possibile creare una pagina di drill-through con oggetti visivi che visualizzano le vendite totali, le unità spedite totali, le vendite per categoria, le vendite per area e così via. In questo modo, quando si esegue il drill-through a tale pagina, gli oggetti visivi saranno specifici per il produttore selezionato.
@@ -30,9 +32,9 @@ Con il *drill-through* in Power BI Desktop, è possibile creare una pagina nel r
 
     ![Area drill-through](media/desktop-drillthrough/drillthrough_02.png)
 
-    Quando si aggiunge un campo all'area **Filtri di drill-through**, Power BI Desktop crea automaticamente un oggetto visivo pulsante *Indietro*. Tale oggetto visivo diventa un pulsante nei report pubblicati. Gli utenti che utilizzano il report nel servizio Power BI usano questo pulsante per tornare alla pagina del report da cui sono arrivati.
+    Quando si aggiunge un campo all'area **Filtri di drill-through**, Power BI crea automaticamente un oggetto visivo pulsante *Indietro*. Tale oggetto visivo diventa un pulsante nei report pubblicati. Gli utenti che utilizzano il report nel servizio Power BI usano questo pulsante per tornare alla pagina del report da cui sono arrivati.
 
-    ![Immagine del drill-through](media/desktop-drillthrough/drillthrough_03.png)
+    ![Immagine drill-through](media/desktop-drillthrough/drillthrough_03.png)
 
 > [!IMPORTANT]
 > È possibile configurare ed eseguire il drill-through a una pagina nello stesso report, ma non si può eseguire il drill-through a una pagina in un report diverso.  
@@ -40,7 +42,7 @@ Con il *drill-through* in Power BI Desktop, è possibile creare una pagina nel r
 
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Usare un'immagine personalizzata per un pulsante Indietro    
- Poiché il pulsante Indietro è un'immagine, è possibile sostituire l'immagine di tale oggetto visivo con qualsiasi altra immagine desiderata. Tale immagine continuerà a funzionare come pulsante Indietro per permettere agli utenti del report di tornare alla pagina originale. 
+ Poiché il pulsante Indietro è un'immagine, è possibile sostituire l'immagine di tale oggetto visivo con qualsiasi altra immagine desiderata. Tale immagine continua a funzionare come pulsante Indietro per permettere agli utenti del report di tornare alla pagina originale. 
 
 Per usare un'immagine personalizzata per un pulsante Indietro, seguire questa procedura:
 
@@ -53,18 +55,17 @@ Per usare un'immagine personalizzata per un pulsante Indietro, seguire questa pr
     
      Ora gli utenti possono fare clic con il pulsante destro del mouse su un punto dati nel report e ottenere un menu di scelta rapida che supporta il drill-through a tale pagina. 
 
-    ![Menu di drill-through](media/desktop-drillthrough/drillthrough_04.png)
+    ![Menu drill-through](media/desktop-drillthrough/drillthrough_04.png)
 
     Quando gli utenti del report scelgono di eseguire il drill-through, la pagina viene filtrata per visualizzare le informazioni sul punto dati su cui hanno fatto clic con il pulsante destro del mouse. Si supponga, ad esempio, che l'utente abbia fatto clic con il pulsante destro del mouse su un punto dati relativo a Contoso, un produttore, e abbia scelto di eseguire il drill-through. La pagina di drill-through visualizzata verrà filtrata in base a Contoso.
 
-## <a name="pass-all-filters-in-drillthrough"></a>Filtri in drill-through
+## <a name="pass-all-filters-in-drill-through"></a>Passare tutti i filtri nel drill-through
 
 È possibile passare tutti i filtri applicati alla finestra di drill-through. Ad esempio, è possibile selezionare solo una determinata categoria di prodotti e gli oggetti visivi filtrati per tale categoria e quindi selezionare il drill-through. È interessante vedere che aspetto ha il drill-through con tutti questi filtri applicati.
 
-Per mantenere tutti i filtri applicati, nella sezione **Drill-through** del riquadro **Visualizzazioni** impostare **Mantieni tutti i filtri** su **Attivato**. 
+Per mantenere tutti i filtri applicati, nella sezione **Drill-through** del riquadro **Visualizzazioni** impostare **Mantieni tutti i filtri** su **Attiva**. 
 
 ![Mantieni tutti i filtri](media/desktop-drillthrough/drillthrough_06.png)
-
 
 Quando si esegue il drill-through su un oggetto visivo, è possibile vedere quali filtri sono stati applicati come risultato dell'applicazione di filtri temporanei all'oggetto visivo di origine. Nella sezione **Drill-through** del riquadro **Visualizzazione** tali filtri temporanei vengono visualizzati in corsivo. 
 
@@ -72,7 +73,7 @@ Quando si esegue il drill-through su un oggetto visivo, è possibile vedere qual
 
 Anche se è possibile eseguire questa operazione con le pagine di descrizioni comandi, l'operazione risulterebbe insolita in quanto la descrizione comando non funzionerebbe correttamente. Per questo motivo, non è consigliabile eseguire l'operazione con le descrizioni comando.
 
-## <a name="add-a-measure-to-drillthrough"></a>Aggiungere una misura al drill-through
+## <a name="add-a-measure-to-drill-through"></a>Aggiungere una misura al drill-through
 
 Oltre a passare tutti i filtri alla finestra di drill-through, è anche possibile aggiungere una misura o una colonna numerica di riepilogo all'area di drill-through. Trascinare il campo di drill-through nella scheda **Drill-through** per applicarlo. 
 
@@ -86,6 +87,6 @@ Non sono necessarie altre operazioni per l'uso del drill-through nei report. Que
 
 Potrebbero essere interessanti anche gli articoli seguenti:
 
-* [Usare il drill-through tra report in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Usare il drill-through tra report nei report di Power BI](desktop-cross-report-drill-through.md)
 * [Uso dei filtri dei dati in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

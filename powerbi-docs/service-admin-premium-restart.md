@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698464"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202023"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Riavviare una capacità Power BI Premium
 
@@ -30,7 +30,9 @@ Power BI è oggetto di costanti miglioramenti per proteggere gli utenti della ca
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Il processo di riavvio è sicuro? Si perderanno dati?
 
-Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, tutti gli aggiornamenti pianificati e ad hoc in corso vengono arrestati. Il servizio tenta di eseguire un nuovo aggiornamento quando la capacità è disponibile. Gli utenti che interagiscono con la capacità perderanno il lavoro non salvato. Dovranno aggiornare i browser dopo aver completato il riavvio.
+Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, gli aggiornamenti pianificati e ad hoc in corso vengono interrotti temporaneamente dal motore di aggiornamento, nella maggior parte dei casi, quindi vengono riavviati a causa della logica di ripetizione dei tentativi incorporata in Power BI. Il servizio prova a ritentare gli aggiornamenti interessati quando la capacità diventa disponibile. Lo stato degli aggiornamenti potrebbe non cambiare nell'interfaccia utente durante il processo di riavvio. 
+
+Gli utenti che interagiscono con la capacità perderanno il lavoro non salvato durante un processo di riavvio. Gli utenti devono aggiornare i browser dopo aver completato il riavvio.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Come riavviare una capacità?
 

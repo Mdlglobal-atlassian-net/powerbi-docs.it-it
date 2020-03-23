@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782440"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381308"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -317,7 +317,7 @@ Supporto delle funzionalità seguenti nei report di Power BI:
 
 **Funzionalità di accessibilità** Le funzionalità di accessibilità sono troppe per elencarle tutte: ad esempio il [supporto per l'accessibilità al riquadro elenco campi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Il riquadro elenco di campi è completamente accessibile. È possibile spostarsi nel riquadro solo con la tastiera e un'utilità per la lettura dello schermo e usare il menu di scelta rapida per aggiungere campi alla pagina del report.
 
-#### <a name="custom-visuals"></a>Oggetti visivi personalizzati
+#### <a name="power-bi-visuals"></a>Oggetti visivi di Power BI
 
 - La versione dell'API fornita con questa versione è 2.3.
 
@@ -381,11 +381,11 @@ La funzionalità delle descrizioni comando per le pagine del report è inclusa n
 >[!Note]
 >Questo scenario è supportato solo quando SAP HANA viene considerato come origine dati relazionale con i report creati in Power BI Desktop.  Per abilitare questa opzione in Power BI Desktop, nel menu DirectQuery in Opzioni selezionare "Considerare SAP HANA come origine relazionale" e fare clic su OK.
 
-#### <a name="custom-visuals"></a>Oggetti visivi personalizzati
+#### <a name="power-bi-visuals"></a>Oggetti visivi di Power BI
 
 - La versione dell'API fornita con questa versione è 1.13.0.
 
-- Per gli oggetti visivi personalizzati è ora possibile eseguire il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile).
+- Per gli oggetti visivi di Power BI è ora possibile eseguire il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile).
 
 ### <a name="reporting"></a>Reporting 
 
@@ -613,7 +613,7 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 
 * L'anteprima di server di report di Power BI è stata resa disponibile
 * Possibilità di pubblicare report di Power BI locali
-  * Supporto per oggetti visivi personalizzati
+  * Supporto per gli oggetti visivi di Power BI
   * Supporto solo per **connessioni dinamiche di Analysis Services** con altre origini dati previste.
   * App Power BI per dispositivi mobili aggiornata in modo da visualizzare i report di Power BI ospitati nel Server di Report di Power BI
 * Miglioramento della collaborazione nei report con commenti

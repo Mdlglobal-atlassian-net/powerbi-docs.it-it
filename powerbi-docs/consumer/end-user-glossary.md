@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040091"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377237"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -188,7 +188,7 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 
 ## <a name="n"></a>N
 
-**native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
+**native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi di Power BI.
 
 **navigation pane**  o **nav pane** (riquadro di spostamento) Controlli visualizzati sul bordo sinistro della schermata del servizio Power BI.
 

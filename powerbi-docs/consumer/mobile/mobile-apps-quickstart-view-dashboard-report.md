@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75218570"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435721"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Avvio rapido: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
 Questo argomento di avvio rapido offre una breve presentazione dell'app Power BI per dispositivi mobili ed esplora un dashboard e un report di esempio. Viene illustrata l'app Power BI per iOS, ma è possibile seguire facilmente le procedure su altri dispositivi.
@@ -23,6 +23,9 @@ Si applica a:
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Telefoni](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Telefoni | Windows 10 |
+
+>[!NOTE]
+>Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Un dashboard è un portale attraverso cui accedere al ciclo di vita e ai processi aziendali. Offre infatti una panoramica, ovvero una posizione unica da cui controllare lo stato corrente delle attività aziendali. Un report è una vista interattiva dei dati con oggetti visivi che rappresentano conclusioni e approfondimenti diversi ottenuti da tali dati. 
 

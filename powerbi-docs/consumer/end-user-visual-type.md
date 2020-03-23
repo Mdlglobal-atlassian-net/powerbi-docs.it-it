@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114167"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377191"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Gli oggetti visivi sono disponibili in report, dashboard e Domande e risposte. Alcuni di questi tipi di oggetti visivi sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dai *progettisti* dei report ai report, ai dashboard e alle app di Power BI. 
+Gli oggetti visivi sono disponibili in report, dashboard e Domande e risposte. Alcuni di questi tipi di oggetti visivi sono inclusi in Power BI, mentre altri sono *oggetti visivi di Power BI*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dai *progettisti* dei report ai report, ai dashboard e alle app di Power BI. 
 
 Questo articolo offre una panoramica degli oggetti visivi inclusi in Power BI.  Si tratta degli oggetti visivi usati più di frequente. Per informazioni approfondite su uno di questi oggetti visivi, vedere la [documentazione sui tipi di oggetti visivi per i *progettisti* di report di Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
-> Per informazioni sugli oggetti visivi personalizzati, cercare gli oggetti nella sezione **Power BI visuals** (Oggetti visivi di Power BI) di [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Per ogni oggetto visivo, verrà visualizzata la descrizione, le informazioni sull'autore e gli screenshot o un video. 
+> Per informazioni sugli oggetti visivi di Power BI, cercare gli oggetti nella sezione **Power BI visuals** (Oggetti visivi di Power BI) di [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Per ogni oggetto visivo, verrà visualizzata la descrizione, le informazioni sull'autore e gli screenshot o un video. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Elenco degli oggetti visivi disponibili in Power BI
 Tutti questi oggetti visivi possono essere inclusi nei dashboard e nei report di Power BI e [specificati in Domande e risposte](end-user-q-and-a.md). Per informazioni sull'interazione con gli oggetti visivi, vedere [Interagire con gli oggetti visivi in report, dashboard e app](end-user-visualizations.md)
@@ -237,7 +237,7 @@ I grafici a cascata rappresentano un'ottima scelta nelle seguenti situazioni:
 - per illustrare il numero di dipendenti iniziale e finale dell'azienda in un anno;
 - per visualizzare la quantità di denaro incassata e spesa ogni mese e il saldo corrente per il proprio conto.
 
-## <a name="qna"></a>Indicare a Domande e risposte quale oggetto visivo usare
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Indicare a Domande e risposte quale oggetto visivo usare
 Quando si digitano query in linguaggio naturale con Domande e risposte di Power BI, è possibile specificare il tipo di oggetto visivo nella domanda.  ad esempio:
 
 

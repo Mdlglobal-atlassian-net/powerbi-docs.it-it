@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401186"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133216"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Risoluzione dei problemi di accesso per Power BI Desktop
 In alcuni casi possono verificarsi errori durante il tentativo di accesso a **Power BI Desktop**. Esistono due motivi principali per i problemi di accesso: **errori di autenticazione del proxy** ed **errori di reindirizzamento di URL non HTTPS**. 
@@ -75,4 +75,37 @@ Per raccogliere una traccia in **Power BI Desktop**, seguire questa procedura:
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 In tale cartella possono esistere molti file di traccia. Assicurarsi di inviare solo i file recenti all'amministratore per facilitare l'identificazione rapida dell'errore. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Uso delle credenziali di sistema predefinite per il proxy Web
+
+Le richieste Web rilasciate da Power BI Desktop non usano credenziali del proxy Web. Nelle reti che usano un server proxy, Power BI Desktop potrebbe non essere in grado di effettuare correttamente le richieste Web. 
+
+A partire dalla versione di marzo 2020 di Power BI Desktop, gli amministratori di sistema o di rete possono consentire l'uso di credenziali di sistema predefinite per l'autenticazione del proxy Web. Gli amministratori possono creare una voce del Registro di sistema denominata **UseDefaultCredentialsForProxy** e impostare il valore su uno (1) per consentire l'uso delle credenziali di sistema predefinite per l'autenticazione del proxy Web.
+
+La voce del Registro di sistema può essere inserita in uno dei percorsi seguenti:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+Non è necessario che la voce del Registro di sistema sia in entrambe le posizioni.
+
+![Chiave del Registro di sistema per usare le credenziali di sistema predefinite](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Una volta creata la voce del Registro di sistema (potrebbe essere necessario un riavvio), vengono usate le impostazioni proxy definite in Internet Explorer quando Power BI Desktop esegue richieste Web. 
+
+Come per tutte le modifiche alle impostazioni di proxy o credenziali, la creazione di questa voce del Registro di sistema comporta implicazioni per la sicurezza, pertanto gli amministratori devono assicurarsi che i proxy di Internet Explorer siano stati configurati correttamente prima di abilitare questa funzionalità.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Limitazioni e considerazioni per l'uso delle credenziali di sistema predefinite
+
+Prima di abilitare questa funzionalità, è necessario che gli amministratori valutino una serie di implicazioni per la sicurezza. 
+
+Quando si abilita questa funzionalità per i client, è necessario seguire le indicazioni seguenti:
+
+* Usare solo la **negoziazione** come schema di autenticazione per il server proxy, in modo da garantire che il client usi solo i server proxy aggiunti alla rete di Active Directory. 
+* Non usare **fallback NTLM** nei client che usano questa funzionalità.
+* Se gli utenti non si trovano in una rete con proxy quando questa funzionalità viene abilitata e configurata come consigliato in questa sezione, non viene usato il processo che tenta di contattare il server proxy e di usare le credenziali di sistema predefinite.
+
+
+[Uso delle credenziali di sistema predefinite per il proxy Web](#using-default-system-credentials-for-web-proxy)
 

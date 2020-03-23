@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219079"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435445"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Visualizzazione dei dati offline nelle app per dispositivi mobili di Power BI
 Si applica a:
@@ -21,6 +21,9 @@ Si applica a:
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Telefono Android](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
+
+>[!NOTE]
+>Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Uno dei vantaggi della visualizzazione di Power BI in un'app per dispositivi mobili invece che in un browser, è che è possibile visualizzare i dati anche quando non si è connessi a una rete. 
 
@@ -34,7 +37,7 @@ Quando si è offline si ha la possibilità di accedere e interagire con i dashbo
 È anche possibile accedere in sola lettura ai report di Power BI cui si ha eseguito l'accesso in precedenza dall'app per dispositivi mobili. È possibile visualizzare il report completo, ma non eseguire filtri o filtri incrociati, ordinare i dati o usare filtri dei dati.
 
 ## <a name="background-data-refresh"></a>Aggiornamento dei dati in background
-L'aggiornamento in background aggiorna i dashboard preferiti, oltre ai dashboard e ai report visualizzati nelle ultime due settimane, con i dati nel servizio Power BI (non l'origine dati). Se si è connessi alla rete Wi-Fi, l'aggiornamento in background viene eseguito ogni 2 ore. In caso contrario, se si è in una rete 3G, Power BI aggiorna il contenuto ogni 24 ore.
+L'aggiornamento in background aggiorna i dashboard preferiti, oltre ai dashboard e ai report visualizzati nelle ultime due settimane, con i dati nel servizio Power BI (non l'origine dati). Se si è connessi alla rete Wi-Fi, l'aggiornamento in background viene eseguito ogni 2 ore. In caso contrario, in una rete 3G Power BI aggiorna il contenuto ogni 24 ore.
 
 L'aggiornamento in background può essere disattivato, ad esempio per evitare l'uso della rete. Controllare le impostazioni del dispositivo.
 
@@ -59,7 +62,7 @@ Quando si è offline con Power BI su dispositivo mobile, è possibile riscontrar
 * I report impaginati (RDL) non sono disponibili mentre la rete è offline.
 
 ## <a name="next-steps"></a>Passaggi successivi
-I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementare in futuro, quindi non perdete l'occasione di votare quali funzionalità vorreste avere a disposizione nelle app per dispositivi mobili di Power BI. 
+I commenti e i suggerimenti degli utenti aiutano a decidere quali funzioni implementare in futuro, quindi è consigliabile votare le funzionalità che si vorrebbe avere nelle app per dispositivi mobili di Power BI. 
 
 * [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md)
 * Seguire @MSPowerBI su Twitter

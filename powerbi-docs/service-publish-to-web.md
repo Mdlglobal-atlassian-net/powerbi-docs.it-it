@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237984"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488776"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -124,9 +124,9 @@ Dopo la creazione e la condivisione del codice di incorporamento di **Pubblica s
 
 Gli aggiornamenti dei dati vengono applicati automaticamente nel report o nell'oggetto visivo incorporato. La visualizzazione dei dati aggiornati dai codici di incorporamento può richiedere circa un'ora. Per disabilitare l'aggiornamento automatico, selezionare **Non aggiornare** nella pianificazione per il set di dati usato dal report.  
 
-## <a name="custom-visuals"></a>Oggetti visivi personalizzati
+## <a name="power-bi-visuals"></a>Oggetti visivi di Power BI
 
-Gli oggetti visivi personalizzati sono supportati in **Pubblica sul Web**. Quando si usa **Pubblica sul Web** gli utenti con cui si condividono gli oggetti visivi pubblicati non devono abilitare gli oggetti visivi personalizzati per visualizzare i report.
+Gli oggetti visivi di Power BI sono supportati in **Pubblica sul Web**. Quando si usa **Pubblica sul Web** gli utenti con cui si condividono gli oggetti visivi pubblicati non devono abilitare gli oggetti visivi di Power BI per visualizzare i report.
 
 ## <a name="limitations"></a>Limitazioni
 
@@ -144,7 +144,7 @@ La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle o
 - Modelli di query di dati Single Sign-On.
 - Proteggere le informazioni riservate o di proprietà.
 - [Set di dati certificati e condivisi](service-datasets-share.md).
-- La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare l'approccio all'incorporamento [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md).
+- La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare l'approccio all'incorporamento [dati di proprietà dell'utente](developer/embedded/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 
