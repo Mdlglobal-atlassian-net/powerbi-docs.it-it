@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921908"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113739"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origini dati supportate per i report impaginati di Power BI
 
@@ -27,7 +27,7 @@ I report impaginati supportano in modalità nativa l'elenco di origini dati segu
 | --- | --- | --- |
 | Database SQL di Azure <br>Azure SQL Data Warehouse | Di base, Single Sign-On (SSO), OAuth2 |   |
 | Istanza gestita di SQL di Azure | Di base | tramite l'endpoint pubblico con l'estensione per il database SQL di Azure  |
-| Azure Analysis Services | SSO, OAuth2 | Il firewall AAS deve essere disabilitato o configurato in modo da consentire tutti gli intervalli IP.  Non è supportato l'uso di un alias  |
+| Azure Analysis Services | SSO, OAuth2 | Il firewall AAS deve essere disabilitato o configurato in modo da consentire tutti gli intervalli IP.|
 | Set di dati di Power BI | SSO | Set di dati di Power BI Premium e non Premium. Richiede l'autorizzazione di lettura |
 | Set di dati di Power BI Premium (XMLA) | SSO |   |
 | Immetti i dati | N/D | I dati sono incorporati nel report. |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376725"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114889"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Questo articolo è destinato ai clienti del Governo degli Stati Uniti che distribuiscono Power BI come parte di un piano Office 365 Government. I piani Government sono progettati per le esigenze specifiche delle organizzazioni che devono soddisfare gli standard di conformità e sicurezza degli Stati Uniti. Il servizio Power BI progettato per i clienti del Governo degli Stati Uniti è diverso dalla versione commerciale del servizio Power BI. Le differenze delle funzionalità e delle capacità sono descritte nelle sezioni seguenti.
@@ -95,7 +95,7 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 |  |Importazione di dati da file CSV|Disponibile|Disponibile|Disponibile|
 |  |Importazione di dati da file di Power BI Desktop|Disponibile|Disponibile|Disponibile|
 |  |Connettività a CDS|Disponibile|Non disponibile|Non disponibile|
-|  |Connettore di Azure Data Lake Storage Gen2|Non disponibile|Non disponibile|Non disponibile|
+|  |Connettore di Azure Data Lake Storage Gen2|Disponibile|Non disponibile|Non disponibile|
 |Gestione dei dati|Gateway di gestione dati|Disponibile|Disponibile|Disponibile|
 |  |Crittografia dei dati in Azure SQL|Disponibile|Disponibile|Disponibile|
 |  |Crittografia dei dati nell'archiviazione BLOB per Power BI|Disponibile|Disponibile|Disponibile|
