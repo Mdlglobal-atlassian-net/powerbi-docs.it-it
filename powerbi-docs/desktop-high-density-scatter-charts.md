@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867431"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273364"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Campionamento ad alta densità nei grafici a dispersione di Power BI
 A partire dalla versione di settembre 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora il modo in cui i grafici a dispersione rappresentano i dati ad alta densità.
@@ -85,7 +85,8 @@ L'algoritmo per il campionamento ad alta densità è un miglioramento importante
 * L'algoritmo di **campionamento ad alta densità** funziona solo con le connessioni in tempo reale ai modelli basati sul servizio Power BI, ai modelli importati o a DirectQuery.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Per altre informazioni sul campionamento ad alta densità in altri grafici, vedere l'articolo seguente.
+
+Per altre informazioni sul campionamento ad alta densità, vedere gli articoli seguenti:
 
 * [Campionamento di linee ad alta densità in Power BI](desktop-high-density-sampling.md)
-
+* [Suggerimenti per ordinare e distribuire i tracciati di dati nei report di Power BI](guidance/report-tips-sort-distribute-data-plots.md)

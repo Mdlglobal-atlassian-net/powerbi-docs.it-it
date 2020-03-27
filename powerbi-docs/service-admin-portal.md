@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488707"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114453"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -233,7 +233,12 @@ Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'im
 
 ### <a name="export-data"></a>Esporta dati
 
-Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. Vedere altre informazioni sull'[esportazione di dati da un riquadro o da un oggetto visivo](visuals/power-bi-visualization-export-data.md).
+Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. Questa impostazione controlla le funzionalità Analizza in Excel, di esportazione in file CSV, di download di set di dati (con estensione pbix) e Live Connect del servizio Power BI. Vedere altre informazioni sull'[esportazione di dati da un riquadro o da un oggetto visivo](visuals/power-bi-visualization-export-data.md).
+
+>[!NOTE]
+> Prima dell'introduzione dell'impostazione Esporta in Excel, questa impostazione controllava anche l'esportazione dei dati in file di Excel. Per informazioni dettagliate, vedere la [nota in Esporta in Excel](#export-to-excel).
+
+![Impostazione Esporta dati](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 La figura seguente mostra l'opzione per esportare i dati da un riquadro.
 
@@ -241,6 +246,15 @@ La figura seguente mostra l'opzione per esportare i dati da un riquadro.
 
 > [!NOTE]
 > Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità [Analizza in Excel](service-analyze-in-excel.md) oltre alla connessione dinamica al servizio Power BI.
+
+### <a name="export-to-excel"></a>Esporta in Excel
+
+Gli utenti dell'organizzazione possono esportare i dati da una visualizzazione a un file di Excel.
+
+![Impostazione Esporta in Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Prima dell'introduzione dell'impostazione Esporta in Excel, l'esportazione in un file di Excel era controllata dall'impostazione Esporta dati. Pertanto, nei tenant esistenti prima dell'introduzione dell'impostazione Esporta in Excel, la prima volta che gli amministratori del tenant esaminano l'impostazione Esporta in Excel vedranno che sono presenti *Modifiche non applicate*. Per rendere effettiva la nuova impostazione, è necessario applicare queste modifiche. In caso contrario, l'esportazione in un file di Excel continuerà a essere controllata dall'impostazione Esporta dati.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Esporta report come presentazioni di PowerPoint o documenti PDF
 

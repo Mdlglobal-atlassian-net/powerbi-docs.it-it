@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657191"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113785"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Tenere traccia delle attività degli utenti in Power BI
 
@@ -49,7 +49,7 @@ Per accedere al log attività di Power BI, è necessario soddisfare i requisiti 
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Se il numero di voci è elevato, l'API **ActivityEvents** restituisce solo un numero di voci compreso all'incirca tra 5.000 e 10.000 e un token di continuazione. È quindi necessario chiamare di nuovo l'API **ActivityEvents** con il token di continuazione per ottenere il batch successivo di voci e così via fino a quando non vengono recuperate tutte le voci e non si riceve più un token di continuazione. L'esempio seguente illustra come usare il token di continuazione.
+Se il numero di voci è elevato, l'API **ActivityEvents** restituisce solo un numero di voci compreso all'incirca tra 5.000 e 10.000 e un token di continuazione. Chiamare di nuovo l'API **ActivityEvents** con il token di continuazione per ottenere il batch successivo di voci e così via fino a quando non vengono recuperate tutte le voci e non si riceve più un token di continuazione. L'esempio seguente illustra come usare il token di continuazione.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> Potrebbero essere necessarie fino a 24 ore per la visualizzazione di tutti gli eventi, sebbene i dati completi diventino in genere disponibili molto prima.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-È semplice scaricare gli eventi di attività usando i cmdlet di gestione Power BI per PowerShell, che includono un cmdlet **Get-PowerBIActivityEvent** che gestisce automaticamente il token di continuazione. Il cmdlet **Get-PowerBIActivityEvent** accetta un parametro StartDateTime e un parametro EndDateTime con le stesse restrizioni dell'API REST **ActivityEvents**. In altre parole, è necessario che la data di inizio e la data di fine facciano riferimento allo stesso valore di data perché è possibile recuperare i dati delle attività solo per un giorno alla volta.
+Scaricare gli eventi dell'attività usando i cmdlet di gestione di Power BI per PowerShell. Il cmdlet **Get-PowerBIActivityEvent** gestisce automaticamente il token di continuazione. Il cmdlet **Get-PowerBIActivityEvent** accetta un parametro StartDateTime e un parametro EndDateTime con le stesse restrizioni dell'API REST **ActivityEvents**. In altre parole, è necessario che la data di inizio e la data di fine facciano riferimento allo stesso valore di data perché è possibile recuperare i dati delle attività solo per un giorno alla volta.
 
-Lo script seguente dimostra come scaricare tutte le attività di Power BI. Il comando converte i risultati da JSON in oggetti .NET per accedere in modo semplice alle singole proprietà delle attività.
+Lo script seguente dimostra come scaricare tutte le attività di Power BI. Il comando converte i risultati da JSON in oggetti .NET per accedere in modo semplice alle singole proprietà delle attività. Questi esempi illustrano i timestamp minimo e massimo possibili per un giorno per assicurarsi che non vengano persi eventi.
 
 ```powershell
 Login-PowerBI
@@ -111,11 +114,11 @@ Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
 - È necessario essere un amministratore globale o avere il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) in Exchange Online per accedere al log di controllo. Per impostazione predefinita questi ruoli sono assegnati ai gruppi di ruoli Gestione conformità e Gestione organizzazione nella pagina **Autorizzazioni** dell'interfaccia di amministrazione di Exchange.
 
-    Per consentire l'accesso al log di controllo agli account senza privilegi di amministratore, è necessario aggiungere l'utente come membro di uno di questi gruppi di ruoli. In alternativa è possibile creare un gruppo di ruoli personalizzato nell'interfaccia di amministrazione di Exchange, assegnare il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) a questo gruppo e quindi aggiungere l'account senza privilegi di amministratore al nuovo gruppo di ruoli. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
+    Per consentire l'accesso al log di controllo agli account senza privilegi di amministratore, aggiungere l'utente come membro di uno di questi gruppi di ruoli. In alternativa è possibile creare un gruppo di ruoli personalizzato nell'interfaccia di amministrazione di Exchange, assegnare il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) a questo gruppo e quindi aggiungere l'account senza privilegi di amministratore al nuovo gruppo di ruoli. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
 
     Se non è possibile accedere all'interfaccia di amministrazione di Exchange dall'interfaccia di amministrazione di Microsoft 365, passare a https://outlook.office365.com/ecp ed eseguire l'accesso usando le credenziali personali.
 
-- Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+- Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non è possibile accedere al portale di amministrazione di Power BI. In questo caso, usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ### <a name="access-your-audit-logs"></a>Accedere ai log di controllo
 
@@ -258,7 +261,7 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Cartella di Power BI creata                           | CreateFolder                                |                                          |
 | Creato gateway di Power BI                          | CreateGateway                               |                                          |
 | Gruppo di Power BI creato                            | CreateGroup                                 |                                          |
-| Report di Power BI creato                           | CreateReport                                |                                          |
+| Report di Power BI creato                           | CreateReport <sup>1</sup>                                |                                          |
 | Migrazione del flusso di dati all'account di archiviazione esterno eseguita     | DataflowMigratedToExternalStorageAccount    | Attualmente non in uso                       |
 | Autorizzazioni del flusso di dati aggiunte                        | DataflowPermissionsAdded                    | Attualmente non in uso                       |
 | Autorizzazioni del flusso di dati rimosse                      | DataflowPermissionsRemoved                  | Attualmente non in uso                       |
@@ -294,7 +297,7 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Commento di Power BI pubblicato                           | PostComment                                 |                                          |
 | Dashboard di Power BI stampato                        | PrintDashboard                              |                                          |
 | Pagina di report di Power BI stampata                      | PrintReport                                 |                                          |
-| Report di Power BI pubblicato sul Web                  | PublishToWebReport                          |                                          |
+| Report di Power BI pubblicato sul Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Segreto del flusso di dati di Power BI ricevuto da Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Rimossa origine dati dal gateway di Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Membri del gruppo di Power BI rimossi                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Riquadro di Power BI visualizzato                              | ViewTile                                    |                                          |
 | Metriche di utilizzo di Power BI visualizzate                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> La pubblicazione da Power BI Desktop al servizio è un evento CreateReport nel servizio.
+
+<sup>2</sup> PublishtoWebReport fa riferimento alla funzionalità [Pubblica sul Web](service-publish-to-web.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

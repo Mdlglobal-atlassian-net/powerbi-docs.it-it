@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205252"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113612"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: Domande frequenti 
 
@@ -68,13 +68,17 @@ Sì, il monitoraggio è disponibile in una nuova scheda con gli stessi dettagli 
 
 Viene visualizzato un messaggio di errore e non è possibile visualizzare il report fino a quando il carico di lavoro non viene nuovamente attivato. È comunque possibile eliminare il report dall'area di lavoro.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Qual è la memoria predefinita per ogni SKU Premium supportato per i report impaginati?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>Qual è la memoria predefinita per ogni SKU Premium che supporta i report impaginati?
 
 Memoria predefinita in ogni SKU Premium per i report impaginati:
 
 - **P1/A4**: 20% predefinita; 10% minima
 - **P2/A5**: 20% predefinita; 5% minima
 - **P3/A6**: 20% predefinita; 2,5% minima
+
+Gli amministratori del tenant di Power BI possono modificare la percentuale massima di memoria predefinita nel portale di amministrazione. Vedere la sezione del carico di lavoro **Report impaginati** in **Power BI Premium** nella scheda **Impostazioni di capacità**.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Scheda Impostazioni di capacità, Report impaginati":::
 
 ## <a name="general"></a>Generale
 
@@ -160,7 +164,7 @@ Sì, è supportata la distribuzione dei report impaginati con le app dalle aree 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Le altre funzionalità specifiche dei report in Power BI, come l'aggiunta di riquadri di report ai dashboard, saranno disponibili anche con i report impaginati?
 
-È previsto che i report supportino gli stessi scenari principali nel servizio quanto più possibile.  In teoria, anche se lo strumento di creazione è diverso, dal punto di vista del consumatore si tratta semplicemente di un altro report nel relativo elenco nel portale. Per questi utenti è irrilevante come è stato creato, se consente loro di fare ciò che serve.  Un buon esempio di questa parità delle funzionalità è il supporto previsto dei commenti. Anche se la funzionalità stessa potrebbe essere leggermente diversa per ogni tipo di report, sarà possibile usare i commenti per entrambi.
+È previsto che i report supportino gli stessi scenari principali nel servizio quanto più possibile.  In teoria, anche se lo strumento di creazione è diverso, dal punto di vista dell'utente finale si tratta semplicemente di un altro report nel relativo elenco nel portale. Per questi utenti è irrilevante come è stato creato, se consente loro di fare ciò che serve.  Un buon esempio di questa parità delle funzionalità è il supporto previsto dei commenti. Anche se la funzionalità stessa potrebbe essere leggermente diversa per ogni tipo di report, sarà possibile usare i commenti per entrambi.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Esiste un controllo visualizzatore report per i report impaginati nel servizio Power BI?
 

@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207874"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147378"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -28,6 +28,7 @@ Gli utenti aziendali possono ottenere le app in diversi modi:
 - Possono trovare l'app in Microsoft AppSource e installarla.
 - È possibile inviare un collegamento diretto.
 - Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi.
+- Power BI non invia alcun messaggio di posta elettronica agli utenti interni quando si distribuisce o si aggiorna un'app. Se la si distribuisce a utenti esterni, questi riceveranno un messaggio di posta elettronica con un collegamento diretto. 
 
 È possibile creare l'app con la relativa struttura di spostamento predefinita, in modo che gli utenti possano orientarsi facilmente all'interno del contenuto. Gli utenti non possono modificare il contenuto dell'app. Possono interagire con esso nel servizio Power BI o in una delle app per dispositivi mobili filtrando, evidenziando e ordinando i dati autonomamente. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. È anche possibile assegnare loro l'autorizzazione di compilazione per connettersi ai set di dati sottostanti e per creare copie dei report nell'app. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md).
 

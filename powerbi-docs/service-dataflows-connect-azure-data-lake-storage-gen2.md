@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710180"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113164"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati
 
@@ -33,7 +33,7 @@ Per usare Azure Data Lake Storage Gen2 per i flussi di dati, è necessario quant
 * **Un account di archiviazione di Azure con la funzionalità Data Lake Storage Gen2 abilitata** 
 
 > [!TIP]
-> Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/) prima di iniziare.
+> Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/).
 
 > [!WARNING]
 > Dopo aver configurato la posizione di archiviazione del flusso di dati, non può essere modificata. Vedere la sezione relativa a [considerazioni e limitazioni](#considerations-and-limitations) verso la fine di questo articolo per informazioni su altri elementi importanti da considerare.
@@ -42,12 +42,10 @@ Per usare Azure Data Lake Storage Gen2 per i flussi di dati, è necessario quant
 
 Prima di poter configurare Power BI con un account di archiviazione Azure Data Lake Storage Gen2, è necessario creare e configurare un account di archiviazione. I requisiti per Power BI sono i seguenti:
 
-1. L'account di archiviazione deve essere creato nello stesso tenant di AAD del tenant di Power BI.
-2. L'account di archiviazione deve essere creato nella stessa area AAD del tenant di Power BI. Per determinare la posizione del tenant di Power BI, vedere [Dove si trova il tenant di Power BI?](service-admin-where-is-my-tenant-located.md).
-3. Per l'account di archiviazione deve essere abilitata la funzionalità *Spazio dei nomi gerarchico*.
-4. Al servizio Power BI devono essere concessi i ruoli di *Lettore* e *Accesso ai dati* nell'account di archiviazione.
-5. Deve essere creato un file system denominato **powerbi**.
-6. I servizi di Power BI devono essere autorizzati per il file system **powerbi** creato.
+1. È necessario essere il proprietario dell'account di archiviazione ADLS. Questo stato deve essere assegnato a livello di risorsa e non ereditato dal livello di sottoscrizione.
+2. L'account di archiviazione deve essere creato nello stesso tenant di AAD del tenant di Power BI.
+3. L'account di archiviazione deve essere creato nella stessa area AAD del tenant di Power BI. Per determinare la posizione del tenant di Power BI, vedere [Dove si trova il tenant di Power BI?](service-admin-where-is-my-tenant-located.md).
+4. Per l'account di archiviazione deve essere abilitata la funzionalità *Spazio dei nomi gerarchico*.
 
 Le sezioni seguenti illustrano in dettaglio i passaggi necessari per configurare l'account di Azure Data Lake Storage Gen2.
 
@@ -59,73 +57,17 @@ Seguire la procedura nell'articolo [Create an Azure Data Lake Storage Gen2 stora
 2. Assicurarsi di abilitare la funzionalità dello spazio dei nomi gerarchico
 3. È consigliabile impostare la replica su **Archiviazione con ridondanza geografica e accesso in lettura (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Concedere al servizio Power BI i ruoli di Lettore e Accesso ai dati
+### <a name="grant-permissions-to-power-bi-services"></a>Concedere le autorizzazioni ai servizi Power BI
 
 È poi necessario concedere al servizio Power BI i ruoli di Lettore e Accesso ai dati nell'account di archiviazione creato. Sono entrambi ruoli predefiniti, quindi la procedura è immediata. 
 
 Seguire la procedura descritta in [Assegnare un ruolo RBAC predefinito](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
-Nella finestra **Aggiungi un'assegnazione di ruolo** selezionare i ruoli **Lettore** e **Accesso ai dati** da assegnare al servizio Power BI. Usare quindi la ricerca per individuare il **servizio Power BI**. 
+Nella finestra **Aggiungi assegnazione di ruolo** selezionare il ruolo **Lettore e accesso ai dati**. Usare quindi la funzione di ricerca per individuare l'applicazione **Servizio Power BI**.
+Ripetere gli stessi passaggi per il ruolo **Proprietario dei dati dei BLOB di archiviazione** e assegnare il ruolo a entrambe le applicazioni **Servizio Power BI** e **Power BI Premium**.
 
 > [!NOTE]
 > Attendere almeno 30 minuti per la propagazione dell'autorizzazione in Power BI dal portale. Ogni volta che si modificano le autorizzazioni nel portale, attendere 30 minuti affinché le autorizzazioni vengano riflesse in Power BI. 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Creare un file system per Power BI
-
-È necessario creare un file system denominato *powerbi* prima di poter aggiungere l'account di archiviazione a Power BI. Esistono molti modi per creare questo tipo di file system, incluso l'uso di Azure Databricks, HDInsight, AZCopy o Azure Storage Explorer. Questa sezione illustra un modo semplice per creare un file system con Azure Storage Explorer.
-
-Per questa procedura è necessario installare Azure Storage Explorer 1.6.2 o versione successiva. Per installare Azure Storage Explorer per Windows, Macintosh o Linux, vedere [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
-
-1. Dopo aver installato correttamente Azure Storage Explorer, al primo avvio viene visualizzata la finestra Microsoft Azure Storage Explorer - Connetti. Anche se Storage Explorer offre numerosi modi per connettersi agli account di archiviazione, è attualmente supportato un solo modo per la configurazione necessaria. 
-
-2. Nel riquadro sinistro individuare ed espandere l'account di archiviazione creato in precedenza.
-
-3. Fare clic con il pulsante destro del mouse su Contenitori BLOB e scegliere Crea contenitore BLOB.
-
-   ![fare clic con il pulsante destro del mouse su Contenitori BLOB](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. Verrà visualizzata una casella di testo sotto la cartella Contenitori BLOB. Immettere il nome *powerbi* 
-
-   ![immettere il nome "powerbi"](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. Premere INVIO al termine per creare il contenitore BLOB
-
-   ![premere INVIO per creare il contenitore BLOB](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-Nella sezione successiva verrà descritto come concedere alla famiglia di servizi Power BI l'accesso completo al file system creato. 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>Concedere le autorizzazioni per Power BI al file system
-
-Per concedere le autorizzazioni al file system, si applicano impostazioni dell'elenco di controllo di accesso (ACL) che concedono l'accesso al servizio Power BI. Il primo passaggio consiste nell'ottenere l'identità dei servizi Power BI nel tenant. È possibile visualizzare le applicazioni di Azure Active Directory (AAD) nella sezione **Applicazioni aziendali** del portale di Azure.
-
-Per trovare le applicazioni del tenant, seguire questa procedura:
-
-1. Nel [portale di Azure](https://portal.azure.com/) selezionare **Azure Active Directory** nel riquadro di spostamento.
-2. Nel pannello **Azure Active Directory** selezionare **Applicazioni aziendali**.
-3. Nel menu a discesa **Tipo di applicazione** selezionare **Tutte le applicazioni** e quindi selezionare **Applica**. Viene visualizzato un elenco delle applicazioni del tenant, simile all'immagine seguente.
-
-    ![Applicazioni aziendali AAD](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. Nella barra di ricerca digitare *Power*. Viene visualizzata una raccolta di ID di oggetto per le applicazioni Power BI e Power Query. Nei passaggi successivi saranno necessari tutti e tre i valori.  
-
-    ![Cercare le applicazioni Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. Selezionare e copiare gli ID degli oggetti per il servizio Power BI Premium e per Power Query online dai risultati della ricerca. Sarà necessario incollare tali valori nei passaggi successivi.
-
-6. Usare quindi **Azure Storage Explorer** per passare al file system *powerbi* creato nella sezione precedente. Seguire le istruzioni nella sezione [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Gestione dell'accesso) dell'articolo [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Impostare le autorizzazioni a livello di file e directory tramite Azure Storage Explorer).
-
-7. Per ognuno dei due ID di oggetto di Power BI Premium raccolti nel passaggio 5, assegnare l'accesso in **Lettura**, **Scrittura** ed **Esecuzione** e gli ACL predefiniti per il file system *powerbi*.
-
-   ![per entrambi, assegnare tutti e tre](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. Per l'ID oggetto di Power Query online raccolto nel passaggio 4, assegnare l'accesso in **Scrittura** ed **Esecuzione** e gli ACL predefiniti al file system *powerbi*.
-
-   ![assegnare poi scrittura ed esecuzione](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. Inoltre, anche per **Altro** assegnare l'accesso in **Esecuzione** e gli ACL predefiniti.
-
-    ![infine, per Altro assegnare esecuzione](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Connettere Azure Data Lake Storage Gen2 a Power BI
 
@@ -165,7 +107,7 @@ Per concedere le autorizzazioni di assegnazione per l'archiviazione, passare all
 Questo è tutto. Gli amministratori delle aree di lavoro di Power BI possono ora assegnare i flussi di lavoro al file system creato.
 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 Questa funzionalità è in anteprima e il relativo comportamento potrebbe cambiare in procinto del rilascio. Quando si usa l'archiviazione dei flussi di dati è necessario tenere presenti alcune considerazioni e limitazioni:
 
@@ -187,9 +129,9 @@ Domande e risposte comuni:
 
 **Domanda**: cosa accade se dopo aver creato flussi di dati in un'area di lavoro si vuole modificare la posizione di archiviazione?
 
-**Risposta:** non è possibile modificare la posizione di archiviazione di un flusso di dati dopo la creazione. 
+**Risposta**: non è possibile modificare la posizione di archiviazione di un flusso di dati dopo la creazione. 
 
-**Domanda:** quando è possibile modificare la posizione di archiviazione del flusso di dati di un'area di lavoro?
+**Domanda**: quando è possibile modificare la posizione di archiviazione del flusso di dati di un'area di lavoro?
 
 **Risposta**: la modifica della posizione di archiviazione del flusso di dati di un'area di lavoro è consentita solo se l'area di lavoro non contiene flussi di dati.
 

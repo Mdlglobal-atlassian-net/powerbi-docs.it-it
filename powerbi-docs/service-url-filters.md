@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076626"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273249"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -193,11 +193,17 @@ Questa discrepanza è utile quando si vogliono visualizzare risultati diversi, f
 Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della stringa di query.
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
-* Server di report di Power BI supporta anche la capacità di specificare filtri aggiuntivi tramite il parametro URL "fillter".  Ad esempio, in Server di report di Power BI l'URL potrebbe essere simile al seguente: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* Il filtro della stringa di query non funziona con l'opzione [Pubblica sul Web](service-publish-to-web.md) o [Esporta in PDF](consumer/end-user-pdf.md).
-* La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
-* Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
+* Server di report di Power BI supporta anche la possibilità di specificare filtri aggiuntivi tramite il parametro URL "filter". Di seguito è riportato un esempio di come potrebbe apparire l'URL in Server di report di Power BI: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * I filtri URL dei report hanno un limite di 10 espressioni (10 filtri connessi tramite AND).
+* Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
+
+I filtri URL sono supportati in alcuni scenari di incorporamento e non in altri.
+
+- È supportato l'[incorporamento di un report in un portale o un sito Web sicuro](service-embed-secure.md).
+- I filtri URL sono supportati in Power BI Embedded. Per informazioni dettagliate, vedere [Funzionalità avanzate per filtri URL in Power BI Embedded](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities).
+- Il filtro della stringa di query non funziona con l'opzione [Pubblica sul Web](service-publish-to-web.md) o [Esporta in PDF](consumer/end-user-pdf.md).
+- La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
+- Teams non consente di specificare un URL.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

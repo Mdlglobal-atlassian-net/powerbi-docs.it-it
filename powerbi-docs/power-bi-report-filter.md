@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201958"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114051"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Usare i filtri nei report di Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 I filtri di Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si sceglie di usare la nuova esperienza di filtro, è possibile formattare il riquadro Filtri in modo analogo al resto del report. È possibile bloccare i filtri e anche nasconderli. Quando si progetta un report, non viene più visualizzato il riquadro Filtri precedente nel riquadro Visualizzazioni. Tutte le operazioni di modifica e formattazione vengono eseguite in un unico riquadro Filtri. 
 
@@ -111,7 +113,7 @@ Questa impostazione nasconde solo il riquadro Filtri in Power BI Desktop. Se si 
 
 Quando si attivano o si disattivano queste impostazioni nel nuovo riquadro Filtri, le modifiche vengono rispecchiate nel report. I filtri nascosti non vengono visualizzati nell'elenco dei filtri popup per un oggetto visivo.
 
-È anche possibile configurare lo stato del nuovo riquadro Filtri in modo che segua i segnalibri del report. Gli stati di apertura, chiusura e visibilità del riquadro sono tutti contrassegnabili.
+È anche possibile configurare lo stato del nuovo riquadro Filtri in modo che segua i segnalibri del report. Gli stati di apertura, chiusura e visibilità del riquadro sono tutti contrassegnabili con segnalibri.
  
 ## <a name="format-the-new-filters-pane"></a>Formattare il nuovo riquadro Filtri
 
