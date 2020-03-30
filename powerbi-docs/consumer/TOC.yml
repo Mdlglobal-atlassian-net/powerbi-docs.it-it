@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Stampare un dashboard, un riquadro di un dashboard o una pagina di report'
               href: end-user-print.md
+            - name: Visualizzare il contenuto condiviso con l'utente corrente
+              href: end-user-shared-with-me.md
             - name: Visualizza il contenuto correlato
               href: end-user-related.md
             - name: Visualizzare il contenuto recente
               href: end-user-recent.md
-            - name: Visualizzare il contenuto nel contenitore Condivisi con l'utente corrente
-              href: end-user-shared-with-me.md
             - name: Sottoscrivere un report o un dashboard
               href: end-user-subscribe.md
             - name: Cercare e ordinare il contenuto in Power BI

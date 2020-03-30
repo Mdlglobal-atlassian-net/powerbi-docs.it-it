@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Riavviare una capacità Premium
               href: ../service-admin-premium-restart.md
-            - name: Connettersi a set di dati con applicazioni client e strumenti
+            - name: Connettività ai set di dati con l'endpoint XMLA (anteprima)
               href: ../service-premium-connect-tools.md
     - name: Riferimento
       items:
