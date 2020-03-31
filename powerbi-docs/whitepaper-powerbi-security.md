@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381400"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404569"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -135,7 +135,7 @@ L'autenticazione utente per il servizio Power BI è costituita da una serie di r
 
 La sequenza di autenticazione utente per il servizio Power BI avviene come descritto nella procedura e nelle immagini seguenti.
 
-1. L'utente avvia una connessione al servizio Power BI da un browser, digitando l'indirizzo di Power BI nella barra degli indirizzi (ad esempio https://app.powerbi.com) o selezionando _Accesso_ dalla pagina di destinazione di Power BI (https://powerbi.microsoft.com). La connessione si stabilisce tramite TLS 1.2 e HTTPS e tutte le comunicazioni successive tra il browser e il servizio Power BI usano il protocollo HTTPS. La richiesta viene inviata alla **Gestione traffico di Microsoft Azure**.
+1. Un utente avvia una connessione al servizio Power BI da un browser, digitando l'indirizzo di Power BI nella barra degli indirizzi, ad esempio `https://app.powerbi.com`, oppure selezionando _Accedi_ dalla pagina di destinazione Power BI (https://powerbi.microsoft.com). La connessione si stabilisce tramite TLS 1.2 e HTTPS e tutte le comunicazioni successive tra il browser e il servizio Power BI usano il protocollo HTTPS. La richiesta viene inviata alla **Gestione traffico di Microsoft Azure**.
 
 2. **Gestione traffico** controlla il record DNS dell'utente per determinare il data center più vicino in cui Power BI viene distribuito e risponde al DNS con l'indirizzo IP del cluster front-end Web a cui deve essere inviato l'utente.
 
@@ -347,8 +347,8 @@ La tabella seguente elenca il supporto dell'autenticazione basata su certificati
 
 | **Supporto dell'autenticazione basata su certificati** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (accesso al servizio) | supportati | supportati | Non supportate |
-| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportate | Supportato | Non supportate |
+| **Power BI** (accesso al servizio) | supportati | supportati | Non supportato |
+| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportato | Supportato | Non supportato |
 
 Le app Power BI per dispositivi mobili comunicano attivamente con il servizio Power BI. Per raccogliere statistiche sull'utilizzo delle app per dispositivi mobili e dati simili per la trasmissione a servizi di monitoraggio dell'utilizzo e dell'attività, viene usata la telemetria. Con i dati di telemetria non vengono inviati dati personali dell'utente.
 
