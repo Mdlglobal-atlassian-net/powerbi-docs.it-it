@@ -19,6 +19,16 @@
             - name: Sviluppatore
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: Analisi incorporata
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Oggetti visivi di Power BI
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: Automazione
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: Apprendimento guidato
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
