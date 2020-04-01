@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492492"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403699"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -217,7 +217,7 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
 
 7. Usare le API Power BI per usare la funzionalità CustomData nell'applicazione.  Quando si genera un token con la funzionalità CustomData, è necessario avere un nome utente. Il nome utente deve essere uguale all'UPN dell'utente master. L'utente master deve essere un membro dei ruoli creati. Se non viene specificato alcun ruolo, per la valutazione della sicurezza a livello di riga vengono usati tutti i ruoli di cui è membro l'utente master.
 
-    Quando si lavora con un'[entità servizio](embed-service-principal.md), è necessario eseguire anche i passaggi precedenti al posto di usare un account master. Durante la generazione di un token di incorporamento, usare l'[ID oggetto entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id) come nome utente.
+    Quando si lavora con un'[entità servizio](embed-service-principal.md), è necessario eseguire anche i passaggi precedenti al posto di usare un account master. Durante la generazione di un token di incorporamento, usare l'[ID oggetto entità servizio](embed-service-principal.md) come nome utente.
 
     > [!Note]
     > Quando si è pronti per distribuire l'applicazione nell'ambiente di produzione, il campo o l'opzione dell'account dell'utente master non deve essere visibile per l'utente finale.

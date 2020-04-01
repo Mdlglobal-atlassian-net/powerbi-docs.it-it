@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 29a6e9f67258d4babc58d8195dda59afe97554c6
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205229"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404778"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -25,7 +25,7 @@ Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](h
 
 ![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, https://app.powerbi.com. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](../service-admin-premium-workloads.md#paginated-reports) nel portale di amministrazione di Power BI. 
+È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, `https://app.powerbi.com`. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](../service-admin-premium-workloads.md#paginated-reports) nel portale di amministrazione di Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Creare report in Generatore report di Power BI
 
@@ -61,7 +61,7 @@ Per tutti gli elementi in un report impaginato, dal report stesso a ogni casella
 
 ## <a name="creating-a-report-definition"></a>Creazione di una definizione del report
 
-Quando si progetta un report impaginato, si crea effettivamente una *definizione del report*, che non contiene i dati. La definizione specifica dove ottenere i dati, quali dati ottenere e come visualizzarli. Quando si esegue il report, l'elaboratore di report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. La definizione del report viene caricata nel servizio Power BI, https://app.powerbi.com, nell'area di lavoro personale o in un'area di lavoro condivisa con i colleghi. Se l'origine dati del report è locale, dopo aver caricato il report, la connessione all'origine dati viene reindirizzata per il passaggio attraverso un gateway. 
+Quando si progetta un report impaginato, si crea effettivamente una *definizione del report*, che non contiene i dati. La definizione specifica dove ottenere i dati, quali dati ottenere e come visualizzarli. Quando si esegue il report, l'elaboratore di report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. La definizione del report viene caricata nel servizio Power BI, `https://app.powerbi.com`, nell'area di lavoro personale o in un'area di lavoro condivisa con i colleghi. Se l'origine dati del report è locale, dopo aver caricato il report, la connessione all'origine dati viene reindirizzata per il passaggio attraverso un gateway. 
 
 ## <a name="view-your-paginated-report"></a>Visualizzare il report impaginato
 Nel servizio Power BI il report impaginato viene visualizzato in un browser e nelle app per dispositivi mobili di Power BI. Il report può essere esportato dal servizio Power BI in diversi formati, ad esempio HTML, MHTML, PDF, XML, CSV, TIFF, Word ed Excel. È anche possibile condividerlo con altri utenti.  

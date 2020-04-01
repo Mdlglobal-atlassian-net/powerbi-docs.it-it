@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114889"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404816"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Questo articolo è destinato ai clienti del Governo degli Stati Uniti che distribuiscono Power BI come parte di un piano Office 365 Government. I piani Government sono progettati per le esigenze specifiche delle organizzazioni che devono soddisfare gli standard di conformità e sicurezza degli Stati Uniti. Il servizio Power BI progettato per i clienti del Governo degli Stati Uniti è diverso dalla versione commerciale del servizio Power BI. Le differenze delle funzionalità e delle capacità sono descritte nelle sezioni seguenti.
@@ -56,7 +56,7 @@ Per connettersi a Power BI per Governo degli Stati Uniti si usa un URL diverso d
 
 | URL della versione commerciale | URL della versione US Government | URL del Governo degli Stati Uniti per GCC High |
 | --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 È possibile che sia stato effettuato il provisioning dell'account per più di un cloud. In tal caso, quando si usa Power BI Desktop, è possibile scegliere il cloud a cui connettersi quando si esegue l'accesso.
 

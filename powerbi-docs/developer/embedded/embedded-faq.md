@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492791"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403659"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -96,7 +96,7 @@ L'utente può risolvere il problema chiamando [l'API refreshUserPermissions](htt
 
 È possibile usare il portale PBI per risalire alla propria area del tenant PBI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Informazioni su Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Informazioni su Power BI
 
 ![Informazioni su Power BI](media/embedded-faq/about-01.png)
 ![Area del tenant](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Questa situazione è importante quando l'entità servizio viene aggiunta come **
 
 L' **[ID applicazione](embed-sample-for-customers.md#application-id)** viene usato per creare il token di accesso quando si passa l'ID applicazione per l'autenticazione.
 
-Per fare riferimento a un'entità servizio per le operazioni o apportare modifiche, usare l' **[ID oggetto dell'entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id)** , applicando ad esempio un'entità servizio come amministratore a un'area di lavoro.
+Per fare riferimento a un'entità servizio per le operazioni o apportare modifiche, usare l' **[ID oggetto dell'entità servizio](embed-service-principal.md)** , applicando ad esempio un'entità servizio come amministratore a un'area di lavoro.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>È possibile gestire un gateway dati locale con un'entità servizio?
 
