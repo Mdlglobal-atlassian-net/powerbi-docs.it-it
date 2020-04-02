@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404569"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551104"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404569"
 
 **Power BI** è un servizio software online (_SaaS_, Software as a Service) offerto da Microsoft che consente di creare in modo semplice e rapido dashboard, report, set di dati e visualizzazioni di business intelligence in modalità self-service. Con Power BI è possibile connettersi a numerose origini dati diverse, combinare e definire le proprietà della forma dei dati provenienti dalle connessioni, quindi creare report e dashboard che possono essere condivisi con altri utenti.
 
-Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del [Framework di conformità di Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
+Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del [Framework di conformità di Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Questo articolo descrive la sicurezza di Power BI illustrando l'architettura di Power BI, la modalità di autenticazione degli utenti per Power BI e di creazione delle connessioni dati e infine descrivendo in che modo Power BI archivia e trasferisce i dati attraverso il servizio. L'ultima sezione è dedicata alle domande sulla sicurezza e alle relative risposte.
 
