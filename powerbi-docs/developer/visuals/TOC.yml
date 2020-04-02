@@ -1,0 +1,120 @@
+- name: Documentazione per gli oggetti visivi di Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Oggetti visivi in Power BI
+          href: power-bi-custom-visuals.md
+    - name: Esercitazioni
+      expanded: true
+      items:
+        - name: Sviluppare un oggetto visivo di Power BI
+          href: custom-visual-develop-tutorial.md
+        - name: Aggiungere opzioni di formattazione
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Aggiungere unit test per il progetto di oggetto visivo
+          href: unit-tests-introduction.md
+    - name: Concetti
+      items:
+        - name: Struttura del progetto per un oggetto visivo di Power BI
+          href: visual-project-structure.md
+        - name: Concetti per gli oggetti visivi
+          href: power-bi-visuals-concept.md
+        - name: Oggetti visivi per le organizzazioni in Power BI
+          href: power-bi-custom-visuals-organization.md
+        - name: Linee guida per gli oggetti visivi di Power BI
+          href: guidelines-powerbi-visuals.md
+        - name: Domande frequenti sugli oggetti visivi
+          href: power-bi-custom-visuals-faq.md
+        - name: Uso delle funzionalità
+          href: capabilities.md
+        - name: Mapping di visualizzazione dati
+          href: dataview-mappings.md
+        - name: Oggetti e proprietà
+          href: objects-properties.md
+        - name: Modalità di modifica avanzata
+          href: advanced-edit-mode.md
+    - name: Procedura
+      items:
+        - name: Ottenere un oggetto visivo Power BI certificato
+          href: power-bi-custom-visuals-certified.md
+        - name: Pubblicare oggetti visivi di Power BI in AppSource
+          href: office-store.md
+        - name: Usare oggetti visivi di Power BI basati su R in Power BI
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Interazioni oggetti visivi
+          href: visuals-interactions.md
+        - name: Aggiungere selezioni
+          href: selection-api.md
+        - name: Aggiungere descrizioni comando degli oggetti visivi
+          href: add-tooltips.md
+        - name: Aggiungere il riquadro di analisi
+          href: analytics-pane.md
+        - name: Filtrare gli oggetti visivi
+          href: filter-api.md
+        - name: Recuperare altri dati
+          href: fetch-more-data.md
+        - name: Aggiungere il supporto per i segnalibri
+          href: bookmarks-support.md
+        - name: Aggiungere il supporto di menu di scelta rapida
+          href: context-menu.md
+        - name: Aggiungere il supporto del drill-down
+          href: drill-down-support.md
+        - name: Evidenziare i dati negli oggetti visivi
+          href: highlight.md
+        - name: Aggiungere il supporto per la modalità contrasto elevato
+          href: high-contrast-support.md
+        - name: Abilitare la sincronizzazione dei filtri dei dati
+          href: enable-sync-slicers.md
+        - name: Eseguire il debug degli oggetti visivi
+          href: visuals-how-to-debug.md
+        - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Riferimento
+      items:
+        - name: Pagina di destinazione
+          href: landing-page.md
+        - name: URL di avvio
+          href: launch-url.md
+        - name: API di archiviazione locale
+          href: local-storage.md
+        - name: Rendering di eventi
+          href: event-service.md
+        - name: Ordinamento
+          href: sort-options.md
+        - name: Localizzazione
+          href: localization.md
+        - name: Utilità per gli oggetti visivi di Power BI
+          items:
+            - name: Aggiunta di librerie esterne
+              href: adding-external-libraries.md
+            - name: Utilità di interattività
+              href: utils-interactivity-selections.md
+            - name: Utilità per la formattazione
+              href: utils-formatting.md
+            - name: Utilità per la vista dati
+              href: utils-dataview.md
+            - name: Utilità per i grafici
+              href: utils-chart.md
+            - name: Utilità per i colori
+              href: utils-color.md
+            - name: Utilità per SVG
+              href: utils-svg.md
+            - name: Utilità per i tipi
+              href: utils-type.md
+            - name: Utilità per le descrizioni comandi
+              href: utils-tooltip.md
+            - name: Utilità per la vista dati
+              href: utils-dataview.md
+    - name: Risorse
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Esempi di oggetti visivi di Power BI
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Archivio GIT di oggetti visivi di Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: Creazione del certificato SSL
+          href: create-ssl-certificate.md

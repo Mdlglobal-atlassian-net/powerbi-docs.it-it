@@ -1,0 +1,110 @@
+- name: Documentazione per l'analisi incorporata di Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Informazioni sull'incorporamento con Power BI
+          href: embedding.md
+        - name: Informazioni su Power BI Embedded in Azure
+          href: azure-pbie-what-is-power-bi-embedded.md
+    - name: Esercitazioni
+      expanded: true
+      items:
+        - name: Incorporare contenuto per i clienti
+          href: embed-sample-for-customers.md
+        - name: Incorporare contenuto per l'organizzazione
+          href: embed-sample-for-your-organization.md
+        - name: Incorporare report impaginati per i clienti
+          href: embed-paginated-reports-customers.md
+        - name: Incorporare contenuto per i cloud nazionali
+          href: embed-sample-for-customers-national-clouds.md
+    - name: Concetti
+      items:
+        - name: Capacità e SKU per le funzionalità di analisi incorporata di Power BI
+          href: embedded-capacity.md
+        - name: Pianificazione della capacità
+          href: embedded-capacity-planning.md
+        - name: Procedure consigliate per le prestazioni
+          href: embedded-performance-best-practices.md
+        - name: Entità servizio
+          href: embed-service-principal.md
+        - name: Sicurezza a livello di riga
+          href: embedded-row-level-security.md
+        - name: Sicurezza a livello di riga per i report impaginati
+          href: paginated-reports-row-level-security.md
+        - name: Gestire multi-tenant
+          href: embed-multi-tenancy.md
+        - name: Registrazione diagnostica di Azure per Power BI Embedded
+          href: azure-pbie-diag-logs.md
+        - name: Domande frequenti sull'incorporamento
+          href: embedded-faq.md
+        - name: Autorizzazioni di Power BI
+          href: power-bi-permissions.md
+    - name: Procedura
+      items:
+        - name: Incorporare da un'app
+          href: embed-from-apps.md
+        - name: Esportare il report nel file
+          href: export-to.md
+        - name: Installazione automatica di app
+          href: embed-auto-install-app.md
+        - name: Creare un tenant di Azure Active Directory
+          href: create-an-azure-active-directory-tenant.md
+        - name: Registrare un'applicazione
+          href: register-app.md
+        - name: Ottenere un token di accesso di Azure AD
+          href: get-azuread-access-token.md
+        - name: Connettere un report tramite binding dinamico
+          href: embed-dynamic-binding.md
+        - name: Incorporamento di domande e risposte
+          href: qanda.md
+        - name: Risolvere i problemi dell'applicazione incorporata
+          href: embedded-troubleshoot.md
+        - name: Gestire le capacità in Azure
+          items:
+            - name: Creare una capacità in Azure
+              href: azure-pbie-create-capacity.md
+            - name: Creare una capacità tramite Multi-Geo in Azure
+              href: embedded-multi-geo.md
+            - name: Ridimensionare una capacità in Azure
+              href: azure-pbie-scale-capacity.md
+            - name: Sospendere e avviare una capacità in Azure
+              href: azure-pbie-pause-start.md
+        - name: Eseguire la migrazione dalle raccolte di aree di lavoro
+          items:
+            - name: Come eseguire la migrazione dalle raccolte di aree di lavoro di Power BI
+              href: migrate-from-powerbi-embedded.md
+            - name: Strumento di migrazione
+              href: migrate-tool.md
+            - name: Frammenti di codice per la migrazione
+              href: migrate-code-snippets.md
+    - name: Riferimento
+      items:
+        - name: API
+          items:
+            - name: API REST di gestione delle risorse di Azure
+              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+            - name: API REST di Power BI
+              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+        - name: Librerie di Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+        - name: Incorporare layout personalizzati in un'app
+          href: embedded-custom-layout.md
+    - name: Risorse
+      items:
+        - name: Centro per sviluppatori
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: Strumento di installazione dell'incorporamento
+          href: 'https://aka.ms/embedsetup'
+        - name: Esempio JavaScript Playground
+          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+        - name: Wiki JavaScript di Power BI
+          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: Esempi e script per sviluppatori
+          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+        - name: Community di Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+        - name: Stack Overflow
+          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
