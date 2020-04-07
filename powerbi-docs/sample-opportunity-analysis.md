@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858716"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404137"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle opportunità per Power BI: Presentazione
 
@@ -22,7 +22,7 @@ Il pacchetto di contenuto Opportunity Analysis Sample contiene un dashboard, un 
 
 Questo esempio si basa su due misure dei ricavi:
 
-* Ricavi: stima di un venditore dei ricavi futuri.
+* Ricavi: stima di un venditore relativa ai ricavi previsti.
 * Ricavi fattorizzati: calcolati moltiplicando i ricavi per la probabilità (%) e generalmente considerato un fattore di previsione più preciso per stimare i ricavi effettivi delle vendite. La probabilità viene determinata dalla *fase di vendita* corrente della trattativa:
   * Lead: 10%  
   * Qualify: 20%  
@@ -66,7 +66,7 @@ In alternativa, è possibile scaricare Opportunity Analysis Sample come [file co
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529782). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529782). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 La responsabile delle vendite ha creato un dashboard per tenere traccia delle metriche più rilevanti. Quando vengono individuati dati interessanti, è possibile selezionare un riquadro per analizzarli in dettaglio:

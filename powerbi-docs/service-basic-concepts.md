@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207920"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404078"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
 L'obiettivo di questo articolo è consentire agli utenti di orientarsi meglio all'interno nel servizio Power BI: che cosa sono i diversi elementi, come interagiscono e come è possibile usarli. È possibile sfruttare al meglio queste informazioni se è già stata effettuata l'[iscrizione al servizio Power BI](service-self-service-signup-for-power-bi.md) e sono già stati [aggiunti alcuni dati](service-get-data.md). Il flusso di lavoro tipico di un progettista inizia in genere dalla creazione di report in Power BI Desktop. I report vengono poi pubblicati nel servizio Power BI, dove è possibile continuare a modificarli. È anche possibile creare dashboard basati sui report nel servizio Power BI. 
 
-Per questo articolo, se non sono ancora disponibili report personali, provare a installare un [pacchetto di contenuto di esempio di Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+Per questo articolo, se non sono ancora disponibili report personali, provare a installare uno degli [esempi di Power BI](sample-datasets.md).
 
 ![Schermata iniziale del servizio Power BI in un browser](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -76,7 +76,7 @@ Poiché i dashboard o i report sono utili solo quando contengono dati, verranno 
 ## <a name="datasets"></a>Set di dati
 Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione. I set di dati possono anche usare i flussi di dati come origine dati.
 
-I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. Visualizzare l'[elenco dei tipi di set di dati che è possibile usare con Power BI](service-get-data.md).
+I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati di diverso tipo e ne vengono aggiunte continuamente di nuove. Visualizzare l'[elenco dei tipi di set di dati che è possibile usare con Power BI](service-get-data.md).
 
 Nell'esempio seguente è stata selezionata l'area di lavoro "Sales and marketing" ed è stato fatto clic sulla scheda **Set di dati**.
 

@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078980"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302276"
 ---
 # <a name="collaborate-in-workspaces"></a>Collaborare nelle aree di lavoro
 
  Le *aree di lavoro* sono posizioni in cui è possibile collaborare con i colleghi su contenuti specifici. Le aree di lavoro vengono create dai *progettisti* di Power BI e includono raccolte di dashboard, report e app. 
 
+## <a name="types-of-workspaces"></a>Tipi di aree di lavoro
+In **Area di lavoro personale** viene archiviato tutto il contenuto di cui si è proprietari o autori. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Per molti utenti finali di Power BI, l'**Area di lavoro personale** rimane vuota perché il loro lavoro non implica la creazione di nuovi contenuti. Gli utenti finali, per definizione, usufruiscono di dati creati da altri e li usano per prendere decisioni aziendali. Se si è autori di contenuto, è consigliabile leggere invece gli [articoli di Power BI per progettisti](../create-reports/index.yml).
 
-<art showing different wss>
+Le **aree di lavoro per le app** includono tutto il contenuto per un'app specifica. Quando un *progettista* crea un'app, aggrega tutto il contenuto necessario per utilizzare tale app. Il contenuto può includere dashboard, report, app e set di dati. Non tutte le app conterranno questi quattro tipi di contenuto. Un'app può contenere solo un dashboard oppure i tre tipi di contenuto o persino venti report. Tutto dipende da quello che il *progettista* decide di includere nell'app. In genere le aree di lavoro per le app destinate agli *utenti finali* non includono alcun set di dati.
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>Ruoli nelle aree di lavoro
 
@@ -42,3 +46,16 @@ In alcuni casi è possibile che l'utente sia invitato in un'area di lavoro all'e
 ## <a name="next-steps"></a>Passaggi successivi
 * [App in Power BI](end-user-apps.md)    
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+

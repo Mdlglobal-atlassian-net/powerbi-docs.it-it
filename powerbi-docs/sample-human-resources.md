@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858853"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404102"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle risorse umane per Power BI: Presentazione
 
@@ -61,7 +61,7 @@ In alternativa, è possibile scaricare l'esempio di analisi delle risorse umane 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529780). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529780). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="new-hires"></a>Nuovi assunti
 Esaminare prima di tutto i nuovi assunti.
@@ -78,8 +78,8 @@ Esaminare prima di tutto i nuovi assunti.
 3. Esaminare questi elementi di interesse:
 
     * Il grafico combinato **New Hire Count, New Hires SPLY and Actives YoY % Change by Month** indica che ogni mese dell'anno corrente sono state assunte più persone rispetto all'anno precedente. In alcuni mesi il numero di persone è significativamente maggiore.
-    * Nel grafico combinato **New Hire Count and Active Employee Count by Region and Ethnicity**si può notare che sono state assunte meno persone nell'area **East**.
-    * Il grafico a cascata **New Hires YoY Var by Age Group** mostra che si sta assumendo principalmente personale più giovane. Questa tendenza può essere dovuta alla natura prevalentemente part-time dell'impiego.
+    * Nel grafico combinato **New Hire Count and Active Employee Count by Region and Ethnicity** si può notare che sono state assunte meno persone nell'area **East**.
+    * Il grafico a cascata **New Hires YoY Var by Age Group** indica che si sta assumendo soprattutto personale più giovane. Questa tendenza può essere dovuta alla natura prevalentemente part-time dell'impiego.
     * Il grafico a torta **New Hire Count by Gender** mostra una suddivisione più o meno equa.
 
     È possibile reperire altre informazioni dettagliate? Ad esempio, un'area in cui la suddivisione tra i sessi non è equa. 
@@ -108,7 +108,7 @@ Esaminare i dati per i dipendenti attivi e i dipendenti che non lavorano più pe
     * Esaminando i grafici a torta, si nota una suddivisione equa tra i dipendenti attivi per sesso e fascia di età. Selezionare diverse fasce di età per vedere la suddivisione dei sessi in base all'età. Esiste una suddivisione uniforme per sesso in ogni fascia d'età?
 
 ## <a name="reasons-for-separation"></a>Motivi per la separazione
-Verrà ora esaminato il report in Visualizzazione di modifica. È possibile modificare i grafici a torta in modo da visualizzare i dati per gli ex dipendenti invece che per quelli attivi.
+Ora si esaminerà il report in Visualizzazione di modifica. È possibile modificare i grafici a torta in modo da visualizzare i dati per gli ex dipendenti invece che per quelli attivi.
 
 1. Selezionare **Modifica report** nell'angolo in alto a sinistra.
 
@@ -135,7 +135,7 @@ Verrà ora esaminato il report in Visualizzazione di modifica. È possibile modi
 9. Selezionare **Esempio di analisi delle risorse umane** nel riquadro di spostamento superiore per tornare al dashboard. È possibile scegliere di salvare le modifiche apportate al report.
 
 ## <a name="bad-hires"></a>Assunzioni non andate a buon fine
-L'ultima area da esplorare è quella delle assunzioni non andate a buon fine, ossia quei dipendenti la cui collaborazione con l'azienda non è durata più di 60 giorni. Le assunzioni avvengono rapidamente, ma i candidati assunti sono buoni candidati?
+L'ultima area da esplorare è quella delle assunzioni non andate a buon fine, ossia i dipendenti la cui collaborazione con l'azienda non è durata più di 60 giorni. Le assunzioni avvengono rapidamente, ma i candidati assunti sono candidati ottimali?
 
 1. Selezionare il riquadro **Bad Hires as % of Actives by Age Group** del dashboard. Il report verrà aperto nella scheda tre, **Bad Hires**.
 

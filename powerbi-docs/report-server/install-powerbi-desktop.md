@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381124"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404188"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 
@@ -62,7 +62,7 @@ Se si modifica un report di Power BI dall'interno di Server di report di Power B
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-I report Power BI nel server di report di Power BI, nel servizio Power BI (https://app.powerbi.com) ) e nelle app per dispositivi mobili Power BI funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
+I report Power BI nel server di report di Power BI, nel servizio Power BI (`https://app.powerbi.com`) e nelle app per dispositivi mobili Power BI funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
 
 ### <a name="selecting-a-language"></a>Selezione di una lingua
 

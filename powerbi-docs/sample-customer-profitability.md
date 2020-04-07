@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205298"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404159"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
 
@@ -56,7 +56,7 @@ In alternativa è possibile scaricare l'[esempio Analisi della redditività dei 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529781). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529781). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 
@@ -133,7 +133,7 @@ Molti riquadri nel dashboard di esempio Redditività clienti sono stati aggiunti
 ### <a name="team-scorecard-page"></a>Pagina Team Scorecard
 ![Pagina Team Scorecard del report](media/sample-customer-profitability/customer2.png)
 
-Verranno ora esaminati nel dettaglio due membri del team per ottenere informazioni più approfondite: 
+Ora si esamineranno nel dettaglio due membri del team per ottenere informazioni più approfondite: 
 
 1. Nel filtro dei dati **Executive** a sinistra selezionare il nome di Andrew per filtrare la pagina del report in modo da visualizzare solo i dati su Andrew:
 
@@ -141,7 +141,7 @@ Verranno ora esaminati nel dettaglio due membri del team per ottenere informazio
    * Il grafico **Revenue % Variance to Budget by Month and Executive** mostra che, fatta eccezione per una flessione a febbraio, Andrew sta ottenendo buoni risultati. L'area dominante di Andrew è l'est, in cui gestisce 49 clienti e 5 prodotti su 7. La percentuale di margine lordo di Andrew non è la più elevata né la più bassa.
    * Il grafico **RevenueTY and Revenue % Var to Budget by Month** (Ricavi annuali e % varianza ricavi rispetto al budget per mese) mostra un profitto costante e uniforme. Tuttavia, se si filtra il grafico selezionando il quadrato dell'area **Central** nella mappa ad albero, si scopre che Andrew può contare su ricavi solo a marzo e solo nello stato dell'Indiana. Questa tendenza è intenzionale oppure è un fatto su cui indagare ulteriormente?
 
-2. Passiamo ora a Valery. Nel filtro dei dati **Executive** selezionare il nome di Valery per filtrare la pagina del report e visualizzare solo i dati su di lei. 
+2. Passiamo ora a Valery. Nel filtro dei dati **Executive** selezionare il nome di Valery per filtrare la pagina del report e visualizzare solo i dati su questo utente. 
 
    ![Dati di Valery](media/sample-customer-profitability/customer3.png)
 
@@ -151,7 +151,7 @@ Verranno ora esaminati nel dettaglio due membri del team per ottenere informazio
    * Se si seleziona il quadrato **North** nella mappa ad albero si scopre che il margine lordo di Valery nell'area nord è coerente con il suo margine complessivo.
    * Selezionando ognuno degli altri quadrati **Total Revenue by Region** si può notare un dato interessante: la percentuale di margine lordo va dal 23% al 79%. Le cifre relative ai ricavi di Valery, in tutte le aree tranne quella nord, sono estremamente stagionali.
 
-3. Continuiamo a esplorare per scoprire il motivo per cui l'area di Valery non offre buoni risultati. Osservare le aree, le altre business unit e la pagina successiva del report: **Industry Margin Analysis** (Analisi del margine di settore).
+3. Continuare a esplorare per scoprire il motivo per cui l'area di Valery non offre buoni risultati. Osservare le aree, le altre business unit e la pagina successiva del report: **Industry Margin Analysis** (Analisi del margine di settore).
 
 ### <a name="industry-margin-analysis"></a>Analisi del margine di settore
 Questa pagina del report mostra una sezione diversa dei dati. Illustra il margine lordo dell'intero settore, suddiviso in base al segmento. La responsabile amministrativa usa questa pagina per confrontare le metriche della società e della business unit con le metriche del settore, per provare a capire le tendenze e la redditività. Ci si potrebbe chiedere perché il grafico **Gross Margin % by Month and Executive** (% margine lordo per mese e responsabile) sia in questa pagina, dal momento che è specifico per il team. L'inserimento in questa sede consente di filtrare la pagina in base al responsabile di business unit.  
@@ -173,7 +173,7 @@ Questa pagina del report mostra una sezione diversa dei dati. Illustra il margin
 Questa pagina presenta un formato con dimensioni personalizzate.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Esaminare i dati in maniera più approfondita ponendo domande con le Domande e risposte
-Per questa analisi sarebbe utile determinare quale settore genera il maggior ricavo per Valery. A tale scopo, verranno usate le Domande e risposte.
+Per questa analisi sarebbe utile determinare quale settore genera il maggior ricavo per Valery. A tale scopo verranno usate le Domande e risposte.
 
 1. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica. La visualizzazione di modifica è disponibile solo per il proprietario del report. Questa visualizzazione viene talvolta definita modalità *autore*. Se il report è stato condiviso solo con l'utente corrente, invece, non sarà possibile aprirlo in visualizzazione di modifica.
 

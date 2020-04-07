@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 2db9cdcb1238b5f26a34cf652f8f614411c2992b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79379044"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550752"
 ---
 # <a name="power-bi-visual-project-structure"></a>Struttura del progetto per un oggetto visivo di Power BI
 
@@ -48,7 +48,7 @@ project
 
 ## <a name="folder-and-file-description"></a>Descrizione dei file e delle cartelle
 
-Questa sezione offre informazioni per ogni cartella e ogni file all'interno della directory creata dallo strumento per oggetti visivi di Power BI **pbiviz**.  
+Questa sezione offre informazioni per ogni cartella e ogni file all'interno della directory creata dallo strumento **pbiviz** per oggetti visivi di Power BI.  
 
 ### <a name="vscode"></a>.vscode
 

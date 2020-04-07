@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201402"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464621"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso dei metadati dei set di dati avanzati (anteprima)
 
@@ -24,6 +24,8 @@ Con il rilascio della funzionalità dei **metadati dei set di dati avanzati**, m
 
 
 La funzionalità dei **metadati dei set di dati avanzati** è strategica e fondamentale, perché le future funzionalità di Power BI saranno sviluppate in base a questi metadati. Alcune funzionalità aggiuntive che traggono vantaggio dai metadati dei set di dati avanzati includono [lettura/scrittura di XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) per la gestione di set di dati di Power BI e la migrazione di carichi di lavoro di Analysis Services a Power BI per sfruttare le funzionalità di prossima generazione.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Abilitare i metadati dei set di dati avanzati
 
@@ -36,6 +38,9 @@ Verrà richiesto di riavviare Power BI Desktop.
 ![Prompt per il riavvio](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Dopo aver abilitato la funzionalità di anteprima, Power BI Desktop tenta di aggiornare i file PBIX e PBIT che usano il formato dei metadati precedente. 
+
+> [!IMPORTANT]
+> L'abilitazione della funzionalità dei **metadati dei set di dati avanzati** determina un aggiornamento irreversibile dei report. Una volta abilitati i **metadati dei set di dati avanzati**, tutti i report di Power BI caricati o creati con Power BI Desktop vengono convertiti in modo irreversibile nel formato dei metadati dei set di dati avanzati.
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 

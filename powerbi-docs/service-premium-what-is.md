@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381170"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329653"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
-Power BI Premium offre risorse dedicate e avanzate per l'esecuzione del servizio Power BI per l'organizzazione. ad esempio:
+È possibile usare Power BI Premium per ottenere risorse avanzate dedicate per l'organizzazione, in modo che gli utenti di questa possano usare il servizio Power BI con prestazioni migliori e tempi di risposta più rapidi. Con una sottoscrizione di Power BI Premium, ad esempio, l'amministratore e gli utenti dell'organizzazione possono avere accesso a:
 
 > [!div class="checklist"]
 > * Maggiore scalabilità e prestazioni migliori
@@ -29,13 +29,16 @@ Power BI Premium offre risorse dedicate e avanzate per l'esecuzione del servizio
 > * Supporto della residenza dei dati per area (Multi-Geo)
 > * Condivisione dei dati con tutti gli utenti senza la necessità di acquistare una licenza per utente
 
+
+![Portale di amministrazione](media/service-premium-what-is/premium-admin-portal.png) 
+
 Questo articolo presenta le funzionalità principali di Power BI Premium. Dove necessario, sono forniti collegamenti a ulteriori articoli con informazioni più dettagliate. Per altre informazioni su Power BI Pro e Power BI Premium, vedere la sezione _Confronto tra funzionalità di Power BI_ di [Prezzi di Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="subscriptions-and-licensing"></a>Sottoscrizioni e licenze
 
 Power BI Premium è una sottoscrizione di Office 365 a livello di tenant disponibile in due famiglie di SKU (Stock-Keeping Unit):
 
-- SKU **P** (P1-P3) per l'incorporamento e funzionalità Enterprise, richiedono un impegno mensile o annuale, con fatturazione mensile e includono una licenza per l'installazione di Server di report di Power BI in locale.
+- SKU **P** (P1-P5) per funzionalità di incorporamento ed Enterprise, che richiedono un impegno mensile o annuale, con fatturazione mensile, e includono una licenza per l'installazione di Server di report di Power BI in locale.
 
 - SKU **EM** (EM1-EM3) per l'incorporamento _organizzativo_, richiedono un impegno annuale, con fatturazione mensile. Le SKU EM1 ed EM2 sono disponibili solo attraverso piani di contratti multilicenza. L'acquisto diretto non è possibile.
 
@@ -81,6 +84,8 @@ Le risorse e i limiti di ogni SKU Premium (e della SKU A di dimensioni equivalen
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -213,13 +218,13 @@ Per altre informazioni, vedere [Report impaginati in Power BI Premium](paginated
 
 ## <a name="power-bi-report-server"></a>Server di report Power BI
  
-Incluso in Power BI Premium, Server di report di Power BI è un server di report *locale* con un portale Web. È possibile creare il proprio ambiente BI locale e distribuire i report dietro il firewall dell'organizzazione. Server di report offre agli utenti l'accesso a report interattivi avanzati e le funzionalità di creazione di report aziendali di SQL Server Reporting Services. Gli utenti possono esplorare visivamente i dati e individuare rapidamente modelli per prendere decisioni migliori e più rapide. Server di report offre una governance personalizzata. Quando opportuno, Server di report di Power BI semplifica la migrazione nel cloud dove l'organizzazione può usare al meglio tutte le funzionalità di Power BI Premium.
+Incluso in Power BI Premium, Server di report di Power BI è un server di report *locale* con un portale Web. È possibile creare un ambiente BI locale e distribuire i report dietro il firewall dell'organizzazione. Server di report offre agli utenti l'accesso a report interattivi avanzati e le funzionalità di creazione di report aziendali di SQL Server Reporting Services. Gli utenti possono esplorare visivamente i dati e individuare rapidamente modelli per prendere decisioni migliori e più rapide. Server di report offre una governance personalizzata. Quando opportuno, Server di report di Power BI semplifica la migrazione nel cloud dove l'organizzazione può usare al meglio tutte le funzionalità di Power BI Premium.
 
 Per altre informazioni, vedere [Server di report di Power BI](report-server/get-started.md).
 
 ## <a name="unlimited-content-sharing"></a>Condivisione dei contenuti illimitata
 
-Con Premium, tutti gli utenti, all'interno o all'esterno dell'organizzazione, possono visualizzare i contenuti di Power BI, inclusi report interattivi e impaginati, senza dover acquistare licenze individuali. 
+Con Premium, tutti gli utenti, all'interno o all'esterno dell'organizzazione, possono visualizzare il contenuto di Power BI, inclusi report interattivi e impaginati, senza dover acquistare licenze individuali. 
 
 ![Condivisione dei contenuti](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Per altre informazioni, vedere [Licenze di Power BI](service-admin-licensing-org
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (anteprima)
 
-In background, il **motore Vertipaq di Analysis Services** di Microsoft alimenta i set di dati di Power BI. Analysis Services offre programmabilità e supporto delle applicazioni client e degli strumenti tramite librerie client e API che supportano il protocollo XMLA standard aperto. Attualmente i set di dati di Power BI Premium supportano le operazioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti tramite gli **endpoint XMLA**. 
+In background, il funzionamento delle aree di lavoro e dei set di dati di Power BI si basa sulla tecnologia del **motore Vertipaq di Microsoft Analysis Services**. Analysis Services offre programmabilità e supporto delle applicazioni client e degli strumenti tramite librerie client e API che supportano il protocollo XMLA standard aperto. Per impostazione predefinita, i carichi di lavoro dei set di dati di capacità di Power BI Premium supportano le operazioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti tramite un **endpoint XMLA**. Gli amministratori della capacità possono disabilitare o consentire le operazioni di *lettura/scrittura* anche tramite l'endpoint.
 
-Gli strumenti Microsoft come SQL Server Management Studio e SQL Server Profiler e le app di terze parti come DAX Studio e le applicazioni di visualizzazione dei dati possono connettersi ed eseguire query su set di dati Premium tramite XMLA, DAX, MDX, DMV e TraceEvent. 
+Con l'accesso in sola lettura, gli strumenti Microsoft come SQL Server Management Studio (SSMS) e SQL Server Profiler e le app di terze parti come DAX Studio e le applicazioni di visualizzazione dei dati possono connettersi a set di dati Premium ed eseguire query su di essi tramite XMLA, DAX, MDX, DMV e TraceEvent. Con l'accesso in lettura/scrittura, gli strumenti di modellazione dei dati aziendali, ad esempio Visual Studio con l'estensione di Analysis Services per i progetti o l'editor tabulare open source, possono distribuire modelli tabulari sotto forma di set di dati in un'area di lavoro Premium. E con strumenti come SSMS gli amministratori possono usare il linguaggio TMSL (Tabular Model Scripting Language) per creare script per la modifica dei metadati e per scenari avanzati di aggiornamento dei dati. 
+
+Per altre informazioni, vedere [Connettività ai set di dati con l'endpoint XMLA](service-premium-connect-tools.md).
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Per altre informazioni, vedere [Connettersi ai set di dati con applicazioni client e strumenti](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

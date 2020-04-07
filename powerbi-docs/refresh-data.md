@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488799"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302474"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -92,7 +92,7 @@ Un'operazione di aggiornamento di Power BI può essere costituita da più tipi d
 
 #### <a name="data-refresh"></a>Aggiornamento dei dati
 
-Per gli utenti di Power BI aggiornare i dati in genere significa importare i dati dalle origini dati originali in un set di dati, in base a un aggiornamento pianificato o su richiesta. È possibile eseguire più aggiornamenti del set di dati ogni giorno, operazione che potrebbe essere necessaria se i dati di origine sottostanti cambiano di frequente. Power BI limita i set di dati nella capacità condivisa a otto aggiornamenti al giorno. Se il set di dati si trova in una capacità Premium, è possibile pianificare fino a 48 aggiornamenti al giorno nelle impostazioni dei set di dati. Per altre informazioni, vedere [Configurare l'aggiornamento pianificato](#configure-scheduled-refresh) più avanti in questo articolo.
+Per gli utenti di Power BI aggiornare i dati in genere significa importare i dati dalle origini dati originali in un set di dati, in base a un aggiornamento pianificato o su richiesta. È possibile eseguire più aggiornamenti del set di dati ogni giorno, operazione che potrebbe essere necessaria se i dati di origine sottostanti cambiano di frequente. Power BI limita i set di dati nella capacità condivisa a otto aggiornamenti al giorno. Se il set di dati si trova in una capacità Premium, è possibile pianificare fino a 48 aggiornamenti al giorno nelle impostazioni dei set di dati. Per altre informazioni, vedere [Configurare l'aggiornamento pianificato](#configure-scheduled-refresh) più avanti in questo articolo. I set di dati in una capacità Premium con l'[endpoint XMLA](service-premium-connect-tools.md) abilitato per la lettura/scrittura supportano operazioni di aggiornamento illimitate se configurati a livello di codice con TMSL o PowerShell.
 
 È anche importante sottolineare che il limite di capacità condivisa per gli aggiornamenti giornalieri è valido sia per gli aggiornamenti pianificati che per quelli delle API e per le combinazioni dei due tipi. È anche possibile attivare un aggiornamento su richiesta selezionando **Aggiorna ora** nel menu del set di dati, come illustra lo screenshot seguente. Gli aggiornamenti su richiesta non sono inclusi nella limitazione dell'aggiornamento. Si noti anche che i set in dati di una capacità Premium non impongono limitazioni per gli aggiornamenti dell'API. Se si è interessati a realizzare una propria soluzione di aggiornamento usando l'API REST di Power BI, vedere [Set di dati - Aggiornare i set di dati](/rest/api/power-bi/datasets/refreshdataset).
 

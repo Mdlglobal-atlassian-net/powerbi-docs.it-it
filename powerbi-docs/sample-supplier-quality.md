@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858425"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404645"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della qualità dei fornitori per Power BI: Presentazione
 
@@ -62,7 +62,7 @@ In alternativa, è possibile scaricare l'esempio di analisi della qualità dei f
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529779). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529779). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo di inattività causato da materiali difettosi
 In questa sezione viene analizzato il tempo di inattività causato da materiali difettosi e vengono individuati i fornitori responsabili.  
@@ -123,7 +123,7 @@ Il tipo di materiale che consente una gestione migliore è quello con il tempo d
 
    Si noti che sebbene il tipo di materiale **Raw Materials** presenti un elevato numero di difetti totali, la maggior parte di essi è stata rifiutata o non ha alcun impatto.
 
-   Osservare che questo tipo di materiale non causa molto tempo di inattività, nonostante la presenza di notevoli quantità di difetti.
+   Osservare che questo tipo di materiale non causa tempi di inattività elevati, nonostante la presenza di notevoli quantità di difetti.
 
 2. Osservare il riquadro **Total Defect Qty, Total Downtime Minutes by Material Type** nel dashboard.
 
@@ -150,7 +150,7 @@ Il tipo di materiale che consente una gestione migliore è quello con il tempo d
    Si noti che il tempo di inattività per le materie prime era più o meno equivalente nel 2013 e nel 2014, anche se nel 2014 erano presenti molti più difetti. Per l'anno 2014 il maggior numero di difetti delle materie prime non ha comportato un aumento del tempo di inattività.
 
 ### <a name="compare-defects-to-downtime-month-to-month"></a>Confrontare i difetti e il tempo di inattività mese per mese
-Ora viene analizzato un altro riquadro del dashboard relativo alla quantità difettosa totale.  
+Analizzare ora un altro riquadro del dashboard relativo alla quantità difettosa totale.  
 
 1. Selezionare **Chiudi Domande e risposte** nell'angolo in alto a sinistra per tornare al dashboard.  
 
@@ -158,12 +158,12 @@ Ora viene analizzato un altro riquadro del dashboard relativo alla quantità dif
 
     ![Riquadro Total Defect Quantity by Month, Year](media/sample-supplier-quality/supplier14.png)  
 
-    L'aumento della quantità di difetti porta a un incremento equivalente del tempo di inattività?  
+    A questo punto verificare se l'aumento della quantità di difetti porta a un incremento equivalente del tempo di inattività.  
 2. Nella casella della domanda digitare *total downtime minutes by month and year as a line chart*.  
 
    ![Domanda di Domande e risposte: total downtime minutes by month and year as a line chart](media/sample-supplier-quality/supplier15.png)
 
-   A parte l'aumento del tempo di inattività durante i mesi di giugno e ottobre, il numero di difetti non ha causato tempo di inattività significativamente maggiore. Il risultato indica che i difetti vengono gestiti in modo efficace.  
+   A parte l'aumento del tempo di inattività durante i mesi di giugno e ottobre, il numero di difetti non ha causato un tempo di inattività significativamente maggiore. Il risultato indica che i difetti vengono gestiti in modo efficace.  
 3. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![Icona Aggiungi](media/sample-supplier-quality/pin.png) sopra la casella della domanda.  
 4. Per esaminare i mesi con valori outlier, analizzare il tempo di inattività in minuti durante il mese di ottobre per tipo di materiale, località dello stabilimento, categoria e così via ponendo domande come *total downtime minutes in October by plant*. 
 5. Selezionare **Chiudi Domande e risposte** nell'angolo in alto a sinistra per tornare al dashboard.

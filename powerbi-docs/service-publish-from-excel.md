@@ -1,89 +1,94 @@
 ---
-title: Pubblicare in Power BI da Excel 2016
+title: Pubblicare in Power BI da Microsoft Excel
 description: Informazioni su come pubblicare una cartella di lavoro di Excel nel sito di Power BI.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881120"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329628"
 ---
-# <a name="publish-to-power-bi-from-excel-2016"></a>Pubblicare in Power BI da Excel 2016
-Excel 2016 consente di pubblicare una cartella di lavoro di Excel direttamente nel sito di [Power BI](https://powerbi.microsoft.com), in cui è possibile creare report e dashboard estremamente interattivi sulla base dei dati presenti nella cartella di lavoro. È quindi possibile condividere le informazioni con altri utenti dell'organizzazione.
+# <a name="publish-to-power-bi-from-microsoft-excel"></a>Pubblicare in Power BI da Microsoft Excel
+Con Microsoft Excel 2016 e versioni successive è possibile pubblicare le cartelle di lavoro di Excel direttamente nell'area di lavoro di [Power BI](https://powerbi.microsoft.com), in cui si possono creare report e dashboard estremamente interattivi basati sui dati contenuti nella cartella di lavoro. È quindi possibile condividere le informazioni con altri utenti dell'organizzazione.
 
-Prima di procedere, è bene tenere in considerazione alcuni aspetti importanti:
+![Pubblicare una cartella di lavoro in Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-* Prima di pubblicare in Power BI, è necessario che la cartella di lavoro sia salvata in OneDrive for Business.
-* È necessario usare lo stesso account per accedere a Office, OneDrive for Business e Power BI.
+Quando si pubblica una cartella di lavoro in Power BI è necessario considerare alcuni aspetti:
+
+* L'account usato per accedere a Office, OneDrive for Business (se si usano cartelle di lavoro salvate in quella posizione) e Power BI deve essere lo stesso.
 * Non è possibile pubblicare una cartella di lavoro vuota o una cartella di lavoro che non ha alcun contenuto supportato di Power BI.
 * Non è possibile pubblicare cartelle di lavoro crittografate, protette con password o gestite tramite IRM.
 * Per la pubblicazione in Power BI è necessario che l'autenticazione moderna sia abilitata (impostazione predefinita). Se è disabilitata, l'opzione Pubblica non è disponibile nel menu File.
 
-## <a name="to-publish-your-excel-workbook"></a>Per pubblicare una cartella di lavoro di Excel
-In Excel selezionare **File** > **Pubblica**.
+## <a name="publish-your-excel-workbook"></a>Pubblicare una cartella di lavoro di Excel
+Per pubblicare una cartella di lavoro di Excel, in Excel selezionare **File** > **Pubblica** e selezionare **Carica** o **Esporta**.
+
+Se si **carica** la cartella di lavoro in Power BI, è possibile interagire con essa come si farebbe usando Excel Online. È anche possibile aggiungere selezioni dalla cartella di lavoro nei dashboard di Power BI e condividere la cartella di lavoro, o elementi selezionati, usando Power BI.
+
+Se si seleziona **Esporta**, è possibile esportare i dati tabella e il relativo modello di dati in un set di dati di Power BI, che potrò quindi essere usato per creare report e dashboard di Power BI.
 
 ### <a name="local-file-publishing"></a>Pubblicazione di file locali
-A partire dall'aggiornamento di febbraio 2017, Excel 2016 supporta la pubblicazione di file di Excel locali. Non è necessario che i file siano salvati in OneDrive for Business o SharePoint Online.
+Excel supporta la pubblicazione dei file di Excel locali. Non è necessario che i file siano salvati in OneDrive for Business o SharePoint Online.
 
 > [!IMPORTANT]
-> L'esperienza di pubblicazione con i file locali sarà disponibile solo in Excel 2016 con un abbonamento a Office 365. In un'installazione autonoma di Excel 2016 sarà comunque presente il comportamento "Pubblica" che richiede il salvataggio della cartella di lavoro di Excel in OneDrive for Business o SharePoint Online.
+> È possibile pubblicare file locali solo se si usa Excel 2016 (o versione successiva) con un abbonamento a Office 365. Le installazioni autonome di Excel 2016 possono pubblicare in Power BI, ma solo se la cartella di lavoro viene salvata in OneDrive for business o SharePoint Online.
 > 
-> 
 
-Quando si seleziona **Pubblica** sarà possibile selezionare l'area di lavoro in cui pubblicare. Può trattarsi di un'area di lavoro personale o di gruppo a cui si ha accesso.
+Quando si seleziona **Pubblica** è possibile selezionare l'area di lavoro in cui pubblicare. L'area di lavoro può essere l'area di lavoro personale dell'utente o un'area di lavoro del gruppo a cui si ha accesso, come illustrato nella figura seguente.
 
-![](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Pubblica in Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 
-Sono disponibili due opzioni per la pubblicazione della cartella di lavoro in Power BI.
+Due opzioni per la pubblicazione della cartella di lavoro in Power BI.
 
-![](media/service-publish-from-excel/pbi_uploadexport3.png)
+![Pubblica in Power BI](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-Dopo la pubblicazione, viene mantenuta come copia in Power BI, separata dal file locale. Se si vuole aggiornare il file in Power BI, è necessario pubblicare nuovamente la versione aggiornata. È possibile aggiornare i dati e impostare l'aggiornamento pianificato nella cartella di lavoro o nel set di dati in Power BI.
+Dopo la pubblicazione, il contenuto della cartella di lavoro pubblicato viene importato in Power BI, separato dal file locale. Se si vuole aggiornare il file in Power BI, è necessario pubblicare di nuovo la versione aggiornata oppure aggiornare i dati configurando un aggiornamento pianificato, per la cartella di lavoro o per il set di dati in Power BI.
 
-### <a name="publishing-from-excel-standalone"></a>Pubblicazione da un'installazione autonoma di Excel
-Se non è già stato fatto, è necessario salvare la cartella di lavoro in OneDrive. Selezionare Salva nel cloud e scegliere un percorso in OneDrive for Business.
+### <a name="publishing-from-a-standalone-excel-installation"></a>Pubblicazione da un'installazione autonoma di Excel
+Quando si esegue la pubblicazione da un'installazione autonoma di Excel, è necessario salvare la cartella di lavoro in OneDrive for Business. Selezionare **Salva nel cloud** e scegliere una posizione in OneDrive for Business.
 
-![](media/service-publish-from-excel/pbi_savetoonedrive2.png)
+![Salvare in OneDrive for Business](media/service-publish-from-excel/pbi_savetoonedrive2.png)
 
-Dopo avere salvato la cartella di lavoro in OneDrive, quando si seleziona **Pubblica** vengono presentate due opzioni per la pubblicazione della cartella di lavoro in Power BI.
+Dopo avere salvato la cartella di lavoro in OneDrive for Business, quando si seleziona **Pubblica** vengono presentate due opzioni per la pubblicazione della cartella di lavoro in Power BI, **Carica** o **Esporta**:
 
-![](media/service-publish-from-excel/pbi_uploadexport2.png)
+![Opzioni per Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
 #### <a name="upload-your-workbook-to-power-bi"></a>Carica la cartella di lavoro in Power BI
-Quando si sceglie questa opzione, la cartella di lavoro viene visualizzata in Power BI esattamente come in Excel Online. A differenza di Excel Online, però, sono disponibili alcune utilissime funzionalità per aggiungere elementi dai fogli di lavoro ai dashboard.
+Quando si sceglie l'opzione **Carica** la cartella di lavoro viene visualizzata in Power BI esattamente come in Excel Online. A differenza di Excel Online, però, sono disponibili alcune opzioni che consentono di aggiungere elementi dai fogli di lavoro ai dashboard.
 
-Non è possibile modificare la cartella di lavoro quando è aperta in Power BI. Se è necessario apportare modifiche, selezionare **Modifica** e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive.
+Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario apportare modifiche, è possibile selezionare **Modifica** e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Tutte le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive for Business.
 
-Con il caricamento non viene creato alcun set di dati in Power BI. La cartella di lavoro verrà visualizzata in Report, nel riquadro di spostamento dell'area di lavoro. Le cartelle di lavoro caricate in Power BI hanno una speciale icona di Excel che le identifica come cartelle di lavoro di Excel che sono state caricate.
+Con il **caricamento** non viene creato alcun set di dati in Power BI. La cartella di lavoro verrà visualizzata in Report, nel riquadro di spostamento dell'area di lavoro. Le cartelle di lavoro caricate in Power BI hanno una speciale icona di Excel che le identifica come cartelle di lavoro di Excel che sono state caricate.
 
-Scegliere questa opzione se i fogli di lavoro contengono solo dati o se sono presenti tabelle pivot e grafici che si vuole visualizzare in Power BI.
-L'opzione Carica disponibile in Pubblica in Power BI in Excel assicura un risultato analogo a quello ottenuto scegliendo Recupera dati > File > OneDrive for Business > Connetti, gestisci e visualizza i dati di Excel in Power BI da Power BI nel browser.
+Scegliere l'opzione **Carica** se i fogli di lavoro contengono solo dati o se sono presenti tabelle pivot e grafici che si vuole visualizzare in Power BI.
+
+L'opzione Carica disponibile in Pubblica in Power BI in Excel assicura un'esperienza simile all'uso di **Recupera dati > File > OneDrive for Business > Connetti, gestisci e visualizza i dati di Excel in Power BI** da Power BI nel browser.
 
 #### <a name="export-workbook-data-to-power-bi"></a>Esporta i dati della cartella di lavoro in Power BI
-Quando si sceglie questa opzione, tutti i dati supportati nelle tabelle e/o in un modello di dati vengono esportati in un nuovo set di dati in Power BI. Gli eventuali fogli di Power View verranno creati nuovamente in Power BI come report.
+Quando si sceglie l'opzione **Esporta** tutti i dati supportati nelle tabelle e/o in un modello di dati vengono esportati in un nuovo set di dati in Power BI. Gli eventuali fogli di Power View nella cartella di lavoro vengono creati nuovamente in Power BI come report.
 
-È possibile continuare a modificare la cartella di lavoro. Quando le modifiche vengono salvate, verranno sincronizzate con il set di dati in Power BI, in genere entro circa un'ora. Se è richiesto un riscontro immediato, è sufficiente selezionare di nuovo Pubblica per esportare subito le modifiche apportate. Anche le visualizzazioni in report e dashboard verranno aggiornate.
+È possibile continuare a modificare la cartella di lavoro. Quando vengono salvate, le modifiche vengono sincronizzate con il set di dati in Power BI, in genere entro circa un'ora. Se gli aggiornamenti devono essere eseguiti più rapidamente, è possibile selezionare di nuovo **Pubblica** da Excel e le modifiche verranno immediatamente esportate. Anche le visualizzazioni nei report e nei dashboard vengono aggiornate.
 
-Scegliere questa opzione se si usa Recupera e trasforma o Power Pivot per caricare i dati in un modello di dati oppure se la cartella di lavoro contiene fogli di Power View con visualizzazioni da visualizzare in Power BI.
+Scegliere l'opzione **Pubblica** se si usa la funzionalità Recupera e trasforma o Power Pivot per caricare i dati in un modello di dati oppure se la cartella di lavoro contiene fogli di Power View con visualizzazioni che si vogliono visualizzare in Power BI.
 
-L'opzione Esporta disponibile in Pubblica in Power BI in Excel assicura un risultato analogo a quello ottenuto scegliendo Recupera dati > File > OneDrive for Business > Importa i dati di Excel in Power BI da Power BI nel browser.
+L'uso di **Esporta** è molto simile all'uso di **Recupera dati > File > OneDrive for Business > Esporta i dati di Excel in Power BI** da Power BI nel browser.
 
 ## <a name="publishing"></a>Pubblicazione
-Quando si seleziona una di queste opzioni, Excel accede a Power BI con l'account corrente e quindi pubblica la cartella di lavoro nel sito di Power BI. Sulla barra di stato in Excel viene mostrato lo stato di avanzamento.
+Quando si sceglie una di queste opzioni, Excel accede a Power BI con l'account corrente, quindi pubblica la cartella di lavoro nell'area di lavoro di Power BI. È possibile monitorare la barra di stato in Excel per verificare l'avanzamento del processo di pubblicazione.
 
-![](media/service-publish-from-excel/pbi_publishingstatus.png)
+![barra di stato per la pubblicazione in Power BI](media/service-publish-from-excel/pbi_publishingstatus.png)
 
 Al termine è possibile passare a Power BI direttamente da Excel.
 
-![](media/service-publish-from-excel/pbi_gotopbi.png)
+![passare a Power BI](media/service-publish-from-excel/pbi_gotopbi.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Dati di Excel in Power BI](service-excel-workbook-files.md)  

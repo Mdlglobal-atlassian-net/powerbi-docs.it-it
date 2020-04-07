@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040434"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404743"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creazione e uso di flussi di dati in Power BI
 
@@ -32,14 +32,14 @@ I passaggi principali per l'uso di un flusso di dati sono tre:
 2. Pianificare la frequenza di aggiornamento dei dati da inserire nel flusso di dati
 3. Creare il set di dati usando il flusso di dati, tramite Power BI Desktop 
 
-Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. è possibile iniziare subito.
+Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. Le informazioni seguenti descrivono come eseguire queste operazioni.
 
 ## <a name="creating-a-dataflow"></a>Creazione di un flusso di dati
 Per creare un flusso di dati, avviare il servizio Power BI in un browser e quindi selezionare un'**area di lavoro** dal riquadro di spostamento, come illustrato nella schermata seguente. I flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
 
 ![Creare un flusso di dati in Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Quando si raggiunge un'**area di lavoro** in cui è possibile creare un flusso di dati, viene visualizzato il pulsante **+ Crea** nell'angolo superiore destro del canvas. Selezionare il pulsante **+ Crea** e quindi selezionare **Flusso di dati** nell'elenco a discesa. 
+Quando ci si trova in un'**area di lavoro** in cui è possibile creare un flusso di dati, viene visualizzato il pulsante **+ Crea** nell'angolo superiore destro del canvas. Selezionare il pulsante **+ Crea** e quindi selezionare **Flusso di dati** nell'elenco a discesa. 
 
 È importante sapere che c'è solo *un proprietario* di un flusso di dati, ovvero la persona che lo crea. Solo il proprietario può modificare il flusso di dati. Tutti i membri dell'**area di lavoro** con autorizzazioni di lettura o scrittura per l'area di lavoro in cui viene creato il flusso di dati possono connettersi al flusso di dati da **Power BI Desktop**, come descritto più avanti in questo articolo.
 
@@ -55,9 +55,9 @@ Un'**entità** è un set di campi usati per archiviare i dati, in modo analogo a
 
 ![Scegliere l'origine dati per l'aggiunta di entità](media/service-dataflows-create-use/dataflows-create-use_05a.png)
 
-Quando si seleziona un'origine dati, viene chiesto di fornire le impostazioni di connessione, tra cui l'account da usare per la connessione all'origine dati, come illustrato nell'immagine seguente.
+Quando si seleziona un'origine dati, viene chiesto di specificare le impostazioni di connessione, tra cui l'account da usare per la connessione all'origine dati, come illustrato nell'immagine seguente.
 
-![Connettersi a un'origine dati](media/service-dataflows-create-use/dataflows-create-use_06.png)
+![Connetti a origine dati](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
 Una volta stabilita la connessione, è possibile scegliere i dati da usare per l'entità. Quando si scelgono i dati e un'origine, Power BI successivamente si riconnette all'origine dati per mantenere aggiornati i dati nel flusso di dati, in base alla frequenza selezionata più avanti nel processo di configurazione.
 
@@ -75,7 +75,7 @@ Se si vuole visualizzare il codice che Query crea a ogni passaggio o si vuole cr
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>Flussi di dati e modello CDM (Common Data Model)
 
-Le entità dei flussi di dati includono nuovi strumenti per eseguire facilmente il mapping dei dati aziendali al modello CDM (Common Data Model), ovvero lo schema standardizzato di Microsoft, arricchirli con dati di Microsoft e di terze parti e accedere facilmente a funzionalità di apprendimento automatico. Queste nuove funzionalità possono essere sfruttate per fornire informazioni dettagliate intelligenti e di utilità pratica in relazione ai dati aziendali. Una volta completate tutte le trasformazioni nel passaggio Modifica query, è possibile mappare le colonne dalle tabelle dell'origine dati a campi di entità standard, come definito dal modello CDM (Common Data Model). Le entità standard hanno uno schema noto definito dal modello CDM.
+Le entità dei flussi di dati includono nuovi strumenti per eseguire facilmente il mapping dei dati aziendali al modello CDM, vale a dire lo schema standardizzato di Microsoft, arricchirli con dati di Microsoft e di terze parti e accedere facilmente a funzionalità di Machine Learning. Queste nuove funzionalità possono essere sfruttate per fornire informazioni dettagliate intelligenti e di utilità pratica in relazione ai dati aziendali. Dopo aver completato tutte le trasformazioni nel passaggio Modifica query, è possibile mappare le colonne dalle tabelle dell'origine dati a campi di entità standard, come definito dal modello CDM. Le entità standard hanno uno schema noto definito dal modello CDM.
 
 Per altre informazioni su questo approccio e sul modello CDM, vedere l'articolo [Che cos'è il modello CDM (Common Data Model)?](https://docs.microsoft.com/powerapps/common-data-model/overview).
 
@@ -92,7 +92,7 @@ Per mantenere l'entità standard del modello CDM, tutti i campi standard che non
 
 Tutte le colonne di origine che non sono mappate rimangono invariate, per garantire che il risultato del mapping sia un'entità standard con campi personalizzati.
 
-Una volta completate le selezioni, quando l'entità e le relative impostazioni dei dati sono pronte per il salvataggio, è possibile scegliere **Salva** dal menu. Si noti che è possibile creare più entità selezionando il pulsante **Aggiungi entità** ed è possibile modificare le entità per ottimizzare le query e le entità create.
+Dopo aver completato le selezioni, quando l'entità e le relative impostazioni dei dati sono pronte per il salvataggio, è possibile scegliere **Salva** dal menu. Si noti che è possibile creare più entità selezionando il pulsante **Aggiungi entità** ed è possibile modificare le entità per ottimizzare le query e le entità create.
 
 ![Salvare il mapping delle entità](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
@@ -104,7 +104,7 @@ Quando si è pronti e si seleziona il pulsante **Salva**, viene visualizzata una
 
 ![Il flusso di dati viene salvato](media/service-dataflows-create-use/dataflows-create-use_11.png)
 
-A questo punto è possibile eseguire il passaggio successivo, ovvero pianificare la frequenza di aggiornamento delle origini dati.
+A questo punto è possibile eseguire il passaggio successivo, vale a dire pianificare la frequenza di aggiornamento delle origini dati.
 
 ## <a name="schedule-the-refresh-frequency"></a>Pianificare la frequenza di aggiornamento
 
@@ -127,7 +127,7 @@ Per altre informazioni sulla pianificazione dell'aggiornamento, vedere l'articol
 
 ## <a name="connect-to-your-dataflow-in-power-bi-desktop"></a>Connettersi al flusso di dati in Power BI Desktop
 
-Dopo aver creato il flusso di dati e aver pianificato la frequenza di aggiornamento per ogni origine dati che popolerà il modello, è possibile eseguire il terzo e ultimo passaggio, ovvero la connessione al flusso di dati da **Power BI Desktop**. 
+Dopo aver creato il flusso di dati e aver pianificato la frequenza di aggiornamento per ogni origine dati che popolerà il modello, è possibile eseguire il terzo e ultimo passaggio, vale a dire la connessione al flusso di dati da **Power BI Desktop**. 
 
 Per connettersi al flusso di dati, in Power BI Desktop selezionare **Recupera dati > Power BI > Flussi di dati Power BI (beta)** , come illustrato nell'immagine seguente.
 
@@ -150,9 +150,9 @@ In alcuni casi potrebbero verificarsi problemi di connessione alle origini dati 
 
 * **Connettore Salesforce**: l'uso di un account di valutazione per Salesforce con i flussi di dati genera un errore di connessione per il quale non vengono fornite informazioni. Per risolvere questo problema, usare un account Salesforce di produzione o un account sviluppatore per i test.
 
-* **Connettore SharePoint**: assicurarsi di specificare l'indirizzo radice del sito di SharePoint, senza sottocartelle o documenti. Usare, ad esempio, un collegamento simile al seguente: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **Connettore SharePoint**: assicurarsi di specificare l'indirizzo radice del sito di SharePoint, senza sottocartelle o documenti. Usare, ad esempio, un collegamento simile al seguente: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **Connettore file JSON**: attualmente è possibile connettersi a un file JSON usando solo l'autenticazione di base.  La connessione a un file JSON specificando le credenziali all'interno dell'URL (ad esempio, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) **non** è attualmente supportata.  
+* **Connettore file JSON**: attualmente è possibile connettersi a un file JSON usando solo l'autenticazione di base.  La connessione a un file JSON specificando le credenziali all'interno dell'URL (ad esempio `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`) **non** è attualmente supportata.  
 
 * **Azure SQL Data Warehouse**: i flussi di dati non supportano attualmente l'autenticazione Azure Active Directory (AAD) per Azure SQL Data Warehouse. Usare l'autenticazione di base per questo scenario.
 

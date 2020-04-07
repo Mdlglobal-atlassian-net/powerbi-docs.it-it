@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113739"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404819"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origini dati supportate per i report impaginati di Power BI
 
@@ -32,7 +32,7 @@ I report impaginati supportano in modalità nativa l'elenco di origini dati segu
 | Set di dati di Power BI Premium (XMLA) | SSO |   |
 | Immetti i dati | N/D | I dati sono incorporati nel report. |
 
-Ad eccezione del database SQL di Azure, tutte le origini dati sono pronte per l'uso dopo il caricamento del report nel servizio Power BI. Per impostazione predefinita, le origini dati usano Single Sign-on (SSO), dove applicabile. Per Azure Analysis Services, è possibile modificare il tipo di autenticazione in OAuth2.
+Ad eccezione del database SQL di Azure, tutte le origini dati sono pronte per l'uso dopo il caricamento del report nel servizio Power BI. Per impostazione predefinita, le origini dati usano Single Sign-on (SSO), dove applicabile. Per Azure Analysis Services, è possibile modificare il tipo di autenticazione in OAuth2. Tuttavia, dopo che il tipo di autenticazione per una determinata origine dati viene modificato in OAuth2, non è possibile ripristinare l'uso di SSO.  Questa modifica viene applicata anche a tutti i report che usano tale origine dati in tutte le aree di lavoro per un determinato tenant.  La sicurezza a livello di riga nei report impaginati non funziona a meno che gli utenti scelgano SSO per tipo di autenticazione.
 
 Per le origini dati del database SQL di Azure, è necessario specificare altre informazioni, come descritto nella sezione [Autenticazione del database SQL di Azure](#azure-sql-database-authentication).
 

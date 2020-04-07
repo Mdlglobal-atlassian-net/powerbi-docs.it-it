@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881828"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551073"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Scaricare un report dal servizio Power BI in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile pubblicare un report (un file con estensione *pbix*) dal computer locale al servizio Power BI. I report di Power BI possono essere scaricati anche nell'altra direzione, ovvero dal servizio Power BI a Power BI Desktop. L'estensione per un report Power BI, in entrambi i casi, è pbix.
 
-Occorre tenere presenti alcune limitazioni e considerazioni, che verranno discusse più avanti in questo articolo.
+Occorre tenere presenti alcune limitazioni che verranno discusse nella sezione [Considerazioni e risoluzione dei problemi](#considerations-and-troubleshooting) in questo articolo.
 
 ![Elenco a discesa File](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Al download di un file con estensione pbix dal servizio Power BI sono associate 
 * Per aprire i file scaricati, usare sempre la versione più recente di Power BI Desktop. Potrebbe non essere possibile aprire i file PBIX scaricati nelle versioni non correnti di Power BI Desktop.
 * Se l'amministratore ha disattivato la possibilità di scaricare i dati, questa funzionalità non sarà visibile nel servizio Power BI.
 * I set di dati con aggiornamento incrementale non possono essere scaricati in un file con estensione pbix.
+* Se si crea un report di Power BI basato su un set di dati in un'area di lavoro e si esegue la pubblicazione in un'area di lavoro diversa, l'autore del report e gli utenti non potranno scaricarlo. La funzionalità di download non è attualmente supportata in questo scenario.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Visualizzare il video di **Guy in a Cube** (durata: 1 minuto) che illustra questa funzionalità:

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873918"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404693"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Presentazione
 
@@ -57,10 +57,10 @@ In alternativa, è possibile scaricare l'esempio di analisi della spesa IT come 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529783). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529783). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard di Esempio di analisi della spesa IT
-I due riquadri numerici nella parte sinistra del dashboard, **Var Plan %** (% piano di varianza) e **Variance Latest Estimate % Quarter 3** (% varianza ultima stima - 3° trimestre), offrono una panoramica dell'andamento rispetto ai piani e alla stima dell'ultimo trimestre (LE3 = Latest Estimate Quarter 3). In generale, la varianza rispetto al piano è di circa il 6%. Ma qual è la causa di questa varianza? Quando e dove si verifica e in quale categoria?
+I due riquadri numerici nella parte sinistra del dashboard, **Var Plan %** (% piano di varianza) e **Variance Latest Estimate % Quarter 3** (% varianza ultima stima - 3° trimestre), offrono una panoramica dell'andamento rispetto ai piani e alla stima dell'ultimo trimestre (LE3 = Latest Estimate Quarter 3). In generale, la varianza rispetto al piano è di circa il 6%. È ora necessario analizzare la causa di questa varianza e individuare quando, dove e in quale categoria si verifica.
 
 ## <a name="ytd-it-spend-trend-analysis-page"></a>Pagina YTD IT Spend Trend Analysis (Analisi della spesa IT da inizio anno)
 Quando si seleziona il riquadro del dashboard **Var Plan % by Sales Region** (% piano di varianza per regione di vendita), viene visualizzata la pagina **YTD IT Spend Trend Analysis** (Analisi della spesa IT da inizio anno) del report di Esempio di analisi della spesa IT. È subito possibile osservare che esiste una varianza positiva negli Stati Uniti e in Europa e una varianza negativa in Canada, America Latina e Australia. Per gli Stati Uniti la varianza è del 6% +LE, mentre per l'Australia è del 7% -LE.

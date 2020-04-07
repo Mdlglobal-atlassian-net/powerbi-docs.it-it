@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873868"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404675"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi dell'approvvigionamento per Power BI: Presentazione
 
@@ -61,11 +61,11 @@ In alternativa, è possibile scaricare Procurement Analysis Sample come [file co
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529784). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529784). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 
 ## <a name="spending-trends"></a>Tendenze di spesa
-Verrà eseguita prima una ricerca delle tendenze di spesa per categoria e località.  
+Per prima cosa, eseguire una ricerca delle tendenze di spesa per categoria e località.  
 
 1. Nell'area di lavoro in cui è stato salvato l'esempio, aprire la scheda **Dashboard**, quindi trovare il dashboard **Procurement Analysis Sample** e selezionarlo. 
 2. Selezionare il riquadro del dashboard **Total Invoice by Country/Region** che viene aperto nella pagina **Spend Overview** del report **Procurement Analysis Sample**.
@@ -80,7 +80,7 @@ Tenere presenti questi dettagli:
 * Nel grafico a barre **Total Invoice by Tier** la maggior parte delle attività viene svolta con i fornitori di livello 1 (primi 10). Ciò consente di gestire relazioni con i fornitori migliori.
 
 ## <a name="spending-in-mexico"></a>Spesa in Messico
-Di seguito verranno analizzate le aree di spesa in Messico.
+In seguito analizzare le aree di spesa in Messico.
 
 1. Nella mappa **Total Invoice by Country/Region** selezionare la bolla **Mexico**. Si noti che nell'istogramma **Total Invoice by Sub Category** la spesa maggiore si trova nella sottocategoria **Indirect Goods & Services**.
 
@@ -109,7 +109,7 @@ Di seguito verranno analizzate le aree di spesa in Messico.
    ![Città e % di sconto per livello](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Sconti dei fornitori
-Nella sezione seguente verranno analizzati gli sconti offerti dai fornitori e i periodi in cui si ottengono gli sconti più alti:
+Nella sezione seguente analizzare gli sconti offerti dai fornitori e i periodi in cui si ottengono gli sconti più alti:
 * Gli sconti sono diversi ogni mese o restano invariati?
 * Alcune città ottengono sconti maggiori di altre?
 

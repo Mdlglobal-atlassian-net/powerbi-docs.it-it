@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527626"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361859"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Aggiornamento incrementale in Power BI
 
@@ -136,7 +136,7 @@ L'aggiornamento incrementale di 10 giorni è più efficiente rispetto all'aggior
 >
 > Ridurre la precisione a un livello accettabile in base ai requisiti di frequenza di aggiornamento.
 >
-> L'abilitazione di query personalizzate per il rilevamento delle modifiche dei dati è prevista in una fase successiva. Questa funzionalità potrebbe consentire di evitare il salvataggio permanente del valore della colonna.
+> Definire una query personalizzata per rilevare le modifiche ai dati usando l'endpoint XMLA ed evitare di rendere persistente il valore della colonna. Per altre informazioni, vedere più avanti le query personalizzate per il rilevamento delle modifiche ai dati.
 
 #### <a name="only-refresh-complete-periods"></a>Aggiorna solo periodi completi
 
@@ -155,7 +155,7 @@ Ora è possibile aggiornare il modello. Il primo aggiornamento può richiedere p
 
 ## <a name="query-timeouts"></a>Timeout della query
 
-L'articolo [Scenari per la risoluzione dei problemi di aggiornamento](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) spiega che le operazioni di aggiornamento nel servizio Power BI sono soggette a timeout. Le query possono essere limitate anche dal timeout predefinito dell'origine dati. La maggior parte delle origini relazionali consente l'override dei timeout nell'espressione M. Ad esempio l'espressione seguente usa la [funzione di accesso ai dati di SQL Server](https://msdn.microsoft.com/query-bi/m/sql-database) per impostare il timeout su 2 ore. Ogni periodo definito dagli intervalli dei criteri invia una query osservando l'impostazione di timeout del comando.
+L'articolo [Scenari per la risoluzione dei problemi di aggiornamento](refresh-troubleshooting-refresh-scenarios.md) spiega che le operazioni di aggiornamento nel servizio Power BI sono soggette a timeout. Le query possono essere limitate anche dal timeout predefinito dell'origine dati. La maggior parte delle origini relazionali consente l'override dei timeout nell'espressione M. Ad esempio l'espressione seguente usa la [funzione di accesso ai dati di SQL Server](https://docs.microsoft.com/powerquery-m/sql-database) per impostare il timeout su 2 ore. Ogni periodo definito dagli intervalli dei criteri invia una query osservando l'impostazione di timeout del comando.
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>Limitazioni
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>Vantaggi dell'endpoint XMLA per l'aggiornamento incrementale
 
-Per i [modelli compositi](desktop-composite-models.md), l'aggiornamento incrementale è attualmente supportato solo per le origini dati SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle e Teradata.
+È possibile abilitare per le operazioni di lettura/scrittura l'[endpoint XMLA](service-premium-connect-tools.md) per i set di dati in una capacità Premium. Questo può offrire notevoli vantaggi per l'aggiornamento incrementale. Il numero di operazioni di aggiornamento tramite l'endpoint XMLA non è limitato a [48 aggiornamenti al giorno](refresh-data.md#data-refresh) e il [timeout di aggiornamento pianificato](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) non viene imposto. Questo può essere utile negli scenari di aggiornamento incrementale.
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Gestione dell'aggiornamento con SQL Server Management Studio (SSMS)
+
+Se l'endpoint XMLA è abilitato per le operazioni di lettura-scrittura, è possibile usare SSMS per visualizzare e gestire le partizioni generate dall'applicazione di criteri di aggiornamento incrementale.
+
+![Partizioni in SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>Aggiornare partizioni cronologiche
+
+È possibile, ad esempio, aggiornare una partizione cronologica specifica non compresa nell'intervallo incrementale per eseguire un aggiornamento retrodatato senza dover aggiornare tutti i dati cronologici.
+
+#### <a name="override-incremental-refresh-behavior"></a>Eseguire l'override del comportamento dell'aggiornamento incrementale
+
+Con SSMS è anche possibile esercitare un maggiore controllo sulla modalità di richiamo degli aggiornamenti incrementali usando il linguaggio [TMSL (Tabular Model Scripting Language)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) e il modello [TOM (Tabular Object Model)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). In Object Explorer in SSMS, ad esempio, fare clic con il pulsante destro del mouse su una tabella e quindi selezionare l'opzione di menu **Elabora tabella**, infine fare clic sul pulsante **Script** per generare un comando refresh in TMSL.
+
+![Pulsante Script nella finestra di dialogo Elabora tabella](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+È possibile inserire i parametri seguenti nel comando refresh TMSL per eseguire l'override del comportamento di aggiornamento incrementale predefinito.
+
+- **applyRefreshPolicy**: se per una tabella è definito un criterio di aggiornamento incrementale, applyRefreshPolicy determina se il criterio deve essere applicato o meno. Se il criterio non viene applicato, un'operazione di elaborazione completa lascerà invariate le definizioni delle partizioni e tutte le partizioni nella tabella verranno aggiornate completamente. Il valore predefinito è true.
+
+- **effectiveDate**: se viene applicato, un criterio di aggiornamento incrementale deve conoscere la data corrente per determinare gli intervalli delle finestre temporali per l'intervallo cronologico e l'intervallo incrementale. Il parametro effectiveDate consente di eseguire l'override della data corrente. Questo è utile per gli scenari di test, demo e aziendali in cui i dati vengono aggiornati in modo incrementale fino a una data precedente o futura (ad esempio, per i budget previsti per il futuro). Il valore predefinito è la [data corrente](#current-date).
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>Query personalizzate per le modifiche dei dati rilevate
+
+Per eseguire l'override del comportamento delle modifiche dei dati rilevate, è possibile usare il linguaggio TMSL e/o il modello TOM. Questo non solo consente di evitare di rendere persistente la colonna dell'ultimo aggiornamento nella cache in memoria, ma può rendere possibili scenari in cui alcuni processi ETL preparano una tabella di configurazione/istruzioni allo scopo di contrassegnare solo le partizioni che devono essere aggiornate. In questo modo è possibile creare un processo di aggiornamento incrementale più efficiente in cui vengono aggiornati solo i periodi necessari, indipendentemente dal tempo trascorso dall'aggiornamento dei dati.
+
+pollingExpression deve essere un'espressione M semplice o il nome di un'altra query M. Deve restituire un valore scalare ed essere eseguita per ogni partizione. Se il valore restituito è diverso rispetto all'ultima esecuzione di un aggiornamento incrementale, la partizione viene contrassegnata per l'elaborazione completa.
+
+L'esempio seguente interessa tutti i 120 mesi dell'intervallo cronologico per l'esecuzione di modifiche retrodatate. Se si specificano 120 mesi anziché 10 anni, è possibile che la compressione dei dati non sia altrettanto efficiente, ma si evita di dover aggiornare un intero anno cronologico, operazione più impegnativa, quando invece per una modifica retrodatata un mese potrebbe essere sufficiente.
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>Distribuzione di soli metadati
+
+Quando si pubblica una nuova versione di un file PBIX da Power BI Desktop in un'area di lavoro nel servizio Power BI, se un set di dati con lo stesso nome esiste già, viene chiesto se sostituire il set di dati esistente.
+
+![Richiesta di sostituzione del set di dati](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+In alcuni casi non si deve sostituire il set di dati, in particolare se è in corso un aggiornamento incrementale. Il set di dati in Power BI Desktop potrebbe essere molto più piccolo di quello presente nel servizio. Se al set di dati nel servizio è applicato un criterio di aggiornamento incrementale, tale set di dati può contenere diversi anni di dati cronologici che andrebbero persi nel caso in cui il set di dati venisse sostituito. L'aggiornamento di tutti i dati cronologici può richiedere ore e causare tempo di inattività del sistema per gli utenti.
+
+È invece preferibile eseguire una distribuzione di soli metadati. In questo modo è possibile distribuire nuovi oggetti senza perdere i dati cronologici. Se ad esempio sono state aggiunte alcune misure, è possibile distribuire solo le nuove misure senza aggiornare i dati, risparmiando molto tempo.
+
+Se è configurato per le operazioni di lettura-scrittura, l'endpoint XMLA garantisce la compatibilità con gli strumenti che consentono questo tipo di distribuzione. Per eseguire la distribuzione dei soli metadati è ad esempio possibile usare ALM Toolkit, uno strumento di confronto di schemi per i set di dati di Power BI.
+
+Scaricare e installare la versione più recente di ALM Toolkit dal [repository Git di Analysis Services](https://github.com/microsoft/Analysis-Services/releases). I collegamenti alla documentazione e le informazioni sul supporto sono disponibili tramite la barra multifunzione Help (Guida). Per eseguire una distribuzione di soli metadati, eseguire un confronto e selezionare l'istanza di Power BI Desktop in esecuzione come origine e il set di dati esistente nel servizio come destinazione. Prendere in considerazione le differenze visualizzate e ignorare l'aggiornamento della tabella con partizioni con aggiornamento incrementale. In alternativa, nella finestra di dialogo Options (Opzioni) mantenere le partizioni per gli aggiornamenti delle tabelle. Convalidare la selezione per garantire l'integrità del modello di destinazione e quindi procedere con l'aggiornamento.
+
+![ALM Toolkit](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>Vedere anche
+
+[Connettività ai set di dati con l'endpoint XMLA](service-premium-connect-tools.md)   
+[Scenari per la risoluzione dei problemi di aggiornamento](refresh-troubleshooting-refresh-scenarios.md)   

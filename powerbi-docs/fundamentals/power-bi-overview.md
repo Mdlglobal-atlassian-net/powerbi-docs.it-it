@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114982"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487763"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. I dati potrebbero essere un foglio di calcolo di Excel o una raccolta di data warehouse basati sul cloud o ibridi locali. Power BI consente di connettersi facilmente alle origini dati, visualizzare e scoprire le informazioni importanti e condividerle con tutti gli utenti o con quelli necessari.
@@ -44,8 +44,12 @@ Il modo in cui si usa Power BI può essere basato sulla funzionalità o sul serv
 Esplorare i documenti pertinenti al ruolo:
 - Power BI Desktop per [*progettisti*](../desktop-what-is-desktop.md)
 - Power BI per [*consumer*](../consumer/end-user-consumer.md)
-- Power BI per [*sviluppatori*](../developer/what-can-you-do.md)
 - Power BI per [*amministratori*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI per *sviluppatori*
+    * [Analisi incorporata con Power BI](../developer/embedded/embedding.md)
+    * [Che cos'è Azure Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Oggetti visivi in Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [Quali operazioni possono eseguire gli sviluppatori con le API Power BI?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Il flusso di lavoro in Power BI
 Un flusso di lavoro comune in Power BI inizia con la connessione alle origini dati e la creazione di un report in Power BI Desktop. Il report viene poi pubblicato da Power BI Desktop nel servizio Power BI e condiviso, in modo che gli utenti finali del servizio Power BI e dei dispositivi mobili possano visualizzare e interagire con il report.

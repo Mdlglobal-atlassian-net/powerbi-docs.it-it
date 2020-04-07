@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79202023"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464694"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Riavviare una capacità Power BI Premium
 
@@ -30,7 +30,7 @@ Power BI è oggetto di costanti miglioramenti per proteggere gli utenti della ca
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Il processo di riavvio è sicuro? Si perderanno dati?
 
-Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, gli aggiornamenti pianificati e ad hoc in corso vengono interrotti temporaneamente dal motore di aggiornamento, nella maggior parte dei casi, quindi vengono riavviati a causa della logica di ripetizione dei tentativi incorporata in Power BI. Il servizio prova a ritentare gli aggiornamenti interessati quando la capacità diventa disponibile. Lo stato degli aggiornamenti potrebbe non cambiare nell'interfaccia utente durante il processo di riavvio. 
+Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, gli aggiornamenti pianificati e ad hoc in corso vengono temporaneamente arrestati dal motore di aggiornamento, nella maggior parte dei casi, quindi vengono riavviati a causa della logica di ripetizione dei tentativi di aggiornamento incorporata in Power BI. Il servizio prova a ritentare gli aggiornamenti interessati quando la capacità diventa disponibile. Lo stato degli aggiornamenti potrebbe non cambiare nell'interfaccia utente durante il processo di riavvio. 
 
 Gli utenti che interagiscono con la capacità perderanno il lavoro non salvato durante un processo di riavvio. Gli utenti devono aggiornare i browser dopo aver completato il riavvio.
 
@@ -40,7 +40,7 @@ Seguire questi passaggi per riavviare una capacità.
 
 1. Nella scheda **Impostazioni di capacità** del portale di amministrazione di Power BI andare alla capacità. 
 
-1. Aggiungere il *flag della funzionalità* **CapacityRestart** all'URL della propria capacità: https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. Aggiungere il *flag della funzionalità* **CapacityRestart** all'URL della capacità: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. In **Impostazioni avanzate** > **RIAVVIO DELLA CAPACITÀ** selezionare **Riavvia la capacità**.
 

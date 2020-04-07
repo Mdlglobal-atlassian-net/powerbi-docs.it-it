@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: be4b51629eefe46cb1ecc528951fab9128874a6f
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873826"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404613"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Esempio di analisi di vendite e marketing per Power BI: Presentazione
 
@@ -59,7 +59,7 @@ In alternativa, è possibile scaricare l'esempio di analisi di vendite e marketi
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529785). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529785). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 Si osservi il dashboard e i riquadri che il CMO ha scelto di aggiungere. Sono visualizzate le informazioni sulla quota di mercato, le vendite e la valutazione, suddivise per area, tempo e concorrenza.
@@ -110,7 +110,7 @@ La prima pagina del report è incentrata sulla quota di mercato di VanArsdel.
 
 2. Osservare l'istogramma **Total Units by Month and isVanArsdel** nella parte inferiore del report. La colonna nera rappresenta i prodotti di VanArsdel, mentre quella verde rappresenta la concorrenza. Il calo subito da VanArsdel nel mese di giugno 2014 non ha interessato anche la concorrenza.
 
-3. Il grafico a barre **Total Category Volume by Segment** a destra è filtrato per mostrare i due segmenti principali di VanArsdel. Osservare come è stato creato questo filtro:  
+3. Il grafico a barre **Total Category Volume by Segment** a destra è filtrato per visualizzare i due segmenti principali di VanArsdel. Osservare come è stato creato questo filtro:  
 
    a. Selezionare il grafico **Total Category Volume by Segment**.
 
@@ -120,13 +120,13 @@ La prima pagina del report è incentrata sulla quota di mercato di VanArsdel.
 
    d. Modificare il filtro selezionando **Segment** per espanderlo e quindi selezionare **Productivity** per aggiungere tale segmento.  
 
-4. Nel grafico **Total Units by Month and isVanArsdel** selezionare **Yes** nella legenda per applicare il filtro incrociato nella pagina per VanArsdel. Ne grafico **Total Category Volume by Segment** osservare che la società non è competitiva nel segmento **Productivity**.
+4. Nel grafico **Total Units by Month and isVanArsdel** selezionare **Yes** nella legenda per applicare il filtro incrociato nella pagina per VanArsdel. Nel grafico **Total Category Volume by Segment** osservare che la società non è competitiva nel segmento **Productivity**.
 
 5. Selezionare di nuovo **Yes** nella legenda per rimuovere il filtro.
 
 6. Esaminare il grafico a linee **% Units Market Share and % Units Market Share R12M by Month**. Visualizza la quota di mercato mensile e le quote di mercato per il periodo mobile di 12 mesi. I dati per il periodo mobile consentono di ridurre le fluttuazioni mensili e mostrano le tendenze a lungo termine. Nel grafico a barre **Total Category Volume by Segment** selezionare **Convenience** e quindi **Moderation** per vedere la fluttuazione della quota di mercato per ogni segmento. Si noti che il segmento **Moderation** mostra una fluttuazione della quota di mercato molto maggiore.
 
-Poiché le cause del significativo calo della quota di mercato nel mese di giugno non sono ancora state individuate, Passare quindi alla pagina **Sentiment Analysis** del report.
+Le cause del significativo calo della quota di mercato nel mese di giugno non sono ancora state trovate. Passare quindi alla pagina **Sentiment Analysis** del report.
 
 ### <a name="sentiment-analysis-page"></a>Pagina Sentiment Analysis
 La terza pagina del report è incentrata sul sentiment dei consumatori.
@@ -157,8 +157,8 @@ La quarta pagina del report è incentrata sull'analisi competitiva dei prodotti.
 ![Pagina Growth Opportunities](media/sample-sales-and-marketing/sales8.png)
 
 Tenere presente quanto segue:
-* Il grafico **Total Units by Segment** in basso a sinistra mostra tutti i segmenti della categoria, ad eccezione dei due segmenti in cui VanArsdel ha le prestazioni migliori. Selezionare ognuno dei segmenti a turno per identificare le potenziali aree di espansione per VanArsdel. 
-* Si noti che i segmenti **Extreme** e **Productivity** stanno crescendo più rapidamente degli altri. La società non è tuttavia competitiva in tali segmenti. Per espandersi in questi ambiti si possono usare i dati per individuare i segmenti più richiesti nelle singole aree. È possibile investigare più a fondo con domande come quale area sta crescendo più rapidamente e chi sarebbe il principale concorrente in uno specifico segmento.
+* Il grafico **Total Units by Segment** in basso a sinistra visualizza tutti i segmenti della categoria, ad eccezione dei due segmenti in cui VanArsdel ha le prestazioni migliori. Selezionare ognuno dei segmenti a turno per identificare le potenziali aree di espansione per VanArsdel. 
+* Si noti che i segmenti **Extreme** e **Productivity** stanno crescendo più rapidamente degli altri. La società non è tuttavia competitiva in tali segmenti. Per espandersi in questi ambiti si possono usare i dati per trovare i segmenti più richiesti nelle singole aree. È possibile investigare più a fondo con domande come quale area sta crescendo più rapidamente e chi sarebbe il principale concorrente in uno specifico segmento.
 * Per tornare al calo della quota di mercato di giugno, si noti che giugno è un mese particolarmente favorevole per il segmento **Productivity**, un segmento nel quale la società non è per niente competitiva. Questo potrebbe spiegare il calo della quota di mercato a giugno.
 
 Filtrando le visualizzazioni per VanArsdel, per segmento, per mese e per area, si possono individuare opportunità di crescita per VanArsdel.

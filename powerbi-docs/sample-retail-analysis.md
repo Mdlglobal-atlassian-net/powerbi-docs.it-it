@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207483"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404720"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione
 
@@ -57,7 +57,7 @@ In alternativa, è possibile scaricare Retail Analysis Sample come [file con est
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529778). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529778). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esplorare gli esempi di Excel in Excel](sample-datasets.md#explore-excel-samples-inside-excel) per informazioni dettagliate.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniziare dal dashboard e aprire il report
 
@@ -111,7 +111,7 @@ A questo punto verrà eseguita un'analisi più dettagliata delle prestazioni del
 
    ![Grafico Total Sales Variance % by Fiscal Month](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
-   Vediamo se è possibile circoscrivere i possibili problemi.
+   Vediamo se è possibile circoscrivere gli eventuali problemi.
 2. Nel grafico a bolle selezionare la bolla **020-Mens**.
 
    ![Selezionare 020-Mens](media/sample-retail-analysis/retail11.png)  
@@ -125,7 +125,7 @@ A questo punto verrà eseguita un'analisi più dettagliata delle prestazioni del
 1. Selezionare di nuovo la bolla per cancellare il filtro.
 
 ## <a name="try-out-the-slicer"></a>Provare il filtro dei dati
-Esaminiamo le prestazioni di ogni specifica zona.
+Esaminare le prestazioni di ogni specifica zona.
 
 1. Selezionare **Allan Guinot** nel filtro dei dati **District Manager** in alto a sinistra.
 

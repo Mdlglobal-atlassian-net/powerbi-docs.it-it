@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383506"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464594"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Oggetti visivi dell'organizzazione in Power BI
 
@@ -35,7 +35,7 @@ Per altre informazioni su come usare gli oggetti visivi di Power BI dell'organiz
 Per altre informazioni su come amministrare, distribuire e gestire gli oggetti visivi di Power BI dell'organizzazione all'interno dell'organizzazione, vedere l'articolo seguente: [Altre informazioni sulla distribuzione e gestione degli oggetti visivi di Power BI dell'organizzazione](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Gli oggetti visivi personalizzati possono contenere codice che comporta rischi per la sicurezza o per la privacy. Assicurarsi che l'autore e l'origine di qualsiasi oggetto visivo personalizzato siano attendibili prima di distribuirlo nel repository dell'organizzazione.
+> Un oggetto visivo di Power BI installato da un file può contenere codice che comporta rischi per la sicurezza o la privacy. Assicurarsi che l'autore e l'origine del file dell'oggetto visivo di Power BI siano attendibili prima di distribuirlo nel repository dell'organizzazione.
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
@@ -45,7 +45,9 @@ Amministratore:
 
 * Non sono supportati gli oggetti visivi di Power BI legacy (ad esempio gli oggetti visivi di Power BI non creati sulla base delle nuove API con controllo della versione)
 
-* Se un oggetto visivo personalizzato viene eliminato dal repository, non verrà più eseguito il rendering di tutti i report esistenti che usano l'oggetto visivo eliminato. L'operazione di eliminazione dal repository non è reversibile. Per disabilitare temporaneamente un oggetto visivo personalizzato, usare la funzionalità "Disabilita".
+* Se un oggetto visivo di Power BI proveniente da ApSource o un file viene eliminato dal repository, non verrà più eseguito il rendering di tutti i report esistenti che usano l'oggetto visivo eliminato. L'operazione di eliminazione dal repository non è reversibile. Per disabilitare temporaneamente un oggetto visivo di Power BI proveniente da ApSource o un file, usare la funzionalità "Disabilita".
+
+* Gli oggetti visivi di Power BI aziendali non sono supportati nel server di report di Power BI.
 
 Utenti finali:
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872703"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404759"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
 
@@ -24,6 +24,7 @@ In Power BI, è possibile aggiungere cartelle CDM (Common Data Model) archiviate
 
 Esistono alcuni requisiti per la creazione di flussi di dati dalle cartelle CDM, come descritto nell'elenco seguente:
 
+* Un amministratore deve collegare l'account di archiviazione ADLS Gen2 all'interno di Power BI prima di poterlo usare. Per informazioni su come collegare un account ADLS Gen2 a Power BI, vedere [Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 * La creazione di flussi di dati dalle cartelle CDM è disponibile *solo* nella [nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md). 
 * Per aggiungere una cartella CDM a Power BI, è necessario che l'utente che aggiunge la cartella abbia l'[autorizzazione per la cartella CDM e i relativi file](https://go.microsoft.com/fwlink/?linkid=2029121).
 * Per poterli aggiungere in Power BI, occorre avere autorizzazioni di lettura ed esecuzione per tutti i file e le cartelle nella cartella CDM.
@@ -57,7 +58,7 @@ Per gestire le autorizzazioni per un flusso di dati creato da una cartella CDM, 
 
 L'elenco seguente è utile per chiarire le interazioni dei flussi di dati da cartelle CDM con Power BI.
 
-Aree di lavoro di Power BI Pro, Premium ed Embedded:
+Aree di lavoro Power BI Pro, Premium ed Embedded:
 * I flussi di dati da cartelle CDM non possono essere modificati
 * Le autorizzazioni per leggere un flusso di dati creato da una cartella CDM sono gestite dal proprietario della cartella CDM e non da Power BI
 
@@ -73,11 +74,11 @@ Esistono alcune altre considerazioni, descritte nell'elenco seguente:
 
 I clienti di **Power BI Desktop** non possono accedere ai flussi di dati archiviati in un account di Azure Data Lake Storage Gen2 a meno che non siano proprietari del flusso di dati oppure non siano stati autorizzati in modo esplicito per la cartella CDM del flusso di dati. Considerare la situazione seguente:
 
-1.  Anna crea una nuova area di lavoro e la configura per l'archiviazione dei flussi di dati da una cartella CDM.
-2.  Bruno, anch'esso membro dell'area di lavoro creata da Anna, vuole usare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
-3.  Bruno riceve un errore perché non è stato aggiunto come utente autorizzato alla cartella CDM del flusso di dati nel data lake.
+1.    Anna crea una nuova area di lavoro e la configura per l'archiviazione dei flussi di dati da una cartella CDM.
+2.    Bruno, anch'esso membro dell'area di lavoro creata da Anna, vuole usare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
+3.    Bruno riceve un errore perché non è stato aggiunto come utente autorizzato alla cartella CDM del flusso di dati nel data lake.
 
-    ![Errore durante il tentativo di usare il flusso di dati](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![Errore durante il tentativo di usare il flusso di dati](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 Per risolvere il problema, a Bruno devono essere concesse le autorizzazioni di lettore per la cartella CDM e i relativi file. In [questo articolo](https://go.microsoft.com/fwlink/?linkid=2029121) sono disponibili altre informazioni su come concedere l'accesso alla cartella CDM.
 

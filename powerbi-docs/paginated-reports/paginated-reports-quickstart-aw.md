@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207230"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404871"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
 
@@ -286,7 +286,7 @@ Si vedrà ora come apportare un altro miglioramento della formattazione prima di
 
 Ora che è stato creato il report impaginato, è possibile caricarlo nel servizio Power BI.
 
-1. Nel riquadro di spostamento del servizio Power BI (https://app.powerbi.com) ) selezionare **Aree di lavoro** > **Crea area di lavoro**.
+1. Nel riquadro di spostamento del servizio Power BI (`https://app.powerbi.com`) selezionare **Aree di lavoro** > **Crea area di lavoro**.
 
 2. Assegnare all'area di lavoro il nome **Azure AW** o un altro nome univoco. Per il momento si è l'unico membro. 
 

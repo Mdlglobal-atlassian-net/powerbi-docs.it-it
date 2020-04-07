@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381032"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302736"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
@@ -96,7 +96,7 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.
 * L'organizzazione potrebbe configurare determinate impostazioni in Azure Active Directory per limitare la possibilità di usare le sottoscrizioni tramite posta elettronica in Power BI.  Queste limitazioni includono, a titolo di esempio, l'autenticazione a più fattori o la presenza di restrizioni dell'intervallo IP quando si accede alle risorse.
 * Attualmente, le sottoscrizioni di posta elettronica per report e dashboard che usano set di dati con connessione dinamica non sono supportate per altri utenti oltre a se stessi, a meno che non si usi un report impaginato, che consente di inviare la sottoscrizione ad altri utenti usando il proprio contesto di protezione.
-* Le sottoscrizioni di posta elettronica non supportano la maggior parte degli [oggetti visivi di Power BI](developer/visuals/power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi di Power BI che sono stati [certificati](developer/visuals/power-bi-custom-visuals-certified.md).  
+* Per le sottoscrizioni di posta elettronica sono supportati solo gli [oggetti visivi predefiniti e certificati di Power BI](developer/visuals/power-bi-custom-visuals.md).  
 * Attualmente le sottoscrizioni di posta elettronica non supportano oggetti visivi di Power BI basati su R.  
 * Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.  I report impaginati supportano questa funzionalità e consentono di impostare i valori dei parametri specifici per ogni sottoscrizione.
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     

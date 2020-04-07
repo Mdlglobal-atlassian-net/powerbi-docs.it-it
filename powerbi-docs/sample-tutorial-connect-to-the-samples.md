@@ -1,37 +1,37 @@
 ---
-title: Connettersi agli esempi nel servizio Power BI
-description: Informazioni su come installare ed esplorare gli esempi nel servizio Power BI.
+title: Esaminare l'esempio di analisi delle vendite al dettaglio
+description: Di seguito viene descritto come installare ed esplorare l'esempio di analisi delle vendite al dettaglio nel servizio Power BI e in Power BI Desktop.
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762164"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404596"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Importare e aprire pacchetti di esempio per Power BI
+# <a name="explore-the-retail-analysis-sample"></a>Esaminare l'esempio di analisi delle vendite al dettaglio
 
 Questa esercitazione illustra come: 
-- Importare un pacchetto di contenuto di esempio, aggiungerlo al servizio Power BI e aprire il contenuto. Un *pacchetto di contenuto* è un tipo di esempio in cui il set di dati è abbinato a un dashboard e a un report. 
-- Aprire un file con estensione pbix di esempio in Power BI Desktop.
+- Importare il pacchetto di contenuto di esempio per l'analisi delle vendite al dettaglio, aggiungerlo al servizio Power BI e aprire il contenuto. Un *pacchetto di contenuto* è un tipo di esempio in cui il set di dati è abbinato a un dashboard e a un report. 
+- Aprire il file con estensione pbix dell'esempio di analisi delle vendite al dettaglio in Power BI Desktop.
 
 Se servono maggiori informazioni di base, vedere [Set di dati di esempio per Power BI](sample-datasets.md). L'articolo illustra in dettaglio tutti gli esempi, come ottenerli, dove salvarli, come usarli e alcuni degli scenari trattati. 
 
 ## <a name="prerequisites"></a>Prerequisiti
-Gli esempi sono disponibili per il servizio Power BI e per Power BI Desktop. Per seguire la procedura, verrà usato l'esempio di analisi delle vendite al dettaglio.
+Gli esempi sono disponibili per il servizio Power BI e per Power BI Desktop. Se si vuole seguire la procedura, usare l'esempio di analisi delle vendite al dettaglio.
 
 Il pacchetto di contenuto di esempio di *analisi delle vendite al dettaglio* usato in questa esercitazione comprende un dashboard, un report e un set di dati.
 Per acquisire familiarità con questo pacchetto di contenuto e il relativo scenario, vedere [Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione](sample-retail-analysis.md) prima di iniziare.
 
-## <a name="samples-in-the-power-bi-service"></a>Esempi nel servizio Power BI
+## <a name="import-the-sample-in-the-power-bi-service"></a>Importare l'esempio nel servizio Power BI
 
 1. Aprire il servizio Power BI (app.powerbi.com), eseguire l'accesso e aprire l'area di lavoro in cui salvare l'esempio. 
 
@@ -94,7 +94,7 @@ Ora è possibile esaminare il dashboard, il set di dati e il report autonomament
      
     ![Report con informazioni dettagliate](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Esempi in Power BI Desktop 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Scaricare l'esempio in Power BI Desktop 
 Quando si apre il file con estensione pbix di esempio per la prima volta in Power BI Desktop, viene applicata la visualizzazione report, che consente di esplorare, creare e modificare qualsiasi numero di pagine del report con visualizzazioni. La visualizzazione report offre un'esperienza di progettazione analoga a quella della visualizzazione di modifica di un report nel servizio Power BI, consentendo di spostare le visualizzazioni, nonché di copiare e incollare, unire e così via. 
 
 A differenza di quanto avviene quando si modifica un report nel servizio Power BI, in Power BI Desktop è anche possibile lavorare con le query e modellare i dati per ottenere informazioni dettagliate di migliore qualità nei report. Il file di Power BI Desktop può quindi essere salvato in qualsiasi posizione, nell'unità locale o nel cloud.
