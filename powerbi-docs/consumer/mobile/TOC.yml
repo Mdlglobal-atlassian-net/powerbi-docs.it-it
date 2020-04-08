@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Visualizzare report locali nelle app per dispositivi mobili
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Proteggere con Face ID, Touch ID, passcode o Fingerprint ID'
+              href: mobile-native-secure-access.md
             - name: Accedere al contenuto da un'organizzazione esterna (B2B)
               href: mobile-apps-b2b.md
             - name: Scansionare un codice a matrice di Power BI dal telefono
@@ -76,8 +78,6 @@
           items:
             - name: Introduzione all'app iOS
               href: mobile-iphone-app-get-started.md
-            - name: 'Proteggere con Face ID, Touch ID o Passcode'
-              href: mobile-ios-native-secure-access.md
             - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
               href: mobile-apps-ios-qna.md
             - name: Integrazione dell'App Power BI per dispositivi mobili con tasti di scelta rapida Siri
@@ -90,6 +90,10 @@
           items:
             - name: Introduzione all'app Android
               href: mobile-android-app-get-started.md
+            - name: Usare le scorciatoie per le app Android
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Trovare e accedere al contenuto con Google Search
+              href: mobile-app-find-access-google-search.md
             - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: Risoluzione dell'errore di aggiornamento di Android System WebView
