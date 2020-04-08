@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114896"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802130"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -39,10 +39,11 @@ Tutte le altre funzionalità dei report di Power BI continueranno a funzionare n
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrare la pagina del report in un telefono
 Se per un report ottimizzato per il telefono sono stati definiti dei filtri, quando si visualizza il report in un telefono è possibile usare tali filtri. Il report viene aperto in un telefono, filtrato in base ai valori usati per filtrare il report sul Web. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
 
-1. Toccare l'icona del filtro ![Icona del filtro del telefono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) nella parte inferiore della pagina. 
+1. Toccare l'icona del filtro ![Icona del filtro del telefono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) nella parte inferiore della pagina.
+
 2. Usare il filtro di base o avanzato per visualizzare i risultati desiderati.
    
-    ![Filtro avanzato nei report di Power BI per telefoni](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Filtro avanzato nei report di Power BI per telefoni](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Evidenziare oggetti visivi
 L'evidenziazione incrociata degli oggetti visivi nella visualizzazione verticale funziona come nel servizio Power BI e sul telefono in visualizzazione orizzontale: quando si selezionano i dati in un oggetto visivo, vengono evidenziati i dati correlati negli altri oggetti visivi in tale pagina.

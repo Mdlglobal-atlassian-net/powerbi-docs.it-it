@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 69f498239b80dd7445898528aeb09396d0046689
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526096"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621475"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Corso online: Report impaginati di Power BI
 
@@ -88,6 +88,5 @@ A breve verranno pubblicati la presentazione di PowerPoint e i lab pratici come 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - Esercitazione: [Creare un report impaginato e caricarlo nel servizio Power BI](paginated-reports-quickstart-aw.md)
-- Esercitazione pratica ospitata: [Creating a Microsoft Power BI Paginated Report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Creazione di un report impaginato di Microsoft Power BI)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

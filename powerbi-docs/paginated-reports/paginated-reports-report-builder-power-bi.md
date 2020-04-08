@@ -8,20 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404778"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621565"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
 I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. Questi report possono essere stampati o condivisi. Vengono definiti "impaginati" perché sono formattati in modo da adattarsi meglio alla pagina. Visualizzano tutti i dati in una tabella, anche se la tabella si estende su più pagine. Vengono talvolta definiti "perfetti al pixel" perché è possibile controllare esattamente il layout di pagina del report. I report impaginati sono basati sulla tecnologia di report RDL in SQL Server Reporting Services. Generatore report è lo strumento autonomo per la creazione di report impaginati. 
 
 I report impaginati possono avere molte pagine. Ad esempio, questo report contiene 563 pagine. Ogni pagina ha un layout esatto, con una pagina per ogni fattura e intestazioni e piè di pagina ripetuti.
-
-Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Creare un report impaginato di Microsoft Power BI).
 
 ![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -87,5 +85,4 @@ L'elenco seguente include alcune altre funzionalità non supportate nella versio
 - [Installare Generatore report di Power BI dall'Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Esercitazione: Creare un report impaginato](paginated-reports-quickstart-aw.md)
 - [Immettere i dati direttamente in un report impaginato](paginated-reports-enter-data.md)
-- [Hands-on lab: Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Esercitazione pratica: Creare un report impaginato di Microsoft Power BI)
-- [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embed-paginated-reports-customers.md).
+- [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embed-paginated-reports-customers.md)

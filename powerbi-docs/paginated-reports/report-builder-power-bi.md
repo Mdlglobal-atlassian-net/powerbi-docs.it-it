@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923012"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621539"
 ---
 # <a name="power-bi-report-builder"></a>Generatore report di Power BI
 
  Power BI Report Builder è uno strumento per la creazione di report impaginati.  Quando si progetta un report impaginato, si crea una definizione del report che specifica i dati da recuperare, dove ottenerli e come visualizzarli. Quando si esegue il report, il componente Elaborazione report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. Visualizzare in anteprima il report in Generatore report. e quindi pubblicare il report nel servizio Power BI.
-
-Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Creare un report impaginato di Microsoft Power BI).
 
 Se si preferisce imparare dai video, vedere su YouTube la serie di video sui report impaginati di Power BI di Chris Finlan, Power BI Principal Program Manager.
 
@@ -30,13 +28,13 @@ Il report impaginato seguente presenta una matrice con gruppi di righe e colonne
 
 ![Report impaginato nel servizio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> Iniziare a creare il report  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> Iniziare a creare il report  
  
 -   **Iniziare con la Creazione guidata tabella, matrice o grafico**. Creare una connessione all'origine dati, trascinare i campi per creare una query di set di dati, selezionare il layout e lo stile e personalizzare il report.  
   
 -   **Iniziare con la Creazione guidata mappa** per creare report che consentono di visualizzare dati aggregati su uno sfondo geografico o geometrico. I dati della mappa possono essere dati spaziali da una query Transact-SQL o un file di forma ESRI (Environmental Systems Research Institute, Inc.). È anche possibile aggiungere uno sfondo a sezioni per una mappa di Microsoft Bing.  
 
-##  <a name="DesignRept"></a> Progettare il report  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> Progettare il report  
   
 -   **Creare report impaginati con layout di report tabella, matrice, grafico e in formato libero.** È possibile creare report tabella per i dati basati su colonne, report matrice (ad esempio report a campi incrociati o Tabella pivot) per i dati riepilogati, report grafico per i dati grafici e report in formato libero per qualsiasi altra esigenza. Nei report è possibile incorporare altri report e grafici, insieme a elenchi, grafica e controlli per applicazioni basate sul Web dinamiche.  
   
@@ -52,7 +50,7 @@ Il report impaginato seguente presenta una matrice con gruppi di righe e colonne
   
 -   **Incorporare o fare riferimento a immagini** e ad altre risorse, inclusi contenuti esterni.  
   
-##  <a name="ManageRpt"></a> Gestire il report  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Gestire il report  
   
 -   **Salvare la definizione del report** nel computer in uso o nel server di report. Qui è possibile gestire la definizione e condividerla con altri utenti.  
   
@@ -63,5 +61,4 @@ Il report impaginato seguente presenta una matrice con gruppi di righe e colonne
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Esercitazione pratica: Creare un report impaginato di Microsoft Power BI)
 - Vedere su YouTube la [serie di video sui report impaginati di Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) di Chris Finlan, Power BI Principal Program Manager.

@@ -1,19 +1,19 @@
 ---
 title: Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 description: Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di esecuzioni di test di carico di diversi carichi di lavoro.
-author: parthsha
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/5/2018
-ms.author: parshah
-ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.date: 04/02/2020
+ms.author: maggies
+ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361768"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647653"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 Il server di report di Power BI è una soluzione di business intelligence aziendale self-service e di creazione di report aziendali che i clienti possono distribuire localmente, dietro a firewall. Combina le funzionalità di report interattivi di Power BI Desktop con la piattaforma server locale di SQL Server Reporting Services. Con la crescita dell'utilizzo intenso delle analisi e dei report all'interno delle aziende, può risultare difficile allocare fondi sufficienti per l'infrastruttura hardware e le licenze software necessarie per la scalabilità per una base utenti aziendale. Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. Benché i report, le query e i modelli di utilizzo delle organizzazioni possano presentare differenze significative, i risultati presentati in questo articolo, oltre ai test effettivi usati e a una descrizione dettagliata della relativa modalità di esecuzione, possono servire da punto di riferimento per chiunque stia completando le fasi preliminari del processo di pianificazione della distribuzione del server di report di Power BI.
@@ -90,22 +90,6 @@ Presso Microsoft è disponibile una distribuzione di produzione del server di re
 | --- | --- | --- |
 | **Power BI Report Heavy** |1\.000 utenti |3\.000 utenti |
 | **Paginated Report Heavy** |2\.000 utenti |3\.200 utenti |
-
-### <a name="view-results"></a>Visualizzare i risultati
-Selezionare un report per visualizzare i risultati del test di carico.
-
-| Carico di lavoro | 8 core/32 GB | 16 core/64 GB |
-| --- | --- | --- |
-| **Power BI Report Heavy** |[Visualizzazione - 8 core](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Visualizzazione - 16 core](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-| **Paginated Report Heavy** |[Visualizzazione - 8 core](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Visualizzazione - 16 core](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## <a name="summary"></a>Riepilogo
 Per ogni esecuzione di test di carico, la CPU è stata la risorsa con maggiore sovraccarico in fase di picco del carico nella macchina virtuale del server di report di Power BI. È quindi necessario incrementare prima di tutto il numero di core. In alternativa, è possibile prendere in considerazione l'aumento del numero di server che ospitano il server di report di Power BI nella topologia specifica.
