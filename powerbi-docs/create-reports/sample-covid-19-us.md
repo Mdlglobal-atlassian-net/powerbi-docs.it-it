@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472061"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979777"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Esempio di rilevamento del COVID-19 per enti locali e statali degli Stati Uniti
 
-Il team di Power BI ha creato un esempio di rilevamento del COVID-19 che consente alle istituzioni statali e locali degli Stati Uniti di pubblicare o personalizzare un report interattivo sul COVID-19. Con Power BI Desktop è possibile analizzare e visualizzare i dati sul COVID-19 per tenere la comunità informata a livello di città, contee, stati e a livello nazionale. Usando l'opzione Pubblica sul Web da Power BI, è quindi possibile condividere il report pubblicamente per informare i cittadini. L'articolo offre tre diverse opzioni per l'uso delle viste interattive di Power BI nelle storie pubblicate, in blog o siti Web.
+Il team di Power BI ha creato un esempio di rilevamento del COVID-19 che consente alle istituzioni statali e locali degli Stati Uniti di pubblicare o personalizzare un report interattivo sul COVID-19. Con Power BI Desktop è possibile analizzare e visualizzare i dati sul COVID-19 per tenere la comunità informata a livello di città, contee, stati e a livello nazionale. Usando l'opzione Pubblica sul Web da Power BI, è quindi possibile condividere il report pubblicamente per informare i cittadini. L'articolo presenta diverse opzioni per l'uso delle visualizzazioni interattive di Power BI nelle storie pubblicate, in blog o siti Web.
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="Esempio di rilevamento del COVID-19 con dati USA":::
 
@@ -45,10 +45,10 @@ Microsoft ha pubblicato il report di esempio e ha creato un codice di incorporam
 Per includere il grafico interattivo nel sito, copiare e incollare il codice di incorporamento seguente nel punto della pagina Web in cui si vuole che il grafico venga visualizzato.  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Il codice di incorporamento è un elemento iFrame HTML che può essere inserito in qualsiasi pagina HTML. Modificare la larghezza e l'altezza dell'iFrame per adattarlo all'interno del sito. Il report di esempio viene creato in 16:9, è quindi necessario scegliere delle dimensioni che rispettino tale proporzione. Una volta implementato correttamente, l'elemento grafico viene visualizzato senza bordi grigi aggiuntivi. Quando si apportano queste modifiche, è utile [rivedere i suggerimenti per il ridimensionamento dell'iFrame](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width).
+Il codice di incorporamento è un elemento iFrame HTML che può essere inserito in qualsiasi pagina HTML. Modificare la larghezza e l'altezza dell'iFrame per adattarlo all'interno del sito. Il report di esempio viene creato in 16:9, è quindi necessario scegliere delle dimensioni che rispettino tale proporzione. Una volta implementato correttamente, l'elemento grafico viene visualizzato senza bordi grigi aggiuntivi. Quando si apportano queste modifiche, è utile [rivedere i suggerimenti per il ridimensionamento dell'iFrame](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width).
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Opzione 2: personalizzare il file di Power BI di esempio
 
@@ -104,9 +104,9 @@ Quando si segue la procedura, scegliere le opzioni seguenti:
 1. Metodo di autenticazione delle credenziali dell'origine dati: Anonimo
 2. Impostazione del livello di privacy per questa origine dati: Pubblico
 
-Per testare l'impostazione di aggiornamento, selezionare [l'opzione Aggiorna ora disponibile nell'elemento del set di dati](../refresh-data.md#data-refresh).
+Per testare l'impostazione di aggiornamento, selezionare l'opzione [Aggiorna ora](../refresh-data.md#data-refresh) disponibile nell'elemento del set di dati.
 
-I dati aggiornati vengono caricati ogni volta che viene eseguita la pianificazione. Tenere presente che i dati sottostanti sono resi disponibili da USAFacts e potrebbero non essere aggiornati con la stessa frequenza specificata per l'aggiornamento del report. Per informazioni sull'ultimo aggiornamento dei dati sottostanti, vedere il [sito Web USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/). 
+I dati aggiornati vengono caricati ogni volta che viene eseguita la pianificazione. I dati sottostanti sono resi disponibili da USAFacts e potrebbero non essere aggiornati con la stessa frequenza specificata per l'aggiornamento del report. Per informazioni sull'ultimo aggiornamento dei dati sottostanti, vedere il [sito Web USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/). 
 
 Se si vuole pubblicare il report personalizzato nel proprio sito Web, è consigliabile configurare l'aggiornamento pianificato in modo che venga eseguito almeno con la frequenza con cui vengono aggiornati i dati USAFacts. Poiché USAFacts può aggiornare i dati in momenti diversi ogni giorno, è consigliabile configurare diversi aggiornamenti nell'arco della giornata. 
 
@@ -147,6 +147,11 @@ Se si apportano modifiche al report in Power BI Desktop, è possibile pubblicare
     
 È quindi possibile usare Power BI Desktop per visualizzare i dati. Infine, attenersi alla procedura descritta in **Opzione 2:** [Pubblicare il report nel servizio Power BI](#publish-your-report-to-the-power-bi-service) per pubblicare il report e creare un codice di incorporamento personalizzato. 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>Opzione 4: usare l'app modello COVID-19 US Tracking
+
+Per offrire un'altra opzione, il team di Power BI ha creato l'*app modello* COVID-19 US Tracking per iniziare immediatamente. Le app modello sono bundle di report, dashboard e set di dati per un'origine dati specifica. È possibile scaricarle da AppSource, usarle o modificarle in base alle proprie esigenze e distribuirle ai colleghi. 
+
+Questa app modello COVID-19 US Tracking contiene un report predefinito di metriche COVID-19 che è possibile usare così come sono, personalizzare direttamente nel servizio Power BI o scaricare per aggiungere altre origini dati, se necessario. Informazioni su come installare l'[app modello COVID-19 US Tracking](../connect-data/service-connect-to-covid-19-tracking.md) e iniziare subito.
 
 ## <a name="about-the-data-source-for-this-report"></a>Informazioni sull'origine dati per il report
 Questo report interattivo combina i dati del Centers for Disease Control and Prevention (CDC) e delle agenzie sanitarie locali e statali. I dati a livello di contea vengono confermati facendo riferimento direttamente (tramite collegamento) ad agenzie locali e statali.

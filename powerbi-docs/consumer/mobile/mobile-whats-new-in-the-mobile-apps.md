@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435974"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802096"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -24,6 +24,20 @@ per le relative informazioni incluse nelle "Novità", vedere:
 
 >[!NOTE]
 >Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Marzo 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>Usare collegamenti e Ricerca Google per l'avvio dei contenuti (Android)
+È ora più semplice trovare e avviare i dati integrando sia i collegamenti che Ricerca Google con l'app Power BI. Creare collegamenti per accedere facilmente ai report e ai dashboard preferiti direttamente dalla schermata iniziale del dispositivo. E usare Ricerca Google per cercare e aprire rapidamente il contenuto di Power BI. Vedere altre informazioni sui [collegamenti per l'app Android](mobile-app-quick-access-shortcuts.md) e [Ricerca Google](mobile-app-find-access-google-search.md).
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Maggiore sicurezza grazie alla protezione del dispositivo (anteprima) (Android)
+Usare le funzionalità di protezione integrate del dispositivo per proteggere l'app Power BI e ottenere la privacy necessaria. La richiesta di autenticazione biometrica (ID impronta digitale) per l'accesso all'app Power BI garantisce che i dati rimangano privati e vengano visualizzati solo dal proprietario. [Informazioni sull'accesso sicuro nativo](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>La scansione è ora disponibile su iPad
+È ora possibile, direttamente dall'iPad, eseguire la scansione dei codici a barre per filtrare i report e usare i codici a matrice per aprire rapidamente i report.  
+
+### <a name="updated-filtering-experience"></a>Esperienza di filtro aggiornata
+I filtri nell'app Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Ciò include una maggiore visibilità dei filtri applicati che interessano gli oggetti visivi del report e la possibilità di bloccare e persino nascondere i filtri. Queste modifiche offrono anche una migliore compatibilità con i filtri nel servizio Power BI.
 
 ## <a name="february-2020"></a>Febbraio 2020
 

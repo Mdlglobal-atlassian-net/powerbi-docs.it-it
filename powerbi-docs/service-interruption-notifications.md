@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 04/06/2020
 ms.author: kfollis
-ms.openlocfilehash: cb117cb325255f63a0c5d21eddc01e9806358f7f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697245"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80812972"
 ---
 # <a name="service-interruption-notifications"></a>Notifiche di interruzione del servizio
 
@@ -31,6 +31,28 @@ Vengono inviate notifiche quando si verifica un _ritardo prolungato_ per operazi
 
 > [!NOTE]
 > Questa funzionalità attualmente è disponibile solo per capacità dedicate in Power BI Premium. Non è disponibile per la capacità condivisa o incorporata.
+
+## <a name="capacity-and-reliability-notifications"></a>Notifiche di capacità e affidabilità
+
+Quando per una capacità Power BI Premium si riscontrano periodi prolungati di utilizzo elevato delle risorse con potenziali effetti sull'affidabilità, viene inviato un messaggio di posta elettronica di notifica. Esempi di questi effetti includono ritardi notevoli per operazioni quali l'apertura di un report, l'aggiornamento del set di dati e le esecuzioni di query. 
+
+Il messaggio di posta elettronica di notifica fornisce informazioni sul motivo dell'utilizzo elevato delle risorse, incluse le seguenti:
+
+* ID del set di dati responsabile
+* Tipo di operazione
+* Tempo CPU associato all'utilizzo elevato delle risorse
+
+Power BI invia notifiche tramite posta elettronica anche quando viene rilevato un sovraccarico per una capacità Power BI Premium. Il messaggio di posta elettronica spiega il motivo probabile del sovraccarico, le operazioni che hanno generato il carico nei 10 minuti precedenti e la quantità di carico generata da ciascuna operazione. 
+
+Se è disponibile più di una capacità Premium, il messaggio di posta elettronica include informazioni su tali capacità durante il periodo di sovraccarico, quindi è possibile provare a trasferire le aree di lavoro contenenti elementi con utilizzo intensivo di risorse alle capacità con il carico minimo.
+
+Le notifiche di posta elettronica per il sovraccarico vengono inviate solo quando viene attivata una soglia di sovraccarico. Non si riceverà un secondo messaggio di posta elettronica quando il carico su tale capacità Premium torna a livelli normali.
+
+La figura seguente mostra un messaggio di posta elettronica di notifica di esempio:
+
+
+![Messaggio di posta elettronica di notifica per sovraccarico della capacità](media/service-interruption-notifications/refresh-notification-email-2.png)
+
 
 ## <a name="enable-notifications"></a>Abilitare le notifiche
 

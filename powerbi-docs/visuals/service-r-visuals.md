@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114843"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979823"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creare e usare oggetti visivi R in Power BI
 Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../desktop-r-visuals.md).
@@ -94,6 +94,7 @@ Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:
 * Gli oggetti visivi R rispondono all'evidenziazione di altri oggetti visivi, ma è possibile fare clic sugli elementi nell'oggetto visivo R per applicare un filtro incrociato ad altri elementi.
 * Gli oggetti visivi R non sono attualmente supportati per il tipo di dati *Time*. Usare invece Date/Time.
 * Gli oggetti visivi R non vengono visualizzati quando si usa l'opzione **Pubblica sul Web**.
+* Gli oggetti visivi R non supportano la ridenominazione delle colonne di input. Durante l'esecuzione dello script si farà riferimento alle colonne con il nome originale.
 * Gli oggetti visivi R attualmente non vengono stampati quando si esegue la stampa di dashboard e report.
 * Gli oggetti visivi R non sono attualmente supportati nella modalità DirectQuery di Analysis Services.
 * Gli oggetti visivi R possono convertire le etichette di testo in elementi grafici. Per eseguire questa operazione nel servizio Power BI, è necessario eseguire questo passaggio aggiuntivo:

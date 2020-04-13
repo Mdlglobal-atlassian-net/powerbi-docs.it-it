@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237524"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979846"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -156,7 +156,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Elenco SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Database di Sybase |No |No |Sì |Sì |
-| Teradata |No |No |Sì |Sì |
+| Teradata |No |No |Sì |Sì** |
 | appFigures (Beta) |No |No |No |No |
 | Database di Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
@@ -189,6 +189,8 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Visual Studio Team Services (Beta) |No |No |No |No |
 | Webtrends (Beta) |No |No |No |No |
 | Zendesk (Beta) |No |No |No |No |
+
+**L'uso dell'autenticazione LDAP con Teradata (abilitato in Power BI Desktop tramite il comando del prompt dei comandi 'setx PBI_EnableTeradataLdap true') non è supportato per l'aggiornamento del modello.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Elenco di metodi di autenticazione supportati per DirectQuery
 

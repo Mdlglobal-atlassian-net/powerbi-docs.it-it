@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550901"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621470"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Pubblicare oggetti visivi di Power BI nel Centro per i partner
 
@@ -100,6 +100,8 @@ Attenersi alla procedura seguente per inviare l'oggetto visivo di Power BI al Ce
 10. Selezionare **Configurazione prodotto** e fare clic su **Rivedi e pubblica**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Rilevamento dello stato e dell'utilizzo dell'invio
+
+È possibile verificare i [criteri di convalida](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 Dopo l'invio, sarà possibile visualizzare lo stato di invio nel [dashboard dell'app](https://sellerdashboard.microsoft.com/Application/Summary/).
 

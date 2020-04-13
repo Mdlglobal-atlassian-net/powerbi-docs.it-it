@@ -2,18 +2,17 @@
 title: Impostazioni di configurazione dell'app Power BI
 description: Come personalizzare il comportamento di Power BI usando lo strumento MDM
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205551"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802027"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
 
@@ -22,7 +21,7 @@ L'app Power BI per dispositivi mobili iOS e Android supporta le impostazioni del
 L'app Power BI per dispositivi mobili supporta gli scenari di configurazione seguenti:
 
 * Configurazione del server di report (iOS e Android)
-* Impostazioni di protezione dei dati (iOS)
+* Impostazioni di protezione dei dati (iOS e Android)
 * Impostazioni di interazione (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configurazione del server di report (iOS e Android)
@@ -36,13 +35,16 @@ L'app Power BI per iOS e Android consente agli amministratori di eseguire il pus
 | com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori inviati lasciando le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
-## <a name="data-protection-settings-ios"></a>Impostazioni di protezione dei dati (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>Impostazioni di protezione dei dati (iOS e Android)
 
-L'app Power BI per iOS offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
+L'app Power BI per dispositivi mobili per iOS e Android offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. Per iOS è possibile imporre agli utenti di specificare Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI per dispositivi mobili. Per Android è possibile imporre agli utenti l'uso dell'autenticazione biometrica (ID impronta digitale).
 
 | Key | Tipo | Descrizione |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | Il valore predefinito è False. <br><br>Per consentire agli utenti di accedere all'app sul loro dispositivo, possono essere necessari dati biometrici come TouchID o FaceID. Quando richiesto, oltre all'autenticazione vengono usati dati biometrici.<br><br>Se si usano criteri di protezione delle app, è consigliabile disabilitare questa impostazione per impedire le richieste di doppio accesso. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | Il valore predefinito è False. <br><br>Per consentire agli utenti di accedere all'app nel loro dispositivo, possono essere richiesti dati biometrici come TouchID o FaceID (iOS) o ID impronta digitale (Android). Quando richiesto, oltre all'autenticazione vengono usati dati biometrici.<br><br>Se si usano criteri di protezione delle app, è consigliabile disabilitare questa impostazione per impedire le richieste di doppio accesso. |
+
+>[!NOTE]
+>Le impostazioni di protezione dati verranno applicate solo ai dispositivi Android che supportano l'autenticazione biometrica.
 
 ## <a name="interaction-settings-ios-and-android"></a>Impostazioni di interazione (iOS e Android)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133260"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751615"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
@@ -75,7 +75,7 @@ Vi sono tuttavia tre validi motivi per creare misure, anche per semplici riepilo
 
 - Se si è a conoscenza del fatto che gli autori dei report eseguiranno query sul modello usando [espressioni MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), il modello deve includere _misure esplicite_. Le misure esplicite vengono definite tramite DAX. Questo approccio di progettazione è molto pertinente quando si eseguono query su un set di dati di Power BI tramite MDX, perché MDX non è in grado di ottenere il riepilogo dei valori di colonna. In particolare, il linguaggio MDX viene usato per l'esecuzione di [Analizza in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) poiché le tabelle pivot rilasciano query MDX.
 - Se si è a conoscenza del fatto che gli autori di report creeranno report impaginati di Power BI usando lo strumento di progettazione di query MDX, il modello deve includere misure esplicite. Solo lo strumento di progettazione di query MDX supporta gli [aggregati di server](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Pertanto, se gli autori di report devono disporre di misure valutate da Power BI, anziché dal motore dei report impaginati, devono usare lo strumento di progettazione di query MDX.
-- Se è necessario assicurarsi che gli autori dei report possano riepilogare le colonne solo in modi specifici. Ad esempio, la colonna **Unit Price** relativa alle vendite dei rivenditori (che rappresenta una tariffa per unità) può essere riepilogata, ma solo tramite funzioni di aggregazione specifiche. I valori della colonna non dovrebbero essere mai sommati, ma è opportuno riepilogarli usando altre funzioni di aggregazione (min, max, average e così via). In questo esempio, l'esperto di modellazione può nascondere la colonna **Unit Price** e creare misure per tutte le funzioni di aggregazione appropriate.
+- Quando è necessario assicurarsi che gli autori dei report possano riepilogare le colonne solo in modi specifici. Ad esempio, la colonna **Unit Price** relativa alle vendite dei rivenditori (che rappresenta una tariffa per unità) può essere riepilogata, ma solo tramite funzioni di aggregazione specifiche. I valori della colonna non dovrebbero essere mai sommati, ma è opportuno riepilogarli usando altre funzioni di aggregazione come min, max, average e così via. In questo esempio, l'esperto di modellazione può nascondere la colonna **Unit Price** e creare misure per tutte le funzioni di aggregazione appropriate.
 
 Questo approccio di progettazione è adatto ai report creati nel servizio Power BI e per Domande e risposte. Le connessioni dinamiche di Power BI Desktop, tuttavia, consentono agli autori di report di mostrare i campi nascosti nel riquadro **Campi**, eludendo così questo approccio di progettazione.
 
@@ -188,7 +188,7 @@ Nel modello di Power BI, può essere opportuno aggiungere la colonna dei numeri 
 
 ![Esempio di dimensione degenere](media/star-schema/degenerate-dimension.png)
 
-Per altre informazioni, vedere [Linee guida per relazioni uno-a-uno (Dimensioni degenere)](relationships-one-to-one.md#degenerate-dimensions).
+Tuttavia, se la tabella Sales dei rivenditori di Adventure Works include colonne per il numero di ordine _e_ per il numero di riga dell'ordine e sono necessarie per l'applicazione di filtri, una tabella delle dimensioni degenere potrebbe essere una progettazione valida. Per altre informazioni, vedere [Linee guida per relazioni uno-a-uno (Dimensioni degenere)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Tabelle dei fatti senza fatti
 
@@ -196,7 +196,7 @@ Una **tabella dei fatti senza fatti** non include colonne di misure. Contiene so
 
 Una tabella dei fatti senza fatti può archiviare le osservazioni definite dalle chiavi di dimensione. Ad esempio, in una data e a un'ora specifiche, un determinato cliente ha eseguito l'accesso a un sito Web. È possibile definire una misura per contare le righe della tabella dei fatti senza fatti per eseguire l'analisi di quando i clienti hanno eseguito l'accesso e del numero di accessi eseguiti.
 
-Un uso più efficace di una tabella dei fatti senza fatti consiste nell'archiviare le relazioni tra le dimensioni ed è questo l'approccio di progettazione dei modelli di Power BI consigliato per definire relazioni di tipo molti-a-molti tra le dimensioni. In una progettazione basata su relazioni di questo tipo, la tabella dei fatti senza fatti è definita _tabella di bridging_.
+Un uso più efficace di una tabella dei fatti senza fatti consiste nell'archiviare le relazioni tra le dimensioni ed è questo l'approccio di progettazione dei modelli di Power BI consigliato per definire relazioni di tipo molti-a-molti tra le dimensioni. In una [progettazione basata su relazioni di tipo molti-a-molti tra le dimensioni](relationships-many-to-many.md#relate-many-to-many-dimensions), la tabella dei fatti senza fatti è definita _tabella di bridging_.
 
 Si consideri, ad esempio, il caso in cui i venditori possono essere assegnati a una _o più_ aree di vendita. La tabella di bridging verrebbe progettata come una tabella dei fatti senza fatti costituita da due colonne: chiave del venditore e chiave dell'area. I valori duplicati possono essere archiviati in entrambe le colonne.
 

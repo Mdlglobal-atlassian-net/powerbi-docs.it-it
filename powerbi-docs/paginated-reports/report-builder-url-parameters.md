@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922230"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647708"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parametri URL nei report impaginati in Power BI
 
@@ -78,6 +78,14 @@ Per esempi relativi al passaggio di parametri di report nell'URL, vedere  [Pas
 - CSV 
 - PDF 
 - XML 
+
+**Stato del pannello dei parametri** Specifica se il pannello dei parametri è chiuso o aperto al caricamento del report o se è completamente nascosto.
+
+-   rdl:parameterPanelState
+
+    - 'collapsed': carica il report con il pannello dei parametri chiuso. Il pulsante del parametro è abilitato in modo che gli utenti possano fare clic sul pulsante per espanderlo;
+    - 'hidden': carica il report con il pannello dei parametri chiuso e il pulsante del parametro disabilitato;
+    - 'expanded' (impostazione predefinita): carica il report con il pannello dei parametri aperto e il pulsante del parametro abilitato;
 
 **Informazioni sul dispositivo** Si possono specificare parametri di output aggiuntivi per i formati di esportazione seguenti. 
 
