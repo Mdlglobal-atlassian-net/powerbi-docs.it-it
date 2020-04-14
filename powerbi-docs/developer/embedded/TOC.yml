@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Esportare il report nel file
           href: export-to.md
+        - name: Esportare il report impaginato in un file
+          href: export-paginated-report.md
         - name: Installazione automatica di app
           href: embed-auto-install-app.md
         - name: Creare un tenant di Azure Active Directory

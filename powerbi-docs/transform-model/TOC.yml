@@ -81,6 +81,8 @@
           items:
             - name: Creare e usare flussi di dati
               href: ../service-dataflows-create-use.md
+            - name: Alzare di livello o certificare i flussi di dati
+              href: service-dataflows-promote-certify.md
             - name: Usare il motore di calcolo avanzato con i flussi di dati
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Entità calcolate con Power BI Premium

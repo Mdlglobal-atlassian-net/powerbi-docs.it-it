@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Trovare il contenuto usando la pagina di destinazione Home
           href: end-user-home.md
-        - name: Informazioni su come porre domande in linguaggio naturale
-          href: end-user-q-and-a.md
+        - name: Elenco delle funzionalità disponibili per gli utenti finali
+          href: end-user-features.md
         - name: Accedere per la prima volta
           href: end-user-sign-in.md
         - name: Qual è la licenza di Power BI disponibile?
           href: end-user-license.md
+        - name: Informazioni su come porre domande in linguaggio naturale
+          href: end-user-q-and-a.md
         - name: Esplorare il nuovo aspetto
           href: ../service-new-look.md
         - name: '"Nuovo aspetto": dove sono le azioni?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: Informazioni su come si applicano le funzionalità di filtro incrociato agli oggetti visivi del report
               href: end-user-interactions.md
+            - name: Interagire con i filtri dei dati dei report
+              href: end-user-slicer.md
             - name: Esportare un report in formato PDF
               href: end-user-pdf.md
             - name: Esportare un report in PowerPoint

@@ -1,0 +1,21 @@
+- name: Catalogo delle risorse di apprendimento
+  href: index.yml
+  items:
+    - name: Decision maker aziendali
+      href: learning-catalog-bdm.md
+    - name: Consumer
+      href: learning-catalog-consumer.md
+    - name: Autori di report
+      href: learning-catalog-report-creator.md
+    - name: Analisti dei dati
+      href: learning-catalog-data-analyst.md
+    - name: Amministratori
+      href: learning-catalog-administrator.md
+    - name: Sviluppatori
+      href: learning-catalog-developer.md
+    - name: Ruoli di prevendita partner
+      href: learning-catalog-presales.md
+    - name: Consulenti funzionali
+      href: learning-catalog-functional-consultant.md
+    - name: Progettisti di soluzioni
+      href: learning-catalog-solution-architect.md

@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: Sicurezza a livello di riga
           href: ../service-admin-rls.md
+        - name: Configurare la certificazione di set di dati e flussi di dati
+          href: service-admin-setup-certification.md
         - name: Configurare app per dispositivi mobili con Intune
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium

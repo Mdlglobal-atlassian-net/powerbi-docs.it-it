@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Catalogo delle risorse di apprendimento per Power BI
+summary: Trovare tutte le opzioni di training per Power BI
+metadata:
+  title: Catalogo delle risorse di apprendimento per Power BI
+  description: Trovare le opzioni di training per Power BI appropriate per i ruoli nell'organizzazione.
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269042"
+landingContent:
+- title: Decision maker aziendali
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per decision maker aziendali e tecnici
+      url: learning-catalog-bdm.md#
+- title: Consumer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per utenti finali
+      url: learning-catalog-consumer.md#
+- title: Autori di report
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per autori di report
+      url: learning-catalog-report-creator.md#
+    - text: Inizia
+      url: learning-catalog-report-creator.md#get-started
+    - text: Dashboard
+      url: learning-catalog-report-creator.md#dashboards
+    - text: Progettazione di report
+      url: learning-catalog-report-creator.md#report-design
+    - text: Visualizzazione
+      url: learning-catalog-report-creator.md#visualization
+    - text: Integrazione
+      url: learning-catalog-report-creator.md#integration
+- title: Analisti dei dati
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per analisti dei dati
+      url: learning-catalog-data-analyst.md#
+    - text: Inizia
+      url: learning-catalog-data-analyst.md#get-started
+    - text: Procedure consigliate
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: Case study
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: Dashboard
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: Visualizzazioni
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: Governance e distribuzione
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: Integrazione
+      url: learning-catalog-data-analyst.md#integration
+    - text: Sicurezza
+      url: learning-catalog-data-analyst.md#security
+- title: Amministratori
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per amministratori
+      url: learning-catalog-administrator.md
+    - text: Inizia
+      url: learning-catalog-administrator.md#get-started
+    - text: Deploy
+      url: learning-catalog-administrator.md#deploy
+- title: Sviluppatori
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per sviluppatori
+      url: learning-catalog-developer.md
+    - text: Inizia
+      url: learning-catalog-developer.md#get-started
+    - text: Incorporati
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: Sviluppo
+      url: learning-catalog-developer.md#development
+- title: Ruoli di prevendita partner
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per prevendita partner
+      url: learning-catalog-presales.md#
+- title: Consulenti funzionali
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per consulenti di applicazioni funzionali
+      url: learning-catalog-functional-consultant.md
+    - text: Inizia
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: Procedure consigliate
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: Case study
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: Dashboard
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: Governance e distribuzione
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: Integrazione
+      url: learning-catalog-functional-consultant.md#integration
+    - text: Sicurezza
+      url: learning-catalog-functional-consultant.md#security
+    - text: Visualizzazioni
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: Progettisti di soluzioni
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Catalogo delle risorse di apprendimento per progettisti di soluzioni
+      url: learning-catalog-solution-architect.md
+    - text: Inizia
+      url: learning-catalog-solution-architect.md#get-started
+    - text: Case study
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: Prestazioni
+      url: learning-catalog-solution-architect.md#performance
