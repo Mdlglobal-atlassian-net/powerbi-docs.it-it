@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d74f35ecb50309bed445985049e306d89a7ba8bd
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609803"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006435"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Usare Informazioni dettagliate sull'intelligenza artificiale in Power BI Desktop (anteprima)
 
@@ -183,7 +183,7 @@ La procedura in questa sezione spiega come concedere a un utente di Power BI l'a
 
 I data scientist usano principalmente Python per sviluppare, e persino per distribuire, i modelli di Machine Learning per Machine Learning. A differenza di Machine Learning Studio (versione classica), che consente di automatizzare l'attività di creazione di un file di schema per il modello, nel caso di Machine Learning il data scientist deve generare esplicitamente il file di schema mediante Python.
 
-Questo file di schema deve essere incluso nel servizio Web distribuito per i modelli di Machine Learning. Per generare automaticamente lo schema per il servizio Web, è necessario fornire un esempio di input/output nello script di ingresso per il modello distribuito. Vedere la sottosezione sulla [generazione automatica (facoltativa) degli schemi Swagger nei modelli di distribuzione con Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) nella documentazione del servizio. Il collegamento include lo script di ingresso di esempio con le istruzioni per la generazione dello schema.
+Questo file di schema deve essere incluso nel servizio Web distribuito per i modelli di Machine Learning. Per generare automaticamente lo schema per il servizio Web, è necessario fornire un esempio di input/output nello script di ingresso per il modello distribuito. Vedere la sottosezione sulla [generazione automatica (facoltativa) degli schemi Swagger nei modelli di distribuzione con Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) nella documentazione del servizio. Il collegamento include lo script di ingresso di esempio con le istruzioni per la generazione dello schema.
 
 In particolare, le funzioni _@input\_schema_ e _@output\_schema_ nello script di ingresso fanno riferimento ai formati degli esempi di input e output nelle variabili _input\_sample_ e _output\_sample_ e usano questi esempi per generare una specifica OpenAPI (Swagger) per il servizio Web durante la distribuzione.
 

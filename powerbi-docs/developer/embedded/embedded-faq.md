@@ -96,7 +96,7 @@ L'utente può risolvere il problema chiamando [l'API refreshUserPermissions](htt
 
 È possibile usare il portale PBI per risalire alla propria area del tenant PBI.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Informazioni su Power BI
+`https://app.powerbi.com/` > ? > Informazioni su Power BI
 
 ![Informazioni su Power BI](media/embedded-faq/about-01.png)
 ![Area del tenant](media/embedded-faq/tenant-location-01.png)
