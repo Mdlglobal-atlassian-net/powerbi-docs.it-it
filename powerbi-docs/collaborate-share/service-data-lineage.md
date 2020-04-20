@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: cb58b71d4fe15458516dc0b1d3f25d79e6ef1a62
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79126053"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267274"
 ---
 # <a name="data-lineage-preview"></a>Derivazione dei dati (anteprima)
 Nei moderni progetti di business intelligence (BI) una delle possibili problematiche da affrontare è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione. La sfida è ancora più complessa se sono stati compilati progetti di analisi avanzati che comprendono più origini dati, elementi e dipendenze. Rispondere a domande come "Che cosa accade se si modificano questi dati?" o "Perché questo report non è aggiornato?" può essere difficile. Per trovare una risposta potrebbe essere necessario un team di esperti o un'analisi approfondita. Per poter rispondere a queste domande, è stata creata una visualizzazione di derivazione dei dati.
@@ -93,3 +93,4 @@ La visualizzazione di derivazione è un canvas interattivo. È possibile usare i
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Introduzione ai set di dati in aree di lavoro diverse (anteprima)](../service-datasets-across-workspaces.md)
+* [Analisi di impatto del set di dati](service-dataset-impact-analysis.md)

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273295"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267504"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Esportare report di Power BI in un file (anteprima)
 
@@ -20,8 +20,8 @@ L'API `exportToFile` consente di esportare un report di Power BI tramite una chi
 * **PPTX** (PowerPoint)
 * **PDF**
 * **PNG**
-    * Quando si esegue l'esportazione in un file PNG, un report con più pagine viene compresso in un file zip
-    * Ogni file all'interno del file zip PNG rappresenta una pagina del report
+    * Quando si esegue l'esportazione in un file PNG, un report con più pagine viene compresso in un file ZIP
+    * Ogni file all'interno del file ZIP rappresenta una pagina del report
     * I nomi di pagina corrispondono ai valori restituiti delle API [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) o [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)
 
 ## <a name="usage-examples"></a>Esempi di utilizzo
@@ -36,7 +36,7 @@ La funzionalità di esportazione può essere usata in diversi modi. Ecco alcuni 
 
 Prima di usare l'API, verificare che siano abilitate le [impostazioni del tenant amministratore](../../service-admin-portal.md#tenant-settings) seguenti:
 * **Esporta report come presentazioni di PowerPoint o documenti PDF**: abilitata per impostazione predefinita.
-* **Esporta report come file di immagine**: impostazione obbligatoria solo per i file PNG e disabilitata per impostazione predefinita.
+* **Esporta report come file di immagine**: impostazione obbligatoria solo per i file *PNG* e disabilitata per impostazione predefinita.
 
 L'API è asincrona. Quando viene chiamata l'API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile), viene attivato un processo di esportazione. Dopo l'attivazione di un processo di esportazione, usare il [polling](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) per tenere traccia del processo fino al suo completamento.
 
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>Passaggi successivi
 
 Vedere come incorporare contenuto per i clienti e l'organizzazione:
+
+> [!div class="nextstepaction"]
+>[Esportare il report impaginato in un file](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[Incorporamento per i clienti](embed-sample-for-customers.md)

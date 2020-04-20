@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621475"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267596"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Corso online: Report impaginati di Power BI
 
-Con il corso online **Report impaginati di Power BI** gli autori di report acquisiranno le conoscenze tecniche necessarie per creare, pubblicare e distribuire report impaginati di Power BI. È costituito da circa 4 ore e 20 minuti di contenuto visualizzabile, disponibile su richiesta e gratuito.
+Con il corso online **Report impaginati di Power BI** gli autori di report acquisiranno le conoscenze tecniche necessarie per creare, pubblicare e distribuire report impaginati di Power BI. È costituito da circa 4 ore e 20 minuti di contenuto visualizzabile, disponibile su richiesta e gratuito. È anche disponibile un [kit di autoapprendimento](#self-study-kit), che è possibile scaricare e usare per completare otto esercitazioni pratiche.
 
 In particolare, il corso è destinato a:
 
@@ -39,7 +39,7 @@ Al termine del corso, si saprà come:
 
 Guardare il video di presentazione e introduttivo per iniziare il corso.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>Struttura del corso
 
@@ -79,9 +79,32 @@ Il [corso di 24 video](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpj
   - Video 23: [Contenuti extra: Evoluzione della creazione di report impaginati](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 24: [Contenuti extra: Riduzione delle barriere all'ingresso](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>Contenuto aggiuntivo
+## <a name="self-study-kit"></a>Kit di autoapprendimento
 
-A breve verranno pubblicati la presentazione di PowerPoint e i lab pratici come kit di autoapprendimento. Tornare a questo articolo in un secondo momento per trovare i collegamenti per il download.
+È possibile scaricare e configurare un kit di autoapprendimento, costituito dal contenuto della presentazione e da otto esercitazioni pratiche:
+
+1. Usare [questo collegamento](https://aka.ms/priad-ilt-student) per scaricare il kit di autoapprendimento (con estensione zip) in locale nel PC.
+1. Aprire le proprietà del file e selezionare "Sblocca". Windows potrebbe contrassegnare il file come potenzialmente non attendibile.
+1. Estrarre il contenuto del file in una cartella del file system. È consigliabile creare una cartella con un nome facile da trovare, ad esempio **Training**. I documenti del lab indicheranno questa posizione come **&lt;CourseFolder&gt;** .
+
+Al termine dell'estrazione, sarà presente la cartella **PowerBIPRIAD**, con le sottocartelle seguenti:
+
+- **Lab01A** (e tutte le altre cartelle dei lab). Le cartelle dei lab contengono il documento del lab e le risorse del lab, che possono includere asset e file di soluzione.
+- **MySolution**: in questa cartella vengono archiviati i file della soluzione. Le istruzioni del lab indicheranno quando usarla.
+- **Presentation**: questa cartella contiene il file di presentazione del corso, disponibile come documento PDF.
+
+### <a name="getting-started"></a>Attività iniziali
+
+È consigliabile guardare prima il corso online. È possibile fare riferimento alla teoria della presentazione aprendo il file **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. La presentazione include otto diapositive del lab, che indicano quando è il momento di mettere in pratica la teoria. Include anche numerosi collegamenti alle risorse per trovare contenuti correlati.
+
+Quando si è pronti a iniziare il primo lab, aprire il file **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Questo documento illustra come accedere al servizio Power BI, caricare un set di dati e quindi installare [Power BI Report Builder](report-builder-power-bi.md).
+
+> [!NOTE]
+> È necessario avere un account Power BI. Se non se ne ha già uno, vedere [Iscriversi a Power BI come utente singolo](../service-self-service-signup-for-power-bi.md).
+>
+> È necessario accedere a Power BI per pubblicare un file di Power BI Desktop in un'area di lavoro. La pubblicazione restituisce un set di dati usato come origine dati del report. Non è necessaria una licenza di Power BI Pro o una sottoscrizione di Power BI Premium per usare un set di dati come origine dati del report.
+>
+> Alcune attività del lab comportano tuttavia la pubblicazione del report impaginato in un'area di lavoro. È possibile aprire un report impaginato solo quando viene salvato in un'area di lavoro nella [capacità dedicata](../service-premium-what-is.md#dedicated-capacities), con il carico di lavoro dei report impaginati abilitato. Se non si ha accesso a un'area di lavoro appropriata, verrà fornito un collegamento per guardare un video che illustra invece come pubblicare il report.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

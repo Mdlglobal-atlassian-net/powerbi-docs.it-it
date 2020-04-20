@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404188"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122245"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 
@@ -96,6 +96,10 @@ I report del server di report di Power BI non supportano queste funzionalità ne
 ### <a name="custom-security"></a>Sicurezza personalizzata
 
 Power BI Desktop ottimizzato per Server di report di Power BI non supporta la sicurezza personalizzata. Se Server di report di Power BI è configurato con un'estensione di sicurezza personalizzata, non è possibile salvare un report di Power BI da Power BI Desktop (ottimizzato per Server di report di Power BI) nell'istanza di Server di report di Power BI. È necessario salvare il file di report con estensione pbix da Power BI Desktop e caricarlo nel sito del portale di Server di report di Power BI.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Salvataggio di report in un server di report di Power BI in un dominio diverso
+
+Quando si salva un report di Power BI nel server di report di Power BI, vengono usate le credenziali di Windows. Il salvataggio diretto in un server di report in un dominio diverso con le credenziali di Windows non è supportato. È invece possibile usare un Web browser per visualizzare il server di report e caricare manualmente il file dal computer.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop per le versioni precedenti del server di report di Power BI
 

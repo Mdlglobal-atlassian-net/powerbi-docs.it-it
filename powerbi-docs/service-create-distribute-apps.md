@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147378"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006342"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -43,25 +43,26 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 
 1. Nella visualizzazione elenco dell'area di lavoro decidere quali dashboard e report impostare come **Incluso nell'app**.
 
-     ![Selezionare il dashboard per la pubblicazione](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Selezionare il dashboard per la pubblicazione](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Se si sceglie di non includere un report con un dashboard correlato, viene visualizzato un avviso accanto al report. È comunque possibile pubblicare l'app, ma il dashboard correlato non riporterà i riquadri del report.
+    Se si sceglie di non includere un report con un dashboard correlato, viene visualizzato un avviso accanto al report. È comunque possibile pubblicare l'app, ma il dashboard correlato non riporterà i riquadri del report.
 
-     ![Avviso sul dashboard correlato](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![Avviso sul dashboard correlato](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Selezionare il pulsante **Pubblica app** in alto a destra per avviare il processo di creazione e pubblicazione di un'app dall'area di lavoro.
    
-     ![Pubblica app](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Pubblica app](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. In **Installazione** immettere il nome e la descrizione per aiutare gli utenti a trovare l'app. È possibile impostare un colore tema per personalizzarla. È anche possibile aggiungere un collegamento a un sito di supporto.
    
-     ![Compilare l'app](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Compilare l'app](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. In **Navigazione** selezionare il contenuto da pubblicare come parte dell'app. Aggiungere quindi la struttura di spostamento dell'app per organizzare il contenuto in sezioni. Per i dettagli, vedere [Progettare l'esperienza di navigazione per l'app](#design-the-navigation-experience) in questo articolo.
    
-     ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. In **Autorizzazioni** decidere chi ha accesso all'app e quali operazioni può eseguire. 
+
     - Nelle [aree di lavoro classiche](service-create-workspaces.md): tutti gli utenti nell'organizzazione, utenti specifici o gruppi di sicurezza di Azure Active Directory (AAD).
     - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di AAD e gruppi di Office 365. Viene concesso automaticamente l'accesso all'app per l'area di lavoro a tutti gli utenti dell'area di lavoro.
     - È possibile consentire agli utenti dell'app di connettersi a set di dati sottostanti dell'app concedendo loro l'autorizzazione di compilazione. Questi set di dati verranno visualizzati durante la ricerca dei set di dati condivisi. Per altre informazioni su come [consentire agli utenti di connettersi ai set di dati dell'app](#allow-users-to-connect-to-datasets), vedere più avanti in questo articolo.
@@ -73,11 +74,11 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 
 6. È possibile installare l'app in modo automatico per i destinatari, se l'amministratore di Power BI ha abilitato questa impostazione nel portale di amministrazione di Power BI. Vedere altre informazioni sull'[installazione automatica di un'app](#automatically-install-apps-for-end-users) in questo articolo.
 
-     ![Autorizzazioni delle app](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![Autorizzazioni delle app](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. Quando si seleziona **Pubblica app**, viene visualizzato un messaggio che conferma che l'app è pronta per la pubblicazione. Nella finestra di dialogo **Condividi questa app** è possibile copiare l'URL che è un collegamento diretto all'app.
    
-     ![Fine dell'app](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![Fine dell'app](media/service-create-distribute-apps/power-bi-apps-success.png)
 
 È possibile inviare il collegamento diretto alle persone con cui l'app è stata condivisa oppure questa sarà reperibile nella scheda App passando a **Scarica ed esplora altre app da AppSource**. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](consumer/end-user-apps.md).
 
@@ -86,11 +87,11 @@ Dopo aver pubblicato l'app, si potrebbe volerla modificare o aggiornare. È faci
 
 1. Aprire l'area di lavoro che corrisponde all'app. 
    
-     ![Apri area di lavoro](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Apri area di lavoro](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Modificare i dashboard o i report in base alle esigenze.
  
-     L'area di lavoro è l'area di staging personale, quindi le modifiche non risultano applicate nell'app fino a quando non si pubblica di nuovo l'app. Ciò consente di apportare modifiche senza influire sulle app pubblicate.  
+    L'area di lavoro è l'area di staging personale, quindi le modifiche non risultano applicate nell'app fino a quando non si pubblica di nuovo l'app. Ciò consente di apportare modifiche senza influire sulle app pubblicate.  
  
     > [!IMPORTANT]
     > Se si rimuove un report e si aggiorna l'app, anche se il report viene di nuovo aggiunto all'app, gli utenti perderanno tutte le personalizzazioni, ad esempio segnalibri, commenti e così via.  
@@ -111,6 +112,7 @@ Quando si attiva **Nuovo generatore di struttura di spostamento**, è possibile 
 ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Per personalizzare ulteriormente la struttura di spostamento dell'app è possibile:
+
 * Riordinare gli elementi usando le frecce SU e GIÙ. 
 * Rinominare gli elementi in **Dettagli report**, **Dettagli dashboard** e **Dettagli della cartella di lavoro**.
 * Nascondere determinati elementi nella struttura di spostamento.
@@ -121,16 +123,20 @@ Quando si aggiunge un **collegamento**, in **Dettagli collegamento** è possibil
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Considerazioni sull'uso dell'opzione Nuovo generatore di struttura di spostamento
 Di seguito sono riportati aspetti generali da tenere presente quando si usa il nuovo generatore di struttura di spostamento:
-* Le pagine dei report vengono visualizzate nell'area della struttura di spostamento dell'app come sezione espandibile
+
+* Le pagine dei report vengono visualizzate nell'area della struttura di spostamento dell'app come sezione espandibile. Quando un report ha una pagina visibile, viene visualizzato solo il nome del report. Se si fa clic sul nome del report nel riquadro di spostamento, viene visualizzata la prima pagina del report. 
+
+    > [!NOTE]
+    > Il report potrebbe avere una sola pagina visibile perché il passaggio alle altre pagine è stato configurato con pulsanti o azioni di drill-through.
+
 * Se si disattiva il nuovo generatore di struttura di spostamento e quindi si pubblica o si aggiorna l'app, le personalizzazioni apportate andranno perse. Ad esempio sezioni, ordinamento, collegamenti e nomi personalizzati per gli elementi della struttura di spostamento andranno persi.
+* È disponibile l'opzione per non usare il generatore di app.
 
 Quando si aggiungono collegamenti alla struttura di spostamento dell'app e si seleziona l'opzione Area del contenuto:
 * Verificare che il collegamento possa essere incorporato. Alcuni servizi bloccano l'incorporamento dei propri contenuti in siti di terze parti, come Power BI.
 * L'incorporamento di contenuti del servizio Power BI come report o dashboard in altre aree di lavoro non è supportato. 
 * Incorporare il contenuto del server di report di Power BI tramite il contenuto del relativo URL di incorporamento nativo da una distribuzione locale. Usare la procedura descritta in [Creazione dell'URL del server di report di Power BI](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) per ottenere l'URL. Tenere presente che si applicano le regole di autenticazione. Per la visualizzazione del contenuto è pertanto necessaria una connessione VPN al server locale. 
 * Nella parte superiore del contenuto incorporato viene visualizzato un avviso di sicurezza a indicare che il contenuto non si trova in Power BI.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Installare automaticamente le app per gli utenti finali
 Se un amministratore concede le autorizzazioni necessarie, è possibile installare automaticamente le app, effettuandone il *push* agli utenti finali. Questa funzionalità push semplifica la distribuzione delle app giuste alle persone o ai gruppi appropriati. L'app viene visualizzata automaticamente nell'elenco del contenuto App degli utenti finali che non dovranno così cercarla in Microsoft AppSource o seguire un collegamento di installazione. Vedere come gli amministratori abilitano il [push delle app agli utenti finali](service-admin-portal.md#push-apps-to-end-users) nell'articolo Portale di amministrazione di Power BI.
@@ -181,22 +187,28 @@ Qualsiasi membro di un'area di lavoro può annullare la pubblicazione dell'app.
 
 * In un'area di lavoro selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro > **Annulla pubblicazione app**.
   
-     ![Annulla pubblicazione app](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Annulla pubblicazione app](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Questa azione disinstalla l'app per tutti gli utenti a cui è stata pubblicata, i quali non potranno più accedervi. L'area di lavoro o il relativo contenuto non verrà eliminato.
 
 ## <a name="view-your-published-app"></a>Visualizzare l'app pubblicata
 
-All'apertura dell'app, gli utenti visualizzano la struttura di spostamento creata, invece del riquadro di spostamento standard di Power BI. La struttura di spostamento dell'app elenca i report e i dashboard nelle sezioni definite. Elenca inoltre le singole pagine di ogni report, anziché semplicemente il nome del report.
+All'apertura dell'app, gli utenti visualizzano la struttura di spostamento creata, invece del riquadro di spostamento standard di Power BI. La struttura di spostamento dell'app elenca i report e i dashboard nelle sezioni definite. Elenca inoltre le singole pagine di ogni report, anziché semplicemente il nome del report. È possibile espandere e comprimere il riquadro di spostamento a sinistra usando le frecce sulla barra dei menu.
 
 ![App con struttura di spostamento](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+In modalità schermo intero è possibile visualizzare o nascondere il riquadro di spostamento selezionando l'opzione nell'angolo.
+
+![Navigazione a schermo intero](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Aspetti da tenere presenti sulla pubblicazione di app:
 
+* La pagina delle autorizzazioni non modifica l'autorizzazione per i set di dati in altre aree di lavoro. Viene visualizzato un avviso in cui si ricorda di concedere l'accesso a tali set di dati in modo indipendente. È consigliabile contattare il proprietario del set di dati prima di iniziare a compilare l'app per assicurarsi che sia accettabile concedere a tutti gli utenti dell'app l'accesso a tali set di dati. 
 * È possibile avere al massimo 100 utenti o gruppi nell'elenco di accesso per l'app. Si può però consentire l'accesso a più di 100 utenti. A tale scopo, usare uno o più gruppi di utenti che contengono tutti gli utenti desiderati.
 * Per la nuova esperienza dell'area di lavoro, se l'utente aggiunto all'elenco di accesso all'app ha già accesso all'app tramite l'area di lavoro, non verrà visualizzato nell'elenco di accesso per l'app.  
-
+* Quando si usa il nuovo aspetto per il servizio Power BI, l'URL del sito di supporto viene visualizzato nella scheda informazioni dell'elemento. Vedere altre informazioni sul ["nuovo aspetto" in Power BI](service-new-look.md).
+* Le app hanno un'opzione che consente agli utenti di condividere l'app e i set di dati sottostanti dell'app usando l'autorizzazione per la condivisione. Per le nuove app, questa opzione è disattivata per impostazione predefinita. È consigliabile disattivare questa opzione per le app esistenti e aggiornare l'autorizzazione nei set di dati sottostanti. L'opzione è stata abilitata per le app esistenti perché le app sono state progettate inizialmente per sostituire i pacchetti di contenuto, che avevano questo comportamento.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare un'area di lavoro](service-create-workspaces.md)

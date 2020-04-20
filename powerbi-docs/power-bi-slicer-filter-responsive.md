@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877592"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006504"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Creare un filtro dei dati reattivo e ridimensionabile in Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 I filtri dei dati reattivi possono essere ridimensionati per adattarsi a qualunque spazio nel report. Ridimensionando i filtri dei dati reattivi in base a dimensioni e forme diverse, ad esempio orizzontale, quadrata o verticale, i valori del filtro dei dati verranno automaticamente ridisposti. In Power BI Desktop e nel servizio Power BI, è possibile rendere reattivi i filtri dei dati orizzontali e i filtri dei dati data/intervallo. I filtri dei dati data/intervallo offrono anche aree di tocco migliorate per modificarli più facilmente con la punta del dito. È possibile creare filtri dei dati reattivi di piccole o grandi dimensioni. Verranno ridimensionati automaticamente per adattarsi ai report nel servizio Power BI e alle app Power BI per dispositivi mobili. 
 
@@ -26,7 +28,7 @@ I filtri dei dati reattivi possono essere ridimensionati per adattarsi a qualunq
 
 Il primo passaggio per creare un filtro dei dati dinamico prevede la creazione di un filtro dei dati di base. 
 
-1. Selezionare l'icona del **filtro dei dati** ![icona Filtro dei dati](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) nel riquadro **Visualizzazioni**.
+1. Selezionare l'icona del **filtro dei dati**![icona Filtro dei dati](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) nel riquadro **Visualizzazioni**.
 2. Trascinare il campo da filtrare su **Campo**.
 
     ![Aggiungere un campo al filtro dei dati](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -73,7 +75,7 @@ Altre informazioni su come creare [report ottimizzati per l'app Power BI per dis
 Per impostare un filtro dei dati temporale o di intervallo come reattivo, è possibile seguire la stessa procedura. Dopo aver impostato l'opzione **Reattivo** su **Sì**, osservare quanto segue:
 
 - Gli oggetti visivi ottimizzano l'ordine delle caselle di input a seconda delle dimensioni consentite nell'area di disegno. 
-- La visualizzazione dell'elemento dati è ottimizzata per aumentare al massimo l'usabilità del filtro dei dati, a seconda delle dimensioni consentite nell'area di disegno. 
+- La visualizzazione dell'elemento dati è ottimizzata per aumentare al massimo l'usabilità del filtro dei dati, a seconda delle dimensioni consentite nel canvas. 
 - Le nuove barre di controllo arrotondate su filtri dei dati ottimizzano le interazioni tramite tocco. 
 - Quando un oggetto visivo diventa troppo piccolo per essere utile, assume la forma di un'icona che rappresenta il tipo di oggetto visivo sottostante. Toccare due volte l'icona per aprire l'oggetto visivo in modalità messa a fuoco e interagire con esso. Questo permette di risparmiare spazio prezioso nella pagina del report senza alcuna perdita di funzionalità.
 

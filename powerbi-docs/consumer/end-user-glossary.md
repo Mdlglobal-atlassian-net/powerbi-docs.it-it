@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377237"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267228"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -36,8 +36,7 @@ L'account aziendale *Premium* (detto anche *capacità Premium*) aggiunge un live
 
 **annotate (annotazione)** Consente di scrivere righe, testo o timbri su una copia snapshot di un riquadro, report o oggetto visivo nell'app Power BI per dispositivi mobili per iOS e Android.
 
-**app, apps (app)** 
-
+**app** Aggregazione di dashboard, report e set di dati. Si riferisce anche alle app per dispositivi mobili per l'utilizzo di contenuto, ad esempio app Power BI per iOS.
 
 **AppSource** Repository online centralizzato in cui è possibile esplorare e individuare dashboard, report, set di dati e app per il download.
 
@@ -203,7 +202,7 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 
 **OneDrive for Business** e **OneDrive** OneDrive è un account personale e OneDrive for Business è destinato agli account di lavoro.  
 
-**On-premises (locale)** Termine usato per distinguere l'elaborazione locale, in cui le risorse di elaborazione si trovano nelle strutture personali di un cliente, dal cloud computing.
+**locale** Termine usato per distinguere l'elaborazione locale, in cui le risorse di elaborazione si trovano nelle strutture personali di un cliente, dal cloud computing.
 
 
 ## <a name="p"></a>P

@@ -1,31 +1,35 @@
 ---
 title: Filtri dei dati in Power BI
 description: Un filtro dei dati di Power BI offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265426"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006795"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Si supponga di voler consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche di evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure è possibile usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
-
-In questa esercitazione viene usato l'[esempio di analisi delle vendite al dettaglio](../sample-retail-analysis.md) disponibile gratuitamente per illustrare una procedura dettagliata per creare, formattare e usare filtri dei dati basati su un elenco o un intervallo di date. Si noterà che vi sono molti modi per formattare e usare i filtri dei dati. 
+Si supponga di voler consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche di evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure è possibile usare i *filtri dei dati*. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
 
 ![Animazione del filtro dei dati](media/power-bi-visualization-slicers/slicer2.gif)
+
+Questo articolo illustra la creazione e la formattazione di un filtro dei dati di base, tramite il pacchetto [Retail Analysis Sample](../sample-retail-analysis.md) gratuito. Spiega anche come è possibile controllare quali oggetti visivi sono interessati da un filtro dei dati e come eseguire la sincronizzazione con i filtri dei dati in altre pagine. Di seguito sono riportati alcuni altri articoli che illustrano come creare tipi specifici di filtri dei dati:
+
+- [Filtri dei dati per l'intervallo numerico](../desktop-slicer-numeric-range.md).
+- [Filtro dei dati per la data relativa](desktop-slicer-filter-date-range.md).
+- [Filtri dei dati ridimensionabili](../power-bi-slicer-filter-responsive.md) reattivi.
+- [Filtri dei dati per la gerarchia](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) con più campi.
 
 ## <a name="when-to-use-a-slicer"></a>Quando usare un filtro dei dati
 I filtri dei dati rappresentano un'ottima scelta quando si vuole eseguire quanto segue:
@@ -40,16 +44,13 @@ I filtri dei dati di Power BI non supportano:
 - Campi di input
 - Drilldown
 
+## <a name="create-a-slicer"></a>Creare un filtro dei dati
 
-## <a name="create-slicers"></a>Creare filtri dei dati
+Questo filtro dei dati filtra i dati in base al direttore di zona. Per proseguire con questa procedura, scaricare il [file Retail Analysis sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-**Creare un nuovo filtro dei dati in base al direttore di zona**
-
-1. Scaricare il [file PBIX Retail Analysis Sample](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
-
-1. Nella barra dei menu di Power BI Desktop selezionare **File** > **Apri**.
+1. Aprire Power BI Desktop e nella barra dei menu selezionare **File** > **Apri**.
    
-1. Passare al file **Retail Analysis Sample PBIX.pbix** e quindi selezionare **Apri**.
+1. Passare al file **Retail Analysis Sample PBIX.pbix**, quindi selezionare **Apri**.
 
 1. Nel riquadro sinistro selezionare l'icona **Report**![icona Report](media/power-bi-visualization-kpi/power-bi-report-view.png) per aprire il file in visualizzazione report.
 
@@ -73,36 +74,6 @@ I filtri dei dati di Power BI non supportano:
 
    >[!TIP]
    >Per impostazione predefinita, gli elementi dell'elenco del filtro dei dati vengono elencati in ordine crescente. Per visualizzarli in ordine decrescente, selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro del filtro dei dati e scegliere **Ordinamento decrescente**.
-
-**Creare un nuovo filtro dei dati in base a un intervallo di date**
-
-1. Selezionare la pagina **Overview** del report. Se non è stato selezionato alcun elemento nell'area di disegno report, nel riquadro **Campi** selezionare **Store** >  **OpenDate**.
-
-    Questa azione popola la casella **Valori** nel riquadro **Visualizzazioni** per creare una nuova visualizzazione.
-
-1. Con la nuova visualizzazione selezionata nel report, selezionare l'icona **Filtro dei dati** nel riquadro **Visualizzazioni** per convertire la nuova visualizzazione in un filtro dei dati. Questo filtro dei dati **OpenDate** consiste in un dispositivo di scorrimento con un intervallo di date specificato.
-    
-    ![Creare la visualizzazione OpenDate](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nell'area di disegno per liberare spazio per il filtro. Anche se le dimensioni del dispositivo di scorrimento cambiano in base a quelle del filtro dei dati, il controllo non è più visibile e le date vengono troncate se si riducono troppo le dimensioni del filtro. 
-
-1. Selezionare diversi intervalli di date con il dispositivo di scorrimento oppure selezionare un campo data per immettere una data o visualizzare un calendario popup per una selezione più precisa. Osservare gli effetti sulle altre visualizzazioni nella pagina.
-    
-    >[!NOTE]
-    >I tipi di dati numerici e data/ora generano per impostazione predefinita filtri dei dati con dispositivi di scorrimento per intervalli. A partire dall'aggiornamento di Power BI del mese di febbraio 2018, i dispositivi di scorrimento per intervalli di numeri interi si allineano ai numeri interi anziché mostrare i valori decimali. 
-
-1. Per modificare il tipo di filtro dei dati, passare il puntatore del mouse sull'area in alto a destra del filtro selezionato, selezionare l'icona della freccia verso il basso e scegliere una delle opzioni, ad esempio **Elenco** o **Prima**. Osservare come cambiano le opzioni di selezione e l'aspetto del filtro dei dati. 
- 
-    ![Nuovo intervallo per il filtro dei dati](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-Per altre informazioni sulla creazione e l'uso di filtri dei dati per un intervallo numerico, guardare il video seguente e vedere [Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop](../desktop-slicer-numeric-range.md).
-   > [!NOTE]
-   > Questo video usa una versione precedente di Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Controllare su quali oggetti visivi della pagina hanno effetto i filtri dei dati
 Per impostazione predefinita, i filtri dei dati in una pagina di report hanno effetto su tutte le altre visualizzazioni nella pagina, incluse le interazioni tra le visualizzazioni. Mentre si scelgono i valori nell'elenco e nei dispositivi di scorrimento delle date appena creati, osservare gli effetti prodotti sulle altre visualizzazioni. I dati filtrati risultano da un'intersezione dei valori selezionati in entrambi i filtri dei dati. 
@@ -208,7 +179,7 @@ Per altre informazioni sugli orientamenti orizzontali e i layout reattivi, veder
 
 ### <a name="title-options"></a>Opzioni del titolo
 **Titolo** è impostato su **Sì** per impostazione predefinita. Questa selezione mostra il nome del campo dati nella parte superiore del filtro dei dati. 
-- Per questa esercitazione, formattare il testo del titolo come segue: 
+- Per questo articolo, formattare il testo del titolo come segue: 
    - **Colore carattere**: rosso
    - **Dimensioni testo**: **14 pt**
    - **Allineamento**: **Centro**
@@ -216,7 +187,7 @@ Per altre informazioni sugli orientamenti orizzontali e i layout reattivi, veder
 
 
 ### <a name="items-options-list-slicers-only"></a>Opzioni degli elementi (solo per filtri dei dati con elenco)
-1. Per questa esercitazione, formattare le opzioni di **Elementi** come segue:
+1. Per questo articolo, formattare le opzioni di **Elementi** come segue:
     - **Colore carattere**: nero
     - **Sfondo**: rosso chiaro
     - **Dimensioni testo**: **10 pt**

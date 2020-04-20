@@ -1,28 +1,41 @@
 ---
-title: Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
-description: Informazioni su come usare un filtro dei dati per selezionare specifici intervalli in Power BI Desktop
+title: Usare il filtro dei dati per l'intervallo numerico in Power BI
+description: Informazioni su come usare un filtro dei dati per selezionare specifici intervalli in Power BI.
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539303"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006642"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Con il filtro dei dati per l'intervallo numerico è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Per filtrare i dati numerici sono disponibili tre opzioni: tra numeri, minore o uguale a un numero oppure maggiore o uguale a un numero. Questa semplice tecnica è un modo efficace per filtrare i dati.
 
 ![Oggetto visivo con filtro dei dati per l'intervallo numerico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>Usare il filtro dei dati per l'intervallo numerico
+## <a name="video"></a>Video
+
+In questo video verrà illustrata la creazione di un filtro dei dati per l'intervallo numerico.
+
+> [!NOTE]
+> Questo video usa una versione precedente di Power BI Desktop.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>Aggiungere un filtro dei dati per l'intervallo numerico
 
 È possibile usare il filtro dei dati per l'intervallo numerico proprio come si userebbe qualsiasi altro filtro dei dati. È sufficiente creare un oggetto visivo **filtro dei dati** per il report e quindi selezionare un valore numerico per il valore **Campo**. Nell'immagine seguente è stato selezionato il campo **LineTotal**.
 

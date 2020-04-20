@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979915"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267481"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -24,23 +24,13 @@ Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro
 
 I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determinate dallo SKU di capacità Premium. Le capacità Premium supportano anche carichi di lavoro aggiuntivi che possono usare le risorse della capacità. I valori di memoria predefiniti per questi carichi di lavoro si basano sui nodi di capacità disponibili per lo SKU. Le impostazioni della memoria massima non sono cumulative. La memoria massima specificata viene allocata in modo dinamico per l'intelligenza artificiale e i flussi di dati, ma staticamente viene allocata per i report impaginati.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKU di Microsoft Office per scenari SaaS (Software as a Service)
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| AI | 40% predefinita; 40% minima | 20% predefinita; 20% minima | 20% predefinita; 8% minima | 20% predefinita; 4% minima | 20% predefinita; 2% minima |
-| Flussi di dati | N/D |20% predefinita; 12% minima  | 20% predefinita; 5% minima  | 20% predefinita; 3% minima | 20% predefinita; 2% minima  |
-| Report impaginati | N/D |N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKU di Microsoft Azure per scenari PaaS (Platform as a Service)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| AI | N/D  | 40% predefinita; 40% minima  | 20% predefinita; 20% minima | 20% predefinita; 8% minima | 20% predefinita; 4% minima | 20% predefinita; 2% minima |
-| Flussi di dati         | 40% predefinita; 40% minima | 24% predefinita; 24% minima | 20% predefinita; 12% minima | 20% predefinita; 5% minima  | 20% predefinita; 3% minima | 20% predefinita; 2% minima   |
-| Report impaginati | N/D                      | N/D                      | N/D                     | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| | | | | | |
+|                   | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| AI                | Non supportato               | 40% predefinita; 40% minima  | 20% predefinita; 20% minima  | 20% predefinita; 8% minima  | 20% predefinita; 4% minima  | 20% predefinita; 2% minima   |
+| Set di dati          | 100% predefinita; 67% minima | 100% predefinita; 40% minima | 100% predefinita; 20% minima | 100% predefinita; 8% minima | 100% predefinita; 4% minima | 100% predefinita; 2% minima  |
+| Flussi di dati         | 40% predefinita; 40% minima  | 24% predefinita; 24% minima  | 20% predefinita; 12% minima  | 20% predefinita; 5% minima  | 20% predefinita; 3% minima  | 20% predefinita; 2% minima   |
+| Report impaginati | Non supportato               | Non supportato               | Non supportato               | 20% predefinita; 10% minima | 20% predefinita; 5% minima  | 20% predefinita; 2,5% minima |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>Impostazioni del carico di lavoro
 
@@ -85,7 +75,14 @@ Si noti che questa impostazione ha effetto solo sulle query DirectQuery, mentre 
 
 Usare questa impostazione per impedire agli autori di report di pubblicare un set di dati di grandi dimensioni che potrebbe influire negativamente sulla capacità. Si noti che Power BI non riesce a determinare le dimensioni effettive in memoria finché il set di dati non viene caricato in memoria. È possibile che un set di dati con una dimensione offline inferiore abbia un footprint della memoria maggiore rispetto a un set di dati con una dimensione offline maggiore.
 
-Se un set di dati esistente ha dimensioni superiori a quelle specificate per questa impostazione, il set di dati non viene caricato quando un utente prova ad accedervi.
+Se un set di dati esistente ha dimensioni superiori a quelle specificate per questa impostazione, il set di dati non viene caricato quando un utente prova ad accedervi. Il caricamento del set di dati può anche non riuscire se è più grande della memoria massima configurata per il carico di lavoro dei set di dati.
+
+Per salvaguardare le prestazioni del sistema, viene applicato un limite fisso aggiuntivo specifico dello SKU per le dimensioni massime del set di dati offline, indipendentemente dal valore configurato. Questo limite fisso non si applica ai set di dati di Power BI ottimizzati per dati di grandi dimensioni. Per altre informazioni, vedere [Modelli di grandi dimensioni in Power BI Premium](service-premium-large-models.md).
+
+|                                           | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| Limite fisso per le dimensioni massime del set di dati offline | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>Max Result Row Set Count (Numero massimo di set di righe di risultati)
 
@@ -110,6 +107,7 @@ Il valore predefinito è 0, che comporta l'applicazione del limite di memoria qu
 | Limite di memoria query automatico | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Per salvaguardare le prestazioni del sistema, viene applicato un limite fisso di 10 GB per tutte le query eseguite dai report di Power BI, indipendentemente dal limite di memoria delle query configurato dall'utente. Questo limite fisso non si applica alle query eseguite da strumenti che usano il protocollo Analysis Services (noto anche come XMLA). È opportuno che gli utenti considerino la possibilità di semplificare la query o i calcoli se la query richiede un elevato utilizzo di memoria.
 
 #### <a name="query-timeout"></a>Timeout query
 
@@ -132,8 +130,8 @@ Si noti che i report di Power BI eseguono l'override di questa impostazione pred
 
 Se l'opzione è abilitata, l'aggiornamento automatico delle pagine consente agli utenti con capacità Premium di aggiornare le pagine del report in base a un intervallo definito per le origini DirectQuery. L'amministratore della capacità può eseguire le operazioni seguenti:
 
-1.  Abilitare e disabilitare l'aggiornamento automatico delle pagine
-2.  Definire un intervallo di aggiornamento minimo
+- Abilitare e disabilitare l'aggiornamento automatico delle pagine
+- Definire un intervallo di aggiornamento minimo
 
 La figura seguente illustra il punto in cui viene impostato l'intervallo di aggiornamento automatico:
 
