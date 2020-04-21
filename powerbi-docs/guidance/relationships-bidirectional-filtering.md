@@ -126,7 +126,7 @@ CALCULATE(
 
 Durante la valutazione dell'espressione di misura **Different Countries Sold**, la relazione tra le tabelle **Customer** e **Sales** filtra in entrambe le direzioni.
 
-Nella tabella oggetti visivi seguente vengono visualizzate le statistiche relative a ogni prodotto venduto. La colonna **Quantity** è semplicemente la somma dei valori della quantità. La colonna **Different Countries Sold** rappresenta il conteggio distinto dei valori di paese-regione di tutti i clienti che hanno acquistato il prodotto.
+Nella tabella oggetti visivi seguente vengono visualizzate le statistiche relative a ogni prodotto venduto. La colonna **Quantity** è semplicemente la somma dei valori della quantità. La colonna **Different Countries Sold** rappresenta il conteggio distinto dei valori di paese-area di tutti i clienti che hanno acquistato il prodotto.
 
 ![Nella tabella oggetti visivi sono elencati due prodotti. Nella colonna "Different Countries Sold" jeans è 1 e T-shirt è 2.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
 
