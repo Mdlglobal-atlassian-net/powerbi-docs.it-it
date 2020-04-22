@@ -1,20 +1,20 @@
 ---
 title: Configurare il drill-through nei report di Power BI
 description: Informazioni su come usare il drill-through per eseguire il drill-down nei dati, nella pagina di un nuovo report, nei report di Power BI
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201459"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439780"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configurare il drill-through nei report di Power BI
 Con il *drill-through* nei report di Power BI è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Quando i lettori del report usano la funzione di drill-through, possono fare clic con il pulsante destro del mouse su un punto dati in altre pagine del report ed eseguire il drill-through nella pagina specifica per ottenere dettagli che vengono filtrati in base al contesto selezionato. È anche possibile [creare un pulsante che consente di eseguire il drill-through](desktop-drill-through-buttons.md) per visualizzare i dettagli quando si fa clic su di esso.

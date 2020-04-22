@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113612"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766274"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: Domande frequenti 
 
@@ -88,6 +88,8 @@ I report impaginati sono ideali per scenari che richiedono output con formattazi
 
 I report di Power BI sono ottimizzati per l'esplorazione e l'interattività.  Un report delle vendite in cui diversi venditori vogliono analizzare i dati nello stesso report in base ad area/settore/cliente specifici per esaminare le variazioni, è un esempio di report che è consigliabile gestire come report di Power BI.
 
+Per altre informazioni, vedere [Quando usare report impaginati in Power BI](../guidance/report-paginated-or-power-bi.md).
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>La documentazione indica Generatore report di Power BI come strumento di creazione preferito. È possibile creare report impaginati in SQL Server Data Tools per Power BI?
 
 Sì, ma il servizio Power BI consente solo di caricare un singolo elemento alla volta, quindi molti degli scenari usati dagli autori con SQL Server Data Tools (SSDT) non sono ancora supportati. Visualizzare l'[elenco completo delle funzionalità non supportate](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) disponibile più avanti in queste domande frequenti.  
@@ -110,10 +112,8 @@ Attualmente, i report impaginati non supportano quanto segue:
 
 - Origini dati condivise
 - Set di dati condivisi
-- Sottoreport
 - Drill-through e click-through in altri report
 - Report collegati
-- Livelli mappa di Bing
 - Tipi di carattere personalizzati
 
 Viene visualizzato un messaggio di errore se si prova a caricare un file con una funzionalità non supportata nel servizio Power BI, diversa da attivazione/disattivazione e ordinamento.

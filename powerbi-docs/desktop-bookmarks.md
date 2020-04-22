@@ -1,20 +1,20 @@
 ---
 title: Usare i segnalibri in Power BI Desktop per condividere informazioni dettagliate e creare storie
 description: I segnalibri in Power BI Desktop consentono di salvare visualizzazioni e impostazioni nei report e creare presentazioni di tipo storia
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/18/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: b986b86642e5ac3e6a8394010bf27922daaf5ea7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378985"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439918"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Creare segnalibri in Power BI Desktop per condividere informazioni dettagliate e creare storie
 Con i *segnalibri* in Power BI Desktop è possibile acquisire la visualizzazione attualmente configurata di una pagina del report, tra cui il filtro e lo stato degli oggetti visivi. In seguito, sarà possibile tornare a tale stato selezionando il segnalibro salvato. 

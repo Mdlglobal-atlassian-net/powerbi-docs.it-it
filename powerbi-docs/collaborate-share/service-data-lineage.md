@@ -1,5 +1,5 @@
 ---
-title: Derivazione dei dati (anteprima)
+title: Derivazione dei dati
 description: Nei moderni progetti di business intelligence (BI) una delle principali problematiche affrontate da molti clienti è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267274"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525400"
 ---
-# <a name="data-lineage-preview"></a>Derivazione dei dati (anteprima)
+# <a name="data-lineage"></a>Derivazione dei dati
 Nei moderni progetti di business intelligence (BI) una delle possibili problematiche da affrontare è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione. La sfida è ancora più complessa se sono stati compilati progetti di analisi avanzati che comprendono più origini dati, elementi e dipendenze. Rispondere a domande come "Che cosa accade se si modificano questi dati?" o "Perché questo report non è aggiornato?" può essere difficile. Per trovare una risposta potrebbe essere necessario un team di esperti o un'analisi approfondita. Per poter rispondere a queste domande, è stata creata una visualizzazione di derivazione dei dati.
 
 ![Visualizzazione di derivazione dei dati di Power BI](media/service-data-lineage/service-data-lineage-view.png)

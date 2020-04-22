@@ -1,20 +1,20 @@
 ---
 title: Usare il drill-through tra report in Power BI Desktop
 description: Informazioni su come eseguire il drill-through da un report a un altro in Power BI Desktop
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538854"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439803"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usare il drill-through tra report in Power BI
 
@@ -44,7 +44,7 @@ Dopo aver convalidato i modelli, consentire al report di origine di usare il dri
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**. 
 1. Nel riquadro di spostamento a sinistra nella finestra **Opzioni**, nella parte inferiore della sezione **File corrente** selezionare **Impostazioni report**. 
 1. In basso a destra, in **Drill-through tra report** selezionare **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report**. 
-1. Selezionare **OK**. 
+1. Seleziona **OK**. 
    
    ![Abilitare il drill-through tra report in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
@@ -70,7 +70,7 @@ La configurazione di una pagina di destinazione per il drill-through tra report 
 1. Se si usa la pagina solo per il drill-through tra report, eliminare il pulsante **Indietro** aggiunto automaticamente al canvas. Il pulsante **Indietro** funziona solo per la navigazione all'interno di un report. 
 1. Dopo aver configurato la pagina di destinazione, salvare il report se si usa il servizio Power BI o salvare e pubblicare il report se si usa Power BI Desktop.
 
-È tutto. I report sono pronti per il drill-through tra i report. 
+Questo è tutto. I report sono pronti per il drill-through tra i report. 
 
 ## <a name="use-cross-report-drillthrough"></a>Usare il drill-through tra report
 

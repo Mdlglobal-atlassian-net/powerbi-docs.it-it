@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877055"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637906"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Ottenere dati dai file delle cartelle di lavoro di Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -63,7 +63,7 @@ Se i file della cartella di lavoro vengono salvati in **OneDrive**, i dati in Po
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>Importare i dati di Excel in Power BI
+### <a name="import-excel-data-into-power-bi"></a>Importa i dati di Excel in Power BI
 Quando si sceglie **Importa**, tutti i dati supportati nelle tabelle e/o in un modello di dati vengono importati in un nuovo set di dati in Power BI. Gli eventuali fogli di Power View verranno creati nuovamente in Power BI come report.
 
 È possibile continuare a modificare la cartella di lavoro. Quando le modifiche vengono salvate, verranno sincronizzate con il set di dati in Power BI, in genere entro circa un'ora. Se è richiesto un riscontro immediato, è sufficiente fare di nuovo clic su Pubblica per esportare subito le modifiche apportate. Anche le visualizzazioni in report e dashboard verranno aggiornate.
@@ -124,8 +124,6 @@ Attualmente, quando si sceglie Importa, Power BI importa solo i dati appartenent
 **Pianifica aggiornamenti**: se il file della cartella di lavoro di Excel si connette a origini dati esterne o è stata eseguita l'importazione da un'unità locale, è possibile configurare l'aggiornamento pianificato per assicurarsi che il set di dati o il report sia sempre aggiornato. Nella maggior parte dei casi, la configurazione dell'aggiornamento pianificato è piuttosto semplice, ma la procedura dettagliata da eseguire esula dall'ambito di questo articolo. Per altre informazioni, vedere [Aggiornamento dei dati in Power BI](refresh-data.md).
 
 [Pubblicare in Power BI da Excel 2016](service-publish-from-excel.md)
-
-[Power BI Publisher per Excel](publisher-for-excel.md)
 
 [Aggiornamento dei dati in Power BI](refresh-data.md)
 

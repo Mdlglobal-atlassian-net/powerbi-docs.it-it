@@ -1,5 +1,5 @@
 ---
-title: Analisi di impatto del set di dati (anteprima)
+title: Analisi di impatto del set di dati
 description: Visualizzare e analizzare l'impatto downstream delle modifiche apportate ai set di dati.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268030"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525331"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Analisi di impatto del set di dati (anteprima)
+# <a name="dataset-impact-analysis"></a>Analisi di impatto del set di dati
 
 Quando si apportano modifiche a un set di dati o si pensa di farlo, è importante riuscire a valutare l'impatto che tali modifiche avranno sui report e sui dashboard downstream che dipendono dal set di dati. L'**analisi di impatto del set di dati** fornisce informazioni che consentono di eseguire questa valutazione.
 * Mostra quante aree di lavoro, report e dashboard potrebbero essere interessati dalla modifica e consente di passare facilmente alle aree di lavoro in cui si trovano i report e i dashboard interessati, per poter eseguire un'indagine più approfondita.
