@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8f2698d37c306451ccd73f2b1dd3017933077a0c
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006481"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065502"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Suggerimenti per ottimizzare i colori degli oggetti visivi nei report di Power BI
 
@@ -41,7 +41,7 @@ In breve, i principali otto suggerimenti per ottimizzare i colori degli oggetti 
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Suggerimenti per la creazione di report straordinari](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Suggerimenti per la creazione di report straordinari](../desktop-tips-and-tricks-for-creating-reports.md)
 - Video biDezine: [I principali otto suggerimenti per ottimizzare i colori degli oggetti visivi in Power BI](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)
