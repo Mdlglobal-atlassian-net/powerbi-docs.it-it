@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302451"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525446"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Sottoscrivere un report o un dashboard nel servizio Power BI 
 
@@ -33,7 +33,7 @@ Il messaggio di posta elettronica ricevuto include un collegamento per passare a
 
 
 ## <a name="requirements"></a>Requisiti
-La **creazione** di una sottoscrizione per se stessi richiede un tipo di [licenza](end-user-license.md) specifico. Se non si riesce a creare una sottoscrizione, contattare l'amministratore di Power BI. La **sottoscrizione per altri utenti** è disponibile solo per il proprietario del dashboard o del report. Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli, vedere  [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](paginated-reports-subscriptions.md) . 
+La **creazione** di una sottoscrizione per se stessi richiede un tipo di [licenza](end-user-license.md) specifico. Se non si riesce a creare una sottoscrizione, contattare l'amministratore di Power BI. La **sottoscrizione per altri utenti** è disponibile solo per il proprietario del dashboard o del report. Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli, vedere [Subscribe yourself and others to a paginated report in the Power BI service](paginated-reports-subscriptions.md) (Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Sottoscrivere una pagina di report o dashboard
 Il processo di sottoscrizione a un dashboard o a un report è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
@@ -55,9 +55,9 @@ Il processo di sottoscrizione a un dashboard o a un report è molto simile. Lo s
 
     c. Facoltativamente, aggiungere un oggetto e i dettagli del messaggio di posta elettronica. 
 
-    d. Selezionare una **Frequenza** per la sottoscrizione.  È possibile scegliere Ogni giorno, Settimanale o Dopo l'aggiornamento dei dati (una volta al giorno).  Per ricevere il messaggio di posta elettronica di sottoscrizione solo in alcuni giorni, selezionare **Settimanale** e scegliere i giorni in cui si vuole ricevere il messaggio.  Ad esempio, se si vuole ricevere il messaggio di posta elettronica di sottoscrizione solo nei giorni lavorativi, selezionare la frequenza **Settimanale** e deselezionare le caselle sab e dom. Se si seleziona  **Ogni mese**, immettere il giorno o i giorni del mese per i quali si desidera ricevere il messaggio di posta elettronica di sottoscrizione.   
+    d. Selezionare una **Frequenza** per la sottoscrizione.  È possibile scegliere Ogni giorno, Settimanale o Dopo l'aggiornamento dei dati (una volta al giorno).  Per ricevere il messaggio di posta elettronica di sottoscrizione solo in alcuni giorni, selezionare **Settimanale** e scegliere i giorni in cui si vuole ricevere il messaggio.  Ad esempio, se si vuole ricevere il messaggio di posta elettronica di sottoscrizione solo nei giorni lavorativi, selezionare la frequenza **Settimanale** e deselezionare le caselle sab e dom. Se si seleziona **Ogni mese**, immettere il giorno o i giorni del mese per i quali si desidera ricevere il messaggio di posta elettronica di sottoscrizione.   
 
-    e. Se si sceglie Ogni giorno, Ogni ora, Ogni mese o Ogni settimana, è anche possibile scegliere un'Ora pianificata per la sottoscrizione. L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti. Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario. Se si sceglie Ogni ora, in Ora pianificata selezionare l'orario desiderato per l'avvio della sottoscrizione e l'esecuzione avverrà ogni ora dopo tale orario.  
+    e. Se si sceglie Ogni giorno, Ogni ora, Ogni mese o Ogni settimana, è anche possibile scegliere un'ora pianificata per la sottoscrizione. L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti. Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario. Se si sceglie Ogni ora, in Ora pianificata selezionare l'orario desiderato per l'avvio della sottoscrizione e l'esecuzione avverrà ogni ora dopo tale orario.  
 
     f. Pianificare la data di inizio e fine immettendo le date nei campi di data. Per impostazione predefinita, l'ora di inizio della sottoscrizione corrisponde alla data di creazione e la data di fine a un anno più tardi. È possibile modificarla impostando una data nel futuro (fino all'anno 9999) in qualsiasi momento prima della scadenza della sottoscrizione. Quando una sottoscrizione raggiunge una data di fine, viene interrotta finché non viene riabilitata.  Si riceveranno delle notifiche prima della data di fine pianificata in cui viene chiesto se si intende prorogare la sottoscrizione.     
 
@@ -73,7 +73,7 @@ Il processo di sottoscrizione a un dashboard o a un report è molto simile. Lo s
 
 
 ## <a name="manage-your-subscriptions"></a>Gestire le sottoscrizioni
-Le sottoscrizioni possono essere gestite solo dall'utente che le ha create. Selezionare di nuovo **Sottoscrivi** e scegliere **Gestisci tutte le sottoscrizioni** nell'angolo inferiore sinistro (vedere gli screenshot precedenti). Le sottoscrizioni visualizzate variano in base all'area di lavoro attiva. Per vedere contemporaneamente tutte le sottoscrizioni per tutte le aree di lavoro, verificare che l' **Area di lavoro personale**  sia attiva. Per altre informazioni sulle aree di lavoro, vedere  [Aree di lavoro in Power BI](end-user-workspaces.md). 
+Le sottoscrizioni possono essere gestite solo dall'utente che le ha create. Selezionare di nuovo **Sottoscrivi** e scegliere **Gestisci tutte le sottoscrizioni** nell'angolo inferiore sinistro (vedere gli screenshot precedenti). Le sottoscrizioni visualizzate variano in base all'area di lavoro attiva. Per vedere contemporaneamente tutte le sottoscrizioni per tutte le aree di lavoro, assicurarsi che **Area di lavoro personale** sia attivo. Per altre informazioni sulle aree di lavoro, vedere [Workspaces in Power BI](end-user-workspaces.md) (Aree di lavoro in Power BI). 
 
 ![Visualizzare tutte le sottoscrizioni in Area di lavoro personale](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

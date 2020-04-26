@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404759"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439343"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
 
@@ -30,6 +30,12 @@ Esistono alcuni requisiti per la creazione di flussi di dati dalle cartelle CDM,
 * Per poterli aggiungere in Power BI, occorre avere autorizzazioni di lettura ed esecuzione per tutti i file e le cartelle nella cartella CDM.
 
 Le sezioni seguenti descrivono come creare un flusso di dati da una cartella CDM.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Autorizzazione degli utenti per le cartelle CDM per creare un flusso di dati
+
+Per creare un flusso di dati da una cartella CDM, è necessario aggiungere le autorizzazioni seguenti:
+* L'utente che accederà alla cartella CDM tramite Power BI deve essere elencato sotto il ruolo **Proprietario dei dati dei BLOB di archiviazione** dell'account di archiviazione.
+* L'utente che accederà alla cartella CDM tramite Power BI deve avere gli ACL di **accesso in lettura** e **accesso in esecuzione** sia per la cartella CDM che per i file e le cartelle al suo interno. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Creare un flusso di dati da una cartella CDM
 

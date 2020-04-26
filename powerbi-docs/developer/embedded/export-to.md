@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267504"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525469"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Esportare report di Power BI in un file (anteprima)
 
@@ -106,6 +106,7 @@ Se un processo supera il numero di richieste simultanee, non viene completato. S
 * Un report con un'etichetta di riservatezza non può essere esportato in un file PDF o PPTX usando un'[entità servizio](embed-service-principal.md).
 * Il numero di pagine che è possibile includere in un report esportato è 30. Se il report include più pagine, l'API restituisce un errore e il processo di esportazione viene annullato.
 * I [segnalibri personali](../../consumer/end-user-bookmarks.md#personal-bookmarks) e i [filtri permanenti](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) non sono supportati.
+* I cloud sovrani non sono supportati.
 * Gli oggetti visivi di Power BI elencati di seguito non sono supportati. Quando viene esportato un report contenente questi oggetti visivi, il rendering delle parti del report che contengono tali oggetti visivi non viene eseguito correttamente e viene visualizzato un simbolo di errore.
     * Oggetti visivi di Power BI non certificati
     * Oggetti visivi R

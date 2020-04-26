@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376685"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066326"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Che cosa sono le app modello di Power BI?
 
 Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI.  Questo articolo è una panoramica del programma delle app modello di Power BI.
 
-Le app modello sostituiscono gli attuali pacchetti di contenuto dei servizi. I partner Power BI possono creare set di contenuti predefiniti per i clienti e pubblicarli personalmente.  
+I partner Power BI possono creare set di contenuti predefiniti per i clienti e pubblicarli personalmente.  
 
 È possibile compilare app modello che consentono ai clienti di connettersi e creare un'istanza con i propri account. Gli esperti di dominio possono sbloccare i dati in modo da renderli facilmente utilizzabili dagli utenti aziendali.  
 
-Le app modello vengono inviate al portale Cloud Partner. Le app diventano quindi disponibili pubblicamente nel [marketplace di app per Power BI](https://app.powerbi.com/getdata/services) e in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Di seguito viene riportata una presentazione generale dell'esperienza di creazione di un'app modello pubblica.
+Si inviano le app modello al Centro per i partner. Le app diventano quindi disponibili pubblicamente nel [marketplace di app per Power BI](https://app.powerbi.com/getdata/services) e in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Di seguito viene riportata una presentazione generale dell'esperienza di creazione di un'app modello pubblica.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace di app per Power BI
 
@@ -38,7 +38,7 @@ Le app modello in Power BI consentono agli utenti Power BI Pro o Power BI Premiu
 Il processo generale di sviluppo e invio di un'app modello comporta diverse fasi. Alcune fasi possono includere più attività allo stesso tempo.
 
 
-| Fase | Power BI Desktop |  |Servizio Power BI  |  |Portale Cloud Partner  |
+| Fase | Power BI Desktop |  |Servizio Power BI  |  |Centro per i partner  |
 |---|--------|--|---------|---------|---------|
 | **1** | Compilare un modello di dati e un report in un file con estensione pbix |  | Creare un'area di lavoro. Importare un file con estensione pbix. Creare un dashboard complementare  |  | Registrarsi come partner |
 | **2** |  |  | Creare un pacchetto di test ed eseguire la convalida interna        |  | |
@@ -49,7 +49,7 @@ Il processo generale di sviluppo e invio di un'app modello comporta diverse fasi
 
 Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere Impostazioni app modello nel portale di amministrazione di Power BI. 
 
-Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessario soddisfare i requisiti per [diventare un editore del Marketplace cloud](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessario soddisfare i requisiti per [diventare un editore del Centro per i partner](https://docs.microsoft.com/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Passaggi di alto livello
 
@@ -67,7 +67,7 @@ Ecco i passaggi di alto livello.
 
 6. Alzare l'app di test al livello di pre-produzione per inviarla alla convalida in AppSource e testarla al di fuori del proprio tenant. 
 
-7. Inviare il contenuto alla piattaforma Cloud Partner per la pubblicazione. 
+7. Inviare il contenuto al [Centro per i partner](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) per la pubblicazione. 
 
 8. Pubblicare l'offerta in AppSource e passare l'app in produzione in Power BI.
 
@@ -75,11 +75,11 @@ Ecco i passaggi di alto livello.
 
 ## <a name="requirements"></a>Requisiti
 
-Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI. 
+Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI.
 
-Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessario soddisfare i requisiti per [diventare un editore del Marketplace cloud](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessario soddisfare i requisiti per [diventare un editore del Centro per i partner](https://docs.microsoft.com/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Gli invi di app modello vengono gestiti nel [portale Cloud Partner](https://cloudpartner.azure.com). Usare lo stesso account di registrazione del Centro per sviluppatori Microsoft per l'accesso. È necessario un solo account Microsoft per le offerte in AppSource. Gli account non devono essere specifici per singoli servizi o offerte.
+ > Gli invii di app modello vengono gestiti nel [Centro per i partner](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Usare lo stesso account di registrazione del Centro per sviluppatori Microsoft per l'accesso. È necessario un solo account Microsoft per le offerte in AppSource. Gli account non devono essere specifici per singoli servizi o offerte.
 
 ## <a name="tips"></a>Suggerimenti 
 

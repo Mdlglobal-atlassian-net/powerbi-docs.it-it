@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872035"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525561"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>"Nuovo aspetto": dove sono le azioni?
 
 Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Di conseguenza, molte azioni di menu sono state spostate. Le tabelle in questo articolo associano i percorsi precedenti a quelli nuovi. Per informazioni generali, vedere [Nuovo aspetto del servizio Power BI](service-new-look.md).
+
+Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la barra multifunzione aggiornata in Power BI Desktop](desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Azioni per i report nel nuovo aspetto
 

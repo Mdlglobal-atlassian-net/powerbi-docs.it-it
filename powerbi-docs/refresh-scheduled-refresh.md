@@ -1,20 +1,20 @@
 ---
 title: Configurare l'aggiornamento pianificato
 description: Questo articolo descrive la procedura per selezionare un gateway e configurare l'aggiornamento pianificato.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958403"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675685"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurare l'aggiornamento pianificato
 
@@ -34,15 +34,15 @@ Per visualizzare la schermata **Pianifica aggiornamenti**:
 
 Le opzioni visualizzate variano a seconda del fatto che il gateway online e disponibile sia personale o aziendale.
 
-Se non è disponibile alcun gateway, l'opzione **Connessione gateway** è disabilitata. Verrà anche visualizzato un messaggio che indica come installare il gateway personale.
+Se non è disponibile alcun gateway, l'opzione **Connessione gateway** è disabilitata. Viene anche visualizzato un messaggio che indica come installare il gateway personale.
 
 ![Gateway non configurato](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Se è stato configurato un gateway personale, è possibile selezionarlo se è online. Se non è disponibile, risulterà offline.
+Se è stato configurato un gateway personale che è online, è possibile selezionarlo. Se non è disponibile, viene visualizzato offline.
 
 ![Connessione gateway](media/refresh-scheduled-refresh/gateway-connection.png)
 
-Si può anche selezionare il gateway aziendale, se disponibile. Un gateway aziendale è disponibile solo il proprio account è elencato nella scheda **Utenti** dell'origine dati configurata per un determinato gateway.
+Si può anche selezionare il gateway aziendale, se disponibile. Un gateway aziendale è disponibile solo se il proprio account è elencato nella scheda **Utenti** dell'origine dati configurata per un determinato gateway.
 
 ## <a name="data-source-credentials"></a>Credenziali origine dati
 
@@ -57,7 +57,7 @@ L'accesso a un'origine dati viene richiesto solo al primo aggiornamento del set 
 > [!NOTE]
 > Se per alcuni metodi di autenticazione la password usata per accedere a un'origine dati scade o viene modificata, è necessario modificarla anche per l'origine dati in **Credenziali origine dati**.
 
-In caso di errori, il problema in genere è dovuto al fatto che il gateway è offline perché non è stato in grado di accedere a Windows e avviare il servizio oppure Power BI non è stato in grado di accedere alle origini dati per eseguire una query per i dati aggiornati. Se l'aggiornamento non riesce, controllare le impostazioni del set di dati. Se il servizio gateway è offline, l'errore viene visualizzato in **Stato**. Se Power BI non può accedere alle origini dati, l'errore viene visualizzato in Credenziali origine dati.
+In caso di errori, il problema in genere è dovuto al fatto che il gateway è offline perché non è riuscito ad accedere a Windows e avviare il servizio oppure Power BI non è riuscito ad accedere alle origini dati per eseguire una query per i dati aggiornati. Se l'aggiornamento non riesce, controllare le impostazioni del set di dati. Se il servizio gateway è offline, l'errore viene visualizzato in **Stato**. Se Power BI non può accedere alle origini dati, l'errore viene visualizzato in Credenziali origine dati.
 
 ### <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -82,7 +82,11 @@ Impostare il dispositivo di scorrimento **Mantieni aggiornati i dati** su **Sì*
 > [!NOTE]
 > Dopo due mesi di inattività, l'aggiornamento pianificato sul set di dati viene messo in pausa. Un set di dati viene considerato inattivo quando nessun utente ha visitato un qualsiasi dashboard o report integrato nel set di dati. A quel punto, il proprietario del set di dati viene informato tramite un messaggio di posta elettronica che l'aggiornamento pianificato è stato sospeso. La pianificazione dell'aggiornamento per il set di dati viene quindi visualizzata come **disabilitata**. Per riprendere la pianificazione dell'aggiornamento, è sufficiente accedere a un qualsiasi dashboard o report integrato nel set di dati.
 
-## <a name="whats-supported"></a>Che cosa è supportato?
+## <a name="whats-supported"></a>Attività supportate
+
+
+> [!NOTE]
+> Anche l'aggiornamento pianificato viene disabilitato automaticamente dopo quattro errori consecutivi.
 
 Alcuni set di dati sono supportati in gateway diversi per l'aggiornamento pianificato. Ecco un riferimento per comprendere cosa è disponibile.
 
@@ -91,7 +95,7 @@ Alcuni set di dati sono supportati in gateway diversi per l'aggiornamento pianif
 **Power BI Desktop**
 
 * Tutte le origini dati online visualizzate in **Recupera dati** ed Editor di query di Power BI Desktop.
-* Tutte le origini dati locali visualizzate in **Recupera dati** ed Editor di query di Power BI Desktop, tranne il file Hadoop (HDFS) e Microsoft Exchange.
+* Tutte le origini dati locali visualizzate in **Recupera dati** ed Editor di query di Power BI Desktop, a eccezione di File Hadoop (HDFS) e Microsoft Exchange.
 
 **Excel**
 

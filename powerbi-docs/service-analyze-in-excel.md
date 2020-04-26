@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427692"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675673"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si vuole usare Excel per visualizzare e interagire con un set di dati disponibile in Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.
@@ -68,9 +68,7 @@ Anche se è già stato effettuato l'accesso a Power BI nel browser, la prima vol
 ### <a name="users-with-multiple-power-bi-accounts"></a>Utenti con più account di Power BI
 Alcuni utenti che dispongono di più account di Power BI possono riscontrare situazioni in cui si è connessi a Power BI con un account, ma l'account che ha accesso al set di dati utilizzato in Analizza in Excel è diverso. In questi casi, è possibile ottenere un errore **Forbidden** (Non consentito) o di accesso al tentativo di accedere a un set di dati utilizzato in una cartella di lavoro di Analizza in Excel.
 
-Sarà possibile eseguire nuovamente l'accesso, ovvero accedere con l'account Power BI che può visualizzare il set di dati rilevabile da Analizza in Excel. È inoltre possibile selezionare **Profilo** nella scheda della barra multifunzione di **Power BI** in Excel, che identifica l'account con cui si è attualmente connessi, nonché fornisce un collegamento che consente di eseguire la disconnessione, quindi di accedere con un account diverso. È possibile [scaricare Power BI Publisher per Excel](https://www.microsoft.com/download/details.aspx?id=50729), se non è già stato installato, ovvero il modo in cui viene installata la barra multifunzione di Power BI in Excel.
-
-![Visualizzare il profilo](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+Sarà possibile eseguire nuovamente l'accesso, ovvero accedere con l'account Power BI che può visualizzare il set di dati rilevabile da Analizza in Excel. È anche possibile selezionare il proprio nome nella barra multifunzione superiore di Excel, che identifica l'account con cui si è attualmente connessi. Disconnettersi e accedere con un altro account.
 
 ### <a name="enable-data-connections"></a>Abilitare le connessioni dati
 Per analizzare i dati di Power BI in Excel, viene richiesto di verificare il nome del file e il percorso del file con estensione odc e quindi di selezionare **Abilita**.

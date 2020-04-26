@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488845"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439849"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -29,11 +29,41 @@ Vedere anche i canali di YouTube per informazioni su novità e caratteristiche.
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>Aprile 2020
+* Anteprima pubblica del nuovo aspetto delle aree di lavoro nel servizio Power BI.
+* Disponibilità generale della progettazione dell'esperienza di navigazione personalizzata per le [app Power BI](service-create-distribute-apps.md).
+
+## <a name="previous-months-2020"></a>Mesi precedenti (2020)
+### <a name="march-2020"></a>Marzo 2020
+* Esportare i report in file PDF, PPTX e PNG usando le API REST di Power BI.
+* Esperienza di ricerca globale nuova e rinnovata nel servizio Power BI.
+* Miglioramenti delle prestazioni per le [capacità Premium per più aree geografiche](service-admin-premium-multi-geo.md).
+* Anteprima pubblica degli [endpoint XMLA in lettura/scrittura](service-premium-connect-tools.md) in Power BI Premium.
+
+### <a name="february-2020"></a>Febbraio 2020
+* Possibilità di alzare di livello dashboard, report e app nella home di Power BI.
+* Nuova [scheda Power BI](service-embed-report-microsoft-teams.md) per incorporare report in Microsoft Teams.
+* Disponibilità generale dell'[aggiornamento incrementale](service-premium-incremental-refresh.md) con supporto per gli utenti di Power BI Pro.
+* Supporto delle sottoscrizioni di messaggi di posta elettronica per indirizzi di posta elettronica esterni.
+* Disponibilità generale di Bring Your Own Key ([BYOK](service-encryption-byok.md)) per Power BI Premium.
+
+### <a name="january-2020"></a>Gennaio 2020
+* [Metriche di utilizzo](service-usage-metrics.md) nuove e migliorate per l'esperienza delle aree di lavoro di Power BI.
+
+## <a name="2019"></a>2019
+### <a name="december-2019"></a>Dicembre 2019
+* Nuova API del log attività che consente agli amministratori del servizio Power BI di tenere traccia delle attività degli utenti e degli amministratori all'interno del tenant.
+
+### <a name="november-2019"></a>Novembre 2019
+* Anteprima pubblica di [modelli di grandi dimensioni in Power BI Premium](service-premium-large-models.md].
+* Anteprima pubblica dell'uso dei controlli di Microsoft Cloud App Security in Power BI.
+
 ### <a name="october-2019"></a>Ottobre 2019
 * Nuova azione Power Automate per l'aggiornamento dei set di dati di Power BI.
 * [Elenco di contatti](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) per report e dashboard nel servizio Power BI.
+* Disponibilità generale di [Machine Learning automatizzato](service-machine-learning-automated
+* Anteprima pubblica della visualizzazione di derivazione dei dati di Power BI.
 
-## <a name="previous-months-2019"></a>Mesi precedenti (2019)
 ### <a name="september-2019"></a>Settembre 2019
 * Aggiornamenti alla configurazione della connessione per le [app modello](service-template-apps-overview.md).
 

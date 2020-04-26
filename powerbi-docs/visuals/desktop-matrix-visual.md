@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576834"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637855"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creare oggetti visivi Matrice in Power BI
 
@@ -57,7 +57,8 @@ Lo stato di espansione della matrice viene salvato con il report. È possibile a
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Quando si crea un report in base a un modello multidimensionale di Analysis Services, è necessario tenere presenti alcune considerazioni speciali per l'espansione e la compressione se il modello usa la funzionalità Membro predefinito. Per altre informazioni, vedere [Usare i modelli multidimensionali in Power BI](../desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso del drill-down con l'oggetto visivo Matrice
 L'oggetto visivo Matrice consente di eseguire un'ampia varietà di interessanti attività di drill-down che in precedenza non erano disponibili. Tra queste, la possibilità di eseguire il drill-down usando righe e colonne e persino con sezioni e celle singole. Ecco una spiegazione del funzionamento di ognuna di queste attività.

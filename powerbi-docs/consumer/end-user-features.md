@@ -1,5 +1,5 @@
 ---
-title: Disponibilità delle funzionalità per gli utenti del piano gratuito
+title: Disponibilità delle funzionalità per gli utenti con licenze gratuite
 description: Spiegazione e grafico che mostrano le funzionalità disponibili per gli utenti finali e gli utenti del piano gratuito.
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268007"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065756"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>Elenco di funzionalità di Power BI per gli *utenti finali* e gli altri utenti del piano gratuito
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Elenco di funzionalità di Power BI per gli *utenti finali* e gli altri utenti con licenze gratuite
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ I progettisti possono condividere il contenuto in diversi modi, ma questo artico
 
 ![Riquadro di spostamento di Power BI](media/end-user-features/power-bi-share.png)
 
-L'[articolo precedente](end-user-license.md) ha descritto i diversi tipi di licenze di Power BI (gratuita e Pro) e di sottoscrizioni (Premium) e ha illustrato come cercare la licenza e la sottoscrizione in uso. Questo articolo elenca le funzionalità di Power BI disponibili, in base alla licenza e alla sottoscrizione.   
+Nell'[articolo precedente](end-user-license.md) si è appreso quali operazioni si possono eseguire con dashboard, report e app (contenuto) nel servizio Power BI a seconda di tre elementi, ovvero le licenze, i ruoli e le autorizzazioni, e della posizione in cui il contenuto è archiviato.
+
+Questo articolo elenca le funzionalità del servizio Power BI per gli *utenti finali*. Per definizione, gli *utenti finali* usano una licenza gratuita per operare nel servizio Power BI (non Power BI Desktop) e sono membri di organizzazioni con capacità Premium.
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>Riepilogo rapido della terminologia
-Prima di passare all'elenco, verranno esaminati alcuni concetti di Power BI. Si tratta solo di una rapida analisi. Per altri dettagli, vedere [Licenze e sottoscrizioni per gli utenti finali](end-user-license.md) o [Concetti di base di Power BI](end-user-basic-concepts.md).
+Prima di passare all'elenco, verranno esaminati alcuni concetti di Power BI. Si tratta solo di una rapida analisi. Per altri dettagli, vedere [Licenze per gli utenti finali](end-user-license.md) o [Concetti di base di Power BI](end-user-basic-concepts.md).
 
 ### <a name="workspaces-and-roles"></a>Aree di lavoro e ruoli
-Le aree di lavoro sono di due tipi: **Area di lavoro personale** e aree di lavoro per le app. Solo l'utente può accedere ad **Area di lavoro personale**. Per la collaborazione e la condivisione il progettista del contenuto deve usare un'area di lavoro per le app. 
+Le aree di lavoro sono di due tipi: **Area di lavoro personale** e aree di lavoro per le app. Solo l'utente può accedere all'**Area di lavoro personale**. Per la collaborazione e la condivisione i *progettisti* del contenuto, che hanno licenze Pro, devono usare un'area di lavoro per le app. 
 
-I *ruoli* delle aree di lavoro vengono usati dai progettisti di Power BI per gestire chi può fare cosa in un'area di lavoro. Agli *utenti finali* viene assegnato il ruolo **Visualizzatore**. 
+Nelle aree di lavoro per le app i progettisti assegnano i *ruoli* per gestire le operazioni che possono essere eseguite dai singoli utenti in un'area di lavoro. Agli *utenti finali* viene assegnato il ruolo **Visualizzatore**. 
 
-### <a name="premium-capacity-subscription"></a>Sottoscrizione con capacità Premium
-Quando un'organizzazione ha una sottoscrizione con capacità Premium, gli amministratori e gli utenti Pro possono assegnare aree di lavoro alla *capacità Premium*. Un'area di lavoro in una capacità Premium è uno spazio in cui gli utenti Pro possono condividere contenuti e collaborare con gli utenti con licenza gratuita, senza che questi debbano avere licenze Pro. All'interno di queste aree di lavoro gli utenti del piano gratuito hanno autorizzazioni elevate (vedere l'elenco riportato di seguito). 
+### <a name="premium-capacity"></a>Capacità Premium
+Quando un'organizzazione ha una sottoscrizione con capacità Premium, gli amministratori e gli utenti Pro possono assegnare aree di lavoro alla *capacità dedicata*. Un'area di lavoro in una capacità dedicata è uno spazio in cui gli utenti Pro possono condividere contenuti e collaborare con gli utenti con licenza gratuita, senza che questi debbano avere licenze Pro. All'interno di queste aree di lavoro gli utenti del piano gratuito hanno autorizzazioni elevate (vedere l'elenco riportato di seguito). 
 
 ### <a name="licenses"></a>Licenses 
-Ogni utente del servizio Power BI dispone di una licenza gratuita o di una licenza Pro. Alcune funzionalità sono riservate agli utenti con licenze Pro.
+Ogni utente del servizio Power BI dispone di una licenza gratuita o di una licenza Pro. Gli *utenti finali* hanno licenze gratuite.
 
-- **Licenza gratuita**: assegnata in genere agli *utenti finali* all'interno di un'organizzazione. Viene usata anche da chi si iscrive a Power BI individualmente e vuole provare il [servizio Power BI in modalità autonoma](../service-self-service-signup-for-power-bi.md).  
-- **Licenza Pro**: assegnata in genere a progettisti, analisti e sviluppatori all'interno di un'organizzazione.   
-- **Licenza gratuita + capacità Premium**: consente agli utenti del piano gratuito (*utenti finali*) di visualizzare e interagire con il contenuto che gli utenti Pro hanno creato nella capacità Premium e hanno condiviso. In questo modo, gli utenti Pro possono collaborare con gli utenti del piano gratuito all'interno dell'area di lavoro o usando **Condivisi con l'utente corrente**.
+- **Licenza gratuita**: assegnata in genere agli *utenti finali* all'interno di un'organizzazione. Vedere la prima immagine sopra. Viene assegnata anche a chi si iscrive al servizio Power BI individualmente e vuole provare il [servizio Power BI in modalità autonoma](../service-self-service-signup-for-power-bi.md). Vedere la seconda immagine sotto. 
 
-Gli utenti del piano gratuito membri di un'organizzazione che ha una sottoscrizione con capacità Premium hanno molti vantaggi. Purché i colleghi Pro usino aree di lavoro con capacità Premium per condividere il contenuto, gli utenti del piano gratuito possono visualizzarli e collaborare con loro.  **In questo modo, l'utente del piano gratuito diventa un *utente finale* di Power BI, con la possibilità di ricevere e condividere il contenuto per prendere decisioni aziendali.** 
+    ![Schermata che mostra l'utente con licenza gratuita](media/end-user-features/power-bi-free-organization.png)
+
+    Gli utenti del piano gratuito membri di un'organizzazione con capacità Premium hanno molti vantaggi. Purché i colleghi Pro usino aree di lavoro con capacità Premium per condividere il contenuto, gli utenti del piano gratuito possono visualizzarli e collaborare con loro.  **In questo modo, l'utente del piano gratuito diventa un *utente finale* di Power BI, con la possibilità di ricevere e condividere il contenuto per prendere decisioni aziendali.** 
+ 
+    ![Schermata che mostra l'utente con licenza gratuita](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Elenco di funzionalità di Power BI per gli *utenti finali* e gli utenti del piano gratuito
-La tabella seguente identifica le attività che possono essere eseguite da un *utente finale* in un'organizzazione con una sottoscrizione Premium.    
+La tabella seguente identifica le attività che possono essere eseguite da un *utente finale* che interagisce con il contenuto nella capacità Premium e nella capacità condivisa.    
 
-La prima colonna rappresenta un utente del piano gratuito che utilizza il contenuto in **Area di lavoro personale**. Questo utente non può collaborare con i colleghi nelle aree di lavoro. I colleghi non possono condividere direttamente il contenuto con questo utente, che non può condividere da **Area di lavoro personale**. 
+La prima colonna rappresenta un utente del piano gratuito che utilizza il contenuto in **Area di lavoro personale**. Questo utente non può collaborare con i colleghi nel servizio Power BI. I colleghi non possono condividere direttamente il contenuto con questo utente, che non può condividere da **Area di lavoro personale**. 
 
 La seconda colonna rappresenta un *utente finale*.  Un utente finale:
 
 - ha una licenza utente gratuita
 - fa parte di un'organizzazione che ha una sottoscrizione con capacità Premium
-- ottiene contenuto (app, dashboard, report) dagli utenti Pro che condividono tale contenuto usando le aree di lavoro per le app nella capacità Premium.
+- ottiene contenuto (app, dashboard, report) dagli utenti Pro che condividono tale contenuto usando le aree di lavoro per le app nella capacità dedicata.
 - ha il ruolo **Visualizzatore** per tali aree di lavoro per le app. 
 
 ### <a name="legend"></a>Legenda
@@ -72,7 +79,7 @@ La seconda colonna rappresenta un *utente finale*.  Un utente finale:
 
 ### <a name="feature-list"></a>Elenco di funzionalità
 
-|Funzionalità   | Scenario 1: utente del piano gratuito di Power BI che non ha accesso al contenuto ospitato nella capacità Premium.    | Scenario 2: utente del piano gratuito di Power BI con autorizzazioni di **Visualizzatore** per il contenuto archiviato nella capacità Premium. Questa persona è un *utente finale* di Power BI. |
+|Funzionalità   | Scenario 1: utente del piano gratuito di Power BI che non ha accesso al contenuto ospitato nella capacità dedicata.    | Scenario 2: utente del piano gratuito di Power BI con autorizzazioni di **Visualizzatore** per il contenuto archiviato nella capacità dedicata. Questa persona è un *utente finale* di Power BI. |
 |---|---|---|
 |**App** 
 |Installazione automatica | ![x arancione](media/end-user-features/orange-x.png) | ![punto verde](media/end-user-license/power-bi-green-dot.png)*| 

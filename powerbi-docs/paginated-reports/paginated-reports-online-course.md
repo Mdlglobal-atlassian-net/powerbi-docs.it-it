@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267596"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675654"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Corso online: Report impaginati di Power BI
 
@@ -83,7 +83,7 @@ Il [corso di 24 video](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpj
 
 È possibile scaricare e configurare un kit di autoapprendimento, costituito dal contenuto della presentazione e da otto esercitazioni pratiche:
 
-1. Usare [questo collegamento](https://aka.ms/priad-ilt-student) per scaricare il kit di autoapprendimento (con estensione zip) in locale nel PC.
+1. Usare [questo collegamento](https://aka.ms/priad-student) per scaricare il kit di autoapprendimento (con estensione zip) in locale nel PC.
 1. Aprire le proprietà del file e selezionare "Sblocca". Windows potrebbe contrassegnare il file come potenzialmente non attendibile.
 1. Estrarre il contenuto del file in una cartella del file system. È consigliabile creare una cartella con un nome facile da trovare, ad esempio **Training**. I documenti del lab indicheranno questa posizione come **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Quando si è pronti a iniziare il primo lab, aprire il file **&lt;CourseFolder&g
 > È necessario accedere a Power BI per pubblicare un file di Power BI Desktop in un'area di lavoro. La pubblicazione restituisce un set di dati usato come origine dati del report. Non è necessaria una licenza di Power BI Pro o una sottoscrizione di Power BI Premium per usare un set di dati come origine dati del report.
 >
 > Alcune attività del lab comportano tuttavia la pubblicazione del report impaginato in un'area di lavoro. È possibile aprire un report impaginato solo quando viene salvato in un'area di lavoro nella [capacità dedicata](../service-premium-what-is.md#dedicated-capacities), con il carico di lavoro dei report impaginati abilitato. Se non si ha accesso a un'area di lavoro appropriata, verrà fornito un collegamento per guardare un video che illustra invece come pubblicare il report.
+
+## <a name="instructor-kit"></a>Kit per docente
+
+Usare [questo collegamento](https://aka.ms/priad-instructor) per scaricare il kit per docente (con estensione zip) in locale nel PC.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

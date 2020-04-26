@@ -6,19 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881375"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637841"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuovo aspetto del servizio Power BI
 
-Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Il nuovo aspetto, più semplice, si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
+Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Il nuovo aspetto, più semplice, si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. 
+
+Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la barra multifunzione aggiornata in Power BI Desktop](desktop-ribbon.md).
+
+Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
 
 ![Panoramica delle modifiche apportate con il nuovo aspetto](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -87,4 +91,6 @@ L'esperienza di creazione è rimasta simile a quella della versione Desktop. Le 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Power BI per i consumatori](consumer/end-user-consumer.md)
+- [Usare la barra multifunzione aggiornata in Power BI Desktop](desktop-ribbon.md)
+- [Acconsentire esplicitamente al nuovo aspetto per le aree di lavoro](collaborate-share/service-workspaces-new-look.md)
+- [Power BI per i consumatori](consumer/end-user-consumer.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610019"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525538"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorare le prestazioni dei report in Power BI
 
@@ -23,7 +23,7 @@ Monitorare le prestazioni dei report in Power BI Desktop usando l'[app Power BI 
 Il monitoraggio delle prestazioni è applicabile nelle situazioni seguenti:
 
 - L'aggiornamento del modello di dati di importazione è lento.
-- I report DirectQuery o LiveConnection sono lenti.
+- I report DirectQuery o a connessione dinamica sono lenti.
 - I calcoli del modello sono lenti.
 
 Le query o gli oggetti visivi dei report con esecuzione lenta dovranno essere sottoposti a un'ottimizzazione continua.
@@ -85,6 +85,7 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - [Diagnostica delle query](/power-query/QueryDiagnostics)
 - [Analizzatore prestazioni](../desktop-performance-analyzer.md)
+- [Risolvere i problemi relativi alle prestazioni dei report in Power BI](report-performance-troubleshoot.md)
 - [App Power BI Premium Metrics](../service-premium-metrics-app.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

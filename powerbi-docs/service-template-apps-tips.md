@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273226"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066283"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -128,7 +128,7 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 * Creare istruzioni che il team di convalida deve seguire includendo le credenziali e i parametri necessari per la connessione ai dati.
 * L'applicazione deve includere un'icona dell'app in Power BI e nell'offerta CPP. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Configurare la pagina di destinazione. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Assicurarsi di seguire la documentazione in [Offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+* Assicurarsi di seguire la documentazione in [Centro per i partner -> Offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * Nel caso in cui un dashboard faccia parte dell'app, assicurarsi che non sia vuoto.
 * Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e che l'esperienza dell'app sia conforme a quanto previsto.
 * Prima di caricare il file con estensione pbix nell'area di lavoro modello, assicurarsi di scaricare tutte le connessioni non necessarie.

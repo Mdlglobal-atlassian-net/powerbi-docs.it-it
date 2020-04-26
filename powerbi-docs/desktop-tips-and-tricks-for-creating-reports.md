@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427255"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066229"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato. 
@@ -148,7 +148,7 @@ Per creare una relazione in questo caso, è necessario creare un set di dati log
 L'Editor di query è uno strumento molto potente per la modifica dei dati tramite operazioni di data shaping e pulizia, in modo da preparare i dati per la visualizzazione o la modellazione. Ci sono alcuni modelli che è importante conoscere.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Le colonne temporanee possono essere eliminate dopo aver calcolato un risultato.
-Spesso è necessario creare un calcolo in Power BI Desktop che trasforma i dati da più colonne in una singola colonna nuova. Questa operazione può essere complessa. Un semplice metodo per risolvere il problema consiste nello scomporre l'operazione in passaggi. Iniziare duplicando le colonne iniziali. Creare quindi i passaggi come colonne temporanee. Creare poi la colonna per il risultato finale. Sarà quindi possibile eliminare le colonne temporanee in modo che il set di dati finale non appaia disordinato. Questo è possibile perché la scheda della query esegue i passaggi in ordine. 
+Spesso è necessario creare un calcolo in Power BI Desktop che trasforma i dati da più colonne in una singola colonna nuova. Questa operazione può essere complessa. Un semplice metodo per risolvere il problema consiste nello scomporre l'operazione in passaggi. Iniziare duplicando le colonne iniziali. Creare quindi le colonne temporanee. Creare poi la colonna per il risultato finale. Sarà quindi possibile eliminare le colonne temporanee in modo che il set di dati finale non appaia disordinato. Questo è possibile perché la scheda della query esegue i passaggi in ordine. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Query duplicate o di riferimento seguite da un merge alla query originale
 Talvolta è utile calcolare le statistiche di riepilogo per un set di dati. Il modo più semplice per eseguire questa operazione consiste nel creare query duplicate o di riferimento nella scheda della query. Usare quindi il comando **Raggruppa per** per calcolare le statistiche di riepilogo. Le statistiche di riepilogo consentono di normalizzare i dati nei set di dati originali in modo che siano più facilmente confrontabili. Ciò è particolarmente utile per confrontare singoli valori con tutto l'insieme. A tale scopo, passare alla query originale e selezionare l'opzione di merge. Eseguire quindi il merge dei dati dalla query delle statistiche di riepilogo mettendo in corrispondenza gli identificatori appropriati. A questo punto si è pronti per normalizzare i dati come necessario per l'analisi.
@@ -161,3 +161,64 @@ DAX è il linguaggio delle formule di calcolo in Power BI Desktop, ottimizzato p
 [Informazioni di riferimento su DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [Centro risorse DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Servizio Power BI *e* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leggere e/o guardare "How to design visually stunning reports (and dashboards) in Power BI" (Come progettare report e dashboard di grande impatto visivo in Power BI)
+Il membro della community Miguel Myers è un Data Scientist oltre che un progettista grafico.
+
+![Report di Power BI](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Leggi il blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Guarda il webinar](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Considerare i destinatari
+Quali sono le metriche chiave che agevoleranno il processo decisionale? Come verrà usato il report? Quali presupposti specialistici o culturali possono incidere sulle scelte di progettazione? Di quali informazioni hanno bisogno i destinatari per ottenere buoni risultati?
+
+Dove verrà visualizzato il report? Se verrà visualizzato su un monitor di grandi dimensioni, è possibile inserirvi più contenuti. Se invece verrà visualizzato su un tablet, è preferibile usare meno visualizzazioni per migliorare la leggibilità.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Creare una storia e racchiuderla in una schermata
+Ogni pagina del report dovrebbe illustrare una storia a colpo d'occhio. Si possono evitare le barre di scorrimento nelle pagine? Il report risulta troppo disordinato o poco chiaro?  Rimuovere tutto ciò che non rappresenta informazioni essenziali facili da leggere e interpretare.
+
+### <a name="make-the-most-important-information-biggest"></a>Fare in modo che le informazioni più importanti siano più grandi
+Se il testo e le visualizzazioni nella pagina del report hanno tutti la stessa dimensione, sarà difficile per il lettore distinguere cosa è più importante. Ad esempio, le visualizzazioni a scheda sono un ottimo modo per mettere in evidenza un numero importante:  
+![Visualizzazione scheda](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Specificare il contesto  
+
+Usare funzionalità, ad esempio caselle di testo e descrizioni comandi, per aggiungere contesto alle visualizzazioni.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>Posizionare in alto le informazioni più importanti
+La maggior parte delle persone legge dall'alto verso il basso, quindi posizionare il livello di massimo dettaglio in alto e aggiungere dettagli procedendo nella direzione seguita dai destinatari per la lettura (da sinistra a destra o da destra a sinistra).
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usare la visualizzazione corretta per i dati e formattarla per facilitare la lettura
+Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visualizzazioni devono essere rappresentative e facili da "leggere" e interpretare.  Per alcuni dati e alcune visualizzazioni, è sufficiente una semplice visualizzazione grafica. Altri dati, invece, possono richiedere una visualizzazione più complessa. Usare titoli ed etichette e altre personalizzazioni per agevolare il lettore.  
+
+* Prestare attenzione ai grafici che tendono a distorcere la realtà, ad esempio i grafici 3D e quelli che non iniziano da zero. Tenere presente che il cervello umano fa più fatica a interpretare le forme circolari. I grafici a torta, i grafici ad anello e altri tipi di grafico circolari possono avere un aspetto gradevole ma può essere opportuno scegliere un oggetto visivo diverso.    
+* Le scale dei grafici sugli assi, l'ordinamento delle dimensioni dei grafici e anche i colori usati per i valori delle dimensioni all'interno dei grafici devono essere coerenti.    
+* Codificare i dati quantitativi in modo leggibile. Non usare più di tre o quattro numerali per visualizzare i numeri. Visualizzare le misure con uno o due numerali a sinistra del separatore decimale e usare la scala per le migliaia o i milioni, ad esempio indicare 3,4 milioni anziché 3.400.000.    
+* Provare a evitare di mescolare livelli di precisione e tempo. Fare in modo che gli intervalli di tempo siano ben chiari.  Non affiancare un grafico del mese scorso ad altri grafici filtrati di un determinato mese dell'anno.    
+* Provare anche a evitare di mescolare misure grandi e piccole sulla stessa scala, ad esempio su un grafico a linee o un grafico a barre.  Ad esempio, una misura può essere in milioni e l'altra in migliaia.  Con una scala così ampia, sarebbe difficile vedere le differenze della misura in migliaia.  Se è necessario mescolarle, scegliere una visualizzazione, ad esempio un grafico combinato, che consenta di usare un secondo asse.    
+* Evitare di riempire i grafici con etichette dati superflue. I valori nei grafici a barre, ***se sufficientemente grandi***, sono in genere comprensibili anche senza visualizzare il numero effettivo.   
+* Prestare attenzione all’[ordinamento dei grafici](consumer/end-user-change-sort.md). Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura. Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
+* I grafici a torta sono ideali in presenza di meno di otto categorie. Data l'impossibilità di confrontare i valori affiancati, il confronto tra valori è più difficile in un grafico a torta rispetto ai grafici a barre o agli istogrammi. I grafici a torta possono essere una buona soluzione per visualizzare le relazioni tra una parte e l'insieme anziché tra parti diverse. I grafici a misuratore sono ottimi per visualizzare lo stato corrente nell'ambito di un obiettivo.    
+
+Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Approfondimento sulle procedure consigliate per la progettazione dei dashboard
+Ecco alcune pubblicazioni che possono essere utili:
+
+* *Storytelling with Data* di Cole Nussbaumer Knafic
+* *Data points* di Nathan Yau
+* *The truthful Art* di Alberto Cairo
+* *Now You See It* di Stephen Few  
+* *Envisioning Information* di Edward Tufte  
+* *Advanced Presentations Design* di Andrew Abela   
+
+## <a name="next-steps"></a>Passaggi successivi
+* [Concetti di base del servizio Power BI](service-basic-concepts.md)
+* [Report in Power BI](consumer/end-user-reports.md)
+
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+
+

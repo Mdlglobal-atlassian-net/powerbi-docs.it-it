@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436020"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066349"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -166,7 +166,7 @@ Di seguito sono riportate le fasi in dettaglio:
 
     Se l'opzione non è visibile, contattare l'amministratore di Power BI per ottenere le [autorizzazioni per lo sviluppo di app modello](service-admin-portal.md#template-apps-settings) nel portale di amministrazione.
 11. Selezionare **Alza di livello** per confermare la scelta.
-12. Copiare il nuovo URL da condividere all'esterno del tenant per i test. Questo collegamento è lo stesso che si invia per iniziare il processo di distribuzione dell'app in AppSource creando una [nuova offerta nel portale Cloud Partner](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Inviare solo collegamenti di pre-produzione nel portale Cloud Partner. Solo dopo che l'app viene approvata e si riceve la notifica della pubblicazione in AppSource, è possibile alzare di livello questo pacchetto alla produzione in Power BI.
+12. Copiare il nuovo URL da condividere all'esterno del tenant per i test. Questo collegamento è lo stesso che si invia per iniziare il processo di distribuzione dell'app in AppSource creando una [nuova offerta nel Centro per i partner](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Inviare solo collegamenti di pre-produzione nel Centro per i partner. Solo dopo che l'app viene approvata e si riceve la notifica della pubblicazione in AppSource, è possibile alzare di livello questo pacchetto alla produzione in Power BI.
 13. Quando l'app è pronta per la produzione o la condivisione tramite AppSource, tornare al riquadro **Release Management** e selezionare **Alza di livello app** accanto a **Pre-produzione**.
 14. Selezionare **Alza di livello** per confermare la scelta.
 
@@ -174,10 +174,10 @@ Di seguito sono riportate le fasi in dettaglio:
 
     ![App in produzione](media/service-template-apps-create/power-bi-template-app-production.png)
 
-Per rendere disponibile l'app a migliaia di utenti di Power BI in tutto il mondo è consigliabile inviarla ad AppSource. Per informazioni dettagliate, vedere [Offerta di applicazione Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Per rendere disponibile l'app a migliaia di utenti di Power BI in tutto il mondo è consigliabile inviarla ad AppSource. Per informazioni dettagliate, vedere [Offerta di applicazione Power BI](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Osservare come i clienti interagiscono con l'app modello in [Install, customize, and distribute template apps in your organization](service-template-apps-install-distribute.md) (Installare, personalizzare e distribuire app modello nell'organizzazione).
 
-Per informazioni dettagliate sulla distribuzione dell'app, vedere [Offerta di applicazione Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Per informazioni dettagliate sulla distribuzione dell'app, vedere [Offerta di applicazione Power BI](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006619"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637593"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protezione dei dati in Power BI (anteprima)
 
@@ -105,7 +105,7 @@ Nell'elenco seguente sono riportate alcune limitazioni delle etichette di riserv
 * La [protezione HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) non è supportata per le etichette applicate in Power BI.
 * Per la visualizzazione e l'applicazione di etichette nelle app di Office devono essere soddisfatti determinati [requisiti di licenza](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Le etichette di riservatezza sono supportate solo per i tenant nel cloud globale (pubblico). Le etichette di riservatezza non sono supportate per i tenant in altri cloud.
-* Le etichette di riservatezza dei dati non sono supportate per le app modello.
+* Le etichette di riservatezza dei dati non sono supportate per le app modello. Le etichette di riservatezza impostate dall'autore dell'app modello vengono rimosse quando l'app viene estratta e installata e le etichette di riservatezza aggiunte agli artefatti in un'app modello installata da parte dell'utente dell'app vanno perdute (reimpostate su nothing) quando l'app viene aggiornata.
 * Power BI non supporta le etichette di riservatezza dei tipi di protezione **Non inoltrare** e **Ad hoc**.
 
 ## <a name="next-steps"></a>Passaggi successivi
