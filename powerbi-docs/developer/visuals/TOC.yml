@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Linee guida per gli oggetti visivi di Power BI
           href: guidelines-powerbi-visuals.md
+        - name: Suggerimenti per incrementare le prestazioni
+          href: performance-tips.md
         - name: Domande frequenti sugli oggetti visivi
           href: power-bi-custom-visuals-faq.md
         - name: Uso delle funzionalità
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Eseguire il debug degli oggetti visivi
           href: visuals-how-to-debug.md
+        - name: Sviluppo per dispositivi mobili
+          href: mobile-development.md
         - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Riferimento
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: Utilità per i tipi
               href: utils-type.md
+            - name: Utilità per i test
+              href: utils-test.md
             - name: Utilità per le descrizioni comandi
               href: utils-tooltip.md
             - name: Utilità per la vista dati
