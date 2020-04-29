@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436346"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256155"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Clienti di Power BI per Governo degli Stati Uniti
 Questo articolo è destinato ai clienti del Governo degli Stati Uniti che distribuiscono Power BI come parte di un piano Office 365 Government. I piani Government sono progettati per le esigenze specifiche delle organizzazioni che devono soddisfare gli standard di conformità e sicurezza degli Stati Uniti. Il servizio Power BI progettato per i clienti del governo degli Stati Uniti è diverso dalla versione commerciale del servizio Power BI. Le differenze delle funzionalità e delle capacità sono descritte nelle sezioni seguenti.
@@ -88,7 +88,7 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 |Creazione di report|Creare e visualizzare dashboard e report|Disponibile|Disponibile|Disponibile|
 |  |Aggiornamento dati pianificato|Disponibile|Disponibile|Disponibile|
 |  |Dashboard del team aggiornabili|Disponibile|Disponibile|Disponibile|
-|  |Report impaginati|Disponibile|Disponibile|Nella roadmap|
+|  |Report impaginati|Disponibile|Nella roadmap|Nella roadmap|
 |  |App modello|Non disponibile|Non disponibile|Non disponibile|
 |Connettersi ai dati|Importazione di dati e report da Excel|Disponibile|Disponibile|Disponibile|
 |  |Importazione di dati da file CSV|Disponibile|Disponibile|Disponibile|
