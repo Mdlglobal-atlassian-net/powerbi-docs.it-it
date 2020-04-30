@@ -2,20 +2,20 @@
 title: Esempio di rilevamento del COVID-19 per enti locali e statali degli Stati Uniti
 description: Scaricare e modificare il report di esempio con dati a livello locale e statale per la pandemia di COVID-19.
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979777"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584918"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Esempio di rilevamento del COVID-19 per enti locali e statali degli Stati Uniti
 
@@ -48,7 +48,7 @@ Per includere il grafico interattivo nel sito, copiare e incollare il codice di 
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Il codice di incorporamento è un elemento iFrame HTML che può essere inserito in qualsiasi pagina HTML. Modificare la larghezza e l'altezza dell'iFrame per adattarlo all'interno del sito. Il report di esempio viene creato in 16:9, è quindi necessario scegliere delle dimensioni che rispettino tale proporzione. Una volta implementato correttamente, l'elemento grafico viene visualizzato senza bordi grigi aggiuntivi. Quando si apportano queste modifiche, è utile [rivedere i suggerimenti per il ridimensionamento dell'iFrame](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width).
+Il codice di incorporamento è un elemento iFrame HTML che può essere inserito in qualsiasi pagina HTML. Modificare la larghezza e l'altezza dell'iFrame per adattarlo all'interno del sito. Il report di esempio viene creato in 16:9, è quindi necessario scegliere delle dimensioni che rispettino tale proporzione. Una volta implementato correttamente, l'elemento grafico viene visualizzato senza bordi grigi aggiuntivi. Quando si apportano queste modifiche, è utile [rivedere i suggerimenti per il ridimensionamento dell'iFrame](../service-publish-to-web.md#tips-for-iframe-height-and-width).
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Opzione 2: personalizzare il file di Power BI di esempio
 
@@ -112,7 +112,7 @@ Se si vuole pubblicare il report personalizzato nel proprio sito Web, è consigl
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Creare un codice di incorporamento per la pubblicazione sul Web 
 
-Per incorporare il report personalizzato nel proprio sito Web, seguire le istruzioni per [creare il codice di incorporamento per la pubblicazione sul Web](../service-publish-to-web.md#how-to-use-publish-to-web).
+Per incorporare il report personalizzato nel proprio sito Web, seguire le istruzioni per [creare il codice di incorporamento per la pubblicazione sul Web](../service-publish-to-web.md#create-embed-codes-with-publish-to-web).
 
 Una volta inserito il codice di incorporamento, inserire nel sito Web l'elemento iFrame della finestra di dialogo di conferma.
 
