@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698315"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255870"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -35,7 +35,7 @@ Queste restrizioni e note possono cambiare dal momento che le esperienze vengono
 ## <a name="using-the-open-in-power-bi-button"></a>Uso del pulsante "Apri in Power BI"
 
 > [!Important]
-> La connettività ad Azure SQL Data Warehouse è stata migliorata.  Per connettersi in modo ottimale all'origine dati di Azure SQL Data Warehouse, usare Power BI Desktop.  Dopo avere compilato il modello e il report, è possibile pubblicarlo nel servizio Power BI.  Il connettore diretto per Azure SQL Data Warehouse nel servizio Power BI ora è deprecato.
+> La connettività ad Azure SQL Data Warehouse è stata migliorata.  Per connettersi in modo ottimale all'origine dati di Azure SQL Data Warehouse, usare Power BI Desktop.  Dopo aver compilato il modello e il report, è possibile pubblicarlo nel servizio Power BI.  Il connettore diretto per Azure SQL Data Warehouse nel servizio Power BI ora è deprecato.
 
 Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di Azure, che consente di iniziare a creare facilmente nuovi dashboard in Power BI.
 
@@ -61,7 +61,7 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
     ![Database](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. Selezionare **SQL Data Warehouse**\>**Connetti**.
+3. Selezionare **SQL Data Warehouse** \> **Connetti**.
 
     ![Azure SQL DW con connessione diretta](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114453"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585405"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -203,32 +203,30 @@ La figura seguente mostra il messaggio che viene visualizzato al momento della c
 
 ### <a name="publish-to-web"></a>Pubblica sul Web
 
-Gli utenti dell'organizzazione possono pubblicare report sul Web. [Altre informazioni](service-publish-to-web.md) In questo modo il report e i dati in esso contenuti vengono resi disponibili a chiunque sul Web.
+L'impostazione **Pubblica sul Web** offre agli amministratori di tenant di Power BI opzioni che consentono agli utenti di creare codice di incorporamento per pubblicare report sul Web. Con questa funzionalità il report e i relativi dati vengono resi disponibili a chiunque sul Web. Vedere altre informazioni sulla [pubblicazione sul Web](service-publish-to-web.md).
 
 > [!NOTE]
-> Un amministratore di Power BI deve consentire la creazione di nuovi codici di incorporamento per la pubblicazione sul Web. Le organizzazioni potrebbero avere codici di incorporamento esistenti. Usare la pagina dei [codici di incorporamento](service-admin-portal.md#embed-codes) per visualizzare i report attualmente pubblicati.
+> Solo gli amministratori di Power BI possono consentire la creazione di nuovo codice di incorporamento per la pubblicazione sul Web. Le organizzazioni potrebbero avere codici di incorporamento esistenti. Vedere la sezione [Codici di incorporamento](service-admin-portal.md#embed-codes) nel portale di amministrazione per visualizzare i report attualmente pubblicati.
 
-La figura seguente mostra il menu **File** per un report quando l'impostazione **Pubblica sul Web** è abilitata.
+La figura seguente mostra il menu **Altre opzioni (...)** per un report quando l'impostazione **Pubblica sul Web** è abilitata.
 
-![Pubblica sul Web nel menu File](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Pubblica sul Web nel menu Altre opzioni](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-L'impostazione **Pubblica sul Web** offre opzioni per le quali gli utenti possono creare codici di incorporamento.
+L'impostazione **Pubblica sul Web** nel portale di amministrazione offre opzioni per le quali gli utenti possono creare codici di incorporamento.
 
 ![Impostazione Pubblica sul Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-Agli utenti verrà richiesto di contattare l'amministratore di Power BI perché consenta loro di creare un codice di incorporamento quando l'opzione **Scegliere la modalità di funzionamento dei codici di incorporamento** è impostata su **Consenti solo codici di incorporamento esistenti** e l'impostazione **Pubblica sul Web** è **Abilitata**.
+Gli amministratori possono impostare **Pubblica sul Web** su **Abilitato** e **Scegliere la modalità di funzionamento dei codici di incorporamento** su **Consenti solo codici di incorporamento esistenti**. In questo caso gli utenti possono creare codici di incorporamento, ma devono contattare l'amministratore di Power BI per ottenere l'autorizzazione.
 
 ![Richiesta di Pubblica sul Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'impostazione di **Pubblica sul Web**.
 
 |Feature |Abilitata per l'intera organizzazione |Disabilitata per l'intera organizzazione |Gruppi di sicurezza specifici   |
 |---------|---------|---------|---------|
-|**Pubblica sul Web** nel menu **File** del report.|Abilitata per tutti|Non visibile per tutti|Visibile solo per utenti o gruppi autorizzati.|
+|**Pubblica sul Web** nel menu **Altre opzioni (...)** del report|Abilitata per tutti|Non visibile per tutti|Visibile solo per utenti o gruppi autorizzati.|
 |**Gestisci codici di incorporamento** in **Impostazioni**|Abilitata per tutti|Abilitata per tutti|Abilitata per tutti<br><br>Opzione * **Elimina** solo per utenti o gruppi autorizzati.<br>Opzione * **Ottieni i codici** abilitata per tutti.|
-|**Incorpora codici** nel portale di amministrazione|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato|Stato indica **Disabilitato**|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato<br><br>Se un utente non è autorizzato in base alla configurazione del tenant, lo stato indica **Violazione**.|
+|**Incorpora codici** nel portale di amministrazione|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato|Stato indica **Disabilitato**|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato<br><br>Se un utente non è autorizzato in base all'impostazione del tenant, lo stato indica **Violazione**.|
 |Report pubblicati esistenti|Tutti abilitati|Tutti disabilitati|Il rendering di tutti i report viene continuato per tutti.|
 
 ### <a name="export-data"></a>Esporta dati

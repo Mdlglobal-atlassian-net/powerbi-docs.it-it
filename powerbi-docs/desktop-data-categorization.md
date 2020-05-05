@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709557"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584827"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Specificare le categorie di dati in Power BI Desktop
 In *Power BI Desktop* è possibile specificare la categoria di dati per una colonna in modo tale che Power BI Desktop sappia come trattare i valori in una visualizzazione.
@@ -33,7 +33,7 @@ Power BI Desktop deve mostrare un'immagine del mondo con i paesi evidenziati? Op
 **Per specificare una categoria di dati**
 
 1. Nell'elenco **Campi** nella visualizzazione **Report** o nella visualizzazione **Dati** selezionare il campo da archiviare con una categorizzazione diversa.
-2. Sulla barra multifunzione, nell'area **Proprietà** della scheda **Creazione di modelli** selezionare la freccia a discesa accanto a **Categoria di dati**.  Questo elenco visualizza le categorie di dati che è possibile scegliere per la colonna. Alcune selezioni potrebbero essere disabilitate se non vengono usate con il tipo di dati corrente della colonna.  Se ad esempio una colonna è un tipo di dati binario, Power BI Desktop non consentirà di scegliere le categorie di dati geografici. 
+2. Sulla barra multifunzione, nell'area **Proprietà** della scheda **Creazione di modelli** selezionare la freccia a discesa accanto a **Categoria di dati**.  Questo elenco visualizza le categorie di dati che è possibile scegliere per la colonna. Alcune selezioni potrebbero essere disabilitate se non vengono usate con il tipo di dati corrente della colonna.  Se ad esempio una colonna è un tipo di dati di data o ora, Power BI Desktop non consentirà di scegliere le categorie di dati geografici. 
 3. Selezionare la categoria desiderata.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

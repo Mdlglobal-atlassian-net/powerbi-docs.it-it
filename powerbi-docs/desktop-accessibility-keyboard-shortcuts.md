@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869366"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584808"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Tasti di scelta rapida in Power BI Desktop
 
@@ -56,6 +56,7 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 | Selezione multipla | **CTRL+INVIO** o **CTRL+BARRA SPAZIATRICE** |
 | Clic con il pulsante destro del mouse | <ul><li>Tastiera di Windows: **tasto per l'accesso al menu di scelta rapida di Windows+F10**. La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altre tastiere: **MAIUSC+F10**</li></ul> |
 | Cancella selezione | **CTRL+MAIUSC+C** |
+| Mostrare o nascondere la descrizione comando | **CTRL+H** |
 
 ## <a name="table-and-matrix-navigation"></a>Spostamento in tabelle e matrici
 | Azione da eseguire          | Premere                |

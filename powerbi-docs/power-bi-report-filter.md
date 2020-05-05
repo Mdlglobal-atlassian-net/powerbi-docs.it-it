@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114051"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120319"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Usare i filtri nei report di Power BI
 
@@ -257,6 +257,10 @@ Sebbene questa funzionalità di ricerca nel riquadro Filtri sia attiva per impos
 Nella sezione Esperienza di filtro delle impostazioni del report è disponibile un'opzione per controllare se gli utenti possono modificare il tipo di filtro.
 
 ![Limitare la modifica del tipo di filtro](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+
+Pubblica sul Web non visualizza il riquadro Filtri. Se si prevede di pubblicare un report sul Web, è consigliabile aggiungere filtri dei dati per l'applicazione di filtri.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496925"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120276"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 
@@ -28,6 +28,11 @@ Dopo aver acquisito [una conoscenza di base delle app](end-user-apps.md), verrà
 Esistono diversi modi per ottenere una nuova app. Un collega addetto alla progettazione di report può installare l'app automaticamente nell'account Power BI o inviare un collegamento diretto a un'app. È anche possibile passare ad AppSource e cercare le app rese disponibili dai progettisti di app sia all'interno che all'esterno della società. 
 
 In Power BI nel dispositivo mobile è possibile installare un'app solo da un collegamento diretto, non da AppSource. Se il designer dell'app la installa automaticamente, verrà visualizzata nell'elenco delle app.
+
+## <a name="apps-and-licenses"></a>App e licenze
+Non tutti gli utenti di Power BI possono visualizzare e interagire con le app. 
+- Se si ha una licenza gratuita, è possibile aprire app che sono state condivise da altri utenti e sono archiviate in un'area di lavoro nella capacità Premium.
+- Se si ha una licenza Pro, è possibile aprire app che sono state condivise da altri utenti.
 
 ## <a name="install-an-app-from-a-direct-link"></a>Installare un'app da un collegamento diretto
 Il modo più semplice per installare una nuova app consiste nell'ottenere un collegamento diretto, tramite posta elettronica, dal progettista dell'app.  
@@ -45,7 +50,10 @@ Quando si seleziona il collegamento nel messaggio di posta elettronica nel dispo
 ![Elenco del contenuto dell'app nel dispositivo mobile](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Ottenere l'app da Microsoft AppSource
-È anche possibile trovare e installare le app da Microsoft AppSource. Vengono visualizzate solo le app a cui si ha accesso, ovvero quelle per cui l'autore dell'app ha concesso l'autorizzazione.
+È anche possibile trovare e installare le app da Microsoft AppSource. Vengono visualizzate solo le app a cui si ha accesso, ovvero quelle per cui l'autore dell'app ha concesso l'autorizzazione. 
+
+> [!NOTE]
+> Se si usa una licenza utente gratuita, è possibile scaricare le app ma non visualizzarle, a meno che non si esegua l'aggiornamento a un account Power BI Pro o che l'app non sia archiviata nella capacità Premium. Per altre informazioni, vedere [Uso del servizio Power BI come utente finale](end-user-license.md).
 
 1. Selezionare **App**  > **Scarica app**. 
    
@@ -79,7 +87,12 @@ In questo esempio verrà aperta una delle app di esempio Microsoft. In AppSource
 
 5. Il servizio Power BI visualizzerà un messaggio di operazione completata dopo l'installazione dell'app. Selezionare **Vai all'app** per aprire l'app. A seconda del modo in cui il progettista ha creato l'app, verrà visualizzato il dashboard dell'app o il report dell'app.
 
+
+
     ![Installazione dell'app riuscita ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > Se si usa una licenza utente gratuita, è possibile scaricare le app ma non visualizzarle, a meno che non si esegua l'aggiornamento a un account Power BI Pro. 
 
     È anche possibile aprire l'app direttamente dall'elenco di contenuti dell'app selezionando **App** e scegliendo **Sales & Marketing**.
 
@@ -123,8 +136,6 @@ Gli autori di app possono rilasciare periodicamente nuove versioni delle app. Il
     > L'installazione di una nuova versione sovrascrive tutte le modifiche apportate ai report e ai dashboard. Per conservare i report e i dashboard aggiornati, è possibile salvarli con un nome o un percorso diverso prima dell'installazione. 
 
     4. Dopo aver installato la versione aggiornata, selezionare **Aggiorna app** per completare il processo di aggiornamento. 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Passaggi successivi

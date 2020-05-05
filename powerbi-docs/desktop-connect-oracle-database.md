@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223298"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149609"
 ---
 # <a name="connect-to-an-oracle-database"></a>Connettersi a un database Oracle
 Per connettersi a un database Oracle con Power BI Desktop, è necessario che nel computer che esegue Power BI Desktop sia installato il software client Oracle appropriato. La versione del software client Oracle dipende dalla versione di Power BI Desktop installata: a 32 bit o a 64 bit.
@@ -22,6 +22,10 @@ Per connettersi a un database Oracle con Power BI Desktop, è necessario che nel
 Versioni di Oracle supportate: 
 - Oracle 9 e versioni successive
 - Software client Oracle 8.1.7 e versioni successive
+
+> [!NOTE]
+> Se si sta configurando un database Oracle per il server di report di Power BI, consultare le informazioni nell'articolo [Tipo di connessione Oracle](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Determinazione della versione di Power BI Desktop installata
 Per determinare quale versione di Power BI Desktop è installata, selezionare **File** >  **?**  > **Informazioni su** e quindi esaminare la riga **Versione**. Nel caso della figura seguente è installata una versione a 64 bit di Power BI Desktop:
@@ -65,3 +69,5 @@ Se Power BI Desktop è stato scaricato da Microsoft Store, è possibile che la c
 * Se si vuole usare la versione di Microsoft Store: nel computer locale copiare oraons.dll da _12.X.X\client_X_ a _12.X.X\client_X\bin_, dove _X_ rappresenta i numeri di versione e directory.
 
 Se viene visualizzato il messaggio di errore *Riferimento a oggetto non impostato* in Power BI Gateway durante la connessione a un database Oracle, seguire le istruzioni in [Gestire l'origine dati - Oracle](service-gateway-onprem-manage-oracle.md).
+
+Se si usa il server di report di Power BI, consultare le linee guida nell'articolo [Tipo di connessione Oracle](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).

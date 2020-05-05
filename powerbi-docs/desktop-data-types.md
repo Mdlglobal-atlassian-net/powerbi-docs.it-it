@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729714"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584762"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -35,6 +35,8 @@ In Power BI Desktop è possibile determinare e specificare il tipo di dati di un
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 L'elenco a discesa Tipo di dati nell'Editor di query contiene due tipi di dati che attualmente non sono presenti nella Vista dati o nella Visualizzazione report: **Data/Ora/Fuso orario** e **Durata**. Quando una colonna con questi tipi di dati viene caricata nel modello e visualizzata in Dati o Report, la colonna con il tipo di dati Data/Ora/Fuso orario viene convertita nel tipo Data/Ora mentre la colonna con il tipo di dati Durata viene convertita nel tipo Numero decimale.
+
+Il tipo di dati **binario** non è attualmente supportato all'esterno dell'editor di query. Nell'editor di query è possibile usarlo durante il caricamento di file binari se lo si converte in altri tipi di dati prima di caricarlo nel modello di Power BI. È presente nei menu Visualizzazione dati e Visualizzazione report per motivi di compatibilità con le versioni precedenti, ma se si tenta di caricare colonne binarie nel modello di Power BI è possibile che si verifichino errori.  
 
 ### <a name="number-types"></a>Tipi numerici
 Power BI Desktop supporta tre tipi numerici:
@@ -71,6 +73,16 @@ Power BI Desktop supporta cinque tipi di dati Data/Ora in visualizzazione Query.
 
 ### <a name="blanksnulls-type"></a>Tipo spazi vuoti/valori Null
 **Vuoto** : è un tipo di dati in DAX che rappresenta e sostituisce i valori Null di SQL. È possibile creare uno spazio vuoto usando la funzione [BLANK](https://msdn.microsoft.com/library/ee634820.aspx), nonché verificare la presenza di spazi vuoti usando la funzione logica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+
+### <a name="binary-data-type"></a>Tipo di dati binario
+
+Il tipo di dati binario può essere usato per rappresentare qualsiasi altro tipo di dati con un formato binario. Nell'editor di query è possibile usarlo durante il caricamento di file binari se lo si converte in altri tipi di dati prima di caricarlo nel modello di Power BI. Le colonne binarie non sono supportate nel modello di dati di Power BI. È presente nei menu Visualizzazione dati e Visualizzazione report per motivi di compatibilità con le versioni precedenti, ma se si tenta di caricare colonne binarie nel modello di Power BI è possibile che si verifichino errori.
+
+
+> [!NOTE]
+>  Se una colonna binaria è nell'output dei passaggi di una query e si tenta di aggiornare i dati tramite un gateway, potrebbero verificarsi errori. È consigliabile rimuovere in modo esplicito le eventuali colonne binarie come ultimo passaggio nelle query.    
+> 
+>
 
 ### <a name="table-data-type"></a>Tipo di dati tabella
 DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e calcoli della funzionalità di Business Intelligence per le gerarchie temporali. Alcune funzioni richiedono un riferimento a una tabella, mentre altre restituiscono una tabella che può quindi essere usata come input per altre funzioni. In alcune funzioni che richiedono una tabella come input è possibile specificare un'espressione che restituisce una tabella. Per alcune funzioni è necessario un riferimento a una tabella di base. Per informazioni sui requisiti di funzioni specifiche, vedere [Riferimento alle funzioni DAX](https://msdn.microsoft.com/library/ee634396.aspx).

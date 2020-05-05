@@ -1,23 +1,23 @@
 ---
-title: Incorporare con web part report in SharePoint Online
+title: Incorporare una web part report in SharePoint Online
 description: Con la nuova web part report di Power BI per SharePoint Online è possibile incorporare facilmente report interattivi di Power BI nelle pagine di SharePoint Online.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221713"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585223"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporare una web part report in SharePoint Online
 
 Con la nuova web part report di Power BI per SharePoint Online è possibile incorporare facilmente report interattivi di Power BI nelle pagine di SharePoint Online.
 
@@ -38,9 +38,9 @@ Per incorporare il report in SharePoint Online, è necessario ottenere l'URL del
 
 1. Visualizzare il report in Power BI.
 
-2. Selezionare il menu a discesa **File**, quindi selezionare **Incorpora in SharePoint Online**.
+2. Nel menu a discesa **Altre opzioni (...)** selezionare **Incorpora** > **SharePoint Online**.
 
-    ![Menu File](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Menu Altre opzioni, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Copiare l'URL del report dalla finestra di dialogo.
 

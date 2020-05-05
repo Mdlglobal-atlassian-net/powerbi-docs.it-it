@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488822"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585045"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporare un report in un portale o un sito Web sicuro
 
@@ -22,11 +22,13 @@ La nuova opzione **Incorpora** per i report di Power BI consente di incorporare 
 
 L'opzione **Incorpora** supporta [filtri URL](service-url-filters.md) e impostazioni per gli URL. Consente l'integrazione con i portali con un approccio che richiede poco codice e solo conoscenze di base di HTML e JavaScript.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Come **incorporare** report di Power BI nei portali
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Come incorporare report di Power BI nei portali
 
-1. La nuova opzione **Incorpora** è disponibile nel menu **File** per i report nel servizio Power BI.
+1. Aprire un report nel servizio Power BI.
 
-    ![Opzione dell'elenco per l'incorporamento sicuro](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. Nel menu **Altre opzioni (...)** selezionare **Incorpora** >  **Sito Web o portale**.
+
+    ![Opzione Sito Web o portale](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Selezionare l'opzione **Incorpora** per aprire una finestra di dialogo che fornisce un collegamento e un iFrame che è possibile usare per incorporare il report in modo sicuro.
 

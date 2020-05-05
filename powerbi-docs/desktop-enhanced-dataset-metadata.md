@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464621"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584682"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso dei metadati dei set di dati avanzati (anteprima)
 
@@ -46,6 +46,7 @@ Dopo aver abilitato la funzionalità di anteprima, Power BI Desktop tenta di agg
 
 Nella versione di anteprima esistono le limitazioni seguenti quando la funzionalità di anteprima è abilitata.
 
+### <a name="unsupported-features-and-connectors"></a>Funzionalità e connettori non supportati
 Quando si apre un file PBIX o PBIT esistente che non è stato aggiornato, l'aggiornamento avrà esito negativo se il set di dati contiene le funzionalità o i connettori seguenti. Nel caso si verifichi, un errore di questo tipo non dovrebbe avere effetti immediati sull'esperienza utente e Power BI Desktop continua a usare il formato dei metadati precedente.
 
 * Script Python
@@ -67,6 +68,8 @@ Quando si apre un file PBIX o PBIT esistente che non è stato aggiornato, l'aggi
 
 Inoltre, i file PBIX e PBIT che sono già stati aggiornati correttamente per l'uso dei **metadati dei set di dati avanzati** *non possono* usare le funzionalità o i connettori sopra indicati nella versione corrente.
 
+### <a name="lineage-view"></a>Visualizzazione di derivazione
+I set di dati che usano il nuovo formato dei metadati attualmente non visualizzano i collegamenti ai flussi di dati nella visualizzazione di derivazione nel servizio Power BI.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

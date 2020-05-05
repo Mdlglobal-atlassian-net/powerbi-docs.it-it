@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766274"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585004"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: Domande frequenti 
 
@@ -173,6 +173,11 @@ No, non è attualmente disponibile un controllo visualizzatore report.
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>È possibile cercare report impaginati dalla nuova esperienza della Home page nel servizio Power BI?
 
 Sì, attualmente è possibile cercare i report impaginati dalla Home.  Tali report sono visibili anche in altre parti della nuova esperienza Home.
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+Ecco alcuni aspetti da tenere presenti quando si usano i campi DateTime nei report impaginati.
+
+- Attualmente esistono alcune limitazioni di globalizzazione correlate ai parametri DateTime. Tutti i parametri DateTime nel servizio Power BI vengono recuperati nel formato US (MM/GG/AAAA) indipendentemente dalla modalità di progettazione di DataTime in Power BI Report Builder.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
