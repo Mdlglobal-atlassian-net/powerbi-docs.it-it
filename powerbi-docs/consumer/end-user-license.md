@@ -11,10 +11,10 @@ ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
 ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066037"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>Uso del servizio Power BI come *utente finale*
@@ -33,7 +33,7 @@ Le operazioni che è possibile eseguire nel servizio Power BI dipendono da tre e
 
 In questo articolo vengono descritte le capacità di ogni tipo di licenza e viene spiegato come la *posizione in cui il contenuto è archiviato* determina quali *operazioni si possono eseguire con il contenuto*. Si apprenderà anche come cercare la licenza e la sottoscrizione e come capire dove è archiviato il contenuto. Per altre informazioni su ruoli e autorizzazioni, vedere [Ruoli nelle aree di lavoro](end-user-workspaces.md).
 
-## <a name="licenses"></a>Licenses
+## <a name="licenses"></a>Licenze
 
 Ogni utente del servizio Power BI usa una licenza *gratuita* o una licenza *Pro*. Gli *utenti finali* di Power BI in genere usano una licenza gratuita gestita dall'amministratore. 
 

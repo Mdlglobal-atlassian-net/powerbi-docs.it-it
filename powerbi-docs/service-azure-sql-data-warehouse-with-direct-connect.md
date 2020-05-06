@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255870"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
@@ -30,14 +30,14 @@ Quando si usa il connettore SQL Data Warehouse:
 * La funzione Domande e risposte non è disponibile per i set di dati di DirectQuery
 * Le modifiche allo schema non vengono selezionate automaticamente
 
-Queste restrizioni e note possono cambiare dal momento che le esperienze vengono costantemente migliorate. La procedura per la connessione è illustrata di seguito.
+Queste restrizioni e note sono soggette a modifiche nel corso del miglioramento delle esperienze. I passaggi per la connessione sono illustrati nel dettaglio più avanti.
 
 ## <a name="using-the-open-in-power-bi-button"></a>Uso del pulsante "Apri in Power BI"
 
 > [!Important]
 > La connettività ad Azure SQL Data Warehouse è stata migliorata.  Per connettersi in modo ottimale all'origine dati di Azure SQL Data Warehouse, usare Power BI Desktop.  Dopo aver compilato il modello e il report, è possibile pubblicarlo nel servizio Power BI.  Il connettore diretto per Azure SQL Data Warehouse nel servizio Power BI ora è deprecato.
 
-Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di Azure, che consente di iniziare a creare facilmente nuovi dashboard in Power BI.
+Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di Azure, Questo pulsante permette di creare con facilità nuovi dashboard in Power BI.
 
 1. Per iniziare, passare all'istanza di SQL Data Warehouse nel portale di Azure. Si noti che, al momento, solo SQL Data Warehouse è presente nel portale di Azure.
 
@@ -57,7 +57,7 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
     ![Pulsante Recupera dati](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
-2. In **Database**, selezionare **Recupera**.
+2. In **Database** selezionare **Recupera**.
 
     ![Database](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
@@ -67,11 +67,11 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
 4. Immettere le informazioni necessarie per connettersi. La sezione **Trovare i valori dei parametri** indica la posizione di questi dati nel portale di Azure.
 
-    ![Nome del server](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
+    ![Nome server](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
     ![Nome del server avanzato](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
-    ![Nome utente](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
+    ![Username](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
    > [!NOTE]
    > Il nome utente sarà un utente che viene definito nell'istanza di Azure SQL Data Warehouse.
@@ -80,7 +80,7 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
     ![Set di dati 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
 
-6. È possibile esplorare tutte le tabelle e le colonne. Selezionando una colonna verrà inviata una query all'origine e verrà quindi creato dinamicamente l'oggetto visivo. I filtri verranno anche convertiti in query nel proprio data warehouse. Questi elementi visivi possono essere salvati in un nuovo report e aggiunti al proprio dashboard.
+6. È possibile esplorare tutte le tabelle e le colonne. Selezionando una colonna verrà inviata una query all'origine e verrà quindi creato dinamicamente l'oggetto visivo. I filtri verranno anche convertiti in query nel proprio data warehouse. Gli oggetti visivi possono essere salvati in un nuovo report e aggiunti nuovamente al dashboard.
 
     ![Esplora 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 

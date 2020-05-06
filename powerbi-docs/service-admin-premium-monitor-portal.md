@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637699"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Monitorare le capacità nel portale di amministrazione
@@ -52,7 +52,7 @@ Ogni carico di lavoro prevede metriche aggiuntive. Il tipo di metriche visualizz
 
 ![Espansione di Integrità carico di lavoro](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
 
-#### <a name="dataflows"></a>Flussi di dati
+#### <a name="dataflows"></a>Dataflows
 
 ##### <a name="dataflow-operations"></a>Operazioni su flussi di dati
 
@@ -65,9 +65,9 @@ Ogni carico di lavoro prevede metriche aggiuntive. Il tipo di metriche visualizz
 | Average Wait Time (min) (Tempo di attesa medio (min)) | ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il flusso di dati, espresso in minuti. |
 | Max Wait Time (minutes) (Tempo di attesa massimo (min)) | tempo di attesa massimo per il flusso di dati, espresso in minuti.  |
 
-#### <a name="datasets"></a>Set di dati
+#### <a name="datasets"></a>Datasets
 
-##### <a name="refresh"></a>Aggiorna
+##### <a name="refresh"></a>dati
 
 | **Metrica** | **Descrizione** |
 | --- | --- |

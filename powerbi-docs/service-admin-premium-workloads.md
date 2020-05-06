@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637743"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
@@ -38,7 +38,7 @@ I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determi
 
 Il carico di lavoro Intelligenza artificiale consente di usare servizi cognitivi e Machine Learning automatizzato in Power BI. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
 
-| Nome dell'impostazione | Descrizione |
+| Nome impostazione | Descrizione |
 |---------------------------------|----------------------------------------|
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i processi di intelligenza artificiale possono usare in una capacità. |
 | **Consente l'utilizzo da Power BI Desktop** | Questa impostazione è riservata per un uso futuro e non è presente in tutti i tenant. |
@@ -50,7 +50,7 @@ Il carico di lavoro Intelligenza artificiale consente di usare servizi cognitivi
 
 Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non può essere disabilitato. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro. Sotto la tabella sono disponibili altre informazioni sull'utilizzo per alcune impostazioni.
 
-| Nome dell'impostazione | Descrizione |
+| Nome impostazione | Descrizione |
 |---------------------------------|----------------------------------------|
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i set di dati possono usare in una capacità. |
 | **Endpoint XMLA** | Specifica che le connessioni dalle applicazioni client rispettano l'appartenenza al gruppo di sicurezza impostata a livello di area di lavoro e di app. Per altre informazioni, vedere [Connettersi ai set di dati con applicazioni client e strumenti](service-premium-connect-tools.md). |
@@ -143,7 +143,7 @@ Le query create dall'aggiornamento automatico delle pagine vengono indirizzate d
 
 Il carico di lavoro Flussi di dati consente di usare la preparazione dei dati self-service con flussi di dati per inserire, trasformare, integrare e arricchire i dati. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
 
-| Nome dell'impostazione | Descrizione |
+| Nome impostazione | Descrizione |
 |---------------------------------|----------------------------------------|
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i flussi di dati possono usare in una capacità. |
 | **Motore di calcolo dei flussi di dati avanzato (anteprima)** | Abilitare questa opzione per ottenere calcoli fino a 20 volte più veloci per le entità calcolate quando si utilizzano volumi di dati su larga scala. **Per attivare il nuovo motore, è necessario riavviare la capacità.** Per altre informazioni, vedere [Motore di calcolo dei flussi di dati avanzato](#enhanced-dataflows-compute-engine). |
@@ -171,7 +171,7 @@ Il valore di Dimensioni contenitore non può superare la quantità massima di me
 
 Il carico di lavoro Report impaginati consente di eseguire report impaginati, in base al formato di SQL Server Reporting Services standard, nel servizio Power BI. Usare l'impostazione seguente per controllare il comportamento del carico di lavoro.
 
-| Nome dell'impostazione | Descrizione |
+| Nome impostazione | Descrizione |
 |---------------------------------|----------------------------------------|
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i report impaginati possono usare in una capacità. |
 |  |  |

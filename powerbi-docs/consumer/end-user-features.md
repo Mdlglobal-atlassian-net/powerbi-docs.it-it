@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
 ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065756"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Elenco di funzionalità di Power BI per gli *utenti finali* e gli altri utenti con licenze gratuite
@@ -44,7 +44,7 @@ Nelle aree di lavoro per le app i progettisti assegnano i *ruoli* per gestire le
 ### <a name="premium-capacity"></a>Capacità Premium
 Quando un'organizzazione ha una sottoscrizione con capacità Premium, gli amministratori e gli utenti Pro possono assegnare aree di lavoro alla *capacità dedicata*. Un'area di lavoro in una capacità dedicata è uno spazio in cui gli utenti Pro possono condividere contenuti e collaborare con gli utenti con licenza gratuita, senza che questi debbano avere licenze Pro. All'interno di queste aree di lavoro gli utenti del piano gratuito hanno autorizzazioni elevate (vedere l'elenco riportato di seguito). 
 
-### <a name="licenses"></a>Licenses 
+### <a name="licenses"></a>Licenze 
 Ogni utente del servizio Power BI dispone di una licenza gratuita o di una licenza Pro. Gli *utenti finali* hanno licenze gratuite.
 
 - **Licenza gratuita**: assegnata in genere agli *utenti finali* all'interno di un'organizzazione. Vedere la prima immagine sopra. Viene assegnata anche a chi si iscrive al servizio Power BI individualmente e vuole provare il [servizio Power BI in modalità autonoma](../service-self-service-signup-for-power-bi.md). Vedere la seconda immagine sotto. 
@@ -103,7 +103,7 @@ La seconda colonna rappresenta un *utente finale*.  Un utente finale:
 |Creazione, modifica, aggiornamento, eliminazione | ![myw verde](media/end-user-features/green-mwo.png) |![x arancione](media/end-user-features/orange-x.png) | 
 |Esportazione del riquadro in Excel |![myw verde](media/end-user-features/green-mwo.png) | ![punto verde](media/end-user-license/power-bi-green-dot.png)|
 |Aggiungi a Preferiti |![myw verde](media/end-user-features/green-mwo.png)| ![punto verde](media/end-user-license/power-bi-green-dot.png)|
-|Feature |![myw verde](media/end-user-features/green-mwo.png) |![punto verde](media/end-user-license/power-bi-green-dot.png)|
+|Funzionalità |![myw verde](media/end-user-features/green-mwo.png) |![punto verde](media/end-user-license/power-bi-green-dot.png)|
 |Modalità schermo intero e messa a fuoco |![myw verde](media/end-user-features/green-mwo.png) |![punto verde](media/end-user-license/power-bi-green-dot.png) |
 |Ricerca globale |![punto verde](media/end-user-license/power-bi-green-dot.png)* |![punto verde](media/end-user-license/power-bi-green-dot.png)* |
 |Informazioni dettagliate sui riquadri |![myw verde](media/end-user-features/green-mwo.png)     | ![punto verde](media/end-user-license/power-bi-green-dot.png)*|
@@ -112,7 +112,7 @@ La seconda colonna rappresenta un *utente finale*.  Un utente finale:
 |Domande e risposte: analisi delle domande poste | ![x arancione](media/end-user-features/orange-x.png)  |![x arancione](media/end-user-features/orange-x.png) |  
 |Controllo prestazioni |![myw verde](media/end-user-features/green-mwo.png)  |![punto verde](media/end-user-license/power-bi-green-dot.png) |
 |Aggiunta di riquadri da Domande e risposte o report | ![myw verde](media/end-user-features/green-mwo.png) |![x arancione](media/end-user-features/orange-x.png) | 
-|Stampa |![myw verde](media/end-user-features/green-mwo.png)* |![punto verde](media/end-user-license/power-bi-green-dot.png)* |
+|Print |![myw verde](media/end-user-features/green-mwo.png)* |![punto verde](media/end-user-license/power-bi-green-dot.png)* |
 |Aggiorna | ![myw verde](media/end-user-features/green-mwo.png) |![punto verde](media/end-user-license/power-bi-green-dot.png) | 
 |Ricondivisione | ![x arancione](media/end-user-features/orange-x.png)  |![x arancione](media/end-user-features/orange-x.png) | 
 |Sottoscrizione |![myw verde](media/end-user-features/green-mwo.png)* |![punto verde](media/end-user-license/power-bi-green-dot.png)*  |

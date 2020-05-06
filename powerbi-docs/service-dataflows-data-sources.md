@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872673"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Connettersi a origini dati per i flussi di dati di Power BI
@@ -49,18 +49,18 @@ Nella figura seguente viene visualizzato il pulsante **Recupera dati** nello str
 Le origini dati per i flussi di dati sono organizzate nelle categorie seguenti, che vengono visualizzate nella parte superiore della finestra di dialogo **Recupera dati**:
 
 * Tutte le categorie
-* File
-* Database
+* file
+* SQL
 * Power BI
-* Azure
+* Azzurro ghiaccio
 * Servizi online
-* Altro
+* Other
 
 **Tutte le categorie** contiene tutte le origini dati, di tutte le categorie. 
 
 La categoria **File** include le seguenti connessioni dati disponibili per i flussi di dati:
 
-* Accesso
+* Access
 * Excel
 * JSON
 * Testo/CSV
@@ -72,7 +72,7 @@ La categoria **Database** include le seguenti connessioni dati disponibili per i
 * Database MySQL
 * Database Oracle
 * Database PostgreSQL
-* Database di SQL Server
+* Database SQL Server
 * Database di Sybase
 * Teradata
 * Vertica
@@ -96,7 +96,7 @@ La categoria **Servizi online** include le seguenti connessioni dati disponibili
 * Microsoft Exchange Online
 * Oggetti Salesforce
 * Report di Salesforce
-* Elenco SharePoint Online
+* Elenchi SharePoint Online
 * Smartsheet
 
 La categoria **Altro** include le seguenti connessioni dati disponibili per i flussi di dati:

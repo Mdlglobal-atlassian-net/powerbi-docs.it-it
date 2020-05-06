@@ -10,10 +10,10 @@ ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
 ms.openlocfilehash: 801b5cf5400bbe1cc0487eef596ea3d1cdc5fb1e
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120173"
 ---
 # <a name="collaborate-in-workspaces"></a>Collaborare nelle aree di lavoro
@@ -49,7 +49,7 @@ Per un elenco dettagliato delle operazioni che è possibile eseguire come *utent
 ### <a name="workspace-roles"></a>Ruoli dell'area di lavoro
 Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori. Tutte queste funzionalità, a eccezione della visualizzazione e dell'interazione, richiedono una licenza di Power BI Pro.
 
-|Funzionalità   | Amministratore  | Membro  | Collaboratore  | Visualizzatore |
+|Funzionalità   | Amministrativi  | Membro  | Collaboratore  | Visualizzatore |
 |---|---|---|---|---|
 | Aggiornare ed eliminare l'area di lavoro.  | X  |   |   |   | 
 | Aggiungere/rimuovere utenti, inclusi altri amministratori.  | X  |   |   |   |
@@ -82,5 +82,5 @@ Se si ha una licenza gratuita e l'area di lavoro è archiviata nella *capacità 
 ## <a name="next-steps"></a>Passaggi successivi
 * [App in Power BI](end-user-apps.md)    
 
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

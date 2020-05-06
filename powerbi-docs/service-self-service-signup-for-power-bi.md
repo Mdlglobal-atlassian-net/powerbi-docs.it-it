@@ -10,10 +10,10 @@ ms.date: 04/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a2c711376a3665cfa56c25384e8351890eee7198
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256007"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Iscriversi al servizio Power BI come utente singolo
@@ -51,7 +51,7 @@ La procedura di iscrizione esatta può variare in base all'organizzazione e all'
 
     <sup>1</sup>Il tipo di pulsante **Provalo gratis** è presente sul sito powerbi.microsoft.com, nei prodotti Microsoft correlati, nella documentazione e negli articoli di marketing.
 
-### <a name="step-1"></a>Step 1
+### <a name="step-1"></a>Passaggio 1
 
 - Selezionare **Inizia gratis** o **Provalo gratis** sul sito [powerbi.microsoft.com](https://powerbi.com). Potrebbe essere necessario selezionare un pulsante due volte.
 
@@ -72,11 +72,11 @@ La procedura di iscrizione esatta può variare in base all'organizzazione e all'
 
     - Se si riceve un messaggio come questo, assicurarsi di usare un indirizzo di posta elettronica aziendale o dell'istituto di istruzione e non un indirizzo personale come Hotmail, Gmail o Outlook. Vedere [Indirizzi di posta elettronica supportati](#supported-email-addresses) più indietro.
 
-       ![Inizia](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
+       ![Introduzione](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
     - Se si riceve un messaggio come questo, accettare le condizioni.
 
-        ![Inizia](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
+        ![Introduzione](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
 1. Se si vuole, invitare alcuni colleghi.
 

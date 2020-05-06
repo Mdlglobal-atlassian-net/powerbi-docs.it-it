@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871181"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dati dinamici di SQL Server Analysis Services in Power BI
@@ -48,7 +48,7 @@ Dopo aver eseguito la connessione al modello, verrà visualizzato nel sito di Po
 
 ![Connettersi al set di dati](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>I riquadri del dashboard
+## <a name="dashboard-tiles"></a>Riquadri del dashboard
 
 Se si bloccano elementi visivi di un report sul dashboard, i riquadri bloccati vengono aggiornati automaticamente ogni 10 minuti. Se i dati nel server Analysis Services locale vengono aggiornati, i riquadri verranno aggiornati automaticamente dopo 10 minuti.
 
@@ -58,7 +58,7 @@ Se si bloccano elementi visivi di un report sul dashboard, i riquadri bloccati v
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
+* [Gateway dati locale](service-gateway-onprem.md)  
 * [Gestire origini dati di Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 
