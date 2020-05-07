@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435790"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
@@ -59,7 +59,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
     *  Dall'interno di un dashboard o di un report toccare **Altre opzioni** (...) nella parte superiore del dashboard o del report e scegliere **Invita un collega**.
     *  Nella home page di un dashboard o di un report toccare **Altre opzioni** (...) accanto al nome del dashboard o del report e quindi toccare l'icona **Condividi** ![icona di invito](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) nella scheda di informazioni visualizzata.
  
-2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito al dashboard. In caso contrario, Power BI invia un messaggio predefinito. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di condividere questo dashboard** . La ricondivisione consente ai colleghi di inoltrare il messaggio di posta elettronica di invito ad altri utenti dell'organizzazione, usando il browser o le app per dispositivi mobili.
+2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito al dashboard. In caso contrario, Power BI invia un messaggio predefinito. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di condividere questo dashboard**. La ricondivisione consente ai colleghi di inoltrare il messaggio di posta elettronica di invito ad altri utenti dell'organizzazione, usando il browser o le app per dispositivi mobili.
    
 3. Toccare l'icona **Invia**![Icona Invia](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) nell'angolo in alto a destra per inviare il messaggio.
    
@@ -88,7 +88,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    
    Se si è proprietari del dashboard, verrà visualizzato l'elenco dei colleghi con cui è stato condiviso il dashboard o il report.
 
-2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito. In caso contrario, Power BI invia un messaggio predefinito. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di condividere questo dashboard** . La ricondivisione consente ai collaboratori di condividerlo con altri utenti dell'organizzazione, usando il browser o le app per dispositivi mobili.
+2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito. In caso contrario, Power BI invia un messaggio predefinito. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di condividere questo dashboard**. La ricondivisione consente ai collaboratori di condividerlo con altri utenti dell'organizzazione, usando il browser o le app per dispositivi mobili.
    
 3. Toccare l'icona **Invia**![Icona Invia](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    

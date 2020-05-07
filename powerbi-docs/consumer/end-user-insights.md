@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377285"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
@@ -41,7 +41,7 @@ Quando si eseguono informazioni dettagliate su un riquadro del dashboard, Power 
 3. Il riquadro verrà aperto in [modalità messa a fuoco](end-user-focus.md) con le schede delle informazioni dettagliate visualizzate sul lato destro.    
    
     ![Modalità messa a fuoco](./media/end-user-insights/power-bi-insights-tile.png)    
-4. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    
+4. Se un approfondimento attira l’interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    
 
  ## <a name="interact-with-the-insight-cards"></a>Interagire con le schede di informazioni dettagliate
 Dopo aver aperto le informazioni dettagliate, continuare l'esplorazione.

@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207023"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Esercitazione: Esplorare il portale Web di Server di report di Power BI in una macchina virtuale
@@ -41,7 +41,7 @@ Il team di Power BI ha creato una macchina virtuale che viene fornita con Server
 2. Selezionare **Scarica adesso**.
 3. Per accettare le condizioni per l'utilizzo e l'informativa sulla privacy del provider, selezionare **Continua**.
 
-4. Selezionare **Crea**.
+4. Selezionare **Create** (Crea).
 
     ![Creare una macchina virtuale per Server di report di Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
@@ -99,7 +99,7 @@ Ecco gli elementi che compaiono sul desktop all'apertura della macchina virtuale
 
 ![Avvio della macchina virtuale per Server di report di Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
-|Numero  |Descrizione  |
+|Number  |Che cos'è  |
 |---------|---------|
 |![Numero 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Report di Power BI di esempio (con estensione PBIX) |
 |![Numero 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Collegamento alla documentazione di Server di Report di Power BI |
@@ -111,13 +111,13 @@ Fare doppio clic sull'icona del **portale Web del server di report**. Il browser
 
 ![Portale Web del server di report di Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Numero  |Descrizione  |
+|Number  |Che cos'è  |
 |---------|---------|
 |![Numero 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Indicatori KPI creati nel portale Web |
 |![Numero 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Report di Power BI (con estensione PBIX)  |
 |![Numero 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Report per dispositivi mobili creati in SQL Server Mobile Report Publisher  |
 |![Numero 4](media/tutorial-explore-report-server-web-portal/number-4.png) |  Report impaginati creati in Generatore report o SQL Server Data Tools  |
-|![Numero 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Cartelle di lavoro di Excel   | 
+|![Numero 5](media/tutorial-explore-report-server-web-portal/number-5.png) | cartelle di lavoro di Excel   | 
 |![Numero 6](media/tutorial-explore-report-server-web-portal/number-6.png) | Origini dati dei report impaginati | 
 
 
@@ -248,7 +248,7 @@ Per impostazione predefinita, il portale Web visualizza il relativo contenuto ne
 
 Una volta completata l'esercitazione, eliminare il gruppo di risorse, la macchina virtuale e tutte le risorse correlate. 
 
-- A questo scopo, selezionare il gruppo di risorse per la macchina virtuale e quindi selezionare **Elimina**.
+- A tale scopo, selezionare il gruppo di risorse per la VM e selezionare **Elimina**.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

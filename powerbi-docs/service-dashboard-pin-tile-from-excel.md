@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877418"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
@@ -60,7 +60,7 @@ Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è
    * Nuovo dashboard: digitare il nome del nuovo dashboard.
    
      ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
-4. Selezionare **Aggiungi**. Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stato aggiunto l'intervallo, come riquadro, al dashboard. 
+4. Selezionare **Aggiungi**. Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stato aggiunto l’intervallo, come riquadro, al dashboard. 
    
     ![Finestra di dialogo Aggiunto al dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selezionare **Vai al dashboard**. In questa schermata è possibile [rinominare, ridimensionare, collegare e spostare](service-dashboard-edit-tile.md) la visualizzazione aggiunta. Per impostazioni predefinita, se si seleziona il riquadro aggiunto, la cartella di lavoro verrà aperta in Power BI.
@@ -80,7 +80,7 @@ Se si seleziona un riquadro della cartella di lavoro, la cartella di lavoro coll
  ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-Funzionalità non supportate: Power BI usa Excel Services per recuperare i riquadri della cartella di lavoro. Di conseguenza, poiché alcune funzionalità di Excel non sono supportate nell'API REST di Excel Services, esse non verranno visualizzate nei riquadri in Power BI. ad esempio: grafici sparkline, formattazione condizionale dei set di icone e filtri dei dati ora. Per un elenco completo delle funzionalità non supportate, vedere [Funzionalità non supportate nelle API REST di Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx).
+Funzionalità non supportate: Power BI usa Excel Services per recuperare i riquadri della cartella di lavoro. Di conseguenza, poiché alcune funzionalità di Excel non sono supportate nell'API REST di Excel Services, esse non verranno visualizzate nei riquadri in Power BI. Ad esempio: grafici sparkline, formattazione condizionale dei set di icone e filtri dei dati ora. Per un elenco completo delle funzionalità non supportate, vedere [Funzionalità non supportate nelle API REST di Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Condividere un dashboard che include collegamenti a una cartella di lavoro di Excel](service-share-dashboard-that-links-to-excel-onedrive.md)

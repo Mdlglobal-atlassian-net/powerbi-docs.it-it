@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114485"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI
@@ -233,7 +233,7 @@ In questo frammento di codice si presuppone che il set di dati di cui è possibi
 [Incorporamento con Power BI](embedding.md)  
 [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI](migrate-from-powerbi-embedded.md)  
 [Come incorporare i dashboard, i report e i riquadri di Power BI](embed-sample-for-your-organization.md)  
-[Power BI Premium - what is it?](../../service-premium-what-is.md) (Power BI Premium: definizione)  
+[Power BI Premium: di cosa si tratta?](../../service-premium-what-is.md)  
 [Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

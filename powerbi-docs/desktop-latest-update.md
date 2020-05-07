@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 402bf2028b7cc30acf0ce752e8f0343a44829cb3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378479"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Novità in Power BI Desktop
@@ -40,7 +40,7 @@ I collegamenti accanto a ogni funzionalità nell'elenco degli aggiornamenti di P
 Gli aggiornamenti seguenti sono le novità di Power BI Desktop questo mese:
 
 
-### <a name="reporting"></a>Reporting
+### <a name="reporting"></a>Report
 * Nuovi tipi di azione per i pulsanti [[video]](https://youtu.be/DMjvJGGB_LQ?t=45) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_action_types) 
 * Ordinamento su più colonne per le tabelle [[video]](https://youtu.be/DMjvJGGB_LQ?t=414) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Multi-column_sort) 
 * Asse doppio per il grafico a linee [[video]](https://youtu.be/DMjvJGGB_LQ?t=504) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Dual_axis) 

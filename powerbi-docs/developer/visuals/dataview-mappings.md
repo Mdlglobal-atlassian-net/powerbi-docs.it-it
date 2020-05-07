@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380845"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informazioni sul mapping di viste dati in oggetti visivi di Power BI
@@ -35,7 +35,7 @@ Ogni mapping valido produce una vista dati, ma attualmente è supportata l'esecu
 
 Power BI crea un mapping a una vista dati solo se il mapping valido viene specificato in `dataViewMappings`.
 
-In altre parole, `categorical` potrebbe essere definito in `dataViewMappings`, ma altri mapping, come `table` o `single`, potrebbero non esserlo. ad esempio:
+In altre parole, `categorical` potrebbe essere definito in `dataViewMappings`, ma altri mapping, come `table` o `single`, potrebbero non esserlo. Ad esempio:
 
 ```json
 "dataViewMappings": [
@@ -57,7 +57,7 @@ Power BI produce una vista dati con un unico mapping `categorical`, mentre `tabl
 }
 ```
 
-## <a name="conditions"></a>conditions
+## <a name="conditions"></a>Condizioni
 
 Questa sezione descrive le condizioni per un determinato mapping dei dati. È possibile specificare più set di condizioni per fare in modo che, se i dati corrispondono a uno dei set di condizioni descritti, l'oggetto visivo accetti i dati come validi.
 
@@ -339,8 +339,8 @@ La vista dati categorica potrebbe essere visualizzata in questo modo:
 
 | Categorical |  |  | | | |
 |-----|-----|------|------|------|------|
-| | Anno | 2013 | 2014 | 2015 | 2016 |
-| Paese | | |
+| | Year | 2013 | 2014 | 2015 | 2016 |
+| Country | | |
 | USA | | x | x | 650 | 350 |
 | Canada | | x | 630 | 490 | x |
 | Messico | | 645 | x | x | x |
@@ -545,7 +545,7 @@ Con le funzionalità specificate:
 
 Esempio di dati:
 
-| Paese| Anno | Vendite |
+| Country| Year | Sales |
 |-----|-----|------|
 | USA | 2016 | 100 |
 | USA | 2015 | 50 |
@@ -603,7 +603,7 @@ Power BI visualizza i dati come vista dati tabella. I dati non sono necessariame
 
 È possibile aggregare i dati selezionando il campo desiderato e quindi selezionando Somma.  
 
-![Aggregazione di dati](media/dataview-mappings/data-aggregation.png)
+![Aggregazione dei dati](media/dataview-mappings/data-aggregation.png)
 
 Esempio di codice per elaborare il mapping della vista dati tabella.
 

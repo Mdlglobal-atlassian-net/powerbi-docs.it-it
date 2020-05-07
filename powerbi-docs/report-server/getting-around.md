@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859469"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gestire il contenuto nel portale Web 
@@ -23,7 +23,7 @@ Il portale Web del Server di report di Power BI è un percorso locale per la vis
 È possibile visualizzare il portale Web in qualsiasi browser moderno. Nel portale Web, i report e gli indicatori KPI sono organizzati in cartelle ed è possibile contrassegnarli come Preferiti. È anche possibile archiviare qui le cartelle di lavoro Excel. Dal portale web, è possibile avviare gli strumenti necessari per creare report:
 
 * **Report di Power BI** creati con Power BI Desktop: è possibile visualizzarli nel portale Web e nelle app Power BI per dispositivi mobili.
-* **Report impaginati creati in Generatore report**: documenti dall'aspetto moderno e con layout fisso ottimizzati per la stampa.
+* **Report impaginati** creati in Generatore Report: documenti dall'aspetto moderno, con layout fisso e ottimizzati per la stampa.
 * **Indicatori KPI** creati direttamente nel portale Web.
 
 Nel portale Web è possibile esplorare le cartelle del server di report o cercare report specifici. È possibile visualizzare un report, le sue proprietà generali e vecchie copie del report che vengono acquisite nella cronologia del report. A seconda delle autorizzazioni, è anche possibile sottoscrivere il recapito dei report nella posta in arrivo o in una cartella condivisa nel file system.
@@ -48,7 +48,7 @@ L'applicazione del portale Web viene eseguita in un browser. Quando si avvia il 
    * Report impaginati
    * Report di Power BI Desktop
    * Cartelle di lavoro di Excel
-   * Set di dati
+   * Datasets
    * Origini dati
    * Risorse
 

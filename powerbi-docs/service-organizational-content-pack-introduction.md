@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871988"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
@@ -74,6 +74,6 @@ Tutti i membri del gruppo di distribuzione hanno le stesse autorizzazioni per i 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare e pubblicare un pacchetto di contenuto aziendale](service-organizational-content-pack-create-and-publish.md)
 * [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md) 
-* [Concetti di base del servizio Power BI](service-basic-concepts.md)
+* [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 * Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

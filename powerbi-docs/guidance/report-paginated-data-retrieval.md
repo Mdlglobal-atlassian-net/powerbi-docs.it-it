@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377651"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Linee guida per il recupero dei dati per i report impaginati
@@ -63,7 +63,7 @@ Per limitare le righe, si dovrebbero sempre applicare i filtri più restrittivi 
 
 ## <a name="expression-based-fields"></a>Campi basati su espressioni
 
-È possibile estendere un set di dati del report con campi basati su espressioni. Se, ad esempio, il set di dati è l'origine del nome e del cognome del cliente, può essere opportuno definire un campo che concatena i due campi per generare il nome completo del cliente. Per ottenere questo calcolo, sono disponibili due opzioni. è possibile:
+È possibile estendere un set di dati del report con campi basati su espressioni. Se, ad esempio, il set di dati è l'origine del nome e del cognome del cliente, può essere opportuno definire un campo che concatena i due campi per generare il nome completo del cliente. Per ottenere questo calcolo, sono disponibili due opzioni. È possibile:
 
 - Creare un _campo calcolato_, ovvero un campo del set di dati basato su un'espressione.
 - Inserire un'espressione direttamente nella query del set di dati (usando la lingua nativa dell'origine dati), che abbia come risultato un normale campo del set di dati.
@@ -144,5 +144,5 @@ Quando si esegue un report, vengono valutati tutti i set di dati, anche se non s
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Origini dati supportate per i report impaginati di Power BI](../paginated-reports/paginated-reports-data-sources.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

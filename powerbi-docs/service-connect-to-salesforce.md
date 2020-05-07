@@ -10,10 +10,10 @@ ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854634"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Connettersi a Salesforce con Power BI
@@ -86,7 +86,7 @@ L'accesso a un dominio personalizzato o sandbox attualmente non è supportato.
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>Messaggio "Non è possibile connettersi al server remoto"
 
-Se quando si prova a connettersi all'account di Salesforce viene visualizzato il messaggio "Non è possibile connettersi al server remoto", vedere questa soluzione nel forum seguente: [Salesforce Connector sign in Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Messaggio di errore all'accesso a Salesforce Connector: Non è possibile connettersi al server remoto)
+Se quando si prova a connettersi all'account di Salesforce viene visualizzato il messaggio "Non è possibile connettersi al server remoto", vedere questa soluzione nel forum seguente: [Salesforce Connector sign in Error Message: Impossibile connettersi al server remoto](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
 
 
 ## <a name="next-steps"></a>Passaggi successivi

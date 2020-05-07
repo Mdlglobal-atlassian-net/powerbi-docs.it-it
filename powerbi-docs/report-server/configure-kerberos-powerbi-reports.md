@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874237"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configurare Kerberos per l'uso di report di Power BI
@@ -134,7 +134,7 @@ Per Analysis Services, si userà un servizio msolapsvc. 3. Verrà ora specificat
 
 Un esempio di nome SPN di Analysis Services sarebbe simile al seguente.
 
-| Tipo | Formato |
+| Type | Format |
 | --- | --- |
 | Istanza predefinita |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Istanza denominata |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -194,7 +194,7 @@ L'ultima parte da configurare sono le impostazioni di delega nell'account del se
 6. Nella nuova finestra di dialogo selezionare **Utenti o computer**.
 7. Immettere l'account per il servizio Analysis Services e selezionare **OK**.
 8. Selezionare il nome SPN creato, che inizierà con `MSOLAPSvc.3`. Se sono stati aggiunti sia il nome di dominio completo sia il nome SPN di NetBIOS, verranno selezionati entrambi, ma ne verrà visualizzato solo uno.
-9. Selezionare **OK**.  A questo punto verrà visualizzato il nome SPN nell'elenco.
+9. Scegliere **OK**.  A questo punto verrà visualizzato il nome SPN nell'elenco.
 10. Facoltativamente, è possibile selezionare **Espansa** per visualizzare sia il nome di dominio completo sia il nome SPN di NetBIOS nell'elenco.
 11. Selezionare di nuovo **Aggiungi**. A questo punto si aggiungerà il nome SPN di SQL Browser.
 12. Nella nuova finestra di dialogo selezionare **Utenti o computer**.

@@ -12,10 +12,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377146"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i consumer
@@ -156,7 +156,7 @@ Un riquadro è il rendering di un oggetto visivo che un *progettista* *aggiunge*
 
 I consumer non possono modificare i dashboard. Il consumer può tuttavia possibile aggiungere commenti, visualizzare dati correlati, impostare un dashboard come preferito, eseguire la sottoscrizione e così via.
 
-Quali sono le finalità dei dashboard?  Eccone alcune:
+Quali sono le finalità dei dashboard?  tra cui i seguenti:
 
 - visualizzare a colpo d'occhio tutte le informazioni necessarie per prendere decisioni
 

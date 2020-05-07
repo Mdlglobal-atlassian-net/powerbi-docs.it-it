@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874316"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Aggiungere commenti a un report in un server di report - Server di report di Power BI
@@ -36,7 +36,7 @@ ms.locfileid: "73874316"
    > [!TIP]
    > Non tutti lo sanno, ma è possibile [annotare i report di Power BI nell'app di Power BI per dispositivi mobili](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) e condividere i report annotati con altri utenti.
 
-## <a name="permissions"></a>Autorizzazioni
+## <a name="permissions"></a>applicazione
 
 A seconda delle autorizzazioni, è possibile:
 

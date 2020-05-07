@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878888"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aggiungere una colonna personalizzata in Power BI Desktop
@@ -67,7 +67,7 @@ La finestra **Aggiungi colonna personalizzata** ha le funzionalità seguenti:
 
    ![Errore nella pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. Selezionare **OK**. 
+3. Scegliere **OK**. 
 
    Power BI Desktop aggiunge la colonna personalizzata al modello e il passaggio **Aggiunta colonna personalizzata** all'elenco **Passaggi applicati** in **Impostazioni query**.
 

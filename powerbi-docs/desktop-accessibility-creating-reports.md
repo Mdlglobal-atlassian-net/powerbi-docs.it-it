@@ -10,10 +10,10 @@ ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379100"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Progettare report di Power BI per l'accessibilità
@@ -92,13 +92,13 @@ Gli utenti dei report possono anche visualizzare i dati in un oggetto visivo in 
 
 Power BI ha funzionalità di accessibilità incorporate nel prodotto, che richiedono una configurazione da parte dell'autore del report.  Queste funzionalità includono:
 
-* Testo alternativo
+* Alt text
 * Ordine di tabulazione
 * Titoli ed etichette
-* Marcatori
+* Indicatori
 * Temi dei report
 
-## <a name="alt-text"></a>Testo alternativo
+## <a name="alt-text"></a>Alt text
 
 Il testo alternativo (descrizioni testuali alternative) viene usato per descrivere agli utenti dell'utilità per la lettura dello schermo l'aspetto e la funzione di oggetti visivi e immagini nella pagina del report. Gli autori dei report dovrebbero aggiungere il testo alternativo a ogni oggetto che comunica informazioni importanti su un report. La presenza del testo alternativo garantisce che gli utenti del report comprendano il messaggio che l'utente vuole comunicare con un oggetto visivo, anche se non possono vedere l'oggetto visivo, l'immagine, la forma o la casella di testo. È possibile specificare un testo alternativo per qualsiasi oggetto in un report di Power BI Desktop. A tale scopo, selezionare l'oggetto, ad esempio l'oggetto visivo, la forma e così via, e nel riquadro **Visualizzazioni** selezionare la sezione **Formato**, espandere **Generale**, quindi scorrere fino alla fine e immettere il testo nella casella **Testo alternativo**. La casella di testo **Testo alternativo** ha un limite di 250 caratteri.
 
@@ -217,7 +217,7 @@ Oltre agli strumenti e alle funzionalità di accessibilità, Power BI fornisce l
 * Assicurarsi che venga aggiunto un **testo alternativo** a tutti gli oggetti visivi non decorativi della pagina.
 * Verificare che la pagina del report risulti chiara per gli utenti con problemi di percezione dei colori.
 
-### <a name="slicers"></a>Filtri dei dati
+### <a name="slicers"></a>Filtro dei dati
 * Se nelle pagine del report è presente una raccolta di più filtri dei dati, assicurarsi che la progettazione sia coerente in tutte le pagine. Usare il più possibile lo stesso tipo di carattere, gli stessi colori e la stessa posizione nello spazio.
 
 ### <a name="textbox"></a>Casella di testo
@@ -260,7 +260,7 @@ Oltre agli strumenti e alle funzionalità di accessibilità, Power BI fornisce l
 ### <a name="across-visuals-on-the-page"></a>Negli oggetti visivi nella pagina
 * Impostare l'ordine di tabulazione e disattivare l'ordine di tabulazione (contrassegnare l'elemento come nascosto) per gli elementi decorativi.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 Le funzionalità di accessibilità hanno alcune problematiche e limitazioni note. Le descrizioni di queste problematiche e limitazioni sono elencate di seguito:
 
 * Quando si usano le utilità per la lettura dello schermo con **Power BI Desktop**, l'esperienza migliore si ottiene aprendo l'utilità per la lettura dello schermo prima di aprire qualsiasi file in **Power BI Desktop**.

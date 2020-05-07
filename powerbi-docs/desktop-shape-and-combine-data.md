@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206770"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Data shaping e combinazione di dati in Power BI Desktop
@@ -251,7 +251,7 @@ Ora che è stata data la forma desiderata alla tabella StateCodes, queste due ta
 - Quando sono presenti una o più colonne da aggiungere a un'altra query, è consigliabile eseguire il *merge* delle query. 
 - Quando sono presenti righe aggiuntive di dati da aggiungere a una query esistente, è consigliabile *accodare* la query.
 
-In questo caso verrà eseguito il merge delle query. A tale scopo, seguire questa procedura:
+In questo caso verrà eseguito il merge delle query. A questo scopo, attenersi alla procedura seguente:
  
 1. Dal riquadro sinistro dell'Editor di query selezionare la query *in cui* si vuole eseguire il merge dell'altra query. In questo caso, si tratta di **RetirementStats**. 
 
@@ -269,7 +269,7 @@ In questo caso verrà eseguito il merge delle query. A tale scopo, seguire quest
 
    ![Finestra Merge](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-1. Seleziona **OK**.
+1. Selezionare **OK**.
 
    Alla fine della query l'Editor di query crea una colonna **NewColumn**, che include i contenuti della tabella (query) dopo il merge con la query esistente. Tutte le colonne della query sottoposta a merge vengono condensate nella colonna **NewColumn**, ma è possibile **espandere** la tabella e includere le colonne desiderate.
 
@@ -301,7 +301,7 @@ Per altre informazioni su Power BI Desktop e sulle sue funzionalità, vedere le 
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)
-* [Origini dati in Power BI Desktop](desktop-data-sources.md)
+* [Origini di dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
 

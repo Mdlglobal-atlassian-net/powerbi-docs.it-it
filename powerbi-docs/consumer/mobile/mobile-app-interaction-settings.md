@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377376"
 ---
 # <a name="configure-report-interaction-settings"></a>Configurare le impostazioni di interazione con i report
 
-## <a name="overview"></a>Panoramica
+## <a name="overview"></a>Overview
 
 L'app per dispositivi mobili Power BI include varie impostazioni di "interazione" configurabili che consentono di controllare la modalità di interazione con i dati e di definire il comportamento di alcuni elementi nell'app per dispositivi mobili Power BI. La tabella seguente illustra le impostazioni di interazione attualmente disponibili e i dispositivi in cui sono presenti.
 

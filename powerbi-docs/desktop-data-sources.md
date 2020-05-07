@@ -10,10 +10,10 @@ ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207253"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
@@ -45,7 +45,7 @@ La finestra di dialogo **Recupera dati** organizza i tipi di dati nelle categori
 * Power Platform
 * Azure
 * Servizi online
-* Altro
+* Altri
 
 La categoria **Tutti** include tutti i tipi di connessione dati di tutte le categorie.
 
@@ -72,7 +72,7 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Database SQL Server
 * Database di Access
 * Database di SQL Server Analysis Services
-* Database Oracle
+* Oracle Database
 * Database IBM DB2
 * Database Informix IBM (Beta)
 * IBM Netezza
@@ -125,7 +125,7 @@ L'immagine seguente mostra la finestra **Recupera dati** per **Power Platform**.
 
 La categoria **Azure** fornisce le connessioni dati seguenti:
 
-* Database SQL di Azure
+* database SQL di Azure
 * Azure SQL Data Warehouse
 * Database di Azure Analysis Services
 * Database di Azure per PostgreSQL

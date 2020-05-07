@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377743"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estendere gli oggetti visivi con descrizioni comando per le pagine dei report
@@ -71,7 +71,7 @@ L'esempio seguente illustra che cosa accade quando l'utente del report passa il 
 
 Viene mostrata una descrizione comando della pagina Presenta il testo con formattazione RTF in quattro caselle di testo e una forma (riga). La descrizione comando di pagina fornisce informazioni che descrivono ogni acronimo visualizzato nell'oggetto visivo.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 In fase di progettazione del report, è consigliabile seguire queste procedure:
 
@@ -88,5 +88,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Creare descrizioni comando basate sulle pagine del report in Power BI Desktop](../desktop-tooltips.md)
 - [Personalizzazione delle descrizioni comando in Power BI Desktop](../desktop-custom-tooltips.md)
 - [Usare gli elementi visivi per migliorare i report di Power BI](../desktop-visual-elements-for-reports.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

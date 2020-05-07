@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381423"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
@@ -88,7 +88,7 @@ Un grafico dei fattori di influenza chiave visualizza i collaboratori principali
 
 Per altre informazioni, vedere [Grafici dei fattori di influenza chiave in Power BI](power-bi-visualization-influencers.md)
 
-### <a name="kpis"></a>KPI
+### <a name="kpis"></a>Indicatori KPI
 ![grafico KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -110,7 +110,7 @@ Per altre informazioni, vedere [Indicatori KPI in Power BI](power-bi-visualizati
 
 Per altre informazioni, vedere l'articolo relativo a [suggerimenti e consigli per le visualizzazioni mappa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mappe: Mappe di ArcGIS
+### <a name="maps-arcgis-maps"></a>Mappe: mappe di ArcGIS
 ![mappa di ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Per altre informazioni, vedere [Mappe ArcGIS in Power BI](power-bi-visualization-arcgis.md).
@@ -133,7 +133,7 @@ Per altre informazioni, vedere [Mappe delle forme in Power BI](desktop-shape-map
 
 
 ### <a name="matrix"></a>Matrice
-![matrix](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![matrice](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Una tabella supporta due dimensioni, ma una matrice rende più semplice visualizzare i dati in modo significativo su più dimensioni, supportando un layout con rientri. La matrice aggrega automaticamente i dati e consente il drill-down. 
@@ -227,7 +227,7 @@ Per altre informazioni, vedere [Mappe ad albero in Power BI](power-bi-visualizat
 
 Per altre informazioni, vedere [Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md).
 
-## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare
+## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare 
 Quando si digitano query in linguaggio naturale con le Domande e risposte di Power BI, è possibile specificare il tipo di visualizzazione;  ad esempio:
 
 “***sales by state as a treemap***“

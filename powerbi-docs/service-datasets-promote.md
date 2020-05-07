@@ -10,10 +10,10 @@ ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877128"
 ---
 # <a name="promote-your-dataset-preview"></a>Promuovere il set di dati (anteprima)
@@ -54,4 +54,4 @@ L'amministratore tenant ha identificato gli utenti dell'organizzazione che posso
 ## <a name="next-steps"></a>Passaggi successivi
 
 * Leggere [Usare set di dati in aree di lavoro diverse](service-datasets-across-workspaces.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

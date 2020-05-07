@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871475"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Condividere un dashboard di Power BI che include collegamenti a un file di Excel in OneDrive
@@ -30,7 +30,7 @@ Per condividere un dashboard collegato a una cartella di lavoro di Excel in OneD
 1. Immettere gli indirizzi di posta elettronica dei colleghi.
 2. Per consentire ai colleghi di visualizzare la cartella di lavoro di Excel da Power BI, selezionare **Passa a OneDrive for Business per impostare le autorizzazioni della cartella di lavoro**.
 3. In OneDrive, [modificare le autorizzazioni](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in base alle esigenze.
-4. Seleziona **Condividi**.
+4. Selezionare **Condividi**.
 
 >[!NOTE]
 >I colleghi non riusciranno ad aggiungere riquadri aggiuntivi dalla cartella di lavoro o di apportare modifiche alla cartella di lavoro di Excel da Power BI.
@@ -40,7 +40,7 @@ Per condividere un dashboard collegato a una cartella di lavoro di Excel in OneD
 ## <a name="create-an-organizational-content-pack-with-a-dashboard-that-contains-workbook-tiles"></a>Creare un pacchetto di contenuto aziendale con un dashboard che contiene i riquadri della cartella di lavoro
 Quando si [pubblica un pacchetto di contenuto](service-organizational-content-pack-create-and-publish.md) si concede l'accesso a colleghi singoli o a gruppi di colleghi. Quando si pubblica un pacchetto di contenuto che contiene i collegamenti della cartella di lavoro si avrà l'opzione per modificare le autorizzazioni per la cartella di lavoro di Excel collegata prima della pubblicazione.
 
-1. Nella schermata **Crea pacchetto di contenuto** , immettere indirizzi di posta elettronica, assegnare al pacchetto di contenuto un titolo e una  descrizione e caricare un'immagine.
+1. Nella schermata **Crea pacchetto di contenuto**, immettere indirizzi di posta elettronica, assegnare al pacchetto di contenuto un titolo e una  descrizione e caricare un'immagine.
 2. Selezionare il dashboard e/o report collegato alla cartella di lavoro di Excel in OneDrive for Business.
    
     ![Cartella di lavoro di Excel in un pacchetto di contenuto](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)

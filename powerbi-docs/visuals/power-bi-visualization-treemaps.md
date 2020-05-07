@@ -11,10 +11,10 @@ ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880739"
 ---
 # <a name="treemaps-in-power-bi"></a>Mappe ad albero in Power BI
@@ -74,7 +74,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 
 Dopo avere scaricato il set di dati **Retail Analysis Sample**, è possibile iniziare.

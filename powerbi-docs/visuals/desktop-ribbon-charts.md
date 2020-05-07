@@ -10,10 +10,10 @@ ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1cee814b5013ece3a847aeb3660f1257c69be125
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871151"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
@@ -34,7 +34,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="create-a-ribbon-chart"></a>Creare un grafico a nastri
 

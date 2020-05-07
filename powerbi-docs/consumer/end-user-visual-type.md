@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377191"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
@@ -139,7 +139,7 @@ Le mappe delle forme confrontano le aree di una mappa usando i colori. Un oggett
 L'oggetto visivo matrice è un tipo di oggetto visivo tabella (vedere "Tabella" di seguito) che supporta un layout con rientri. Spesso, le progettazioni dei report inseriscono matrici nei report e nei dashboard per consentire agli utenti di selezionare uno o più elementi (righe, colonne, celle) nella matrice per evidenziare altri oggetti visivi in una pagina del report.  
 
 ### <a name="pie-charts"></a>Grafici a torta
-![pie chart](media/end-user-visual-type/pbi-nancy-viz-pie.png)
+![Grafico a torta](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 I grafici a torta indicano la relazione tra un intero e le parti. 
 
@@ -183,7 +183,7 @@ Per definizione, verranno campionati i dati ad alta densità per creare abbastan
 
 Ciò garantisce la combinazione migliore di velocità di risposta, rappresentazione e conservazione dei punti importanti nell'intero set di dati.
 
-### <a name="slicers"></a>Filtri dei dati
+### <a name="slicers"></a>Filtro dei dati
 ![filtro dei dati](media/end-user-visual-type/pbi-slicer.png)
 
 Un filtro dei dati è un grafico autonomo che può essere usato per filtrare gli altri oggetti visivi nella pagina. I filtri dei dati sono disponibili in molti formati diversi (categoria, intervallo, data e così via) e possono essere formattati per consentire la selezione di uno solo, di molti o di tutti i valori disponibili. 
@@ -226,9 +226,9 @@ La mappe ad albero rappresentano un'ottima scelta nelle seguenti situazioni:
 ### <a name="waterfall-charts"></a>Grafici a cascata
 ![Grafico a cascata](media/end-user-visual-type/waterfall-small.png)
 
-Un grafico a cascata mostra il totale aggiornato ogni volta che si aggiungono o si sottraggono valori. È utile per comprendere in che modo un valore iniziale (ad esempio, il reddito netto) è interessato da una serie di modifiche positive e negative.
+Il grafico a cascata mostra il totale parziale quando i valori vengono aggiunti o sottratti. È utile per comprendere in che modo un valore iniziale (ad esempio, il reddito netto) è interessato da una serie di modifiche positive e negative.
 
-Le colonne sono contraddistinte dal colore per poter vedere rapidamente gli aumenti e le diminuzioni. Le colonne del valore iniziale e del valore finale spesso iniziano sull'asse orizzontale, mentre i valori intermedi sono colonne mobili. In virtù di questo aspetto, i grafici a cascata sono spesso denominati grafici a ponte.
+Le colonne sono contraddistinte dal colore per poter vedere rapidamente gli aumenti e le diminuzioni. Le colonne del valore iniziale e del valore finale spesso iniziano sull'asse orizzontale, mentre i valori intermedi sono colonne mobili. Per questo aspetto, i "grafici a cascata" prendono anche il nome di "grafici a ponte".
 
 I grafici a cascata rappresentano un'ottima scelta nelle seguenti situazioni:
 - quando è necessario modificare la misura in serie temporali o su categorie diverse
@@ -238,7 +238,7 @@ I grafici a cascata rappresentano un'ottima scelta nelle seguenti situazioni:
 - per visualizzare la quantità di denaro incassata e spesa ogni mese e il saldo corrente per il proprio conto.
 
 ## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Indicare a Domande e risposte quale oggetto visivo usare
-Quando si digitano query in linguaggio naturale con Domande e risposte di Power BI, è possibile specificare il tipo di oggetto visivo nella domanda.  ad esempio:
+Quando si digitano query in linguaggio naturale con Domande e risposte di Power BI, è possibile specificare il tipo di oggetto visivo nella domanda.  Ad esempio:
 
 
 “***sales by state as a treemap***“

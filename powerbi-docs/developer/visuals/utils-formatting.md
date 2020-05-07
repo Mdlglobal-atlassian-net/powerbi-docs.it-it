@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378025"
 ---
 # <a name="formatting-utils"></a>Utilità per la formattazione
@@ -127,7 +127,7 @@ Questa funzione restituisce la linea di base delle proprietà di testo SVG speci
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";

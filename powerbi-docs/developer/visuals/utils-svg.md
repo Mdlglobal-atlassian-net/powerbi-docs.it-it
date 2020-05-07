@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377973"
 ---
 # <a name="svg-utils"></a>Utilità per SVG
@@ -53,7 +53,7 @@ Questa funzione crea un'istanza di ClassAndSelector con il nome specificato dell
 function createClassAndSelector(className: string): ClassAndSelector;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { CssConstants } from "powerbi-visuals-utils-svgutils";
@@ -80,7 +80,7 @@ Questa funzione crea una stringa translate da usare con la proprietà Transform 
 function translate(x: number, y: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -99,7 +99,7 @@ Questa funzione crea una stringa translateX da usare con la proprietà Transform
 function translateXWithPixels(x: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -118,7 +118,7 @@ Questa funzione crea una stringa translate da usare con la proprietà Transform 
 function translateWithPixels(x: number, y: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -143,7 +143,7 @@ function translateAndRotate(
 ): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -162,7 +162,7 @@ Questa funzione crea una stringa scale da usare con la proprietà Transform CSS.
 function scale(scale: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -181,7 +181,7 @@ Questa funzione crea una stringa transform-origin da usare con la proprietà tra
 function transformOrigin(xOffset: string, yOffset: string): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -200,7 +200,7 @@ Questa funzione impone il completamento di ogni transizione di D3.
 function flushAllD3Transitions(): void;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -219,7 +219,7 @@ Questa funzione analizza la stringa transform con il valore "translate(x,y)".
 function parseTranslateTransform(input: string): { x: string; y: string };
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -242,7 +242,7 @@ function createArrow(
 ): { path: string; transform: string };
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -270,7 +270,7 @@ Questa funzione restituisce un offset del rettangolo.
 function getOffset(rect: IRect): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -293,7 +293,7 @@ Questa funzione restituisce le dimensioni del rettangolo.
 function getSize(rect: IRect): ISize;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -316,7 +316,7 @@ Questa funzione modifica le dimensioni del rettangolo.
 function setSize(rect: IRect, value: ISize): void;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -338,7 +338,7 @@ Questa funzione restituisce una posizione destra del rettangolo.
 function right(rect: IRect): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -358,7 +358,7 @@ Questa funzione restituisce una posizione inferiore del rettangolo.
 function bottom(rect: IRect): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -378,7 +378,7 @@ Questa funzione restituisce una posizione superiore sinistra del rettangolo.
 function topLeft(rect: IRect): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -398,7 +398,7 @@ Questa funzione restituisce una posizione superiore destra del rettangolo.
 function topRight(rect: IRect): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -418,7 +418,7 @@ Questa funzione restituisce una posizione inferiore sinistra del rettangolo.
 function bottomLeft(rect: IRect): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -458,7 +458,7 @@ Questa funzione crea una copia del rettangolo.
 function clone(rect: IRect): IRect;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -480,7 +480,7 @@ Questa funzione converte il rettangolo in stringa.
 function toString(rect: IRect): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -500,7 +500,7 @@ Questa funzione applica l'offset specificato al rettangolo.
 function offset(rect: IRect, offsetX: number, offsetY: number): IRect;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -525,7 +525,7 @@ Questa funzione aggiunge il primo rettangolo al secondo rettangolo.
 function add(rect: IRect, rect2: IRect): IRect;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -553,7 +553,7 @@ Questa funzione restituisce il punto più vicino al punto specificato nel rettan
 function getClosestPoint(rect: IRect, x: number, y: number): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -576,7 +576,7 @@ Questa funzione confronta i rettangoli e restituisce true se sono uguali.
 function equal(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -599,7 +599,7 @@ Questa funzione confronta i rettangoli considerando la precisione dei valori.
 function equalWithPrecision(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -622,7 +622,7 @@ Questa funzione controlla se il rettangolo è vuoto.
 function isEmpty(rect: IRect): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -642,7 +642,7 @@ Questa funzione controlla se il rettangolo contiene il punto.
 function containsPoint(rect: IRect, point: IPoint): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -665,7 +665,7 @@ Questa funzione controlla se i rettangoli si intersecano.
 function isIntersecting(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -688,7 +688,7 @@ Questa funzione restituisce un'intersezione di rettangoli.
 function intersect(rect1: IRect, rect2: IRect): IRect;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -716,7 +716,7 @@ Questa funzione combina i rettangoli.
 function combine(rect1: IRect, rect2: IRect): IRect;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -744,7 +744,7 @@ Questa funzione restituisce un punto centrale del rettangolo.
 function getCentroid(rect: IRect): IPoint;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -773,7 +773,7 @@ Questa funzione restituisce la posizione dell'indicatore di misura.
 function getCoordinates(rootNode: Element, isPointerEvent: boolean): number[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { pointer } from "powerbi-visuals-utils-svgutils";

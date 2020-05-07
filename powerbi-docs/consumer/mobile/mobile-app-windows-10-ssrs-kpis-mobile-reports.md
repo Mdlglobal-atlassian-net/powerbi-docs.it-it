@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435376"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Visualizzare report e indicatori KPI locali nell' app Power BI per Windows
@@ -20,7 +20,7 @@ L'app Power BI per Windows 10 consente di accedere in tempo reale a informazioni
 ![Report per dispositivi mobili di Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Operazioni preliminari
-[Creare report per dispositivi mobili di Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) con SQL Server 2016 Enterprise Edition Mobile Report Publisher e pubblicarli nel [portale Web di Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Creare gli indicatori KPI direttamente nel portale Web. Organizzarli in cartelle e contrassegnare i Preferiti, per poterli trovare facilmente. 
+[Creare report per dispositivi mobili di Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) con SQL Server 2016 Enterprise Edition Mobile Report Publisher e pubblicarli nel [portale Web di Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Creare gli indicatori KPI direttamente nel portale Web. Organizzarli in cartelle e contrassegnare i Preferiti, in modo da poterli trovare facilmente. 
 
 Quindi, nell'app Power BI per Windows 10, visualizzare gli indicatori KPI, i report per dispositivi mobili e i report di Power BI, organizzati in cartelle o raccolti come Preferiti. 
 
@@ -56,7 +56,7 @@ Esplorare gli esempi per interagire con gli indicatori KPI e i report per dispos
    > 
    > 
    
-    Toccare **Opzione avanzata** per assegnare un nome al server se si vuole.
+    Toccare **Opzioni avanzate** per assegnare un nome al server, se necessario.
 4. Toccare il segno di spunta per connettersi. 
    
    È ora possibile visualizzare il server nel riquadro di spostamento.
@@ -99,8 +99,8 @@ Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi m
    
     ![Rimuovi server](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
-## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Creare Report per dispositivi mobili e indicatori KPI di Reporting Services
-Non creare gli indicatori KPI e i report per dispositivi mobili di Reporting Services nell'app Power BI per dispositivi mobili. ma crearli in SQL Server Mobile Report Publisher e un portale Web di SQL Server 2016 Reporting Services
+## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Creare r.Report per dispositivi mobili di Reporting Services e indicatori KPI
+Non creare gli indicatori KPI e i report per dispositivi mobili di Reporting Services nell'app Power BI per dispositivi mobili. ma crearli in SQL Server Mobile Report Publisher e un portale Web di SQL Server 2016 Reporting Services 
 
 * [Creare report per dispositivi mobili personalizzati di Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) e pubblicarli in un portale Web di Reporting Services.
 * Creare [indicatori KPI in un portale Web di Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)

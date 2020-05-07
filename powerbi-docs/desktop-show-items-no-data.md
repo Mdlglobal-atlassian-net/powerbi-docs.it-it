@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879724"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Visualizzare elementi senza dati in Power BI
@@ -30,10 +30,10 @@ Per iniziare a comprendere come Power BI determina quali dati sono rilevanti per
 
 |*Prodotto[Colore]*  |*Prodotto[Misura]*  |
 |---------|---------|
-|Blu     |Grande         |
+|Blu     |large         |
 |Blu     |Media         |
-|Blu     |Piccola         |
-|Rosso     |Grande         |
+|Blu     |Piccolo         |
+|Rosso     |large         |
 
 In questo esempio, Power BI visualizza le combinazioni di *[Colore-Misura]* presenti nella tabella *[Prodotto]* . 
 
@@ -80,7 +80,7 @@ Per abilitare la funzionalità **Mostra elementi senza dati**, selezionare un og
 ![Come abilitare la funzionalità Mostra elementi senza dati](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
 
-La funzionalità **Mostra elementi senza dati** *non* ha effetti nei casi seguenti:
+La funzionalità **Mostra elementi senza dati***non* ha effetti nei casi seguenti:
 
 * Non è stata aggiunta una misura all'oggetto visivo e le colonne di raggruppamento provengono dalla stessa tabella
 * I gruppi non sono correlati. Power BI non esegue query per gli oggetti visivi con gruppi non correlati
@@ -100,16 +100,16 @@ Visualizzazione con la funzionalità **Mostra elementi senza dati** disattivata:
 |*Prodotto[Colore]*  |*Prodotto[Misura]*  |*[SommaQuantità]*  |
 |---------|---------|---------|
 |Blu     |Media         |15         |
-|Blu     |Piccola         |10         |
+|Blu     |Piccolo         |10         |
 
 Visualizzazione con la funzionalità **Mostra elementi senza dati** attivata:
 
 |*Prodotto[Colore]*  |*Prodotto[Misura]*  |*[SommaQuantità]*  |
 |---------|---------|---------|
-|Blu     |Grande         |         |
+|Blu     |large         |         |
 |Blu     |Media         |15         |
-|Blu     |Piccola         |10         |
-|Rosso     |Grande         |         |
+|Blu     |Piccolo         |10         |
+|Rosso     |large         |         |
 
 Si noti che vengono visualizzate due nuove combinazioni quando la funzionalità è attivata: *Blu - Grande* e *Rosso - Grande*. Per entrambi questi elementi non è disponibile un valore *Quantità* corrispondente nella tabella *Vendite*. Tuttavia, compaiono nella tabella *Prodotto*.
 
@@ -129,7 +129,7 @@ Visualizzazione con la funzionalità **Mostra elementi senza dati** attivata:
 |Lucido     |Blu         |10         |
 |Lucido     |Rosso         |         |
 |Opaco     |Blu         |15         |
-|Nessuno     |         |         |
+|nessuno     |         |         |
 
 Si noti che *(Lucido-Rosso)* e *(Nessuno, vuoto)* sono state visualizzate come combinazioni. Ecco il motivo per che cui sono state visualizzate:
 * Power BI ha preso prima di tutto in considerazione StileProdotto[Finitura] e selezionato tutti i valori per la visualizzazione, con il risultato Lucido, Opaco, Nessuno.
@@ -163,7 +163,7 @@ In un oggetto visivo Matrice con quattro campi nel bucket **Righe**, se l'opzion
 
 ![Campi nello stesso oggetto visivo per cui l'opzione Mostra elementi senza dati è abilitata automaticamente](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Al contrario, per il campo *Continent* visualizzato nel bucket **Colonne**, l'opzione **Mostra elementi senza dati** *non* è abilitata automaticamente. 
+Al contrario, per il campo *Continent* visualizzato nel bucket **Colonne**, l'opzione **Mostra elementi senza dati***non* è abilitata automaticamente. 
 
 Questo comportamento viene riscontrato spesso quando un oggetto visivo viene convertito in un tipo diverso, ad esempio da Matrice a Tabella. In tali conversioni, l'opzione **Mostra elementi senza dati** viene abilitata automaticamente per i campi spostati in un bucket che contiene un campo in cui è abilitata la funzionalità. Nell'esempio precedente, se per il campo *SupplierID* è abilitata la funzionalità **Mostra elementi senza dati** e l'oggetto visivo viene convertito in una tabella, il campo *Continent* del bucket **Colonne** viene spostato (insieme ai campi del bucket **Righe**) nell'unico bucket usato in un oggetto visivo Tabella, ovvero il bucket **Valori**. Di conseguenza, per tutti i campi del bucket **Valori** sarà abilitata l'opzione **Mostra elementi senza dati**.
 
@@ -182,16 +182,16 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 
 |Prodotto[IdProdotto]|    Prodotto[NomeProdotto]|   Prodotto[Colore]| Prodotto[Misura]|  Prodotto[IdCategoria]|    Prodotto[IdStile]|
 |---------|---------|---------|---------|---------|---------|
-|1  |Prod1  |Blu   |Piccola  |1  |1 |
+|1  |Prod1  |Blu   |Piccolo  |1  |1 |
 |2  |Prod2  |Blu   |Media |2  |2 |
-|3  |Prod3  |Rosso    |Grande  |1  |1 |
-|4  |Prod4  |Blu   |Grande  |2  |2 |
+|3  |Prod3  |Rosso    |large  |1  |1 |
+|4  |Prod4  |Blu   |large  |2  |2 |
 
 
 |CategoriaProdotto[IdCategoria]|   CategoriaProdotto[NomeCategoria]|
 |---------|---------|
-|1  |Layout   |
-|2  |Fotocamera |
+|1  |Telefono   |
+|2  |Camera |
 |3  |TV |
 
 
@@ -199,7 +199,7 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 |---------|---------|---------|
 |1  |Lucido  |Sì |
 |2  |Opaco  |No |
-|3  |Nessuno   |No |
+|3  |nessuno   |No |
 
 
 |Vendite[IdVendita]| Vendite[IdProdotto]|   Vendite[Data]|    Vendite[Quantità]|

@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872335"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Esercitazione: Introduzione al servizio Power BI
@@ -21,7 +21,7 @@ Questa esercitazione è un'introduzione ad alcune delle funzionalità del *servi
 
 ![Home page del servizio Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
-In questa esercitazione viene completata la procedura seguente:
+In questa esercitazione si completa la procedura seguente:
 
 > [!div class="checklist"]
 > * Accedere all'account online di Power BI o iscriversi se non si ha ancora un account.
@@ -41,7 +41,7 @@ Se non si ha un account Power BI, [iscriversi per ottenere una versione di prova
 
 Dopo aver creato un account, immettere *app.powerbi.com* nel browser per aprire il servizio Power BI. 
 
-## <a name="step-1-get-data"></a>Passaggio 1: Recupera dati
+## <a name="step-1-get-data"></a>Passaggio 1: Recuperare i dati
 
 Quando si vuole creare un report di Power BI, spesso si inizia in Power BI Desktop. In questo caso si inizierà da zero, creando un report nel servizio Power BI.
 
@@ -94,7 +94,7 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
 
 3. Il grafico sembra interessante, quindi lo si *aggiungerà* a un dashboard. Passare il puntatore del mouse sulla visualizzazione, quindi selezionare l'icona Aggiungi. Quando si aggiunge una visualizzazione, verrà archiviata nel dashboard e aggiornata automaticamente in modo che sia possibile tenere traccia dell'ultimo valore in modo immediato.
    
-   ![Icona Aggiungi](media/service-get-started/power-bi-service-pin-visual.png)
+   ![Icona a forma di puntina](media/service-get-started/power-bi-service-pin-visual.png)
 
 4. Dato che il report è nuovo, è necessario salvarlo prima di poter aggiungere una visualizzazione a un dashboard. Assegnare un nome al report, ad esempio *Sales over time* e quindi selezionare **Salva**. 
 
@@ -143,7 +143,7 @@ Per l'esplorazione rapida dei dati, provare a formulare una domanda nella casell
 
     ![Scheda Maximum sale](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
 
-3. Selezionare l'icona Aggiungi ![Icona Aggiungi](media/service-get-started/pbi_pinicon.png) per mostrare questa visualizzazione nel dashboard Financial sample for tutorial.
+3. Selezionare l'icona Aggiungi ![Icona a forma di puntina](media/service-get-started/pbi_pinicon.png) per mostrare questa visualizzazione nel dashboard Financial sample for tutorial.
 
 1. Scorrere l'elenco **Domande per iniziare** e selezionare **average cog for each month**. 
 
