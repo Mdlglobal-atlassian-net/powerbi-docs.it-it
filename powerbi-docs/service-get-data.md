@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881424"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
@@ -60,7 +60,7 @@ Anche il percorso in cui si archiviano i file ha una grande importanza. OneDrive
 
 **Database nel Cloud**: dal servizio Power BI è possibile connettersi in tempo reale a:
 
-* Database SQL di Azure
+* database SQL di Azure
 * Azure SQL Data Warehouse
 * Spark in Azure HDInsight
 
@@ -94,7 +94,7 @@ Un'**origine dati** è l'elemento da cui provengono i dati presenti in un set di
 * Un database nel cloud come il database SQL di Azure
 * Un database o file in un computer locale o un server dell'organizzazione
 
-## <a name="data-refresh"></a>Aggiornamento dei dati
+## <a name="data-refresh"></a>Aggiornamento dati
 Forse l'utente salva i file nella propria unità locale o un'unità che si trova in un'altra parte dell'organizzazione. Può essere necessario un gateway di Power BI in modo che sia possibile aggiornare il set di dati in Power BI. Il computer in cui è archiviato il file deve essere acceso durante l'aggiornamento. È possibile importare nuovamente il file o usare Pubblica da Excel o Power BI Desktop, ma tali opzioni non sono processi automatizzati.
 
 Se si salvano i file in OneDrive for Business o nei siti del team di SharePoint, è possibile connettersi ai file o importare i file in Power BI. Quindi, il set di dati, i report e il dashboard saranno sempre aggiornati. Poiché sia OneDrive for Business che Power BI risiedono nel cloud, Power BI può connettersi direttamente al file salvato circa una volta ogni ora per verificare la presenza di aggiornamenti. Il set di dati e le eventuali visualizzazioni si aggiornano automaticamente se sono presenti aggiornamenti.
@@ -107,7 +107,7 @@ Quando ci si connette a SQL Server Analysis Services da Power BI, la connessione
 
 L'aggiornamento dei dati è un aspetto estremamente importante di Power BI ed è troppo complesso per essere illustrato qui in modo esaustivo. Per un'analisi più approfondita, vedere [Aggiornamento dei dati in Power BI](refresh-data.md).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 Per tutte le origini dati usate nel servizio Power BI, tenere presenti le limitazioni seguenti. Esistono altre limitazioni applicabili a funzionalità specifiche, ma l'elenco seguente è valido per il servizio Power BI completo:
 
 * **Limite delle dimensioni del set di dati**: è previsto un limite di 1 GB per i set di dati archiviati nelle capacità condivise del servizio Power BI. Se sono necessari set di impostazioni di dimensioni maggiori, è possibile usare [Power BI Premium](service-premium-what-is.md).

@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698763"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Aggiornare un set di dati creato da una cartella di lavoro di Excel in un'unità locale
@@ -49,14 +49,14 @@ Quando si usa Power Query (Recupera e trasforma i dati in Excel 2016) per connet
 In **Strumento di navigazione**fare clic su **Carica in…**  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-In alternativa, se si fa clic su **Modifica** nello Strumento di navigazione, viene aperto l'editor di query. Da qui è possibile fare clic su **Chiudi e carica in**.  
+In alternativa, se si fa clic su **Modifica** nello Strumento di navigazione, viene aperto l'editor di query. Da qui è possibile fare clic su **Chiudi e carica in…**  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Quindi, in **Carica in**selezionare **Aggiungi dati al modello di dati**.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Cosa accade se si usano dati esterni in Power Pivot?
-ma si tratta di un problema facilmente risolvibile. Quando si usa Power Pivot per connettersi ed eseguire query sui dati da un'origine dati online o locale, i dati vengono caricati automaticamente nel modello di dati.
+Non c'è problema. Quando si usa Power Pivot per connettersi ed eseguire query sui dati da un'origine dati online o locale, i dati vengono caricati automaticamente nel modello di dati.
 
 ## <a name="how-do-i-schedule-refresh"></a>Come si pianifica l'aggiornamento?
 Quando si configura una pianificazione dell'aggiornamento, Power BI si connetterà direttamente alle origini dati usando le informazioni e le credenziali di connessione nel set di dati per eseguire query per i dati aggiornati e quindi caricherà i dati aggiornati nel set di dati. Vengono aggiornate anche le visualizzazioni nei report e nei dashboard basati sul set di dati nel servizio Power BI.

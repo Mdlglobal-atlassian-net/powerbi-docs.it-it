@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698740"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
@@ -24,7 +24,7 @@ Questo articolo contiene le risposte alle domande frequenti sull'amministrazione
 
 ### <a name="sign-up-for-power-bi-section"></a>Sezione relativa all'iscrizione a Power BI
 
-* [Uso di PowerShell](#using-powershell)
+* [Tramite PowerShell](#using-powershell)
 * [In che modo gli utenti si iscrivono a Power BI?](#how-do-users-sign-up-for-power-bi)
 * [In che modo si iscrivono i singoli utenti dell'organizzazione?](#how-do-individual-users-in-my-organization-sign-up)
 * [Come si può impedire agli utenti di aggiungersi all'attuale tenant di Office 365?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
@@ -42,7 +42,7 @@ Questo articolo contiene le risposte alle domande frequenti sull'amministrazione
 * [Come si rimuove Power BI per gli utenti che hanno già effettuato l'iscrizione?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Come si può sapere se nuovi utenti si aggiungono al tenant?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [È necessario prepararsi per altro?](#are-there-any-additional-things-i-should-prepare-for)
-* [Dove si trova il tenant di Power BI?](#where-is-my-power-bi-tenant-located)
+* [Dove si trova il tenant di Power BI personale?](#where-is-my-power-bi-tenant-located)
 * [Che cos'è il Contratto di servizio di Power BI?](#what-is-the-power-bi-sla)
 * [In che modo Power BI gestisce la disponibilità elevata e il failover?](#how-does-power-bi-handle-high-availability-and-failover)
 
@@ -53,7 +53,7 @@ Questo articolo contiene le risposte alle domande frequenti sull'amministrazione
 
 ## <a name="sign-up-for-power-bi"></a>Iscriversi a Power BI
 
-### <a name="using-powershell"></a>Uso di PowerShell
+### <a name="using-powershell"></a>Utilizzo di PowerShell
 
 Alcune delle procedure di questa sezione richiedono gli script di Windows PowerShell. Se no si ha familiarità con PowerShell, vedere [Guida introduttiva a Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814). Per eseguire gli script, installare la versione a 64 bit più recente di [Azure Active Directory PowerShell per Graph](/powershell/azure/active-directory/).
 
@@ -67,7 +67,7 @@ Anche i singoli utenti dell'organizzazione potrebbero essere in grado di iscrive
 
 Esistono tre possibili scenari:
 
-* **Scenario 1**: l'organizzazione ha già un ambiente Microsoft 365 e l'utente che effettua l'iscrizione a Power BI ha già un account di Microsoft 365.
+* **Scenario 1:** l'organizzazione ha già un ambiente Microsoft 365 e l'utente che effettua l'iscrizione a Power BI ha già un account di Microsoft 365.
     In questo scenario, se un utente ha già un account aziendale o dell'istituto di istruzione nel tenant (ad esempio contoso.com) ma non ha ancora Power BI, Microsoft attiva semplicemente il piano Power BI (gratuito) per tale account. L'utente riceve automaticamente una notifica relativa a come usare il servizio Power BI.
 
 * **Scenario 2**: l'organizzazione ha già un ambiente Microsoft 365, ma l'utente che effettua l'iscrizione a Power BI non ha un account di Microsoft 365.
@@ -157,7 +157,7 @@ Per consentire agli utenti esistenti di iscriversi a Power BI, eseguire il coman
 
 Esistono tre possibili scenari:
 
-* **Scenario 1**: se l'organizzazione ha già un ambiente Microsoft 365 e tutti gli utenti dell'organizzazione hanno account di Microsoft 365, il processo di gestione delle identità rimane invariato.
+* **Scenario 1:** se l'organizzazione ha già un ambiente Microsoft 365 e tutti gli utenti dell'organizzazione hanno account di Microsoft 365, il processo di gestione delle identità rimane invariato.
 
 * **Scenario 2**: se l'organizzazione ha già un ambiente Microsoft 365 ma non tutti gli utenti dell'organizzazione hanno account di Microsoft 365, viene creato un utente nel tenant e le licenze vengono assegnate in base all'indirizzo di posta elettronica aziendale o dell'istituto di istruzione dell'utente.
 
@@ -228,7 +228,7 @@ Si potrebbe riscontrare un aumento di richieste di reimpostazione delle password
 
 È possibile rimuovere un utente dal tenant tramite il processo standard nell'interfaccia di amministrazione di Microsoft 365. Se tuttavia l'utente ha ancora un indirizzo di posta elettronica attivo dell'organizzazione, può aggiungersi di nuovo, a meno che non si impedisca a tutti gli utenti di aggiungersi.
 
-### <a name="where-is-my-power-bi-tenant-located"></a>Dove si trova il tenant di Power BI?
+### <a name="where-is-my-power-bi-tenant-located"></a>Dove si trova il tenant di Power BI personale?
 
 Per informazioni sull'area dati in cui si trova il tenant di Power BI, vedere [Dove si trova il tenant di Power BI?](service-admin-where-is-my-tenant-located.md).
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75304180"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Confronto tra funzione DIVIDE e operatore di divisione (/)
@@ -64,5 +64,5 @@ Valutare attentamente se la funzione DIVIDE deve restituire un valore alternativ
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675654"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Corso online: Report impaginati di Power BI
@@ -93,7 +93,7 @@ Al termine dell'estrazione, sarà presente la cartella **PowerBIPRIAD**, con le 
 - **MySolution**: in questa cartella vengono archiviati i file della soluzione. Le istruzioni del lab indicheranno quando usarla.
 - **Presentation**: questa cartella contiene il file di presentazione del corso, disponibile come documento PDF.
 
-### <a name="getting-started"></a>Attività iniziali
+### <a name="getting-started"></a>Introduzione
 
 È consigliabile guardare prima il corso online. È possibile fare riferimento alla teoria della presentazione aprendo il file **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. La presentazione include otto diapositive del lab, che indicano quando è il momento di mettere in pratica la teoria. Include anche numerosi collegamenti alle risorse per trovare contenuti correlati.
 
@@ -115,5 +115,5 @@ Usare [questo collegamento](https://aka.ms/priad-instructor) per scaricare il ki
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - Esercitazione: [Creare un report impaginato e caricarlo nel servizio Power BI](paginated-reports-quickstart-aw.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
 ms.openlocfilehash: bc172f3f5c25a0f0c3773befe5bd846f95a9a2e0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698349"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Usare le aggregazioni (somma, media e così via) nel servizio Power BI
@@ -96,7 +96,7 @@ Alcune opzioni possono essere disponibili per l'aggregazione di un campo:
 
 Ad esempio, questi dati:
 
-| Paese | Quantità |
+| Country | Amount |
 |:--- |:--- |
 | USA |100 |
 | Regno Unito |150 |
@@ -152,7 +152,7 @@ produrrebbero i risultati seguenti:
 
 D:  perché non è disponibile l'opzione **Non riepilogare**?
 
-R:  il campo selezionato è probabilmente una misura calcolata o una misura avanzata creata in Excel o in [Power BI Desktop](desktop-measures.md). Ogni misura calcolata ha una propria formula hardcoded. Non è possibile modificare l'aggregazione usata da Power BI. Ad esempio, se si tratta di una somma, può essere solo una somma. Nell'elenco **Campi** le *misure calcolate* vengono visualizzate con il simbolo di calcolatrice.
+A:  il campo selezionato è probabilmente una misura calcolata o una misura avanzata creata in Excel o in [Power BI Desktop](desktop-measures.md). Ogni misura calcolata ha una propria formula hardcoded. Non è possibile modificare l'aggregazione usata da Power BI. Ad esempio, se si tratta di una somma, può essere solo una somma. Nell'elenco **Campi** le *misure calcolate* vengono visualizzate con il simbolo di calcolatrice.
 
 D:  perché con un campo sicuramente **numerico** le uniche scelte disponibili sono **Conteggio** e **Conteggio valori univoci**?
 
@@ -169,22 +169,22 @@ R4:  la quarta possibilità è che il campo venga usato per un asse. Su un asse 
 
 D:  Perché non è possibile aggregare campi di testo per le origini dati SQL Server Analysis Services (SSAS)?
 
-R:  Le connessioni dinamiche ai modelli multidimensionali SSAS non consentono aggregazioni sul lato client, incluse quelle di tipo first, last, avg, min, max e sum.
+A:  Le connessioni dinamiche ai modelli multidimensionali SSAS non consentono aggregazioni sul lato client, incluse quelle di tipo first, last, avg, min, max e sum.
 
 D:  è disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  Come si procede?
 
-R:  aggiungere il campo al bucket **Dettagli** e non ai bucket degli assi X o Y.
+A:  aggiungere il campo al bucket **Dettagli** e non ai bucket degli assi X o Y.
 
 D:  quando si aggiunge un campo numerico a una visualizzazione, per la maggior parte dei campi di questo tipo l'aggregazione predefinita è la somma, ma per alcuni vengono eseguiti il conteggio, la media o altre aggregazioni.  Perché l'aggregazione predefinita non è sempre la stessa?
 
-R:  i proprietari del set di dati possono impostare l'esecuzione del riepilogo predefinita per ogni campo. Se si è il proprietario di un set di dati, modificare il riepilogo predefinito nella scheda **Creazione di modelli** di Power BI Desktop.
+A:  i proprietari del set di dati possono impostare l'esecuzione del riepilogo predefinita per ogni campo. Se si è il proprietario di un set di dati, modificare il riepilogo predefinito nella scheda **Creazione di modelli** di Power BI Desktop.
 
 D:  come può il proprietario di un set di dati assicurarsi che un campo non venga mai aggregato?
 
-R:  in Power BI Desktop, nella scheda **Creazione di modelli**, impostare **Tipo di dati** su **Testo**.
+A:  in Power BI Desktop, nella scheda **Creazione di modelli**, impostare **Tipo di dati** su **Testo**.
 
 D:  nell'elenco a discesa non è disponibile l'opzione **Non riepilogare**.
 
-R:  provare a rimuovere il campo e ad aggiungerlo di nuovo.
+A:  provare a rimuovere il campo e ad aggiungerlo di nuovo.
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958357"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Impossibile aggiungere Power BI a una sottoscrizione partner di Office 365
@@ -52,7 +52,7 @@ Se il partner non offre Power BI e non è possibile acquistare direttamente da M
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Abilitare le sottoscrizioni ad hoc
 
-Per impostazione predefinita, le iscrizioni di persone fisiche (note anche come sottoscrizioni ad hoc) sono disabilitate. In questo caso quando si tenta di iscriversi viene visualizzato il messaggio seguente: *Your IT department has turned off signup for Microsoft Power BI* (Il reparto IT ha disattivato l'iscrizione per Microsoft Power BI).
+Per impostazione predefinita, le iscrizioni di persone fisiche (note anche come sottoscrizioni ad hoc) sono disabilitate. In questo caso, quando si prova a iscriversi, viene visualizzato il messaggio seguente: *Il reparto IT ha disattivato l'iscrizione per Microsoft Power BI*.
 
 ![Immagine Siamo spiacenti](media/service-admin-syndication-partner/sorry.png)
 

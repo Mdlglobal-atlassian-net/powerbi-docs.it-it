@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853065"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Aggiungere un'intera pagina del report, come riquadro animato, a un dashboard di Power BI
@@ -47,7 +47,7 @@ Il video seguente mostra come aggiungere una pagina dinamica del report. Seguire
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>Aprire il dashboard per visualizzare il riquadro animato bloccato
 1. Nel riquadro di spostamento selezionare il dashboard con il nuovo riquadro animato. In quel punto è possibile eseguire operazioni come [rinominare, ridimensionare, collegare e spostare](service-dashboard-edit-tile.md) la pagina del report aggiunta.  
-2. Interagire con il riquadro animato.  Nella schermata seguente, se si seleziona una barra nell'istogramma, le altre visualizzazioni nel riquadro vengono evidenziate e filtrate in modo incrociato.
+2. Interagire con il riquadro animato.  Nella schermata seguente, se si seleziona una barra nell’istogramma, le altre visualizzazioni nel riquadro vengono evidenziate e filtrate in modo incrociato.
    
     ![Dashboard con un riquadro animato](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 

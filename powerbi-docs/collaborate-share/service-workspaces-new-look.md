@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81638526"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Acconsentire esplicitamente al nuovo aspetto per le aree di lavoro (anteprima)
@@ -26,7 +26,7 @@ Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la bar
 
 :::image type="content" source="media/service-workspaces-new-look/power-bi-workspace-new-look-numbered.png" alt-text="Nuovo aspetto delle aree di lavoro, con callout numerati per la spiegazione":::
 
-|Numero  |Come funziona |
+|Number  |Funzionamento |
 |---------|---------|
 |  ![Numero uno](media/service-workspaces-new-look/circle-one.png)  | **Recupera dati**: è più semplice aggiungere contenuto all'area di lavoro. Selezionare il pulsante **+ Nuovo** per connettersi ai dati, aprire file e creare report, dashboard e altro ancora.  |
 | ![Numero due](media/service-workspaces-new-look/circle-two.png)  | **Cambio visualizzazione**: per visualizzare le connessioni tra i flussi di dati, i set di dati, i report e i dashboard e le relative connessioni ad altre origini dati, passare tra la visualizzazione **Elenco** e la visualizzazione **Derivazione**. |
@@ -52,5 +52,5 @@ Se è necessario tornare all'aspetto precedente, è sufficiente scorrere per tor
 
 - [Usare la barra multifunzione aggiornata in Power BI Desktop](../desktop-ribbon.md)
 - [Nuovo aspetto del servizio Power BI](../service-new-look.md)
-- Domande? [Provare la community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

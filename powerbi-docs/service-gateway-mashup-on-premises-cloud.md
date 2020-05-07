@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697889"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Unire o aggiungere origini dati locali e cloud
@@ -35,7 +35,7 @@ ms.locfileid: "74697889"
 
 1. Nell'angolo in alto a destra del servizio Power BI selezionare l'icona dell'ingranaggio ![Icona dell'ingranaggio Impostazioni](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gestisci gateway**.
 
-    ![Gestisci gateway](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
+    ![Gestire i gateway](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. Selezionare il gateway da configurare.
 

@@ -11,10 +11,10 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75224234"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Esercitazione: Richiamare un modello di Machine Learning Studio (versione classica) in Power BI (anteprima)
@@ -73,7 +73,7 @@ Se non si ha ancora un'area di lavoro, è possibile crearne una selezionando **A
 
 Una volta creata l'area di lavoro, è possibile selezionare **Ignora** nell'angolo inferiore destro della schermata iniziale.
 
-![Ignora](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
+![Skip](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
 Selezionare la scheda **Flussi di dati (anteprima)** , quindi selezionare il pulsante **Crea** nell'angolo superiore destro dell'area di lavoro e infine selezionare **Flusso di dati**.
 
@@ -91,7 +91,7 @@ Nella schermata successiva viene chiesto di connettersi a un'origine dati. Incol
 
 `https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
-![Connetti a origine dati](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Connessione a un'origine dati](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 L'editor di Power Query mostra un'anteprima dei dati del file CSV. Selezionare **Trasforma tabella** sulla barra multifunzione e quindi selezionare **Usa la prima riga come intestazione**.  Viene aggiunto il passaggio di query _Intestazioni alzate di livello_ nel riquadro **Passaggi applicati** sulla destra. Si può anche rinominare la query assegnandole un nome più intuitivo, come _Automobile Pricing_, usando il riquadro a destra.
 
