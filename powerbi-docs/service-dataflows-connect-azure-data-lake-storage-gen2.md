@@ -10,10 +10,10 @@ ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113164"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati
@@ -33,7 +33,7 @@ Per usare Azure Data Lake Storage Gen2 per i flussi di dati, è necessario quant
 * **Un account di archiviazione di Azure con la funzionalità Data Lake Storage Gen2 abilitata** 
 
 > [!TIP]
-> Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/).
+> Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/) prima di iniziare.
 
 > [!WARNING]
 > Dopo aver configurato la posizione di archiviazione del flusso di dati, non può essere modificata. Vedere la sezione relativa a [considerazioni e limitazioni](#considerations-and-limitations) verso la fine di questo articolo per informazioni su altri elementi importanti da considerare.
@@ -107,7 +107,7 @@ Per concedere le autorizzazioni di assegnazione per l'archiviazione, passare all
 Questo è tutto. Gli amministratori delle aree di lavoro di Power BI possono ora assegnare i flussi di lavoro al file system creato.
 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Questa funzionalità è in anteprima e il relativo comportamento potrebbe cambiare in procinto del rilascio. Quando si usa l'archiviazione dei flussi di dati è necessario tenere presenti alcune considerazioni e limitazioni:
 
@@ -129,9 +129,9 @@ Domande e risposte comuni:
 
 **Domanda**: cosa accade se dopo aver creato flussi di dati in un'area di lavoro si vuole modificare la posizione di archiviazione?
 
-**Risposta**: non è possibile modificare la posizione di archiviazione di un flusso di dati dopo la creazione. 
+**Risposta:** non è possibile modificare la posizione di archiviazione di un flusso di dati dopo la creazione. 
 
-**Domanda**: quando è possibile modificare la posizione di archiviazione del flusso di dati di un'area di lavoro?
+**Domanda:** quando è possibile modificare la posizione di archiviazione del flusso di dati di un'area di lavoro?
 
 **Risposta**: la modifica della posizione di archiviazione del flusso di dati di un'area di lavoro è consentita solo se l'area di lavoro non contiene flussi di dati.
 

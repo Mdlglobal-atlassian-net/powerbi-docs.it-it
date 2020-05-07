@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113785"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Tenere traccia delle attività degli utenti in Power BI
@@ -178,7 +178,7 @@ L'area **Risultati** contiene le informazioni seguenti per ogni evento restituit
 | Indirizzo IP |Indirizzo IP del dispositivo usato per l'attività registrata. L'app visualizza l'indirizzo IP in formato IPv4 o IPv6. |
 | Utente |L'utente (o l'account del servizio) che ha eseguito l'azione che ha generato l'evento. |
 | Attività |L'attività eseguita dall'utente. Questo valore corrisponde alle attività selezionate nell'elenco a discesa **Attività**. Per un evento proveniente dal registro di controllo dell'amministrazione di Exchange, il valore di questa colonna è un cmdlet di Exchange. |
-| Item |Oggetto creato o modificato in seguito all'attività corrispondente. Ad esempio il file visualizzato o modificato o l'account utente aggiornato. Non tutte le attività presentano un valore in questa colonna. |
+| Elemento |Oggetto creato o modificato in seguito all'attività corrispondente. Ad esempio il file visualizzato o modificato o l'account utente aggiornato. Non tutte le attività presentano un valore in questa colonna. |
 | Dettagli |Dettagli aggiuntivi su un'attività. Ancora una volta, non tutte le attività presentano un valore corrispondente. |
 
 #### <a name="view-the-details-for-an-event"></a>Visualizzare i dettagli di un evento
@@ -239,9 +239,9 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Nome descrittivo                                     | Nome operazione                              | Note                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
 | Aggiunta origine dati a Power BI Gateway             | AddDatasourceToGateway                      |                                          |
-| Accesso alla cartella di Power BI aggiunto                      | AddFolderAccess                             | Attualmente non in uso                       |
+| Accesso alla cartella di Power BI aggiunto                      | AddFolderAccess                             | Attualmente non usata.                       |
 | Membri del gruppo di Power BI aggiunti                      | AddGroupMembers                             |                                          |
-| Account di archiviazione del flusso di dati collegato al tenant dall'amministratore | AdminAttachedDataflowStorageAccountToTenant | Attualmente non in uso                       |
+| Account di archiviazione del flusso di dati collegato al tenant dall'amministratore | AdminAttachedDataflowStorageAccountToTenant | Attualmente non usata.                       |
 | Analizzato un set di dati di Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Report di Power BI analizzato                          | AnalyzeInExcel                              |                                          |
 | Account di archiviazione del flusso di dati collegato                 | AttachedDataflowStorageAccount              |                                          |
@@ -262,33 +262,33 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Creato gateway di Power BI                          | CreateGateway                               |                                          |
 | Gruppo di Power BI creato                            | CreateGroup                                 |                                          |
 | Report di Power BI creato                           | CreateReport <sup>1</sup>                                |                                          |
-| Migrazione del flusso di dati all'account di archiviazione esterno eseguita     | DataflowMigratedToExternalStorageAccount    | Attualmente non in uso                       |
-| Autorizzazioni del flusso di dati aggiunte                        | DataflowPermissionsAdded                    | Attualmente non in uso                       |
-| Autorizzazioni del flusso di dati rimosse                      | DataflowPermissionsRemoved                  | Attualmente non in uso                       |
+| Migrazione del flusso di dati all'account di archiviazione esterno eseguita     | DataflowMigratedToExternalStorageAccount    | Attualmente non usata.                       |
+| Autorizzazioni del flusso di dati aggiunte                        | DataflowPermissionsAdded                    | Attualmente non usata.                       |
+| Autorizzazioni del flusso di dati rimosse                      | DataflowPermissionsRemoved                  | Attualmente non usata.                       |
 | Pacchetto di contenuto di Power BI per l'organizzazione eliminato      | DeleteOrgApp                                |                                          |
 | Commento di Power BI eliminato                          | DeleteComment                               |                                          |
-| Dashboard di Power BI eliminato                        | DeleteDashboard                             | Attualmente non in uso                       |
-| Flusso di dati di Power BI eliminato                         | DeleteDataflow                              | Attualmente non in uso                       |
+| Dashboard di Power BI eliminato                        | DeleteDashboard                             | Attualmente non usata.                       |
+| Flusso di dati di Power BI eliminato                         | DeleteDataflow                              | Attualmente non usata.                       |
 | Set di dati di Power BI eliminato                          | DeleteDataset                               |                                          |
 | Sottoscrizione ai messaggi di posta elettronica di Power BI eliminata               | DeleteEmailSubscription                     |                                          |
 | Cartella di Power BI eliminata                           | DeleteFolder                                |                                          |
-| Accesso alla cartella di Power BI eliminato                    | DeleteFolderAccess                          | Attualmente non in uso                       |
+| Accesso alla cartella di Power BI eliminato                    | DeleteFolderAccess                          | Attualmente non usata.                       |
 | Eliminato gateway di Power BI                          | DeleteGateway                               |                                          |
 | Gruppo di Power BI eliminato                            | DeleteGroup                                 |                                          |
 | Report di Power BI eliminato                           | DeleteReport                                |                                          |
 | Origini dati del set di dati di Power BI individuate          | GetDatasources                              |                                          |
 | Report di Power BI scaricato                        | DownloadReport                              |                                          |
 | Proprietà del flusso di dati modificate                        | EditDataflowProperties                      |                                          |
-| Autorizzazione di certificazione di Power BI modificata          | EditCertificationPermission                 | Attualmente non in uso                       |
-| Dashboard di Power BI modificato                         | EditDashboard                               | Attualmente non in uso                       |
+| Autorizzazione di certificazione di Power BI modificata          | EditCertificationPermission                 | Attualmente non usata.                       |
+| Dashboard di Power BI modificato                         | EditDashboard                               | Attualmente non usata.                       |
 | Set di dati di Power BI modificato                           | EditDataset                                 |                                          |
-| Proprietà del set di dati di Power BI modificate                | EditDatasetProperties                       | Attualmente non in uso                       |
+| Proprietà del set di dati di Power BI modificate                | EditDatasetProperties                       | Attualmente non usata.                       |
 | Report di Power BI modificato                            | EditReport                                  |                                          |
 | Flusso di dati di Power BI esportato                        | ExportDataflow                              |                                          |
 | Dati degli oggetti visivi dei report di Power BI esportati              | ExportReport                                |                                          |
 | Dati del riquadro di Power BI esportati                       | ExportTile                                  |                                          |
-| Non è stato possibile aggiungere le autorizzazioni del flusso di dati                | FailedToAddDataflowPermissions              | Attualmente non in uso                       |
-| Non è stato possibile rimuovere le autorizzazioni del flusso di dati             | FailedToRemoveDataflowPermissions           | Attualmente non in uso                       |
+| Non è stato possibile aggiungere le autorizzazioni del flusso di dati                | FailedToAddDataflowPermissions              | Attualmente non usata.                       |
+| Non è stato possibile rimuovere le autorizzazioni del flusso di dati             | FailedToRemoveDataflowPermissions           | Attualmente non usata.                       |
 | Token di firma di accesso condiviso del flusso di dati di Power BI generato             | GenerateDataflowSasToken                    |                                          |
 | Token di incorporamento di Power BI generato                    | GenerateEmbedToken                          |                                          |
 | File importato in Power BI                         | Importa                                      |                                          |
@@ -303,7 +303,7 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Membri del gruppo di Power BI rimossi                    | DeleteGroupMembers                          |                                          |
 | Area di lavoro rimossa da una capacità                 | RemoveWorkspacesFromCapacity                |                                          |
 | Dashboard di Power BI rinominato                        | RenameDashboard                             |                                          |
-| Aggiornamento del flusso di dati Power BI richiesto               | RequestDataflowRefresh                      | Attualmente non in uso                       |
+| Aggiornamento del flusso di dati Power BI richiesto               | RequestDataflowRefresh                      | Attualmente non usata.                       |
 | Aggiornamento del set di dati di Power BI richiesto                | RefreshDataset                              |                                          |
 | Aree di lavoro di Power BI recuperate                     | GetWorkspaces                               |                                          |
 | Impostazione del percorso di archiviazione del flusso di dati per un'area di lavoro     | SetDataflowStorageLocationForWorkspace      |                                          |
@@ -311,7 +311,7 @@ Le operazioni seguenti sono disponibili sia nel log di controllo che nei log att
 | Aggiornamento pianificato impostato sul set di dati di Power BI         | SetScheduledRefresh                         |                                          |
 | Dashboard di Power BI condiviso                         | ShareDashboard                              |                                          |
 | Report di Power BI condiviso                            | ShareReport                                 |                                          |
-| Avviata una versione di valutazione estesa di Power BI                   | OptInForExtendedProTrial                    | Attualmente non in uso                       |
+| Avviata una versione di valutazione estesa di Power BI                   | OptInForExtendedProTrial                    | Attualmente non usata.                       |
 | Versione di valutazione di Power BI avviata                            | OptInForProTrial                            |                                          |
 | Origine dati di Power BI acquisita                   | TakeOverDatasource                          |                                          |
 | Set di dati di Power BI acquisito                        | TakeOverDataset                             |                                          |

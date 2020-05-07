@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
 ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
-ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81122245"
 ---
-# <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
+# <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il Server di report di Power BI
 
 Per creare report di Power BI per Server di report di Power BI, è necessario installare la versione di Power BI Desktop ottimizzata per Server di report di Power BI. Si tratta di una versione diversa dalla versione di Power BI Desktop usata con il servizio Power BI, Ad esempio la versione di Power BI Desktop per il servizio Power BI include funzionalità in anteprima, che diventano disponibili nella versione di Server di report di Power BI solo quando sono disponibili a livello generale. necessaria per assicurarsi che il server di report possa interagire con una versione nota dei report e del modello. 
 
@@ -60,7 +60,7 @@ Se è stata eseguita l'installazione di Power BI Desktop ottimizzato per il serv
 
 Se si modifica un report di Power BI dall'interno di Server di report di Power BI o si crea un nuovo report di Power BI dal portale Web, viene sempre aperta la versione corretta di Power BI Desktop.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 I report Power BI nel server di report di Power BI, nel servizio Power BI (`https://app.powerbi.com`) e nelle app per dispositivi mobili Power BI funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
 

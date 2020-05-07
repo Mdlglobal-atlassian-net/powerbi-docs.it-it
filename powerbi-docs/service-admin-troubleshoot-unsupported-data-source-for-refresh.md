@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791991"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
@@ -40,7 +40,7 @@ Se non si è sicuri dell'origine dati usata, è possibile individuarla eseguendo
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiornamento dei dati](refresh-data.md)  
 [Power BI Gateway - Personale](service-gateway-personal-mode.md)  
-[On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
+[Gateway dati locale](service-gateway-onprem.md)  
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

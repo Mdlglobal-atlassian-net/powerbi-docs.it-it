@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698809"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Aggiornare un set di dati creato da un file di Power BI Desktop in un'unità locale
@@ -37,9 +37,9 @@ Le opzioni Aggiorna ora e Pianifica aggiornamenti in Power BI sono supportate pe
 
 È possibile eseguire un aggiornamento singolo manuale in Power BI Desktop selezionando **Aggiorna** nella scheda Home della barra multifunzione. Quando si seleziona **Aggiorna**, i dati nel modello di *file* vengono aggiornati con dati aggiornati provenienti dall'origine dati originale. Questo tipo di aggiornamento, completamente interno all'applicazione di Power BI Desktop, è diverso da un aggiornamento manuale o pianificato in Power BI ed è importante comprendere la differenza.
 
-![Aggiorna](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![dati](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
-Quando si importa il file di Power BI Desktop da un'unità locale, i dati e le altre informazioni sul modello vengono caricati in un set di dati nel servizio Power BI. Nel servizio Power BI, e non in Power BI Desktop, è opportuno aggiornare i dati nel set di dati perché i report nel servizio Power BI si basano su di essi. Dal momento che le origini dati sono esterne, è possibile aggiornare manualmente il set di dati usando **Aggiorna ora** o configurare una pianificazione dell'aggiornamento usando **Pianifica aggiornamenti**.
+Quando si importa il file di Power BI Desktop da un'unità locale, i dati e le altre informazioni sul modello vengono caricati in un set di dati nel servizio Power BI. Nel servizio Power BI, e non in Power BI Desktop, è opportuno aggiornare i dati nel set di dati perché i report nel servizio Power BI si basano su di essi. Dal momento che le origini dati sono esterne, è possibile aggiornare manualmente il set di dati usando **Aggiorna adesso** oppure impostare una pianificazione per l'aggiornamento usando **Pianifica aggiornamenti**.
 
 Quando si aggiorna il set di dati, Power BI non si connette al file nell'unità locale per eseguire query per i dati aggiornati. Usa le informazioni nel set di dati per connettersi direttamente alle origini dati per eseguire query per i dati aggiornati, quindi li carica nel set di dati.
 

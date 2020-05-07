@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752051"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Connettersi a Hospital Emergency Response Decision Support Dashboard
@@ -50,7 +50,7 @@ Quando si installa la soluzione Hospital Emergency Response Power Platform, pren
 
    ![App Hospital Emergency Response Decision Support Dashboard nella pagina App](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-apps-page-icon.png)
 
-## <a name="connect-to-data-sources"></a>Connessione alle origini dati
+## <a name="connect-to-data-sources"></a>Connettersi alle origini dati
 
 1. Selezionare l'icona nella pagina App per aprire l'app.
 
@@ -101,6 +101,6 @@ Per informazioni dettagliate, vedere [Personalizzare e condividere l'app](../ser
 ## <a name="next-steps"></a>Passaggi successivi
 * [Informazioni sul report Hospital Emergency Response](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
 * [Configurare e ottenere informazioni sul modello di esempio Crisis Communication in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 * [Che cosa sono le app modello di Power BI?](../service-template-apps-overview.md)
 * [Installare e distribuire le app modello nell'organizzazione](../service-template-apps-install-distribute.md)

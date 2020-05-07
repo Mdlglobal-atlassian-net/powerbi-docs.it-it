@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699407"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gestire l'origine dati - Analysis Services
@@ -154,7 +154,7 @@ Per configurare il gateway per eseguire la ricerca tramite Active Directory:
 
 Per creare una regola di mapping, immettere un valore per i campi **Nome originale** e **Nuovo nome** e quindi selezionare **Aggiungi**.
 
-| Campo | Descrizione |
+| Campo | Description |
 | --- | --- |
 | Sostituisci (nome originale) |Indirizzo di posta elettronica usato per accedere a Power BI. |
 | Con (nuovo nome) |Valore con cui si vuole sostituirlo. Il risultato della sostituzione è l'elemento passato alla proprietà EffectiveUserName per la connessione ad Analysis Services. |

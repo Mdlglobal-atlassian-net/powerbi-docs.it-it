@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74700387"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Evitare di convertire risultati BLANK in valori
@@ -68,7 +68,7 @@ L'oggetto visivo tabella visualizza ora solo i clienti con vendite nel contesto 
 > [!TIP]
 > Quando necessario, è possibile configurare un oggetto visivo per visualizzare tutti i raggruppamenti (che restituiscono valori o BLANK) nel contesto del filtro abilitando l'opzione [Mostra elementi senza dati](../desktop-show-items-no-data.md).
 
-## <a name="recommendation"></a>Raccomandazione
+## <a name="recommendation"></a>Recommendation
 
 È consigliabile che le misure restituiscano BLANK quando non è possibile restituire un valore significativo.
 
@@ -78,5 +78,5 @@ Questo approccio di progettazione è efficiente, consentendo a Power BI di esegu
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

@@ -10,15 +10,15 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
 ms.openlocfilehash: 365f24ec80d58297a852fa3d040c04c8c763eeda
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114705"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Ridimensionare la capacità di Power BI Embedded nel portale di Azure
 
-Questo articolo descrive in dettaglio come ridimensionare capacità di Power BI Embedded in Microsoft Azure. Il ridimensionamento consente di aumentare o ridurre le dimensioni della capacità.
+Questo articolo illustra come ridimensionare una capacità di Power BI Embedded in Microsoft Azure. Il ridimensionamento consente di aumentare o ridurre le dimensioni della capacità.
 
 Questa operazione presuppone che sia stata creata capacità di Power BI Embedded. Se non è stata creata alcuna capacità, vedere [Creare capacità di Power BI Embedded nel portale di Azure](azure-pbie-create-capacity.md).
 
@@ -29,7 +29,7 @@ Questa operazione presuppone che sia stata creata capacità di Power BI Embedded
 
 1. Accedere al [portale di Azure](https://portal.azure.com/).
 
-2. Per visualizzare le capacità, selezionare **Tutti i servizi** > **Power BI Embedded**.
+2. Selezionare **Tutti i servizi** > **Power BI Embedded** per visualizzare le capacità.
 
     ![Tutti i servizi all'interno del portale di Azure](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 
@@ -53,12 +53,12 @@ Questa operazione presuppone che sia stata creata capacità di Power BI Embedded
 
 6. Verificare il piano tramite la scheda Panoramica. È visualizzato il piano tariffario corrente.
 
-    ![Confermare il piano corrente](media/azure-pbie-scale-capacity/azure-portal-confirm-tier.png)
+    ![Verificare il piano corrente](media/azure-pbie-scale-capacity/azure-portal-confirm-tier.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Per sospendere o avviare la capacità, vedere [Sospendere e avviare la capacità di Power BI Embedded nel portale di Azure](azure-pbie-pause-start.md).
 
-Per iniziare a incorporare contenuto di Power BI all'interno dell'applicazione, vedere [Come incorporare dashboard, report e riquadri di Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
+Per iniziare a incorporare il contenuto di Power BI nell'applicazione, vedere [Come incorporare i dashboard, i report e i riquadri di Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

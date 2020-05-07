@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: Presentazione della home page
           href: mobile-apps-home-page.md
-    - name: Guide introduttive
+    - name: Avvi rapidi
       expanded: true
       items:
         - name: Esplorare dashboard e report
@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: App Power BI per realtà mista (anteprima)
           href: mobile-mixed-reality-app.md
-    - name: Procedura
+    - name: Procedure
       items:
         - name: Tutte le app per dispositivi mobili
           items:

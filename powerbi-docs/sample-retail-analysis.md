@@ -10,10 +10,10 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404720"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione
@@ -79,7 +79,7 @@ Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche
 4. Fare clic su singole bolle o altri grafici per visualizzare l'evidenziazione incrociata, che rivela l'impatto delle selezioni.
 5. Per tornare al dashboard, selezionare **Esempio di analisi delle vendite al dettaglio** nel riquadro di spostamento superiore.
 
-   ![Barra di spostamento](media/sample-retail-analysis/power-bi-breadcrumbs.png)
+   ![Barra di navigazione](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. Nel dashboard selezionare il riquadro **This Year's Sales New & Existing Stores**, operazione che equivale a digitare *This year sales* nella casella Domande e risposte.
 
    ![Riquadro This Year's Sales](media/sample-retail-analysis/pbi_sample_retanlthisyrsales.png)

@@ -11,10 +11,10 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495275"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Che cos'è Azure Power BI Embedded
@@ -47,9 +47,9 @@ Tramite l'API REST, Power BI Embedded consente lo sviluppo in qualsiasi linguagg
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Entrare in contatto con il team tecnico di Power BI
 
-* [Community](https://community.powerbi.com/): porre domande su Power BI
-* [Power BI Ideas](https://ideas.powerbi.com): richiedere e votare funzionalità
-* [Reddit](https://www.reddit.com/r/PowerBI/): discussioni su Power BI
+* [Community](https://community.powerbi.com/): per rivolgere domande su Power BI
+* [Power BI Ideas](https://ideas.powerbi.com): per richiedere e votare funzionalità
+* [Reddit](https://www.reddit.com/r/PowerBI/): per parlare di Power BI
 
 ## <a name="next-steps"></a>Passaggi successivi
 

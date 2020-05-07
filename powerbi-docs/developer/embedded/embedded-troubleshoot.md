@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: b8416ac71e88aeac27fe74c81c6de5f9d76b1356
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114636"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
@@ -21,7 +21,7 @@ Questo articolo illustra alcuni problemi comuni che possono verificarsi quando s
 
 ## <a name="tools-to-troubleshoot"></a>Strumenti per la risoluzione dei problemi
 
-### <a name="fiddler-trace"></a>Traccia di Fiddler
+### <a name="fiddler-trace"></a>Fiddler Trace
 
 [Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che consente di monitorare il traffico HTTP.  È possibile visualizzare il traffico con le API Power BI dal computer client. Questo strumento potrebbe visualizzare errori e altre informazioni correlate.
 
@@ -55,7 +55,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 È consigliabile registrare l'ID richiesta e i dettagli dell'errore per la risoluzione dei problemi.
 Specificare l'ID richiesta quando si contatta il supporto tecnico Microsoft.
 
-## <a name="app-registration"></a>Registrazione dell'app
+## <a name="app-registration"></a>Registrazione delle app
 
 ### <a name="app-registration-failure"></a>Errore di registrazione dell'app
 
@@ -97,7 +97,7 @@ Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazio
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
     ```
 
-## <a name="authentication"></a>Autenticazione
+## <a name="authentication"></a>Authentication
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Autenticazione non riuscita. Errore: AADSTS90002: Il tenant 'authorize' non è stato trovato
 
@@ -109,7 +109,7 @@ Per risolvere questo problema è necessario tagliare "oauth2/authorize/" alla fi
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Autenticazione non riuscita con AADSTS70002 o AADSTS50053
 
-**_(AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con un ID utente o una password non corretti)_**
+**_(AADSTS70002: Errore di convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con un ID utente o una password non corretti)_**
 
 Se si usa Power BI Embedded con l'autenticazione diretta di Azure AD e si ricevono messaggi in fase di accesso, ad esempio ***error:unauthorized_client, error_description:AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con una password o un account non corretto***, significa che l'autenticazione diretta non è più in uso a partire dal 14 giugno 2018 per impostazione predefinita.
 
@@ -203,7 +203,7 @@ Dopo aver acquisito l'oggetto IError, vedere la tabella degli errori comuni appr
 
 ### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Errori tipici durante l'incorporamento per utenti di Power BI
 
-| Messaggio | Messaggio dettagliato | Codice di errore | Cause possibili |
+| Message | Messaggio dettagliato | Codice di errore | Cause possibili |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
 | TokenExpired | Il token di accesso è scaduto, inviare di nuovo con un nuovo token di accesso | 403 | Token scaduto  |
 | PowerBIEntityNotFound | Recupero del report non riuscito | 404 | <li> ID del report errato <li> Il report non esiste  |
@@ -216,7 +216,7 @@ Dopo aver acquisito l'oggetto IError, vedere la tabella degli errori comuni appr
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Errori tipici quando si esegue l'incorporamento per utenti esterni a Power BI (usando un token di incorporamento)
 
-| Messaggio | Messaggio dettagliato | Codice di errore | Motivi |
+| Message | Messaggio dettagliato | Codice di errore | Motivi |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
 | TokenExpired | Il token di accesso è scaduto, inviare di nuovo con un nuovo token di accesso | 403 | Token scaduto  |
 | LoadReportFailed | Recupero del report non riuscito | 404 | <li> ID del report errato <li> Il report non esiste  |
@@ -256,7 +256,7 @@ Aprire il file in Power BI Desktop o in powerbi.com e verificare che le prestazi
 Prima di usare lo strumento di installazione dell'incorporamento, verificare di avere tutti i prerequisiti appropriati. Sono necessari un account **Power BI Pro** e una sottoscrizione di **Microsoft Azure**.
 
 * Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
-* Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+* Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
 * È necessario disporre del proprio [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md) configurato.
 * È richiesta l'installazione di [Visual Studio](https://www.visualstudio.com/) (versione 2013 o successive).
 
@@ -298,13 +298,13 @@ Se si vuole modificare l'applicazione registrata, leggere le informazioni su com
 
 Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
-Se viene visualizzato l'errore AADSTS50079: è necessario che l'utente usi l'autenticazione a più fattori.
+Se viene visualizzato l'errore AADSTS50079: l'utente deve usare l'autenticazione a più fattori.
 
     Need to use an AAD account that doesn't have MFA enabled.
 
 Per altre informazioni, vedere [Power BI Embedded FAQ](embedded-faq.md) (Domande frequenti su Power BI Embedded).
 
-Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+Altre domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 
 Se è necessaria ulteriore assistenza, [contattare il supporto tecnico](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) oppure [creare un ticket di supporto dal portale di Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e specificare i messaggi di errore riscontrati.
 

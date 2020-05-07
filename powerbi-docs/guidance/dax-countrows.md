@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fd3b50e9016298db8b692d6a2f3549b770f143e8
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74700663"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: Usare COUNTROWS invece di COUNT
@@ -43,7 +43,7 @@ Esistono tre motivi per cui la seconda definizione della misura è migliore:
 - Non considera i valori BLANK contenuti in alcuna colonna della tabella.
 - L'intenzione della formula è più chiara, al punto di essere autodescrittiva.
 
-## <a name="recommendation"></a>Raccomandazione
+## <a name="recommendation"></a>Recommendation
 
 Quando si intende conteggiare le righe di una tabella, è consigliabile usare sempre la funzione COUNTROWS.
 
@@ -51,5 +51,5 @@ Quando si intende conteggiare le righe di una tabella, è consigliabile usare se
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

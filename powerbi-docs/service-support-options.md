@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696534"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opzioni di supporto per Power BI Pro e Power BI Premium
@@ -23,9 +23,9 @@ Questo articolo descrive le opzioni di supporto disponibili per i clienti di Pow
 | --- | --- | --- | --- | --- | --- |
 | **Supporto della community**: Forum Web che offrono agli utenti supporto peer-to-peer, indicazioni e procedure consigliate, con risposte aggiunte da una community globale di esperti di Power BI e dipendenti Microsoft. | X |   |   | Nessuno, l'engagement viene offerto con un supporto di tipo massimo sforzo. | [Community di Power BI](https://community.powerbi.com) |
 | **Supporto per gli utenti finali di Power BI Pro**: Supporto tecnico di base per gli utenti finali che creano e usano contenuto in Power BI. | X |   |   | Un giorno lavorativo. | [Sito del supporto tecnico di Power BI](https://support.powerbi.com)  |
-| **Supporto per gli amministratori di Power BI Premium**: Supporto tecnico per gli amministratori che distribuiscono e gestiscono le capacità di Power BI Premium. | X |   |   | Un giorno lavorativo o un'ora, a seconda della gravità del caso.\* | [Sito del supporto tecnico di Power BI](https://support.powerbi.com)<br>OPPURE<br>[Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal)<br>OPPURE<br> Layout |
-| **Supporto per amministratori di Power BI**: Supporto tecnico e di fatturazione per amministratori delle distribuzioni di Power BI nelle rispettive organizzazioni.  Per usare questa opzione è necessario essere un amministratore società di Azure Active Directory, un amministratore società di Office 365, un amministratore dei servizi di Office 365 o un amministratore dei servizi Power BI. | X | X |   | Un giorno lavorativo o un'ora, a seconda della gravità del caso.\* | [Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal)<br>OPPURE<br> Layout |
-| **Supporto tecnico Microsoft Premier**: Approccio di supporto di livello aziendale, con gestione account, opzione di supporto in sede e servizi di consulenza come training e ottimizzazione delle prestazioni del modello di dati. | X | X | X | Vari a seconda della gravità del caso e dell'offerta.\* | Technical Account Manager <br>OPPURE<br> [Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal) |
+| **Supporto per gli amministratori di Power BI Premium**: Supporto tecnico per gli amministratori che distribuiscono e gestiscono le capacità di Power BI Premium. | X |   |   | Un giorno lavorativo o un'ora, a seconda della gravità del caso.\* | [Sito del supporto tecnico di Power BI](https://support.powerbi.com)<br>OR<br>[Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefono |
+| **Supporto per amministratori di Power BI**: Supporto tecnico e di fatturazione per amministratori delle distribuzioni di Power BI nelle rispettive organizzazioni.  Per usare questa opzione è necessario essere un amministratore società di Azure Active Directory, un amministratore società di Office 365, un amministratore dei servizi di Office 365 o un amministratore dei servizi Power BI. | X | X |   | Un giorno lavorativo o un'ora, a seconda della gravità del caso.\* | [Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefono |
+| **Supporto tecnico Microsoft Premier**: Approccio di supporto di livello aziendale, con gestione account, opzione di supporto in sede e servizi di consulenza come training e ottimizzazione delle prestazioni del modello di dati. | X | X | X | Vari a seconda della gravità del caso e dell'offerta.\* | Technical Account Manager <br>OR<br> [Interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* Un contratto di servizio di un'ora è disponibile solo per i casi di _gravità A_, per i quali va dimostrato un effetto diretto e immediato sull'attività causato dall'interruzione del lavoro nei report di produzione esistenti.

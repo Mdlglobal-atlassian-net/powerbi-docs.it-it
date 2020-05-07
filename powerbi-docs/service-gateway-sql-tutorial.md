@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958438"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Aggiornare i dati da un database di SQL Server locale
@@ -48,7 +48,7 @@ Usare la procedura seguente per creare un report di Power BI di base usando il d
 
 2. Nella finestra di dialogo **Database di SQL Server** immettere il nome del **Server** e del **Database** (facoltativo), assicurarsi che **Modalità Connettività dati** sia impostata su **Importazione** e quindi selezionare **OK**.
 
-    ![Database SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
+    ![Database di SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
     In questa esercitazione non vengono usate le **Opzioni avanzate**, ma si noti che è possibile specificare un'istruzione SQL e impostare altre opzioni, ad esempio l'uso del [failover di SQL Server](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server).
 
@@ -114,12 +114,12 @@ Sebbene in Power BI Desktop sia stata stabilita una connessione diretta al datab
 
 5. Nella pagina di gestione **Gateway** nella scheda **Impostazioni origini dati** immettere e verificare le informazioni seguenti e selezionare **Aggiungi**.
 
-    | Opzione | Valore |
+    | Opzione | Value |
     | --- | --- |
     | Nome origine dati | AdventureWorksProducts |
     | Tipo di origine dati | SQL Server |
     | Server | Nome dell'istanza di SQL Server, ad esempio SQLServer01 (deve corrispondere al nome specificato in Power BI Desktop). |
-    | Database | Nome del database di SQL Server, ad esempio AdventureWorksDW (deve corrispondere al nome specificato in Power BI Desktop). |
+    | SQL | Nome del database di SQL Server, ad esempio AdventureWorksDW (deve corrispondere al nome specificato in Power BI Desktop). |
     | Metodo di autenticazione | Windows o Di base (in genere Windows). |
     | Nome utente | Account utente usato per connettersi a SQL Server. |
     | Password | Password dell'account usato per connettersi a SQL Server. |
@@ -170,7 +170,7 @@ A questo punto seguire questa procedura in modo che i dati aggiornati possano pa
 
 2. In **Set di dati** per il set di dati **AdventureWorksProducts** selezionare i puntini di sospensione ( **. . .** ) e quindi selezionare **Aggiorna adesso**.
 
-    ![Aggiorna adesso](./media/service-gateway-sql-tutorial/refresh-now.png)
+    ![Aggiorna ora](./media/service-gateway-sql-tutorial/refresh-now.png)
 
     Nell'angolo superiore destro è possibile osservare che Power BI sta preparando l'esecuzione dell'aggiornamento richiesto.
 
@@ -205,6 +205,6 @@ Se non si vogliono più usare i dati di esempio, eliminare il database in SQL Se
 
 In questa esercitazione è stato descritto come importare dati da un database di SQL Server locale in un set di dati di Power BI e come aggiornare il set di dati in base a una pianificazione e su richiesta per mantenere aggiornati i report e i dashboard che usano il set di dati in Power BI. A questo punto è possibile ottenere altre informazioni sulla gestione dei gateway dati e delle origini dati in Power BI. Potrebbe anche essere una buona idea rivedere l'articolo concettuale Aggiornamento dei dati in Power BI.
 
-- [Gestire un gateway dati locale](/data-integration/gateway/service-gateway-manage)
+- [Gestire un gateway dati locale in PowerApps](/data-integration/gateway/service-gateway-manage)
 - [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Aggiornamento dei dati in Power BI](refresh-data.md)

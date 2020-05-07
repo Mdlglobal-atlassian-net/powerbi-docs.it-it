@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114521"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Ottenere un token di accesso di Azure AD per l'applicazione Power BI
@@ -53,7 +53,7 @@ var @params = new NameValueCollection
 };
 ```
 
-Dopo aver creato una stringa di query, reindirizzarla ad **Azure AD** per ottenere un **codice di autorizzazione**.  Di seguito è riportato un metodo C# completo per creare una stringa di query per il **codice di autorizzazione** e reindirizzarla ad **Azure AD**. È quindi possibile usare il **codice di autorizzazione** per ottenere un **token di accesso**.
+Dopo aver creato una stringa di query, reindirizzarla ad **Azure AD** per ottenere un **codice di autorizzazione**.  Di seguito è riportato un metodo C# completo per creare una stinga di query per il **codice di autorizzazione** e reindirizzarla ad **Azure AD**. È quindi possibile usare il **codice di autorizzazione** per ottenere un **token di accesso**.
 
 In redirect.aspx.cs [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) effettua una chiamata per generare il token.
 
@@ -196,7 +196,7 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
 
-## <a name="troubleshoot"></a>Risoluzione dei problemi
+## <a name="troubleshoot"></a>Risolvere i problemi
 
 Messaggio di errore: "'AuthenticationContext' doesn't contain a definition for 'AcquireToken' and no accessible 'AcquireToken' accepting a first argument of type 'AuthenticationContext' could be found (are you missing a using directive or an assembly reference?)" ('AuthenticationContext' non contiene una definizione per 'AcquireToken' e non è possibile trovare alcun 'AcquireToken' accessibile che accetti un primo argomento di tipo 'AuthenticationContext' (direttiva using o riferimento assembly mancante)).
 

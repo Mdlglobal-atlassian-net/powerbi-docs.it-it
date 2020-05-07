@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404038"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded
@@ -99,7 +99,7 @@ Per creare un'area di lavoro all'interno di Power BI, un utente deve avere una l
 
 La migrazione del contenuto dalle raccolte di aree di lavoro in Power BI Embedded può essere eseguita in parallelo alla soluzione attuale e non richiede alcun tempo di inattività.
 
-Per agevolare la copia del contenuto dalla raccolta di aree di lavoro di Power BI a Power BI Embedded è disponibile uno **strumento di migrazione**. In particolare se la quantità del contenuto è elevata. Per altre informazioni, vedere [Power BI Embedded migration tool](migrate-tool.md) (Strumento di migrazione di Power BI Embedded).
+Per agevolare la copia del contenuto dalla raccolta di aree di lavoro di Power BI a Power BI Embedded è disponibile uno **strumento di migrazione**. in particolare se la quantità del contenuto è elevata. Per altre informazioni, vedere [Power BI Embedded migration tool](migrate-tool.md) (Strumento di migrazione di Power BI Embedded).
 
 La migrazione del contenuto si basa principalmente su due API.
 
@@ -200,7 +200,7 @@ Quando si è pronti a passare alla produzione, è necessario eseguire le operazi
 [Strumento di migrazione di Power BI Embedded](migrate-tool.md)  
 [Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI](migrate-code-snippets.md)  
 [Come incorporare i dashboard, i report e i riquadri di Power BI](embed-sample-for-your-organization.md)  
-[Power BI Premium - what is it?](../../service-premium-what-is.md) (Power BI Premium: definizione)  
+[Power BI Premium: di cosa si tratta?](../../service-premium-what-is.md)  
 [Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

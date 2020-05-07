@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
 ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78290587"
 ---
 # <a name="use-report-page-drillthrough"></a>Usare il drill-through nelle pagine dei report
@@ -50,7 +50,7 @@ Nell'esempio seguente viene illustrato cosa accade quando un utente del report e
 
 ![In un oggetto visivo tabella sono presenti tre colonne: Zip Code, Average of Violation Points e Average of Grade Rating. Viene visualizzata anche la pagina di drill-through.](media/report-drillthrough/suggestion-drillthrough-broader-perspective.png)
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 In fase di progettazione del report, è consigliabile seguire queste procedure:
 
@@ -70,5 +70,5 @@ In fase di progettazione del report, è consigliabile seguire queste procedure:
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Usare il drill-through in Power BI Desktop](../desktop-drillthrough.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

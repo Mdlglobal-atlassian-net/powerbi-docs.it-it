@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006458"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
@@ -23,7 +23,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 
 ## <a name="january-2020"></a>Gennaio 2020
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione: 1.6.7364.4075 (build 15.0.1102.777), data di rilascio: 2 marzo 2020*
          - Correzioni di bug
            -  Correzione per i report di Power BI che non vengono caricati per determinate origini dati
@@ -40,7 +40,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
            -  Supporto per intestazioni personalizzate.
            -  Supporto di Istanza gestita di database SQL di Azure come catalogo.
            -  Transparent Data Encryption per il catalogo.
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
         - Correzioni di bug
             - Correzioni per l'accessibilità per utilità per la lettura dello schermo, il rendering dei report e gli spostamenti tramite tastiera.
             - Correzione per il salvataggio di titoli di report a più byte.
@@ -55,9 +55,9 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 
 ## <a name="september-2019"></a>Settembre 2019
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione: 1.6.7236.4246 (build 15.0.1102.646), data di rilascio: 25 ottobre 2019*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
         - Correzioni di bug
             - Correzione per .NET Framework 4.7 non installato.
             - Correzione per i report impaginati per Teradata con parametri multivalore con errore 110083.
@@ -72,7 +72,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
           - Correzione per gli URL perché non ci sia distinzione tra maiuscole e minuscole.
           
     - *Versione 1.6.7206.38019 (build 15.0.1102.597), data di rilascio: 26 settembre 2019*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
         - Correzioni di bug
            - Report impaginati
              - Correzione dei problemi di accessibilità riscontrati durante l'uso di Internet Explorer e Microsoft Edge.
@@ -85,7 +85,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
              - Correzione per l'accesso ai modelli durante l'aggiornamento nel fuso orario giapponese.
              - Correzione per i modelli non aggiornati quando viene caricata una nuova versione del report durante l'aggiornamento.
              - Correzione per i valori dei parametri che contengono il carattere '&'.
-         - Programmazione
+         - Programmabilità
              - Aggiornamento dell'API Web /PowerBIReports({Id})/DataSources (PATCH) per consentire gli aggiornamenti della stringa di connessione.
          
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
@@ -105,10 +105,10 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
     
 ## <a name="may-2019"></a>Maggio 2019
 
-- **Server di report Power BI**          
+- **Server di report di Power BI**          
     - *Versione 1.5.7074.36177 (build 15.0.1102.371), data di rilascio: 21 maggio 2019*
         - Correzioni di bug
-            - Paginated Reports
+            - Report impaginati
                 - Correzione per abilitare sempre l'incorporamento di tipi di carattere in pdf.
                 - Correzione per impostare i cookie inviati in https come sicuri
                 - Correzione di errori di pop up causati da errori di script
@@ -133,14 +133,14 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="january-2019"></a>Gennaio 2019
 
-- **Server di report Power BI**          
+- **Server di report di Power BI**          
     - *Versione 1.4.7024.16477 (build 15.0.1102.299), data di rilascio: 28 marzo 2019*
         - Correzioni di bug
             - Report di Power BI
                 - Risolto il problema con le credenziali di base quando si usa DirectQuery per SAP Hana e SAP BW
                 - Risolto l'errore restituito dal feed OData "Non è stato possibile caricare il file o l'assembly Microsoft.OData.Core.NetFX35.V7"
 
-- **Server di report Power BI**            
+- **Server di report di Power BI**            
     - *Versione 1.4.6969.7395 (build 15.0.1102.235), data di rilascio: 30 gennaio 2019*
         - Correzioni di bug
             - Report di Power BI
@@ -149,7 +149,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
                 - Correzione per i dati non aggiornati dopo un aggiornamento del modello in un ambiente scale-out
                 - Correzione per la doppia barra di scorrimento per la tabella o la matrice in Firefox 63 +
                 - Correzione delle dimensioni dell'icona + /-in Internet Explorer
-            - Paginated Reports
+            - Report impaginati
                 - Correzione del problema di aggiornamento dell'utilizzo di un'origine dati condivisa per un report
 
     - *Versione 1.4.6960.38798 (build 15.0.1102.222), data di rilascio: 22 gennaio 2019*
@@ -160,7 +160,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
                 - Copia e incolla tra file con estensione pbix
                 - Guide intelligenti per l'allineamento
                 - Supporto per le funzionalità di SAP BW Connector 2.0
-            - Amministratori
+            - Administrators
                 - Possibilità di limitare le estensioni delle risorse caricabili nel server di report
                 - Possibilità di limitare gli schemi di collegamento ipertestuale supportati
             - Programmazione
@@ -186,7 +186,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="august-2018"></a>Agosto 2018
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.3.6816.37243 (build 15.0.2.557), data di rilascio: 30 agosto 2018*
         - Correzioni di bug
             - Risolto un problema a causa del quale un reindirizzamento dell'associazione non veniva aggiornato durante l'aggiornamento dalle versioni precedenti di Server di report di Power BI e i clienti vedevano:      
@@ -211,7 +211,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
             
 ## <a name="march-2018"></a>Marzo 2018
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.2.6690.34729 (build 15.0.2.402), data di rilascio: 27 aprile 2018*
         - Correzioni di bug
             - Abilitazione della migrazione dei cataloghi di SQL Server Reporting Services 2017
@@ -237,7 +237,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
             - Per i report impaginati (RDL), correzione per la visualizzazione non corretta delle immagini in Internet Explorer 11 dopo l'aggiornamento alla versione di marzo del Server di report di Power BI
 
     - *Versione 1.2.6648.38132 (build 15.0.2.378), data di rilascio: 19 marzo 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
         - Miglioramenti all'accessibilità
         - Correzioni di bug
             - Per i report impaginati (RDL), correzione della visibilità di parametri in un report collegato che viene ripristinato dopo la modifica delle proprietà
@@ -254,9 +254,9 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="october-2017"></a>Ottobre 2017
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.1.6582.41691 (build 14.0.600.442), data di rilascio: 10 gennaio 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
         - Correzioni di bug
             - Correzione di Model.GetParameters che restituisce l'errore 400
             - Correzione dell'impostazione del set di dati condiviso sui report impaginati esistenti (RDL)
@@ -292,10 +292,10 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
     - *Versione: 2.51.4885.3981 (ottobre 2017), data di rilascio: 10 aprile 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
 
     - *Versione: 2.51.4885.2501 (ottobre 2017), data di rilascio: 10 gennaio 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
 
     - *Versione: 2.51.4885.1423 (ottobre 2017), data di rilascio: 17 novembre 2017*
         - Correzioni di bug
@@ -307,11 +307,11 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
         - Funzionalità
             - Include modifiche necessarie per la connessione al server di report di Power BI (ottobre 2017)
 
-## <a name="june-2017"></a>Giugno 2017
+## <a name="june-2017"></a>giugno 2017
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Build 14.0.600.309, data di rilascio: 10 gennaio 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
 
     - *Build 14.0.600.305, data di rilascio: 19 settembre 2017*  
         - Correzioni di bug
@@ -329,7 +329,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
     - *Versione: 2.47.4766.4901 (giugno 2017), data di rilascio: 10 gennaio 2018*
-        - Aggiornamenti della sicurezza
+        - Aggiornamenti per la sicurezza
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -337,6 +337,6 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare la versione più recente di SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

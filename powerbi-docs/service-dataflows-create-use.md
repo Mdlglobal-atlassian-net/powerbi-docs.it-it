@@ -10,10 +10,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404743"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creazione e uso di flussi di dati in Power BI
@@ -32,7 +32,7 @@ I passaggi principali per l'uso di un flusso di dati sono tre:
 2. Pianificare la frequenza di aggiornamento dei dati da inserire nel flusso di dati
 3. Creare il set di dati usando il flusso di dati, tramite Power BI Desktop 
 
-Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. Le informazioni seguenti descrivono come eseguire queste operazioni.
+Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. È ora possibile iniziare.
 
 ## <a name="creating-a-dataflow"></a>Creazione di un flusso di dati
 Per creare un flusso di dati, avviare il servizio Power BI in un browser e quindi selezionare un'**area di lavoro** dal riquadro di spostamento, come illustrato nella schermata seguente. I flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
@@ -57,7 +57,7 @@ Un'**entità** è un set di campi usati per archiviare i dati, in modo analogo a
 
 Quando si seleziona un'origine dati, viene chiesto di specificare le impostazioni di connessione, tra cui l'account da usare per la connessione all'origine dati, come illustrato nell'immagine seguente.
 
-![Connetti a origine dati](media/service-dataflows-create-use/dataflows-create-use_06.png)
+![Connessione a un'origine dati](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
 Una volta stabilita la connessione, è possibile scegliere i dati da usare per l'entità. Quando si scelgono i dati e un'origine, Power BI successivamente si riconnette all'origine dati per mantenere aggiornati i dati nel flusso di dati, in base alla frequenza selezionata più avanti nel processo di configurazione.
 
@@ -156,7 +156,7 @@ In alcuni casi potrebbero verificarsi problemi di connessione alle origini dati 
 
 * **Azure SQL Data Warehouse**: i flussi di dati non supportano attualmente l'autenticazione Azure Active Directory (AAD) per Azure SQL Data Warehouse. Usare l'autenticazione di base per questo scenario.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Ai flussi di dati si applicano alcune limitazioni note descritte di seguito.
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
 ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525615"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Eseguire la migrazione di report di SQL Server Reporting Services in Power BI
@@ -74,11 +74,11 @@ Nel tempo lo strumento verrà migliorato da Microsoft. La community è invitata 
 
 Dopo aver verificato che l'organizzazione soddisfa i prerequisiti, è possibile iniziare la fase _pre-migrazione_. Questa fase è costituita a sua volta da tre fasi:
 
-1. Rileva
+1. Scoprire
 1. Valutare
-1. Prepara
+1. Preparazione
 
-### <a name="discover"></a>Rileva
+### <a name="discover"></a>Scoprire
 
 L'obiettivo della fase di _individuazione_ è quello di identificare le istanze di SSRS esistenti. Questo processo comporta l'analisi della rete per identificare tutte le istanze di SQL Server nell'organizzazione.
 
@@ -108,7 +108,7 @@ Se i report RDL devono recuperare dati da _origini dati locali_, non possono usa
 
 In genere, i report impaginati di Power BI sono ottimizzati per la **stampa** o la **generazione di PDF**. I report di Power BI sono ottimizzati per **esplorazione e interattività**. Per altre informazioni, vedere [Quando usare report impaginati in Power BI](report-paginated-or-power-bi.md).
 
-### <a name="prepare"></a>Prepara
+### <a name="prepare"></a>Preparazione
 
 L'obiettivo della fase di _preparazione_ è quello di preparare tutti gli elementi. In questa fase si configura l'ambiente Power BI, si pianificano gli aspetti relativi a sicurezza e pubblicazione dei report e si raccolgono idee per sviluppare di nuovo gli elementi SSRS di cui non verrà eseguita la migrazione.
 
@@ -197,7 +197,7 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 - [Corso online: Report impaginati di Power BI](../paginated-reports/paginated-reports-online-course.md)
 - [Power BI Premium FAQ](../service-premium-faq.md) (Domande frequenti su Power BI Premium)
 - [Strumento di migrazione RDL](https://github.com/microsoft/RdlMigration)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)
 
 Sono disponibili partner Power BI per aiutare l'organizzazione a svolgere con successo il processo di migrazione. Per collaborare con un partner Power BI, visitare il [portale dei partner Power BI](https://powerbi.microsoft.com/partners/).

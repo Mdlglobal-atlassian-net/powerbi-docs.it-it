@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80751615"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
@@ -214,5 +214,5 @@ Per altre informazioni sulla progettazione di uno schema a stella o di un modell
 - [Linee guida per le relazioni molti-a-molti](relationships-many-to-many.md)
 - [Linee guida per la relazione bidirezionale](relationships-bidirectional-filtering.md)
 - [Linee guida per relazioni attive e inattive](relationships-active-inactive.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

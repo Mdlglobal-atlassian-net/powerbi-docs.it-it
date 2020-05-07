@@ -9,10 +9,10 @@ ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006342"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
@@ -51,7 +51,7 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 
 2. Selezionare il pulsante **Pubblica app** in alto a destra per avviare il processo di creazione e pubblicazione di un'app dall'area di lavoro.
    
-    ![Pubblica app](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Pubblicare l'app](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. In **Installazione** immettere il nome e la descrizione per aiutare gli utenti a trovare l'app. È possibile impostare un colore tema per personalizzarla. È anche possibile aggiungere un collegamento a un sito di supporto.
    
@@ -59,7 +59,7 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 
 4. In **Navigazione** selezionare il contenuto da pubblicare come parte dell'app. Aggiungere quindi la struttura di spostamento dell'app per organizzare il contenuto in sezioni. Per i dettagli, vedere [Progettare l'esperienza di navigazione per l'app](#design-the-navigation-experience) in questo articolo.
    
-    ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Esplorazione delle app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. In **Autorizzazioni** decidere chi ha accesso all'app e quali operazioni può eseguire. 
 
@@ -109,7 +109,7 @@ Quando questa opzione è disattivata, in **Pagina di destinazione dell'app** è 
 
 Quando si attiva **Nuovo generatore di struttura di spostamento**, è possibile progettare una struttura di spostamento personalizzata. Per impostazione predefinita, tutti i report, i dashboard e le cartelle di lavoro di Excel inclusi nell'app sono visualizzati come elenco semplice. 
 
-![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+![Esplorazione delle app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Per personalizzare ulteriormente la struttura di spostamento dell'app è possibile:
 
@@ -215,4 +215,4 @@ Aspetti da tenere presenti sulla pubblicazione di app:
 * [Installare e usare app in Power BI](consumer/end-user-apps.md)
 * [App Power BI per dispositivi esterni](service-connect-to-services.md)
 * [Portale di amministrazione di Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

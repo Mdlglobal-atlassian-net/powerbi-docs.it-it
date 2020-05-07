@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
 ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525377"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Esercitazione: Incorporare un contenuto di Power BI nell'applicazione per cloud nazionali
@@ -241,7 +241,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 È possibile generare un token di incorporamento usando l'API JavaScript. Il token di incorporamento è specifico per l'elemento da incorporare. Ogni volta che si incorpora una parte di contenuto di Power BI, è necessario creare un nuovo token di incorporamento specifico. Per altre informazioni, incluso il valore **accessLevel** da usare, vedere [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Token di incorporamento).
 
 > [!IMPORTANT]
-> Dato che i token di incorporamento sono destinati solo alle attività di test degli sviluppatori, il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario [acquistare una capacità](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) per gli scenari di incorporamento della produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento.
+> Poiché i token di incorporamento sono destinati solo ai test di sviluppo, il numero di questi token che può essere generato da un account proprietario di Power BI è limitato. Per gli scenari di incorporamento di produzione, [è necessario acquistare capacità](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Dopo aver acquistato la capacità necessaria, la generazione di token di incorporamento è illimitata.
 
 Un esempio è disponibile in **Controllers\HomeController.cs** dell'[esempio di incorporamento per l'organizzazione](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
@@ -444,6 +444,6 @@ Un'applicazione di esempio è disponibile nell'[esempio di incorporamento per l'
 
 * [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI](migrate-from-powerbi-embedded.md)
 
-Considerazioni e limitazioni
+Considerazioni e limiti
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

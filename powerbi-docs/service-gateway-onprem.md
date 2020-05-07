@@ -10,17 +10,17 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697544"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Informazioni sul gateway dati locale
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Il gateway dati locale funge da ponte per consentire il trasferimento rapido e protetto tra i dati locali (dati non presenti nel cloud) e i numerosi servizi cloud di Microsoft. Questi servizi cloud includono Power BI, Power Apps, Power Automate, Azure Analysis Services e App per la logica di Azure. L'uso di un gateway consente alle organizzazioni di mantenere i database e altre origini dati all'interno delle reti locali e allo stesso tempo di usare in sicurezza i dati locali nei servizi cloud.
+Il gateway dati locale funge da ponte per consentire il trasferimento rapido e protetto tra i dati locali (cioè non presenti nel cloud) e i numerosi servizi cloud di Microsoft. Questi servizi cloud includono Power BI, Power Apps, Power Automate, Azure Analysis Services e App per la logica di Azure. L'uso di un gateway consente alle organizzazioni di mantenere i database e altre origini dati all'interno delle reti locali e allo stesso tempo di usare in sicurezza i dati locali nei servizi cloud.
 
 ## <a name="how-the-gateway-works"></a>Funzionamento del gateway
 

@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006789"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Usare un filtro dei dati e un filtro per la data relativa in Power BI
@@ -42,11 +42,11 @@ Per la prima impostazione nel *filtro dei dati per la data relativa* sono dispon
 
 ![Screenshot delle opzioni di configurazione dell'opzione Relativo con la prima impostazione evidenziata.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Ultimi
+* Last
 
-* Avanti
+* Argomento successivo
 
-* This
+* Questa
 
 La seconda impostazione (centrale) nel *filtro dei dati per la data relativa* consente di immettere un numero per definire l'intervallo di date relative.
 
@@ -62,13 +62,13 @@ La terza impostazione consente di selezionare l'unità di misura relativa alla d
 
 * Settimane (calendario)
 
-* Months
+* Mesi
 
 * Mesi (calendario)
 
 * Anni
 
-* Anni (calendario)
+* Years (Calendar)
 
 Se si seleziona **Mesi** dall'elenco e si immette *2* nell'impostazione centrale, accade quanto segue:
 

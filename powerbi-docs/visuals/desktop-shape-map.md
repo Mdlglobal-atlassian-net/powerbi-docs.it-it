@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525661"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Creare oggetti visivi forme mappa in Power BI Desktop (anteprima)
@@ -126,7 +126,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | au-nsw |NSW |AU-NSW |Nuovo Galles del Sud |NSW |
 | au-act |ACT |AU-ACT |Territorio della Capitale Australiana |ACT |
 
-### <a name="austria-states"></a>Austria: Stati
+### <a name="austria-states"></a>Austria: stati
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | at-ka |AT-2 |Kärnten |Carinzia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brasile: Stati
+### <a name="brazil-states"></a>Brasile: stati
 
 | ID |
 | --- |
@@ -176,7 +176,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Zona contesa 3 |
 | Zona contesa 4 |
 
-### <a name="canada-provinces"></a>Canada: Province
+### <a name="canada-provinces"></a>Canada: province
 
 | ID | iso | name | postale |
 | --- | --- | --- | --- |
@@ -194,14 +194,14 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | ca-bc |CA-BC |Columbia Britannica |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Francia: Regioni
+### <a name="france-regions"></a>Francia: regioni
 
 | ID | name | nome-it |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Bretagna |
-| Centro-Valle della Loira |Centre-Val de Loire |Centro-Valle della Loira |
+| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
 | Corse |Corse |Corsica |
 | Grand Est |  |  |
 | Guadalupa | |   |
@@ -216,28 +216,28 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Germania: Stati
+### <a name="germany-states"></a>Germania: stati
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlin |Berlino |BE |
+| de-be |DE-BE |Berlino |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Sassonia-Anhalt |ST |
 | de-sn |DE-SN |Sachsen |Sassonia |SN |
-| de-mv |de-mv |Mecklenburg-Vorpommern |Meclemburgo-Pomerania Anteriore |MV |
-| de-bb |DE-BB |Brandenburg |Brandeburgo |BB |
+| de-mv |de-mv |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern |MV |
+| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
 | de-sh |DE-SH |Schleswig Holstein |Schleswig Holstein |SH |
 | de-sl |DE-SL |Saarland |Saarland |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Renania Palatinato |RP |
 | de-nw |DE-NW |Nordrhein Westfalen |Renania Settentrionale-Vestfalia |NW |
 | de-ni |DE-NI |Niedersachsen |Bassa Sassonia |NI |
 | de-he |DE-HE |Hessen |Assia |HE |
-| de-hh |DE-HH |Hamburg |Amburgo |HH |
-| de-hb |DE-HB |Bremen |Brema |HB |
+| de-hh |DE-HH |Hamburg |Hamburg |HH |
+| de-hb |DE-HB |Brema |Brema |HB |
 | de-by |DE-BY |Bayern |Baviera |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
-### <a name="ireland-counties"></a>Irlanda: Contee
+### <a name="ireland-counties"></a>Irlanda: contee
 
 | ID |
 | --- |
@@ -268,7 +268,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italia: Regioni
+### <a name="italy-regions"></a>Italia: regioni
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
@@ -293,7 +293,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | it-pu |IT-75 |Puglia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Messico: Stati
+### <a name="mexico-states"></a>Messico: stati
 
 | ID | abbreviazione | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
@@ -326,28 +326,28 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
 | mx-chp |Chris. |MX-CHP |Chiapas |Chiapas |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
-| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Bassa California del Sud |BS |
-| mx-bcn |B.C. |MX-BCN |Baja California |Bassa California |BN |
+| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baja California Sur |BS |
+| mx-bcn |B.C. |MX-BCN |Bassa California |Bassa California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Paesi Bassi: Province
+### <a name="netherlands-provinces"></a>Paesi Bassi: province
 
 | ID | iso | name | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
-| nl-ze |NL-ZE |Zeeland |Zelanda |
+| nl-ze |NL-ZE |Zelanda |Zelanda |
 | nl-ut |NL-UT |Utrecht |Utrecht |
 | nl-ov |NL-OV |Overijssel |Overijssel |
 | nl-nh |NL-NH |Noord-Holland |Olanda Settentrionale |
 | nl-nb |NL-NB |Noord-Brabant |Brabante Settentrionale |
 | nl-li |NL-LI |Limburg |Limburg |
-| nl-gr |NL-GR |Groningen |Groninga |
-| nl-ge |NL-GE |Gelderland |Gheldria |
+| nl-gr |NL-GR |Groningen |Groningen |
+| nl-ge |NL-GE |Gelderland |Gelderland |
 | nl-fr |NL-FR |Fryslân |Frisia |
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Regno Unito: Paesi
+### <a name="uk-countries"></a>Regno Uniti: paesi
 
 | ID | iso | name |
 | --- | --- | --- |
@@ -356,7 +356,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | gb-nir |GB-NIR |Irlanda del Nord |
 | gb-eng |GB-ENG |Inghilterra |
 
-### <a name="usa-states"></a>USA: Stati
+### <a name="usa-states"></a>Stati Uniti: stati
 
 | ID | name | postale |
 | --- | --- | --- |
@@ -373,8 +373,8 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-nm |Nuovo Messico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
-| us-nc |Carolina del Nord |NC |
-| us-ok |Oklahoma |OK |
+| us-nc |North Carolina |NC |
+| us-ok |Oklahoma |O K |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |

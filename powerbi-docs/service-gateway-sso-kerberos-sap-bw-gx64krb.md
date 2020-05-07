@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75000136"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Usare Kerberos per il Single Sign-On (SSO) a SAP BW tramite gx64krb5
@@ -134,7 +134,7 @@ Verificare che l'utente di Active Directory per cui è stato abilitato l'accesso
 
 1. Fare clic con il pulsante destro del mouse sulla nuova connessione, scegliere **Proprietà** e quindi selezionare la scheda **Rete**. 
 
-1. Nella casella **Nome SNC** immettere *p:&lt;UPN utente servizio SAP BW&gt;* , ad esempio *p:BWServiceUser\@MYDOMAIN.COM*. Seleziona **OK**.
+1. Nella casella **Nome SNC** immettere *p:&lt;UPN utente servizio SAP BW&gt;* , ad esempio *p:BWServiceUser\@MYDOMAIN.COM*. Selezionare **OK**.
 
     ![Schermata Proprietà della voce di sistema](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -192,7 +192,7 @@ Nel caso in cui si verifichi uno dei problemi riportati di seguito relativo all'
 
       La prima variabile imposta il livello di traccia e la seconda variabile imposta la directory dei file di traccia. La directory deve essere un percorso in cui i membri del gruppo Authenticated Users possono scrivere. 
  
-    b. Impostare **CPIC\_TRACE** su *3* e **CPIC\_TRACE\_DIR** sulla directory in cui si vuole che vengano scritti i file di traccia. ad esempio:
+    b. Impostare **CPIC\_TRACE** su *3* e **CPIC\_TRACE\_DIR** sulla directory in cui si vuole che vengano scritti i file di traccia. Ad esempio:
 
       ![Traccia di CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
@@ -208,4 +208,4 @@ Per altre informazioni sul gateway dati locale e su DirectQuery, vedere le risor
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)

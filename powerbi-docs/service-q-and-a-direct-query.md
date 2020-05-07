@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265478"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Abilitare Domande e risposte con le connessioni dinamiche in Power BI
@@ -60,9 +60,9 @@ La funzionalità presenta alcune limitazioni:
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
+- [Gateway dati locale](service-gateway-onprem.md)  
 - [Gestire l'origine dati - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Concetti di base del servizio Power BI](service-basic-concepts.md)  
+- [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
 - [Panoramica di Domande e risposte di Power BI](consumer/end-user-q-and-a.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

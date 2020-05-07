@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
 ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621636"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
@@ -22,7 +22,7 @@ ms.locfileid: "80621636"
 
 ![Incorporare report di Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
-In questa esercitazione vengono apprese le attività seguenti:
+In questa esercitazione si apprenderanno informazioni sulle attività seguenti:
 > [!div class="checklist"]
 > * Registrare un'applicazione in Azure.
 > * Incorporare un report di Power BI o impaginato in un'applicazione usando il tenant di Power BI.
@@ -38,7 +38,7 @@ Per iniziare, è necessario avere:
 
 Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
 
-Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configurare l'ambiente di sviluppo di analisi incorporata
 
@@ -58,7 +58,7 @@ Dopo aver creato l'applicazione in Azure, aprirla in Azure, passare ad *Autentic
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 
-### <a name="create-a-workspace"></a>Crea un'area di lavoro
+### <a name="create-a-workspace"></a>Creare un'area di lavoro
 
 Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../../service-create-workspaces.md) o le [nuove aree di lavoro](../../service-create-the-new-workspaces.md).
 

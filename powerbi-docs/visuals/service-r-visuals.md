@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979823"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creare e usare oggetti visivi R in Power BI
@@ -65,7 +65,7 @@ Come ulteriore esempio, l'immagine seguente mostra il messaggio di errore visual
 
 ![Screenshot che mostra un errore di runtime](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>Gestione delle licenze
+## <a name="licensing"></a>Licenze
 Gli oggetti visivi R richiedono una licenza [Power BI Pro](../service-self-service-signup-for-power-bi.md) per il rendering nei report, l'aggiornamento, il filtro e il filtro incrociato. Per maggiori informazioni sulle licenze Power BI Pro e sugli aspetti che le distinguono dalle licenze gratuite, vedere [Contenuto Power BI Pro: di cosa si tratta?](../service-admin-purchasing-power-bi-pro.md)
 
 Gli utenti della versione di Power BI gratuita possono usare solo i riquadri condivisi nelle aree di lavoro Premium. Vedere [Acquisto di Power BI Pro](../service-admin-purchasing-power-bi-pro.md) per maggiori informazioni.
@@ -86,12 +86,12 @@ La tabella seguente descrive le funzionalità degli oggetti visivi R in base all
 Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:
 
 * Il supporto per gli oggetti visivi R è limitato ai pacchetti identificati in [Pacchetti R nel servizio Power BI](../service-r-packages-support.md). Attualmente non è disponibile il supporto per i pacchetti personalizzati.
-* Limitazioni relative alle dimensioni di dati: i dati usati dall'oggetto visivo R per il tracciato sono limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine. Inoltre, i dati di input hanno un limite di 250 MB.
+* Limitazioni relative alle dimensioni di dati: i dati utilizzati dall’oggetto visivo R per il tracciato sono limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine. Inoltre, i dati di input hanno un limite di 250 MB.
 * Risoluzione: tutti gli oggetti visivi R vengono visualizzati a 72 DPI.
 * Dispositivo di tracciamento: è supportato solo il tracciamento nel dispositivo predefinito. 
 * Limitazione relativa al tempo di calcolo: se un calcolo dell'oggetto visivo R è maggiore di 60 secondi, si verifica il timeout dello script, determinando la generazione di un errore.
-* Gli oggetti visivi R vengono aggiornati al momento dell'aggiornamento, del filtraggio e dell'evidenziazione dei dati. Tuttavia, l'immagine stessa non è interattiva e non supporta le descrizioni comandi.
-* Gli oggetti visivi R rispondono all'evidenziazione di altri oggetti visivi, ma è possibile fare clic sugli elementi nell'oggetto visivo R per applicare un filtro incrociato ad altri elementi.
+* Gli oggetti visivi R vengono aggiornati al momento dell’aggiornamento, del filtraggio e dell’evidenziazione dei dati. Tuttavia, l'immagine stessa non è interattiva e non supporta le descrizioni comandi.
+* Gli oggetti visivi R rispondono all'evidenziazione di altri oggetti visivi, ma è possibile fare clic sugli elementi nell’oggetto visivo R per applicare un filtro incrociato ad altri elementi.
 * Gli oggetti visivi R non sono attualmente supportati per il tipo di dati *Time*. Usare invece Date/Time.
 * Gli oggetti visivi R non vengono visualizzati quando si usa l'opzione **Pubblica sul Web**.
 * Gli oggetti visivi R non supportano la ridenominazione delle colonne di input. Durante l'esecuzione dello script si farà riferimento alle colonne con il nome originale.

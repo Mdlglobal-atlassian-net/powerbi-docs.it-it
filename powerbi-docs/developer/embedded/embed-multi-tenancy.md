@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494953"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gestire il multi-tenancy con le funzionalità di analisi incorporata di Power BI
@@ -120,7 +120,7 @@ Esistono due approcci alle applicazioni SaaS che offrono agli utenti la possibil
 
 Con l'isolamento basato sull'area di lavoro di Power BI, l'applicazione SaaS supporta più tenant da un singolo tenant di Power BI. L'isolamento basato sull'area di lavoro contiene tutto il contenuto di Power BI usato da diversi tenant. La separazione dei tenant viene eseguita a livello di area di lavoro di Power BI, tramite la creazione di più aree di lavoro. Ogni area di lavoro contiene i set di dati, i report e i dashboard pertinenti per il tenant. Inoltre, ogni area di lavoro è connessa solo ai dati di tale tenant. Se è necessario un ulteriore isolamento, è possibile creare un utente *master* o un'entità servizio per ogni area di lavoro e il relativo contenuto.
 
-![Area di lavoro](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
+![Workspace](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
 
 ### <a name="data-architecture"></a>Architettura dei dati
 

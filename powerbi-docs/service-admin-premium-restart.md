@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464694"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Riavviare una capacità Power BI Premium
@@ -40,7 +40,7 @@ Seguire questi passaggi per riavviare una capacità.
 
 1. Nella scheda **Impostazioni di capacità** del portale di amministrazione di Power BI andare alla capacità. 
 
-1. Aggiungere il *flag della funzionalità* **CapacityRestart** all'URL della capacità: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. Aggiungere il **flag della funzionalità** *CapacityRestart* all'URL della capacità: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. In **Impostazioni avanzate** > **RIAVVIO DELLA CAPACITÀ** selezionare **Riavvia la capacità**.
 

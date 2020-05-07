@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: tekulka
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9a8dd1eb7aa6b239cc542884ab3fae3679997017
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464611"
 ---
 # <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Esercitazione: Usare Analizza in Excel di Power BI, a partire da Excel
@@ -27,7 +27,7 @@ Per iniziare a usare un set di dati di Power BI, in Excel selezionare "Analizza 
 
 Se si riscontrano problemi in qualsiasi momento, selezionare **No** nel passaggio appropriato del flusso seguente e aggiungere feedback nel modulo collegato.  
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 
 > [!div class="checklist"]
 > * Scaricare un file ODC dalla pagina Set di dati di Power BI.
@@ -48,7 +48,7 @@ Per completare questa esercitazione, sono necessari:
 
 * Una [sottoscrizione di Microsoft Office E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) attiva
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione
 
 Partendo da Excel, selezionare l'opzione per creare tabelle pivot con dati condivisi di Power BI e passare alla pagina Set di dati di Power BI.
 

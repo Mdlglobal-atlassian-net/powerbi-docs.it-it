@@ -1,5 +1,5 @@
 ---
-title: Creare un tenant di Azure Active Directory da usare con Power BI
+title: Creare un tenant di Azure Active Directory per usarlo con Power BI
 description: Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) per un'applicazione personalizzata che chiama le API REST di Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
 ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114728"
 ---
-# <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory da usare con Power BI
+# <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory per usarlo con Power BI
 
 Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) per un'applicazione personalizzata che chiama le [API REST di Power BI](../automation/rest-api-reference.md).
 
@@ -31,19 +31,19 @@ Per integrare Power BI nell'applicazione personalizzata, è necessario definire 
 
 Per creare un nuovo tenant di Azure AD:
 
-1. Aprire il [portale di Azure](https://portal.azure.com) e accedere con un account che disponga di una sottoscrizione di Azure.
+1. Selezionare il [portale di Azure](https://portal.azure.com) e accedere con un account che dispone di una sottoscrizione di Azure.
 
-2. Selezionare l'**icona più (+)** e cercare **Azure Active Directory**.
+2. Selezionare l'**icona +** e cercare **Azure Active Directory**.
 
     ![Icona segno più (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
-3. Selezionare **Azure Active Directory** nei risultati della ricerca.
+3. Selezionare **Azure Active Directory** dai risultati della ricerca.
 
     ![Ricerca di AAD](media/create-an-azure-active-directory-tenant/new-directory2.png)
 
-4. Selezionare **Crea**.
+4. Selezionare **Create** (Crea).
 
-5. Specificare un **Nome organizzazione** e un **Nome di dominio iniziale**. Quindi selezionare **Crea** La directory è stata creata.
+5. Specificare un **Nome organizzazione** e un **Nome di dominio iniziale**. Selezionare quindi **Crea**. La directory è stata creata.
 
     ![Organizzazione e dominio](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
@@ -70,7 +70,7 @@ Ora che la directory è disponibile, è necessario creare almeno due utenti. Uno
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
-3. Selezionare **Tutti gli utenti** e quindi scegliere **+ Nuovo utente**.
+3. Selezionare **Tutti gli utenti** e selezionare **+Nuovo utente**.
 
 4. Specificare un **Nome** e un **Nome utente** per l'amministratore globale del tenant. Modificare il **Ruolo directory** in **Amministratore globale**. È anche possibile visualizzare la password temporanea. Al termine, selezionare **Crea**.
 

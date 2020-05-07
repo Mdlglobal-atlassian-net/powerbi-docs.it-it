@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698832"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Ricerca di utenti Power BI che hanno eseguito l'accesso
@@ -29,7 +29,7 @@ Qualsiasi utente (compresi quelli non amministratori) può visualizzare un repor
 
 * Al tenant deve essere associata una licenza di Azure Active Directory Premium.
 
-* È necessario appartenere a uno dei ruoli seguenti: Amministratore globale, Amministratore della sicurezza o Ruolo con autorizzazioni di lettura per la sicurezza.
+* È necessario avere uno dei ruoli seguenti: amministratore globale o amministratore della sicurezza oppure un ruolo con autorizzazioni di lettura per la sicurezza.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Usare il portale di Azure per visualizzare gli accessi
 

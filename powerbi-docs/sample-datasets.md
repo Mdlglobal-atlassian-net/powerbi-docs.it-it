@@ -11,10 +11,10 @@ ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 5053386aeb96ba77c4c89f0d5430cfbd20cc795e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404356"
 ---
 # <a name="get-samples-for-power-bi"></a>Ottenere esempi per Power BI
@@ -104,7 +104,7 @@ Prima di iniziare, leggere queste linee guida legali sull'uso degli esempi, quin
 
 ### <a name="usage-guidelines-for-the-sample-excel-workbooks"></a>Linee guida per l'uso delle cartelle di lavoro di Excel di esempio
 
-&copy;2015 Microsoft Corporation. All rights reserved. Documenti e cartelle di lavoro vengono forniti così come sono. Le informazioni e le opinioni espresse nel presente documento, inclusi gli URL e altri riferimenti a siti Web, possono essere soggette a modifiche senza preavviso. L'utente accetta di usarle a proprio rischio. Alcuni esempi vengono forniti a solo scopo illustrativo e sono fittizi. Nessuna associazione reale è intenzionale o può essere desunta. Microsoft non offre alcuna garanzia, esplicita o implicita, relativamente alle informazioni fornite.
+&copy;2015 Microsoft Corporation. Tutti i diritti sono riservati. Documenti e cartelle di lavoro vengono forniti così come sono. Le informazioni e le opinioni espresse nel presente documento, inclusi gli URL e altri riferimenti a siti Web, possono essere soggette a modifiche senza preavviso. L'utente accetta di usarle a proprio rischio. Alcuni esempi vengono forniti a solo scopo illustrativo e sono fittizi. Nessuna associazione reale è intenzionale o può essere desunta. Microsoft non offre alcuna garanzia, esplicita o implicita, relativamente alle informazioni fornite.
 
 Le cartelle di lavoro non implicano la concessione di alcun diritto legale di proprietà intellettuale relativo a prodotti Microsoft. È possibile copiare e usare questa cartella di lavoro per finalità di riferimento interni.
 
@@ -239,9 +239,9 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
     - Poiché la cartella di lavoro include fogli di Power View, Power BI crea un report con una pagina per ogni foglio di Power BI. 
     - Power BI crea un nuovo dashboard con un nuovo riquadro vuoto.  Se si seleziona il riquadro si passa al report appena aggiunto.
 
-10. Aprire il report. Selezionare elementi diversi del report per esplorarne le interazioni. 
+10. quindi aprirlo. Selezionare elementi diversi del report per esplorarne le interazioni. 
 
-    ![Visualizzazione report](media/sample-datasets/sample-procurement-power-bi-service.png)
+    ![Visualizzare report](media/sample-datasets/sample-procurement-power-bi-service.png)
 
 ### <a name="explore-excel-samples-inside-excel"></a>Esplorare gli esempi di Excel all'interno di Excel
 

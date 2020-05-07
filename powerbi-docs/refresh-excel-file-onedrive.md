@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699622"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aggiornare un set di dati creato da una cartella di lavoro di Excel in OneDrive o SharePoint Online
@@ -82,7 +82,7 @@ In **Strumento di navigazione**fare clic su **Carica in…**
 
 ![Comando Carica in...](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-In alternativa, se si fa clic su **Modifica** nello **Strumento di navigazione**, viene aperto l'editor di query. Da qui è possibile fare clic su **Chiudi e carica in**.  
+In alternativa, se si fa clic su **Modifica** nello **Strumento di navigazione**, viene aperto l'editor di query. Da qui è possibile fare clic su **Chiudi e carica in…**  
 
 ![Comando Chiudi e carica in...](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
@@ -92,7 +92,7 @@ Quindi, in **Carica in**selezionare **Aggiungi dati al modello di dati**.
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Cosa accade se si usano dati esterni in Power Pivot?
 
-ma si tratta di un problema facilmente risolvibile. Quando si usa Power Pivot per connettersi ed eseguire query sui dati da un'origine dati online o locale, i dati vengono caricati automaticamente nel modello di dati.
+Non c'è problema. Quando si usa Power Pivot per connettersi ed eseguire query sui dati da un'origine dati online o locale, i dati vengono caricati automaticamente nel modello di dati.
 
 ## <a name="how-do-i-schedule-refresh"></a>Come si pianifica l'aggiornamento?
 

@@ -9,10 +9,10 @@ ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487763"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
@@ -47,7 +47,7 @@ Esplorare i documenti pertinenti al ruolo:
 - Power BI per [*amministratori*](../service-admin-administering-power-bi-in-your-organization.md)
 - Power BI per *sviluppatori*
     * [Analisi incorporata con Power BI](../developer/embedded/embedding.md)
-    * [Che cos'è Azure Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Che cos'è Power BI Embedded in Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
     * [Oggetti visivi in Power BI](../developer/visuals/power-bi-custom-visuals.md)
     * [Quali operazioni possono eseguire gli sviluppatori con le API Power BI?](../developer/automation/overview-of-power-bi-rest-api.md)
 

@@ -10,10 +10,10 @@ ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404645"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della qualità dei fornitori per Power BI: Presentazione
@@ -164,7 +164,7 @@ Analizzare ora un altro riquadro del dashboard relativo alla quantità difettosa
    ![Domanda di Domande e risposte: total downtime minutes by month and year as a line chart](media/sample-supplier-quality/supplier15.png)
 
    A parte l'aumento del tempo di inattività durante i mesi di giugno e ottobre, il numero di difetti non ha causato un tempo di inattività significativamente maggiore. Il risultato indica che i difetti vengono gestiti in modo efficace.  
-3. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![Icona Aggiungi](media/sample-supplier-quality/pin.png) sopra la casella della domanda.  
+3. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![Icona a forma di puntina](media/sample-supplier-quality/pin.png) sopra la casella della domanda.  
 4. Per esaminare i mesi con valori outlier, analizzare il tempo di inattività in minuti durante il mese di ottobre per tipo di materiale, località dello stabilimento, categoria e così via ponendo domande come *total downtime minutes in October by plant*. 
 5. Selezionare **Chiudi Domande e risposte** nell'angolo in alto a sinistra per tornare al dashboard.
 

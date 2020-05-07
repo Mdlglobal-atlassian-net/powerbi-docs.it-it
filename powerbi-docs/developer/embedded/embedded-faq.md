@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403659"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
@@ -22,7 +22,7 @@ ms.locfileid: "80403659"
 
 ## <a name="general"></a>Generale
 
-### <a name="what-is-power-bi-embedded"></a>Che cos'è Power BI Embedded?
+### <a name="what-is-power-bi-embedded"></a>Informazioni su Power BI Embedded
 
 [Microsoft Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) consente agli sviluppatori di applicazioni di incorporare straordinari report completamente interattivi nelle applicazioni evitando di creare controlli e visualizzazioni dei dati da zero.
 
@@ -32,7 +32,7 @@ A sviluppatori e aziende di sviluppo software che creano applicazioni, denominat
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Qual è la differenza tra Power BI Embedded e il servizio Power BI?
 
-Power BI è una soluzione di analisi distribuita come servizio che offre alle organizzazioni una visualizzazione centralizzata dei dati aziendali più strategici.
+Power BI è una soluzione di analisi SaaS (Software-as-a-Service) che offre alle organizzazioni una visualizzazione unica per i dati aziendali più importanti.
 
 Microsoft ha sviluppato Power BI Embedded per gli ISV che desiderano incorporare oggetti visivi nelle applicazioni per consentire ai clienti di prendere decisioni analitiche. In questo modo gli ISV possono evitare di creare soluzioni di analisi proprie. L'[analisi incorporata](embedding.md) consente agli utenti aziendali di accedere a dati aziendali ed eseguire query su di essi per generare informazioni dettagliate all'interno dell'applicazione.
 
@@ -53,7 +53,7 @@ In alcuni casi, un ISV, in genere di grandi dimensioni, oltre alla necessità di
 
 I token di incorporamento con licenza Pro sono destinati al test di sviluppo, pertanto un account master Power BI o un'[entità servizio](embed-service-principal.md) può generare un numero limitato di token di incorporamento. [Acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto di una capacità è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
 
-## <a name="technical"></a>Informazioni tecniche
+## <a name="technical"></a>Tecnici
 
 ### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>Dove è possibile reperire altre informazioni sulla capacità e sugli SKU per le funzionalità di analisi incorporata di Power BI?
 

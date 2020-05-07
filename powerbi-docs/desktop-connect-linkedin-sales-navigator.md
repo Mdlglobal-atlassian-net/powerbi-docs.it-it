@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565631"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Connettersi a LinkedIn Sales Navigator in Power BI Desktop
@@ -80,7 +80,7 @@ Quando si scarica l'app, è possibile scegliere se connettersi ai propri dati o 
 L'app modello include quattro schede che consentono di analizzare e condividere le informazioni:
 
 * Usage
-* Cerca
+* Ricerca
 * InMail
 * SSI
 
@@ -106,7 +106,7 @@ Per passare dai dati di esempio ai propri dati, selezionare **modifica app** nel
 
 Da qui è possibile connettere i propri dati, selezionando il numero di giorni per cui caricare i dati. È possibile caricare fino a 365 giorni di dati. Eseguire l'accesso, ancora una volta usando lo stesso indirizzo di posta elettronica usato per accedere a LinkedIn Sales Navigator tramite il sito Web. 
 
-![Eseguire l'accesso](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![Accesso](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 In seguito l'app modello aggiorna i dati nell'app con i dati dell'utente. È anche possibile configurare un aggiornamento pianificato, in modo che i dati nell'app siano aggiornati in base alla frequenza specificata. 
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 9c2eb554a4e3b3ec90d3fe17145e0ec277298e1b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697498"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>Usare Kerberos per il Single Sign-On (SSO) a SAP HANA
@@ -58,4 +58,4 @@ Per altre informazioni sul gateway dati locale e su DirectQuery, vedere le risor
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)

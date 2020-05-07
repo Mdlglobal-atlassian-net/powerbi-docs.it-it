@@ -11,10 +11,10 @@ ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403398"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Esercitazione: Connettersi a un repository GitHub con Power BI
@@ -91,7 +91,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
 
     
 
-## <a name="ask-a-question"></a>Invia una domanda
+## <a name="ask-a-question"></a>Porre una domanda
 
 1. Posizionare il cursore in **Porre una domanda sui dati**. Power BI fornisce alcune indicazioni in **Domande per iniziare**. 
 
