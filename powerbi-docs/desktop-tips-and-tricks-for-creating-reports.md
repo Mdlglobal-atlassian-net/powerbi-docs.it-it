@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: davidi
 ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066229"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
@@ -158,7 +158,7 @@ DAX è il linguaggio delle formule di calcolo in Power BI Desktop, ottimizzato p
 
 [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
-[Informazioni di riferimento su DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
+[Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [Centro risorse DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
@@ -182,7 +182,7 @@ Ogni pagina del report dovrebbe illustrare una storia a colpo d'occhio. Si posso
 
 ### <a name="make-the-most-important-information-biggest"></a>Fare in modo che le informazioni più importanti siano più grandi
 Se il testo e le visualizzazioni nella pagina del report hanno tutti la stessa dimensione, sarà difficile per il lettore distinguere cosa è più importante. Ad esempio, le visualizzazioni a scheda sono un ottimo modo per mettere in evidenza un numero importante:  
-![Visualizzazione scheda](media/service-dashboards-design-tips/pbi_card.png)
+![Visualizzazione Scheda](media/service-dashboards-design-tips/pbi_card.png)
 
 ### <a name="but-be-sure-to-provide-context"></a>Specificare il contesto  
 

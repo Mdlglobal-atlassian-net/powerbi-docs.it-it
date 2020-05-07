@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871759"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Creare un report nel servizio Power BI importando un set di dati
@@ -31,7 +31,7 @@ In questo metodo di creazione del report si inizia con un set di dati e un'area 
    ![Elenco di aree di lavoro](media/service-report-create-new/power-bi-workspaces2.png)
 2. Nella parte inferiore del riquadro di spostamento selezionare **Recupera dati**.
    
-   ![Recupera dati](media/service-report-create-new/power-bi-get-data3.png)
+   ![Recuperare i dati](media/service-report-create-new/power-bi-get-data3.png)
 3. Selezionare **File** e passare al percorso in cui è stato salvato l'esempio di analisi delle vendite al dettaglio.
    
     ![Selezionare File](media/service-report-create-new/power-bi-select-files.png)

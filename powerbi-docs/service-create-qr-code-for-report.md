@@ -1,6 +1,6 @@
 ---
 title: Creare un codice a matrice per un report da usare nelle app Power BI per dispositivi mobili
-description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI nell’app per dispositivi mobili Power BI, senza dover eseguire ricerche.
+description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI nell'app per dispositivi mobili Power BI, senza dover eseguire ricerche.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853378"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un report in Power BI da usare nelle app per dispositivi mobili
-I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151; senza dover effettuare nessuno spostamento o ricerca.
+I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI & #151 senza dover effettuare nessuno spostamento o ricerca.
 
 È possibile creare un codice a matrice nel servizio Power BI per qualsiasi report, anche quelli che non è possibile modificare. Inserire quindi il codice a matrice in un percorso chiave. Si potrebbe ad esempio, incollarlo in un messaggio di posta elettronica, o stamparlo e incollarlo in un percorso specifico. 
 
@@ -39,7 +39,7 @@ I colleghi con cui si è condiviso il report possono [scansionare il codice a ma
 ## <a name="print-the-qr-code"></a>Stampare il codice a matrice
 Power BI genera il codice a matrice come file JPG, pronto per la stampa. 
 
-1. Selezionare **Scarica** e quindi aprire il file JPG in un computer connesso a una stampante.  
+1. Seleziona **Scarica**, quindi apri il file JPG in un computer connesso a una stampante.  
    
    Il file JPG ha lo stesso nome del riquadro, ad esempio “esempio di analisi di vendite e marketing.jpg”.
    

@@ -10,13 +10,13 @@ ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637906"
 ---
-# <a name="get-data-from-excel-workbook-files"></a>Ottenere dati dai file delle cartelle di lavoro di Excel
+# <a name="get-data-from-excel-workbook-files"></a>Ottenere i dati dai file della cartella di lavoro di Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
 
 Microsoft Excel è una delle applicazioni aziendali più diffuse, ma è anche uno dei modi più comuni per ottenere i dati in Power BI.

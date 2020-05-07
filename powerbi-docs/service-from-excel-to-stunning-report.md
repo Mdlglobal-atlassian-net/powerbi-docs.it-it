@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872504"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
@@ -44,7 +44,7 @@ Il servizio Power BI si connette a molte origini dati, inclusi i file di Excel c
  > [!NOTE] 
  > Per proseguire questa esercitazione, usare la [cartella di lavoro di esempio Financial](sample-financial-download.md).
 
-1. Per iniziare, accedere al servizio Power BI. Se non si è ancora iscritti, [è possibile farlo gratuitamente](https://powerbi.com).
+1. Per iniziare, accedere al servizio Power BI. Se non è stata effettuata l'iscrizione, [è possibile farlo gratuitamente](https://powerbi.com).
 
 2. Si desidera creare un nuovo dashboard. Aprire **Area di lavoro personale** e selezionare l'icona **Crea**.
 
@@ -102,7 +102,7 @@ La manager desidera sapere quali sono i paesi più produttivi. Sarà stupita nel
 
    ![Oggetto visivo mappa nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 
-Visualizzazione delle vendite per prodotti e segmenti di mercato Facile. 
+Visualizzazione delle vendite per prodotti e segmenti di mercato  Facile. 
 
 1. Nel riquadro **Campi** selezionare i campi **Sales**, **Product** e **Segment**. 
    
@@ -129,7 +129,7 @@ Supponiamo di voler condividere il dashboard con il responsabile. Con i colleghi
 
 2. Immettere gli indirizzi di posta elettronica dei destinatari nella casella **Immettere gli indirizzi di posta elettronica** e aggiungere un messaggio nella casella sottostante. 
 
-3. Per consentire ai destinatari di condividere il dashboard con altri utenti, selezionare **Consenti ai destinatari di condividere il dashboard**. Seleziona **Condividi**.
+3. Per consentire ai destinatari di condividere il dashboard con altri utenti, selezionare **Consenti ai destinatari di condividere il dashboard**. Selezionare **Condividi**.
 
    ![Finestra Condividi dashboard](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 

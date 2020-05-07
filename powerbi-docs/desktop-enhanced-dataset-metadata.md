@@ -10,10 +10,10 @@ ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82584682"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Uso dei metadati dei set di dati avanzati (anteprima)
@@ -42,7 +42,7 @@ Dopo aver abilitato la funzionalità di anteprima, Power BI Desktop tenta di agg
 > [!IMPORTANT]
 > L'abilitazione della funzionalità dei **metadati dei set di dati avanzati** determina un aggiornamento irreversibile dei report. Una volta abilitati i **metadati dei set di dati avanzati**, tutti i report di Power BI caricati o creati con Power BI Desktop vengono convertiti in modo irreversibile nel formato dei metadati dei set di dati avanzati.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Nella versione di anteprima esistono le limitazioni seguenti quando la funzionalità di anteprima è abilitata.
 

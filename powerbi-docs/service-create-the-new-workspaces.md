@@ -10,10 +10,10 @@ ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675624"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creare le nuove aree di lavoro in Power BI
@@ -35,7 +35,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
 1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Crea area di lavoro**.
    
-     ![Creare l'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-create.png)
+     ![Creare un'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-create.png)
 
 2. Verrà automaticamente creata un'area di lavoro aggiornata, a meno che non si scelga di **ripristinare la versione classica**.
    
@@ -144,4 +144,4 @@ Altre informazioni sulla [pubblicazione di un'app dalle nuove aree di lavoro](se
 * Informazioni su come [organizzare il lavoro nella nuova esperienza di area di lavoro in Power BI](service-new-workspaces.md)
 * [Creare le aree di lavoro classiche](service-create-workspaces.md)
 * [Pubblicare un'app dalle nuove aree di lavoro in Power BI](service-create-distribute-apps.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

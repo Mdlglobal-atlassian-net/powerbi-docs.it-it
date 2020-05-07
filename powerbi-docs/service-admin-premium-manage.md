@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637914"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurare e gestire le capacità in Power BI Premium
@@ -126,7 +126,7 @@ Gli amministratori della capacità, insieme con gli amministratori di Power BI e
 
     ![Assegna aree di lavoro](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Selezione | Descrizione |
+   | Selezione | Description |
    | --- | --- |
    | **Aree di lavoro in base agli utenti** | Quando si assegnano le aree di lavoro per utente o gruppo, tutte le aree di lavoro appartenenti a tali utenti vengono assegnate alla capacità Premium, tra cui l'area di lavoro personale dell'utente. Tali utenti ottengono automaticamente le autorizzazioni di assegnazione dell'area di lavoro.<br>Ciò include le aree di lavoro già assegnata a una capacità diversa. |
    | **Aree di lavoro specifiche** | Immettere il nome di un'area di lavoro specifica da assegnare alla capacità selezionata. |

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855580"
 ---
 # <a name="power-bi-and-azure-egress"></a>Dati in uscita di Power BI e Azure
@@ -33,7 +33,7 @@ Per i clienti di Power BI Premium con il supporto di più aree geografiche, se i
 Per altre informazioni su Power BI Premium o sul supporto di più aree geografiche, esaminare le risorse seguenti:
 
 * [Che cos'è Microsoft Power BI Premium?](service-premium-what-is.md)
-* [How to purchase Power BI Premium](service-admin-premium-purchase.md) (Come acquistare Power BI Premium)
+* [Come acquistare Power BI Premium](service-admin-premium-purchase.md)
 * [Supporto di più aree geografiche per Power BI Premium (anteprima)](service-admin-premium-multi-geo.md)
 * [Dove si trova il tenant di Power BI?](service-admin-where-is-my-tenant-located.md)
 * [Power BI Premium FAQ](service-premium-faq.md) (Domande frequenti su Power BI Premium)

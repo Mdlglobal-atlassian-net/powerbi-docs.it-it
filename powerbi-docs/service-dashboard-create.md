@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
 ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853420"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
@@ -59,7 +59,7 @@ In questa procedura viene importato uno dei set di dati di esempio di Power BI c
     ![Finestra OneDrive for Business](media/service-dashboard-create/power-bi-import.png)
 8. Quando viene visualizzato il messaggio di conferma, fare clic sulla **x** per eliminarlo.
 
-   ![Messaggio di operazione completata](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![Messaggio di operazione riuscita](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > Suggerimenti utili È possibile ridurre il riquadro di spostamento selezionando l'icona con tre righe nella parte superiore ![Icona Mostra o Nascondi del riquadro di spostamento](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). In questo modo si ottiene più spazio per il report.
@@ -72,7 +72,7 @@ In questa procedura viene importato uno dei set di dati di esempio di Power BI c
 2. Selezionare **Altre opzioni (...)**  > **Modifica report** per aprire il report nella visualizzazione di modifica.
 
     ![Report nella visualizzazione di lettura](media/service-dashboard-create/power-bi-reading-view.png)
-3. Passare il mouse su una visualizzazione per vedere le opzioni disponibili. Per aggiungere una visualizzazione a un dashboard, selezionare l'icona di aggiunta. ![Icona Aggiungi](media/service-dashboard-create/power-bi-pin-icon.png).
+3. Passare il mouse su una visualizzazione per vedere le opzioni disponibili. Per aggiungere una visualizzazione a un dashboard, selezionare l'icona di aggiunta. ![Icona a forma di puntina](media/service-dashboard-create/power-bi-pin-icon.png).
 
     ![Passare il mouse sul riquadro](media/service-dashboard-create/power-bi-hover.png)
 4. Poiché si sta creando un nuovo dashboard, selezionare l'opzione per **Nuovo dashboard** e assegnare un nome.
@@ -80,7 +80,7 @@ In questa procedura viene importato uno dei set di dati di esempio di Power BI c
     ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Quando si seleziona **Aggiungi**, Power BI crea il nuovo dashboard nell'area di lavoro corrente. Quando appare il messaggio **Aggiunti al dashboard**, selezionare **Vai al dashboard**. Se viene chiesto di salvare il report, scegliere **Salva**.
 
-    ![Messaggio di operazione completata](media/service-dashboard-create/power-bi-pin-success.png)
+    ![Messaggio di operazione riuscita](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI apre il nuovo dashboard, che include un solo riquadro, vale a dire la visualizzazione appena bloccata.
 

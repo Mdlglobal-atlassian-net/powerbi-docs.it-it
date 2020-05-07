@@ -11,10 +11,10 @@ ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
 ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82584918"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Esempio di rilevamento del COVID-19 per enti locali e statali degli Stati Uniti
@@ -101,7 +101,7 @@ Per mantenere aggiornati i dati del report, è possibile [configurare l'aggiorna
 
 Quando si segue la procedura, scegliere le opzioni seguenti:
 
-1. Metodo di autenticazione delle credenziali dell'origine dati: Anonimo
+1. Metodo di autenticazione delle credenziali dell'origine dati: Anonima
 2. Impostazione del livello di privacy per questa origine dati: Pubblico
 
 Per testare l'impostazione di aggiornamento, selezionare l'opzione [Aggiorna ora](../refresh-data.md#data-refresh) disponibile nell'elemento del set di dati.
@@ -134,7 +134,7 @@ Se si apportano modifiche al report in Power BI Desktop, è possibile pubblicare
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-from-web.png" alt-text="Selezionare i dati dal Web":::
 
-3. Seleziona **OK**. 
+3. Selezionare **OK**. 
 
     > [!NOTE]
     > Il collegamento pubblicato dalla Johns Hopkins University può cambiare. Per informazioni aggiornate, vedere la [pagina di GitHub della Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19).
