@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75622149"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Linee guida per la riduzione della query in Power BI Desktop
@@ -21,7 +21,7 @@ Questo articolo è destinato agli autori di modelli di dati in Power BI Desktop.
 
 La _riduzione della query_ è la possibilità per una query di Power Query di generare una singola istruzione di query che recuperi e trasformi i dati di origine. Per altre informazioni, vedere [Riduzione della query di Power Query](/power-query/power-query-folding).
 
-## <a name="guidance"></a>Informazioni aggiuntive
+## <a name="guidance"></a>Materiale sussidiario
 
 Le linee guida per la riduzione della query variano in base alla modalità del modello.
 
@@ -53,4 +53,4 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - Articolo concettuale sulla [riduzione della query](/power-query/power-query-folding) di Power Query
 - [Aggiornamento incrementale in Power BI Premium](../service-premium-incremental-refresh.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

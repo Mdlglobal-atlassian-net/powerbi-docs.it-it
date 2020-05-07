@@ -10,10 +10,10 @@ ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75224139"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Servizi cognitivi in Power BI 
@@ -80,7 +80,7 @@ Analisi del testo usa un algoritmo di classificazione di Machine Learning per ge
 
 L'analisi del sentiment viene eseguita sull'intero campo di input, a differenza dell'estrazione del sentiment per una particolare entità nel testo. In pratica, si è osservata una tendenza al miglioramento della precisione del punteggio quando i documenti contengono una o due frasi invece di un intero blocco di testo. Durante una fase di valutazione dell'obiettività, il modello determina se un campo di input nel suo insieme è obiettivo o contiene sentiment. Un campo di input prevalentemente obiettivo non passa alla fase di rilevamento del sentiment, producendo un punteggio di 0,50 senza ulteriore elaborazione. Per i campi di input che proseguono nella pipeline, la fase successiva genera un punteggio superiore o inferiore a 0,50, a seconda del grado di sentiment rilevato nel campo di input.
 
-Attualmente la funzione Analisi del sentiment supporta le lingue seguenti: inglese, tedesco, spagnolo e francese. Altre lingue sono disponibili in anteprima. Per altre informazioni, vedere [Supporto lingua e area geografica per l'API Analisi del testo](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Attualmente la funzione Analisi del sentiment supporta le lingue seguenti: inglese, tedesco, spagnolo e francese. Altre lingue sono disponibili in anteprima. Per altre informazioni, vedere [Linguaggi supportati](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 ### <a name="tag-images"></a>**Assegnazione di tag alle immagini**
 

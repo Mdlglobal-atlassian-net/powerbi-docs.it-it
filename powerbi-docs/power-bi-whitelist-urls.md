@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
 ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
-ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82191615"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL di Power BI per l'elenco elementi consentiti
@@ -32,11 +32,11 @@ I caratteri jolly (*) rappresentano tutti i livelli sotto il dominio radice e l'
 >[!Important]
 >Le informazioni nelle tabelle seguenti non riguardano il **cloud US Government**, il **cloud Germania** o il **cloud Cina**.
 
-## <a name="authentication"></a>Autenticazione
+## <a name="authentication"></a>Authentication
 
 Power BI dipende dagli endpoint obbligatori indicati nelle sezioni Autenticazione e identità di Office 365. Per usare Power BI, è necessario essere in grado di connettersi agli endpoint nel sito collegato riportato di seguito.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** autenticazione e identità | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N/D |
 
@@ -44,9 +44,9 @@ Power BI dipende dagli endpoint obbligatori indicati nelle sezioni Autenticazion
 
 Per l'uso generale di Power BI, è necessario essere in grado di connettersi agli endpoint nella tabella e nei siti collegati seguenti.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
-| 1 | **Obbligatorio:** API back-end | *.analysis.windows.net | TCP 443 |
+| 1 | **Obbligatorio:** API back-end | *. analysis.windows.net | TCP 443 |
 | 2 | **Obbligatorio:** API back-end | *.pbidedicated.windows.net | TCP 443 |
 | 3 | **Obbligatorio:** integrazione di Office 365 | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | 4 | **Obbligatorio:** portale | app.powerbi.com | TCP 443 |
@@ -56,11 +56,11 @@ Per l'uso generale di Power BI, è necessario essere in grado di connettersi agl
 | 8 | **Facoltativo:** Rete per la distribuzione di contenuti (CDN) | content.powerapps.com | TCP 443 |
 | | | |
 
-## <a name="administration"></a>Administration
+## <a name="administration"></a>Amministrazione
 
 Per eseguire funzioni amministrative in Power BI, è necessario potersi connettere agli endpoint nei siti collegati riportati di seguito.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** per la gestione degli utenti e la visualizzazione dei log di controllo | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
@@ -69,7 +69,7 @@ Per eseguire funzioni amministrative in Power BI, è necessario potersi connette
 
 Per ottenere dati da origini dati specifiche, ad esempio OneDrive, è necessario potersi connettere agli endpoint nella tabella seguente. Potrebbe essere necessario accedere a URL e domini Internet aggiuntivi per origini dati specifiche usate nell'organizzazione.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** AppSource (app interne o esterne in Power BI) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Facoltativo:** accedere e ottenere i dati per i pacchetti di contenuto | Dipende dai pacchetti di contenuto usati | Dipende dai pacchetti di contenuto usati |
@@ -82,7 +82,7 @@ Per ottenere dati da origini dati specifiche, ad esempio OneDrive, è necessario
 
 Power BI dipende da determinati endpoint per supportare dashboard e report. È necessario essere in grado di connettersi agli endpoint nella tabella e nei siti collegati seguenti.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** integrazione di Excel | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
@@ -91,10 +91,10 @@ Power BI dipende da determinati endpoint per supportare dashboard e report. È n
 
 Power BI dipende da determinati endpoint per visualizzare e accedere agli oggetti visivi di Power BI. È necessario essere in grado di connettersi agli endpoint nella tabella e nei siti collegati seguenti.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** importare un oggetto visivo personalizzato dall'interfaccia del Marketplace o da un file | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
-| 2 | **Facoltativo:** Bing Maps | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
+| 2 | **Facoltativo:** Bing Mappe | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Facoltativo:** PowerApps | Vedere la [sezione Servizi necessari](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) dal sito dei requisiti di sistema di PowerApps | N/D |
 | 4 | **Facoltativo:** Visio | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), nonché per [SharePoint Online e OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |
 | | | |
@@ -103,7 +103,7 @@ Power BI dipende da determinati endpoint per visualizzare e accedere agli oggett
 
 Power BI si collega ad altri siti correlati. Si tratta di siti relativi a documentazione, supporto, richieste di nuove funzionalità e altro ancora. L'accesso a questi siti non influirà sulla funzionalità di Power BI, quindi l'elenco elementi consentiti è facoltativo.
 
-| Riga | Scopo | Destinazione/i | Porta/e |
+| Riga | Scopo | Destinazione/i | Porte |
 | --- | --- | --- | --- |
 | 1 | **Facoltativo:** sito della community | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
 | 2 | **Facoltativo:** Sito della documentazione | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |

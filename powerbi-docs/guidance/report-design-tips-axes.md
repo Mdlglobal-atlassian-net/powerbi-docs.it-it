@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066151"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Suggerimenti per gestire gli assi nei report di Power BI
@@ -43,5 +43,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Suggerimenti per la creazione di report straordinari](../desktop-tips-and-tricks-for-creating-reports.md)
 - Video biDezine: [I principali otto suggerimenti per gestire gli assi in modo efficace in Power BI](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

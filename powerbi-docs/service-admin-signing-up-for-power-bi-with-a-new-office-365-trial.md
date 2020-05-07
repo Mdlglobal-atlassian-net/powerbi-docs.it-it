@@ -10,10 +10,10 @@ ms.date: 04/24/2020
 ms.author: mihart
 LocalizationGroup: Administration
 ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256258"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Iscrizione a Power BI con una nuova versione di valutazione di Microsoft 365
@@ -47,7 +47,7 @@ Se non si riesce ad effettuare l'iscrizione a Power BI con il proprio indirizzo 
 
 1. Potrebbe essere necessario attendere che il nuovo tenant venga creato. 
 
-L'operazione è stata completata.  Si dispone ora di un indirizzo di posta elettronica che può essere usato per iscriversi a Power BI. Vedere [Iscriversi a Power BI come utente singolo](service-self-service-signup-for-power-bi.md).
+L'operazione è terminata.  Si dispone ora di un indirizzo di posta elettronica che può essere usato per iscriversi a Power BI. Vedere [Iscriversi a Power BI come utente singolo](service-self-service-signup-for-power-bi.md).
 
 
 
@@ -61,7 +61,7 @@ Con questo metodo di iscrizione viene creato un nuovo tenant aziendale di cui l'
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Che cos'è l'amministrazione di Power BI?](service-admin-administering-power-bi-in-your-organization.md)  
-[Gestione delle licenze di Power BI nell'organizzazione](service-admin-licensing-organization.md)  
+[Licenze di Power BI nell'organizzazione](service-admin-licensing-organization.md)  
 [Iscrizione a Power BI come utente singolo](service-self-service-signup-for-power-bi.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

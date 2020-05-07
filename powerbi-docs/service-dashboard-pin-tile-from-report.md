@@ -11,10 +11,10 @@ ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73852620"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Aggiungere un riquadro a un dashboard di Power BI da un report
@@ -50,7 +50,7 @@ A questo punto si può creare un dashboard personalizzato usando uno dei report 
    
    Un messaggio di operazione completata (nell'angolo superiore destro) informa che la visualizzazione è stata aggiunta sotto forma di riquadro al dashboard.
    
-   ![Messaggio di operazione completata](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![Messaggio di operazione riuscita](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. Nel riquadro di spostamento selezionare il dashboard con il nuovo riquadro. [Modificare la visualizzazione e il comportamento del riquadro](service-dashboard-edit-tile.md) oppure selezionare il riquadro per tornare al report.
 
 ## <a name="pin-an-entire-report-page"></a>Aggiungere un'intera pagina del report
@@ -63,7 +63,7 @@ Per altre informazioni, vedere [Aggiungere un'intera pagina del report](service-
 - [Riquadri del dashboard in Power BI](consumer/end-user-tiles.md)
 - [Report in Power BI](consumer/end-user-reports.md)
 - [Aggiornamento dei dati in Power BI](refresh-data.md)
-- [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
+- [Concetti di base del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75221810"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Esercitazione: Porre domande sui dati con l'analista virtuale Domande e risposte nelle app Power BI per iOS
@@ -29,7 +29,7 @@ L'analista virtuale Domande e risposte è un'esperienza di conversazione di Busi
 
 ![Analista virtuale Domande e risposte relativo alle vendite principali](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-Questa esercitazione illustra come:
+In questa esercitazione si apprenderà come:
 
 > [!div class="checklist"]
 > * Installare l'app Power BI per dispositivi mobili per iOS

@@ -11,10 +11,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b275d4e7fdb4e289d2331a2f58db504071ea609b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758601"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Aggiungere oggetti visivi a un report di Power BI (parte 1)
@@ -35,7 +35,7 @@ Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://downl
 
 1. Aprire il **file Sales and Marketing Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="add-visualizations-to-the-report"></a>Aggiungere visualizzazioni al report
 

@@ -11,10 +11,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761957"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Risolvere i problemi di importazione di file XLS di Access e di Excel in Power BI Desktop
@@ -73,7 +73,7 @@ Per installare entrambe le versioni di bit del motore di database di Access, seg
 
 1. Installare entrambe le versioni di bit del motore di database di Access dalla [pagina di download](https://www.microsoft.com/download/details.aspx?id=13255). 
 
-1. Eseguire ogni versione del motore di database di Access usando l'opzione */passive*. ad esempio:
+1. Eseguire ogni versione del motore di database di Access usando l'opzione */passive*. Ad esempio:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
    

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/25/2020
 ms.author: painbar
 ms.openlocfilehash: 2377505586aea70b8bedd62f22e7716ce870749e
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255730"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Aggiungere un dashboard alla schermata Start di Windows 10 dall'app Power BI per dispositivi mobili
@@ -34,6 +34,6 @@ ms.locfileid: "82255730"
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scaricare l'app Power BI per dispositivi mobili per Windows 10](https://go.microsoft.com/fwlink/?LinkID=526478) da Windows Store  
-* [Introduzione all'app Power BI per dispositivi mobili per Windows 10](mobile-windows-10-phone-app-get-started.md)  
+* [Iniziare a usare l'app Power BI per dispositivi mobili con Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

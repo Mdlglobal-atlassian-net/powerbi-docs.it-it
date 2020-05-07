@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 740760121635cc0dccb0f2aa64750ebf649d8de3
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761204"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Risolvere i problemi di sviluppo di modelli DirectQuery in Power BI Desktop
@@ -36,7 +36,7 @@ Per impostazione predefinita, Power BI Desktop registra gli eventi di una sessio
 Per alcune origini DirectQuery, questo log include tutte le query inviate all'origine dati sottostante. Le altre origini DirectQuery potrebbero essere supportate in futuro. Le origini che scrivono query nel log sono le seguenti:
 
 - SQL Server
-- Database SQL di Azure
+- database SQL di Azure
 - Azure SQL Data Warehouse
 - Oracle
 - Teradata
@@ -80,7 +80,7 @@ Di seguito sono riportate altre colonne di interesse:
 - **TextData:** dettagli testuali dell'evento. Per gli eventi _Query Begin/End_ sarà la query DAX. Per gli eventi _DirectQuery Begin/End_ sarà la query SQL inviata all'origine sottostante. Nell'area in basso viene anche visualizzato il valore _TextData_ per l'evento selezionato.
 - **EndTime:** data/ora in cui l'evento è terminato.
 - **Duration:** tempo in millisecondi impiegato per eseguire la query DAX o SQL.
-- **Error:** indica se si è verificato un errore. In quel caso l'evento verrà anche visualizzato in rosso.
+- **Errore:** indica se si è verificato un errore. In quel caso l'evento verrà anche visualizzato in rosso.
 
 Nell'immagine precedente alcune colonne meno interessanti sono state ristrette per consentire una visualizzazione più agevole delle colonne di interesse.
 
@@ -124,4 +124,4 @@ Per altre informazioni su DirectQuery, vedere le risorse seguenti:
 - [Usare DirectQuery in Power BI Desktop](desktop-use-directquery.md)
 - [Modelli DirectQuery in Power BI Desktop](desktop-directquery-about.md)
 - [Linee guida per il modello DirectQuery in Power BI Desktop](guidance/directquery-model-guidance.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

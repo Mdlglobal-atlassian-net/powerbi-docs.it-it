@@ -38,7 +38,7 @@
           href: objects-properties.md
         - name: Modalità di modifica avanzata
           href: advanced-edit-mode.md
-    - name: Procedura
+    - name: Procedure
       items:
         - name: Ottenere un oggetto visivo Power BI certificato
           href: power-bi-custom-visuals-certified.md
@@ -76,7 +76,7 @@
           href: mobile-development.md
         - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
           href: power-bi-custom-visuals-troubleshoot.md
-    - name: Riferimento
+    - name: Informazioni di riferimento
       items:
         - name: Pagina di destinazione
           href: landing-page.md
@@ -116,7 +116,7 @@
               href: utils-dataview.md
     - name: Risorse
       items:
-        - name: Dev Center
+        - name: Centro per sviluppatori
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Esempi di oggetti visivi di Power BI
           href: 'https://microsoft.github.io/PowerBI-visuals/samples/'

@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698395"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Risoluzione dei problemi relativi a Power BI Gateway (modalità personale)
@@ -119,7 +119,7 @@ Se viene visualizzato un errore quando vengono aggiornati i riquadri del dashboa
    
    ![Informazioni della cronologia aggiornamenti](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
-### <a name="event-logs"></a>Registri eventi
+### <a name="event-logs"></a>Log eventi
 Diversi registri eventi possono offrire informazioni. I primi due, **Gateway di gestione dati** e **PowerBIGateway**, sono disponibili se si è un amministratore del computer. Se non si è un amministratore e si sta usando il gateway dati (modalità personale), è possibile visualizzare le voci di log nel log **Applicazione**.
 
 I registri **Gateway di gestione dati** e **PowerBIGateway** sono presenti in **Registri applicazioni e servizi**.
@@ -127,7 +127,7 @@ I registri **Gateway di gestione dati** e **PowerBIGateway** sono presenti in **
 ![Log Gateway di gestione dati e PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Traccia di Fiddler
-[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP. È possibile visualizzare la comunicazione con il servizio Power BI dal computer client. La comunicazione potrebbe visualizzare errori e altre informazioni correlate.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che consente di monitorare il traffico HTTP. È possibile visualizzare la comunicazione con il servizio Power BI dal computer client. La comunicazione potrebbe visualizzare errori e altre informazioni correlate.
 
 ![Traccia di Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 

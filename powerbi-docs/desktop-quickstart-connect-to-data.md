@@ -10,19 +10,19 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885228"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Avvio rapido: Connettersi ai dati in Power BI Desktop
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Guida introduttiva: Connettersi ai dati in Power BI Desktop
 
 In questo argomento di avvio rapido viene stabilita una connessione ai dati usando Power BI Desktop, che costituisce il primo passaggio per la compilazione di modelli di dati e la creazione di report.
 
 ![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
-Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+Se non si è ancora registrati in Power BI, [registrarsi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -66,7 +66,7 @@ Dopo avere effettuato le selezioni, scegliere **Carica** per importare i dati in
 
 Dopo che le tabelle sono state caricate, il riquadro **Campi** mostra i dati disponibili. È possibile espandere ogni tabella facendo clic sulla freccia accanto al nome. Nella figura seguente viene espansa la tabella *financials*, in modo da visualizzare tutti i campi contenuti.
 
-![Recupera dati](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![Recuperare i dati](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 Non sono necessarie altre operazioni. È stata stabilita la connessione ai dati in Power BI Desktop, sono stati caricati i dati e ora è possibile visualizzare tutti i campi disponibili all'interno delle tabelle.
 

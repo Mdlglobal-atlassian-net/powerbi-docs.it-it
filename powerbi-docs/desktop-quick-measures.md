@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415363"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Usare misure rapide per calcoli comuni
@@ -60,7 +60,7 @@ I cinque tipi di calcolo con misure rapide, con i relativi calcoli, sono:
   * Totale per categoria (filtri applicati)
   * Totale per categoria (filtri non applicati)
 * **Operazioni matematiche**
-  * Aggiunta
+  * Addizione
   * Sottrazione
   * Moltiplicazione
   * Divisione
@@ -134,5 +134,5 @@ Occorre tenere presenti alcune limitazioni e considerazioni.
 È possibile usare tabelle data personalizzate con misure rapide con funzionalità di Business Intelligence per le gerarchie temporali. Se si sta usando un modello tabulare esterno, assicurarsi che al momento della creazione del modello la colonna della data primaria nella tabella sia stata contrassegnata come tabella data, come descritto in [Specificare Contrassegna come tabella data per l'uso con le funzionalità di Business Intelligence per le gerarchie temporali](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se si sta importando una tabella data personalizzata, verificare di averla contrassegnata come tabella data, come descritto in [Impostare e usare tabelle data in Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Altre informazioni ed esempi
-Si hanno idee per misure rapide non ancora disponibili? Ottimo! Vedere la pagina [Idee per Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e inviare le idee e le formule DAX di misure rapide che si vuole che siano rese disponibili in Power BI Desktop. Verranno prese in considerazione ed eventualmente aggiunte all'elenco delle misure rapide in una versione futura.
+Si hanno idee per misure rapide non ancora disponibili? interessanti, Vedere la pagina [Idee per Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e inviare le idee e le formule DAX di misure rapide che si vuole che siano rese disponibili in Power BI Desktop. Verranno prese in considerazione ed eventualmente aggiunte all'elenco delle misure rapide in una versione futura.
 

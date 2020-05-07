@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730327"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Usare la formattazione condizionale nelle tabelle 
@@ -149,7 +149,7 @@ Nell'esempio seguente vengono aggiunte icone in base a tre regole:
 
 ![Finestra di dialogo Icone](media/desktop-conditional-table-formatting/table-formatting-1-default-table.png)
 
-Seleziona **OK**. Di seguito è illustrata una tabella di esempio con le icone applicate alla colonna **Affordability** in base alle regole:
+Scegliere **OK**. Di seguito è illustrata una tabella di esempio con le icone applicate alla colonna **Affordability** in base alle regole:
 
 ![Tabella di esempio con le icone](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 

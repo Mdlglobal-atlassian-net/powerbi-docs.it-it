@@ -1,6 +1,6 @@
 ---
 title: include file
-description: include file
+description: File di inclusione
 services: powerbi
 author: davidiseminger
 ms.service: powerbi
@@ -8,13 +8,13 @@ ms.topic: include
 ms.date: 04/28/2020
 ms.author: davidi
 ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255827"
 ---
-## <a name="single-sign-on"></a>Accesso Single Sign-On
+## <a name="single-sign-on"></a>Single sign-on
 
 Dopo aver pubblicato un set di dati Azure SQL DirectQuery nel servizio, è possibile abilitare l'accesso Single Sign-On tramite OAuth2 in Azure Active Directory (Azure AD) per gli utenti finali.
 

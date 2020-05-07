@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762279"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introduzione agli oggetti visivi Domande e risposte di Power BI
@@ -45,7 +45,7 @@ L'oggetto visivo Domande e risposte è costituito da quattro componenti principa
 
 1. Aprire il file nella visualizzazione Report. ![Screenshot dell'icona della visualizzazione Report.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Selezione ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 
 Se viene visualizzato un errore durante la creazione di un oggetto visivo Domande e risposte, assicurarsi di consultare la sezione delle [limitazioni](../natural-language/q-and-a-limitations.md) per verificare se la configurazione dell'origine dati è supportata.

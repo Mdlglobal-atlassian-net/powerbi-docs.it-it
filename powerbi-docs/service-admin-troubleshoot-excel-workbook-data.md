@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698418"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Errore: Non sono stati trovati dati nella cartella di lavoro di Excel
@@ -41,7 +41,7 @@ In Excel, è possibile creare una **tabella** da un intervallo di celle che rend
 
 Quando si importa una cartella di lavoro di Excel, Power BI cerca queste tabelle e le importa in un set di dati. Se non vengono trovate tabelle, appare questo messaggio di errore.
 
-### <a name="solution"></a>Solution
+### <a name="solution"></a>Soluzione
 1. Aprire la cartella di lavoro in Excel. 
     >[!NOTE]
     >Le immagini si riferiscono a Excel 2013. Se si usa una versione differente, le opzioni potrebbero essere leggermente diverse, ma la procedura è identica.
@@ -62,7 +62,7 @@ Quando si importa una cartella di lavoro di Excel, Power BI cerca queste tabelle
 6. Salvare la cartella di lavoro.
 7. Tornare a Power BI. Selezionare Recupera dati nella parte inferiore del riquadro sinistro.
    
-    ![Recupera dati](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
+    ![Recuperare i dati](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. Nella casella **File** selezionare **Recupera**.
    
     ![Ottenere i file](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)

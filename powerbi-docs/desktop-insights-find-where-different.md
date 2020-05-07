@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761112"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Applicare le informazioni dettagliate in Power BI Desktop per individuare le differenze nelle distribuzioni (anteprima)
@@ -64,14 +64,14 @@ Si può presupporre che l'algoritmo prenda in considerazione tutte le altre colo
 
 È possibile che a questo punto ci si interroghi sul significato della *differenza*. Si supponga, ad esempio, che la differenza complessiva delle vendite tra Stati Uniti e Canada sia la seguente:
 
-|Paese  |Vendite ($ mio)|
+|Country  |Vendite ($ mio)|
 |---------|----------|
 |USA      |15        |
 |Canada   |5         |
 
 Per una specifica categorie di prodotti *“Road Bike*) (Bici da strada) la differenza delle vendite potrebbe essere:
 
-|Paese  |Vendite ($ mio)|
+|Country  |Vendite ($ mio)|
 |---------|----------|
 |USA      |3        |
 |Canada   |1         |
@@ -80,14 +80,14 @@ Sebbene i numeri siano diversi in ciascuna di queste tabelle, i valori relativi 
 
 Si consideri invece una misura come il margine, calcolato come Profitto/Costo e si supponga che i margini complessivi per gli Stati Uniti e il Canada siano i seguenti
 
-|Paese  |Margine (%)|
+|Country  |Margine (%)|
 |---------|----------|
 |USA      |15        |
 |Canada   |5         |
 
 Per una specifica categorie di prodotti *“Road Bike*) (Bici da strada) la differenza delle vendite potrebbe essere:
 
-|Paese  |Margine (%)|
+|Country  |Margine (%)|
 |---------|----------|
 |USA      |3        |
 |Canada   |1         |

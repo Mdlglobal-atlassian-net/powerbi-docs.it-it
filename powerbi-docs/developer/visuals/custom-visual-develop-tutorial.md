@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
 ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75222104"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Esercitazione: Sviluppo di un oggetto visivo di Power BI
@@ -27,7 +27,7 @@ Nel report di Power BI Desktop le schede vengono modificate per diventare schede
 
   ![Output di esempio dell'oggetto visivo personalizzato di Power BI](media/custom-visual-develop-tutorial/circle-cards.png)
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 > [!div class="checklist"]
 > * Creare un oggetto visivo personalizzato di Power BI.
 > * Sviluppare l'oggetto visivo personalizzato con elementi visivi D3.
@@ -123,7 +123,7 @@ A questo punto è necessario installare il pacchetto **pbiviz**.
 
     ![Installare il certificato SSL 2 in OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
 
-3. Immettere il nome utente e password. Selezionare **Impostazioni aggiornamento**.
+3. Immettere nome utente e password. Selezionare **Impostazioni aggiornamento**.
 
     ![Installare il certificato SSL 3 in OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
 

@@ -10,10 +10,10 @@ ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256155"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Clienti di Power BI per Governo degli Stati Uniti
@@ -76,9 +76,9 @@ Per configurare i firewall in SQL, seguire i passaggi per [Creare e gestire rego
 
 Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alcune differenze tra i piani per enti pubblici e i piani commerciali. Fare riferimento alla tabella seguente per conoscere le funzionalità disponibili in ogni ambiente per enti pubblici.
 
-|Feature |   |GCC |GCC-High |DoD|
+|Funzionalità |   |GCC |GCC-High |DoD|
 |------|------|------|------|------|
-|Administration|Licenze gratuite|Non disponibile|Non disponibile|Non disponibile|
+|Amministrazione|Licenze gratuite|Non disponibile|Non disponibile|Non disponibile|
 |  |Impostazione di limiti di archiviazione dati|Disponibile|Disponibile|Disponibile|
 |  |Uso di gruppi di Active Directory per il controllo di condivisione e accesso|Disponibile|Disponibile|Disponibile|
 |  |Controllo tramite il centro conformità e sicurezza di Office 365|Disponibile|Disponibile|Disponibile|
@@ -86,7 +86,7 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 |  |Metriche di utilizzo per report e dashboard|Non disponibile|Non disponibile|Non disponibile|
 |  |Azure B2B tra GCC e cloud commerciale|Non disponibile|Non disponibile|Non disponibile|
 |Creazione di report|Creare e visualizzare dashboard e report|Disponibile|Disponibile|Disponibile|
-|  |Aggiornamento dati pianificato|Disponibile|Disponibile|Disponibile|
+|  |aggiornamento dati pianificato|Disponibile|Disponibile|Disponibile|
 |  |Dashboard del team aggiornabili|Disponibile|Disponibile|Disponibile|
 |  |Report impaginati|Disponibile|Nella roadmap|Nella roadmap|
 |  |App modello|Non disponibile|Non disponibile|Non disponibile|

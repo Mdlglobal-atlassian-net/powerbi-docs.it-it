@@ -11,7 +11,7 @@
           href: end-user-basic-concepts.md
         - name: Visualizzare una presentazione del servizio Power BI
           href: end-user-reading-view.md
-    - name: Inizia
+    - name: Introduzione
       expanded: true
       items:
         - name: Orientarsi in Power BI
@@ -30,7 +30,7 @@
           href: ../service-new-look.md
         - name: '"Nuovo aspetto": dove sono le azioni?'
           href: ../service-new-look-where-actions.md
-    - name: Procedura
+    - name: Procedure
       items:
         - name: Dashboard
           items:
@@ -120,7 +120,7 @@
               href: end-user-preview-features.md
             - name: Ottenere notifiche nel servizio Power BI
               href: end-user-notification-center.md
-        - name: Recupera dati
+        - name: Recuperare i dati
           items:
             - name: Aree di lavoro in Power BI
               href: end-user-workspaces.md

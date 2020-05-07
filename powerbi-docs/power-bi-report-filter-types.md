@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874411"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Tipi di filtri nei report di Power BI
@@ -76,7 +76,7 @@ I filtri pass-through sono filtri a livello di oggetto visivo creati tramite dom
 
 Questa tabella mette a confronto le operazioni che possono essere eseguite dagli autori di report con i diversi tipi di filtri.
 
-| Tipo filtro | Modifica | Cancella | Elimina | Nascondi | Blocca | Ordina | Rinomina |
+| Tipo di filtro | Edit | Deseleziona | Eliminazione | Nascondi | Lock | Ordinamento | Rinomina |
 |----|----|----|----|----|----|----|----|
 | Filtri manuali | Y | Y | Y | Y | Y | Y | Y |
 | Filtri automatici | Y | Y | N | Y | Y | Y | Y |

@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761727"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Connettersi ai dati di Informazioni dettagliate sul consumo di Azure in Power BI Desktop
@@ -155,7 +155,7 @@ Nell'**Editor di query** selezionare **Editor avanzato** dalla sezione **Query**
 Dopo la selezione di **Fine** nella finestra **Editor avanzato** l'anteprima viene aggiornata e nella tabella vengono visualizzati i dati dell'intervallo di mesi specificato. Selezionare **Chiudi e applica** e tornare indietro.
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Passaggio 3: Spostare misure e colonne personalizzate nel nuovo report
-Successivamente è necessario spostare nella nuova tabella dei dettagli le colonne personalizzate o le misure create. Seguire questa procedura.
+Successivamente è necessario spostare nella nuova tabella dei dettagli le colonne personalizzate o le misure create. Di seguito sono riportati i passaggi necessari.
 
 1. Aprire Blocco note o un altro editor di testo.
 2. Selezionare la misura da spostare, copiare il testo dal campo *Formula* e inserirlo nel Blocco note.
@@ -182,34 +182,34 @@ I nomi delle colonne e dei dettagli nel portale di Azure sono simili a quelli ne
 
 | Connettore ACI / ContentPack ColumnName | Nome colonna API ACI | Nome colonna EA | Obsoleta/presente per compatibilità con le versioni precedenti |
 | --- | --- | --- | --- |
-| AccountName |accountName |Account Name |No |
+| AccountName |accountName |Nome account |No |
 | AccountId |accountId | |Sì |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |No |
 | AdditionalInfo |additionalInfo |AdditionalInfo |No |
 | AdditionalInfold | | |Sì |
-| Consumed Quantity |consumedQuantity |Consumed Quantity |No |
-| Consumed Service |consumedService |Consumed Service |No |
+| Quantità consumata |consumedQuantity |Quantità consumata |No |
+| Servizio utilizzato |consumedService |Servizio utilizzato |No |
 | ConsumedServiceId |consumedServiceId | |Sì |
-| Costo |cost |ExtendedCost |No |
-| Centro di costo |costCenter |Centro di costo |No |
-| Data |data |Data |No |
+| Costi |cost |ExtendedCost |No |
+| Cost Center |costCenter |Cost Center |No |
+| Data |Data |Data |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
-| Posizione | | |Sì |
-| Meter Category |meterCategory |Meter Category |No |
-| Meter ID | | |Sì |
-| Meter Name |meterName |Meter Name |No |
-| Meter Region |meterRegion |Meter Region |No |
-| Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
-| MeterId |meterId |Meter ID |No |
+| Location | | |Sì |
+| Categoria misuratore |meterCategory |Categoria misuratore |No |
+| ID misuratore | | |Sì |
+| Nome misuratore |meterName |Nome misuratore |No |
+| Area misuratore |meterRegion |Area misuratore |No |
+| Sottocategoria misuratore |meterSubCategory |Sottocategoria misuratore |No |
+| ID contatore |meterId |ID misuratore |No |
 | Month | |Month |No |
-| Product |prodotto |Product |No |
+| Prodotto |product |Prodotto |No |
 | ProductId |productId | |Sì |
-| Resource Group |resourceGroup |Resource Group |No |
-| Resource Location |resourceLocation |Resource Location |No |
+| Gruppo di risorse |resourceGroup |Gruppo di risorse |No |
+| Percorso della risorsa |resourceLocation |Percorso della risorsa |No |
 | ResourceGroupId | | |Sì |
 | ResourceLocationId |resourceLocationId | |Sì |
 | ResourceRate |resourceRate |ResourceRate |No |
@@ -218,13 +218,13 @@ I nomi delle colonne e dei dettagli nel portale di Azure sono simili a quelli ne
 | ServiceInfo1Id | | |Sì |
 | ServiceInfo2 |serviceInfo2 |ServiceInfo2 |No |
 | ServiceInfo2Id | | |Sì |
-| Store Service Identifier |storeServiceIdentifier |Store Service Identifier |No |
+| Identificatore del servizio di archiviazione |storeServiceIdentifier |Identificatore del servizio di archiviazione |No |
 | StoreServiceIdentifierId | | |Sì |
 | Nome sottoscrizione |subscriptionName |Nome sottoscrizione |No |
 | Tag |tags |Tag |No |
 | TagsId | | |Sì |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |No |
-| Anno | |Anno |No |
+| Year | |Year |No |
 | SubscriptionId |subscriptionId |SubscriptionId |Sì |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |No |
 
