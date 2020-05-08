@@ -11,10 +11,10 @@ ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114315"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Stampa dal servizio Power BI
@@ -105,15 +105,15 @@ I report possono essere stampati una pagina alla volta.
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
 * D: non è possibile stampare tutte le pagine del report contemporaneamente.    
-* R: è normale. Le pagine dei report possono essere stampate solo una alla volta.
+* A: è normale. Le pagine dei report possono essere stampate solo una alla volta.
 * D: non è possibile a stampare in formato PDF.    
-* R: questa opzione viene visualizzata solo se il driver PDF è già stato configurato nel browser.    
+* A: questa opzione viene visualizzata solo se il driver PDF è già stato configurato nel browser.    
 * D: quando si seleziona **Stampa**, la visualizzazione non corrisponde a quanto mostrato in questo articolo.    
-* R: le schermate di stampa variano a seconda del browser e della versione del software.
+* A: le schermate di stampa variano a seconda del browser e della versione del software.
 * D: l'immagine stampata non è ridimensionata correttamente.  Il dashboard non si rientra nella pagina. Altre domande su ridimensionamento e orientamento.    
-* R: non è possibile garantire che la copia stampata sarà esattamente identica a come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Provare a modificare le impostazioni di stampa del browser. Alcune delle impostazioni suggerite in precedenza sono l'orientamento della pagina (verticale o orizzontale), le dimensioni dei margini e la scala. Se il problema persiste, consultare la documentazione relativa al browser in uso.      
+* A: non è possibile garantire che la copia stampata sarà esattamente identica a come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Provare a modificare le impostazioni di stampa del browser. Alcune delle impostazioni suggerite in precedenza sono l'orientamento della pagina (verticale o orizzontale), le dimensioni dei margini e la scala. Se il problema persiste, consultare la documentazione relativa al browser in uso.      
 * D: in modalità schermo intero, l'opzione di stampa non viene visualizzata quando si passa il mouse sull'oggetto visivo.   
-* R: tornare al dashboard o al report nella visualizzazione predefinita e riaprire l'oggetto visivo in modalità messa a fuoco e quindi in modalità schermo intero. 
+* A: tornare al dashboard o al report nella visualizzazione predefinita e riaprire l'oggetto visivo in modalità messa a fuoco e quindi in modalità schermo intero. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Condividere dashboard e report con i colleghi e altri utenti](../service-share-dashboards.md)

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698510"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurare app per dispositivi mobili con Microsoft Intune
@@ -91,11 +91,11 @@ L'applicazione è un riferimento, o un pacchetto, salvato in Intune per la distr
 
 1. Specificare **Autore**, **Nome** e **Descrizione**. Facoltativamente, è possibile specificare un valore per **Icona**. **Categoria** è per l'app del portale aziendale. Al termine, fare clic su **Avanti**.
 
-1. Come piattaforma per la pubblicazione dell'app è possibile scegliere tra **Qualsiasi** (impostazione predefinita), **iPad** o **iPhone**. L'impostazione predefinita è **Qualsiasi** , adatta per entrambi i tipi di dispositivi. L'URL dell'app Power BI per iPhone e per iPad è lo stesso. Fare clic su **Avanti**.
+1. Come piattaforma per la pubblicazione dell'app è possibile scegliere tra **Qualsiasi** (impostazione predefinita), **iPad** o **iPhone**. L'impostazione predefinita è **Qualsiasi** , adatta per entrambi i tipi di dispositivi. L'URL dell'app Power BI per iPhone e per iPad è lo stesso. Selezionare **Avanti**.
 
 1. Selezionare **Carica**.
 
-1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica** e quindi tornare ad **App**.
+1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica**, quindi tornare ad **App**.
 
     ![Scheda App](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -105,13 +105,13 @@ L'applicazione è un riferimento, o un pacchetto, salvato in Intune per la distr
 
 1. Immettere l'URL dell'app ottenuto nel [passaggio 1](#step-1-get-the-url-for-the-application) e fare clic su **Avanti**.
 
-    ![Installazione del software: Telefoni](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![Installazione software: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. Specificare **Autore**, **Nome** e **Descrizione**. Facoltativamente, è possibile specificare un valore per **Icona**. **Categoria** è per l'app del portale aziendale. Al termine, fare clic su **Avanti**.
 
 1. Selezionare **Carica**.
 
-1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica** e quindi tornare ad **App**.
+1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica**, quindi tornare ad **App**.
 
     ![Scheda App](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -125,17 +125,17 @@ Dopo aver aggiunto l'applicazione, è necessario distribuirla in modo da renderl
 
     ![Gestisci distribuzione](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
-1. Nella schermata **Seleziona gruppi** è possibile scegliere i gruppi a cui distribuire l'app. Fare clic su **Avanti**.
+1. Nella schermata **Seleziona gruppi** è possibile scegliere i gruppi a cui distribuire l'app. Selezionare **Avanti**.
 
 1. Nella schermata **Azione di distribuzione** è possibile scegliere come distribuire l'app. Selezionando **Installazione disponibile**o **Installazione richiesta**è possibile rendere disponibile l'app nel portale aziendale, per consentire agli utenti di installarla su richiesta. Dopo aver scelto l'opzione desiderata, fare clic su **Avanti**.
 
     ![Azione di distribuzione](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. Nella schermata **Gestione delle app mobili** è possibile selezionare i criteri di gestione delle app per dispositivi mobili creati nel [passaggio 2](#step-2-create-a-mobile-application-management-policy). I criteri creati verranno visualizzati per impostazione predefinita, se sono gli unici disponibili per iOS. Fare clic su **Avanti**.
+1. Nella schermata **Gestione delle app mobili** è possibile selezionare i criteri di gestione delle app per dispositivi mobili creati nel [passaggio 2](#step-2-create-a-mobile-application-management-policy). I criteri creati verranno visualizzati per impostazione predefinita, se sono gli unici disponibili per iOS. Selezionare **Avanti**.
 
     ![Gestione delle app mobili](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. Nella schermata **Profilo VPN** è possibile selezionare i criteri per l'organizzazione, se disponibili. L'opzione predefinita è **Nessuno**. Fare clic su **Avanti**.
+1. Nella schermata **Profilo VPN** è possibile selezionare i criteri per l'organizzazione, se disponibili. L'opzione predefinita è **Nessuno**. Selezionare **Avanti**.
 
 1. Nella schermata **Configurazione delle app per dispositivi mobili** è possibile selezionare **Criteri di configurazione dell'app** , se sono stati creati criteri. L'opzione predefinita è **Nessuno**. Questa operazione non è obbligatoria. Fare clic su **Fine**.
 
@@ -146,7 +146,7 @@ Dopo che l'app è stata distribuita, nella pagina delle app dovrebbe venire visu
 1. Nella schermata delle app selezionare l'app creata. Selezionare quindi il collegamento **Gestisci distribuzione** .
 
     ![Gestisci distribuzione](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. Nella schermata **Seleziona gruppi** è possibile scegliere i gruppi a cui distribuire l'app. Fare clic su **Avanti**.
+1. Nella schermata **Seleziona gruppi** è possibile scegliere i gruppi a cui distribuire l'app. Selezionare **Avanti**.
 
 1. Nella schermata **Azione di distribuzione** è possibile scegliere come distribuire l'app. Selezionando **Installazione disponibile**o **Installazione richiesta**è possibile rendere disponibile l'app nel portale aziendale, per consentire agli utenti di installarla su richiesta. Dopo aver scelto l'opzione desiderata, fare clic su **Avanti**.
 

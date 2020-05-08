@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
 ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378870"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Guida all'ottimizzazione per Power BI
@@ -113,5 +113,5 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 - [Linee guida per Power BI](index.yml)
 - [Monitoraggio delle prestazioni dei report](monitor-report-performance.md)
 - White paper: [Pianificazione della distribuzione aziendale di Power BI](https://go.microsoft.com/fwlink/?linkid=2057861)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

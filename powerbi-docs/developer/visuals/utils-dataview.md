@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379330"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
@@ -40,7 +40,7 @@ Questa funzione trova la misura in base al nome del ruolo e restituisce il relat
 function getMeasureIndexOfRole(grouped: DataViewValueColumnGroup[], roleName: string): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -85,7 +85,7 @@ Questa funzione trova la categoria in base al nome del ruolo e restituisce il re
 function getCategoryIndexOfRole(categories: DataViewCategoryColumn[], roleName: string): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -128,7 +128,7 @@ Questa funzione controlla se il ruolo specificato è definito nei metadati.
 function hasRole(column: DataViewMetadataColumn, name: string): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -156,7 +156,7 @@ Questa funzione controlla se il ruolo specificato è definito nell'oggetto dataV
 function hasRoleInDataView(dataView: DataView, name: string): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -196,7 +196,7 @@ Questa funzione controlla se il ruolo specificato è definito nella colonna del 
 function hasRoleInValueColumn(valueColumn: DataViewValueColumn, name: string): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -233,7 +233,7 @@ Questa funzione restituisce il valore dell'oggetto specificato.
 function getValue<T>(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: T): T;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -266,7 +266,7 @@ Questa funzione restituisce un oggetto dell'oggetto specificato.
 function getObject(objects: DataViewObjects, objectName: string, defaultValue?: IDataViewObject): IDataViewObject;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataViewObjects } from "powerbi-visuals-utils-dataviewutils";
@@ -296,7 +296,7 @@ Questa funzione restituisce un colore a tinta unita degli oggetti.
 function getFillColor(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultColor?: string): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -333,7 +333,7 @@ Questa è una funzione universale per il recupero del colore o del valore di un 
 function getCommonValue(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: any): any;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -380,7 +380,7 @@ Questa funzione restituisce un valore dell'oggetto in base al nome della proprie
 function getValue<T>(object: IDataViewObject, propertyName: string, defaultValue?: T): T;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -404,7 +404,7 @@ Questa funzione restituisce un colore a tinta unita dell'oggetto in base al nome
 function getFillColorByPropertyName(object: IDataViewObject, propertyName: string, defaultColor?: string): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -438,7 +438,7 @@ Questa funzione controlla se la categoria è anche una serie.
 function categoryIsAlsoSeriesRole(dataView: DataViewCategorical, seriesRoleName: string, categoryRoleName: string): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -474,7 +474,7 @@ Questa funzione restituisce un nome della serie.
 function getSeriesName(source: DataViewMetadataColumn): PrimitiveValue;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -504,7 +504,7 @@ Questa funzione controlla se la colonna contiene un URL di immagine.
 function isImageUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -534,7 +534,7 @@ Questa funzione controlla se la colonna contiene un URL Web.
 function isWebUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -564,7 +564,7 @@ Questa funzione controlla se l'oggetto dataView contiene una colonna con URL imm
 function hasImageUrlColumn(dataView: DataView): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import DataView = powerbi.DataView;
@@ -608,7 +608,7 @@ Questo metodo statico restituisce un'istanza di DataViewObjectsParser.
 static getDefault(): DataViewObjectsParser;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataViewObjectsParser } from "powerbi-visuals-utils-dataviewutils";
@@ -627,7 +627,7 @@ Questo metodo analizza le proprietà del pannello di formattazione e restituisce
 static parse<T extends DataViewObjectsParser>(dataView: DataView): T;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -675,7 +675,7 @@ Eseguirlo nel metodo `enumerateObjectInstances` dell'oggetto visivo.
 static enumerateObjectInstances(dataViewObjectParser: dataViewObjectsParser.DataViewObjectsParser, options: EnumerateVisualObjectInstancesOptions): VisualObjectInstanceEnumeration;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";

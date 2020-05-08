@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82584808"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Tasti di scelta rapida in Power BI Desktop
@@ -108,7 +108,7 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 
 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 Le funzionalità di accessibilità hanno alcune problematiche e limitazioni note. Le descrizioni di queste problematiche e limitazioni sono elencate di seguito:
 
 * Quando si usano le utilità per la lettura dello schermo con **Power BI Desktop**, l'esperienza migliore si ottiene aprendo l'utilità per la lettura dello schermo prima di aprire qualsiasi file in **Power BI Desktop**.

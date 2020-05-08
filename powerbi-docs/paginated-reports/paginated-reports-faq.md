@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
 ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585004"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: Domande frequenti 
@@ -21,7 +21,7 @@ Questo articolo include le risposte alle domande frequenti sui report impaginati
 
 Questo articolo risponde a molte domande comuni sui report impaginati in Power BI Premium e su Generatore report, lo strumento autonomo per la creazione di report impaginati. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. 
 
-## <a name="administration"></a>Administration
+## <a name="administration"></a>Amministrazione
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Quale capacità Premium è necessaria per i report impaginati?
 
@@ -113,7 +113,7 @@ Attualmente, i report impaginati non supportano quanto segue:
 - Origini dati condivise
 - Set di dati condivisi
 - Drill-through e click-through in altri report
-- Report collegati
+- report collegati
 - Tipi di carattere personalizzati
 
 Viene visualizzato un messaggio di errore se si prova a caricare un file con una funzionalità non supportata nel servizio Power BI, diversa da attivazione/disattivazione e ordinamento.

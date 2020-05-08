@@ -11,10 +11,10 @@ ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
 ms.openlocfilehash: b3fd881a552e3594cbf2172d7b88bbbf9a13f1b9
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585128"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Incorporare report in Microsoft Teams con la scheda Power BI
@@ -106,7 +106,7 @@ Sono disponibili anteprime dei collegamenti per gli elementi seguenti in Power B
 
 Il servizio di anteprima dei collegamenti richiede agli utenti di effettuare l'accesso. Per disconnettersi, selezionare l'icona di Power BI nella parte inferiore della finestra di messaggio, quindi selezionare Disconnetti.
 
-## <a name="start-a-conversation"></a>Avvia una conversazione
+## <a name="start-a-conversation"></a>Avviare una conversazione
 
 Quando si aggiunge una scheda per un report di Power BI a Teams, Teams crea automaticamente una conversazione nella scheda per il report. 
 
@@ -118,7 +118,7 @@ Quando si aggiunge una scheda per un report di Power BI a Teams, Teams crea auto
 
     ![Conversazione nella scheda](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
-## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
+## <a name="known-issues-and-limitations"></a>Problemi noti e limitazioni
 
 - Power BI non supporta le stesse lingue localizzate supportate da Microsoft Teams. Di conseguenza, la localizzazione all'interno del report incorporato potrebbe non essere corretta.
 - Non è possibile incorporare i dashboard di Power BI nella scheda Power BI per Microsoft Teams.

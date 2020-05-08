@@ -11,10 +11,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637593"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protezione dei dati in Power BI (anteprima)
@@ -91,7 +91,7 @@ Per l'uso delle etichette di riservatezza con Microsoft Cloud App Security, è n
 * Cloud App Security e Azure Information Protection [devono essere abilitati per il tenant](https://docs.microsoft.com/cloud-app-security/azip-integration).
 * L'app [deve essere connessa a Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Nell'elenco seguente sono riportate alcune limitazioni delle etichette di riservatezza in Power BI:
 

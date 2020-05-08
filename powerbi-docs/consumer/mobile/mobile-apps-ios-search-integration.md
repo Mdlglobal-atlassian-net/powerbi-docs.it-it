@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114469"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Integrazione della ricerca nel dispositivo iOS (Spotlight) con l'app Power BI per dispositivi mobili iOS (anteprima)
@@ -30,10 +30,10 @@ Per trovare elementi usando la ricerca nel dispositivo:
  
    I risultati della ricerca includeranno gli elementi di Power BI dei tipi seguenti:
 
-    * Dashboard
-    * Report
-    * App
-    * Aree di lavoro
+    * Dashboards
+    * Relazioni
+    * Apps
+    * Workspaces
     * Elementi condivisi dal contatto cercato
 
     ![Screenshot che illustra i risultati della ricerca Power BI nella ricerca nel dispositivo iOS](./media/mobile-apps-ios-siri-search/power-bi-spotlight-search.png)

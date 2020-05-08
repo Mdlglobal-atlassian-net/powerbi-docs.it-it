@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.openlocfilehash: 3ca950f5562998a1591d94ee690b76fee4f3d98f
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922368"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Creare un set di dati incorporato per un report impaginato nel servizio Power BI
@@ -47,7 +47,7 @@ Prima di poter creare il set di dati, è necessario creare un'origine dati. Per 
     - Impostare opzioni avanzate nella scheda **Opzioni**.
     - Aggiungere o aggiornare **Filtri** e **Parametri** nelle rispettive schede.
 
-8. Selezionare **OK**
+8. Selezionare **OK**.
  
    Il report viene aperto nella visualizzazione Progettazione report. L'origine dati, il set di dati e la raccolta di campi del set di dati vengono visualizzati nel riquadro Dati report ed è possibile continuare a progettare il report impaginato.  
 

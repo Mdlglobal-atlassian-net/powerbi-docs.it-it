@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
 ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114797"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Creare capacità di Power BI Embedded nel portale di Azure
@@ -45,13 +45,13 @@ Per completare questa guida introduttiva, è necessario quanto segue:
 
     ![Campi da compilare per creare nuova capacità](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
-    |Impostazione |Descrizione |
+    |Impostazione |Description |
     |---------|---------|
     |**Nome risorsa**|Nome per l'identificazione della capacità. Oltre che nel portale di Azure, il nome della risorsa viene visualizzato all'interno del portale di amministrazione di Power BI.|
     |**Sottoscrizione**|Sottoscrizione per la quale si vuole creare la capacità.|
     |**Gruppo di risorse**|Gruppo di risorse che contiene la nuova capacità. Scegliere un gruppo di risorse esistente oppure crearne un altro. Per altre informazioni, vedere [Panoramica di Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Amministratore di capacità di Power BI**|Gli amministratori di capacità di Power BI possono visualizzare la capacità nel portale di amministrazione di Power BI e concedere autorizzazioni di assegnazione ad altri utenti. Per impostazione predefinita, l'amministratore di capacità è l'account dell'utente. L'amministratore di capacità deve trovarsi all'interno del tenant di Power BI.|
-    |**Località**|La località in cui Power BI è ospitato per il tenant. La località predefinita corrisponde all'area iniziale, ma è possibile modificare la località con le [opzioni per più aree geografiche](embedded-multi-geo.md).
+    |**Località**|Posizione in cui è ospitato Power BI per il tenant. La località predefinita corrisponde all'area iniziale, ma è possibile modificare la località con le [opzioni per più aree geografiche](embedded-multi-geo.md).
     |**Piano tariffario**|Selezionare lo SKU (numero di memorie centrali virtuali e dimensioni della memoria) che soddisfa le proprie esigenze.  Per i dettagli, vedere [Calcolatore dei prezzi di Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
 È possibile vedere se la capacità è pronta passando a **Tutti i servizi** > **Power BI Embedded**. In alternativa, è possibile selezionare **Aggiungi al dashboard** dalla sezione delle notifiche o dall'interno del pannello, per passare al dashboard e visualizzare la nuova capacità.

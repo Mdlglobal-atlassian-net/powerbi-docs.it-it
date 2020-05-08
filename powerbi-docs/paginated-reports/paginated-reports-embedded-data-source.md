@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921770"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
@@ -39,7 +39,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
   
 1. Aprire Generatore report di Power BI.
 
-1. Sulla barra degli strumenti nel riquadro Dati report selezionare **Nuovo** > **Origine dati**. Viene visualizzata la finestra di dialogo **Proprietà origine dati**.
+1. Sulla barra degli strumenti nel riquadro Dati report selezionare **Nuovo** > **Origine dati**. Verrà visualizzata la finestra di dialogo **Proprietà origine dati** .
 
     ![Nuova origine dati](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
@@ -51,7 +51,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
 
 1.  Specificare una stringa di connessione usando uno dei metodi seguenti:  
   
-    -   Digitare la stringa di connessione direttamente nella casella di testo **Stringa di connessione**. 
+    -   Digitare la stringa di connessione direttamente nella casella di testo **Stringa di connessione** . 
   
      -   Selezionare **Compila** per aprire la finestra di dialogo **Proprietà di connessione** relativa all'origine dati scelta nel passaggio 2.  
   
@@ -61,9 +61,9 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
   
      Specificare le credenziali da usare per questa origine dati. Il proprietario dell'origine dati sceglie il tipo di credenziali supportate. Per altre informazioni, vedere [Specificare le credenziali e le informazioni sulla connessione per le origini dati del report](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
-5.  Seleziona **OK**.  
+5.  Selezionare **OK**.  
   
-     L'origine dati viene visualizzata nel riquadro Dati report.  
+     L'origine dati verrà visualizzata nel riquadro dei dati del report.  
      
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 

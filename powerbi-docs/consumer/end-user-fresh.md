@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040114"
 ---
 # <a name="your-content-is-up-to-date"></a>Contenuto aggiornato
@@ -40,7 +40,7 @@ Il nome del proprietario è disponibile nella barra del titolo di dashboard e re
 ![Proprietario del dashboard di Power BI](media/end-user-fresh/power-bi-owner.png)
 
 
-### <a name="apps"></a>App
+### <a name="apps"></a>Apps
 
 La schermata dell'app visualizza il nome dello sviluppatore e la data dell'ultimo aggiornamento dell'app.  
 
@@ -55,7 +55,7 @@ La schermata dell'app visualizza il nome dello sviluppatore e la data dell'ultim
     ![Due app con un'app selezionata](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>Condivisi con l'utente corrente
+### <a name="shared-with-me"></a>Condiviso con me
 La schermata **Condivisi con l'utente corrente** visualizza il nome del proprietario del contenuto e la data dell'ultima condivisione del contenuto.
 
 ![Schermata Condivisi con l'utente corrente con Data di modifica e Proprietario](media/end-user-fresh/power-bi-share.png) 
@@ -64,7 +64,7 @@ La schermata **Condivisi con l'utente corrente** visualizza il nome del propriet
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Come cercare la data dell'ultimo aggiornamento
 Se necessario, è possibile cercare la data dell'ultimo aggiornamento per la maggior parte del contenuto. 
 
-### <a name="dashboard-tiles"></a>I riquadri del dashboard
+### <a name="dashboard-tiles"></a>Riquadri del dashboard
 Per i riquadri del dashboard, visualizzare il riquadro nella modalità messa a fuoco per visualizzare la data dell'ultimo aggiornamento.
 
 1. In un riquadro del dashboard selezionare **Altre opzioni** (...) e scegliere **Apri in modalità messa a fuoco**.
