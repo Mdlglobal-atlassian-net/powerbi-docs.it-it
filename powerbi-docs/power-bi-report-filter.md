@@ -10,10 +10,10 @@ ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120319"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Usare i filtri nei report di Power BI
@@ -71,7 +71,7 @@ In modalità di lettura passare il mouse sull'icona di filtro per un oggetto vis
 
 Ecco i tipi di filtri disponibili in questa visualizzazione: 
 - Filtri di base
-- Filtri dei dati
+- Filtro dei dati
 - Evidenziazione incrociata 
 - Filtro incrociato
 - Filtri avanzati
@@ -258,7 +258,7 @@ Nella sezione Esperienza di filtro delle impostazioni del report è disponibile 
 
 ![Limitare la modifica del tipo di filtro](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Pubblica sul Web non visualizza il riquadro Filtri. Se si prevede di pubblicare un report sul Web, è consigliabile aggiungere filtri dei dati per l'applicazione di filtri.
 

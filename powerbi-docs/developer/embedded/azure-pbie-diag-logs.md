@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495804"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registrazione diagnostica per Power BI Embedded in Azure
@@ -115,10 +115,10 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 <br>
 <br>
 
-| Nome proprietà | Esempio di Vertipaq Query End | Descrizione della proprietà |
+| Nome della proprietà | Esempio di Vertipaq Query End | Descrizione della proprietà |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | La classe di evento viene usata per suddividere gli eventi in categorie. |
-| EventSubclass | 0 | La sottoclasse di evento fornisce informazioni aggiuntive su ogni classe di evento. (ad esempio, 0: Analisi VertiPaq) |
+| EventSubclass | 0 | La sottoclasse di evento fornisce informazioni aggiuntive su ogni classe di evento. (ad esempio 0: VertiPaq Scan) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | ID attività radice. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Ora di inizio dell'evento, se disponibile. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Ora di inizio dell'evento, se disponibile. |
@@ -127,11 +127,11 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Ora di fine dell'evento. |
 | Durata | 0 | Quantità di tempo (in millisecondi) richiesta dall'evento. |
-| SessionType | Utente | Tipo di sessione. Indica l'entità che ha causato l'operazione. |
+| SessionType | User | Tipo di sessione. Indica l'entità che ha causato l'operazione. |
 | ProgressTotal | 0 | Stato complessivo. |
 | IntegerData | 0 | Dati integer. |
-| Gravità | 0 | Livello di gravità di un'eccezione. |
-| Operazione completata | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
+| Severity | 0 | Livello di gravità di un'eccezione. |
+| Operazione riuscita | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
 | Errore | 0 | Numero di errore di un evento specifico. |
 | ConnectionID | 3 | ID connessione univoco. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID del set di dati in cui è in esecuzione l'istruzione dell'utente. |
@@ -176,7 +176,7 @@ Selezionare **EventClass\_s** o uno dei nomi degli eventi. Log Analytics prosegu
 
 Assicurarsi di visitare [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), che offre un sito Web con funzionalità avanzate per query, dashboard e avvisi sui dati raccolti.
 
-### <a name="queries"></a>Query
+### <a name="queries"></a>Queries
 
 Sono disponibili centinaia di query che è possibile usare. Di seguito ne sono riportate alcune per iniziare. Per altre informazioni sull'uso del nuovo linguaggio di query per le ricerche log, vedere [Informazioni sulle ricerche log in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

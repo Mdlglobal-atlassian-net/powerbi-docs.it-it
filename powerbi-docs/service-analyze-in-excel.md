@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675673"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
@@ -90,7 +90,7 @@ Ora che Excel è aperto e si dispone di una tabella pivot vuota, è possibile es
 > 
 > 
 
-## <a name="save"></a>Salva
+## <a name="save"></a>Salvare
 È possibile salvare questa cartella di lavoro collegata al set di dati Power BI esattamente come per qualsiasi altra cartella di lavoro. Tuttavia, non è possibile pubblicare o importare nuovamente la cartella di lavoro in Power BI poiché si tratta di un'operazione possibile solo con cartelle di lavoro che dispongono di dati nelle tabelle o di un modello di dati. Poiché la nuova cartella di lavoro dispone semplicemente di una connessione al set di dati in Power BI, pubblicarla o importarla in Power BI sarebbe un'operazione inutile.
 
 ## <a name="share"></a>Condividi

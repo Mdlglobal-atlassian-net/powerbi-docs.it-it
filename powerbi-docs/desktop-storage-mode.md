@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 6ba03c90e8d0da1b07821001834e04b681e9cc99
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79201310"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Gestire la modalità di archiviazione in Power BI Desktop
@@ -53,7 +53,7 @@ Per impostare la proprietà **Modalità di archiviazione** o visualizzarne l'imp
 
 Impostare la proprietà **Modalità di archiviazione** su uno dei tre valori seguenti:
 
-* **Importa**: le tabelle importate con questa impostazione vengono memorizzate nella cache. Le query inviate al set di dati di Power BI che restituiscono dati dalle tabelle importate possono essere soddisfatte solo dai dati memorizzati nella cache.
+* **Import**: le tabelle importate con questa impostazione vengono memorizzate nella cache. Le query inviate al set di dati di Power BI che restituiscono dati dalle tabelle importate possono essere soddisfatte solo dai dati memorizzati nella cache.
 
 * **DirectQuery**: le tabelle con questa impostazione non vengono memorizzate nella cache. Le query inviate al set di dati di Power BI, ad esempio le query DAX, e che restituiscono dati dalle tabelle in modalità DirectQuery possono essere soddisfatte solo eseguendo query su richiesta sull'origine dati. Le query inviate all'origine dati usano il linguaggio di query specifico per l'origine dati, ad esempio SQL.
 
@@ -89,11 +89,11 @@ La logica di propagazione attraversa solo un lato delle relazioni uno-a-molti.
 
 | Tabella                   | Modalità di archiviazione         |
 | ----------------------- |----------------------| 
-| Vendite                 | DirectQuery          | 
+| Sales                 | DirectQuery          | 
 | SurveyResponse        | Importa               | 
 | Data                  | Doppia                 | 
-| Cliente              | Doppia                 | 
-| Geografia             | Doppia                 | 
+| Customer              | Doppia                 | 
+| Area geografica             | Doppia                 | 
 
 
 L'impostazione di queste proprietà della modalità di archiviazione determina i comportamenti seguenti, supponendo che la tabella **Sales** includa un volume di dati significativo:
@@ -137,7 +137,7 @@ Le query visualizzate nella sezione precedente mostrano che le tabelle in modali
 
 La modalità di archiviazione **Doppia** è un'ottimizzazione delle prestazioni. Deve essere usata solo in modi che non compromettono la possibilità di soddisfare i requisiti aziendali. Per un comportamento alternativo, prendere in considerazione le tecniche descritte in [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md).
 
-## <a name="data-view"></a>Vista dati
+## <a name="data-view"></a>Visualizzazione dati
 Se per almeno una tabella nel set di dati la modalità di archiviazione è impostata su **Importa** o **Doppia**, la scheda della visualizzazione **Dati** è visibile.
 
 ![Visualizzazione dati in Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)

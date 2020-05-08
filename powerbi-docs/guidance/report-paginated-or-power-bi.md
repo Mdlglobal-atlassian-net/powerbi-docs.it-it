@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920726"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando usare report impaginati in Power BI
@@ -72,5 +72,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Eseguire la migrazione di report di SQL Server Reporting Services in Power BI](migrate-ssrs-reports-to-power-bi.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

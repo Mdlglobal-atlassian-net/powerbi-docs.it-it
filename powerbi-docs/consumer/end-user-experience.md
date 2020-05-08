@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040148"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
@@ -26,7 +26,7 @@ Dopo aver appreso le nozioni di base di Power BI, è possibile esplorare il **se
  
 ## <a name="prerequisites"></a>Prerequisiti
 
-- Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+- Se non si è ancora registrati in Power BI, [registrarsi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 - Leggere [Power BI - Concetti di base per il servizio Power BI](end-user-basic-concepts.md)
 
@@ -99,7 +99,7 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
    ![Aggiungere a Preferiti](./media/end-user-experience/power-bi-select-favorite.png)
    
-   **Aggiungi a Preferiti** diventa **Rimuovi da Preferiti** e l'icona a stella diventa gialla.
+   **Preferito** diventa **Non preferito** e l'icona a stella diventa gialla.
    
    ![Rimuovere da Preferiti](./media/end-user-experience/power-bi-unfavorite.png)
 
@@ -127,12 +127,12 @@ Per altre informazioni, vedere [Preferiti](end-user-favorite.md).
 Per altre informazioni, vedere [Recenti in Power BI](end-user-recent.md).
 
 ### <a name="search-and-sort-content"></a>Cercare e ordinare il contenuto
-Quando si inizia a usare il servizio Power BI, saranno disponibili solo pochi elementi di contenuto. Tuttavia, quando i colleghi iniziano a condividere il contenuto con altri utenti e si iniziano a scaricare app, ci si può ritrovare con lunghi elenchi di contenuto. Questo è il momento in cui le funzionalità di ricerca e ordinamento saranno estremamente utili.
+Quando si inizia a usare il servizio Power BI, saranno disponibili solo pochi elementi di contenuto. Tuttavia, quando i colleghi iniziano a condividere il contenuto con altri utenti e si iniziano a scaricare app, ci si può ritrovare con lunghi elenchi di contenuto. Questo è il momento in cui le funzionalità di ricerca e ordinamento risultano estremamente utili.
 
 La ricerca è disponibile praticamente in ogni parte del servizio Power BI. È sufficiente cercare la casella di ricerca o l'icona della lente di ingrandimento per la ricerca.    
 ![Icona della lente di ingrandimento](./media/end-user-experience/power-bi-search-icon.png)
 
-Nel campo di ricerca digitare per intero o in parte il nome di un dashboard, un report, una cartella di lavoro, un'app o un proprietario. Power BI esegue la ricerca in tutto il contenuto.
+Nel campo Cerca digitare per intero o in parte il nome di un dashboard, un report, una cartella di lavoro, un'app o un proprietario. Power BI esegue la ricerca in tutto il contenuto.
 
 ![Cercare un report](./media/end-user-experience/power-bi-search-field.png)
 

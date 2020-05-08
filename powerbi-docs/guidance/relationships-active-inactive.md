@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263669"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Linee guida per relazioni attive e inattive
@@ -116,7 +116,7 @@ La pagina del report viene filtrata in base al quarto trimestre 2019. L'oggetto 
 
 Si noti che nel filtro dei dati del trimestre è incluso un elemento vuoto. Questo elemento filtro dei dati viene visualizzato in seguito all'[espansione della tabella](../desktop-relationships-understand.md#strong-relationships). Sebbene ogni riga della tabella **Sales** abbia una data di ordine, alcune righe hanno una data di spedizione vuota. Si tratta degli ordini che devono ancora essere spediti. L'espansione della tabella considera anche le relazioni inattive quindi le righe vuote possono essere visualizzate in quanto vi sono elementi vuoti sul lato "molti" della relazione o a causa di problemi di integrità dei dati.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 Riepilogando, è consigliabile definire relazioni attive laddove possibile. Ampliano l'ambito e il potenziale di utilizzo del modello da parte degli autori di report e degli utenti che usano Domande e risposte. Ciò significa che le tabelle di tipo dimensione con ruoli multipli devono essere duplicate nel modello.
 
@@ -132,5 +132,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
