@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758423"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Aggiungere oggetti visivi a un report di Power BI (parte 2)
@@ -36,11 +36,11 @@ Questa esercitazione usa il [file PBIX di esempio Retail Analysis](https://downl
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Selezione ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="add-visualizations-to-the-report"></a>Aggiungere visualizzazioni al report
 
-Creare una visualizzazione selezionando un campo dal riquadro **Campi**. Il tipo di visualizzazione creato dipende dal tipo di campo selezionato. Power BI usa il tipo di dati per determinare la visualizzazione da usare per visualizzare i risultati. È possibile modificare la visualizzazione usata selezionando un'icona diversa nel riquadro Visualizzazioni. Tenere presente che i dati non possono essere visualizzati in tutte le visualizzazioni. I dati geografici, ad esempio, non vengono visualizzati correttamente in un grafico a imbuto o in un grafico a linee. 
+Creare una visualizzazione selezionando un campo dal riquadro **Campi** . Il tipo di visualizzazione creato dipende dal tipo di campo selezionato. Power BI usa il tipo di dati per determinare la visualizzazione da usare per visualizzare i risultati. È possibile modificare la visualizzazione usata selezionando un'icona diversa nel riquadro Visualizzazioni. Tenere presente che i dati non possono essere visualizzati in tutte le visualizzazioni. I dati geografici, ad esempio, non vengono visualizzati correttamente in un grafico a imbuto o in un grafico a linee. 
 
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Aggiungere un grafico ad area che visualizza il confronto tra le vendite dell'anno corrente e quelle dell'anno precedente.

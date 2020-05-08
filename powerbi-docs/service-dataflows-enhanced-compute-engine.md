@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 1d2bd150d33d95f2ec8759f9e876b3920eede3b6
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75840071"
 ---
 # <a name="the-enhanced-compute-engine"></a>Motore di calcolo avanzato
@@ -41,30 +41,30 @@ Per sfruttare al meglio il motore di calcolo, è necessario suddividere la fase 
 
 ## <a name="common-questions-and-answers"></a>Domande frequenti e risposte
 
-**Domanda**: Dopo aver abilitato il motore di calcolo avanzato, gli aggiornamenti sono più lenti. Questo problema dipende
+**Domanda:** Dopo aver abilitato il motore di calcolo avanzato, gli aggiornamenti sono più lenti. Perché?
 
-**Risposta**: Se si abilita il motore di calcolo avanzato, ci sono due possibili spiegazioni per il rallentamento dei tempi di aggiornamento:
+**Risposta:** Se si abilita il motore di calcolo avanzato, ci sono due possibili spiegazioni per il rallentamento dei tempi di aggiornamento:
 
  - Quando il motore di calcolo avanzato è abilitato, richiede una certa quantità di memoria per funzionare correttamente. Di conseguenza, la memoria disponibile per l'esecuzione di un aggiornamento è ridotta e quindi aumenta la probabilità che gli aggiornamenti vengano accodati, riducendo di conseguenza il numero di flussi di dati che possono essere aggiornati contemporaneamente. Per risolvere questo problema, quando si abilita il calcolo avanzato, aumentare la memoria assegnata ai flussi di dati per garantire che la memoria disponibile per gli aggiornamenti contemporanei dei flussi di dati rimanga invariata.
 
  - Un'altra possibile causa del rallentamento degli aggiornamenti è che il motore di calcolo funziona solo sulle entità esistenti e se il flusso di dati fa riferimento a un'origine dati che non è un flusso di dati, non si riscontrerà alcun miglioramento. Non ci sarà un aumento delle prestazioni, poiché in alcuni scenari di Big Data la lettura iniziale da un'origine dati risulta più lenta, in quanto i dati devono essere passati al motore di calcolo avanzato.  
 
-**Domanda**: L'opzione di attivazione/disattivazione del motore di calcolo avanzato non è visibile. Questo problema dipende
+**Domanda:** L'opzione di attivazione/disattivazione del motore di calcolo avanzato non è visibile. Perché?
 
-**Risposta**: Il rilascio del motore di calcolo avanzato sta avvenendo per fasi nelle diverse aree di tutto il mondo. Si prevede che il supporto sarà disponibile in tutte le aree entro la fine del 2020.
+**Risposta:** Il rilascio del motore di calcolo avanzato sta avvenendo per fasi nelle diverse aree di tutto il mondo. Si prevede che il supporto sarà disponibile in tutte le aree entro la fine del 2020.
 
-**Domanda**: Quali sono i tipi di dati supportati per il motore di calcolo?
+**Domanda:** Quali sono i tipi di dati supportati per il motore di calcolo?
 
-**Risposta**: Il motore di calcolo avanzato e i flussi di dati attualmente supportano i tipi di dati seguenti. Se il flusso di dati non usa uno dei tipi di dati seguenti, si verifica un errore durante l'aggiornamento:
+**Risposta:** Il motore di calcolo avanzato e i flussi di dati attualmente supportano i tipi di dati seguenti. Se il flusso di dati non usa uno dei tipi di dati seguenti, si verifica un errore durante l'aggiornamento:
 
 * Data/ora
 * Numero decimale
-* Testo
+* Text
 * Numero intero
 * Data/ora/fuso orario
-* Vero/Falso
+* True/False
 * Data
-* Ora
+* Tempo
 
 ## <a name="next-steps"></a>Passaggi successivi
 

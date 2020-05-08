@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161433"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Evitare l'uso di FILTER come argomento di filtro
@@ -87,7 +87,7 @@ CALCULATE(
 
 Anche in questo esempio è necessario usare la funzione FILTER. Ciò perché è necessario valutare la misura **Profit** per eliminare i mesi in cui non è stato ottenuto un profitto. Non è possibile usare una misura in un'espressione booleana quando viene usata come argomento di filtro.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 Per ottenere prestazioni ottimali, è consigliabile usare espressioni booleane come argomenti di filtro, quando possibile.
 
@@ -101,6 +101,6 @@ La funzione FILTER deve quindi essere usata solo quando è necessario. È possib
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
 - [Funzioni di filtro (DAX)](/dax/filter-function-dax)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

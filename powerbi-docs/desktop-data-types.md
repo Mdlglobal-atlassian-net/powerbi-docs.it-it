@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584762"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841665"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -79,10 +79,11 @@ Power BI Desktop supporta cinque tipi di dati Data/Ora in visualizzazione Query.
 Il tipo di dati binario può essere usato per rappresentare qualsiasi altro tipo di dati con un formato binario. Nell'editor di query è possibile usarlo durante il caricamento di file binari se lo si converte in altri tipi di dati prima di caricarlo nel modello di Power BI. Le colonne binarie non sono supportate nel modello di dati di Power BI. È presente nei menu Visualizzazione dati e Visualizzazione report per motivi di compatibilità con le versioni precedenti, ma se si tenta di caricare colonne binarie nel modello di Power BI è possibile che si verifichino errori.
 
 
+
+
 > [!NOTE]
 >  Se una colonna binaria è nell'output dei passaggi di una query e si tenta di aggiornare i dati tramite un gateway, potrebbero verificarsi errori. È consigliabile rimuovere in modo esplicito le eventuali colonne binarie come ultimo passaggio nelle query.    
 > 
->
 
 ### <a name="table-data-type"></a>Tipo di dati tabella
 DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e calcoli della funzionalità di Business Intelligence per le gerarchie temporali. Alcune funzioni richiedono un riferimento a una tabella, mentre altre restituiscono una tabella che può quindi essere usata come input per altre funzioni. In alcune funzioni che richiedono una tabella come input è possibile specificare un'espressione che restituisce una tabella. Per alcune funzioni è necessario un riferimento a una tabella di base. Per informazioni sui requisiti di funzioni specifiche, vedere [Riferimento alle funzioni DAX](https://msdn.microsoft.com/library/ee634396.aspx).
@@ -90,7 +91,7 @@ DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e cal
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>Conversione implicita ed esplicita dei tipi di dati nelle formule DAX
 Ogni funzione DAX prevede requisiti specifici relativi ai tipi di dati usati come input e output. Alcune funzioni, ad esempio, richiedono numeri interi per determinati argomenti e date per altri. Altre funzioni richiedono testo o tabelle.
 
-Se i dati nella colonna specificata come argomento non sono compatibili con il tipo di dati richiesto dalla funzione, DAX in molti casi restituirà un errore. Quando possibile, tuttavia, DAX proverà a eseguire una conversione implicita dei dati nel tipo di dati richiesto. ad esempio:
+Se i dati nella colonna specificata come argomento non sono compatibili con il tipo di dati richiesto dalla funzione, DAX in molti casi restituirà un errore. Quando possibile, tuttavia, DAX proverà a eseguire una conversione implicita dei dati nel tipo di dati richiesto. Ad esempio:
 
 * Se si digita una data come stringa, DAX analizzerà la stringa e proverà a eseguirne il cast in uno dei formati di data e ora di Windows.
 * È possibile aggiungere TRUE + 1 e ottenere il risultato 2, in quanto TRUE viene convertito in modo implicito nel numero 1 e viene eseguita l'operazione 1+1.
@@ -98,7 +99,7 @@ Se i dati nella colonna specificata come argomento non sono compatibili con il t
 * Se si prova a concatenare due numeri, Excel li visualizzerà come stringhe e quindi li concatenerà. L'espressione seguente restituisce "1234": = 12 & 34.
 
 ### <a name="table-of-implicit-data-conversions"></a>Tabella delle conversioni implicite dei dati
-Il tipo di conversione eseguito è determinato dall'operatore, che esegue il cast dei valori necessari prima di eseguire l'operazione richiesta. Queste tabelle elencano gli operatori e indicano la conversione eseguita per ogni tipo di dati nella colonna quando viene abbinato con il tipo di dati nella riga con cui avviene l'intersezione.
+Il tipo di conversione eseguito è determinato dall'operatore, che esegue il cast dei valori necessari prima di eseguire l'operazione richiesta. In queste tabelle sono elencati gli operatori e viene indicata la conversione eseguita per ogni tipo di dati nella colonna quando viene abbinato con il tipo di dati nella riga con cui avviene l'intersezione.
 
 > [!NOTE]
 >  I tipi di dati di testo non sono inclusi in queste tabelle. Quando un numero viene rappresentato in un formato di testo, in alcuni casi PowerPivot proverà a determinare il tipo numerico e a rappresentarlo come numero.
@@ -107,12 +108,12 @@ Il tipo di conversione eseguito è determinato dall'operatore, che esegue il cas
 
 **Addizione (+)**
 
-| Operatore (+) | INTEGER | CURRENCY | REAL | Data/Ora |
+| Operatore (+) | INTEGER | CURRENCY | real | Data/ora |
 | --- | --- | --- | --- | --- |
-| INTEGER |INTEGER |CURRENCY |REAL |Data/Ora |
-| CURRENCY |CURRENCY |CURRENCY |REAL |Data/Ora |
-| REAL |REAL |REAL |REAL |Data/Ora |
-| Data/Ora |Data/Ora |Data/Ora |Data/Ora |Data/Ora |
+| INTEGER |INTEGER |CURRENCY |real |Data/ora |
+| CURRENCY |CURRENCY |CURRENCY |real |Data/ora |
+| real |real |real |real |Data/ora |
+| Data/Ora |Data/Ora |Data/Ora |Data/Ora |Data/ora |
 
 Se, ad esempio, in un'operazione di addizione viene usato un numero reale in combinazione con dati di valuta, entrambi i valori vengono convertiti nel tipo REAL e il risultato viene restituito come tipo REAL.
 
@@ -120,14 +121,14 @@ Se, ad esempio, in un'operazione di addizione viene usato un numero reale in com
 
 Nella tabella seguente l'intestazione di riga rappresenta il minuendo (lato sinistro) mentre l'intestazione di colonna il sottraendo (lato destro).
 
-| Operatore (-) | INTEGER | CURRENCY | REAL | Data/Ora |
+| Operatore (-) | INTEGER | CURRENCY | real | Data/ora |
 | --- | --- | --- | --- | --- |
-| INTEGER |INTEGER |CURRENCY |REAL |REAL |
-| CURRENCY |CURRENCY |CURRENCY |REAL |REAL |
-| REAL |REAL |REAL |REAL |REAL |
-| Data/Ora |Data/Ora |Data/Ora |Data/Ora |Data/Ora |
+| INTEGER |INTEGER |CURRENCY |real |real |
+| CURRENCY |CURRENCY |CURRENCY |real |real |
+| real |real |real |real |real |
+| Data/ora |Data/Ora |Data/Ora |Data/Ora |Data/ora |
 
-Se, ad esempio, in un'operazione di sottrazione viene usata una data con qualsiasi altro tipo di dati, entrambi i valori vengono convertiti in date e anche il valore restituito è una data.
+Se, ad esempio, in un'operazione di sottrazione viene utilizzata una data con qualsiasi altro tipo di dati, entrambi i valori vengono convertiti in date e anche il valore restituito è una data.
 
 > [!NOTE]
 >    I modelli di dati supportano anche l'operatore unario, - (segno negativo), ma questo operatore non modifica il tipo di dati dell'operando.
@@ -136,11 +137,11 @@ Se, ad esempio, in un'operazione di sottrazione viene usata una data con qualsia
 
 **Moltiplicazione (*)**
 
-| Operatore(*) | INTEGER | CURRENCY | REAL | Data/Ora |
+| Operatore(*) | INTEGER | CURRENCY | real | Data/ora |
 | --- | --- | --- | --- | --- |
-| INTEGER |INTEGER |CURRENCY |REAL |INTEGER |
-| CURRENCY |CURRENCY |REAL |CURRENCY |CURRENCY |
-| REAL |REAL |CURRENCY |REAL |REAL |
+| INTEGER |INTEGER |CURRENCY |real |INTEGER |
+| CURRENCY |CURRENCY |real |CURRENCY |CURRENCY |
+| real |real |CURRENCY |real |real |
 
 Se, ad esempio, un numero intero viene combinato con un numero reale in un'operazione di moltiplicazione, entrambi i numeri vengono convertiti in numeri reali e anche il valore restituito è di tipo REAL.
 
@@ -148,12 +149,12 @@ Se, ad esempio, un numero intero viene combinato con un numero reale in un'opera
 
 Nella tabella seguente l'intestazione di riga rappresenta il numeratore mentre l'intestazione di colonna il denominatore.
 
-| Operatore (/) (Riga/Colonna) | INTEGER | CURRENCY | REAL | Data/Ora |
+| Operatore (/) (Riga/Colonna) | INTEGER | CURRENCY | real | Data/ora |
 | --- | --- | --- | --- | --- |
-| INTEGER |REAL |CURRENCY |REAL |REAL |
-| CURRENCY |CURRENCY |REAL |CURRENCY |REAL |
-| REAL |REAL |REAL |REAL |REAL |
-| Data/Ora |REAL |REAL |REAL |REAL |
+| INTEGER |REAL |CURRENCY |real |real |
+| CURRENCY |CURRENCY |real |CURRENCY |real |
+| real |real |real |real |real |
+| Data/ora |real |real |real |real |
 
 Se, ad esempio, un numero intero viene combinato con un valore di valuta in un'operazione di divisione, entrambi i valori vengono convertiti in numeri reali e anche il risultato è un numero reale.
 
@@ -170,19 +171,19 @@ Le espressioni DAX seguenti illustrano questo comportamento:
 
 Le conversioni vengono eseguite in modo implicito per i tipi numerici o di data/ora come descritto nella tabella seguente:
 
-| Operatore di confronto | INTEGER | CURRENCY | REAL | Data/Ora |
+| Operatore di confronto | INTEGER | CURRENCY | real | Data/ora |
 | --- | --- | --- | --- | --- |
-| INTEGER |INTEGER |CURRENCY |REAL |REAL |
-| CURRENCY |CURRENCY |CURRENCY |REAL |REAL |
-| REAL |REAL |REAL |REAL |REAL |
-| Data/Ora |REAL |REAL |REAL |Data/ora |
+| INTEGER |INTEGER |CURRENCY |real |real |
+| CURRENCY |CURRENCY |CURRENCY |real |real |
+| real |real |real |real |real |
+| Data/ora |real |real |real |Data/ora |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>Gestione di spazi vuoti, stringhe vuote e valori zero
-In DAX un valore Null, un valore spazio vuoto, una cella vuota o un valore mancante sono tutti rappresentati dallo stesso nuovo tipo di valore, cioè BLANK. È anche possibile generare spazi vuoti usando la funzione BLANK, nonché verificare la presenza di spazi vuoti usando la funzione ISBLANK.
+In DAX un valore Null, un valore spazio vuoto, una cella vuota o un valore mancante sono tutti rappresentati dallo stesso nuovo tipo di valore, cioè BLANK. È inoltre possibile generare tipi blank utilizzando la funzione BLANK, nonché verificare la presenza di tipi blank utilizzando la funzione ISBLANK.
 
 La modalità di gestione degli spazi vuoti nelle operazioni, ad esempio addizione o concatenazione, dipende dalla singola funzione. La tabella seguente riepiloga le differenze tra le formule DAX e di Microsoft Excel per quanto riguarda la gestione degli spazi vuoti.
 
-| Espressione | DAX | Excel |
+| Expression | DAX | Excel |
 | --- | --- | --- |
 | BLANK + BLANK |BLANK |0 (zero) |
 | BLANK + 5 |5 |5 |

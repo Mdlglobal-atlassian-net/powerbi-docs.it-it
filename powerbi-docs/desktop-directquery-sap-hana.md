@@ -10,18 +10,18 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761227"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Connettersi a origini dati di SAP HANA usando DirectQuery in Power BI
 È possibile connettersi alle origini dati di **SAP HANA** usando direttamente **DirectQuery**. Sono disponibili due opzioni per la connessione a SAP HANA:
 
-* **Considerare SAP HANA come origine multidimensionale (impostazione predefinita):**  In questo caso, il comportamento sarà simile a quando Power BI si connette ad altre origini multidimensionali come SAP Business Warehouse o Analysis Services. Quando ci si connette a SAP HANA con questa impostazione viene selezionata una singola vista analitica o di calcolo e tutti gli attributi, le misure e le gerarchie di tale vista sono disponibili nell'elenco dei campi. Quando vengono creati oggetti visivi, i dati aggregati vengono sempre recuperati da SAP HANA. Questo è l'approccio consigliato ed è l'impostazione predefinita per i nuovi report DirectQuery su SAP HANA.
+* **Considerare SAP HANA come origine multidimensionale (impostazione predefinita):** in questo caso, il comportamento sarà simile a quando Power BI si connette ad altre origini multidimensionali come SAP Business Warehouse o Analysis Services. Quando ci si connette a SAP HANA con questa impostazione viene selezionata una singola vista analitica o di calcolo e tutti gli attributi, le misure e le gerarchie di tale vista sono disponibili nell'elenco dei campi. Quando vengono creati oggetti visivi, i dati aggregati vengono sempre recuperati da SAP HANA. Questo è l'approccio consigliato ed è l'impostazione predefinita per i nuovi report DirectQuery su SAP HANA.
 
-* **Considerare SAP HANA come origine relazionale:** in questo caso, Power BI considera SAP HANA come un'origine relazionale. Ciò offre una maggiore flessibilità, ma è necessario prestare attenzione per assicurarsi che le misure vengano aggregate come previsto e per evitare problemi di prestazioni.
+* **Considerare SAP HANA come un'origine relazionale:** in questo caso, Power BI considera SAP HANA come un'origine relazionale. Ciò offre una maggiore flessibilità, ma è necessario prestare attenzione per assicurarsi che le misure vengano aggregate come previsto e per evitare problemi di prestazioni.
 
 L'approccio per la connessione dipende da un'opzione strumento globale, impostata selezionando **File > Opzioni e impostazioni**, quindi **Opzioni > DirectQuery** e infine selezionando l'opzione **Considera SAP HANA come origine relazionale**, come illustrato nella figura seguente. 
 
@@ -63,19 +63,19 @@ Le operazioni di modellazione consentite sono più restrittive rispetto al caso 
 
 Le principali restrizioni di modellazione aggiuntive per la connessione a SAP HANA con DirectQuery (considerata come origine multidimensionale) sono le seguenti: 
 
-* **Nessun supporto per le colonne calcolate:** la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
-* **Limitazioni aggiuntive per le misure:** ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP HANA.
+* **Nessun supporto per le colonne calcolate**: la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
+* **Limitazioni aggiuntive per le misure**: ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP HANA.
 * **Nessun supporto per la definizione di relazioni:** è possibile eseguire query su una singola visualizzazione all'interno di un report e pertanto la definizione di relazioni non è supportata.
-* **Nessuna visualizzazione di dati:** la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP HANA, questa vista non è disponibile in SAP HANA.
-* **I dettagli delle colonne e misure sono fissi:** l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificarne il tipo di dati (tuttavia, può essere rinominata).
-* **Limitazioni aggiuntive in DAX:** ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
+* **Nessuna visualizzazione di dati**: la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP HANA, questa vista non è disponibile in SAP HANA.
+* **I dettagli delle colonne e misure sono fissati**: l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificarne il tipo di dati (tuttavia, può essere rinominata).
+* **Limitazioni aggiuntive in DAX**: ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
 
 ### <a name="additional-visualization-restrictions"></a>Restrizioni di visualizzazione aggiuntive
 
 Esistono alcune restrizioni per gli oggetti visivi durante la connessione a SAP HANA con DirectQuery (considerata come origine multidimensionale): 
-* **Nessuna aggregazione di colonne:** non è possibile modificare l'aggregazione per una colonna in un oggetto visivo ed è sempre *Non riepilogare*.
+* **Nessuna aggregazione di colonne**: non è possibile modificare l'aggregazione per una colonna in un oggetto visivo ed è sempre *Non riepilogare*.
 
-## <a name="treat-sap-hana-as-a-relational-source"></a>Considera SAP HANA come origine relazionale 
+## <a name="treat-sap-hana-as-a-relational-source"></a>Considerare SAP HANA come origine relazionale 
 
 Se si sceglie di connettersi a SAP HANA come origine relazionale, si ha a disposizione una maggiore flessibilità. Ad esempio è possibile creare colonne calcolate, includere dati da più viste SAP HANA e creare relazioni tra le tabelle risultanti. Tuttavia, quando si usa SAP HANA in questo modo, è importante comprendere alcuni aspetti del modo in cui vengono considerate le connessioni, per assicurarsi che: 
 
@@ -148,5 +148,5 @@ Per altre informazioni su DirectQuery, vedere le risorse seguenti:
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
-* [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)
+* [Gateway dati locale](service-gateway-onprem.md)
 

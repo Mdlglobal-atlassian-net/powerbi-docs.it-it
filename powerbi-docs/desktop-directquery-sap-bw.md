@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761181"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Connettersi a SAP Business Warehouse usando DirectQuery in Power BI
@@ -31,24 +31,24 @@ ms.locfileid: "75761181"
 ## <a name="additional-modeling-restrictions"></a>Restrizioni di modellazione aggiuntive
 Di seguito sono riportate le principali restrizioni di modellazione aggiuntive durante la connessione a SAP BW con DirectQuery in Power BI:
 
-* **Nessun supporto per le colonne calcolate:** la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
-* **Limitazioni aggiuntive per le misure:** ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP BW.
-* **Nessun supporto per la definizione di relazioni:** le relazioni sono intrinseche nell'origine esterna SAP e non è possibile definire relazioni aggiuntive nel modello.
-* **Nessuna visualizzazione di dati:** la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP BW, questa vista non è disponibile in SAP BW.
-* **I dettagli delle colonne e misure sono fissi:** l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificare il tipo di dati (tuttavia, può essere rinominato).
-* **Limitazioni aggiuntive in DAX:** ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
+* **Nessun supporto per le colonne calcolate**: la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
+* **Limitazioni aggiuntive per le misure**: ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP BW.
+* **Nessun supporto per la definizione di relazioni**: le relazioni sono intrinseche nell'origine esterna SAP e non è possibile definire relazioni aggiuntive nel modello.
+* **Nessuna visualizzazione di dati**: la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP BW, questa vista non è disponibile in SAP BW.
+* **I dettagli delle colonne e misure sono fissati**: l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificare il tipo di dati (tuttavia, può essere rinominato).
+* **Limitazioni aggiuntive in DAX**: ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
 
 ## <a name="additional-visualization-restrictions"></a>Restrizioni di visualizzazione aggiuntive
 Le principali restrizioni aggiuntive nelle visualizzazioni durante la connessione a SAP BW con DirectQuery in Power BI sono le seguenti:
 
-* **Nessuna aggregazione di colonne:** non è possibile modificare l'aggregazione per una colonna in un oggetto visivo ed è sempre *Non riepilogare*.
+* **Nessuna aggregazione di colonne**: non è possibile modificare l'aggregazione per una colonna in un oggetto visivo, che è sempre *Non riepilogare*
 * **Il filtro delle misure è disabilitato**: non è possibile filtrare le misure per riflettere il supporto offerto da SAP BW.
 * **Selezione multipla e includere/escludere**: la possibilità di selezionare più punti dati di un oggetto visivo è disabilitata se i punti rappresentano valori da più colonne. Ad esempio, dato un grafico a barre che mostra le vendite in base al paese, con Categoria nella legenda, non sarebbe possibile selezionare il punto per (USA, Bici) e (Francia, Abiti). Analogamente, non sarebbe possibile selezionare il punto per (USA, Bici) ed escluderlo dall'oggetto visivo. Entrambi sono limitazioni imposte per riflettere il supporto offerto da SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Supporto per le funzionalità di SAP BW
 La tabella seguente elenca tutte le funzionalità di SAP BW che non sono completamente supportate o che si comporteranno in modo diverso quando si usa Power BI.   
 
-| Feature | Descrizione |
+| Funzionalità | Description |
 | --- | --- |
 | Calcoli locali |I calcoli locali definiti in una query BEx modificheranno i numeri visualizzati con strumenti come BEx Analyzer. Tuttavia, non sono riflessi dai numeri restituiti da SAP, attraverso l'interfaccia pubblica di MDX. <br/> <br/> **Di conseguenza, i numeri visualizzati in un oggetto visivo di Power BI non necessariamente corrisponderanno a quelli per un oggetto visivo corrispondente in uno strumento SAP.**<br/> <br/>  Ad esempio, quando ci si connette a un cubo di query da una query BEx che imposta l'aggregazione come Cumulated (cioè la somma parziale), Power BI riceverebbe i numeri di base, ignorando l'impostazione.  Un analista potrebbe certamente quindi applicare un calcolo di somma parziale localmente in Power BI, ma dovrebbe prestare attenzione a come i numeri vengono interpretati se questa operazione non fosse eseguita. |
 | Aggregazioni |In alcuni casi (in particolare quando si gestiscono più valute), i numeri aggregati restituiti dall'interfaccia pubblica di SAP non corrispondono quelli indicati dagli strumenti SAP. <br/> <br/> **Di conseguenza, i numeri visualizzati in un oggetto visivo di Power BI non necessariamente corrisponderanno a quelli per un oggetto visivo corrispondente in uno strumento SAP.** <br/> <br/> Ad esempio, i totali in diverse valute sarebbero visualizzati come "*" in BEx Analyzer, ma il totale verrebbe restituito dall'interfaccia pubblica di SAP, senza alcuna informazione sull'irrilevanza di tale numero aggregato. In questo modo il numero (che aggrega, ad esempio, $, EUR e AUD) verrebbe visualizzato da Power BI. |

@@ -11,23 +11,23 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539188"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Connettere le origini dati in Power BI Desktop
 
 Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](https://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
 
-In Power BI Desktop sono disponibili origini dati *di ogni tipo* . La figura seguente illustra come connettersi ai dati, selezionando la scheda **Recupera dati** > **Altro** > **Web**.
+In Power BI Desktop sono disponibili origini dati *di ogni tipo*. La figura seguente illustra come connettersi ai dati, selezionando la scheda **Recupera dati** > **Altro** > **Web**.
 
 ![Recuperare i dati dal Web](media/desktop-connect-to-data/get-data-from-the-web.png)
 
 ## <a name="example-of-connecting-to-data"></a>Esempio di connessione ai dati
 
-Per questo esempio, verrà effettuata la connessione a un'origine dati **Web** .
+Per questo esempio, verrà effettuata la connessione a un'origine dati **Web**.
 
 Si supponga di andare in pensione. Si vuole abitare in un luogo con clima mite, pressione fiscale ridotta e assistenza sanitaria di buona qualità. Oppure si supponga di essere un analista di dati e di avere bisogno di informazioni per aiutare i clienti, ad esempio per aiutare un cliente che produce impermeabili a concentrare le vendite nei luoghi in cui piove *molto*.
 
@@ -72,11 +72,11 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Editor di query in Power BI Desktop](desktop-query-overview.md)
-* [Origini di dati in Power BI Desktop](desktop-data-sources.md)
+* [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Data shaping e combinazione di dati in Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Eseguire attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
 
-Per fornire commenti e suggerimenti, L'installazione è riuscita. Usare la voce di menu **Invia un'idea** in Power BI Desktop oppure visitare [Commenti e suggerimenti della community](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Tutti i commenti e suggerimenti saranno apprezzati.
+Per fornire commenti e suggerimenti, interessanti, Usare la voce di menu **Invia un'idea** in Power BI Desktop oppure visitare [Commenti e suggerimenti della community](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Saremo lieti di rispondere a qualsiasi domanda.
 
-![Invia un'idea](media/desktop-connect-to-data/sendfeedback.png)
+![Inviare un'idea](media/desktop-connect-to-data/sendfeedback.png)
 

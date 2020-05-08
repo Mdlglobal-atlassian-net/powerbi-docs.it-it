@@ -10,10 +10,10 @@ ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709956"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Creare e gestire le relazioni in Power BI Desktop
@@ -121,7 +121,7 @@ La seconda tabella, **CompanyProject**, è un elenco di progetti a cui è stata 
 
 | **ProjName** | **Priorità** |
 | --- | --- |
-| Blu |Una |
+| Blu |Una  |
 | Red |b |
 | Green |C |
 | Yellow |C |
@@ -201,7 +201,7 @@ La tabella **CompanyProjectPriority** seguente è un elenco di tutti i progetti 
 
 | **ProjName** | **Priorità** |
 | --- | --- |
-| Blu |Una |
+| Blu |Una  |
 | Red |b |
 | Green |C |
 | Yellow |C |
@@ -224,7 +224,7 @@ Il motivo per cui Power BI configura queste impostazioni è dato dal fatto che, 
 
 | **ProjName** | **Priorità** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
-| Blue |Una |40,000 |12/1/2012 |
+| Blue |Una  |40,000 |12/1/2012 |
 | Rosso |b |100,000 |12/1/2012 |
 | Green |C |50,000 |12/1/2012 |
 | Giallo |C |<br /> |<br /> |
@@ -249,13 +249,13 @@ Si supponga tuttavia che siano previste modifiche ai dati al successivo aggiorna
 
 | **ProjName** | **Priorità** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
-| Blue |Una |40,000 |12/1/2012 |
+| Blue |Una  |40,000 |12/1/2012 |
 | Rosso |b |100,000 |12/1/2012 |
 | Green |C |50,000 |12/1/2012 |
 | Giallo |C |<br /> |<br /> |
 | Viola |b |<br /> |<br /> |
 | Arancione |C |<br /> |<br /> |
-| Blu |Una |80000 |6/1/2013 |
+| Blu |Una  |80000 |6/1/2013 |
 | Rosso |b |90000 |6/1/2013 |
 
 In questa nuova tabella combinata, la colonna **ProjName** include valori ripetuti. Le due tabelle originali non avranno una relazione uno-a-uno dopo l'aggiornamento della tabella. In questo caso, poiché si è a conoscenza del fatto che gli aggiornamenti futuri determineranno la presenza di duplicati nella colonna **ProjName**, si decide di impostare il campo **Cardinalità** su **Molti-a-uno (\*:1)** , con il lato *molti* su **ProjectBudget** e il lato *uno* su **CompanyProjectPriority**.

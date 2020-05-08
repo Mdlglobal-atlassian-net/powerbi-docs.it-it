@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439987"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841159"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicurezza a livello di riga con Power BI
 
@@ -39,7 +39,7 @@ Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery 
 Per gestire la sicurezza nel modello di dati, si dovranno eseguire le operazioni seguenti.
 
 1. Selezionare i **puntini di sospensione (…)** accanto a un set di dati.
-2. Selezionare **Sicurezza**.
+2. Scegliere **Sicurezza**.
    
    ![Applica filtro di sicurezza in entrambe le direzioni](media/service-admin-rls/rls-security.png)
 
@@ -51,7 +51,7 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 
 ### <a name="add-members"></a>Aggiungere membri
 
-È possibile aggiungere un membro al ruolo digitando l'indirizzo di posta elettronica, o il nome, dell'utente, del gruppo di sicurezza o della lista di distribuzione da aggiungere. Non è possibile aggiungere gruppi creati all'interno di Power BI. È possibile aggiungere membri [esterni all'organizzazione](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
+È possibile aggiungere un membro al ruolo digitando l'indirizzo di posta elettronica, o il nome, dell'utente, del gruppo di sicurezza o della lista di distribuzione da aggiungere. Non è possibile aggiungere gruppi creati all'interno di Power BI. È possibile aggiungere membri [esterni all'organizzazione](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 
 ![Aggiungere un membro](media/service-admin-rls/rls-add-member.png)
 
@@ -59,7 +59,7 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 
 ![Membri nel ruolo](media/service-admin-rls/rls-member-count.png)
 
-### <a name="remove-members"></a>Rimuovere i membri
+### <a name="remove-members"></a>Rimuovere membri
 
 È possibile rimuovere i membri selezionando l'icona X accanto al nome. 
 
@@ -95,7 +95,7 @@ Se si pubblica il report di Power BI Desktop in un'area di lavoro all'interno de
 > [!WARNING]
 > Se l'area di lavoro è stata configurata in modo da assegnare le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Gli utenti riusciranno a visualizzare tutti i dati.
 
-![Impostazioni di gruppo](media/service-admin-rls/rls-group-settings.png)
+![Impostazioni dei gruppi](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 
