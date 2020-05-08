@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381078"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
@@ -43,7 +43,7 @@ Esistono due aspetti da considerare relativamente ai riquadri aggiunti da un set
 * Dopo aver aggiunto un oggetto visivo a un dashboard, è possibile usare **Domande e risposte** per fare domande al set di dati di push in linguaggio naturale. Dopo aver eseguito una query **Domande e risposte** è possibile aggiungere nuovamente l'oggetto visivo risultante al dashboard, *anch'esso* aggiornato in tempo reale.
 
 ### <a name="streaming-dataset"></a>Set di dati di streaming
-Anche con un **set di dati di streaming** viene eseguito il push dei dati nel servizio Power BI, con una differenza importante: Power BI archivia solo i dati in una cache temporanea, che scade rapidamente. La cache temporanea viene usata solo per visualizzare gli oggetti visivi che hanno un certo senso cronologico temporaneo, ad esempio un grafico a linee con un intervallo di tempo di un'ora.
+Con un **set di dati di streaming**, anche i dati vengono spostati nel servizio Power BI, con una differenza importante: Power BI si limita ad archiviare i dati in una cache temporanea, che scadrà rapidamente. La cache temporanea viene usata solo per visualizzare gli oggetti visivi che hanno un certo senso cronologico temporaneo, ad esempio un grafico a linee con un intervallo di tempo di un'ora.
 
 Con un **set di dati di streaming**, *non* c'è un database sottostante, quindi *non si possono* generare oggetti visivi del report usando i dati trasmessi dal flusso. Di conseguenza, non è possibile usare le funzionalità del report, ad esempio i filtri, gli oggetti visivi di Power BI e altre funzioni di report.
 

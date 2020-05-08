@@ -22,7 +22,7 @@
               href: power-query-background-refresh.md
             - name: Procedure consigliate per i flussi di dati
               href: ../service-dataflows-best-practices.md
-        - name: Modellazione dei dati
+        - name: Modellazione dati
           items:
             - name: Che cos'è uno schema a stella?
               href: star-schema.md
@@ -113,10 +113,10 @@
     - name: White paper
       items:
         - name: Panoramica dei white paper
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: White paper sulla sicurezza di Power BI
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Distribuzione di Power BI Premium
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Distribuire Power BI esternamente usando Azure Active Directory B2B
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

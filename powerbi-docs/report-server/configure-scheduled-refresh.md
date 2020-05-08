@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439964"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Come configurare l'aggiornamento pianificato dei report di Power BI
@@ -78,7 +78,7 @@ Visualizzare lo stato di un piano di aggiornamento pianificato nel portale Web.
    | Aggiornamento dei dati |Aggiornamento dei dati nel modello. |
    | Rimozione delle credenziali dal modello |Rimozione delle credenziali usate per la connessione all'origine dati dal modello. |
    | Salvataggio del modello nel catalogo |L'aggiornamento dei dati è completato e il modello aggiornato viene salvato di nuovo nel database del catalogo del server di report. |
-   | Completato: Aggiornamento dati |L'aggiornamento è stato completato. |
+   | Completato: aggiornamento dei dati |L'aggiornamento è stato completato. |
    | Errore: |Si è verificato un errore durante l'aggiornamento e l'errore viene visualizzato. |
 
 La pagina Web deve essere aggiornata per visualizzare lo stato corrente. Lo stato non verrà modificato automaticamente.

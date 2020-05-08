@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273203"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Aggiungere caselle di testo e forme ai report di Power BI
@@ -30,10 +30,10 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 
 2. Posizionare il cursore in qualsiasi area vuota dell'area di disegno del report e selezionare **Casella di testo** dal menu in alto.
    
-   ![Selezionare Casella di testo](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
+   ![Selezionare la casella di testo](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 3. Digitare il testo nella casella di testo e, facoltativamente, impostare il carattere, il colore e l'allineamento del testo. 
    
-   ![Immettere il testo](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+   ![Immetti testo](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
 4. Per posizionare la casella di testo, selezionare l'area grigia nella parte superiore e trascinare. Per ridimensionare la casella di testo, selezionare e trascinare uno dei quadratini di ridimensionamento sul contorno. 
    
    ![Posizionare la casella di testo](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
@@ -44,7 +44,7 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 
 6. Per chiudere la casella di testo, selezionare uno spazio vuoto nell'area di disegno del report. 
 
-7. Selezionare l'icona Aggiungi  ![Icona Aggiungi](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) per aggiungere la casella di testo a un dashboard. 
+7. Selezionare l'icona Aggiungi  ![l'icona Aggiungi](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) per aggiungere la casella di testo a un dashboard. 
 
 ## <a name="add-a-shape-to-a-report"></a>Aggiungere una forma a un report
 1. Posizionare il cursore in un punto qualsiasi dell'area di disegno report e selezionare **Forme**.
@@ -67,6 +67,6 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 Potrebbero essere interessanti anche gli articoli seguenti:
 
 * [Aggiungere un collegamento ipertestuale a una casella di testo](service-add-hyperlink-to-text-box.md)
-* [Concetti di base del servizio Power BI](service-basic-concepts.md)
+* [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 * [Suggerimenti per migliorare l'analisi con forme, immagini e icone nei report di Power BI](guidance/report-tips-shapes-images-icons.md)
 * Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

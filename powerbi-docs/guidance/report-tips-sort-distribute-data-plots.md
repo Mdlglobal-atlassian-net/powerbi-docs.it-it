@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065940"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Suggerimenti per ordinare e distribuire i tracciati di dati nei report di Power BI
@@ -44,5 +44,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Suggerimenti per la creazione di report straordinari](../desktop-tips-and-tricks-for-creating-reports.md)
 - Video biDezine: [Top 9 Tips to Sort and Distribute data plots in Power BI](https://www.youtube.com/watch?v=BnhA4qa-9Jk) (9 suggerimenti principali per ordinare e distribuire i tracciati di dati in Power BI)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -1,5 +1,5 @@
 ---
-title: Gestione delle licenze di Power BI nell'organizzazione
+title: Licenze di Power BI nell'organizzazione
 description: Panoramica dei diversi tipi di licenze disponibili in Power BI e di come gli amministratori acquistano e gestiscono le licenze per l'organizzazione.
 author: kfollis
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: a41e9453158c38a208fe7f4ac937b4e86a515f4b
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81436323"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
+# <a name="power-bi-licensing-in-your-organization"></a>Licenze di Power BI nell'organizzazione
 
 Le operazioni che un utente può eseguire nel servizio Power BI dipendono dal tipo di licenza per utente disponibile e dal fatto che il contenuto con cui interagiscono sia incluso in un'area di lavoro assegnata alla capacità di Power BI Premium. Tutti gli utenti del servizio Power BI devono avere una licenza.
 
@@ -102,5 +102,5 @@ Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per 
 
 - [Acquistare e assegnare licenze Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 - [Documentazione sulle sottoscrizioni aziendali e sulla fatturazione di Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
-- [Find Power BI users that have signed in](service-admin-access-usage.md) (Ricerca di utenti Power BI che hanno eseguito l'accesso)
+- [Individuare gli utenti di Power BI che hanno effettuato l'accesso](service-admin-access-usage.md)
 - Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

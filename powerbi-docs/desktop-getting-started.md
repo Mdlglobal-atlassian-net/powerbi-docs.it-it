@@ -10,10 +10,10 @@ ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133342"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
@@ -35,7 +35,7 @@ Con Power BI Desktop, è possibile:
 Power BI Desktop integra le tecnologie collaudate di Microsoft Query Engine, modellazione dei dati e visualizzazione. Analisti di dati e altri utenti possono creare raccolte di query, connessioni dati, modelli e report e condividerli facilmente. Grazie alla combinazione di Power BI Desktop con il servizio Power BI, è possibile modellare, creare, condividere ed estendere con maggiore facilità nuove informazioni dettagliate ricavate dai dati.
 
 Power BI Desktop centralizza, semplifica e ottimizza quello che altrimenti sarebbe un processo confuso, disconnesso e complesso per la progettazione e la creazione di repository e report di business intelligence.
-Se si è pronti per un tentativo, Le informazioni seguenti descrivono come eseguire queste operazioni.
+Ecco come fare una prova. È ora possibile iniziare.
 
 > [!NOTE]
 > Per i dati e i report che devono rimanere in locale è disponibile anche una versione separata e specializzata di Power BI denominata [Server di report di Power BI](report-server/get-started.md). Per l'uso con tale versione è disponibile una versione separata e specializzata di Power BI Desktop, denominata Power BI Desktop per Server di report di Power BI, che funziona solo con la versione Server di report di Power BI. In questo articolo viene illustrata la versione standard di Power BI Desktop.
@@ -108,7 +108,7 @@ Si noti che nell'area **Passaggi applicati** in **Impostazioni query** sono già
 
 Se è necessario modificare un tipo di dati, selezionare le colonne da modificare. Tenere premuto **MAIUSC** per selezionare più colonne adiacenti oppure **CTRL** per selezionare colonne non adiacenti. Fare clic con il pulsante destro del mouse su un'intestazione di colonna, selezionare **Modifica tipo** e scegliere un nuovo tipo di dati dal menu oppure fare clic sulla freccia dell'elenco a discesa accanto a **Tipo di dati** nel gruppo **Trasforma** della scheda **Home** e selezionare un nuovo tipo di dati.
 
-![Modificare il tipo di dati](media/desktop-getting-started/designer_gsg_changedatatype.png)
+![Cambia tipo di dati](media/desktop-getting-started/designer_gsg_changedatatype.png)
 
 > [!NOTE]
 > Nell'editor di Power Query in Power BI Desktop è possibile usare la barra multifunzione o i menu di scelta rapida per le attività disponibili. La maggior parte delle opzioni che è possibile selezionare nella scheda **Home** o **Trasforma** della barra multifunzione è disponibile anche facendo clic con il pulsante destro del mouse su un elemento e scegliendo un'opzione dal menu visualizzato.
@@ -166,7 +166,7 @@ Rimuovere tutte le colonne ad eccezione di **Name and status of region**, **Name
 
 Fare clic sulla freccia del menu a discesa accanto all'intestazione di colonna **Name and status of region2** e selezionare **Filtri** > **Uguale a**. Nella finestra di dialogo **Filtra righe**, fare clic sulla freccia del menu a discesa **Immettere o selezionare un valore** accanto a **uguale a** e selezionare **State**. 
 
-Selezionare **Or**, quindi selezionare **State ("Commonwealth")** accanto al secondo campo **uguale a**. Seleziona **OK**. 
+Selezionare **Or**, quindi selezionare **State ("Commonwealth")** accanto al secondo campo **uguale a**. Selezionare **OK**. 
 
 ![Filtra righe](media/desktop-getting-started/filterrows.png)
 
@@ -188,7 +188,7 @@ In questo caso, si vuole eseguire il *merge* della query **State codes** nella q
 
 Nella finestra **Merge** fare clic sulla freccia del menu a discesa per selezionare **State codes** dalle altre query disponibili. Da ciascuna delle due tabelle selezionare la colonna da associare, in questo caso **State** dalla query **Best states for sunglasses** e **State name** dalla query **State codes**. 
 
-Se viene visualizzata una finestra di dialogo **Livelli di privacy**, selezionare **Ignora i controlli dei livelli di privacy per questo file** e quindi scegliere **Salva**. Seleziona **OK**. 
+Se viene visualizzata una finestra di dialogo **Livelli di privacy**, selezionare **Ignora i controlli dei livelli di privacy per questo file** e quindi scegliere **Salva**. Selezionare **OK**. 
 
 ![Merge di query](media/desktop-getting-started/shapecombine_merge.png)
 
@@ -332,7 +332,7 @@ Per condividere un report o un dashboard, selezionare **Condividi** nella parte 
 
 Per inviare un messaggio di posta elettronica o ottenere un collegamento per condividere il report o il dashboard con altri utenti, completare la schermata **Condividi report** o **Condividi dashboard**. 
 
-![Condividi report](media/desktop-getting-started/gsg_share6.png)
+![Condivisione del report](media/desktop-getting-started/gsg_share6.png)
 
 Power BI Desktop e il servizio Power BI consentono di creare molti tipi di visualizzazioni e mashup accattivanti correlati a dati. 
 
@@ -342,7 +342,7 @@ Power BI Desktop supporta la connessione a una porta di diagnostica, che offre a
 Per altre informazioni sulle numerose funzionalità di Power BI Desktop, vedere le risorse seguenti:
 
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)
-* [Origini dati in Power BI Desktop](desktop-data-sources.md)
+* [Origini di dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)
 * [Esercitazione: Data shaping e combinazione di dati in Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   

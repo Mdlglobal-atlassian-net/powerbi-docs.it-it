@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
 ms.openlocfilehash: e2c59ba84700aaf83c4cc9d16d009696c42dfc54
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114590"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Connettere un report a un set di dati tramite binding dinamico 
@@ -30,7 +30,7 @@ Come parte del processo di incorporamento, assicurarsi di *generare un token con
 
 Il binding dinamico è supportato sia per l'*incorporamento per l'organizzazione* che per l'*incorporamento per i clienti*. Nella tabella seguente vengono descritte le considerazioni per ogni scenario.
 
-|Scenario  |Proprietà dei dati  |Token  |Requisiti  |
+|Scenario  |Proprietà dei dati  |token  |Requisiti  |
 |---------|---------|---------|---------|
 |*Incorporamento per l'organizzazione*    |I dati sono di proprietà dell'utente         |Token di accesso per utenti di Power BI         |L'utente di cui viene usato il token di Azure AD deve avere le autorizzazioni appropriate per tutti gli artefatti.         |
 |*Incorporamento per i clienti*     |I dati sono di proprietà dell'app         |Token di accesso per utenti non di Power BI         |Deve includere le autorizzazioni sia per il report che per il set di dati associato in modo dinamico. Usare l'[API per generare un token di incorporamento per più elementi](embed-sample-for-customers.md#multiEmbedToken), per generare un token di incorporamento che supporta più artefatti.         |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 95ccee8e2c711c272d6114339161cbf1d1c883a9
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488523"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841688"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Aggiornamento automatico della pagina in Power BI Desktop (anteprima)
 
@@ -136,7 +136,7 @@ La tabella seguente illustra più dettagliatamente la disponibilità di questa f
 > [!NOTE]
 > Quando si pubblica il report con aggiornamento pagina automatico abilitato da Power BI Desktop al servizio, sarà necessario specificare le credenziali per l'origine dati DirectQuery nel menu delle impostazioni del set di dati.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Quando si usa l'aggiornamento pagina automatico in Power BI Desktop o nel servizio Power BI è necessario tenere presente alcune considerazioni.
 
@@ -212,7 +212,7 @@ Per altre informazioni, vedere gli articoli seguenti:
 
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Usare l'analizzatore prestazioni per esaminare le prestazioni degli elementi del report](desktop-performance-analyzer.md)
-* [Distribuzione e gestione delle capacità Power BI Premium](whitepaper-powerbi-premium-deployment.md)
+* [Distribuzione e gestione delle capacità Power BI Premium](guidance/whitepaper-powerbi-premium-deployment.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a cartelle di lavoro di Excel in Power BI Desktop](desktop-connect-excel.md)   

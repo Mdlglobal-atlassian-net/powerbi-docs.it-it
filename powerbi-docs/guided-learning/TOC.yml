@@ -4,9 +4,9 @@
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: Introduzione alla compilazione con Power BI
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: Recupera dati
+- name: Recuperare i dati
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: Dati del modello
+- name: Modellare i dati
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Usare gli oggetti visivi
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'

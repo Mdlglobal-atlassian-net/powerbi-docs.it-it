@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
 ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120115"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
@@ -20,7 +20,7 @@ Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con l
 
 Questo glossario è il risultato di un impegno a livello della community.  Se non è possibile trovare un termine in questa raccolta, si invitano gli utenti a chiedere a Microsoft di aggiungerlo, usando il pulsante del feedback sulla documentazione nella parte inferiore di questo articolo.
 
-## <a name="a"></a>A
+## <a name="a"></a>Una 
 
 **account** Esistono diversi tipi di account Power BI, detti anche *licenze* o *sottoscrizioni*.  Gli account possono essere account per utente o aziendali. Gli account per utente possono essere *gratuiti* o *Pro*.  Un utente di Power BI con *licenza gratuita* usa Power BI Desktop in modalità autonoma oppure usa il servizio Power BI in modalità autonoma o all'interno di un'organizzazione che dispone di una sottoscrizione aziendale Premium. L'account per utente *Pro* di Power BI è una sottoscrizione mensile a pagamento, che consente la collaborazione e la condivisione di contenuti con altri utenti *Pro*. 
 
@@ -46,7 +46,7 @@ La sottoscrizione aziendale *Premium* (detta anche *capacità Premium*) aggiunge
 
 **Auto Insights (Informazioni dettagliate automatiche)** sono ora denominate *Informazioni rapide*.
 
-## <a name="b"></a>B
+## <a name="b"></a>b
 
 **BI, business intelligence**
 

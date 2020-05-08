@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113693"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Aggiungere interattività negli oggetti visivi tramite le selezioni degli oggetti visivi di Power BI
@@ -81,7 +81,7 @@ Questo oggetto ha metodi corrispondenti per creare `selections` per diversi tipi
 
 Esaminiamo il modo in cui le selezioni vengono rappresentate nel mapping di visualizzazione dati categorica per il set di dati di esempio:
 
-| Produttore | Tipo | Valore |
+| Manufacturer | Type | Value |
 | - | - | - |
 | Chrysler | Domestic Car | 28883 |
 | Chrysler | Domestic Truck | 117131 |
@@ -161,7 +161,7 @@ L'oggetto visivo può anche filtrare i dati per `Manufacturer` e `Type`.
 
 Quando ad esempio l'utente seleziona `Chrysler` per `Manufacturer`, gli altri oggetti visivi visualizzano i dati seguenti:
 
-| Produttore | Tipo | Valore |
+| Manufacturer | Type | Value |
 | - | - | - |
 | **Chrysler** | Domestic Car | 28883 |
 | **Chrysler** | Domestic Truck | 117131 |
@@ -170,7 +170,7 @@ Quando ad esempio l'utente seleziona `Chrysler` per `Manufacturer`, gli altri og
 
 Quando l'utente seleziona `Import Car` per `Type` (seleziona i dati in base alla serie), gli altri oggetti visivi visualizzano i dati seguenti:
 
-| Produttore | Tipo | Valore |
+| Manufacturer | Type | Value |
 | - | - | - |
 | Chrysler | **Import Car** | 0 |
 | Ford | **Import Car** | 0 |

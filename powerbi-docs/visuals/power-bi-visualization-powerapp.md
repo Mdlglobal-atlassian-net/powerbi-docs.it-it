@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/17/2020
+ms.date: 03/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd27973a1cf6a73ba79079911ec175f990925524
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585451"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841964"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Esercitazione: Incorporare un oggetto visivo di Power Apps in un report di Power BI
 
@@ -23,7 +23,7 @@ Questa esercitazione usa l'oggetto visivo di Power Apps per creare una nuova app
 
 Se non si ha una sottoscrizione a Power Apps, [creare un account gratuito](https://web.powerapps.com/signup?redirect=marketing&email=) prima di iniziare.
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 > [!div class="checklist"]
 > * Aggiungere un oggetto visivo di Power Apps a un report di Power BI
 > * Usare Power Apps per creare una nuova app che usa i dati del report di Power BI
