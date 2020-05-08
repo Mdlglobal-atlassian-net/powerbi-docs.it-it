@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647653"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Indicazioni sulla pianificazione della capacità per il server di report di Power BI
@@ -41,7 +41,7 @@ La distribuzione del server di report di Power BI è costituita dalle macchine v
 
 * Controller di dominio di Active Directory: usato dal motore di database di SQL Server, da SQL Server Analysis Services e dal server di report di Power BI per l'autenticazione sicura di tutte le richieste.
 * Motore di database di SQL Server e SQL Server Analysis Services: posizione in cui sono stati archiviati tutti i database che i report devono utilizzare in fase di rendering.
-* Server di report Power BI
+* server di report di Power BI
 * Database del server di report Power BI. Il database del server di report è ospitato in una macchina virtuale rispetto al server di report di Power BI, in modo che non debba competere con il motore di database di SQL Server per memoria, CPU, risorse di rete e di disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,9 +62,9 @@ Tutti i test sono stati scritti per l'esecuzione di un'operazione end-to-end, ad
 > Lo strumento non è ufficialmente supportato da Microsoft, ma il team del prodotto contribuisce al progetto e risponde ai problemi generati da altri collaboratori.
 
 ### <a name="workloads"></a>Carichi di lavoro
-Esistono due profili di carico di lavoro usati nei test: Power BI Report Heavy e Paginated Report Heavy. La tabella seguente illustra la distribuzione delle richieste eseguite nel server di report.
+Nei test vengono usati due profili di carico di lavoro, ovvero "Power BI Report Heavy" e "Paginated Report Heavy". La tabella seguente illustra la distribuzione delle richieste eseguite nel server di report.
 
-| Attività | Power BI Report Heavy, frequenza di occorrenza | Paginated Report Heavy, frequenza di occorrenza |
+| Activity (Attività) | Power BI Report Heavy, frequenza di occorrenza | Paginated Report Heavy, frequenza di occorrenza |
 | --- | --- | --- |
 | **Rendering di report di Power BI** |60% |10% |
 | **Rendering di report impaginati (RDL)** |30% |60% |
@@ -91,7 +91,7 @@ Presso Microsoft è disponibile una distribuzione di produzione del server di re
 | **Power BI Report Heavy** |1\.000 utenti |3\.000 utenti |
 | **Paginated Report Heavy** |2\.000 utenti |3\.200 utenti |
 
-## <a name="summary"></a>Riepilogo
+## <a name="summary"></a>Summary
 Per ogni esecuzione di test di carico, la CPU è stata la risorsa con maggiore sovraccarico in fase di picco del carico nella macchina virtuale del server di report di Power BI. È quindi necessario incrementare prima di tutto il numero di core. In alternativa, è possibile prendere in considerazione l'aumento del numero di server che ospitano il server di report di Power BI nella topologia specifica.
 
 I risultati presentati in questo articolo sono basati sull'esecuzione di un set specifico di report che utilizza un set specifico di dati, ripetuta in modo specifico. Si tratta di un punto di riferimento utile, ma occorre ricordare che l'utilizzo dipenderà dai report, dalle query, dai modelli di utilizzo e dalla distribuzione del server di report di Power BI specifico.
@@ -102,7 +102,7 @@ I risultati presentati in questo articolo sono basati sull'esecuzione di un set 
 
 Per concentrarsi esclusivamente sul comportamento del server di report di Power BI in configurazioni diverse, la configurazione delle VM per ogni tipo di macchina virtuale, ad eccezione della macchina virtuale che ospita il server di report di Power BI, è fissa. Ogni macchina virtuale è stata sottoposta a provisioning come VM di tipo Serie D (v2) di seconda generazione con dischi di archiviazione Premium. È possibile trovare informazioni dettagliate su ogni dimensione di macchina virtuale nella [sezione "Utilizzo generico"](https://azure.microsoft.com/pricing/details/virtual-machines/windows/).
 
-| Tipo di macchina virtuale | Processore | Memoria | Dimensioni delle VM di Azure |
+| Tipo di macchina virtuale | Processore | Memory | Dimensioni delle VM di Azure |
 | --- | --- | --- | --- |
 | **Controller di dominio di Active Directory** |2 core |7 GB |Standard_DS2_v2 |
 | **Motore di Database di SQL Server e SQL Server Analysis Services** |16 core |56 GB |Standard_DS5_v2 |
@@ -112,7 +112,7 @@ Per concentrarsi esclusivamente sul comportamento del server di report di Power 
 
 Per la macchina virtuale che ospita il server di report di Power BI sono state usate diverse configurazioni di processore e memoria. A differenza delle altre VM, questa macchina virtuale è stata sottoposta a provisioning come VM di tipo Serie D (v3) di terza generazione con dischi di archiviazione Premium. È possibile trovare informazioni dettagliate su questa dimensione di macchina virtuale nella [sezione "Utilizzo generico"](https://azure.microsoft.com/pricing/details/virtual-machines/windows/.)
 
-| Macchina virtuale | Processore | Memoria | Dimensioni delle VM di Azure |
+| Macchina virtuale | Processore | Memory | Dimensioni delle VM di Azure |
 | --- | --- | --- | --- |
 | **Server di report Power BI (Small)** |8 core |32 GB |Standard_D8S_v3 |
 | **Server di report Power BI (Large)** |16 core |64 GB |vStandard_D16S_v3 |

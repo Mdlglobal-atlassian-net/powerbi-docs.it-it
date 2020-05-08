@@ -1,19 +1,19 @@
 ---
 title: Creare app modello in Power BI
 description: Come creare in Power BI app modello distribuibili a tutti i clienti Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 09/15/2019
-ms.author: tebercov
-ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 5de7268dfa792a85d813e98280f00c87e5e98447
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066349"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781640"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -38,7 +38,7 @@ Per creare un'app modello distribuibile ad altri tenant di Power BI, è necessar
 
 1. Nel servizio Power BI selezionare **Aree di lavoro** > **Crea area di lavoro**.
 
-    ![Creare l'area di lavoro](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Creare un'area di lavoro](media/service-template-apps-create/power-bi-new-workspace.png)
 
 2. In **Crea area di lavoro** selezionare **Esegui aggiornamento alla nuova versione**.
 
@@ -70,7 +70,7 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
 
 1. Nell'area di lavoro modello selezionare **Crea app**.
 
-    ![Crea app](media/service-template-apps-create/power-bi-create-app.png)
+    ![Creare l'app](media/service-template-apps-create/power-bi-create-app.png)
 
     Definire le opzioni di compilazione aggiuntive per l'app modello, suddivise in cinque categorie:
 
@@ -83,7 +83,7 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
     - Logo dell'app (dimensione massima dei file 45K, proporzioni 1:1, formato png, jpg, jpeg)
     - Colore tema dell'app
 
-    **Struttura di spostamento**
+    **Navigazione**
 
     Attivare il **Nuovo generatore di struttura di spostamento** in cui è possibile definire il riquadro di spostamento dell'app. Per informazioni dettagliate, vedere [Progettare l'esperienza di spostamento](service-create-distribute-apps.md#design-the-navigation-experience) in questo articolo.
 
@@ -100,7 +100,7 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
     >[!NOTE]
     >L'esportazione in formato pbix è sempre bloccata per gli utenti che installano l'app.
 
-    **Parametri**
+    **Parameters**
 
     Usare questa categoria per gestire il comportamento dei parametri quando ci si connette a origini dati. Per altre informazioni, vedere la [creazione di parametri di query](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
 

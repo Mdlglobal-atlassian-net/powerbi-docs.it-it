@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585405"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
@@ -178,7 +178,7 @@ I gruppi di sicurezza abilitati per la posta elettronica riceveranno notifiche d
 
 ## <a name="workspace-settings"></a>Impostazioni dell'area di lavoro
 
-### <a name="create-workspaces"></a>Creare aree di lavoro
+### <a name="create-workspaces"></a>Creazione di aree di lavoro
 
 Gli amministratori usano l'impostazione **Crea aree di lavoro** per indicare agli utenti dell'organizzazione che possono creare aree di lavoro per collaborare a dashboard, report e altro contenuto. Vedere altre informazioni sulle [aree di lavoro](service-create-the-new-workspaces.md).
 
@@ -222,14 +222,14 @@ Gli amministratori possono impostare **Pubblica sul Web** su **Abilitato** e **S
 
 Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'impostazione di **Pubblica sul Web**.
 
-|Feature |Abilitata per l'intera organizzazione |Disabilitata per l'intera organizzazione |Gruppi di sicurezza specifici   |
+|Funzionalità |Abilitata per l'intera organizzazione |Disabilitata per l'intera organizzazione |Gruppi di sicurezza specifici   |
 |---------|---------|---------|---------|
 |**Pubblica sul Web** nel menu **Altre opzioni (...)** del report|Abilitata per tutti|Non visibile per tutti|Visibile solo per utenti o gruppi autorizzati.|
 |**Gestisci codici di incorporamento** in **Impostazioni**|Abilitata per tutti|Abilitata per tutti|Abilitata per tutti<br><br>Opzione * **Elimina** solo per utenti o gruppi autorizzati.<br>Opzione * **Ottieni i codici** abilitata per tutti.|
 |**Incorpora codici** nel portale di amministrazione|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato|Stato indica **Disabilitato**|Stato indica una delle opzioni seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato<br><br>Se un utente non è autorizzato in base all'impostazione del tenant, lo stato indica **Violazione**.|
 |Report pubblicati esistenti|Tutti abilitati|Tutti disabilitati|Il rendering di tutti i report viene continuato per tutti.|
 
-### <a name="export-data"></a>Esporta dati
+### <a name="export-data"></a>Esportazione dei dati
 
 Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. Questa impostazione controlla le funzionalità Analizza in Excel, di esportazione in file CSV, di download di set di dati (con estensione pbix) e Live Connect del servizio Power BI. Vedere altre informazioni sull'[esportazione di dati da un riquadro o da un oggetto visivo](visuals/power-bi-visualization-export-data.md).
 
@@ -245,7 +245,7 @@ La figura seguente mostra l'opzione per esportare i dati da un riquadro.
 > [!NOTE]
 > Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità [Analizza in Excel](service-analyze-in-excel.md) oltre alla connessione dinamica al servizio Power BI.
 
-### <a name="export-to-excel"></a>Esporta in Excel
+### <a name="export-to-excel"></a>Eseguire l'esportazione in Excel
 
 Gli utenti dell'organizzazione possono esportare i dati da una visualizzazione a un file di Excel.
 
@@ -344,7 +344,7 @@ Gli utenti dell'organizzazione possono interagire con gli oggetti visivi di Powe
 Power BI Desktop (a partire dalla versione di marzo 2019) supporta l'uso di **Criteri di gruppo** per disabilitare l'uso di oggetti visivi di Power BI nei computer distribuiti di un'organizzazione.
 
 <table>
-<tr><th>Attributo</th><th>Valore</th>
+<tr><th>Attributo</th><th>valore</th>
 </tr>
 <td>chiave</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>
@@ -366,7 +366,7 @@ Gli utenti dell'organizzazione a cui sono state assegnate le autorizzazioni per 
 Power BI Desktop (a partire dalla versione di marzo 2019) supporta l'uso di **Criteri di gruppo** per disabilitare l'utilizzo di oggetti visivi di Power BI non certificati nei computer distribuiti di un'organizzazione.
 
 <table>
-<tr><th>Attributo</th><th>Valore</th>
+<tr><th>Attributo</th><th>valore</th>
 </tr>
 <td>chiave</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>

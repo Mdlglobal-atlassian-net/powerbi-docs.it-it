@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113853"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagire con gli oggetti visivi in report, dashboard e app
@@ -43,28 +43,28 @@ Per molte di queste opzioni, l'amministratore o il *progettista* può impedire d
 
 
 
-|Attività  |In un dashboard  |In un report  | In Domande e risposte
+|Task  |In un dashboard  |In un report  | In Domande e risposte
 |---------|---------|---------|--------|
-|[Aggiungere commenti a un oggetto visivo per se stessi o avviare una conversazione con i colleghi sull'oggetto visivo](end-user-comment.md).     |  sì       |   sì      |  no  |
-|[Aprire ed esplorare il report in cui è stato creato l'oggetto visivo](end-user-tiles.md).     |    sì     |   n/d      |  no |
-|[Visualizzare un elenco dei filtri e dei filtri dei dati che interessano l'oggetto visivo](end-user-report-filter.md).     |    se si apre in modalità messa a fuoco     |   sì      |  no |
-|[Aprire ed esplorare un oggetto visivo in Domande e risposte (se il *progettista* ha usato Domande e risposte per creare l'oggetto visivo)](end-user-q-and-a.md).     |   sì      |   n/d      |  n/d  |
-|[Creare un oggetto visivo in Domande e risposte (per l'esplorazione, non sarà possibile salvarlo)](end-user-q-and-a.md).     |   sì      |   se il progettista ha aggiunto Domande e risposte al report      |  sì  |
+|[Aggiungere commenti a un oggetto visivo per se stessi o avviare una conversazione con i colleghi sull'oggetto visivo](end-user-comment.md).     |  Sì       |   Sì      |  no  |
+|[Aprire ed esplorare il report in cui è stato creato l'oggetto visivo](end-user-tiles.md).     |    Sì     |   n/d      |  no |
+|[Visualizzare un elenco dei filtri e dei filtri dei dati che interessano l'oggetto visivo](end-user-report-filter.md).     |    se si apre in modalità messa a fuoco     |   Sì      |  no |
+|[Aprire ed esplorare un oggetto visivo in Domande e risposte (se il *progettista* ha usato Domande e risposte per creare l'oggetto visivo)](end-user-q-and-a.md).     |   Sì      |   n/d      |  n/d  |
+|[Creare un oggetto visivo in Domande e risposte (per l'esplorazione, non sarà possibile salvarlo)](end-user-q-and-a.md).     |   Sì      |   se il progettista ha aggiunto Domande e risposte al report      |  Sì  |
 |[Chiedere a Power BI di cercare fatti o tendenze interessanti](end-user-insights.md) nei dati dell'oggetto visivo.  Questi oggetti visivi generati automaticamente sono chiamati *informazioni dettagliate*.     |    sì, per i riquadri    |  no       | no   |
 |[Visualizzare un solo oggetto visivo alla volta tramite la modalità *messa a fuoco*](end-user-focus.md).     | sì, per i riquadri        |   sì, per gli oggetti visivi      | n/d  |
-|[Cercare l'ultimo aggiornamento dell'oggetto visivo](end-user-fresh.md).     |  sì       |    sì     | n/d  |
-|[Visualizzare un solo oggetto visivo alla volta, senza bordi o riquadri di spostamento, nella modalità *schermo intero*](end-user-focus.md).     |   sì      |  sì       | per impostazione predefinita  |
-|[Stampare](end-user-print.md).     |  sì       |   sì      | no  |
-|[Esaminare l'oggetto visivo aggiungendo e modificando i filtri dell'oggetto visivo.](end-user-report-filter.md)     |    no     |   sì      | no  |
-|Passare il mouse su un oggetto visivo per vedere dettagli aggiuntivi e descrizioni comando.     |    sì     |   sì      | sì  |
-|[Applicare il filtro incrociato e l'evidenziazione incrociata negli altri oggetti visivi nella pagina.](end-user-interactions.md)    |   no      |   sì      | n/d  |
-|[Visualizzare i dati usati per creare l'oggetto visivo](end-user-show-data.md).     |  no       |   sì      | no  |
-| [Modificare la modalità di ordinamento dell'oggetto visivo](end-user-change-sort.md). | no  | sì  | è possibile modificare l'ordinamento riformulando la domanda  |
-| Aggiungere un elemento in evidenza a un oggetto visivo. | no  | sì  |  no |
-| [Esportare in Excel.](end-user-export.md) | sì | sì | no|
-| [Creare un avviso](end-user-alerts.md) per ricevere una notifica quando un valore supera una soglia impostata.  | sì  | no  | no |
-| [Applicare il filtro incrociato e l'evidenziazione incrociata agli altri oggetti visivi nella pagina](end-user-report-filter.md).  | no      | sì  | n/d |
-| [Eseguire il drill di un oggetto visivo con una gerarchia](end-user-drill.md).  | no  | sì   | no |
+|[Cercare l'ultimo aggiornamento dell'oggetto visivo](end-user-fresh.md).     |  Sì       |    Sì     | n/d  |
+|[Visualizzare un solo oggetto visivo alla volta, senza bordi o riquadri di spostamento, nella modalità *schermo intero*](end-user-focus.md).     |   Sì      |  Sì       | per impostazione predefinita  |
+|[Stampare](end-user-print.md).     |  Sì       |   Sì      | no  |
+|[Esaminare l'oggetto visivo aggiungendo e modificando i filtri dell'oggetto visivo.](end-user-report-filter.md)     |    no     |   Sì      | no  |
+|Passare il mouse su un oggetto visivo per vedere dettagli aggiuntivi e descrizioni comando.     |    Sì     |   Sì      | Sì  |
+|[Applicare il filtro incrociato e l'evidenziazione incrociata negli altri oggetti visivi nella pagina.](end-user-interactions.md)    |   no      |   Sì      | n/d  |
+|[Visualizzare i dati usati per creare l'oggetto visivo](end-user-show-data.md).     |  no       |   Sì      | no  |
+| [Modificare la modalità di ordinamento dell'oggetto visivo](end-user-change-sort.md). | no  | Sì  | è possibile modificare l'ordinamento riformulando la domanda  |
+| Aggiungere un elemento in evidenza a un oggetto visivo. | no  | Sì  |  no |
+| [Esportare in Excel.](end-user-export.md) | Sì | Sì | no|
+| [Creare un avviso](end-user-alerts.md) per ricevere una notifica quando un valore supera una soglia impostata.  | Sì  | no  | no |
+| [Applicare il filtro incrociato e l'evidenziazione incrociata agli altri oggetti visivi nella pagina](end-user-report-filter.md).  | no      | Sì  | n/d |
+| [Eseguire il drill di un oggetto visivo con una gerarchia](end-user-drill.md).  | no  | Sì   | no |
 
 ## <a name="next-steps"></a>Passaggi successivi
 Tornare a [Concetti di base per i consumer](end-user-basic-concepts.md)    

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464594"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Oggetti visivi dell'organizzazione in Power BI
@@ -37,7 +37,7 @@ Per altre informazioni su come amministrare, distribuire e gestire gli oggetti v
 > [!WARNING]
 > Un oggetto visivo di Power BI installato da un file può contenere codice che comporta rischi per la sicurezza o la privacy. Assicurarsi che l'autore e l'origine del file dell'oggetto visivo di Power BI siano attendibili prima di distribuirlo nel repository dell'organizzazione.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Esistono diverse considerazioni e limitazioni di cui è necessario tenere conto.
 
@@ -55,7 +55,7 @@ Utenti finali:
 
 * Non viene eseguito il rendering degli oggetti visivi Visio, PowerApps, Mappa e GlobeMap dal Marketplace AppSource se vengono distribuiti tramite il repository dell'organizzazione.
 
-## <a name="troubleshoot"></a>Risoluzione dei problemi
+## <a name="troubleshoot"></a>Risolvere problemi
 
 Per informazioni sulla risoluzione dei problemi, vedere [Risoluzione dei problemi relativi agli oggetti visivi di Power BI](power-bi-custom-visuals-troubleshoot.md).
 

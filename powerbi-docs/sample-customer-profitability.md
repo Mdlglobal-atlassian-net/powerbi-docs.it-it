@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404159"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
@@ -107,7 +107,7 @@ Due riquadri in questo dashboard, **Target vs Actual** (Vendite previste ed effe
 
     b. La prima tabella pivot indica che la crescita dei ricavi di Carlos per il suo prodotto principale, Primus, è diminuita del 152% rispetto all'anno precedente. Il grafico **YoY Revenue Variance** mostra che per la maggior parte dei mesi Carlos non ha raggiunto il budget.  
 
-    ![Tabella pivot](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![tabella pivot](media/sample-customer-profitability/power-bi-pivotchart.png)
 
     ![Risultati di Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 
@@ -163,7 +163,7 @@ Questa pagina del report mostra una sezione diversa dei dati. Illustra il margin
 2. Nel grafico a bolle **Revenue Var % to Budget, GM%, and RevenueTY by Industry**, la responsabile amministrativa cerca le bolle più grandi, perché sono quelle che hanno l'impatto più significativo sui ricavi. Per facilitare la visualizzazione dell'impatto di ogni responsabile in base al segmento del settore, filtrare la pagina selezionando in sequenza i nomi dei responsabili nel grafico ad aree.
 
 3. Man mano che si selezionano i singoli responsabili nel grafico, si noti quanto segue:
-   * L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo)
+   * L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo) 
    * Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su alcuni segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius.
    * Carlos è chiaramente concentrato sul segmento Services, con buoni risultati. Anche Carlos ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha ottenuto risultati eccezionali rispetto al budget.
    * Tina lavora con pochi segmenti e vanta la percentuale di margine lordo più alta di tutti, ma le dimensioni in gran parte ridotte delle sue bolle mostrano che il suo impatto sul bilancio aziendale è minimo.

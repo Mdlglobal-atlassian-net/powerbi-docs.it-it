@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979846"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
@@ -30,82 +30,82 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 
 | **Origine dati** | **Dati memorizzati nella cache** | **Aggiornamento pianificato** | **Dinamico/DirectQuery** |
 | --- | --- | --- | --- |
-| Database di SQL Server |Sì |Sì |Sì |
-| SQL Server Analysis Services |Sì |Sì |Sì |
-| Database SQL di Azure |Sì |Sì |Sì |
-| Azure SQL Data Warehouse |Sì |Sì |Sì |
-| Excel |Sì |Sì |No |
-| Database di Access |Sì |Sì |No |
-| Active Directory |Sì |Sì |No |
-| Amazon Redshift |Sì |No |No |
-| Archiviazione BLOB di Azure |Sì |Sì |No |
-| Azure Data Lake Store |Sì |No |No |
-| Azure HDInsight (HDFS) |Sì |No |No |
-| Azure HDInsight (Spark) |Sì |No |No |
-| Archiviazione tabelle di Azure |Sì |Sì |No |
-| Dynamics 365 (online) |Sì |No |No |
-| Facebook |Sì |No |No |
-| Cartella |Sì |Sì |No |
-| Google Analytics |Sì |No |No |
-| File Hadoop (HDFS) |Sì |No |No |
-| Database IBM DB2 |Sì |Sì |No |
-| Impala |Sì |No |No |
-| JSON |Sì |Sì |No |
-| Microsoft Exchange |Sì |No |No |
-| Microsoft Exchange Online |Sì |No |No |
-| Database MySQL |Sì |Sì |No |
-| Feed OData |Sì |Sì |No |
-| ODBC |Sì |Sì |No |
-| OLE DB |Sì |Sì |No |
-| Database Oracle |Sì |Sì |Sì |
-| Database PostgreSQL |Sì |Sì |No |
-| Servizio Power BI |No |No |No |
-| Script R |Sì |No |No |
-| Oggetti Salesforce |Sì |No |No |
-| Report di Salesforce |Sì |No |No |
-| Server SAP Business Warehouse |Sì |Sì |Sì |
-| Database SAP HANA |Sì |Sì |Sì |
-| Cartella di SharePoint (locale) |Sì |Sì |No |
-| Elenco di SharePoint (locale) |Sì |Sì |No |
-| Elenco SharePoint Online |Sì |No |No |
-| Snowflake |Sì |No |No |
-| Database di Sybase |Sì |Sì |No |
-| Teradata |Sì |Sì |Sì |
-| Testo/CSV |Sì |Sì |No |
-| Web |Sì |Sì |No |
-| XML |Sì |Sì |No |
-| appFigures (Beta) |Sì |No |No |
-| Database di Azure Analysis Services |Sì |No |Sì |
-| Azure Cosmos DB (Beta) |Sì |No |No |
-| Spark in Azure HDInsight (Beta) |Sì |No |No |
-| Common Data Service (Beta) |Sì |No |No |
-| comScore Digital Analytix (Beta) |Sì |No |No |
-| Dynamics 365 per Customer Insights (Beta) |Sì |No |No |
-| Dynamics 365 per Financials (Beta) |Sì |No |No |
-| GitHub (beta) |Sì |No |No |
-| Google BigQuery (Beta) |Sì |No |No |
-| Database Informix IBM (Beta) |Sì |No |No |
-| IBM Netezza (Beta) |Sì |No |No |
-| Kusto (Beta) |Sì |No |No |
-| MailChimp (Beta) |Sì |No |No |
-| Informazioni dettagliate sul consumo di Microsoft Azure (Beta) |Sì |No |No |
-| Mixpanel (Beta) |Sì |No |No |
-| Planview Enterprise (Beta) |Sì |No |No |
-| Projectplace (Beta) |Sì |No |No |
-| QuickBooks Online (beta) |Sì |No |No |
-| Smartsheet |Sì |No |No |
-| Spark (Beta) |Sì |No |No |
-| SparkPost (Beta) |Sì |No |No |
-| SQL Sentry (Beta) |Sì |No |No |
-| Stripe (Beta) |Sì |No |No |
-| SweetIQ (beta) |Sì |No |No |
-| Troux (Beta) |Sì |No |No |
-| Twilio (Beta) |Sì |No |No |
-| tyGraph (Beta) |Sì |No |No |
-| Vertica (Beta) |Sì |No |No |
-| Visual Studio Team Services (Beta) |Sì |No |No |
-| Webtrends (Beta) |Sì |No |No |
-| Zendesk (Beta) |Sì |No |No |
+| Database SQL Server |Yes |Yes |Yes |
+| SQL Server Analysis Services |Yes |Yes |Yes |
+| Database SQL di Azure |Yes |Yes |Yes |
+| Azure SQL Data Warehouse |Yes |Yes |Yes |
+| Excel |Yes |Yes |No |
+| Database di Access |Yes |Yes |No |
+| Active Directory |Yes |Yes |No |
+| Amazon Redshift |Yes |No |No |
+| Archivio BLOB Azure |Yes |Yes |No |
+| Azure Data Lake Store |Yes |No |No |
+| Azure HDInsight (HDFS) |Yes |No |No |
+| Azure HDInsight (Spark) |Yes |No |No |
+| Archivio tabelle Azure |Yes |Yes |No |
+| Dynamics 365 (online) |Yes |No |No |
+| Facebook |Yes |No |No |
+| Cartella |Yes |Yes |No |
+| Google Analytics |Yes |No |No |
+| File Hadoop (HDFS) |Yes |No |No |
+| Database IBM DB2 |Yes |Yes |No |
+| Impala |Yes |No |No |
+| JSON |Yes |Yes |No |
+| Microsoft Exchange |Yes |No |No |
+| Microsoft Exchange Online |Yes |No |No |
+| Database MySQL |Yes |Yes |No |
+| Feed OData |Yes |Yes |No |
+| ODBC |Yes |Yes |No |
+| OLE DB |Yes |Yes |No |
+| Database Oracle |Yes |Yes |Yes |
+| Database PostgreSQL |Yes |Yes |No |
+| servizio Power BI |No |No |No |
+| Script R |Yes |No |No |
+| Oggetti Salesforce |Yes |No |No |
+| Report di Salesforce |Yes |No |No |
+| Server SAP Business Warehouse |Yes |Yes |Yes |
+| Database SAP HANA |Yes |Yes |Yes |
+| Cartella di SharePoint (locale) |Yes |Yes |No |
+| Elenco di SharePoint (locale) |Yes |Yes |No |
+| Elenchi SharePoint Online |Yes |No |No |
+| Snowflake |Yes |No |No |
+| Database di Sybase |Yes |Yes |No |
+| Teradata |Yes |Yes |Yes |
+| Testo/CSV |Yes |Yes |No |
+| Web |Yes |Yes |No |
+| XML |Yes |Yes |No |
+| appFigures (beta) |Yes |No |No |
+| Database di Azure Analysis Services |Yes |No |Yes |
+| Azure Cosmos DB (Beta) |Yes |No |No |
+| Spark in Azure HDInsight (Beta) |Yes |No |No |
+| Common Data Service (Beta) |Yes |No |No |
+| comScore Digital Analytix (Beta) |Yes |No |No |
+| Dynamics 365 per Customer Insights (Beta) |Yes |No |No |
+| Dynamics 365 per Financials (Beta) |Yes |No |No |
+| GitHub (beta) |Yes |No |No |
+| Google BigQuery (Beta) |Yes |No |No |
+| Database Informix IBM (Beta) |Yes |No |No |
+| IBM Netezza (Beta) |Yes |No |No |
+| Kusto (Beta) |Yes |No |No |
+| MailChimp (Beta) |Yes |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |Yes |No |No |
+| Mixpanel (Beta) |Yes |No |No |
+| Planview Enterprise (Beta) |Yes |No |No |
+| Projectplace (Beta) |Yes |No |No |
+| QuickBooks Online (beta) |Yes |No |No |
+| Smartsheet |Yes |No |No |
+| Spark (Beta) |Yes |No |No |
+| SparkPost (Beta) |Yes |No |No |
+| SQL Sentry (Beta) |Yes |No |No |
+| Stripe (Beta) |Yes |No |No |
+| SweetIQ (beta) |Yes |No |No |
+| Troux (Beta) |Yes |No |No |
+| Twilio (Beta) |Yes |No |No |
+| tyGraph (Beta) |Yes |No |No |
+| Vertica (Beta) |Yes |No |No |
+| Visual Studio Team Services (Beta) |Yes |No |No |
+| Webtrends (Beta) |Yes |No |No |
+| Zendesk (Beta) |Yes |No |No |
 
 > [!IMPORTANT]
 > La sicurezza a livello di riga configurata per l'origine dati funziona per determinate connessioni DirectQuery (SQL Server, database SQL di Azure, Oracle e Teradata) e connessioni in tempo reale, purché l'autenticazione Kerberos sia configurata correttamente nell'ambiente in uso.
@@ -118,46 +118,46 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** |
 | --- | --- | --- | --- | --- |
-| Database di SQL Server |No |No |Sì |Sì |
-| SQL Server Analysis Services |No |No |Sì |Sì |
-| Web |Sì |No |Sì |Sì |
-| Database SQL di Azure |No |No |Sì |No |
-| Azure SQL Data Warehouse |No |No |Sì |No |
-| Active Directory |No |No |Sì |Sì |
+| Database SQL Server |No |No |Yes |Yes |
+| SQL Server Analysis Services |No |No |Yes |Yes |
+| Web |Yes |No |Yes |Yes |
+| Database SQL di Azure |No |No |Yes |No |
+| Azure SQL Data Warehouse |No |No |Yes |No |
+| Active Directory |No |No |Yes |Yes |
 | Amazon Redshift |No |No |No |No |
-| Archiviazione BLOB di Azure |Sì |Sì |No |No |
+| Archivio BLOB Azure |Yes |Yes |No |No |
 | Azure Data Lake Store |No |No |No |No |
 | Azure HDInsight (HDFS) |No |No |No |No |
 | Azure HDInsight (Spark) |No |No |No |No |
-| Archiviazione tabelle di Azure |No |Sì |No |No |
+| Archivio tabelle Azure |No |Yes |No |No |
 | Dynamics 365 (online) |No |No |No |No |
 | Facebook |No |No |No |No |
-| Cartella |No |No |No |Sì |
+| Cartella |No |No |No |Yes |
 | Google Analytics |No |No |No |No |
 | File Hadoop (HDFS) |No |No |No |No |
-| Database IBM DB2 |No |No |Sì |Sì |
+| Database IBM DB2 |No |No |Yes |Yes |
 | Impala |No |No |No |No |
 | Microsoft Exchange |No |No |No |No |
 | Microsoft Exchange Online |No |No |No |No |
-| Database MySQL |No |No |Sì |Sì |
-| Feed OData |Sì |Sì |Sì |Sì |
-| ODBC |Sì |No |Sì |Sì |
-| OLE DB |Sì |No |Sì |Sì |
-| Database Oracle |No |No |Sì |Sì |
-| Database PostgreSQL |No |No |Sì |No |
-| Servizio Power BI |No |No |No |No |
+| Database MySQL |No |No |Yes |Yes |
+| Feed OData |Yes |Yes |Yes |Yes |
+| ODBC |Yes |No |Yes |Yes |
+| OLE DB |Yes |No |Yes |Yes |
+| Database Oracle |No |No |Yes |Yes |
+| Database PostgreSQL |No |No |Yes |No |
+| servizio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
 | Oggetti Salesforce |No |No |No |No |
 | Report di Salesforce |No |No |No |No |
-| Server SAP Business Warehouse |No |No |Sì |No |
-| Database SAP HANA |No |No |Sì |Sì |
-| Cartella di SharePoint (locale) |Sì |No |No |Sì |
-| Elenco di SharePoint (locale) |Sì |No |No |Sì |
-| Elenco SharePoint Online |No |No |No |No |
+| Server SAP Business Warehouse |No |No |Yes |No |
+| Database SAP HANA |No |No |Yes |Yes |
+| Cartella di SharePoint (locale) |Yes |No |No |Yes |
+| Elenco di SharePoint (locale) |Yes |No |No |Yes |
+| Elenchi SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
-| Database di Sybase |No |No |Sì |Sì |
-| Teradata |No |No |Sì |Sì** |
-| appFigures (Beta) |No |No |No |No |
+| Database di Sybase |No |No |Yes |Yes |
+| Teradata |No |No |Yes |Sì** |
+| appFigures (beta) |No |No |No |No |
 | Database di Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
 | Spark in Azure HDInsight (Beta) |No |No |No |No |
@@ -171,7 +171,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | IBM Netezza (Beta) |No |No |No |No |
 | Kusto (Beta) |No |No |No |No |
 | MailChimp (Beta) |No |No |No |No |
-| Informazioni dettagliate sul consumo di Microsoft Azure (Beta) |No |No |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |No |No |No |No |
 | Mixpanel (Beta) |No |No |No |No |
 | Planview Enterprise (Beta) |No |No |No |No |
 | Projectplace (Beta) |No |No |No |No |
@@ -198,14 +198,14 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione di Windows integrata** |
 | --- | --- | --- | --- | --- | --- |
-| Database di SQL Server |No |No |Sì |Sì |Sì |
-| SQL Server Analysis Services |No |No |Sì |Sì |Sì |
-| Database SQL di Azure |No |No |Sì |No |No |
-| Azure SQL Data Warehouse |No |No |Sì |No |No |
-| Database Oracle |No |No |Sì |Sì |Sì |
-| Server SAP Business Warehouse |No |No |Sì |No |No |
-| Database SAP HANA |No |No |Sì |Sì |Sì** |
-| Teradata |No |No |Sì |Sì |Sì |
+| Database SQL Server |No |No |Yes |Yes |Yes |
+| SQL Server Analysis Services |No |No |Yes |Yes |Yes |
+| Database SQL di Azure |No |No |Yes |No |No |
+| Azure SQL Data Warehouse |No |No |Yes |No |No |
+| Database Oracle |No |No |Yes |Yes |Yes |
+| Server SAP Business Warehouse |No |No |Yes |No |No |
+| Database SAP HANA |No |No |Yes |Yes |Sì** |
+| Teradata |No |No |Yes |Yes |Yes |
 
 **SAP HANA supporta DirectQuery con Autenticazione integrata di Windows solo se usato come database relazionale nel file di Power BI Desktop pubblicato (PBIX).
 

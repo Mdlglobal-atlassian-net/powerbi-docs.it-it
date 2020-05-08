@@ -9,10 +9,10 @@ ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752672"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Connettersi al report COVID-19 US Tracking Report
@@ -36,7 +36,7 @@ Dopo aver installato l'app modello e aver effettuato la connessione alle origini
 
    ![COVID-19 US Tracking Report nella pagina App](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
-## <a name="connect-to-data-sources"></a>Connessione alle origini dati
+## <a name="connect-to-data-sources"></a>Connettersi alle origini dati
 
 1. Fare clic sull'icona nella pagina App per aprire l'app.
 
@@ -62,6 +62,6 @@ Per informazioni dettagliate, vedere [Personalizzare e condividere l'app](../ser
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Esempio di rilevamento del COVID-19 per enti locali e statali degli Stati Uniti](../create-reports/sample-covid-19-us.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 * [Che cosa sono le app modello di Power BI?](../service-template-apps-overview.md)
 * [Installare e distribuire le app modello nell'organizzazione](../service-template-apps-install-distribute.md)

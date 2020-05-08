@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752258"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Connettersi all'app Crisis Communication Presence Report
@@ -53,7 +53,7 @@ Quando si installa l'esempio Crisis Communication, prendere nota del [percorso d
 
    ![App Crisis Communication Presence Report nella pagina App](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-apps-page-icon.png)
 
-## <a name="connect-to-data-sources"></a>Connessione alle origini dati
+## <a name="connect-to-data-sources"></a>Connettersi alle origini dati
 
 1. Selezionare l'icona nella pagina App per aprire l'app.
 
@@ -103,6 +103,6 @@ Per informazioni dettagliate, vedere [Personalizzare e condividere l'app](../ser
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Configurare e ottenere informazioni sul modello di esempio Crisis Communication in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 * [Che cosa sono le app modello di Power BI?](../service-template-apps-overview.md)
 * [Installare e distribuire le app modello nell'organizzazione](../service-template-apps-install-distribute.md)

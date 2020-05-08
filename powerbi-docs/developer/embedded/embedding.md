@@ -17,10 +17,10 @@ helpviewer_keywords:
 ms.custom: seodec18
 ms.date: 05/15/2019
 ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487813"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Analisi incorporata con Power BI
@@ -69,7 +69,7 @@ L'**incorporamento per i clienti** consente di incorporare dashboard e report pe
 
 ![Flusso di incorporamento per l'incorporamento per i clienti](media/embedding/powerbi-embed-flow.png)
 
-Power BI Embedded offre vantaggi ai fornitori di software indipendenti, agli sviluppatori e ai clienti. Ad esempio un fornitore di software indipendente può iniziare a creare gratuitamente oggetti visivi con Power BI Desktop. Riducendo il lavoro di sviluppo di elementi visivi e analisi, i fornitori di software indipendenti possono ottenere un time to market più rapido e distinguersi dalla concorrenza grazie all'offerta di esperienze di dati differenziate. Possono anche decidere di addebitare un costo per il valore aggiunto creato con le analisi incorporate.
+Power BI Embedded offre vantaggi a un fornitore di software indipendente e ai rispettivi sviluppatori e clienti. Un fornitore di software indipendente può iniziare a creare gratuitamente oggetti visivi con Power BI Desktop. Riducendo il lavoro di sviluppo di elementi visivi e analisi, i fornitori di software indipendenti possono ottenere un time to market più rapido e distinguersi dalla concorrenza grazie all'offerta di esperienze di dati differenziate. Possono anche decidere di addebitare un costo per il valore aggiunto creato con le analisi incorporate.
 
 Con Power BI Embedded non è necessario che i clienti abbiano informazioni su Power BI. È possibile usare due metodi diversi per creare un'applicazione incorporata:
 - Un account Power BI Pro 
@@ -96,7 +96,7 @@ Per informazioni dettagliate sull'incorporamento, vedere [Come incorporare il co
 > [Incorporare contenuto per l'organizzazione](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Che cos'è Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
+> [Informazioni su Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
 >[Incorporamento per i clienti](embed-sample-for-customers.md)

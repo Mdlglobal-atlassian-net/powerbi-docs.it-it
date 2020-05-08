@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113163"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
@@ -41,7 +41,7 @@ Power BI usa algoritmi statistici per individuare le informazioni dettagliate. G
 ## <a name="what-types-of-insights-can-you-find"></a>Tipi di informazioni dettagliati che è possibile trovare
 Questi sono gli algoritmi usati da Power BI. 
 
-### <a name="category-outliers-topbottom"></a>Category outlier (dall'alto al basso)
+### <a name="category-outliers-topbottom"></a>Category outlier (dall’alto al basso)
 Evidenzia i casi in cui una o due categorie hanno valori molto più grandi rispetto ad altre categorie.  
 
 ![Esempio di outlier categoria](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
@@ -61,7 +61,7 @@ Rileva i casi in cui i punti dati per una dimensione non sono distanti dalla med
 
 ![Esempio di varianza bassa](./media/end-user-insight-types/power-bi-low-variance.png)
 
-### <a name="majority-major-factors"></a>Maggioranza (fattori principali)
+### <a name="majority-major-factors"></a>Majority (fattori principali)
 Consente di trovare casi in cui la maggior parte di un valore totale può essere attribuita a un fattore singolo quando ripartito da un'altra dimensione.  
 
 ![Esempio di fattori principali](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)

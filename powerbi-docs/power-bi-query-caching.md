@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/04/2019
 LocalizationGroup: ''
 ms.openlocfilehash: bf9248b29c71f42de9fed53ee0148847a8f60d30
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488638"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Memorizzazione di query nella cache in Power BI Premium/Power BI Embedded
@@ -28,12 +28,12 @@ I risultati delle query memorizzate nella cache sono specifici per l'utente e il
 È possibile controllare il comportamento di memorizzazione query nella cache tramite la pagina **Impostazioni** del set di dati nel servizio Power BI. Le impostazioni possibili sono tre:
 
 - **Capacità predefinita**: memorizzazione query nella cache disabilitata
-- **Disattivata**: la memorizzazione di query nella cache non viene usata per questo set di dati.
+- **Off**: la memorizzazione di query nella cache non viene usata per questo set di dati.
 - **Attivata**: la memorizzazione di query nella cache viene usata per questo set di dati.
 
     ![Finestra di dialogo Memorizzazione query nella cache](media/power-bi-query-caching/power-bi-query-3-options.png)
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 - Quando si modifica l'impostazione di memorizzazione di query nella cache da **Attivata** a **Disattivata**, tutti i risultati delle query del set di dati salvati in precedenza vengono rimossi dalla capacità della cache. È possibile disattivare la memorizzazione nella cache sia in modo esplicito sia ripristinando l'impostazione predefinita di capacità che un amministratore ha impostato su **Disattivata**. Se si disattiva la memorizzazione, alla successiva esecuzione di query su questo set di dati da parte di un report è possibile che si registri un leggero ritardo. Il ritardo è causato dalle query del report che vengono eseguite su richiesta e non si avvalgono dei risultati salvati. È anche possibile che il set di dati vada caricato in memoria prima di diventare disponibile per le query.
 - Quando viene aggiornata la cache delle query, Power BI deve eseguire query nei modelli di dati sottostanti per ottenere i risultati più recenti. Se la memorizzazione nella cache è abilitata in un numero elevato di set di dati e la capacità Premium/Embedded è soggetta a un carico elevato, potrebbe verificarsi una riduzione delle prestazioni durante l'aggiornamento della cache. Riduzione dei risultati a causa dall'aumento del volume delle query eseguite.

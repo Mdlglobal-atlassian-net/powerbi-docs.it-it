@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
 ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488201"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
@@ -105,9 +105,9 @@ Per uno schema di tabella di Power BI, è possibile usare i tipi di dati seguent
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue non sono consentiti. |
 | Double |Double.MaxValue e Double.MinValue non sono consentiti. NaN non supportato. +Infinity e -Infinity non supportati in alcune funzioni, ad esempio Min, Max. |
-| Boolean |Nessuno |
-| DateTime |Durante il caricamento dei dati i valori vengono quantizzati con frazioni giornaliere fino a multipli interi di 1/300 secondi (3,33 ms). |
-| Stringa |Attualmente è consentito un massimo di 128.000 caratteri. |
+| Boolean |nessuno |
+| Datetime |Durante il caricamento dei dati i valori vengono quantizzati con frazioni giornaliere fino a multipli interi di 1/300 secondi (3,33 ms). |
+| string |Attualmente è consentito un massimo di 128.000 caratteri. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Altre informazioni sul push dei dati in Power BI
 

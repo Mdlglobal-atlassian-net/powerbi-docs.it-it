@@ -13,19 +13,19 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80516262"
 landingContent:
-- title: Inizia
+- title: Introduzione
   linkLists:
   - linkListType: get-started
     links:
     - text: Informazioni sull'incorporamento con Power BI
       url: embedding.md
-    - text: Che cos'è Azure Power BI Embedded
+    - text: Che cos'è Power BI Embedded in Azure?
       url: azure-pbie-what-is-power-bi-embedded.md
     - text: Domande frequenti
       url: embedded-faq.md
@@ -63,7 +63,7 @@ landingContent:
       url: power-bi-permissions.md
     - text: Domande e risposte
       url: qanda.md
-    - text: Risolvere i problemi dell'applicazione incorporata
+    - text: Risoluzione dei problemi dell'applicazione incorporata
       url: embedded-troubleshoot.md
 - title: Riferimenti e risorse
   linkLists:

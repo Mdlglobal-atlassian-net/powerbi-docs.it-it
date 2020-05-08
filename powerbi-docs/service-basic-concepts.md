@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404078"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
@@ -32,7 +32,7 @@ Quando si apre il servizio Power BI in un browser, si inizia dalla schermata Hom
 2. Icona di avvio delle app di Office 365
 3. pulsante Home di Power BI
 4. Pulsanti delle icone, tra cui Impostazioni, Guida e Commenti e suggerimenti
-5. Casella di ricerca
+5. Casella Cerca
 6. Dashboard, report e aree di lavoro preferiti e usati di frequente
 7. Dashboard, report e aree di lavoro recenti
 8. Aree di lavoro personali
@@ -162,7 +162,7 @@ Quando si apre un'area di lavoro, i dashboard associati sono elencati nella sche
 * [Creare una visualizzazione telefono di un dashboard](service-create-dashboard-mobile-phone-view.md)
 
 
-## <a name="workbooks"></a>Cartelle di lavoro
+## <a name="workbooks"></a>Workbooks
 Le cartelle di lavoro sono un tipo speciale di set di dati. Se la sezione **Set di dati** precedente è stata letta, si conoscerà già tutto ciò che serve sapere sulle cartelle di lavoro. Tuttavia, ci si potrebbe chiedere perché a volte Power BI classifica una cartella di lavoro di Excel come un **set di dati** e altre volte come una **cartella di lavoro**.
 
 Quando nei file di Excel si seleziona **Recupera dati**, è possibile scegliere l'opzione *Importa* o *Connetti* per recuperare i dati del file. Quando si sceglie Connetti, la cartella di lavoro viene visualizzata in Power BI esattamente come in Excel Online. A differenza di Excel Online, però, sono disponibili alcune utilissime funzionalità per aggiungere elementi dai fogli di lavoro direttamente ai dashboard.
@@ -170,7 +170,7 @@ Quando nei file di Excel si seleziona **Recupera dati**, è possibile scegliere 
 Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario apportare modifiche, fare clic su Modifica e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive.
 
 ### <a name="dig-deeper"></a>Approfondimento
-* [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md)
+* [Ottenere i dati dai file della cartella di lavoro di Excel](service-excel-workbook-files.md)
 * [Pubblicare in Power BI da Excel](service-publish-from-excel.md)
 
 
@@ -198,7 +198,7 @@ Fare clic su questi elementi:
 * una freccia destra (>) per aprire il menu a comparsa per Preferiti, Recenti e Aree di lavoro.
 * un'icona di freccia di espansione per visualizzare l'elenco scorrevole di dashboard, report, cartelle di lavoro e set di dati nell'**Area di lavoro personale**.
 
-### <a name="2-canvas"></a>2. **Area di disegno**
+### <a name="2-canvas"></a>2. **Canvas**
 Poiché è stato aperto un dashboard, nell'area di disegno vengono mostrati riquadri di visualizzazione. Se, ad esempio, fosse stato aperto l'editor di report, l'area di disegno mostrerebbe una pagina del report.
 
 I dashboard sono costituiti da [riquadri](service-dashboard-tiles.md),  che vengono creati nella Visualizzazione di modifica dei report, Domande e risposte, altri dashboard e possono essere aggiunti da Excel, SSRS e così via. Un tipo speciale di riquadro chiamato [widget](service-dashboard-add-widget.md) viene aggiunto direttamente al dashboard. I riquadri visualizzati in un dashboard sono stati inseriti specificamente dall'autore o dal proprietario di un report,  con un'operazione nota come *aggiunta*.

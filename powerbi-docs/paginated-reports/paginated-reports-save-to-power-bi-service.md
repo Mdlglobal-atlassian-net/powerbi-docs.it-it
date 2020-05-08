@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921609"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781617"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Pubblicare un report impaginato nel servizio Power BI
 
@@ -85,7 +85,7 @@ Se accanto al nome dell'area di lavoro non è presente l'icona a forma di diaman
 
 1. Configurare le credenziali > **Accedi**.
 
-    ![Modifica credenziali](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
+    ![Modificare le credenziali](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
    Il report verrà visualizzato nella scheda **Report**.
 
@@ -107,9 +107,6 @@ Come qualsiasi altro report di Power BI, se l'origine dati del report è in loca
 
 1. Per informazioni dettagliate e i passaggi successivi, vedere l'articolo sul servizio Power BI [Informazioni sul gateway dati locale](../service-gateway-onprem.md).
 
-### <a name="gateway-limitations"></a>Limitazioni dei gateway
-
-Attualmente i gateway non supportano parametri multivalore.
 
 
 ## <a name="next-steps"></a>Passaggi successivi

@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525561"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>"Nuovo aspetto": dove sono le azioni?
@@ -27,7 +27,7 @@ Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la bar
 |Azione  |Nuovo aspetto disattivato  |Nuovo aspetto attivato  |
 |---------|---------|---------|
 | Salva con nome | File > Salva con nome  | Barra dei menu - Altre opzioni (...) > Salva una copia |
-| Stampa | File > Stampa | Esporta > Stampa |
+| Print | File > Stampa | Esporta > Stampa |
 | Incorpora in modo sicuro | File > Incorpora | Barra dei menu - Altre opzioni (...) > Incorpora > Sito Web o portale |
 | Incorpora in SharePoint Online | File > Incorpora in SharePoint Online | Barra dei menu - Altre opzioni (...) > Incorpora > SharePoint Online |
 | Pubblica sul Web | File > Pubblica sul Web | Barra dei menu - Altre opzioni (...) > Incorpora > Pubblica sul Web (pubblico) |

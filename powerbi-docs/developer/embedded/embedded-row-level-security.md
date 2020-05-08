@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550963"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
@@ -31,8 +31,8 @@ Per sfruttare al meglio la sicurezza a livello di riga, è importante comprender
 
 **Ruoli**: gli utenti appartengono a ruoli. Un ruolo è un contenitore di regole e può essergli assegnato un nome simile a *Responsabile vendite* o *Rappresentante vendite*. I ruoli vengono creati in Power BI Desktop. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI Desktop](../../desktop-rls.md).
 
-**Regole**: i ruoli contengono regole e tali regole costituiscono i filtri effettivi che verranno applicati ai dati. Le regole possono essere semplici, ad esempio "Paese = USA", oppure molto più dinamiche.
-La parte rimanente di questo articolo offre un esempio di creazione di sicurezza a livello di riga e del relativo utilizzo in un'applicazione incorporata. In questo esempio viene usato il file PBIX [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547).
+**Regole** : i ruoli hanno regole e tali regole sono i filtri effettivi che vengono applicati ai dati. Le regole possono essere semplici, ad esempio "Paese = USA", oppure molto più dinamiche.
+La parte rimanente di questo articolo offre un esempio di creazione di sicurezza a livello di riga e del relativo utilizzo in un'applicazione incorporata. Il nostro esempio usa il file PBIX [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547) .
 
 ![Esempio di report](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -46,10 +46,10 @@ La sicurezza a livello di riga viene creata in Power BI Desktop. All'apertura de
 
 Alcuni aspetti da notare in questo schema:
 
-* Tutte le misure, ad esempio **Total Sales**, sono archiviate nella tabella dei fatti **Sales**.
+* Tutte le misure, ad esempio **Vendite totali**, sono archiviate nella tabella dei fatti **Vendite**.
 * Sono presenti altre quattro tabelle delle dimensioni correlate: **Item**, **Time**, **Store** e **District**.
-* Le frecce sulle linee delle relazioni indicano la direzione in cui i filtri possono essere applicati da una tabella all'altra. Ad esempio, se un filtro è posizionato su **Time[Date]** , nello schema corrente verrebbero filtrati solo i valori presenti nella tabella **Sales**. Questo filtro non influisce su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
-* La tabella **District** indica il responsabile per ogni area:
+* Le frecce sulle linee relative alle relazioni indicano il modo in cui i filtri possono essere applicati da una tabella a un'altra. Se, ad esempio, si posiziona un filtro su **Tempo[Data]** , nello schema corrente verrebbero filtrati solo i valori della tabella **Vendite**. Questo filtro non influisce su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
+* La tabella **District** indica il manager per ogni area:
   
     ![Righe all'interno della tabella District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
@@ -72,7 +72,7 @@ Ecco come:
 
     Nei report vengono visualizzati i dati come se l'accesso fosse stato eseguito come **AndrewMa**.
 
-Applicando il filtro, come in questa procedura, vengono filtrati tutti i record nelle tabelle **District**, **Store** e **Sales**. Tuttavia, a causa della direzione del filtro sulle relazioni tra le tabelle **Sales** e **Time** e **Sales** e **Item**, le tabelle **Item** e **Time** non vengono filtrate. Per altre informazioni sui filtri incrociati bidirezionali, scaricare il white paper [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Filtri incrociati bidirezionali in SQL Server Analysis Services 2016 e Power BI Desktop).
+Se si applica il filtro come indicato in questa sezione, vengono filtrati tutti i record delle tabelle **District**, **Store** e **Sales**. Tuttavia, a causa della direzione del filtro sulle relazioni tra le tabelle **Sales** e **Time** e **Sales** e **Item**, le tabelle **Item** e **Time** non vengono filtrate. Per altre informazioni sui filtri incrociati bidirezionali, scaricare il white paper [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Filtro incrociato bidirezionale in SQL Server Analysis Services 2016 e Power BI Desktop).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Applicazione di utente e ruolo a un token di incorporamento
 
@@ -83,7 +83,7 @@ Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di inco
 L'API accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, è necessario passare quanto segue come parte dell'identità.
 
 * **username (obbligatorio)** : stringa che può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente. Il nome utente può essere creato con i caratteri *ASCII*.
-* **roles (obbligatoria)** : stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
+* **roles (obbligatoria)** : stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, è consigliabile passarli come matrice di stringhe.
 * **dataset (obbligatorio)** : set di dati applicabile per l'artefatto che verrà incorporato.
 
 Per creare il token di incorporamento, usare il metodo **GenerateTokenInGroup** su **PowerBIClient.Reports**.
@@ -257,7 +257,7 @@ Questi problemi di identità effettiva si applicano alle regole di sicurezza a l
 
 L'identità basata su token funziona solo per i modelli DirectQuery su capacità dedicata, connessa a un database SQL di Azure configurato per consentire l'autenticazione di AAD ([altre informazioni sull'autenticazione di AAD per il database SQL di Azure](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). L'origine dati del set di dati deve essere configurata per usare le credenziali OAuth2 degli utenti finali, per usare un'identità basata su token.
 
-   ![Configurare SQL Server di Azure](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+   ![Configurare il server SQL di Azure](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
 ### <a name="token-based-identity-sdk-additions"></a>Aggiunte dell'SDK per l'identità basata su token
 
@@ -310,7 +310,7 @@ Il valore specificato nel BLOB di identità deve essere un token di accesso vali
    > [!Note]
    > Per poter creare un token di accesso per SQL di Azure, l'applicazione deve avere autorizzazioni delegate per l'**accesso a database SQL di Azure e ad Azure Data Warehouse** per l'API di **database SQL di Azure** nella configurazione di registrazione dell'app AAD nel portale di Azure.
 
-   ![Registrazione dell'app](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+   ![Registrazione delle app](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Gateway dati locale con entità servizio
 
@@ -324,7 +324,7 @@ Per abilitare questo scenario, l'amministratore del gateway usa l'[API REST Add 
 
 Non è possibile impostare questa autorizzazione tramite il portale di amministrazione. Questa autorizzazione può essere impostata solo tramite l'API. Nel portale di amministrazione viene visualizzata un'indicazione per utenti e SPN con queste autorizzazioni.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
 * Il servizio Power BI non applica l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione viene applicata ai dati.

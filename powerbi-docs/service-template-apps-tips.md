@@ -1,19 +1,19 @@
 ---
 title: Suggerimenti per la creazione di app modello in Power BI
 description: Suggerimenti per la creazione di query, modelli di dati, report e dashboard per app modello efficaci
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066283"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781295"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -142,22 +142,8 @@ Dopo la pubblicazione dell'app modello in AppSource, provare a creare un collega
 * Power BI: può essere visualizzato da un utente di Power BI.
 
 Per reindirizzare un utente al collegamento di download dell'app in Power BI, vedere l'esempio di codice seguente: [Repository GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+
 [![Collegamento di download dell'app](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>Limitazioni note
-
-| Feature | Limitazione nota |
-|---------|---------|
-|Contenuto:  Set di dati   | È necessario che sia presente un solo set di dati. Sono consentiti solo i set di dati creati in Power BI Desktop (file con estensione pbix). <br>Non supportati: Set di dati di altre app modello, set di dati di più aree di lavoro, report impaginati (file con estensione rdl), cartelle di lavoro di Excel, metadati dei set di dati avanzati |
-|Contenuto: Dashboard | Non sono consentiti riquadri in tempo reale (in altre parole, non è disponibile il supporto per set di dati di push o di streaming) |
-|Contenuto: Flussi di dati | Non supportati: Flussi di dati |
-|Contenuti dei file | Sono supportati solo i file PBIX. <br>Non supportati: file con estensione rdl (report impaginati), cartelle di lavoro di Excel   |
-| Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
-| Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
-| Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
-| Oggetti visivi di Power BI | Sono supportati solo gli oggetti visivi di Power BI disponibili pubblicamente. Gli [oggetti visivi di Power BI dell'organizzazione](developer/visuals/power-bi-custom-visuals-organization.md) non sono supportati |
 
 ## <a name="next-steps"></a>Passaggi successivi
 

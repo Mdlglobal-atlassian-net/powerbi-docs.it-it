@@ -10,10 +10,10 @@ ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006711"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informazioni sull'uso di DirectQuery in Power BI
@@ -139,7 +139,7 @@ Inoltre, la query ottenuta dalla finestra di dialogo **Recupera dati** o dall'ed
 
 ### <a name="modeling-limitations"></a>Limitazioni di modellazione
 
-In questo contesto il termine *modellazione* indica l'azione di modifica e arricchimento dei dati non elaborati, nell'ambito della creazione di un report che usa tali dati. Alcuni esempi:
+In questo contesto il termine *modellazione* indica l'azione di modifica e arricchimento dei dati non elaborati, nell'ambito della creazione di un report che usa tali dati. Tra gli esempi sono inclusi:
 
 * Definizione di relazioni tra tabelle
 * Aggiunta di nuovi calcoli (colonne calcolate e misure)
@@ -351,7 +351,7 @@ Per impostazione predefinita, Power BI Desktop registra gli eventi di una sessio
 Per alcune origini DirectQuery, questo log include tutte le query inviate all'origine dati sottostante. Le origini DirectQuery rimanenti verranno incluse in futuro. Le origini che inviano query al log sono le seguenti:
 
 * SQL Server
-* Database SQL di Azure
+* database SQL di Azure
 * Azure SQL Data Warehouse
 * Oracle
 * Teradata
@@ -398,8 +398,8 @@ Di seguito sono riportate altre colonne di interesse:
 
 * **TextData:** dettagli testuali dell'evento. I dettagli degli eventi `Query Begin/End` costituiscono la query DAX. I dettagli degli eventi `DirectQuery Begin/End` costituiscono la query SQL inviata all'origine sottostante. Nell'area in basso viene anche visualizzato l'elemento **TextData** per l'evento selezionato.
 * **EndTime:** data/ora in cui l'evento è terminato.
-* **Duration:** tempo in millisecondi impiegato per eseguire la query DAX o SQL.
-* **Error:** indica se si è verificato un errore. In quel caso l'evento verrà anche visualizzato in rosso.
+* **Durata:** tempo in millisecondi impiegato per eseguire la query DAX o SQL.
+* **Errore:** indica se si è verificato un errore. In quel caso l'evento verrà anche visualizzato in rosso.
 
 Nell'immagine precedente alcune delle colonne meno interessanti sono state ristrette per consentire una visualizzazione più agevole di altre colonne.
 
@@ -434,7 +434,7 @@ Power BI usa questo modello perché la query SQL usata può essere fornita diret
 
 Questo articolo descrive aspetti di DirectQuery comuni a tutte le origini dati. Alcuni dettagli sono specifici delle singole origini. Vedere gli articoli seguenti relativi a origini specifiche:
 
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
 
 Per altre informazioni su DirectQuery, vedere la risorsa seguente:

@@ -13,13 +13,13 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80516400"
 landingContent:
-- title: Inizia
+- title: Introduzione
   linkLists:
   - linkListType: get-started
     links:
@@ -31,7 +31,7 @@ landingContent:
       url: walkthrough-push-data.md
     - text: "Esercitazione: Ottenere un token di accesso per l'autenticazione"
       url: walkthrough-push-data-get-token.md
-    - text: 'Esercitazione: Crea un set di dati'
+    - text: 'Esercitazione: Creare un set di dati'
       url: walkthrough-push-data-create-dataset.md
     - text: Ottenere un set di dati per aggiungere righe
       url: walkthrough-push-data-get-datasets.md
@@ -45,7 +45,7 @@ landingContent:
       url: api-automatic-retention-policy-for-real-time-data.md
     - text: Limitazioni dell'API REST di Power BI
       url: api-rest-api-limitations.md
-    - text: Proprietà dei set di dati
+    - text: Proprietà del set di dati
       url: api-dataset-properties.md
   - linkListType: how-to-guide
     links:

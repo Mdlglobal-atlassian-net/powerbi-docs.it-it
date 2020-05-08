@@ -1,19 +1,19 @@
 ---
 title: Esempi di app modello
 description: Esempi per l'uso personale o la ridistribuzione come app Power BI di AppSource
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/01/2020
-ms.author: tebercov
-ms.openlocfilehash: 2402487bde2632a81a03f9a052777dba7277e445
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: d87f06ce9da57c278478e78b2bbb47bcbbaf758b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622374"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82780973"
 ---
 # <a name="template-apps-samples"></a>Esempi di app modello
 
