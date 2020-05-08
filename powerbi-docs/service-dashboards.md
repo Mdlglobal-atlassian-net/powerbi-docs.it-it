@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160789"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
@@ -53,12 +53,12 @@ I [report](service-reports.md) e i dashboard appaiono simili poiché sono entram
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
 | Disponibile in Power BI Desktop |No | Sì. È possibile creare e visualizzare i report in Power BI Desktop |
 | Sottoscrivi |Sì. È possibile sottoscrivere un dashboard |Sì. È possibile sottoscrivere una pagina di un report |
-| Filtro |No. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
+| Filtro |N. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
 | In primo piano |Sì. È possibile impostare un dashboard come *in primo piano* |No |
-| Aggiungi a Preferiti | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
+| Preferito | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
 | Impostazione di avvisi |Sì. Disponibile per i riquadri del dashboard in determinate circostanze |No |
-| Query in linguaggio naturale (Domande e risposte) |Sì | Sì, purché si disponga delle autorizzazioni di modifica per il report e per il set di dati sottostante |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati, ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì |
+| Query in linguaggio naturale (Domande e risposte) |Yes | Sì, purché si disponga delle autorizzazioni di modifica per il report e per il set di dati sottostante |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |N. È possibile esportare i dati, ma le tabelle e i campi nel dashboard stesso non sono visibili. |Yes |
 
 
 ## <a name="next-steps"></a>Passaggi successivi

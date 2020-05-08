@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537233"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Abilitare le etichette di riservatezza dei dati in Power BI (anteprima)
@@ -52,7 +52,7 @@ Nella sezione **Information Protection** seguire questa procedura:
 > Solo gli utenti di Power BI Pro che dispongono delle autorizzazioni di *creazione* e *modifica* sull'asset, e che fanno parte del gruppo di sicurezza appropriato impostato in questa sezione, possono impostare e modificare le etichette di riservatezza. Queste operazioni non sono consentite agli utenti che non fanno parte di questo gruppo. 
 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 In Power BI vengono usate le etichette di riservatezza di Microsoft Information Protection. Se pertanto viene restituito un messaggio di errore quando si tenta di abilitare le etichette di riservatezza, il problema può essere dovuto a uno dei motivi seguenti:
 
@@ -60,7 +60,7 @@ In Power BI vengono usate le etichette di riservatezza di Microsoft Information 
 * Non è stata eseguita la migrazione delle etichette di riservatezza alla versione di Microsoft Information Protection supportata da Power BI. Per altre informazioni, vedere [Migrazione di etichette di riservatezza](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 * Nell'organizzazione non è stata definita alcuna etichetta di riservatezza di Microsoft Information Protection. Inoltre, per essere utilizzabile, un'etichetta deve far parte di un criterio pubblicato. [Vedere altre informazioni sulle etichette di riservatezza](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) o visitare il [Centro sicurezza e conformità Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) per informazioni su come definire le etichette e pubblicare i criteri per l'organizzazione.
 
-## <a name="licensing"></a>Gestione delle licenze
+## <a name="licensing"></a>Licenze
 
 * Per visualizzare o applicare le etichette di Microsoft Information Protection in Power BI gli utenti devono avere una licenza Premium P1 o Premium P2 di Azure Information Protection. È possibile acquistare una licenza di Microsoft Azure Information Protection autonoma o inclusa in uno dei gruppi di licenze Microsoft. Per informazioni dettagliate, vedere [Prezzi di Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
 * Per applicare etichette agli asset di Power BI, gli utenti devono disporre di una licenza di Power BI Pro.

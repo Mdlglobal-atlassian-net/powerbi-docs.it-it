@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75498738"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Riferimenti a colonne e misure
@@ -49,7 +49,7 @@ Una misura è un oggetto a livello di modello. Per questo motivo, i nomi delle m
 
 Si consiglia di non specificare mai riferimenti alle misure completi. I motivi sono riportati nella sezione [Raccomandazioni](#recommendations).
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 Queste raccomandazioni sono semplici e facili da ricordare:
 
@@ -66,5 +66,5 @@ Ecco perché:
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

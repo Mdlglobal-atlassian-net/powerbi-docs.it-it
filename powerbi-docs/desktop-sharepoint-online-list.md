@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 4fd350ae5d4a916e6753f7cd66e1fca52137efd5
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75925650"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Creare un report in un elenco SharePoint
@@ -56,7 +56,7 @@ Guardare questo video di esercitazione di cinque minuti o scorrere verso il bass
 
 10. Selezionare **Carica**.  Power BI carica i dati dell'elenco in un nuovo report.
 
-## <a name="part-2-create-a-report"></a>Parte 2: Creare un report.
+## <a name="part-2-create-a-report"></a>Parte 2: Creare un report
 
 1. Sul lato sinistro selezionare l'icona **Dati** per verificare che i dati dell'elenco SharePoint siano stati caricati.
 

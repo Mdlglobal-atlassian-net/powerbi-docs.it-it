@@ -11,10 +11,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762348"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Creare oggetti visivi usando pacchetti R nel servizio Power BI
@@ -75,7 +75,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |backports|1.1.2|https://cran.r-project.org/web/packages/backports/index.html|
 |BaM|1.0.1|https://cran.r-project.org/web/packages/BaM/index.html|
 |BAS|1.4.9|https://cran.r-project.org/web/packages/BAS/index.html|
-|base|3.4.4|N/D|
+|base|3.4.4|ND|
 |base2grob|0.0.2|https://cran.r-project.org/web/packages/base2grob/index.html|
 |base64|2.0|https://cran.r-project.org/web/packages/base64/index.html|
 |base64enc|0.1-3|https://cran.r-project.org/web/packages/base64enc/index.html|
@@ -118,7 +118,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |BLR|1.4|https://cran.r-project.org/web/packages/BLR/index.html|
 |BMA|3.18.8|https://cran.r-project.org/web/packages/BMA/index.html|
 |Bmix|0,6|https://cran.r-project.org/web/packages/Bmix/index.html|
-|bmp|0.3|https://cran.r-project.org/web/packages/bmp/index.html|
+|bmp|0,3|https://cran.r-project.org/web/packages/bmp/index.html|
 |BMS|0.3.4|https://cran.r-project.org/web/packages/BMS/index.html|
 |bnlearn|4.3|https://cran.r-project.org/web/packages/bnlearn/index.html|
 |boa|1.1.8-2|https://cran.r-project.org/web/packages/boa/index.html|
@@ -137,7 +137,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |BVS|4.12.1|https://cran.r-project.org/web/packages/BVS/index.html|
 |C50|0.1.1|https://cran.r-project.org/web/packages/C50/index.html|
 |Cairo|1.5-9|https://cran.r-project.org/web/packages/Cairo/index.html|
-|cairoDevice|2.24|https://cran.r-project.org/web/packages/cairoDevice/index.html|
+|cairoDevice|2,24|https://cran.r-project.org/web/packages/cairoDevice/index.html|
 |calibrate|1.7.2|https://cran.r-project.org/web/packages/calibrate/index.html|
 |calibrator|1.2-6|https://cran.r-project.org/web/packages/calibrator/index.html|
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
@@ -155,7 +155,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |chron|2.3-52|https://cran.r-project.org/web/packages/chron/index.html|
 |circlize|0.4.3|https://cran.r-project.org/web/packages/circlize/index.html|
 |Ckmeans.1d.dp|4.2.1|https://cran.r-project.org/web/packages/Ckmeans.1d.dp/index.html|
-|classe|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
+|class|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
 |classInt|0.1-24|https://cran.r-project.org/web/packages/classInt/index.html|
 |cli|1.0.0|https://cran.r-project.org/web/packages/cli/index.html|
 |ClickClust|1.1.5|https://cran.r-project.org/web/packages/ClickClust/index.html|
@@ -173,12 +173,12 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |colorspace|1.3-2|https://cran.r-project.org/web/packages/colorspace/index.html|
 |combinat|0.0-8|https://cran.r-project.org/web/packages/combinat/index.html|
 |commonmark|1.4|https://cran.r-project.org/web/packages/commonmark/index.html|
-|compiler|3.4.4|N/D|
+|compiler|3.4.4|ND|
 |compositions|1.40-1|https://cran.r-project.org/web/packages/compositions/index.html|
 |CORElearn|1.52.0|https://cran.r-project.org/web/packages/CORElearn/index.html|
 |corpcor|1.6.9|https://cran.r-project.org/web/packages/corpcor/index.html|
 |corrgram|1.12|https://cran.r-project.org/web/packages/corrgram/index.html|
-|corrplot|0.84|https://cran.r-project.org/web/packages/corrplot/index.html|
+|corrplot|0,84|https://cran.r-project.org/web/packages/corrplot/index.html|
 |covr|3.0.1|https://cran.r-project.org/web/packages/covr/index.html|
 |cowplot|0.9.2|https://cran.r-project.org/web/packages/cowplot/index.html|
 |cplm|0.7-5|https://cran.r-project.org/web/packages/cplm/index.html|
@@ -197,8 +197,8 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
-|set di dati|3.4.4|N/D|
-|data|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|set di dati|3.4.4|ND|
+|Data|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0,8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -210,14 +210,14 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |deldir|0.1-14|https://cran.r-project.org/web/packages/deldir/index.html|
 |dendextend|1.12.0|https://cran.r-project.org/web/packages/dendextend/index.html|
 |DEoptimR|1.0-8|https://cran.r-project.org/web/packages/DEoptimR/index.html|
-|deployrRserve|9.0.0|N/D|
+|deployrRserve|9.0.0|ND|
 |Deriv|3.8.4|https://cran.r-project.org/web/packages/Deriv/index.html|
 |desc|1.1.1|https://cran.r-project.org/web/packages/desc/index.html|
 |descr|1.1.4|https://cran.r-project.org/web/packages/descr/index.html|
 |deSolve|1.20|https://cran.r-project.org/web/packages/deSolve/index.html|
 |devtools|1.13.5|https://cran.r-project.org/web/packages/devtools/index.html|
 |DiagrammeR|1.0.0|https://cran.r-project.org/web/packages/DiagrammeR/index.html|
-|DiagrammeRsvg|0.1|https://cran.r-project.org/web/packages/DiagrammeRsvg/index.html|
+|DiagrammeRsvg|0,1|https://cran.r-project.org/web/packages/DiagrammeRsvg/index.html|
 |dichromat|2.0-0|https://cran.r-project.org/web/packages/dichromat/index.html|
 |digest|0.6.15|https://cran.r-project.org/web/packages/digest/index.html|
 |dimRed|0.1.0|https://cran.r-project.org/web/packages/dimRed/index.html|
@@ -250,7 +250,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |ellipse|0.4.1|https://cran.r-project.org/web/packages/ellipse/index.html|
 |ellipsis|0.1.0|https://cran.r-project.org/web/packages/ellipsis/index.html|
 |emmeans|1.1.2|https://cran.r-project.org/web/packages/emmeans/index.html|
-|emulator|1.2-15|https://cran.r-project.org/web/packages/emulator/index.html|
+|emulatore|1.2-15|https://cran.r-project.org/web/packages/emulator/index.html|
 |energy|1.7-2|https://cran.r-project.org/web/packages/energy/index.html|
 |english|1.2-3|https://cran.r-project.org/web/packages/english/index.html|
 |ensembleBMA|5.1.5|https://cran.r-project.org/web/packages/ensembleBMA/index.html|
@@ -297,7 +297,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |fontquiver|0.2.1|https://cran.r-project.org/web/packages/fontquiver/index.html|
 |forcats|0.3.0|https://cran.r-project.org/web/packages/forcats/index.html|
 |foreach|1.4.4|https://cran.r-project.org/web/packages/foreach/index.html|
-|forecast|8.7|https://cran.r-project.org/web/packages/forecast/index.html|
+|previsione|8.7|https://cran.r-project.org/web/packages/forecast/index.html|
 |forecastHybrid|2.1.11|https://cran.r-project.org/web/packages/forecastHybrid/index.html|
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
@@ -351,10 +351,10 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |ggraph|1.0.1|https://cran.r-project.org/web/packages/ggraph/index.html|
 |ggrepel|0.7.0|https://cran.r-project.org/web/packages/ggrepel/index.html|
 |ggridges|0.4.1|https://cran.r-project.org/web/packages/ggridges/index.html|
-|ggsci|2,8|https://cran.r-project.org/web/packages/ggsci/index.html|
+|ggsci|2.8|https://cran.r-project.org/web/packages/ggsci/index.html|
 |ggsignif|0.4.0|https://cran.r-project.org/web/packages/ggsignif/index.html|
 |ggsoccer|0.1.4|https://cran.r-project.org/web/packages/ggsoccer/index.html|
-|ggstance|0.3|https://cran.r-project.org/web/packages/ggstance/index.html|
+|ggstance|0,3|https://cran.r-project.org/web/packages/ggstance/index.html|
 |ggtern|2.2.1|https://cran.r-project.org/web/packages/ggtern/index.html|
 |ggthemes|3.4.0|https://cran.r-project.org/web/packages/ggthemes/index.html|
 |gistr|0.4.0|https://cran.r-project.org/web/packages/gistr/index.html|
@@ -373,9 +373,9 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|graphics|3.4.4|N/D|
-|grDevices|3.4.4|N/D|
-|grid|3.4.4|N/D|
+|graphics|3.4.4|ND|
+|grDevices|3.4.4|ND|
+|griglia|3.4.4|ND|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
 |gridExtra|2.3|https://cran.r-project.org/web/packages/gridExtra/index.html|
 |gridGraphics|0.2-1|https://cran.r-project.org/web/packages/gridGraphics/index.html|
@@ -383,7 +383,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |grpreg|3.1-2|https://cran.r-project.org/web/packages/grpreg/index.html|
 |gss|2.1-7|https://cran.r-project.org/web/packages/gss/index.html|
 |gstat|1.1-5|https://cran.r-project.org/web/packages/gstat/index.html|
-|gsubfn|0.7|https://cran.r-project.org/web/packages/gsubfn/index.html|
+|gsubfn|0,7|https://cran.r-project.org/web/packages/gsubfn/index.html|
 |gtable|0.2.0|https://cran.r-project.org/web/packages/gtable/index.html|
 |gtools|3.5.0|https://cran.r-project.org/web/packages/gtools/index.html|
 |gtrendsR|1.4.3|https://cran.r-project.org/web/packages/gtrendsR/index.html|
@@ -399,7 +399,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |heatmaply|0.16.0|https://cran.r-project.org/web/packages/heatmaply/index.html|
 |heavy|0.38.19|https://cran.r-project.org/web/packages/heavy/index.html|
 |hexbin|1.27.2|https://cran.r-project.org/web/packages/hexbin/index.html|
-|hflights|0.1|https://cran.r-project.org/web/packages/hflights/index.html|
+|hflights|0,1|https://cran.r-project.org/web/packages/hflights/index.html|
 |HH|3.1-34|https://cran.r-project.org/web/packages/HH/index.html|
 |HI|0,4|https://cran.r-project.org/web/packages/HI/index.html|
 |highcharter|0.5.0|https://cran.r-project.org/web/packages/highcharter/index.html|
@@ -416,7 +416,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |httpuv|1.3.6.2|https://cran.r-project.org/web/packages/httpuv/index.html|
 |httr|1.3.1|https://cran.r-project.org/web/packages/httr/index.html|
 |huge|1.2.7|https://cran.r-project.org/web/packages/huge/index.html|
-|hunspell|2.9|https://cran.r-project.org/web/packages/hunspell/index.html|
+|hunspell|2,9|https://cran.r-project.org/web/packages/hunspell/index.html|
 |IBrokers|0.9-12|https://cran.r-project.org/web/packages/IBrokers/index.html|
 |ifultools|2.0-4|https://cran.r-project.org/web/packages/ifultools/index.html|
 |igraph|1.2.1|https://cran.r-project.org/web/packages/igraph/index.html|
@@ -427,18 +427,18 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |inum|1.0-0|https://cran.r-project.org/web/packages/inum/index.html|
 |ipred|0.9-6|https://cran.r-project.org/web/packages/ipred/index.html|
 |irlba|2.3.2|https://cran.r-project.org/web/packages/irlba/index.html|
-|irr|0.84|https://cran.r-project.org/web/packages/irr/index.html|
+|irr|0,84|https://cran.r-project.org/web/packages/irr/index.html|
 |ISOcodes|2017.09.27|https://cran.r-project.org/web/packages/ISOcodes/index.html|
 |iterators|1.0.9|https://cran.r-project.org/web/packages/iterators/index.html|
 |janeaustenr|0.1.5|https://cran.r-project.org/web/packages/janeaustenr/index.html|
 |janitor|1.0.0|https://cran.r-project.org/web/packages/janitor/index.html|
-|jpeg|0.1-8|https://cran.r-project.org/web/packages/jpeg/index.html|
+|JPEG|0.1-8|https://cran.r-project.org/web/packages/jpeg/index.html|
 |jqr|1.0.0|https://cran.r-project.org/web/packages/jqr/index.html|
 |jsonlite|1.5|https://cran.r-project.org/web/packages/jsonlite/index.html|
 |jsonvalidate|1.0.0|https://cran.r-project.org/web/packages/jsonvalidate/index.html|
 |jtools|0.9.4|https://cran.r-project.org/web/packages/jtools/index.html|
 |kableExtra|0.7.0|https://cran.r-project.org/web/packages/kableExtra/index.html|
-|Kendall|2,2|https://cran.r-project.org/web/packages/Kendall/index.html|
+|Kendall|2.2|https://cran.r-project.org/web/packages/Kendall/index.html|
 |kernlab|0.9-25|https://cran.r-project.org/web/packages/kernlab/index.html|
 |KernSmooth|2.23-15|https://cran.r-project.org/web/packages/KernSmooth/index.html|
 |KFKSDS|1.6|https://cran.r-project.org/web/packages/KFKSDS/index.html|
@@ -449,7 +449,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |KMsurv|0.1-5|https://cran.r-project.org/web/packages/KMsurv/index.html|
 |knitr|1.20|https://cran.r-project.org/web/packages/knitr/index.html|
 |ks|1.11.0|https://cran.r-project.org/web/packages/ks/index.html|
-|labeling|0.3|https://cran.r-project.org/web/packages/labeling/index.html|
+|labeling|0,3|https://cran.r-project.org/web/packages/labeling/index.html|
 |labelled|1.0.1|https://cran.r-project.org/web/packages/labelled/index.html|
 |laeken|0.4.6|https://cran.r-project.org/web/packages/laeken/index.html|
 |Lahman|6.0-0|https://cran.r-project.org/web/packages/Lahman/index.html|
@@ -496,7 +496,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |maptools|0.9-2|https://cran.r-project.org/web/packages/maptools/index.html|
 |maptree|1.4-7|https://cran.r-project.org/web/packages/maptree/index.html|
 |mapview|2.3.0|https://cran.r-project.org/web/packages/mapview/index.html|
-|marima|2,2|https://cran.r-project.org/web/packages/marima/index.html|
+|marima|2.2|https://cran.r-project.org/web/packages/marima/index.html|
 |markdown|0,8|https://cran.r-project.org/web/packages/markdown/index.html|
 |MASS|7.3-49|https://cran.r-project.org/web/packages/MASS/index.html|
 |MasterBayes|2.55|https://cran.r-project.org/web/packages/MasterBayes/index.html|
@@ -516,14 +516,14 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |mda|0.4-10|https://cran.r-project.org/web/packages/mda/index.html|
 |memoise|1.1.0|https://cran.r-project.org/web/packages/memoise/index.html|
 |merTools|0.3.0|https://cran.r-project.org/web/packages/merTools/index.html|
-|methods|3.4.4|N/D|
+|methods|3.4.4|ND|
 |metricsgraphics|0.9.0|https://cran.r-project.org/web/packages/metricsgraphics/index.html|
 |mgcv|1.8-23|https://cran.r-project.org/web/packages/mgcv/index.html|
 |mgsub|1.7.1|https://cran.r-project.org/web/packages/mgsub/index.html|
 |mi|1.0|https://cran.r-project.org/web/packages/mi/index.html|
 |mice|2.46.0|https://cran.r-project.org/web/packages/mice/index.html|
 |microbenchmark|1.4-4|https://cran.r-project.org/web/packages/microbenchmark/index.html|
-|MicrosoftR|3.4.4.0105|N/D|
+|MicrosoftR|3.4.4.0105|ND|
 |mime|0.5|https://cran.r-project.org/web/packages/mime/index.html|
 |miniCRAN|0.2.11|https://cran.r-project.org/web/packages/miniCRAN/index.html|
 |miniUI|0.1.1|https://cran.r-project.org/web/packages/miniUI/index.html|
@@ -581,15 +581,15 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |outliers|0.14|https://cran.r-project.org/web/packages/outliers/index.html|
 |pacbpred|0.92.2|https://cran.r-project.org/web/packages/pacbpred/index.html|
 |padr|0.4.0|https://cran.r-project.org/web/packages/padr/index.html|
-|parallel|3.4.4|N/D|
-|partitions|1.9-19|https://cran.r-project.org/web/packages/partitions/index.html|
+|parallelo|3.4.4|ND|
+|partizioni|1.9-19|https://cran.r-project.org/web/packages/partitions/index.html|
 |party|1.2-4|https://cran.r-project.org/web/packages/party/index.html|
 |partykit|1.2-0|https://cran.r-project.org/web/packages/partykit/index.html|
 |PAWL|0.5|https://cran.r-project.org/web/packages/PAWL/index.html|
 |pbapply|1.3-4|https://cran.r-project.org/web/packages/pbapply/index.html|
 |pbivnorm|0.6.0|https://cran.r-project.org/web/packages/pbivnorm/index.html|
 |pbkrtest|0.4-7|https://cran.r-project.org/web/packages/pbkrtest/index.html|
-|PCAmixdata|3,1|https://cran.r-project.org/web/packages/PCAmixdata/index.html|
+|PCAmixdata|3.1|https://cran.r-project.org/web/packages/PCAmixdata/index.html|
 |pcaPP|1.9-73|https://cran.r-project.org/web/packages/pcaPP/index.html|
 |pdc|1.0.3|https://cran.r-project.org/web/packages/pdc/index.html|
 |PerformanceAnalytics|1.5.2|https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html|
@@ -697,20 +697,20 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |readxl|1.0.0|https://cran.r-project.org/web/packages/readxl/index.html|
 |recipes|0.1.2|https://cran.r-project.org/web/packages/recipes/index.html|
 |Redmonder|0.2.0|https://cran.r-project.org/web/packages/Redmonder/index.html|
-|registry|0.5|https://cran.r-project.org/web/packages/registry/index.html|
+|Registro di sistema|0.5|https://cran.r-project.org/web/packages/registry/index.html|
 |relaimpo|2.2-3|https://cran.r-project.org/web/packages/relaimpo/index.html|
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|report|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
 |reticulate|1.6|https://cran.r-project.org/web/packages/reticulate/index.html|
-|RevoIOQ|8.0.10|N/D|
-|RevoMods|11.0.0|N/D|
-|RevoUtils|10.0.9|N/D|
-|RevoUtilsMath|10.0.1|N/D|
+|RevoIOQ|8.0.10|ND|
+|RevoMods|11.0.0|ND|
+|RevoUtils|10.0.9|ND|
+|RevoUtilsMath|10.0.1|ND|
 |rex|1.1.2|https://cran.r-project.org/web/packages/rex/index.html|
 |rFerns|2.0.3|https://cran.r-project.org/web/packages/rFerns/index.html|
 |rfm|0.2.0|https://cran.r-project.org/web/packages/rfm/index.html|
@@ -759,7 +759,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |RSpectra|0.12-0|https://cran.r-project.org/web/packages/RSpectra/index.html|
 |RSQLite|2.1.0|https://cran.r-project.org/web/packages/RSQLite/index.html|
 |rstan|2.17.3|https://cran.r-project.org/web/packages/rstan/index.html|
-|rstudioapi|0.7|https://cran.r-project.org/web/packages/rstudioapi/index.html|
+|rstudioapi|0,7|https://cran.r-project.org/web/packages/rstudioapi/index.html|
 |rsvg|1.1|https://cran.r-project.org/web/packages/rsvg/index.html|
 |RTextTools|1.4.2|https://cran.r-project.org/web/packages/RTextTools/index.html|
 |Rttf2pt1|1.3.6|https://cran.r-project.org/web/packages/Rttf2pt1/index.html|
@@ -789,7 +789,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |sfsmisc|1.1-2|https://cran.r-project.org/web/packages/sfsmisc/index.html|
 |sgeostat|1.0-27|https://cran.r-project.org/web/packages/sgeostat/index.html|
 |shape|1.4.4|https://cran.r-project.org/web/packages/shape/index.html|
-|shapefiles|0.7|https://cran.r-project.org/web/packages/shapefiles/index.html|
+|shapefiles|0,7|https://cran.r-project.org/web/packages/shapefiles/index.html|
 |shiny|1.0.5|https://cran.r-project.org/web/packages/shiny/index.html|
 |shinyBS|0.61|https://cran.r-project.org/web/packages/shinyBS/index.html|
 |shinycssloaders|0.2.0|https://cran.r-project.org/web/packages/shinycssloaders/index.html|
@@ -808,7 +808,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |sm|2.2-5.4|https://cran.r-project.org/web/packages/sm/index.html|
 |smooth|2.4.1|https://cran.r-project.org/web/packages/smooth/index.html|
 |smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
-|sna|2,4|https://cran.r-project.org/web/packages/sna/index.html|
+|sna|2.4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
 |neve|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
 |SnowballC|0.5.1|https://cran.r-project.org/web/packages/SnowballC/index.html|
@@ -820,7 +820,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
-|spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
+|spaziale|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
 |spatstat|1.55-0|https://cran.r-project.org/web/packages/spatstat/index.html|
 |spatstat.data|1.2-0|https://cran.r-project.org/web/packages/spatstat.data/index.html|
 |spatstat.utils|1.8-0|https://cran.r-project.org/web/packages/spatstat.utils/index.html|
@@ -829,7 +829,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |spdep|0.7-4|https://cran.r-project.org/web/packages/spdep/index.html|
 |spikeslab|1.1.5|https://cran.r-project.org/web/packages/spikeslab/index.html|
 |splancs|2.01-40|https://cran.r-project.org/web/packages/splancs/index.html|
-|splines|3.4.4|N/D|
+|splines|3.4.4|ND|
 |spls|2.2-2|https://cran.r-project.org/web/packages/spls/index.html|
 |splus2R|1.2-2|https://cran.r-project.org/web/packages/splus2R/index.html|
 |spTimer|3.0-1|https://cran.r-project.org/web/packages/spTimer/index.html|
@@ -841,8 +841,8 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |StanHeaders|2.17.2|https://cran.r-project.org/web/packages/StanHeaders/index.html|
 |statmod|1.4.30|https://cran.r-project.org/web/packages/statmod/index.html|
 |statnet.common|4.0.0|https://cran.r-project.org/web/packages/statnet.common/index.html|
-|stats|3.4.4|N/D|
-|stats4|3.4.4|N/D|
+|Statistiche|3.4.4|ND|
+|stats4|3.4.4|ND|
 |stepPlr|0.93|https://cran.r-project.org/web/packages/stepPlr/index.html|
 |stochvol|1.3.3|https://cran.r-project.org/web/packages/stochvol/index.html|
 |stopwords|0.9.0|https://cran.r-project.org/web/packages/stopwords/index.html|
@@ -867,7 +867,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |systemfit|1.1-20|https://cran.r-project.org/web/packages/systemfit/index.html|
 |syuzhet|1.0.4|https://cran.r-project.org/web/packages/syuzhet/index.html|
 |tau|0.0-20|https://cran.r-project.org/web/packages/tau/index.html|
-|tcltk|3.4.4|N/D|
+|tcltk|3.4.4|ND|
 |tcltk2|1.2-11|https://cran.r-project.org/web/packages/tcltk2/index.html|
 |TeachingDemos|2,10|https://cran.r-project.org/web/packages/TeachingDemos/index.html|
 |tensor|1.5|https://cran.r-project.org/web/packages/tensor/index.html|
@@ -903,11 +903,11 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |tmaptools|1.2-3|https://cran.r-project.org/web/packages/tmaptools/index.html|
 |TMB|1.7.13|https://cran.r-project.org/web/packages/TMB/index.html|
 |tokenizers|0.2.1|https://cran.r-project.org/web/packages/tokenizers/index.html|
-|tools|3.4.4|N/D|
+|strumenti|3.4.4|ND|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
-|conversioni|3.4.4|N/D|
-|tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
+|conversioni|3.4.4|ND|
+|albero|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
 |mappa ad albero|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
@@ -931,9 +931,9 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |UsingR|2.0-5|https://cran.r-project.org/web/packages/UsingR/index.html|
 |usmap|0.2.1|https://cran.r-project.org/web/packages/usmap/index.html|
 |utf8|1.1.3|https://cran.r-project.org/web/packages/utf8/index.html|
-|utils|3.4.4|N/D|
+|utils|3.4.4|ND|
 |uuid|0.1-2|https://cran.r-project.org/web/packages/uuid/index.html|
-|V8|2,2|https://cran.r-project.org/web/packages/V8/index.html|
+|V8|2.2|https://cran.r-project.org/web/packages/V8/index.html|
 |vars|1.5-2|https://cran.r-project.org/web/packages/vars/index.html|
 |vcd|1.4-4|https://cran.r-project.org/web/packages/vcd/index.html|
 |vctrs|0.1.0|https://cran.r-project.org/web/packages/vctrs/index.html|

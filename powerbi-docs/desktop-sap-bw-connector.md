@@ -1,6 +1,6 @@
 ---
 title: Usare SAP Business Warehouse (BW) Connector in Power BI Desktop
-description: Usare SAP BW Connector in Power BI Desktop
+description: Usare il connettore SAP BW in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8e1f6c38af11c5bdf942a4dc3a20b4b5f0ec0601
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038877"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Usare SAP Business Warehouse Connector in Power BI Desktop
@@ -100,7 +100,7 @@ Creare una nuova connessione per usare l'implementazione 2.0 di SAP BW Connector
 
     ![Finestra di dialogo Connessione SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Seleziona **OK**. Dopo questa fase l'esperienza è identica a quella descritta in [Funzionalità della versione 1 di Connector per SAP BW](#version-1-sap-bw-connector-features) per SAP BW Connector versione 1.
+3. Selezionare **OK**. Dopo questa fase l'esperienza è identica a quella descritta in [Funzionalità della versione 1 di Connector per SAP BW](#version-1-sap-bw-connector-features) per SAP BW Connector versione 1.
 
 ### <a name="new-options-for-implementation-20"></a>Nuove opzioni per l'implementazione 2.0
 
@@ -225,7 +225,7 @@ Questa sezione include situazioni (e soluzioni) di risoluzione dei problemi per 
 
 La tabella seguente illustra il supporto corrente per SAP BW.
 
-|Product  |Modalità  |Autenticazione  |Connettore  |Libreria SNC  |Supportato  |
+|Prodotto  |Modalità  |Authentication  |Connettore  |Libreria SNC  |Supportato  |
 |---------|---------|---------|---------|---------|---------|
 |Power BI Desktop     |Qualsiasi         | Utente/Password  | Server applicazioni | N/D  | Sì  |
 |Power BI Desktop     |Qualsiasi         | Windows          | Server applicazioni | sapcrypto + gsskrb5/gx64krb5  | Sì  |
@@ -246,7 +246,7 @@ La tabella seguente illustra il supporto corrente per SAP BW.
 
 Per altre informazioni su SAP e DirectQuery, vedere le risorse seguenti:
 
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Origini dati di Power BI](desktop-directquery-data-sources.md)

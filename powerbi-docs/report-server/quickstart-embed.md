@@ -9,10 +9,10 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762601"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Incorporare un report di Server di report di Power BI in SharePoint Server usando un iFrame
@@ -49,7 +49,7 @@ Questo articolo illustra come incorporare un report di Server di report di Power
 
 Dopo aver acquisito l'URL, è possibile creare un iFrame all'interno di una pagina di SharePoint per ospitare il report. Per qualsiasi URL di report di Server di report di Power BI, aggiungere il parametro della stringa di query seguente per incorporare il report in un iFrame di SharePoint: `?rs:embed=true`.
 
-   ad esempio:
+   Ad esempio:
     ``` 
     https://myserver/reports/powerbi/Sales?rs:embed=true
     ```
@@ -83,7 +83,7 @@ Dopo aver acquisito l'URL, è possibile creare un iFrame all'interno di una pagi
 
     ![Codice iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
-     ad esempio:
+     Ad esempio:
      ```html
      <iframe width="800" height="600" src="https://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```

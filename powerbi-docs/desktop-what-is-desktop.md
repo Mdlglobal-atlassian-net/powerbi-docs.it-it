@@ -10,10 +10,10 @@ ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: bd95dfcc5d621b5ae4988e187d7cc6d9478feb58
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731145"
 ---
 # <a name="what-is-power-bi-desktop"></a>Che cos'è Power BI Desktop?
@@ -34,8 +34,8 @@ Gli utenti che si occupano di queste attività spesso sono chiamati *analisti di
 
 In Power BI Desktop sono disponibili tre viste, che è possibile selezionare sul lato sinistro dell'area di disegno. Le viste, nell'ordine in cui sono visualizzate, sono:
 * **Report**: in questa vista si creano report e oggetti visivi e ci si dedica alle attività di creazione.
-* **Dati**: in questa vista è possibile visualizzare le tabelle, le misure e altri dati usati nel modello di dati associato al report, nonché trasformare i dati per un uso ottimale nel modello del report.
-* **Modello**: in questa vista vengono visualizzate e gestite le relazioni tra le tabelle nel modello di dati.
+* **Data**: in questa vista è possibile visualizzare le tabelle, le misure e altri dati usati nel modello di dati associato al report, nonché trasformare i dati per un uso ottimale nel modello del report.
+* **Model** (Modella): in questa vista vengono visualizzate e gestite le relazioni tra le tabelle nel modello di dati.
 
 Nella figura seguente vengono illustrate le tre viste, così come vengono visualizzate sul lato sinistro dell'area di disegno:
 
@@ -51,7 +51,7 @@ Per connettersi ai dati,
 
    Viene visualizzata la finestra **Recupera dati**, in cui sono elencate le diverse categorie a cui Power BI Desktop può connettersi.
 
-   ![Recupera dati in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_02.png)
+   ![Ottenere i dati in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
 2. Quando si seleziona un tipo di dati, vengono chieste alcune informazioni, ad esempio l'URL e le credenziali, necessarie per la connessione all'origine dati da Power BI Desktop.
 
