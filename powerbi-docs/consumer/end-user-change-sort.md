@@ -10,10 +10,10 @@ ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496486"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
@@ -28,7 +28,7 @@ Nel servizio Power BI è possibile modificare l'aspetto di un oggetto visivo ord
 
 Gli oggetti visivi in un dashboard non possono essere ordinati, ma in un report di Power BI è possibile ordinare la maggior parte delle visualizzazioni 
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione
 
 Per iniziare, aprire un report che è stato condiviso. Selezionare un oggetto visivo (che può essere ordinato) e scegliere **Altre azioni** (...).  Per l'ordinamento sono disponibili tre opzioni: **Ordinamento decrescente**, **Ordinamento crescente** e **Ordina per**. 
     

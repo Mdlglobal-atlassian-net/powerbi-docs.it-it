@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974988"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Creare oggetti visivi indicatore di prestazioni chiave (KPI) in Power BI
@@ -85,7 +85,7 @@ In questo esempio verrà creato un indicatore KPI che misura lo stato di avanzam
 
 1. È facoltativamente possibile formattare l'indicatore KPI selezionando l'icona del rullo per aprire il riquadro formattazione.
 
-    * **Indicatore**: controlla l'unità di visualizzazione dell'indicatore e i decimali.
+    * **Indicatore** - controlla l'unità di visualizzazione dell'indicatore e i decimali.
 
     * **Asse tendenza**: se impostato su **Attiva**, l'oggetto visivo mostra l'asse della tendenza come sfondo dell'oggetto visivo indicatore KPI.  
 

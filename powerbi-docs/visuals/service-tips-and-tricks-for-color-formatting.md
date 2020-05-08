@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895007"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Suggerimenti e consigli per la formattazione dei colori in Power BI
@@ -120,7 +120,7 @@ Per usare scale di colori divergenti, selezionare la casella di controllo **Dive
 
 ![Finestra di dialogo Colore predefinito con scala dei colori selezionata](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-Quando il dispositivo di scorrimento **Divergente** è attivato, è possibile impostare separatamente i colori per **Minimo**, **Massimo** e **Centrale** . Nell'immagine seguente **Al centro** è impostato su 0,2 per **% Market Share SPLY YTD**, quindi le barre con valori al di sopra di 0,2 sono in una sfumatura di verde e le barra al di sotto di questo valore sono in una sfumatura di rosso.
+Quando il dispositivo di scorrimento **Divergente** è attivato, è possibile impostare separatamente i colori per **Minimo**, **Massimo** e **Centrale**. Nell'immagine seguente **Al centro** è impostato su 0,2 per **% Market Share SPLY YTD**, quindi le barre con valori al di sopra di 0,2 sono in una sfumatura di verde e le barra al di sotto di questo valore sono in una sfumatura di rosso.
 
 ![istogramma con barre rosse e verdi](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 
@@ -146,8 +146,8 @@ Per rimuovere tutte le modifiche apportate in una scheda Formattazione, selezion
 
 ![Scheda Formattazione con opzione Ripristina valori predefiniti nella parte inferiore](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Commenti e suggerimenti
-Se si hanno suggerimenti da condividere, è possibile inviarli. è possibile inviarli. Verranno valutati e, se ritenuti utili, verranno inseriti qui.
+## <a name="feedback"></a>Commenti
+Se si hanno suggerimenti da condividere, è possibile inviarli. Verranno valutati e, se ritenuti utili, verranno inseriti qui.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione alla formattazione dei colori e alle proprietà degli assi](service-getting-started-with-color-formatting-and-axis-properties.md)

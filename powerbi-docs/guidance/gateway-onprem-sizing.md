@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829053"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Servizio gateway dati locale
@@ -70,7 +70,7 @@ In genere, i carichi di lavoro di connessione dinamica e DirectQuery richiedono 
 > [!NOTE]
 > Le capacità di Power BI impongono limiti al parallelismo di aggiornamento e alla velocità effettiva di connessione dinamica e DirectQuery. Non ha senso ridimensionare il gateway per offrire capacità maggiori rispetto a quelle supportate dal servizio Power BI. I limiti differiscono in base allo SKU Premium (e allo SKU A di dimensioni equivalenti). Per altre informazioni, vedere [Che cos'è Power BI Premium? (nodi delle capacità)](../service-premium-what-is.md#capacity-nodes).
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 Le raccomandazioni per il ridimensionamento del gateway dipendono da molte variabili. In questa sezione vengono fornite raccomandazioni generali che è possibile prendere in considerazione.
 
@@ -91,7 +91,7 @@ Pianificare la migliore connettività possibile tra il servizio Power BI e il ga
 
 ### <a name="clustering"></a>Clustering
 
-Per le distribuzioni su larga scala, è possibile creare un gateway di installazioni cluster. I cluster evitano singoli punti di guasto e possono bilanciare il carico del traffico tra i gateway. è possibile:
+Per le distribuzioni su larga scala, è possibile creare un gateway di installazioni cluster. I cluster evitano singoli punti di guasto e possono bilanciare il carico del traffico tra i gateway. È possibile:
 
 - Installare uno o più gateway in un cluster
 - Isolare i carichi di lavoro in gateway autonomi o in cluster di server gateway
@@ -131,5 +131,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Risolvere i problemi relativi ai gateway - Power BI](../service-gateway-onprem-tshoot.md)
 - [Risolvere i problemi del gateway dati locale](/data-integration/gateway/service-gateway-tshoot)
 - [Importanza della riduzione delle query](power-query-folding.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

@@ -11,10 +11,10 @@ ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a157b674cd96c10081168ac5258e5b2f6145f09d
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464923"
 ---
 # <a name="use-r-in-power-query-editor"></a>Usare R nell'Editor di Power Query
@@ -85,7 +85,7 @@ Per illustrare l'uso di R nell'editor di Power Query si userà un set di dati di
     > [!NOTE]
     > Potrebbe essere necessario sovrascrivere una variabile denominata *output* per creare correttamente il nuovo set di dati con i filtri applicati.
 
-7. Seleziona **OK**. L'editor di Power Query mostrerà un avviso relativo alla privacy dei dati.
+7. Selezionare **OK**. L'editor di Power Query mostrerà un avviso relativo alla privacy dei dati.
 
    ![Avviso per la privacy dei dati](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
 8. Nel messaggio di avviso selezionare **Continua**. Nella finestra di dialogo **Livelli di privacy** visualizzata impostare tutte le origini dati su **Pubblico** per fare in modo che gli script R funzionino correttamente nel servizio Power BI. 

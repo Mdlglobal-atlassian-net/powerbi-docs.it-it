@@ -14,10 +14,10 @@ metadata:
   ms.author: maggies
   ms.date: 03/31/2020
   ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439391"
 highlightedContent:
   items:
@@ -35,7 +35,7 @@ highlightedContent:
     url: service-how-to-collaborate-distribute-dashboards-reports.md
 conceptualContent:
   items:
-  - title: 'Power BI: Inizia'
+  - title: 'Power BI: Introduzione'
     links:
     - url: power-bi-overview.md
       itemType: overview
@@ -48,7 +48,7 @@ conceptualContent:
       text: Che cos'è il servizio Power BI?
     footerLink:
       url: fundamentals/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Power BI per i consumer
     links:
     - url: consumer/end-user-consumer.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: Che cos'è un dashboard?
     footerLink:
       url: consumer/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Amministrare Power BI
     links:
     - url: service-admin-administering-power-bi-in-your-organization.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: Portale di amministrazione
     footerLink:
       url: admin/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Sviluppare in Power BI
     links:
     - url: developer/embedded/index.yml
@@ -90,7 +90,7 @@ conceptualContent:
       text: Automazione
     footerLink:
       url: developer/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Connettersi ai dati
     links:
     - url: desktop-quickstart-connect-to-data.md
@@ -101,10 +101,10 @@ conceptualContent:
       text: Gateway dati locali
     - url: refresh-data.md
       itemType: concept
-      text: Aggiornamento dei dati
+      text: Aggiornamento dati
     footerLink:
       url: connect-data/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Trasformare i dati ed eseguire il data shaping
     links:
     - url: desktop-analytics-pane.md
@@ -118,8 +118,8 @@ conceptualContent:
       text: Effettuare il data shaping e combinare i dati
     footerLink:
       url: transform-model/index.yml
-      text: Vedi altro
-  - title: Dati del modello
+      text: Altre informazioni
+  - title: Modellare i dati
     links:
     - url: desktop-add-custom-column.md
       itemType: how-to-guide
@@ -132,7 +132,7 @@ conceptualContent:
       text: Creare e gestire relazioni
     footerLink:
       url: transform-model/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Creare report e dashboard
     links:
     - url: desktop-report-themes.md
@@ -146,7 +146,7 @@ conceptualContent:
       text: Creare un dashboard
     footerLink:
       url: create-reports/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Collaborare e condividere
     links:
     - url: service-share-dashboards.md
@@ -160,7 +160,7 @@ conceptualContent:
       text: Introduzione ai set di dati condivisi
     footerLink:
       url: collaborate-share/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Integrazione tra prodotti
     links:
     - url: service-azure-and-power-bi.md
@@ -174,7 +174,7 @@ conceptualContent:
       text: Incorpora in SharePoint Online
     footerLink:
       url: collaborate-share/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Power BI nelle app per dispositivi mobili
     links:
     - url: consumer/mobile/mobile-apps-for-mobile-devices.md
@@ -188,7 +188,7 @@ conceptualContent:
       text: Visualizzare i report locali
     footerLink:
       url: consumer/mobile/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Enterprise
     links:
     - url: service-premium-what-is.md
@@ -202,7 +202,7 @@ conceptualContent:
       text: Protezione dei dati
     footerLink:
       url: admin/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Indicazioni sulle procedure consigliate
     links:
     - url: guidance/overview.md
@@ -216,7 +216,7 @@ conceptualContent:
       text: Ridurre le dimensioni del modello di dati
     footerLink:
       url: guidance/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Catalogo delle risorse di apprendimento
     links:
     - url: learning-catalog/learning-catalog-bdm.md
@@ -230,12 +230,12 @@ conceptualContent:
       text: Progettisti di soluzioni
     footerLink:
       url: learning-catalog/index.yml
-      text: Vedi altro
+      text: Altre informazioni
 additionalContent:
   sections:
   - title: Strumenti correlati
   - items:
-    - title: Server di report Power BI
+    - title: Server di report di Power BI
       summary: Esplorare Server di report di Power BI, un server di report locale con un portale Web in cui vengono visualizzati e gestiti report, report impaginati e indicatori KPI di Power BI.
       url: report-server/index.yml
     - title: API REST di Power BI

@@ -10,10 +10,10 @@ ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d74f35ecb50309bed445985049e306d89a7ba8bd
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006435"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Usare Informazioni dettagliate sull'intelligenza artificiale in Power BI Desktop (anteprima)
@@ -56,17 +56,17 @@ Le funzionalità di Servizi cognitivi sono supportate per i nodi della capacità
 
 Questa sezione descrive le funzioni disponibili in Servizi cognitivi in Power BI.
 
-#### <a name="detect-language"></a>Rilevamento lingua
+#### <a name="detect-language"></a>Rileva lingua
 
 La funzione di rilevamento della lingua valuta l'input di testo e, per ogni campo, restituisce il nome della lingua e l'identificatore ISO. Questa funzione è utile per le colonne di dati che raccolgono testo arbitrario, la cui lingua è sconosciuta. La funzione accetta come input dati in formato testo.
 
 Analisi del testo riconosce fino a 120 lingue. Per altre informazioni, vedere [Supporto lingua e area geografica per l'API Analisi del testo](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
-#### <a name="extract-key-phrases"></a>Estrazione frasi chiave
+#### <a name="extract-key-phrases"></a>Estrarre le frasi chiave
 
 La funzione **Estrazione frasi chiave** valuta il testo non strutturato e, per ogni campo di testo, restituisce un elenco di frasi chiave. La funzione richiede come input un campo di testo e accetta un input facoltativo per **Info su impostazioni cultura**.
 
-La funzione Estrazione frasi chiave funziona al meglio quando lavora su blocchi di testo di dimensioni maggiori, diversamente dalla funzione Analisi del sentiment che offre le migliori prestazioni su blocchi di testo più piccoli. Per ottenere risultati ottimali da entrambe le operazioni, ristrutturare gli input di conseguenza.
+L'estrazione di espressioni chiave risulta più efficiente quando si elaborano blocchi di testo più grandi, diversamente dalla funzione Analisi del sentiment che offre le migliori prestazioni su blocchi di testo più piccoli. Per ottenere risultati ottimali da entrambe le operazioni, provare a ristrutturare gli input di conseguenza.
 
 #### <a name="score-sentiment"></a>Analisi del sentiment
 
@@ -80,9 +80,9 @@ Attualmente la funzione Analisi del sentiment supporta le lingue seguenti: ingle
 
 #### <a name="tag-images"></a>Assegnazione di tag alle immagini
 
-La funzione **Aggiungi tag alle immagini** restituisce tag sulla base di più di duemila oggetti, esseri viventi, paesaggi e azioni riconoscibili. Quando i tag sono ambigui o non sono comunemente noti, l'output offre *suggerimenti* per chiarire il significato del tag nel contesto di un'ambientazione nota. I tag non sono organizzati come tassonomia e non esistono gerarchie di ereditarietà. Una raccolta di tag di contenuti costituisce la base della *descrizione* di un'immagine visualizzata come linguaggio leggibile formattato in frasi complete.
+La funzione **Aggiungi tag alle immagini** restituisce tag sulla base di più di duemila oggetti, esseri viventi, paesaggi e azioni riconoscibili. Quando i tag sono ambigui o non sono comunemente noti, l'output offre *suggerimenti* per chiarire il significato del tag nel contesto di un'ambientazione nota. I tag non sono organizzati in una tassonomia e non esiste alcuna gerarchia di ereditarietà. Una raccolta di tag di contenuti costituisce la base della *descrizione* di un'immagine visualizzata come linguaggio leggibile formattato in frasi complete.
 
-Dopo aver caricato un'immagine o specificato un URL di immagine, gli algoritmi di Visione artificiale restituiscono tag basati sugli oggetti, gli esseri viventi e le azioni identificati nell'immagine. L'assegnazione di tag non è limitata al soggetto principale, come la persona in primo piano, ma si estende all'ambiente (interno o esterno), all'arredamento, agli attrezzi, alle piante, agli animali, agli accessori e così via.
+Dopo il caricamento di un'immagine o la definizione di un URL di immagine, gli algoritmi di Visione artificiale generano tag in base agli oggetti, alle azioni e agli esseri umani identificati nell'immagine. L'assegnazione di tag non è limitata al soggetto principale, come la persona in primo piano, ma si estende all'ambiente (interno o esterno), all'arredamento, agli attrezzi, alle piante, agli animali, agli accessori e così via.
 
 Questa funzione richiede un URL immagine o un campo Base 64 come input. Attualmente la funzione di assegnazione di tag alle immagini supporta le lingue seguenti: inglese, spagnolo, giapponese, portoghese e cinese semplificato. Per altre informazioni, vedere [Supporto lingua e area geografica per l'API Analisi del testo](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
@@ -176,7 +176,7 @@ La procedura in questa sezione spiega come concedere a un utente di Power BI l'a
 3. Selezionare la propria sottoscrizione
 4. Selezionare **Controllo di accesso (IAM)** e quindi il pulsante **Aggiungi**.
 5. Selezionare **Lettore** come ruolo. Selezionare l'utente di Power BI a cui si vuole concedere l'accesso al modello di Azure Machine Learning.
-6. Selezionare **Salva**.
+6. Selezionare **Salva**
 7. Ripetere i passaggi da 3 a 6 per assegnare all'utente il ruolo **Lettore** per l'accesso allo specifico servizio Web di Machine Learning Studio (versione classica) *o* all'area di lavoro di Machine Learning che ospita il modello.
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>Individuazione dello schema per i modelli di Machine Learning

@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975034"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Connettersi ai servizi usati con Power BI
@@ -29,7 +29,7 @@ Dopo aver installato l'app è possibile visualizzare i dashboard e i report nell
 
 ![App Google Analytics nell'app Power BI per dispositivi mobili](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione a Microsoft Stream
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Modificare il dashboard e i report

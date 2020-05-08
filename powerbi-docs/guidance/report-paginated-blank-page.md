@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920806"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Evitare le pagine vuote durante la stampa di report impaginati
@@ -32,7 +32,7 @@ La pagina **Imposta pagina** della **pagina delle proprietà** del report offre 
 
 Verificare che tutte le proprietà relative alle dimensioni della pagina siano configurate correttamente:
 
-|Proprietà|Raccomandazione|
+|Proprietà|Recommendation|
 |---------|---------|
 |Unità di misura pagina|Selezionare le unità pertinenti, ovvero pollici o centimetri.|
 |Orientamento|Selezionare l'opzione corretta, ovvero verticale oppure orizzontale.|
@@ -93,5 +93,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Paginazione dei report impaginati in Power BI](../paginated-reports/paginated-reports-pagination.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

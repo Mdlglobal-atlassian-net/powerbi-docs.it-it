@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: v-pemyer
 ms.openlocfilehash: a5230a39706ce5d6941c00386160fe10114442e1
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81527992"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Risolvere i problemi relativi alle prestazioni dei report in Power BI
@@ -72,5 +72,5 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 - [Monitoraggio delle prestazioni dei report](monitor-report-performance.md)
 - [Analizzatore prestazioni](../desktop-performance-analyzer.md)
 - White paper: [Pianificazione della distribuzione aziendale di Power BI](https://go.microsoft.com/fwlink/?linkid=2057861)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439803"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usare il drill-through tra report in Power BI
@@ -44,7 +44,7 @@ Dopo aver convalidato i modelli, consentire al report di origine di usare il dri
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**. 
 1. Nel riquadro di spostamento a sinistra nella finestra **Opzioni**, nella parte inferiore della sezione **File corrente** selezionare **Impostazioni report**. 
 1. In basso a destra, in **Drill-through tra report** selezionare **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report**. 
-1. Seleziona **OK**. 
+1. Scegliere **OK**. 
    
    ![Abilitare il drill-through tra report in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 

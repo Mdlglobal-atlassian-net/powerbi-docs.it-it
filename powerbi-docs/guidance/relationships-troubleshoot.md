@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263646"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>Linee guida per la risoluzione dei problemi relativi alle relazioni

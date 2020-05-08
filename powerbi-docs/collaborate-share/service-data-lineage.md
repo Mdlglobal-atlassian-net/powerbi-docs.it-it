@@ -9,10 +9,10 @@ ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
 ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525400"
 ---
 # <a name="data-lineage"></a>Derivazione dei dati
@@ -79,7 +79,7 @@ La visualizzazione di derivazione è un canvas interattivo. È possibile usare i
 
     ![Zoom avanti o indietro oppure schermo intero](media/service-data-lineage/service-data-lineage-zoom.png)
 
-## <a name="permissions"></a>Autorizzazioni
+## <a name="permissions"></a>applicazione
 
 * Per vedere la visualizzazione di derivazione, è necessaria una licenza Power BI Pro.
 * La visualizzazione di derivazione è disponibile solo per gli utenti con accesso all'area di lavoro.

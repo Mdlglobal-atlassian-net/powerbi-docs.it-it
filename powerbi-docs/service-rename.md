@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871706"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Rinominare qualsiasi elemento nel servizio Power BI
@@ -21,7 +21,7 @@ Questo articolo illustra come rinominare un dashboard, un report, una pagina del
 
 **È possibile modificare il nome?**
 
-| Tipo contenuto | Sono l'autore | Condivisi con l'utente corrente |
+| Tipo di contenuto | Sono l'autore | Condivisi con l'utente corrente |
 | --- | --- | --- |
 | Dashboard in un'area di lavoro |Sì |No |
 | Report in un'area di lavoro |Sì |No |

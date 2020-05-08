@@ -11,10 +11,10 @@ ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877012"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Esercitazione: creare un modello di Machine Learning in Power BI
@@ -36,7 +36,7 @@ Questa esercitazione prevede i passaggi seguenti:
 
 La prima parte di questa esercitazione consiste nel creare un flusso di dati con i dati di input. Questo processo richiede alcuni passaggi, come illustrato nelle sezioni seguenti, a partire dal recupero dei dati.
 
-### <a name="get-data"></a>Recupera dati
+### <a name="get-data"></a>Recuperare i dati
 
 Il primo passaggio per la creazione di un flusso di dati consiste nell'avere le origini dati pronte. In questo caso viene usato un set di dati di Machine Learning di un set di sessioni online, alcune delle quali sono terminate con un acquisto. Il set di dati contiene un set di attributi relativi a queste sessioni che verrà usato per il training del modello.
 
@@ -48,7 +48,7 @@ Per creare le entità nel flusso di dati, accedere al servizio Power BI e passar
 
 Se non è già presente un'area di lavoro, è possibile crearne una selezionando **Aree di lavoro** nel menu del riquadro di spostamento del servizio Power BI e selezionando **Crea area di lavoro** nella parte inferiore del pannello visualizzato. Viene aperto un pannello a destra in cui immettere i dettagli dell'area di lavoro. Immettere il nome di un'area di lavoro e selezionare **Avanzate**. Verificare che l'area di lavoro usi la capacità dedicata con il pulsante di opzione e che sia assegnata a un'istanza di capacità dedicata per cui è attivata l'anteprima di intelligenza artificiale. Selezionare quindi **Salva**.
 
-![Crea un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
+![Creare un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
 Dopo aver creato l'area di lavoro, è possibile selezionare **Ignora** nella parte inferiore destra della schermata iniziale, come illustrato nell'immagine seguente.
 
@@ -70,7 +70,7 @@ Nella pagina **Connessione a un'origine dati** copiare il collegamento seguente 
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
-![Percorso file](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-06.png)
+![Percorso del file](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-06.png)
 
 L'editor di Power Query visualizza un'anteprima dei dati del file CSV. È possibile rinominare la query con un nome più descrittivo modificando il valore nella casella Nome disponibile nel riquadro di destra. Ad esempio, è possibile modificare il nome della query in _Online Visitors_.
 
@@ -78,7 +78,7 @@ L'editor di Power Query visualizza un'anteprima dei dati del file CSV. È possib
 
 Power Query deduce automaticamente il tipo di colonne. È possibile modificare il tipo di colonna facendo clic sull'icona del tipo di attributo nella parte superiore dell'intestazione di colonna. In questo esempio il tipo della colonna Revenue viene modificato in True/False.
 
-![Modificare il tipo di dati](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-08.png)
+![Cambia tipo di dati](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-08.png)
 
 Selezionare il pulsante **Salva e chiudi** per chiudere l'editor di Power Query. Specificare un nome per il flusso di dati e quindi selezionare **Salva** nella finestra di dialogo, come illustrato nell'immagine seguente.
 
@@ -153,7 +153,7 @@ L'applicazione di un modello Previsione per dati binari aggiunge quattro colonne
 
 Una volta completato l'aggiornamento del flusso di dati, è possibile selezionare l'entità **Online Visitors enriched Purchase Intent Prediction** per visualizzare i risultati.
 
-![Visualizzare i risultati](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+![View the results](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Uso dell'output con punteggio dal modello di un report Power BI
 

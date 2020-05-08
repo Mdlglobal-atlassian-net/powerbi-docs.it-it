@@ -10,10 +10,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eac1134ff12025d05cd59e86b7538cde58e3a2ee
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753157"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Connettersi ai modelli multidimensionali SSAS in Power BI Desktop
@@ -80,7 +80,7 @@ I modelli multidimensionali espongono i *membri calcolati in gerarchie di attrib
 
 I membri calcolati delle gerarchie utente non vengono esposti in Power BI. È invece possibile connettersi a un cubo contenente membri calcolati nelle gerarchie utente. Non sarà tuttavia possibile visualizzare i membri calcolati se non soddisfano i vincoli indicati nell'elenco puntato precedente.
 
-### <a name="security"></a>Security
+### <a name="security"></a>Sicurezza
 
 I modelli multidimensionali supportano la sicurezza a livello di dimensione e di cella per mezzo di *ruoli*. Quando ci si connette a un cubo con Power BI, vengono eseguite l'autenticazione e la valutazione per l'assegnazione all'utente delle autorizzazioni appropriate. Se a un utente si applica la *sicurezza delle dimensioni*, i membri delle dimensioni interessate non sono visibili dall'utente in Power BI. Quando tuttavia per un utente è definito un tipo di autorizzazione *sicurezza delle celle* che applica restrizioni ad alcune celle, l'utente non può connettersi al cubo tramite Power BI.
 

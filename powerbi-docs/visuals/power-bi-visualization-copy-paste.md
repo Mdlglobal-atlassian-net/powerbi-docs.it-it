@@ -10,10 +10,10 @@ ms.date: 04/13/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 03ce7f2a8ccd2c453521d28d172ffb25c1bb28bf
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81440308"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiare e incollare una visualizzazione di report
@@ -43,7 +43,7 @@ Le visualizzazioni nei *dashboard* non possono essere copiate e incollate nei re
 
 Può essere utile condividere un'immagine da un report o un dashboard di Power BI. È ora possibile copiare l'oggetto visivo e incollarlo in un'altra applicazione che supporta il comando Incolla. 
 
-Quando si copia un'immagine statica di un oggetto visivo, si ottiene una copia dell'oggetto visivo insieme ai metadati. Ciò include:
+Quando si copia un'immagine statica di un oggetto visivo, si ottiene una copia dell'oggetto visivo insieme ai metadati. ad esempio:
 * collegamento al report o al dashboard di Power BI di origine
 * titolo del report o del dashboard
 * avviso per segnalare la presenza di informazioni riservate nell'immagine
@@ -130,7 +130,7 @@ Se si è proprietari del contenuto o si è un amministratore del tenant, è poss
 
 
 D: Perché l'icona Copia è disabilitata per un oggetto visivo?    
-R: Attualmente sono supportati gli oggetti visivi di Power BI nativi e gli oggetti visivi certificati. È disponibile un supporto limitato per oggetti visivi specifici, tra cui: 
+A: Attualmente sono supportati gli oggetti visivi di Power BI nativi e gli oggetti visivi certificati. È disponibile un supporto limitato per oggetti visivi specifici, tra cui: 
 - ESRI e altri oggetti visivi Mappa 
 - Oggetti visivi Python 
 - Oggetti visivi R 
@@ -139,7 +139,7 @@ R: Attualmente sono supportati gli oggetti visivi di Power BI nativi e gli ogget
 
 
 D: Perché l'oggetto visivo non viene incollato correttamente?    
-R: Esistono alcune limitazioni per la copia di un oggetto visivo come immagine, tra cui: 
+A: Esistono alcune limitazioni per la copia di un oggetto visivo come immagine, tra cui: 
 - Per gli oggetti visivi personalizzati 
     - Oggetti visivi con temi e colori applicati 
     - Ridimensionamento del riquadro quando si incolla 

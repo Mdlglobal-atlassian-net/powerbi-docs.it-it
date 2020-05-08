@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893439"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizzare i titoli, gli sfondi e le legende delle visualizzazioni
@@ -133,32 +133,32 @@ Per applicare un tema al report, selezionare **Cambia tema** dalla barra dei men
 
 Ecco un elenco delle visualizzazioni e delle opzioni di personalizzazione disponibili per ognuna:
 
-| Visualizzazione | Titolo | Sfondo | Legenda |
+| Visualizzazione | Title | Sfondo | Legenda |
 |:--- |:--- |:--- |:--- |
-| Area | sì | sì |sì |
-| Barre | sì | sì |sì |
-| Scheda | sì | sì |n/a |
-| Scheda con più righe | sì | sì | n/a |
-| Colonna | sì | sì | sì |
-| Grafico combinato | sì | sì | sì |
-| Grafico ad anello | sì | sì | sì |
-| Mappa colorata | sì | sì | sì |
-| Grafico a imbuto | sì | sì | n/a |
-| Misuratore | sì | sì | n/a |
-| Fattore di influenza chiave | sì | sì | n/a |
-| Indicatore KPI | sì | sì | n/a |
-| Linea | sì | sì | sì |
-| Mappa | sì | sì | sì |
-| Matrice | sì | sì | n/a |
-| Torta | sì | sì | sì |
-| Domande e risposte | sì | sì | n/a |
-| Dispersione | sì | sì | sì |
-| Forma | sì | sì | sì |
-| Filtro dei dati | sì | sì | n/a |
-| Tabella | sì | sì | n/a |
-| Casella di testo | no | sì | n/a |
-| Mappa ad albero | sì | sì | sì |
-| Waterfall | sì | sì | sì |
+| Area | Sì | Sì |Sì |
+| Barre | Sì | Sì |Sì |
+| Scheda | Sì | Sì |n/a |
+| Scheda con più righe | Sì | Sì | n/a |
+| colonna | Sì | Sì | Sì |
+| Grafico combinato | Sì | Sì | Sì |
+| Grafico ad anello | Sì | Sì | Sì |
+| Mappa colorata | Sì | Sì | Sì |
+| Grafico a imbuto | Sì | Sì | n/a |
+| Misuratore | Sì | Sì | n/a |
+| Fattore di influenza chiave | Sì | Sì | n/a |
+| Indicatore KPI | Sì | Sì | n/a |
+| Linea | Sì | Sì | Sì |
+| Mappa | Sì | Sì | Sì |
+| Matrice | Sì | Sì | n/a |
+| Torta | Sì | Sì | Sì |
+| Domande e risposte | Sì | Sì | n/a |
+| Dispersione | Sì | Sì | Sì |
+| Forma | Sì | Sì | Sì |
+| Filtro dei dati | Sì | Sì | n/a |
+| Table | Sì | Sì | n/a |
+| Casella di testo | no | Sì | n/a |
+| Treemap | Sì | Sì | Sì |
+| Waterfall | Sì | Sì | Sì |
 
 ## <a name="next-steps"></a>Passaggi successivi
 
