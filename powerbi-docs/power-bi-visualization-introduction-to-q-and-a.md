@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874454"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Creare un oggetto visivo con Domande e risposte di Power BI
@@ -48,7 +48,7 @@ Ecco come fare per creare questo grafico a linee con Domande e risposte.
    
    ![Grafico ad area compilato con Domande e risposte](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![Icona Aggiungi](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) nell'angolo in alto a destra.
+4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![l'icona Aggiungi](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) nell'angolo in alto a destra.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Creare un oggetto visivo nell'editor del report
 

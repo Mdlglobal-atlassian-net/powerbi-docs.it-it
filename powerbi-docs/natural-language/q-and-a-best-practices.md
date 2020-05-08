@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609953"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841918"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedure consigliate per ottimizzare Domande e risposte in Power BI
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Lo è ancora di più quando i dati restituiscono una risposta, proprio come fa Domande e risposte di Power BI.
@@ -194,6 +194,8 @@ L'unica eccezione alla regola secondo cui è opportuno normalizzare, è quando �
 Questa procedura si applica specificatamente a Domande e risposte e non ai report di Power BI in generale. Spesso gli utenti usano vari termini per fare riferimento alla stessa cosa, ad esempio totale vendite, vendite nette, totale vendite nette. È possibile aggiungere questi sinonimi a tabelle e colonne nel modello di Power BI. 
 
 Questo passaggio può essere importante. Anche con nomi di tabelle e colonne estremamente semplici, gli utenti di Domande e risposte pongono domande usando i primi termini che vengono loro in mente. Non scelgono da un elenco predefinito di colonne. Aggiungendo i sinonimi più probabili e frequenti, è possibile migliorare l'esperienza degli utenti con i report. Per aggiungere sinonimi, in Power BI Desktop passare a Visualizzazione modello, fare clic sulla scheda Modellazione e selezionare un campo o una tabella. Nel riquadro Proprietà è visualizzata la casella **Sinonimi**, in cui è possibile aggiungere sinonimi.
+
+
 
 ![Sinonimi nel riquadro Proprietà di Domande e risposte](media/qna-modelling-pane-synonyms.png)
 

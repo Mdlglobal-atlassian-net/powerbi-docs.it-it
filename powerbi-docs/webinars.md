@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 11e6e1b1359841ea85bcb65b384abab926f003e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120092"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841941"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 [//]: # "Tatevik Tatero è un fornitore che collabora con Chauncy Freels alla manutenzione di questo elenco di webinar"
@@ -100,7 +100,7 @@ Iniziare dai webinar on demand più popolari
 
 È possibile guardare le sessioni registrate in qualsiasi momento
 
-### <a name="getting-started"></a>Attività iniziali
+### <a name="getting-started"></a>Introduzione
 
 **Automate Day-to-Day Business Processes with Power BI, PowerApps, and Power Automate** (Automatizzare i processi aziendali quotidiani con Power BI, Power Apps e Power Automate)
 <br>di Wim Coorevits ed Enrique Plaza Garcia
@@ -228,7 +228,7 @@ Iniziare dai webinar on demand più popolari
 
 ## <a name="see-also"></a>Vedere anche
 
-- [White paper di Power BI](whitepapers.md)
+- [White paper di Power BI](guidance/whitepapers.md)
 
 - [Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 

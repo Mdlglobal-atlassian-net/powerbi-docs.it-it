@@ -10,14 +10,14 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133216"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Risoluzione dei problemi di accesso per Power BI Desktop
-In alcuni casi possono verificarsi errori durante il tentativo di accesso a **Power BI Desktop**. Esistono due motivi principali per i problemi di accesso: **errori di autenticazione del proxy** ed **errori di reindirizzamento di URL non HTTPS**. 
+In alcuni casi possono verificarsi errori durante il tentativo di accesso a **Power BI Desktop**. Esistono due motivi principali per i problemi di accesso: **errori di autenticazione proxy** ed **errori di reindirizzamento di URL non HTTPS**. 
 
 Per determinare quale problema sta causando il problema di accesso, il primo passaggio consiste nel contattare l'amministratore e fornire le informazioni di diagnostica in modo che sia possibile stabilire la causa del problema. Tracciando i problemi associati al problema di accesso, gli amministratori possono determinare quale degli errori seguenti è applicabile. 
 
@@ -55,7 +55,7 @@ Le versioni correnti di **Power BI Desktop** usano la versione corrente di Activ
 
 Le eccezioni seguenti nei file di traccia di *Power BI Desktop* sono associate a questo errore:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: reindirizzamento di URL non HTTPS non supportato in WebView*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Non-HTTPS url redirect is not supported in webview* (Reindirizzamento di URL non HTTPS non supportato nella visualizzazione Web)
 * *ErrorCode: non_https_redirect_failed*
 
 Se si verifica l'errore *ErrorCode: non_https_redirect_failed*, significa che una o più pagine o provider di reindirizzamento nella catena di reindirizzamento non rappresentano un endpoint protetto HTTPS oppure che un'autorità di certificazione di uno o più reindirizzamenti non è inclusa tra le radici attendibili del dispositivo. Tutti i provider in qualsiasi catena di reindirizzamento dell'accesso devono usare un URL HTTPS. Per risolvere questo problema, contattare l'amministratore e richiedere l'uso di URL protetti per i relativi siti di autenticazione. 

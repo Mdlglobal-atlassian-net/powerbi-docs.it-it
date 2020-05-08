@@ -1,5 +1,5 @@
 ---
-title: Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
+title: Iniziare a usare l'app Power BI per dispositivi mobili nei dispositivi Android
 description: Informazioni sul modo in cui l'app Microsoft Power BI per dispositivi mobili per Android permette di accedere in qualsiasi momento a informazioni aziendali locali e nel cloud.
 author: paulinbar
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
 ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77259782"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Iniziare a usare l'app Power BI per dispositivi mobili nei dispositivi Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
 
 ![Dashboard nell'app Power BI per Android](./media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -118,6 +118,6 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositi
 ### <a name="see-also"></a>Vedere anche
 * [Scaricare l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 
 

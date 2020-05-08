@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710207"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted in Server di report di Power BI
@@ -29,8 +29,8 @@ Server di report di Power BI attualmente non limita l'accesso alle colonne Alway
 
 |Archiviazione  |Supportato  |
 |---------|---------|
-|Archivio certificati Windows | Sì |
-|Insieme di credenziali chiave di Azure | No |
+|Archivio certificati Windows | Yes |
+|Azure Key Vault | No |
 | Cryptography Next Generation (CNG) | No |
 
 ### <a name="certificate-storage-and-access"></a>Archiviazione e accesso ai certificati
@@ -46,10 +46,10 @@ In Server di report di Power BI Report la strategia di crittografia delle colonn
 
 |Uso  |Deterministico  |Casuale  |
 |---------|---------|---------|
-|Può essere letta così com'è nei risultati di una query, ad esempio nelle istruzioni SELECT. | Sì  | Sì  |
-|Può essere usata come entità di raggruppamento all'interno di una query. | Sì | No |
+|Può essere letta così com'è nei risultati di una query, ad esempio nelle istruzioni SELECT. | Yes  | Yes  |
+|Può essere usata come entità di raggruppamento all'interno di una query. | Yes | No |
 |Può essere usata come campo di aggregazione, a eccezione di COUNT e DISTINCT. | No, a eccezione di COUNT e DISTINCT | No |
-|Può essere usata come parametro di report | Sì | No |
+|Può essere usata come parametro di report | Yes | No |
 
 Per altre informazioni, vedere [Selezione della crittografia deterministica o casuale](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
@@ -71,14 +71,14 @@ L'utilizzo dei parametri si applica solo alla crittografia deterministica.
 
 | Tipo di dati SQL | Supporto della lettura del campo | Supporto dell'uso come elemento di raggruppamento | Aggregazioni supportate (COUNT, DISTINCT, MAX, MIN, SUM e così via) | Supporto di filtri tramite uguaglianza con parametri | Note |
 | --- | --- | --- | --- | --- | --- |
-| INT | Sì | Sì | COUNT, DISTINCT | Sì, come Integer |   |
-| float | Sì | Sì | COUNT, DISTINCT | Sì, come Float |   |
-| NVARCHAR | Sì | Sì | COUNT, DISTINCT | Sì, come Text | La crittografia deterministica deve usare regole di confronto a livello di colonna con un ordinamento binario2 per colonne di tipo carattere. Per informazioni dettagliate, vedere l'articolo su SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
-| varchar | Sì | Sì | COUNT, DISTINCT | No |   |
-| decimal | Sì | Sì | COUNT, DISTINCT | No |   |
-| NUMERIC | Sì | Sì | COUNT, DISTINCT | No |   |
-| Datetime | Sì | Sì | COUNT, DISTINCT | No |   |
-| datetime2 | Sì | Sì | COUNT, DISTINCT | Sì, come Date/Time | Supportato se la colonna non ha una precisione in millisecondi, in altre parole nessun datetime2(0) |
+| int | Yes | Yes | COUNT, DISTINCT | Sì, come Integer |   |
+| float | Yes | Yes | COUNT, DISTINCT | Sì, come Float |   |
+| nvarchar | Yes | Yes | COUNT, DISTINCT | Sì, come Text | La crittografia deterministica deve usare regole di confronto a livello di colonna con un ordinamento binario2 per colonne di tipo carattere. Per informazioni dettagliate, vedere l'articolo su SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
+| varchar | Yes | Yes | COUNT, DISTINCT | No |   |
+| decimal | Yes | Yes | COUNT, DISTINCT | No |   |
+| numeric | Yes | Yes | COUNT, DISTINCT | No |   |
+| datetime | Yes | Yes | COUNT, DISTINCT | No |   |
+| datetime2 | Yes | Yes | COUNT, DISTINCT | Sì, come Date/Time | Supportato se la colonna non ha una precisione in millisecondi, in altre parole nessun datetime2(0) |
 
 ## <a name="aggregation-alternatives"></a>Alternative di aggregazione
 

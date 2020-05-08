@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872534"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminare qualsiasi elemento nel servizio Power BI
@@ -28,16 +28,16 @@ I dashboard possono essere rimossi. La rimozione del dashboard non comporta l'el
 
 ### <a name="to-delete-a-dashboard"></a>Per eliminare un dashboard
 1. Nell'area di lavoro selezionare la scheda **Dashboard**.
-2. Trovare il dashboard da eliminare e selezionare l'icona Elimina ![Icona Elimina](media/service-delete/power-bi-delete-icon.png).
+2. Trovare il dashboard da eliminare e selezionare l'icona Elimina ![icona di eliminazione](media/service-delete/power-bi-delete-icon.png).
 
-    ![Video](media/service-delete/power-bi-delete-dash.gif)
+    ![video](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Eliminare un report
 L'eliminazione di un report non elimina anche il set di dati su cui è basato.  Anche le visualizzazioni aggiunte dal report non vengono toccate, ma restano nel dashboard finché non vengono eliminate singolarmente.
 
 ### <a name="to-delete-a-report"></a>Per eliminare un report
 1. Nell'area di lavoro selezionare la scheda **Report**.
-2. Trovare il report da eliminare e selezionare l'icona Elimina   ![Icona Elimina](media/service-delete/power-bi-delete-icon.png).   
+2. Trovare il report da eliminare e selezionare l'icona Elimina   ![icona di eliminazione](media/service-delete/power-bi-delete-icon.png).   
 
     ![Scheda Report dell'area di lavoro](media/service-delete/power-bi-delete-reportnew.png)
 3. Confermare l'eliminazione.
@@ -56,7 +56,7 @@ Se la cartella di lavoro viene archiviata in OneDrive for Business, l'eliminazio
 
 ### <a name="to-delete-a-workbook"></a>Per eliminare una cartella di lavoro
 1. Nell'area di lavoro selezionare la scheda **Cartelle di lavoro**.
-2. Trovare la cartella di lavoro da eliminare e selezionare l'icona Elimina ![Icona Elimina](media/service-delete/power-bi-delete-report2.png) .
+2. Trovare la cartella di lavoro da eliminare e selezionare l'icona Elimina ![icona di eliminazione](media/service-delete/power-bi-delete-report2.png) .
 
     ![Scheda Cartelle di lavoro](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confermare l'eliminazione.
@@ -93,7 +93,7 @@ L'autore dell'area di lavoro ha la possibilità di eliminarla. In questo caso, l
 
 2. Selezionare **Altre opzioni** (...) a destra dell'area di lavoro da eliminare e scegliere **Modifica area di lavoro**.
 
-    ![Aree di lavoro](media/service-delete/power-bi-delete-workspace.png)
+    ![aree di lavoro](media/service-delete/power-bi-delete-workspace.png)
 
 3. Nella finestra **Modifica area di lavoro**, selezionare **Elimina area di lavoro** > **Elimina**.
 

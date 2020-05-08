@@ -11,14 +11,14 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872831"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creare una copia di un dashboard nel servizio Power BI
-![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
+![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Esistono molte ragioni diverse per creare una copia di un dashboard. Ad esempio, potrebbe essere opportuno apportare modifiche e testarne le prestazioni rispetto all'originale oppure creare versioni lievemente differenti da distribuire in base a colleghi, area o team. Magari un collega ammira la progettazione del dashboard e vuole usarlo per la creazione di report da inviare al proprio responsabile. Un altro motivo potrebbe essere se si ha un nuovo database con la stessa struttura di dati e gli stessi tipi di dati e si vuole riutilizzare il dashboard già creato; tuttavia, ciò richiederebbe alcune operazioni in Power BI Desktop. 
 
