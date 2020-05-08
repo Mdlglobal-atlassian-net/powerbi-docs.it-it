@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381262"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Aggiungere i collegamenti ipertestuali (URL) a una tabella o una matrice
@@ -142,13 +142,13 @@ Gli URL devono iniziare con uno degli elementi seguenti:
 - telnet
 
 D: è possibile usare un URL personalizzato come collegamento ipertestuale in una tabella o matrice?    
-R: No. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
+R: no. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
 
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md)
 
-[Concetti di base del servizio Power BI](service-basic-concepts.md)
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

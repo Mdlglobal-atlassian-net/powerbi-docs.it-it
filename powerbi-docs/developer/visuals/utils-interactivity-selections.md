@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379261"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Utilità di interattività per gli oggetti visivi di Power BI
@@ -186,7 +186,7 @@ I punti dati contengono in genere selezioni e valori. L'interfaccia estende l'in
     }
     ```
 
-5. Per gestire il clic sugli elementi, chiamare il metodo `on` dell'oggetto di selezione *d3*. Questo vale anche per `elementsSelection` e `clearCatcherSelection`.
+5. Per gestire il clic sugli elementi, chiamare il metodo *dell'oggetto di selezione*d3`on`. Questo vale anche per `elementsSelection` e `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

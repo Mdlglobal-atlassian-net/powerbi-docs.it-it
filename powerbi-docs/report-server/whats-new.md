@@ -1,6 +1,6 @@
 ---
 title: Novità del Server di report di Power BI
-description: Informazioni sulle novità del Server di report di Power BI. Questo articolo riguarda le funzionalità principali e viene aggiornato con il rilascio di nuovi elementi.
+description: Informazioni sulle novità del Server di report di Power BI. Questo articolo illustra le principali aree funzionali e viene aggiornato man mano che vengono rilasciati nuovi elementi.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
 ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381308"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
@@ -35,7 +35,7 @@ Per altri dettagli, vedere il post di blog di gennaio 2020 dedicato a Server di 
 
 Questa versione offre molte nuove funzionalità, ad esempio la formattazione condizionale per i pulsanti, miglioramenti del profiling dei dati e altre impostazioni di formattazione per gli indicatori KPI e gli oggetti visivi tabella. Ecco un elenco riepilogativo degli aggiornamenti:
 
-**Creazione di report**
+**Reporting**
 
 - Impostazione di una colonna della tabella o del valore della matrice come URL personalizzato
 - Impostazioni di formattazione dell'oggetto visivo indicatore KPI
@@ -51,12 +51,12 @@ Questa versione offre molte nuove funzionalità, ad esempio la formattazione con
 
 - Miglioramenti del profiling dei dati
 
-**Altro**
+**Altri**
 
 - Nuovo formato di file: pbids
 - Miglioramenti delle prestazioni per le operazioni di modellazione
 
-**Creazione di report**
+**Reporting**
 
 *Impostare una colonna di tabella o un valore di matrice come URL personalizzato*
 
@@ -120,7 +120,7 @@ Questo mese sono stati introdotti alcuni miglioramenti significativi per le funz
 
 Era già possibile usare diversi criteri di raggruppamento specifici del tipo all'interno del riquadro di distribuzione dei profili di colonna. Ora è anche possibile filtrare dall'interno dei callout per ogni valore nel grafico di distribuzione quando sono applicati criteri di raggruppamento. Dal riquadro dei profili dati per una colonna Date/DateTime, ad esempio, è possibile escludere tutti i valori che rientrano in un determinato mese.
 
-**Altro**
+**Altri**
 
 *Nuovo formato di file: pbids*
 
@@ -136,7 +136,7 @@ Sono state migliorate le prestazioni nel motore di Analysis Services per velociz
 
 Questo è tutto per la versione di Server di report di Power BI di gennaio 2020. Continuare a inviare commenti e suggerimenti e non dimenticare di [votare le funzionalità che si vorrebbe vedere incluse in Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 
-### <a name="power-bi-report-server"></a>Server di report Power BI
+### <a name="power-bi-report-server"></a>Server di report di Power BI
 
 #### <a name="export-to-excel-from-power-bi-reports"></a>Esportare in Excel da report di Power BI
 
@@ -146,7 +146,7 @@ L'esportazione in Excel da un report di Power BI in Server di report di Power BI
 
 È ora possibile ospitare un catalogo di database usato per Server di report di Power BI in un'istanza gestita di database SQL di Azure ospitata in una macchina virtuale o nel data center. Il supporto è limitato all'uso delle credenziali del database per la connessione all'istanza gestita di database SQL.
 
-#### <a name="power-bi-premium-dataset-support"></a>Supporto di set di dati di Power BI Premium
+#### <a name="power-bi-premium-dataset-support"></a>Supporto del set di dati Power BI Premium
 
 È possibile connettersi a set di dati di Power BI usando Generatore report Microsoft o SQL Server Data Tools (SSDT). È quindi possibile pubblicare questi report in Server di report di Power BI usando la connettività a SQL Server Analysis Services. Per abilitare lo scenario, gli utenti devono usare un nome utente e una password archiviati di Windows.
 
@@ -160,7 +160,7 @@ Con Azure Active Directory Application Proxy non è più necessario gestire il p
 
 #### <a name="custom-headers"></a>Intestazioni personalizzate
 
-Impostare i valori di intestazione per tutti gli URL che corrispondono al modello regex specificato. Gli utenti possono aggiornare il valore dell'intestazione personalizzata con XML valido per impostare i valori di intestazione per gli URL di richiesta selezionati. Gli amministratori possono aggiungere un numero qualsiasi di intestazioni nel codice XML. Per informazioni dettagliate, vedere [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) nell'articolo **Pagina Avanzate delle proprietà del server** di Reporting Services.
+Imposta i valori di intestazione per tutti gli URL che corrispondono al criterio regex specificato. Gli utenti possono aggiornare il valore dell'intestazione personalizzata con un XML valido per impostare i valori di intestazione per gli URL di richiesta selezionati. Gli amministratori possono aggiungere un numero qualsiasi di intestazioni in XML. Per informazioni dettagliate, vedere [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) nell'articolo **Pagina Avanzate delle proprietà del server** di Reporting Services.
 
 #### <a name="transparent-database-encryption"></a>Crittografia trasparente del database
 
@@ -172,7 +172,7 @@ La versione dell'API disponibile in questa versione è 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>Aggiornamento di Generatore report Microsoft
 
-La nuova versione rilasciata di Generatore report è completamente compatibile con le versioni 2016, 2017 e 2019 di Reporting Services. È compatibile anche con tutte le versioni rilasciate e supportate di Server di report di Power BI.
+La nuova versione rilasciata del Generatore report è completamente compatibile con le versioni 2016, 2017 e 2019 di Reporting Services. È compatibile anche con tutte le versioni rilasciate e supportate di Server di report di Power BI.
 
 ## <a name="september-2019"></a>Settembre 2019
 
@@ -188,7 +188,7 @@ L'aggiornamento di settembre 2019 di Server di report di Power BI offre numerose
 
 Ecco l'elenco completo delle funzionalità. 
 
-### <a name="reporting"></a>Reporting
+### <a name="reporting"></a>Report
 
 - Progettazione dei riquadri aggiornata
 - Filtri a livello di oggetto visivo per i filtri dei dati
@@ -206,7 +206,7 @@ Ecco l'elenco completo delle funzionalità.
 - Classi di colore e testo nei temi
 - Nuovi temi predefiniti
 
-### <a name="analytics"></a>Analisi
+### <a name="analytics"></a>Analytics
 
 - Stringhe di formato personalizzate
 - Aggiornamenti di formattazione condizionale per opzioni di formattazione
@@ -261,7 +261,7 @@ Selezionare le etichette delle categorie dell'asse in un oggetto visivo per evid
 
 Ecco l'elenco di tutte le nuove funzionalità:
 
-#### <a name="reporting"></a>Reporting
+#### <a name="reporting"></a>Report
 
 - Evidenziazione incrociata in un singolo punto nei grafici a linee 
 - Ritorno a capo automatico nei titoli 
@@ -282,7 +282,7 @@ Ecco l'elenco di tutte le nuove funzionalità:
 - Controllo di posizione dell'etichetta dati in una riga
 - Controllo delle dimensioni del testo dell'indicatore per l'oggetto visivo KPI
 
-#### <a name="analytics"></a>Analisi
+#### <a name="analytics"></a>Analytics
 
 - Visualizzazione delle date come gerarchia ora disponibile a livello generale  
 
@@ -293,7 +293,7 @@ Ecco l'elenco di tutte le nuove funzionalità:
 - Aggiornamento alla funzione DAX ALLSELECTED
 - Disabilitare le tabelle data generate automaticamente per i nuovi report
 
-### <a name="power-bi-report-server"></a>Server di report Power BI
+### <a name="power-bi-report-server"></a>Server di report di Power BI
 
 #### <a name="support-for-trusted-visuals"></a>Supporto per gli oggetti visivi attendibili
 
@@ -327,13 +327,13 @@ Gli amministratori possono configurare le proprietà seguenti in Proprietà avan
 
 **AllowedResourceExtensionsForUpload** Possibilità di impostare le estensioni delle risorse caricabili nel server di report. Non è obbligatorio includere le estensioni per i tipi di file predefiniti, ad esempio &ast;.rdl e &ast;.pbix. L'impostazione predefinita è "&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx". 
 
-**SupportedHyperlinkSchemes** Consente di impostare un elenco delimitato da virgole degli schemi URI definibili nelle azioni CollegamentoIpertestuale autorizzate per il rendering o "&ast;" per abilitare tutti gli schemi di collegamento ipertestuale. Ad esempio, se si imposta "http,https" sono consentiti i collegamenti ipertestuali a "https://www. contoso.com", ma vengono rimossi i collegamenti ipertestuali a "mailto:bill@contoso.com" o "javascript:window.open('www.contoso.com', '_blank')". L'impostazione predefinita è "&ast;".
+**SupportedHyperlinkSchemes** Consente di impostare un elenco delimitato da virgole degli schemi URI definibili nelle azioni CollegamentoIpertestuale autorizzate per il rendering o "&ast;" per abilitare tutti gli schemi di collegamento ipertestuale. Ad esempio, se si imposta "http,https" sono consentiti i collegamenti ipertestuali a "https://www. contoso.com", ma i collegamenti ipertestuali a "mailto:bill@contoso.com" o a "javascript:window.open('www.contoso.com', '_blank')" vengono rimossi. L'impostazione predefinita è "&ast;".
 
 ## <a name="august-2018"></a>Agosto 2018
 
 La versione di agosto 2018 presenta molte nuove funzionalità aggiunte alla versione di Power BI Desktop ottimizzate per Server di report di Power BI. Sono riportate di seguito, suddivise per area:
 
-- [Creazione di report](#reporting)
+- [Reporting](#reporting)
 - [Analisi](#analytics)
 - [Modellazione](#modeling)
 
@@ -387,7 +387,7 @@ La funzionalità delle descrizioni comando per le pagine del report è inclusa n
 
 - Per gli oggetti visivi di Power BI è ora possibile eseguire il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile).
 
-### <a name="reporting"></a>Reporting 
+### <a name="reporting"></a>Report 
 
 - [Temi per i report](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#theming)
 - [Pulsanti per l'attivazione di azioni](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#buttons)
@@ -415,7 +415,7 @@ La funzionalità delle descrizioni comando per le pagine del report è inclusa n
 - [Riformulazione dei filtri dei dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
 - [Descrizioni comando per le pagine del report](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
 
-### <a name="analytics"></a>Analisi
+### <a name="analytics"></a>Analytics
 
 - [Nuove funzioni DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Drill-through con misure](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
@@ -494,7 +494,7 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Filtri dei dati reattivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
 - [Aggiunta di una data di ancoraggio a un filtro dei dati per la data relativa](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
 
-### <a name="reporting"></a>Reporting
+### <a name="reporting"></a>Report
 
 - [Disattivare l'intestazione dell'oggetto visivo in modalità di lettura per un report](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
 - [Opzioni del report per le origini dati lente](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
@@ -504,7 +504,7 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Ricerca nei riquadri formattazione e analisi](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Riquadro delle proprietà del campo e descrizioni del campo](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analisi
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() e UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Contrassegnare una tabella con data personalizzata](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -561,9 +561,9 @@ Questa versione supporta l'aumento delle istanze. Usare un servizio di bilanciam
 
 Gli amministratori possono configurare le proprietà seguenti in Proprietà avanzate di SSMS per la server farm:
 
-* EnableCustomVisuals: Vero/Falso
-* EnablePowerBIReportEmbeddedModels: Vero/Falso
-* EnablePowerBIReportExportData: Vero/Falso
+* EnableCustomVisuals: True/False
+* EnablePowerBIReportEmbeddedModels: True/False
+* EnablePowerBIReportExportData: True/False
 * MaxFileSizeMb: il valore predefinito è ora 1000
 * ModelCleanupCycleMinutes: frequenza della verifica per la rimozione dei modelli dalla memoria
 * ModelExpirationMinutes: tempo di attesa prima della scadenza e della rimozione del modello in base all'ora dell'ultimo uso
@@ -605,11 +605,11 @@ Excel e Power BI includono strumenti unici nel settore. Insieme consentono ai bu
 
 Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabella e matrice di Power BI. Per creare report con tali oggetti visivi, sarà necessaria una versione aggiornata di Power BI Desktop per la versione di ottobre 2017. Non è possibile installarla side-by-side con la versione di Power BI Desktop di giugno 2017. Per la versione più aggiornata di Power BI Desktop, nella [pagina di download del server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Opzioni avanzate di download**.
 
-## <a name="june-2017"></a>Giugno 2017
+## <a name="june-2017"></a>giugno 2017
 
 * Il server di report di Power BI è disponibile a livello generale (GA).
 
-## <a name="may-2017"></a>Maggio 2017
+## <a name="may-2017"></a>maggio 2017
 
 * L'anteprima di server di report di Power BI è stata resa disponibile
 * Possibilità di pubblicare report di Power BI locali
@@ -623,6 +623,6 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 Vedere queste fonti per tenersi aggiornati sulle nuove funzionalità di Server di report di Power BI.
 
 * [Blog di Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* Il [canale YouTube Guy in a Cube](https://aka.ms/guyinacube)
+* Il [video di Guy in a Cube sul canale YouTube](https://aka.ms/guyinacube)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

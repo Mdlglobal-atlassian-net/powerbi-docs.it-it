@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376754"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Modalità per la condivisione del lavoro in Power BI
@@ -42,7 +42,7 @@ Quando i team lavorano insieme, devono accedere agli stessi documenti in modo da
 
 Le aree di lavoro offrono ruoli che determinano le autorizzazioni dei colleghi. È possibile usare tali ruoli per determinare chi può gestire l'intera area di lavoro o chi può modificarne o distribuirne il contenuto.
 
-![Aree di lavoro](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 È naturalmente possibile inserire contenuto nell'area di lavoro personale e condividerlo da questa posizione. Per la collaborazione, le aree di lavoro sono tuttavia preferibili rispetto all'area di lavoro personale in quanto offrono la comproprietà del contenuto. L'utente e l'intero team possono eseguire facilmente aggiornamenti o concedere l'accesso ad altri utenti. L'area di lavoro personale è più adatta per gli utenti singoli per contenuto occasionale o personale.
 
@@ -64,7 +64,7 @@ Le app possono essere facilmente individuate e installate nel servizio Power BI 
 
 Dopo l'installazione di un'app è possibile visualizzarla nel browser o su un dispositivo mobile.
 
-Per visualizzare l'app gli utenti devono disporre di una licenza Power BI Pro; in alternativa, l'app deve essere archiviata in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium-what-is.md) (Che cos'è Power BI Premium?).
+Per visualizzare l'app gli utenti devono disporre di una licenza Power BI Pro; in alternativa, l'app deve essere archiviata in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [Che cos'è Power BI Premium?](service-premium-what-is.md).
 
 È anche possibile pubblicare le app per gli utenti esterni all'organizzazione, che possono visualizzare il contenuto delle app e interagire con esso, ma non condividerlo con altri utenti. È ora possibile creare *app modello* e distribuirle a tutti gli utenti di Power BI.
 

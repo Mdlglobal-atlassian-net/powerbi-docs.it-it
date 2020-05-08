@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379391"
 ---
 # <a name="chart-utils"></a>Utilità per i grafici
@@ -42,7 +42,7 @@ Questa funzione restituisce il numero consigliato di segni di graduazione in bas
 function getRecommendedNumberOfTicksForXAxis(availableWidth: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -60,7 +60,7 @@ Questa funzione restituisce il numero consigliato di segni di graduazione in bas
 function getRecommendedNumberOfTicksForYAxis(availableWidth: number);
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -84,7 +84,7 @@ function getBestNumberOfTicks(
 ): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -132,7 +132,7 @@ function getTickLabelMargins(
 ): TickLabelMargins;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -164,7 +164,7 @@ Controlla se una stringa è Null o non definita o vuota.
 function isOrdinal(type: ValueTypeDescriptor): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -183,7 +183,7 @@ Controlla se il valore è di tipo DateTime.
 function isDateTime(type: ValueTypeDescriptor): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -202,7 +202,7 @@ Usa la scala D3 per ottenere lo spessore effettivo della categoria.
 function getCategoryThickness(scale: any): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -226,7 +226,7 @@ In caso contrario, viene restituito l'elemento più grande in scale.domain() che
 function invertOrdinalScale(scale: d3.scale.Ordinal<any, any>, x: number);
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -256,7 +256,7 @@ function findClosestXAxisIndex(
 ): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -302,7 +302,7 @@ function diffScaled(
 ): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -335,7 +335,7 @@ function createDomain(
 ): number[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -386,7 +386,7 @@ function getCategoryValueType(
 ): number[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -431,7 +431,7 @@ Questa funzione crea un asse D3, inclusa la scala. Può essere verticale o orizz
 function createAxis(options: CreateAxisOptions): IAxisProperties;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -476,7 +476,7 @@ Questa funzione imposta un dominio personalizzato, ma non cambia quando non vien
 function applyCustomizedDomain(customizedDomain, forcedDomain: any[]): any[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -503,7 +503,7 @@ function combineDomain(
 ): any[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -526,7 +526,7 @@ Questa funzione indica se il numero è una potenza di 10.
 function powerOfTen(d: any): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -556,7 +556,7 @@ function hideCollidedLabels(
 ): LabelEnabledDataPoint[];
 ```
 
-Esempio:
+Example:
 
 ```typescript
 let dataLabelManager = new DataLabelManager();
@@ -576,7 +576,7 @@ Questo metodo statico controlla se il rettangolo specificato è valido, ossia se
 function isValid(rect: IRect): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 let rectangle = {
@@ -613,7 +613,7 @@ Questa funzione restituisce la precisione del formato dal formato specificato.
 function getLabelFormattedText(options: LabelFormattedTextOptions): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -661,7 +661,7 @@ Questa funzione restituisce Gestione cache, che consente di accedere rapidamente
 function createColumnFormatterCacheManager(): IColumnFormatterCacheManager;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -699,7 +699,7 @@ function createLegend(
 ): ILegend;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 public constructor(options: VisualConstructorOptions) {
@@ -749,7 +749,7 @@ Questa funzione misura l'altezza del testo con le proprietà di testo SVG specif
 function drawLegend(data: LegendData, viewport: IViewport): void;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 private renderLegend(): void {

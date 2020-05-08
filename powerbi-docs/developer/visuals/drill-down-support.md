@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380502"
 ---
 # <a name="add-drill-down-support"></a>Aggiungere il supporto del drill-down
@@ -315,7 +315,7 @@ Nel passaggio finale si otterrà l'oggetto visivo con le selezioni e il menu di 
 
 Preparare i dati di esempio per testare l'oggetto visivo con i mapping della visualizzazione dati di matrice:
 
-|   Row1   |   Riga2   |   Riga3   |   Colonna1   |   Colonna2   |   Column3   |   Valori   |
+|   Riga1   |   Riga2   |   Riga3   |   Colonna 1   |   Colonna 2   |   Column3   |   Valori   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

@@ -11,17 +11,17 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207460"
 ---
 # <a name="manage-data-sources"></a>Gestire le origini dati
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI supporta molte [origini dati locali](power-bi-data-sources.md), ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o più origini dati. Per questo esempio viene illustrato come aggiungere SQL Server come origine dati. La procedura si ripete in modo simile per eventuali altre origini dati.
+Power BI supporta molte [origini dati locali](power-bi-data-sources.md), ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o per più origini dati. Per questo esempio viene illustrato come aggiungere SQL Server come origine dati. La procedura si ripete in modo simile per eventuali altre origini dati.
 
 La maggior parte delle operazioni di gestione delle origini dati può essere eseguita anche usando le API. Per altre informazioni, vedere [API REST (gateway).](/rest/api/power-bi/gateways)
 
@@ -29,7 +29,7 @@ La maggior parte delle operazioni di gestione delle origini dati può essere ese
 
 1. Nell'angolo in alto a destra del servizio Power BI selezionare l'icona dell'ingranaggio ![Icona dell'ingranaggio Impostazioni](media/service-gateway-data-sources/icon-gear.png) > **Gestisci gateway**.
 
-    ![Gestisci gateway](media/service-gateway-data-sources/manage-gateways.png)
+    ![Gestire i gateway](media/service-gateway-data-sources/manage-gateways.png)
 
 2. Selezionare un gateway e quindi selezionare **Aggiungi origine dati**. In alternativa, passare a **Gateway** > **Aggiungi origine dati**.
 
@@ -83,7 +83,7 @@ Dopo aver creato l'origine dati, è possibile usarla con le connessioni DirectQu
 > [!NOTE]
 >I nomi del server e del database devono corrispondere tra Power BI Desktop e l'origine dati all'interno del gateway dati locale.
 
-Il collegamento tra il set di dati e l'origine dati nel gateway si basa sul nome del server e sul nome del database. Questi nomi devono corrispondere. Ad esempio, se si indica un indirizzo IP per il nome del server, in Power BI Desktop è necessario usare l'indirizzo IP per l'origine dati nella configurazione del gateway. Se si usa *SERVER\ISTANZA*, in Power BI Desktop è necessario usarlo lo stesso nell'origine dati configurata per il gateway.
+Il collegamento tra il set di dati e l'origine dati nel gateway si basa sul nome del server e sul nome del database. Tali nomi devono corrispondere. Ad esempio, se si indica un indirizzo IP per il nome del server, in Power BI Desktop è necessario usare l'indirizzo IP per l'origine dati nella configurazione del gateway. Se si usa *SERVER\ISTANZA*, in Power BI Desktop è necessario usarlo lo stesso nell'origine dati configurata per il gateway.
 
 Se si è presenti nella scheda **Utenti** dell'origine dati configurata nel gateway e i nomi del server e del database corrispondono, il gateway viene visualizzato come opzione da usare con l'aggiornamento pianificato.
 
@@ -96,7 +96,7 @@ Se si è presenti nella scheda **Utenti** dell'origine dati configurata nel gate
 
 OAuth è uno schema di autenticazione supportato solo per connettori personalizzati con il gateway dati locale. Non è possibile aggiungere altre origini dati che richiedono OAuth. Se il set di dati ha un'origine dati che richiede OAuth e tale origine dati non è un connettore personalizzato, non è possibile usare il gateway per l'aggiornamento pianificato.
 
-## <a name="manage-users"></a>Gestire gli utenti
+## <a name="manage-users"></a>Gestisci utenti
 
 Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso all'origine dati specifica (non all'intero gateway) a utenti e gruppi di sicurezza abilitati per la posta elettronica. L'elenco di utenti di un'origine dati controlla soltanto chi è autorizzato a pubblicare report che includono dati provenienti da tale origine. I proprietari di report possono creare dashboard, pacchetti di contenuto e app e condividerli con altri utenti.
 
@@ -114,7 +114,7 @@ Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso all'origi
 
 4. Selezionare **Aggiungi**. Il nome del membro aggiunto verrà visualizzato nella casella.
 
-    ![Aggiungi utente](media/service-gateway-data-sources/add-user.png)
+    ![Aggiungere un utente](media/service-gateway-data-sources/add-user.png)
 
 Non dimenticare che è necessario aggiungere utenti a ogni origine dati a cui si vuole concedere l'accesso. Ogni origine dati dispone di un elenco separato di utenti. Aggiungere gli utenti a ciascuna origine dati separatamente.
 

@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207138"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Elementi della visualizzazione Progettazione report per i report impaginati
@@ -87,16 +87,16 @@ Le dimensioni dell'area di progettazione potrebbero essere diverse dall'area di 
  A seconda della proprietà, è possibile impostare un valore della proprietà da un elenco di riepilogo a discesa, digitare il valore o selezionare `<Expression>` per creare un'espressione.  
   
 ### <a name="changing-the-properties-pane-view"></a>Modifica della visualizzazione del riquadro Proprietà  
- Per impostazione predefinita, le proprietà visualizzate nel riquadro Proprietà sono organizzate in categorie ampie, ad esempio Azione, Bordo, Riempimento, Tipo di carattere e Generale. A ogni categoria è associato un set di proprietà. Ad esempio, nella categoria Tipo di carattere sono elencate le proprietà seguenti: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight e TextDecoration. Se si preferisce, è possibile ordinare alfabeticamente tutte le proprietà elencate nel riquadro. In questo modo le categorie vengono rimosse e tutte le proprietà vengono elencate in ordine alfabetico indipendentemente dalla categoria.  
+ Per impostazione predefinita, le proprietà visualizzate nel riquadro Proprietà sono organizzate in categorie ampie, ad esempio Azione, Bordo, Riempimento, Tipo di carattere e Generale. A ogni categoria è associato un set di proprietà. Ad esempio, nella categoria Tipo di carattere sono elencate le proprietà seguenti: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight e TextDecoration. Se lo si desidera, è possibile ordinare alfabeticamente tutte le proprietà elencate nel riquadro. In questo modo, le categorie verranno rimosse e tutte le proprietà verranno elencate in ordine alfabetico, indipendentemente dalla categoria a cui appartengono.  
   
  Nella parte superiore del riquadro Proprietà sono disponibili tre pulsanti: **Categoria**, **Ordine alfabetico** e **Pagina delle proprietà**. Selezionare i pulsanti Categoria e Ordine alfabetico per alternare le visualizzazioni del riquadro Proprietà. Selezionare il pulsante **Pagina delle proprietà** per aprire la finestra di dialogo delle proprietà per un elemento del report selezionato.  
   
   
 ## <a name="5-grouping-pane"></a>5 Riquadro di raggruppamento
 
- I gruppi vengono usati per organizzare i dati del report in una gerarchia visiva e per calcolare i totali. È possibile visualizzare i gruppi di righe e colonne all'interno di un'area dati nell'area di progettazione e anche nel riquadro di raggruppamento. Nel riquadro di raggruppamento sono disponibili due riquadri: Gruppi di righe e Gruppi di colonne. Quando si seleziona un'area dati, nel riquadro di raggruppamento vengono visualizzati tutti i gruppi all'interno di tale area dati come elenco gerarchico: i gruppi figlio vengono visualizzati rientrati sotto i relativi gruppi padre.  
+ I gruppi vengono usati per organizzare i dati del report in una gerarchia visiva e per calcolare i totali. È possibile visualizzare i gruppi di righe e di colonne inclusi in un'area dati nell'area di progettazione e nel riquadro di raggruppamento. Nel riquadro di raggruppamento sono disponibili due riquadri: Gruppi di righe e Gruppi di colonne. Quando si seleziona un'area dati, nel riquadro di raggruppamento vengono visualizzati tutti i gruppi all'interno di tale area dati come elenco gerarchico: i gruppi figlio vengono visualizzati rientrati sotto i relativi gruppi padre.  
   
- È possibile creare gruppi trascinando i campi dal riquadro dei dati del report e rilasciandoli nell'area di progettazione o nel riquadro di raggruppamento. Nel riquadro di raggruppamento è possibile aggiungere gruppi padre, adiacenti e figlio, modificare le proprietà dei gruppi ed eliminare gruppi.  
+ È possibile creare gruppi trascinando i campi dal riquadro dei dati del report e rilasciandoli sull'area di progettazione o nel riquadro di raggruppamento. Nel riquadro di raggruppamento è possibile aggiungere gruppi padre, adiacenti e figlio, modificare le proprietà dei gruppi ed eliminare gruppi.  
   
  Il riquadro di raggruppamento viene visualizzato per impostazione predefinita, ma è possibile chiuderlo deselezionando la casella di controllo Riquadro di raggruppamento nella scheda Visualizza. Il riquadro di raggruppamento non è disponibile per le aree dati Grafico o Misuratore.  
   

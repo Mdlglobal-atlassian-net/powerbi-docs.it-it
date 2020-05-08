@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376823"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Suggerimenti per porre domande in Domande e risposte di Power BI
@@ -30,7 +30,7 @@ L'elenco seguente usa i tempi verbali presenti, ma tutti i tempi verbali vengono
 >  
 
 
-|Categoria  |Parole chiave  |Column3  |
+|Category  |Parole chiave  |Column3  |
 |---------|---------|---------|
 |**Aggregazioni**     | totale, somma, importo, numero, quantità, conteggio, media, la maggior parte, almeno, più piccolo, più grande, minore, più elevato, grandissimo, massimo, max, più grande, più basso, il più piccolo, minimo, min          |
 |     |         |         

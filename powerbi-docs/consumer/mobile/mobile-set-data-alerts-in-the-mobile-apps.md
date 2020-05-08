@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
 ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435813"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
@@ -174,5 +174,5 @@ Le origini dati vengono spesso impostate in modo da essere aggiornate quotidiana
 ## <a name="next-steps"></a>Passaggi successivi
 * [Gestire gli avvisi nel servizio Power BI](../../service-set-data-alerts.md)
 * [Centro notifiche di Power BI per dispositivi mobili](mobile-apps-notification-center.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 
