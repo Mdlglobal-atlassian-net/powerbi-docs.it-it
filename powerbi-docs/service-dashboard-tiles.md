@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637865"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI
@@ -41,7 +41,7 @@ Per aggiungere un riquadro a un dashboard si può procedere in diversi modi. È 
 * [Un report](service-dashboard-pin-tile-from-report.md)
 * [un altro dashboard](service-pin-tile-to-another-dashboard.md)
 * [Cartella di lavoro di Excel in OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Informazioni rapide)](service-insights.md)
+* [Informazioni rapide](service-insights.md)
 * [Un report impaginato locale in Server di report di Power BI o in SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Per creare riquadri autonomi per immagini, caselle di testo, video, dati in streaming e contenuto Web direttamente nel dashboard, usare il controllo [Aggiungi riquadro](service-dashboard-add-widget.md).
@@ -96,7 +96,7 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 - [Creare una scheda (riquadro per numeri elevati) per il dashboard](power-bi-visualization-card.md)
 - [Introduzione ai dashboard di Power BI per i progettisti](service-dashboards.md)  
 - [Aggiornamento dei dati in Power BI](refresh-data.md)
-- [Concetti di base del servizio Power BI](service-basic-concepts.md)
+- [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 - [Integrating Power BI tiles into Office documents (Integrazione dei riquadri di Power BI nei documenti di Office)](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Aggiungere elementi di Reporting Services ai dashboard di Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 

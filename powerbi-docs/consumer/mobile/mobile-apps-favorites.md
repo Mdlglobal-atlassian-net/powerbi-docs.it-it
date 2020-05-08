@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435560"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creare e visualizzare i Preferiti nelle app Power BI per dispositivi mobili
@@ -79,5 +79,5 @@ Per visualizzare la pagina Preferiti, toccare l'icona Preferiti sulla barra di s
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Aggiungere dashboard ai Preferiti nel servizio Power BI](../end-user-favorite.md) 
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

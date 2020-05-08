@@ -10,10 +10,10 @@ author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
 ms.openlocfilehash: 1452c77fc6386f3f4d4a4f949fd2c74e1919b0c0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488753"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Power BI per gli utenti di Microsoft Azure 
@@ -115,7 +115,7 @@ L'utente è più di un semplice consumer di Power BI? Di nuovo benvenuti. È con
                                           <h3>Incorporamento di Power BI nelle applicazioni</h3> 
                                           <p></p>
                                                 <a href="developer/embedded/embedding.md">Panoramica dell'incorporamento di Power BI</a><br/>
-                                                <a href="developer/embedded/azure-pbie-what-is-power-bi-embedded.md">Che cos'è Power BI Embedded?</a><br/> 
+                                                <a href="developer/embedded/azure-pbie-what-is-power-bi-embedded.md">Informazioni su Power BI Embedded</a><br/> 
                                                 <a href="developer/embedded/embed-sample-for-customers.md">Esercitazione: Power BI Embedded </a> 
                                     </div> 
                               </div> 

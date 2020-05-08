@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381446"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Applicare limiti e strategie per i punti dati in base al tipo di oggetto visivo
@@ -56,7 +56,7 @@ I limiti dinamici vengono applicati automaticamente quando il server è in grado
 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Strategie e limiti dei punti dati in base al tipo di oggetto visivo
 
-### <a name="area-chart"></a>Grafico ad aree
+### <a name="area-chart"></a>Grafico ad area
 Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Grafico a barre/istogramma
@@ -92,7 +92,7 @@ La mappa colorata può usare statistiche o limiti dinamici. Power BI tenta di us
 - Max punti: 3.500
 - Categorie: primi 3.500
 
-### <a name="kpi"></a>Indicatore KPI
+### <a name="kpi"></a>KPI
 - Asse tendenza
 - Ultimi 3.500
 
@@ -132,7 +132,7 @@ Nessuna strategia di riduzione
 ### <a name="scatter-chart-high-density"></a>Grafico a dispersione (ad alta densità)
 Vedere [Campionamento ad alta densità nei grafici a dispersione](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
-### <a name="pie"></a>Torta
+### <a name="pie"></a>Grafico a torta
 - Max punti: 3.500
 - Gruppo: primi 500
 - Dettagli: primi 20

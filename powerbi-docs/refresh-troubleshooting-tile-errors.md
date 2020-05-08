@@ -11,10 +11,10 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381147"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
@@ -76,11 +76,11 @@ Per accelerare l'aggiornamento dei riquadri, il proprietario di un set di dati p
 > [!NOTE]
 > La sezione **Aggiornamento pianificato della cache** è disponibile solo per i set di dati in modalità DirectQuery/Connessione dinamica. Per i set di dati in modalità importazione non è necessario un aggiornamento distinto dei riquadri perché questi vengono aggiornati automaticamente durante l'aggiornamento dati pianificato successivo.
 
-## <a name="contact-support"></a>Contact support
+## <a name="contact-support"></a>Contattare il supporto tecnico
 Se il problema riscontrato persiste, [contattare il supporto tecnico](https://support.powerbi.com) per ulteriori verifiche.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
+[Risoluzione dei problemi relativi al gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi relativi a Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -9,17 +9,17 @@ ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
 ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381009"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
 In questa esercitazione verrà illustrato come aggiungere proprietà comuni all'oggetto visivo.
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 > [!div class="checklist"]
 > * Aggiungere proprietà all'oggetto visivo.
 > * Creare un pacchetto dell'oggetto visivo.

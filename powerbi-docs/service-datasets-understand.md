@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208012"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Set di dati nel servizio Power BI
@@ -54,7 +54,7 @@ I modelli con hosting esterno e i modelli di Power BI Desktop possono applicare 
 
 La creazione di set di dati basati su [cartelle di lavoro di Excel](service-excel-workbook-files.md) o [file con estensione csv](service-comma-separated-value-files.md) determina la creazione automatica di un modello. Le tabelle di Excel e i dati dei file con estensione csv vengono importati per creare tabelle del modello, mentre un modello di dati cartella di lavoro di Excel viene convertito per creare un modello di Power BI. In tutti i casi i dati dei file vengono importati in un modello.
 
-## <a name="summary"></a>Riepilogo
+## <a name="summary"></a>Summary
 
 È possibile fare distinzioni tra i set di dati di Power BI che rappresentano i modelli:
 

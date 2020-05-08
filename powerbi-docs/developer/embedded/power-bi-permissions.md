@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
 ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491365"
 ---
 # <a name="power-bi-permissions"></a>Autorizzazioni di Power BI
@@ -21,14 +21,14 @@ ms.locfileid: "79491365"
 
 Le autorizzazioni di Power BI permettono a un'applicazione di eseguire determinate azioni per conto dell'utente. Per essere valide, tutte le autorizzazioni devono essere approvate da un utente.
 
-| Nome visualizzato | Descrizione | Valore di ambito |
+| Nome visualizzato | Description | Valore di ambito |
 | --- | --- | --- |
 | Visualizza tutti i set di dati |L'app può visualizzare tutti i set di dati per l'utente connesso e i set di dati a cui l'utente può accedere. |Dataset.Read.All |
 | Lettura e scrittura in tutti i set di dati |L'app può visualizzare e scrivere in tutti i set di dati per l'utente connesso e i set di dati a cui l'utente può accedere. |Dataset.ReadWrite.All |
 | Aggiungi dati al set di dati dell'utente |Offre a un'app l'accesso per aggiungere o eliminare righe dei set di dati di un utente. Questa autorizzazione non concede all'app l'accesso ai dati dell'utente. |Data.Alter_Any |
-| Crea contenuti |L'app può creare automaticamente contenuti e set di dati per un utente. |Content.Create |
+| Crea contenuto |L'app può creare automaticamente contenuti e set di dati per un utente. |Content.Create |
 | Visualizza gruppi di utenti |L'app può visualizzare tutti i gruppi a cui appartiene l'utente connesso. |Group.Read |
-| Visualizzare tutti i gruppi |L'app può visualizzare tutti i gruppi a cui appartiene l'utente connesso. |Group.Read.All |
+| Visualizza tutti i gruppi |L'app può visualizzare tutti i gruppi a cui appartiene l'utente connesso. |Group.Read.All |
 | Leggi e scrivi in tutti i gruppi |L'app può visualizzare e scrivere in tutti i gruppi per l'utente connesso e in tutti i gruppi a cui l'utente può accedere. |Group.ReadWrite.All |
 | Visualizza tutti i dashboard |L'app può visualizzare tutti i dashboard per l'utente connesso e i dashboard a cui l'utente può accedere. |Dashboard.Read.All |
 | Visualizza tutti i report |L'app può visualizzare tutti i report per l'utente connesso e i report a cui l'utente può accedere. L'applicazione può anche visualizzare i dati all'interno dei report, nonché la relativa struttura. |Report.Read.All |

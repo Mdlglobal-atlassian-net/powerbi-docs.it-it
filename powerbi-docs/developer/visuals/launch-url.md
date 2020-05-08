@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379778"
 ---
 # <a name="create-a-launch-url"></a>Creare un URL di avvio
@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Uso
 
 Usare la chiamata API `host.launchUrl()`, passando l'URL di destinazione come argomento stringa:
 

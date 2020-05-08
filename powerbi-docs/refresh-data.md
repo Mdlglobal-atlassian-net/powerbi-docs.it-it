@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: e51361d910c558824f33fb9ed00f6332aa3bba07
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81440033"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
@@ -82,7 +82,7 @@ I set di dati di push non contengono una definizione formale di un'origine dati,
 
 Un'operazione di aggiornamento di Power BI può essere costituita da più tipi di aggiornamento, tra cui l'aggiornamento dei dati, l'aggiornamento OneDrive, l'aggiornamento delle cache delle query, l'aggiornamento dei riquadri e l'aggiornamento degli oggetti visivi dei report. Benché Power BI determini automaticamente le procedure di aggiornamento necessarie per un determinato set di dati, è necessario sapere come tali procedure contribuiscono alla complessità e alla durata di un'operazione di aggiornamento. Per un riferimento rapido, vedere la tabella seguente.
 
-| Modalità di archiviazione | Aggiornamento dei dati | Aggiornamento OneDrive | Cache delle query | Aggiornamento del riquadro | Oggetti visivi del report |
+| Modalità di archiviazione | Aggiornamento dati | Aggiornamento OneDrive | Cache delle query | Aggiornamento del riquadro | Oggetti visivi del report |
 | --- | --- | --- | --- | --- | --- |
 | Importa | Pianificato e su richiesta | Sì, per i set di dati connessi | Se abilitato per la capacità Premium | Automaticamente e su richiesta | No |
 | DirectQuery | Non applicabile | Sì, per i set di dati connessi | Se abilitato per la capacità Premium | Automaticamente e su richiesta | No |
@@ -90,7 +90,7 @@ Un'operazione di aggiornamento di Power BI può essere costituita da più tipi d
 | Push | Non applicabile | Non applicabile | Non pratico | Automaticamente e su richiesta | No |
 | | | | | | |
 
-#### <a name="data-refresh"></a>Aggiornamento dei dati
+#### <a name="data-refresh"></a>Aggiornamento dati
 
 Per gli utenti di Power BI aggiornare i dati in genere significa importare i dati dalle origini dati originali in un set di dati, in base a un aggiornamento pianificato o su richiesta. È possibile eseguire più aggiornamenti del set di dati ogni giorno, operazione che potrebbe essere necessaria se i dati di origine sottostanti cambiano di frequente. Power BI limita i set di dati nella capacità condivisa a otto aggiornamenti al giorno. Se il set di dati si trova in una capacità Premium, è possibile pianificare fino a 48 aggiornamenti al giorno nelle impostazioni dei set di dati. Per altre informazioni, vedere [Configurare l'aggiornamento pianificato](#configure-scheduled-refresh) più avanti in questo articolo. I set di dati in una capacità Premium con l'[endpoint XMLA](service-premium-connect-tools.md) abilitato per la lettura/scrittura supportano operazioni di aggiornamento illimitate se configurati a livello di codice con TMSL o PowerShell.
 

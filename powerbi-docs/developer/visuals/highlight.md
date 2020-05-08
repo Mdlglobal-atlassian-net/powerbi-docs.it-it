@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114153"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Evidenziare i punti dati in oggetti visivi di Power BI
@@ -323,7 +323,7 @@ Gli oggetti visivi con mapping di visualizzazione dati di matrice hanno `capabil
 
 Dati di esempio per creare la gerarchia per il mapping di visualizzazione dati di matrice:
 
-|   Riga1   |   Riga2   |   Riga3   |   Colonna1   |   Colonna2   |   Column3   |   Valori   |
+|   Riga1   |   Riga2   |   Riga3   |   Colonna 1   |   Colonna 2   |   Column3   |   Valori   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

@@ -13,10 +13,10 @@
             - name: Consumer
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: Dispositivi mobili
+            - name: Mobile
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
-            - name: Sviluppatore
+            - name: Developer
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
               items:
@@ -35,10 +35,10 @@
             - name: Catalogo delle risorse di apprendimento
               tocHref: /power-bi/learning-catalog/
               topicHref: /power-bi/learning-catalog/index
-            - name: di report di Power BI
+            - name: Server di report
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
-            - name: Informazioni aggiuntive
+            - name: Materiale sussidiario
               tocHref: /power-bi/guidance/
               topicHref: /power-bi/guidance/index
             - name: 'Collaborare, condividere, integrare'
@@ -50,7 +50,7 @@
             - name: Connettersi ai dati
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
-            - name: Inizia
+            - name: Introduzione
               tocHref: /power-bi/fundamentals/
               topicHref: /power-bi/fundamentals/index
             - name: 'Trasformazione, shaping e modellazione dei dati'

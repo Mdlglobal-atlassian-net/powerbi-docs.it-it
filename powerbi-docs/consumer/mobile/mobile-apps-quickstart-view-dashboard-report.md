@@ -1,5 +1,5 @@
 ---
-title: 'Avvio rapido: Esplorare dashboard e report nelle app per dispositivi mobili'
+title: 'Guida introduttiva: Esplorare dashboard e report nelle app per dispositivi mobili'
 description: In questa guida introduttiva si esplorano un dashboard e un report di esempio nelle app Power BI per dispositivi mobili.
 author: paulinbar
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
 ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435721"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Avvio rapido: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Guida introduttiva: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
 Questo argomento di avvio rapido offre una breve presentazione dell'app Power BI per dispositivi mobili ed esplora un dashboard e un report di esempio. Viene illustrata l'app Power BI per iOS, ma è possibile seguire facilmente le procedure su altri dispositivi.
 
 Si applica a:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Telefoni](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone | iPad | Telefoni | Windows 10 |
+| iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
 >Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -60,7 +60,7 @@ Una volta completati i prerequisiti e scaricato l'esempio di analisi delle vendi
 
     ![Riquadro in modalità messa a fuoco](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
-8. Toccare l'icona del report ![Icona del report](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) nella parte inferiore della schermata (nei dispositivi Android è possibile che si trovi nella parte superiore della schermata). Il report correlato a questo riquadro viene aperto in modalità orizzontale.
+8. Toccare l'icona del report ![Icona di report](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) nella parte inferiore della schermata (nei dispositivi Android è possibile che si trovi nella parte superiore della schermata). Il report correlato a questo riquadro viene aperto in modalità orizzontale.
 
     ![Report in modalità orizzontale](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 

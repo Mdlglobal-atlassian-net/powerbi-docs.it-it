@@ -62,7 +62,7 @@
             - name: Domande e risposte in linguaggio naturale
               items:
                 - name: Introduzione a Domande e risposte
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Introduzione agli strumenti per Domande e risposte
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Strumenti avanzati per Domande e risposte
@@ -83,7 +83,7 @@
               href: ../paginated-reports/report-builder-data.md
             - name: Origini dati supportate
               href: ../paginated-reports/paginated-reports-data-sources.md
-            - name: Suggerimenti relativi alla progettazione
+            - name: Suggerimenti per la progettazione
               href: ../paginated-reports/report-builder-design-tips.md
             - name: 'Tabelle, matrici, elenchi'
               href: ../paginated-reports/report-builder-tables-matrices-lists.md
@@ -147,7 +147,7 @@
               href: ../desktop-add-custom-column.md
             - name: Usare le etichette di gerarchia inline
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Filtri dei dati
+            - name: Filtro dei dati
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Filtri dei dati per l'intervallo numerico
               href: ../desktop-slicer-numeric-range.md
@@ -325,7 +325,7 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Creare un report con un set di dati condiviso di Power BI
               href: ../paginated-reports/report-builder-shared-datasets.md
-            - name: Creare parametri
+            - name: Creare un parametro
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Sottoreport
               href: ../paginated-reports/subreports.md
@@ -359,7 +359,7 @@
               href: ../service-set-data-alerts.md
             - name: 'Aggiungere un''immagine, una casella di testo, un video o un codice a un dashboard'
               href: ../service-dashboard-add-widget.md
-            - name: Modificare un riquadro
+            - name: Modifica di un riquadro
               href: ../service-dashboard-edit-tile.md
             - name: Suggerimenti per la progettazione di un dashboard ottimale
               href: ../service-dashboards-design-tips.md

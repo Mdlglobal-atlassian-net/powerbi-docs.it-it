@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205528"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
@@ -59,7 +59,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
     In alternativa, basta ruotare lo smartphone per vedere il dashboard in formato orizzontale.
    
     ![Vista orizzontale del dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
-3. Scorrere rapidamente su e giù per visualizzare tutti i riquadri del dashboard. è possibile:
+3. Scorrere rapidamente su e giù per visualizzare tutti i riquadri del dashboard. È possibile:
    
    * [Toccare un riquadro](mobile-tiles-in-the-mobile-apps.md) per aprirlo in modalità messa a fuoco e interagire con esso.
    * Toccare la stella ![stella Preferiti](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) per [aggiungerlo ai preferito](mobile-apps-favorites.md).

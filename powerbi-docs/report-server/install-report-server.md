@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160605"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
@@ -53,7 +53,7 @@ Se si seleziona **Chiave del server di report di Power BI** viene visualizzata u
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
-Se si dispone di un contratto SQL Server Enterprise SA, è possibile ottenere il codice Product Key dal [Centro servizi per contratti multilicenza](https://www.microsoft.com/Licensing/servicecenter/).
+Se si ha un contratto SQL Server Enterprise SA, è possibile ottenere il codice Product Key dal [Centro servizi per contratti multilicenza](https://www.microsoft.com/Licensing/servicecenter/).
 
 ## <a name="install-your-report-server"></a>Installare il server di report
 
@@ -123,11 +123,11 @@ Un servizio di Windows viene creato come parte dell'installazione. Viene visuali
 
 Le prenotazioni URL sono composte da un prefisso, un nome host, una porta e una directory virtuale:
 
-| Parte | Descrizione |
+| Parte | Description |
 | --- | --- |
 | Prefisso |Il prefisso predefinito è HTTP. Se è stato precedentemente installato un certificato SSL (Secure Sockets Layer), il programma di installazione prova a creare prenotazioni URL che usano il prefisso HTTPS. |
 | Nome host |Il nome host predefinito è un carattere jolly complesso (+). Specifica che il server di report accetta qualsiasi richiesta HTTP sulla porta designata per qualsiasi nome host risolto nel computer, tra cui `https://<computername>/reportserver`, `https://localhost/reportserver`, o `https://<IPAddress>/reportserver.` |
-| Port |La porta predefinita è 80. Se si usa una porta diversa dalla porta 80, è necessario aggiungerla in modo esplicito all'URL quando si apre il portale Web in una finestra del browser. |
+| Porta |La porta predefinita è 80. Se si usa una porta diversa dalla porta 80, è necessario aggiungerla in modo esplicito all'URL quando si apre il portale Web in una finestra del browser. |
 | Directory virtuale |Per impostazione predefinita, le directory virtuali vengono create nel formato di ReportServer per il servizio Web ReportServer e Report per il portale Web. Per il servizio Web ReportServer, la directory virtuale predefinita è **reportserver**. Per il portale web, la directory virtuale predefinita è **reports**. |
 
 Un esempio di stringa dell'URL completa potrebbe essere come segue:

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637723"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
@@ -62,9 +62,9 @@ Per visualizzare un dashboard che riepiloga le metriche principali per le capaci
 
 Il dashboard include le metriche seguenti:
 
-#### <a name="top"></a>Top
+#### <a name="top"></a>TOP
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
 | Versione | Versione dell'app. | 
 | Capacities | Numero di capacità per cui si è amministratori. | 
@@ -73,7 +73,7 @@ Il dashboard include le metriche seguenti:
 
 #### <a name="system-summary"></a>System Summary
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
 | CPU Highest Utilization Capacity | Capacità con il numero massimo di volte per il quale la CPU ha superato l'80% delle soglie negli ultimi sette giorni. |
 | CPU Highest Utilization Count | Numero di volte in cui la capacità denominata ha superato l'80% delle soglie negli ultimi sette giorni. | 
@@ -83,7 +83,7 @@ Il dashboard include le metriche seguenti:
 
 #### <a name="dataset-summary"></a>Dataset Summary
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
 | Set di dati | Numero totale di set di dati in tutte le aree di lavoro nelle capacità.|
 | Datasets Average Size (MB) | Dimensioni medie dei set di dati in tutte le aree di lavoro nelle capacità.|  
@@ -110,7 +110,7 @@ Il dashboard include le metriche seguenti:
 
 #### <a name="dataflow-summary"></a>Dataflow Summary
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
 | Flussi di dati |  Numero totale di flussi di dati in tutte le aree di lavoro delle capacità.|
 | Refreshes Total | Numero totale di aggiornamenti negli ultimi sette giorni.|  
@@ -124,9 +124,9 @@ Il dashboard include le metriche seguenti:
 
 #### <a name="paginated-report-summary"></a>Paginated Report Summary
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
-| Paginated Reports |  Numero totale di report impaginati in tutte le aree di lavoro delle capacità. |
+| Report impaginati |  Numero totale di report impaginati in tutte le aree di lavoro delle capacità. |
 | Views Total | Numero totale di volte per il quale tutti i report sono stati visualizzati dagli utenti. | 
 | Rows Total | Numero totale di righe di dati in tutti i report.|
 | Total Time | Tempo totale impiegato per tutte le fasi (recupero, elaborazione e rendering dei dati) di tutti i report, in millisecondi. |
@@ -138,7 +138,7 @@ Il dashboard include le metriche seguenti:
 
 #### <a name="ai-summary"></a>AI Summary
 
-| Metric | Descrizione |
+| Metrica | Descrizione |
 | --- | --- |
 | AI Function Execution | Numero totale di esecuzioni negli ultimi sette giorni. |
 | AI Function Execution Reliability (%) | Numero di esecuzioni completate, diviso per il numero totale di esecuzioni negli ultimi sette giorni. |
@@ -171,7 +171,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 #### <a name="refreshes-area"></a>Area Refreshes (Aggiornamenti)
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
 | Refreshes |  Total Count (Conteggio totale): aggiornamenti totali per ogni set di dati.<br>  Reliability (Affidabilità): percentuale di aggiornamenti completati per ogni set di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il set di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il set di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il set di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il set di dati, espressa in minuti. |
 | Top 5 Datasets by Average Duration (minutes) |  I cinque set di dati con la durata media dell'aggiornamento più lunga, espressa in minuti. |
@@ -182,9 +182,9 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 #### <a name="query-durations-area"></a>Area Query Durations (Durate query)
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
-| Query Durations |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Media: durata media della query per il set di dati, espressa in millisecondi<br>  Max (Massima): durata della query con esecuzione più prolungata nel set di dati, espressa in millisecondi.|
+| Query Durations |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Media: durata media della query per il set di dati, espressa in millisecondi<br>  Max: durata della query con esecuzione più prolungata nel set di dati, espressa in millisecondi.|
 | Query Duration Distribution |  L'istogramma delle durate delle query è suddiviso in bucket in base alle durate delle query (in millisecondi) nelle categorie seguenti: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sec, 1 sec-3 sec, 3 sec-10 sec, 10 sec-30 sec e intervalli maggiori di 30 secondi. Una durata notevole delle query e tempi di attesa lunghi sono indicativi di un livello di utilizzo molto alto della capacità. Questi sintomi possono indicare anche che il problema è causato da un unico set di dati e che è necessario indagarne le cause. |
 | Top 5 Datasets by Average Duration |  I cinque set di dati con la durata media della query più lunga, espressa in millisecondi. |
 | Hourly Query Duration Distributions |  Numero delle query e durata media (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
@@ -193,9 +193,9 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 #### <a name="query-waits-area"></a>Area Query Waits (Attese query)
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
-| Query Wait Times |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Wait Count (Conteggio di attesa): numero di query nel set di dati in attesa nelle risorse di sistema prima di avviare l'esecuzione.<br>  Media: tempo di attesa medio della query per il set di dati, espresso in millisecondi.<br>  Max (Massima): durata della query con attesa più prolungata nel set di dati, espressa in millisecondi.|
+| Query Wait Times |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Wait Count (Conteggio di attesa): numero di query nel set di dati in attesa nelle risorse di sistema prima di avviare l'esecuzione.<br>  Media: tempo di attesa medio della query per il set di dati, espresso in millisecondi.<br>  Max: durata della query con attesa più prolungata nel set di dati, espressa in millisecondi.|
 | Top 5 Datasets by Average Wait Time |  I cinque set di dati con il tempo di attesa medio più lungo prima dell'avvio dell'esecuzione di una query, espresso in millisecondi. |
 | Wait Time Distributions |  L'istogramma di durata delle query è suddiviso in bucket in base alle durate delle query (in millisecondi) nelle categorie seguenti: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms, 400 ms-1 sec, 1 sec-5 sec e intervalli di più di 5 secondi. |
 | Hourly Query Wait Time Distributions |  Numero di query in attesa e tempo medio di attesa (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
@@ -212,7 +212,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Consumed Memory Percentages |  Set di dati attivi totali in memoria come percentuale della memoria totale. Il valore differenziale tra Active (Attivi) e All (Tutti) definisce i set di dati che possono essere eliminati. Visualizzazione su base oraria per i sette giorni precedenti. |
 |  |  |
 
-### <a name="paginated-reports"></a>Paginated Reports
+### <a name="paginated-reports"></a>Report impaginati
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
@@ -240,7 +240,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | --- | --- |
 | AI Memory Consumption | Utilizzo della memoria in GB, suddiviso in bucket di un'ora, indicati nell'ora UTC. |
 | Hourly AI Function Execution and Average Wait Time | Esecuzioni di intelligenza artificiale e tempo medio di attesa, in millisecondi, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
-| Overall Usage | Total count (Conteggio totale): numero di funzioni di intelligenza artificiale in un'area di lavoro o flusso di dati. <br> System Reliability (Affidabilità del sistema): percentuale di esecuzioni completate.<br> Media Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un'esecuzione, espresso in millisecondi.<br> Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo, espresso in millisecondi.<br> Media Duration (Durata media): durata media di un'esecuzione, espressa in millisecondi.<br> Max Duration (Durata massima): durata dell'esecuzione più prolungata, espressa in millisecondi.<br> Avg Total Size (Dimensioni totali medie): dimensioni medie, in byte, dei dati di input e output per la funzione di intelligenza artificiale. |
+| Overall Usage | Total count (Conteggio totale): numero di funzioni di intelligenza artificiale in un'area di lavoro o flusso di dati. <br> System Reliability (Affidabilità del sistema): percentuale di esecuzioni completate.<br> Avg. Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un'esecuzione, espresso in millisecondi.<br> Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo, espresso in millisecondi.<br> Avg. Duration (Durata media): durata media di un'esecuzione, espressa in millisecondi.<br> Max Duration (Durata massima): durata dell'esecuzione più prolungata, espressa in millisecondi.<br> Avg Total Size (Dimensioni totali medie): dimensioni medie, in byte, dei dati di input e output per la funzione di intelligenza artificiale. |
 | | |
 
 ### <a name="resource-consumption"></a>Resource Consumption
@@ -248,7 +248,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | **Sezione del report** | **Metriche** |
 | --- | --- |
 | CPU consumption |  Utilizzo massimo della CPU nell'ora, in base al carico di lavoro come percentuale della capacità totale della CPU. Visualizzazione su base oraria per i sette giorni precedenti. |
-| Memory consumption |  Utilizzo massimo della memoria nell'ora, in GB per carico di lavoro (linee a tinta unita) e limiti del carico di lavoro sovrapposti (linea tratteggiata). Visualizzazione su base oraria per i sette giorni precedenti. |
+| Utilizzo della memoria |  Utilizzo massimo della memoria nell'ora, in GB per carico di lavoro (linee a tinta unita) e limiti del carico di lavoro sovrapposti (linea tratteggiata). Visualizzazione su base oraria per i sette giorni precedenti. |
 |  |  |
 
 ### <a name="ids-and-info"></a>IDs and Info
@@ -257,36 +257,36 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 
 #### <a name="capacities-area"></a>Area Capacities
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
 | SKU and Workload Information | Impostazioni dello SKU e del carico di lavoro per la capacità. |
-| Amministratori | Nomi degli amministratori per la capacità. |
+| Administrators | Nomi degli amministratori per la capacità. |
 |||
 
 #### <a name="workspaces-area"></a>Area Workspaces
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
 | Aree di lavoro | Nomi e ID per tutte le aree di lavoro. |
 |||
 
 #### <a name="datasets-area"></a>Area Datasets (Set di dati)
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
 | Set di dati | Nomi e ID di aree di lavoro per tutti i set di dati. |
 |||
 
 #### <a name="paginated-reports-area"></a>Area Paginated Reports
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
-| Paginated Reports | Nomi, nomi di area di lavoro e ID per tutti i report impaginati. |
+| Report impaginati | Nomi, nomi di area di lavoro e ID per tutti i report impaginati. |
 |||
 
 #### <a name="dataflows-area"></a>Area Dataflows
 
-| Sezione del report | Metrica |
+| Sezione del report | Metriche |
 | --- | --- |
 | Flussi di dati | Nomi dei flussi di dati, nomi di area di lavoro e ID per tutti i flussi di dati. |
 |||
