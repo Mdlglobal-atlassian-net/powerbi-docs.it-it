@@ -1,6 +1,6 @@
 ---
-title: "Esempio di analisi dell'approvvigionamento: Presentazione"
-description: "Esempio di analisi dell'approvvigionamento per Power BI: Presentazione"
+title: Presentazione dell'esempio di analisi dell'approvvigionamento
+description: Presentazione dell'esempio di analisi dell'approvvigionamento per Power BI
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404675"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi dell'approvvigionamento per Power BI: Presentazione
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi dell'approvvigionamento per Power BI
 
 Il pacchetto di contenuto Procurement Analysis Sample contiene un dashboard, un report e un set di dati che consentono di analizzare le spese per i fornitori di una società manifatturiera in base a categoria e località. Nell'esempio vengono analizzate le aree seguenti:
 

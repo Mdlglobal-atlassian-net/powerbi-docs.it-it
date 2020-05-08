@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: 5a3cfb7ea9c9f398193b45652aa43c6b83c8f70b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377996"
 ---
 # <a name="type-utils"></a>Utilità per i tipi
@@ -40,7 +40,7 @@ Questa funzione restituisce la potenza di 10.
 function pow10(exp: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -59,7 +59,7 @@ Questa funzione restituisce un logaritmo in base 10 del numero.
 function log10(val: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -78,7 +78,7 @@ Questa funzione restituisce una potenza di 10 che rappresenta la precisione del 
 function getPrecision(x: number, decimalDigits?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -97,7 +97,7 @@ Questa funzione controlla se un delta tra due numeri è inferiore alla precision
 function equalWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -116,7 +116,7 @@ Questa funzione controlla se il primo valore è minore del secondo.
 function lessWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -135,7 +135,7 @@ Questa funzione controlla se il primo valore è minore o uguale al secondo.
 function lessOrEqualWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -154,7 +154,7 @@ Questa funzione controlla se il primo valore è maggiore del secondo.
 function greaterWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -173,7 +173,7 @@ Questa funzione controlla se il primo valore è maggiore o uguale al secondo.
 function greaterOrEqualWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -192,7 +192,7 @@ Questa funzione arrotonda per difetto il numero con la precisione specificata.
 function floorWithPrecision(x: number, precision?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -211,7 +211,7 @@ Questa funzione `ceils` il numero con la precisione specificata.
 function ceilWithPrecision(x: number, precision?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -230,7 +230,7 @@ Questa funzione arrotonda per difetto il numero alla precisione specificata.
 function floorToPrecision(x: number, precision?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -249,7 +249,7 @@ Questa funzione `ceils` il numero alla precisione specificata.
 function ceilToPrecision(x: number, precision?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -268,7 +268,7 @@ Questa funzione arrotonda il numero alla precisione specificata.
 function roundToPrecision(x: number, precision?: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -287,7 +287,7 @@ Questa funzione restituisce un numero compreso tra il valore minimo e il valore 
 function ensureInRange(x: number, min: number, max: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -306,7 +306,7 @@ Questa funzione arrotonda il numero.
 function round(x: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -325,7 +325,7 @@ Questa funzione rimuove i decimali non significativi.
 function removeDecimalNoise(value: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -344,7 +344,7 @@ Questa funzione controlla se il numero è intero.
 function isInteger(value: number): boolean;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -363,7 +363,7 @@ Questa funzione incrementa il numero in base al numero specificato e restituisce
 function toIncrement(value: number, increment: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -388,7 +388,7 @@ Questa funzione restituisce un nuovo oggetto con l'oggetto specificato come prot
 function inherit<T>(obj: T, extension?: (inherited: T) => void): T;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { prototype } from "powerbi-visuals-utils-typeutils";
@@ -413,7 +413,7 @@ Questa funzione restituisce un nuovo oggetto con l'oggetto specificato come prot
 function inheritSingle<T>(obj: T): T;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { prototype } from "powerbi-visuals-utils-typeutils";
@@ -444,7 +444,7 @@ Questa funzione converte il valore in pixel in una stringa.
 function toString(px: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -463,7 +463,7 @@ Questa funzione converte il valore in punti specificato nel valore in pixel e re
 function fromPoint(pt: number): string;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -482,7 +482,7 @@ Questa funzione converte il valore in punti specificato nel valore in pixel.
 function fromPointToPixel(pt: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -501,7 +501,7 @@ Questa funzione converte il valore in pixel specificato nel valore in punti.
 function toPoint(px: number): number;
 ```
 
-Esempio:
+Example:
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";

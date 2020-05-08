@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114237"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
@@ -61,9 +61,9 @@ I [dashboard](end-user-dashboards.md) sono spesso confusi con i report perché s
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
 | Filtro |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |È possibile creare avvisi da ricevere per posta elettronica quando il dashboard soddisfa determinate condizioni |No |
-| Feature |È possibile impostare un dashboard come "in primo piano" |Non permette di creare un report in primo piano |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati, ma non è possibile vedere i campi e le tabelle del set di dati nel dashboard stesso |Sì. È possibile vedere i campi e le tabelle del set di dati e i valori che si è autorizzati a vedere |
-| Customization |No  |È possibile filtrare, esportare, visualizzare contenuto correlato, aggiungere segnalibri, generare codici a matrice, eseguire analisi in Excel e altro ancora |
+| Funzionalità |È possibile impostare un dashboard come "in primo piano" |Non permette di creare un report in primo piano |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |N. È possibile esportare i dati, ma non è possibile vedere i campi e le tabelle del set di dati nel dashboard stesso |Sì. È possibile vedere i campi e le tabelle del set di dati e i valori che si è autorizzati a vedere |
+| Personalizzazione |No  |È possibile filtrare, esportare, visualizzare contenuto correlato, aggiungere segnalibri, generare codici a matrice, eseguire analisi in Excel e altro ancora |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->

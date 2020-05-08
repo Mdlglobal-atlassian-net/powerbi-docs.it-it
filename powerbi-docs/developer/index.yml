@@ -14,17 +14,17 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487806"
 highlightedContent:
   items:
   - title: Analisi incorporata con Power BI
     itemType: overview
     url: embedded/embedding.md
-  - title: Che cos'è Azure Power BI Embedded
+  - title: Che cos'è Power BI Embedded in Azure?
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Oggetti visivi in Power BI
@@ -42,13 +42,13 @@ conceptualContent:
       text: Analisi incorporata con Power BI
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Che cos'è Azure Power BI Embedded
+      text: Che cos'è Power BI Embedded in Azure?
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: Capacità e SKU
     footerLink:
       url: embedded/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Oggetti visivi di Power BI
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: Pubblicare oggetti visivi di Power BI nel Centro per i partner
     footerLink:
       url: visuals/index.yml
-      text: Vedi altro
+      text: Altre informazioni
   - title: Automazione
     links:
     - url: automation/overview-of-power-bi-rest-api.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: Configurare le credenziali
     footerLink:
       url: automation/index.yml
-      text: Vedi altro
+      text: Altre informazioni
 additionalContent:
   sections:
   - title: Strumenti correlati

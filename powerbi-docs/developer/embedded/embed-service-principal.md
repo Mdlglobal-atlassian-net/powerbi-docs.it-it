@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
 ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80751622"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporamento di contenuto di Power BI con entità servizio e segreto dell'applicazione
@@ -120,7 +120,7 @@ L'entità servizio non ha accesso al contenuto e alle API di Power BI. Per conse
 
 Esistono due modi per creare un gruppo di sicurezza di Azure AD:
 * Manualmente (in Azure)
-* Uso di PowerShell
+* Utilizzo di PowerShell
 
 ### <a name="create-a-security-group-manually"></a>Creare manualmente un gruppo di sicurezza
 
@@ -181,7 +181,7 @@ Per consentire all'app Azure AD di accedere ad artefatti come report, dashboard 
 
 Quando il contenuto è incorporato, si è pronti a [passare alla produzione](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 * L'entità servizio funziona solo con le [nuove aree di lavoro](../../service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.

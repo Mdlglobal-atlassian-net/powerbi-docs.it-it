@@ -10,10 +10,10 @@ ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439849"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
@@ -222,7 +222,7 @@ Vedere anche i canali di YouTube per informazioni su novità e caratteristiche.
 * Snowflake e SAP BusinessWarehouse DirectQuery sono ora supportati per il gateway dati locale.
 * Nuove [API per gestire l'aggiornamento dei dati](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) nel servizio Power BI.
 
-### <a name="june-2017"></a>Giugno 2017
+### <a name="june-2017"></a>giugno 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibile a livello generale.
 * Numerosi miglioramenti alle API per [automatizzare l'aggiornamento pianificato](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonare e riassociare report](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [aggiornare le associazioni dei gateway](https://msdn.microsoft.com/library/mt784650.aspx) e molto altro ancora.
 * Collegamenti relativi nelle app Power BI dai riquadri dei dashboard ad altri dashboard e report.
@@ -320,7 +320,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 * Dashboard preferiti: Per semplificare la visualizzazione dei dashboard più usati, è stata aggiunta una funzionalità per contrassegnare come preferiti tali dashboard e renderli facilmente accessibili da tutte le aree di lavoro.
 
-***Analizza in Excel***
+***Analizzare in Excel***
 
 * Esperienza di download migliorata: è possibile scaricare con facilità gli aggiornamenti alla funzionalità Analizza in Excel con una nuova esperienza di finestra di dialogo.
 * Supporto per la sicurezza a livello di riga: dopo avere configurato la sicurezza a livello di riga, le regole applicate ai dati vengono ora applicate anche quando un utente analizza i dati in Excel.
@@ -351,7 +351,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 **14 aprile 2016**
 
-***Aziende***
+***Enterprise***
 
 * [Supporto dei pacchetti di contenuto per la sicurezza a livello di riga](service-admin-rls.md) (anteprima): se la sicurezza a livello di riga viene definita per i dashboard e i report distribuiti come parte di un pacchetto di contenuto, le regole di sicurezza verranno rispettate per tali pacchetti di contenuto.
 
@@ -359,7 +359,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 * [Riquadro video Vimeo](service-dashboard-add-widget.md):  dal dashboard è possibile aggiungere un riquadro con un lettore Vimeo incorporato.
 
-***Analizza in Excel***
+***Analizzare in Excel***
 
 * [Analizza in Excel](service-analyze-in-excel.md) disponibile per tutti gli utenti: la possibilità di accedere ai modelli di dati di Power BI in Excel è stata estesa a tutti gli utenti, indipendentemente dalla licenza assegnata loro.
 * Esperienza account multiutente migliorata: l'accesso per chi ha più di un account utente di Power BI è ora più semplice.
@@ -383,7 +383,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 * Completamento automatico per "è": la funzionalità Domande e risposte suggerisce valori se si digita il nome di una colonna seguito da "è".
 
-***Per dispositivi mobili***
+***Mobile***
 
 * Indicatori KPI in Apple Watch: possibilità di monitorare l'indicatore KPI e i riquadri senza dover aprire l'app Power BI.
 
@@ -391,7 +391,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 * Analizza in Excel: possibilità di connettere il modello di dati di Power BI a Excel ed eseguire l'analisi in Excel invece che in Power BI.
 
-***Altro***
+***Altri***
 
 * Power BI in Australia: ora chiunque in Australia, singoli utenti o attraverso un'organizzazione, può visualizzare la pagina powerbi.microsoft.com e accedere a Power BI.
 * Impostazioni lingua: possibilità di ignorare il rilevamento automatico della lingua e impostare la lingua per Power BI.
@@ -494,7 +494,7 @@ Il team di Power BI si è impegnato durante le feste. Per tutti i dettagli, [vis
 * Aggiungere grafici di Excel
 * Miglioramenti alla formattazione per i riquadri di Excel
 
-***Altro***
+***Altri***
 
 * Power BI in Brasile
 * Supporto per la lingua ebraica e araba

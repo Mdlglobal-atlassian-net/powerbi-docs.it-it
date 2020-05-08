@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
 ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403814"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
@@ -22,7 +22,7 @@ Con **Power BI Embedded in Azure** o l'**incorporamento di Power BI in Office** 
 
 ![Incorporare report di Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 > [!div class="checklist"]
 > * Registrare un'applicazione in Azure.
 > * Incorporare un report di Power BI in un'applicazione.
@@ -56,7 +56,7 @@ Se invece si usa l'entità servizio, è necessario procedere con la registrazion
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 
-### <a name="create-a-workspace"></a>Crea un'area di lavoro
+### <a name="create-a-workspace"></a>Creare un'area di lavoro
 
 Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../../service-create-workspaces.md) o le [nuove aree di lavoro](../../service-create-the-new-workspaces.md). Se si usa un account *master*, non è importante il tipo di area di lavoro usato. Se invece si usa l' *[entità servizio](embed-service-principal.md)* per accedere all'applicazione, è necessario usare le nuove aree di lavoro. In entrambi gli scenari sia l'account *master* sia l'*entità servizio* deve essere un amministratore delle aree di lavoro interessate dall'applicazione.
 
@@ -220,7 +220,7 @@ Compilare il campo **tenant** con l'ID tenant di Azure. È possibile ottenere qu
 
 3. È ora possibile visualizzare il report nell'applicazione di esempio.
 
-    ![Visualizzare l'applicazione](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+    ![Visualizza applicazione](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-content-within-your-application"></a>Incorporare il contenuto all'interno dell'applicazione
 
@@ -399,7 +399,7 @@ Segue un esempio che usa un modello **EmbedConfig** e un modello **TileEmbedConf
 </script>
 ```
 
-## <a name="move-to-production"></a>Passare alla produzione
+## <a name="move-to-production"></a>Passare in produzione
 
 Lo sviluppo dell'applicazione è terminato. È ora necessario eseguire il backup dell'area di lavoro con una capacità dedicata. 
 

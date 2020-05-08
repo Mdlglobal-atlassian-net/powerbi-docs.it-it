@@ -1,6 +1,6 @@
 ---
-title: Pubblicare in Power BI Desktop
-description: Pubblicare in Power BI Desktop
+title: Pubblicare da Power BI Desktop
+description: Pubblicare da Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709625"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Pubblicare set di dati e report da Power BI Desktop
@@ -29,7 +29,7 @@ La pubblicazione da Power BI Desktop consente di raggiungere lo stesso risultato
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Per pubblicare un set di dati e i report di Power BI Desktop
 1. In Power BI Desktop scegliere **File** \> **Pubblica** \> **Pubblica in Power BI** oppure scegliere **Pubblica** nella barra multifunzione.  
 
-   ![Pulsante Publish](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+   ![Pulsante Pubblica](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 2. Accedere a Power BI.
 3. Selezionare la destinazione.

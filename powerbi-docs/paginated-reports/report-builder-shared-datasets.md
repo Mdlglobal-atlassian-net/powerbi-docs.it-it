@@ -8,10 +8,10 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923196"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creare un report impaginato basato su un set di dati condiviso di Power BI
@@ -95,7 +95,7 @@ Ecco i passaggi per ottenere la query.
 1. Tornare a Generatore report di Power BI.
 1. Fare clic con il pulsante destro del mouse sul set di dati in **Origini dati** e scegliere **Aggiungi set di dati**.
 
-    ![Aggiungi set di dati](media/report-builder-shared-datasets/power-bi-report-builder-add-dataset.png)
+    ![Aggiungere il set di dati](media/report-builder-shared-datasets/power-bi-report-builder-add-dataset.png)
 
 1. Nella finestra Proprietà set di dati specificare un nome e selezionare **Progettazione query**.
 
@@ -113,13 +113,13 @@ Ecco i passaggi per ottenere la query.
 
     ![Risultati query](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. Seleziona **OK**.
+1. Selezionare **OK**.
 
     La query verrà visualizzata nella sezione **Query** della finestra di dialogo **Proprietà set di dati**.
 
     ![Finestra di dialogo Proprietà set di dati](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
-1. Seleziona **OK**.
+1. Selezionare **OK**.
 
     A questo punto è possibile visualizzare il nuovo set di dati con un elenco dei relativi campi nel riquadro Dati report.
 
@@ -147,7 +147,7 @@ Un modo rapido per creare una tabella consiste nell'usare la Creazione guidata t
 
 1. Scegliere le opzioni di layout desiderate > **Avanti**.
 
-1. Fare clic su **Fine**.
+1. Selezionare **Fine**.
     La tabella verrà aperta in visualizzazione Progettazione.
 
     ![Visualizzazione Progettazione report](media/report-builder-shared-datasets/power-bi-report-builder-design-view.png)
@@ -197,7 +197,7 @@ Sono disponibili diverse opzioni di formattazione per fare in modo che la tabell
 
 ### <a name="getting-rid-of-blank-pages"></a>Eliminazione delle pagine vuote
 
-Anche dopo aver impostato una larghezza inferiore per i margini e le colonne della tabella, è possibile che una pagina ogni due sia vuota. Questo problema dipende da una questione matematica. 
+Anche dopo aver impostato una larghezza inferiore per i margini e le colonne della tabella, è possibile che una pagina ogni due sia vuota. Perché? da una questione matematica. 
 
 I margini di pagina impostati sommati alla larghezza del *corpo* del report devono dare un risultato inferiore alla larghezza del formato del report.
 

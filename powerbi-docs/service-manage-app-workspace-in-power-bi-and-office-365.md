@@ -10,15 +10,15 @@ ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78237846"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gestire l'area di lavoro in Power BI e Office 365
 
-Il creatore o l'amministratore di un'[area di lavoro in Power BI](service-create-distribute-apps.md) o in Office 365 può gestire alcuni aspetti dell'area di lavoro in Power BI, mentre altri devono essere gestiti in Office 365.
+Il creatore o l'amministratore di un'[area di lavoro in Power BI](service-create-distribute-apps.md) o in Office 365 può gestire alcuni aspetti dell'area di lavoro in Power BI, mentre altri vanno gestiti in Office 365.
 
 > [!NOTE]
 > La nuova esperienza dell'area di lavoro cambia la relazione tra le aree di lavoro di Power BI e i gruppi di Office 365. Non viene creato automaticamente un gruppo di Office 365 ogni volta che si crea una delle nuove aree di lavoro. Informazioni sulla [creazione di nuove aree di lavoro](service-create-the-new-workspaces.md).
@@ -36,7 +36,7 @@ In **Office 365** è possibile:
 * Visualizzare l'indirizzo di posta elettronica del gruppo.
 * Eliminare il gruppo.
 
-Per diventare amministratore o membro di un'area di lavoro è necessaria una [licenza di Power BI Pro](service-features-license-type.md). Anche gli utenti delle app devono avere una licenza di Power BI Pro, a meno che l'area di lavoro non sia inclusa in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium-what-is.md) (Che cos'è Power BI Premium?).
+Per diventare amministratore o membro di un'area di lavoro è necessaria una [licenza di Power BI Pro](service-features-license-type.md). Anche gli utenti delle app devono avere una licenza di Power BI Pro, a meno che l'area di lavoro non sia inclusa in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [Che cos'è Power BI Premium?](service-premium-what-is.md).
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Modificare l'area di lavoro in Power BI
 

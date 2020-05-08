@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114374"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
@@ -47,7 +47,7 @@ Viene visualizzato il riquadro **Contenuto correlato**, Per un cruscotto digital
 
 ![Riquadro Contenuto correlato](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard o report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, è possibile visualizzare la data e l'ora dell'ultimo aggiornamento, selezionare [Analizza in Excel](end-user-insights.md) e [Ottieni informazioni dettagliate](../service-analyze-in-excel.md).  
+A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard o report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, è possibile visualizzare la data e l'ora dell'ultimo aggiornamento, selezionare [Analizza in Excel](../service-analyze-in-excel.md) e [Ottieni informazioni dettagliate](end-user-insights.md).  
 
 
 

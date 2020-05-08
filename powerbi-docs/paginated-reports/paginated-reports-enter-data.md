@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
 ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922092"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
@@ -25,7 +25,7 @@ In questo articolo viene illustrata una funzionalità della nuova versione di Ge
 - Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](../service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](../service-premium-what-is.md).
 - Per salvare il report impaginato in un server di report, sono necessarie autorizzazioni per [modificare il file RSReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione a Microsoft Stream
 
 Dopo aver scaricato e installato Generatore report, seguire lo stesso flusso di lavoro usato per aggiungere un'origine dati e un set di dati incorporati al report. Nella procedura seguente, in **Origini dati** viene visualizzata una nuova opzione: **Immettere i dati**.  È sufficiente impostare questa origine dati una sola volta in un report. Successivamente, è possibile creare più tabelle di dati immessi come set di dati separati, usando quella singola origine dati.
 

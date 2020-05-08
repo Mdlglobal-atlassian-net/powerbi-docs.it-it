@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921172"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Suggerimenti sulla progettazione di report nel Generatore report di Power BI
@@ -20,7 +20,7 @@ ms.locfileid: "78921172"
   
    
   
-##  <a name="DesigningReports"></a> Progettazione di report  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a> Progettazione di report  
   
 -   Un report ben progettato offre le informazioni necessarie per un'azione. Identificare le domande a cui il report deve rispondere. Tenere presenti queste domande durante la progettazione del report.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921172"
   
  Per altre informazioni sugli aspetti da considerare quando si progetta il report, vedere [Pianificazione di un report nel Generatore report](report-builder-planning-report.md).  
   
-##  <a name="NamingConventions"></a> Convenzioni di denominazione per report, origini dati e set di dati  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a> Convenzioni di denominazione per report, origini dati e set di dati  
   
 -   Usare le convenzioni di denominazione per le origini dati e i set di dati che documentano l'origine dei dati.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921172"
   
     2.  **Set di dati.** Usare un nome che indichi l'origine dati su cui è basato.  
   
-##  <a name="Data"></a> Uso dei dati  
+##  <a name="working-with-data"></a><a name="Data"></a> Uso dei dati  
   
 -   Per prima cosa, visualizzare tutti i dati che si vuole usare nel riquadro dei dati del report. Mentre si definiscono le domande a cui il report deve rispondere, considerare come limitare i dati dei set di dati del report a quelli necessari.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921172"
   
 -   A seconda dei requisiti, è possibile visualizzare i nomi e i percorsi delle origini dati del report, il testo del comando di query sul set di dati e i valori dei parametri nel report. Molti nuovi utenti si chiedono innanzitutto da dove provengono i dati. Per ridurre il disordine nel report, è possibile nascondere le caselle di testo in base a questo tipo di informazioni e consentire agli utenti di scegliere se visualizzarle. Provare ad aggiungere queste informazioni nell'ultima pagina del report. Impostare la visibilità della casella di testo in base a un parametro che l'utente può modificare.  
   
-##  <a name="DesignSurface"></a> Interazione con l'area di progettazione del report  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a> Interazione con l'area di progettazione del report  
  L'area di progettazione del report non è di tipo WYSIWIG. Quando si inseriscono gli elementi del report nell'area di progettazione, la loro posizione relativa influisce sul modo in cui gli elementi vengono visualizzati nella pagina del report visualizzabile. Lo spazio vuoto viene conservato.  
   
 -   Usare le guide di allineamento e i pulsanti di layout per allineare e disporre gli elementi nell'area di progettazione del report. Ad esempio, è possibile allineare le parti superiori o i bordi degli elementi selezionati, espandere un elemento in modo che corrisponda alle dimensioni di un altro elemento o regolare la spaziatura tra gli elementi.  
@@ -77,7 +77,7 @@ ms.locfileid: "78921172"
   
 -   Per trascinare i campi dal riquadro dei dati del report al riquadro di raggruppamento, evitare di trascinare il campo attraverso altri elementi del report nell'area di progettazione perché verrebbero selezionati e verrebbe deselezionata l'area dati della Tablix. Trascinare il campo verso il basso nel riquadro dei dati del report e quindi nel riquadro di raggruppamento.  
   
-###  <a name="Selecting"></a> Selezione degli elementi  
+###  <a name="selecting-items"></a><a name="Selecting"></a> Selezione degli elementi  
  Per selezionare l'oggetto desiderato nell'area di progettazione del report, usare il tasto ESC, il menu di scelta rapida, il riquadro Proprietà e il riquadro di raggruppamento.  
   
 -   -   Premere ESC per scorrere lo stack di elementi del report che occupano lo stesso spazio nell'area di progettazione.  
@@ -89,31 +89,31 @@ ms.locfileid: "78921172"
     -   Per usare gruppi di righe e gruppi di colonne in un'area dati della Tablix, selezionare il gruppo dal riquadro di raggruppamento.  
 
   
-##  <a name="ReportItems"></a> Uso di tipi specifici di elementi del report  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a> Uso di tipi specifici di elementi del report  
   
-###  <a name="Parameters"></a> Uso dei parametri  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a> Uso dei parametri  
   
 -   Lo scopo principale dei parametri del report è filtrare i dati nell'origine dati e recuperare solo quelli necessari per il report.  
   
 -   Per i parametri del report, trovare un equilibrio tra abilitare l'interattività e consentire a un utente di ottenere i risultati desiderati. Ad esempio, è possibile impostare i valori predefiniti per un parametro su valori usati di frequente.  
   
-###  <a name="Text"></a> Uso del testo  
+###  <a name="working-with-text"></a><a name="Text"></a> Uso del testo  
   
 -   Quando si incollano più righe in una casella di testo, il testo viene aggiunto come un'unica sequenza. Ogni sequenza di testo può essere formattata solo come unità. Per formattare ogni riga in modo indipendente, inserire una nuova riga premendo INVIO nella sequenza in base alle esigenze. È quindi possibile applicare stili e formattazione a ogni riga di testo indipendente nella casella di testo.  
   
 -   È possibile impostare le proprietà relative al formato e le azioni in una casella di testo o in un testo segnaposto nella casella di testo. Se è presente una sola riga di testo, è consigliabile impostare le proprietà nella casella di testo anziché nel testo.  
   
-###  <a name="Expressions"></a> Uso delle espressioni  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a> Uso delle espressioni  
   
 -   Di seguito sono descritti i formati di espressioni semplici e complesse. È possibile digitare il formato dell'espressione semplice direttamente nelle caselle di testo, le proprietà nel riquadro Proprietà o nelle posizioni nelle finestre di dialogo che accettano un'espressione.
   
 -   Quando si crea un'espressione, è utile creare ogni parte indipendentemente e verificarne il valore. È quindi possibile combinare tutte le parti in un'espressione finale. Una tecnica utile è aggiungere una casella di testo in una cella di matrice, visualizzare ogni parte dell'espressione e impostare la visibilità condizionale nella casella di testo. Per controllare lo stile del bordo e il colore quando la casella di testo è nascosta, posizionare innanzitutto la casella di testo in un rettangolo e quindi impostare lo stile del bordo e il colore del rettangolo in modo che corrisponda alla matrice.  
   
-###  <a name="Indicators"></a> Uso degli indicatori  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a> Uso degli indicatori  
   
 -   Per impostazione predefinita, un indicatore visualizza almeno tre stati. Dopo aver aggiunto un indicatore a un report, è possibile configurarlo aggiungendo o rimuovendo gli stati. Per facilitare la visualizzazione agli utenti, scegliere un indicatore che varia di colore e forma.  
   
-##  <a name="Rendering"></a> Controllo del rendering degli elementi del report nella pagina del report  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a> Controllo del rendering degli elementi del report nella pagina del report  
   
 -   Nell'area di progettazione del report gli elementi del report aumentano per contenere il contenuto del set di dati, dell'espressione, del sottoreport o del testo associato.  
   

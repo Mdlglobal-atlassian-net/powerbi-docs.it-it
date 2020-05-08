@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1a3d4c264e343382422cbe2a881b5fcedaa19e13
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585240"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
@@ -87,14 +87,14 @@ Un codice di incorporamento di **Pubblica sul Web** è simile all'esempio seguen
 
 Per perfezionare ulteriormente il risultato, provare ad aggiungere 56 pixel all'altezza dell'iFrame per adattarla alla dimensione corrente della barra inferiore. Se la pagina del report usa dimensioni dinamiche, la tabella seguente specifica alcune dimensioni che è possibile usare per adattare gli oggetti senza letterboxing.
 
-| Proporzioni | Dimensione | Dimensione (larghezza x altezza) |
+| Rapporto | Dimensione | Dimensione (larghezza x altezza) |
 | --- | --- | --- |
-| 16:9 |Piccola |640 x 416 px |
+| 16:9 |Piccolo |640 x 416 px |
 | 16:9 |Media |800 x 506 px |
-| 16:9 |Grande |960 x 596 px |
-| 4:3 |Piccola |640 x 536 px |
+| 16:9 |large |960 x 596 px |
+| 4:3 |Piccolo |640 x 536 px |
 | 4:3 |Media |800 x 656 px |
-| 4:3 |Grande |960 x 776 px |
+| 4:3 |large |960 x 776 px |
 
 ## <a name="manage-embed-codes"></a>Gestisci codici di incorporamento
 
@@ -120,7 +120,7 @@ Dopo avere creato un codice di incorporamento di **Pubblica sul Web**, è possib
 
 Dopo la creazione e la condivisione del codice di incorporamento di **Pubblica sul Web**, il report viene aggiornato con eventuali modifiche apportate e il collegamento al codice di incorporamento è immediatamente attivo. Gli utenti che aprono il collegamento possono visualizzarlo. Dopo questa azione iniziale, tuttavia, gli aggiornamenti dei report o degli oggetti visivi possono richiedere da due a tre ore prima di diventare visibili agli utenti. Per altre informazioni, vedere la sezione [**Come funziona**](#howitworks) più avanti in questo articolo. 
 
-### <a name="data-refresh"></a>Aggiornamento dei dati
+### <a name="data-refresh"></a>Aggiornamento dati
 
 Gli aggiornamenti dei dati vengono applicati automaticamente nel report o nell'oggetto visivo incorporato. La visualizzazione dei dati aggiornati dai codici di incorporamento può richiedere circa un'ora. Per disabilitare l'aggiornamento automatico, selezionare **Non aggiornare** nella pianificazione per il set di dati usato dal report.  
 

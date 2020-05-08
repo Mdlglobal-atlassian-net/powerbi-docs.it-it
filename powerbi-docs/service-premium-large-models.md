@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401946"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelli di grandi dimensioni in Power BI Premium (anteprima)
@@ -34,7 +34,7 @@ Per creare un set di dati con dimensioni che aumentano oltre 10 GB, seguire ques
 
 1. Richiamare un aggiornamento per caricare i dati cronologici in base ai criteri di aggiornamento incrementale. Il primo aggiornamento potrebbe richiedere del tempo per caricare la cronologia. Gli aggiornamenti successivi dovrebbero essere più veloci perché sono incrementali.
 
-### <a name="powershell-cmdlets"></a>Cmdlet di PowerShell
+### <a name="powershell-cmdlets"></a>Cmdlet PowerShell
 
 Nella versione corrente dei modelli di grandi dimensioni, abilitare il set di dati per l'archiviazione in File Premium usando i cmdlet di PowerShell. Per eseguire i cmdlet di PowerShell, è necessario avere privilegi di amministratore della capacità e dell'area di lavoro.
 

@@ -11,10 +11,10 @@ ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
 ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585223"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporare una web part report in SharePoint Online
@@ -106,7 +106,7 @@ Il secondo consiste nell'incorporare un report all'interno di un'app e condivide
 
 A questo punto l'utente finale può passare al sito del team in SharePoint Online e visualizzare i report nella pagina.
 
-## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+## <a name="multi-factor-authentication"></a>Autenticazione a più fattori
 
 Se l'ambiente di Power BI richiede di eseguire l'accesso con l'autenticazione a più fattori, potrà essere richiesto di accedere con un dispositivo di sicurezza per verificare la propria identità. Ciò si verifica se non si è eseguito l'accesso a SharePoint Online usando l'autenticazione a più fattori, ma l'ambiente di Power BI richiede un dispositivo di sicurezza per convalidare un account.
 
@@ -122,7 +122,7 @@ Di seguito sono riportate le impostazioni che è possibile regolare per la web p
 | Proprietà | Descrizione |
 | --- | --- |
 | Nome pagina |Imposta la pagina predefinita della web part. Selezionare un valore nell'elenco a discesa. Se non viene visualizzata alcuna pagina, il report contiene una sola pagina o l'URL incollato contiene un nome di pagina. Rimuovere la sezione del report dall'URL per selezionare una pagina specifica. |
-| Visualizza |Adatta il report all'interno della pagina di SharePoint Online. |
+| Visualizzazione |Adatta il report all'interno della pagina di SharePoint Online. |
 | Mostra il riquadro di spostamento |Visualizza o nasconde il riquadro di spostamento nella pagina. |
 | Show Filter Pane |Mostra o nasconde il riquadro filtri. |
 
@@ -143,7 +143,7 @@ Contattare il proprietario della pagina di SharePoint Online per risolvere il pr
 
 Gli utenti che visualizzano un report in SharePoint devono avere una **licenza di Power BI Pro** oppure il contenuto deve essere in un'area di lavoro che si trova in una **[capacità Premium di Power BI (SKU EM o P)](service-admin-premium-purchase.md)** .
 
-## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
+## <a name="known-issues-and-limitations"></a>Problemi noti e limitazioni
 
 * Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, stato risposta http: 400, codice errore server 10001, messaggio: Token di aggiornamento mancante"
   

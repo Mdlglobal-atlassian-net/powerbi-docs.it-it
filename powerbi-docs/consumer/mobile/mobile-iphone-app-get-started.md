@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
 ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426634"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi iOS
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Iniziare a usare l'app Power BI per dispositivi mobili nei dispositivi iOS
 L'app Microsoft Power BI per iOS nell'iPhone e iPad offre l'esperienza di business intelligence per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. Tenersi al corrente con i dati più aggiornati sul proprio [Apple Watch](mobile-apple-watch.md).  
 
 ![App Power BI per dispositivi mobili su iPhone o iPad](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
@@ -84,6 +84,6 @@ Altre informazioni sulla [configurazione delle app Power BI per dispositivi mobi
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 
 

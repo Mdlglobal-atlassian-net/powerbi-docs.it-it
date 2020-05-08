@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d3f359ad4c968407dff143458b65954844f9a22d
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829283"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorare le metriche di utilizzo nella nuova esperienza dell'area di lavoro
@@ -82,7 +82,7 @@ Il report sulle metriche di utilizzo migliorato include le pagine seguenti:
 | Generare report sull'utilizzo | Unique viewers | Un visualizzatore è un utente che ha aperto il report almeno una volta durante il periodo di tempo (in base all'account utente di AAD). |
 | Generare report sull'utilizzo | View trend | La tendenza di visualizzazione rispecchia le variazioni del numero di visualizzazioni nel tempo. Confronta la prima metà del periodo di tempo selezionato con la seconda metà. |
 | Generare report sull'utilizzo | Date slicer | È possibile modificare il periodo di tempo nella pagina Report usage (Utilizzo report), ad esempio per calcolare le tendenze settimanali o quindicinali. Nell'angolo inferiore sinistro della pagina Report usage (Utilizzo report) è possibile determinare la data meno recente e quella più recente per cui sono disponibili i dati di utilizzo per il report selezionato. |
-| Generare report sull'utilizzo | Classifica | In base al numero di visualizzazioni, la classificazione indica la popolarità di un report rispetto a tutti gli altri report nell'organizzazione.   |
+| Generare report sull'utilizzo | Rank | In base al numero di visualizzazioni, la classificazione indica la popolarità di un report rispetto a tutti gli altri report nell'organizzazione.   |
 | Generare report sull'utilizzo | Report views per day | Numero totale di visualizzazioni al giorno. |
 | Generare report sull'utilizzo | Report viewers per day | Numero totale di utenti diversi che hanno visualizzato il report (in base all'account utente AAD). |
 | Generare report sull'utilizzo | Distribution method | Il modo in cui gli utenti hanno ottenuto accesso al report, ad esempio in quanto membri di un'area di lavoro, come destinatari della condivisione del report o tramite l'installazione di un'app. |
@@ -118,7 +118,7 @@ Usare la procedura seguente per acquisire la proprietà di un set di dati Report
 
 1. In **Credenziali dell'origine dati** selezionare **Modifica credenziali**.
 
-    ![Modifica credenziali](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
+    ![Modificare le credenziali](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
 2. Nella finestra di dialogo **Configura Report sulle metriche di utilizzo** selezionare **Accedi**.
 
@@ -241,7 +241,7 @@ Quando ci si connette ai dati di utilizzo in Excel, è possibile creare tabelle 
 
 Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli stessi livelli di sicurezza, privacy, conformità e trasparenza della versione globale di Power BI, in combinazione con un modello univoco per le normative locali per l'erogazione dei servizi, la residenza dei dati, l'accesso e il controllo. A causa di questo modello univoco per i regolamenti locali, le metriche di utilizzo non sono disponibili nei cloud nazionali. Per altre informazioni, vedere [Cloud nazionali](https://powerbi.microsoft.com/clouds/).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 È importante comprendere le differenze che si possono riscontrare quando si confrontano il report sulle metriche di utilizzo migliorato con quello precedente. In particolare, le metriche di utilizzo sono ora basate sui dati delle attività raccolti dal servizio Power BI. Le versioni precedenti del report sulle metriche di utilizzo si basavano sui dati di telemetria del client, non sempre corrispondenti alle metriche di utilizzo raccolte dal servizio. Inoltre, il report sulle metriche di utilizzo migliorato usa una definizione diversa per "visualizzazione". Una visualizzazione è un evento di apertura del report, così come viene registrato nel servizio ogni volta che un utente apre un report. Cambiare pagina del report non è più considerata una visualizzazione aggiuntiva.
 
@@ -328,7 +328,7 @@ La piattaforma indica la tecnologia usata da un visualizzatore per aprire un rep
 
 ## <a name="troubleshoot-delete-the-dataset"></a>Risoluzione dei problemi: Eliminare il set di dati
 
-Se si sospettano problemi di coerenza dei dati o di aggiornamento, può essere utile eliminare il set di dati Report sulle metriche di utilizzo esistente. Eseguire quindi di nuovo Visualizza metriche di utilizzo per generare un nuovo set di dati con i report sulle metriche di utilizzo migliorati associati. Attenersi a questa procedura.
+Se si sospettano problemi di coerenza dei dati o di aggiornamento, può essere utile eliminare il set di dati Report sulle metriche di utilizzo esistente. Eseguire quindi di nuovo Visualizza metriche di utilizzo per generare un nuovo set di dati con i report sulle metriche di utilizzo migliorati associati. Seguire questa procedura.
 
 ### <a name="delete-the-dataset"></a>Eliminare il set di dati
 

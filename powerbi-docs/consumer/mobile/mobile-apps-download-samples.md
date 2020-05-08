@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256794"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Download degli esempi nell'area di lavoro personale nel servizio Power BI
@@ -28,7 +28,7 @@ Parte della documentazione sulle app per dispositivi mobili disponibile qui usa 
 
 2. Selezionare **Recupera dati** nell'angolo inferiore sinistro del riquadro di spostamento. Se il riquadro di spostamento è nascosto e il collegamento Recupera dati non è visibile, visualizzare il riquadro facendo clic sull'icona Mostra il riquadro di spostamento ![pulsante di spostamento globale](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png).  
    
-    ![Recupera dati](./media/mobile-apps-download-samples/power-bi-get-data.png)
+    ![Recuperare i dati](./media/mobile-apps-download-samples/power-bi-get-data.png)
 
 3. Nella pagina Recupera dati selezionare il collegamento **Esempi**.
    

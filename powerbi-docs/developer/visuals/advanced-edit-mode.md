@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380560"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Modalità di modifica avanzata negli oggetti visivi di Power BI
@@ -21,7 +21,7 @@ Se sono necessari controlli dell'interfaccia utente avanzati nell'oggetto visivo
 
 Per impostazione predefinita, l'oggetto visivo non supporta la modalità di modifica avanzata. Se è necessario un comportamento diverso, è possibile dichiararlo in modo esplicito nel file *capabilities.json* dell'oggetto visivo, impostando la proprietà `advancedEditModeSupport`.
 
-I possibili valori sono:
+I valori possibili sono:
 
 - `0`: NotSupported
 

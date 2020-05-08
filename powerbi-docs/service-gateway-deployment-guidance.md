@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: a9d30d1346bf2801cd6cba44cc7cc33d734fccbb
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699568"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
@@ -54,7 +54,7 @@ Di seguito vengono indicati i fattori da considerare per ogni opzione.
 
 Per i requisiti di installazione del computer, vedere i [requisiti di installazione](/data-integration/gateway/service-gateway-install#requirements) del gateway dati locale.
 
-### <a name="location"></a>Posizione
+### <a name="location"></a>Location
 
 La posizione di installazione del gateway può avere un impatto significativo sulle prestazioni delle query, quindi verificare che il gateway, i percorsi delle origini dati e il tenant di Power BI siano il più vicino possibile tra loro per ridurre al minimo la latenza di rete. Per determinare la posizione del tenant di Power BI, nel servizio Power BI selezionare l'icona **?** nell'angolo in alto a destra e quindi scegliere **Informazioni su Power BI**.
 

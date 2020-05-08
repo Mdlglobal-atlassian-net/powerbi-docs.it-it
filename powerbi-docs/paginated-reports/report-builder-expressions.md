@@ -9,10 +9,10 @@ ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921126"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Espressioni in Generatore report di Power BI
@@ -30,7 +30,7 @@ ms.locfileid: "78921126"
   
  Per immettere espressioni manualmente, selezionare un elemento nell'area di progettazione e impostare le proprietà dell'elemento tramite i menu di scelta rapida e le finestre di dialogo disponibili. Quando in un elenco a discesa è presente il pulsante ***(fx)*** o il valore `<Expression>`, è possibile impostare la proprietà su un'espressione. 
   
-##  <a name="Types"></a> Informazioni sulle espressioni semplici e complesse  
+##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Informazioni sulle espressioni semplici e complesse  
  Le espressioni iniziano con un segno di uguale (=) e sono scritte in Microsoft Visual Basic. Le espressioni possono includere una combinazione di costanti, operatori e riferimenti a valori predefiniti (campi, raccolte e funzioni) e a codice esterno o personalizzato.  
   
  È possibile usare espressioni per specificare il valore di molte proprietà degli elementi del report. Le proprietà più comuni sono valori di caselle di testo e testo segnaposto. In genere, se una casella di testo contiene una sola espressione, quest'ultima corrisponde al valore della proprietà della casella di testo. Se una casella di testo contiene più espressioni, ogni espressione corrisponde al valore del testo segnaposto nella casella di testo.  
@@ -50,31 +50,31 @@ ms.locfileid: "78921126"
 ![Formato di esempio delle espressioni di Generatore report](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
-## <a name="DisplayText"></a> Informazioni sui simboli di prefisso in espressioni semplici  
+## <a name="understanding-prefix-symbols-in-simple-expressions"></a><a name="DisplayText"></a> Informazioni sui simboli di prefisso in espressioni semplici  
 
 Le espressioni semplici usano simboli per indicare se il riferimento è a un campo, a un parametro, a una raccolta predefinita o alla raccolta ReportItems. La tabella seguente illustra alcuni esempi di testo visualizzato e testo di espressione:  
   
-|Item|Esempio di testo visualizzato|Esempio di testo di espressione|  
+|Elemento|Esempio di testo visualizzato|Esempio di testo di espressione|  
 |----------|--------------------------|-----------------------------|  
 |Campi di set di dati|`[Sales]`<br /><br /> `[SUM(Sales)]`<br /><br /> `[FIRST(Store)]`|`=Fields!Sales.Value`<br /><br /> `=Sum(Fields!Sales.Value)`<br /><br /> `=First(Fields!Store.Value)`|  
 |Parametri di report|`[@Param]`<br /><br /> `[@Param.Label]`|`=Parameters!Param.Value`<br /><br /> `=Parameters!Param.Label`|  
 |Campi predefiniti|`[&ReportName]`|`=Globals!ReportName.Value`|  
 |Caratteri letterali usati per il testo visualizzato|`\[Sales\]`|`[Sales]`|  
   
-##  <a name="References"></a> Scrittura di espressioni complesse  
+##  <a name="writing-complex-expressions"></a><a name="References"></a> Scrittura di espressioni complesse  
  Le espressioni possono includere riferimenti a funzioni, operatori, costanti, campi, parametri, elementi di raccolte predefinite e codice o assembly personalizzati incorporati.  
   
  La tabella seguente elenca i tipi di riferimenti che è possibile includere in un'espressione:  
   
-|Riferimenti|Descrizione|Esempio|  
+|Riferimenti|Description|Esempio|  
 |----------------|-----------------|-------------|  
 |Costanti|Descrive le costanti a cui è possibile accedere in modo interattivo per le proprietà che richiedono valori costanti, ad esempio i colori dei caratteri.|`="Blue"`|  
-|Operatori|Descrive gli operatori che è possibile usare per combinare riferimenti in un'espressione. L'operatore **&** , ad esempio, può essere usato per la concatenazione di stringhe.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
+|Operators|Descrive gli operatori che è possibile usare per combinare riferimenti in un'espressione. L'operatore **&** , ad esempio, può essere usato per la concatenazione di stringhe.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Raccolte predefinite|Descrive le raccolte predefinite che è possibile includere in un'espressione, ad esempio `Fields`, `Parameters` e `Variables`.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Report e funzioni di aggregazione predefiniti|Descrive le funzioni predefinite, ad esempio `Sum` o `Previous`, a cui è possibile accedere da un'espressione.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Riferimenti a codice e ad assembly personalizzati in espressioni di Generatore report |Descrive come accedere alle classi CLR predefinite `xref:System.Math` e `xref:System.Convert`, ad altre classi CLR, alle funzioni di libreria runtime di Visual Basic o a metodi di un assembly esterno.<br /><br /> Descrive come accedere a codice personalizzato incorporato nel report o compilato e installato dall'utente come assembly personalizzato sia nel client di report che server di report.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
-##  <a name="Valid"></a> Convalida delle espressioni  
+##  <a name="validating-expressions"></a><a name="Valid"></a> Convalida delle espressioni  
  Quando si crea un'espressione per una proprietà specifica di un elemento del report, i riferimenti che è possibile includere nell'espressione dipendono dai valori che la proprietà dell'elemento del report può accettare e dall'ambito in cui la proprietà viene valutata, ad esempio:  
   
 -   Per impostazione predefinita, l'espressione [Sum] calcola la somma dei dati presenti nell'ambito al momento della valutazione dell'espressione. Per una cella di tabella, l'ambito dipende dall'appartenenza a gruppi di righe e colonne. 

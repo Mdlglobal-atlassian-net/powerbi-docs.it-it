@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
 ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525469"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Esportare report di Power BI in un file (anteprima)
@@ -58,7 +58,7 @@ Specificare le pagine da stampare in base al valore restituito dalle API [Get Pa
 
 I [segnalibri personali](../../consumer/end-user-bookmarks.md#personal-bookmarks) e i [filtri permanenti](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) non sono supportati.
 
-### <a name="authentication"></a>Autenticazione
+### <a name="authentication"></a>Authentication
 
 È possibile eseguire l'autenticazione con un utente (o utente master) o un'[entità servizio](embed-service-principal.md).
 
@@ -92,7 +92,7 @@ Se un processo supera il numero di richieste simultanee, non viene completato. S
 |A1         |EM1         |1          |
 |A2         |EM2         |2          |
 |A3         |EM3         |3          |
-|A4         |P1          |6          |
+|A4.         |P1          |6          |
 |A5         |P2          |12         |
 |A6         |P3          |24         |
 

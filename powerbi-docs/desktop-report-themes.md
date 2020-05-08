@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378962"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi del report in Power BI Desktop
@@ -55,7 +55,7 @@ La tabella seguente visualizza i modelli di temi del report predefiniti disponib
 | Tema del report predefinito | Sequenza di colori predefinita |
 |------ |---------- |
 | Predefinito | ![Predefinito](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Altezza | ![Altezza](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
 | Executive | ![Executive](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
 | Frontiera| ![Frontiera](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
 | Innovazione | ![Innovazione](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
@@ -64,8 +64,8 @@ La tabella seguente visualizza i modelli di temi del report predefiniti disponib
 | Temperatura | ![Temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
 | Solare| ![Solare](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
 | Divergente | ![Divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Tempesta | ![Tempesta](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Classic | ![Classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Classico | ![Classico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
 | Parco cittadino | ![Parco cittadino](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
 | Classe | ![Classe](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
 | Per daltonici | ![Per daltonici](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
@@ -108,7 +108,7 @@ Per personalizzare un tema direttamente in Power BI Desktop:
 Le impostazioni del tema personalizzabili rientrano nelle categorie seguenti, che rispecchiano quelle della finestra **Personalizza tema**:
 
 - **Nome e colori**: le impostazioni relative al nome e ai colori del tema includono i [colori del tema](#how-report-theme-colors-stick-with-your-reports), i colori sentiment, i colori divergenti e i [colori strutturali (opzione avanzata)](#setting-structural-colors).
-- **Testo**: le impostazioni del testo includono la famiglia, la dimensione e il colore dei caratteri, che specificano [le impostazioni predefinite della classe di testo primaria](#setting-formatted-text-defaults) per le etichette, i titoli, le schede, gli indicatori KPI e le intestazioni delle schede.
+- **Text**: le impostazioni del testo includono la famiglia, la dimensione e il colore dei caratteri, che specificano [le impostazioni predefinite della classe di testo primaria](#setting-formatted-text-defaults) per le etichette, i titoli, le schede, gli indicatori KPI e le intestazioni delle schede.
 - **Oggetti visivi**: le impostazioni degli oggetti visivi includono lo sfondo, il bordo, l'intestazione e le descrizioni comando.
 - **Pagina**: le impostazioni degli elementi della pagina includono gli sfondi.
 - **Riquadro filtro**: le impostazioni del riquadro filtro includono colore di sfondo, trasparenza, colore dei caratteri e delle icone, dimensioni e schede dei filtri.
@@ -359,8 +359,8 @@ La tabella che segue include le informazioni seguenti:
 |-| Titolo grande | largeTitle |14pt |Titolo oggetto visivo |
 |Etichetta ||label |Segoe UI<br>#252423<br>10pt |Intestazioni colonna di tabella e matrice <br> Intestazioni di riga matrice<br>Griglia di tabella e matrice<br>Valori di tabella e matrice |
 |-|Semibold |semiboldLabel| Segoe UI Semibold | Testo profilo dei fattori di influenza chiave
-|-|Grande |largeLabel |12pt | Etichette dati scheda a più righe |
-|-|Piccola |smallLabel |9pt |Etichette linea di riferimento* <br>Etichette intervallo data del filtro dei dati<br> Stile testo dell'input numerico del filtro dei dati<br>Casella di ricerca del filtro dei dati<br>Testo fattore di influenza dei fattori di influenza chiave|
+|-|large |largeLabel |12pt | Etichette dati scheda a più righe |
+|-|Piccolo |smallLabel |9pt |Etichette linea di riferimento* <br>Etichette intervallo data del filtro dei dati<br> Stile testo dell'input numerico del filtro dei dati<br>Casella di ricerca del filtro dei dati<br>Testo fattore di influenza dei fattori di influenza chiave|
 |-|Light |lightLabel |#605E5C |Testo legenda<br>Testo del pulsante<br>Etichette asse delle categorie<br>Etichette dati del grafico a imbuto<br>Etichette tasso di conversione del grafico a imbuto<br>Destinazione misuratore<br>Etichetta categoria grafico a dispersione<br>Elementi filtro dei dati|
 |-|Grassetto |boldLabel |Segoe UI Bold |Subtotali della matrice<br>Totali complessivi della matrice<br>Totali della tabella |
 |-|Large e Light |largeLightLabel |#605E5C<br>12pt |Etichette categorie della scheda<br>Etichette misuratore<br>Etichette categoria della scheda a più righe |
@@ -516,7 +516,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | breakdown: Scomposizione |
 | bubbles: Bolle |
 | calloutValue: Valore callout |
-| card: Scheda |
+| card: Card |
 | cardTitle: Titolo scheda |
 | categoryAxis: Asse X |
 | categoryLabels: Etichette categorie |
@@ -525,18 +525,18 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | dataLabels: Etichette dati |
 | fill: Riempimento |
 | fillPoint: Punto di riempimento |
-| forecast: Previsione |
+| forecast: previsione |
 | general: Generale |
 | goals: Obiettivi |
 | grid: Griglia |
 | header: Intestazione |
-| imageScaling: Scala |
+| imageScaling: Scalabilità |
 | indicator: Indicatore |
-| items: Elementi |
+| items: Items |
 | labels: Etichette dati |
 | legend: Legenda |
 | lineStyles: Forme |
-| mapControls: Controlli della mappa |
+| mapControls: Controlli mappa |
 | mapStyles: Stili mappa |
 | numericInputStyle: Input numerici |
 | percentBarLabel: Etichetta tasso di conversione |
@@ -549,7 +549,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | rowHeaders: Intestazioni di riga |
 | selection: Comandi di selezione |
 | sentimentColors: Colori sentiment |
-| shape: Forma |
+| shape: Con forme |
 | slider: Dispositivo di scorrimento |
 | status: Codifica a colori |
 | subTotals: Subtotali |
@@ -559,7 +559,7 @@ La tabella seguente definisce i valori di **cardName**. Il primo valore in ogni 
 | trendline: Asse tendenza |
 | valueAxis: Asse Y |
 | values: Valori |
-| wordWrap: Ritorno a capo automatico |
+| wordWrap: A capo automatico |
 | xAxisReferenceLine: Linea costante asse X |
 | y1AxisReferenceLine: Linea costante |
 | zoom: Zoom |
@@ -4494,7 +4494,7 @@ La sezione seguente definisce le enumerazioni che è possibile usare nel file JS
 Se si usa uno dei temi originali, il tema "Classico" o un tema personalizzato importato per primo, la sezione di testo della finestra di dialogo del tema non è disponibile per la configurazione.
 
 I temi predefiniti interessati da questa limitazione includono:
-* Classic
+* Classico
 * Parco cittadino
 * Classe
 * Per daltonici

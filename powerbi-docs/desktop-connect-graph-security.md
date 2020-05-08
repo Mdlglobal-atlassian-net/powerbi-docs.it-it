@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74999791"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Connettersi all'API Microsoft Graph Security in Power BI Desktop
@@ -28,7 +28,7 @@ L'API Microsoft Graph Security collega [diverse soluzioni di sicurezza](https://
 Per usare il connettore Microsoft Graph Security, è necessario ottenere l'autorizzazione *esplicita* dall'amministratore di tenant di Azure Active Directory (Azure AD). Vedere [Microsoft Graph Security authentication requirements](https://aka.ms/graphsecurityauth) (Requisiti di autenticazione di Microsoft Graph Security).
 Il consenso richiede l'ID e il nome applicazione del connettore che vengono citati qui e sono disponibili nel [portale di Azure](https://portal.azure.com):
 
-| Proprietà | Valore |
+| Property | Value |
 |----------|-------|
 | **Nome applicazione** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **ID applicazione** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
@@ -58,7 +58,7 @@ Per usare il connettore, seguire la procedura qui sotto:
     
 5. Quando viene richiesto, accedere all'account Azure Active Directory. Questo account deve avere il *ruolo con autorizzazioni di lettura per la sicurezza* oppure il ruolo *amministratore della protezione*, come indicato nella sezione precedente.
 
-    ![Accedi](media/desktop-connect-graph-security/SignIn.PNG) 
+    ![Accesso](media/desktop-connect-graph-security/SignIn.PNG) 
     
 6. Se si è l'amministratore del tenant *e* non è ancora stato dato il consenso al connettore Microsoft Graph Security di Power BI (applicazione), viene visualizzata la finestra di dialogo seguente. Selezionare **Acconsenti per conto dell'organizzazione**.
 

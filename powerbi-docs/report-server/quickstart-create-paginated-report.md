@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
 ms.openlocfilehash: 33c4f7b208916c2d920591acfc444f52c7655e47
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919535"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
@@ -67,7 +67,7 @@ Nella prima pagina della creazione guidata Grafico, **Scegliere un set di dati**
 3. Disporre i campi trascinandoli nelle caselle **Categorie**, **Serie** e **Valori**.
    
     ![Creazione guidata grafico: Disponi campi](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
-4. Selezionare **Avanti** > **Fine**.
+4. Selezionare **Next** > **Finish** (Avanti > Fine).
 
 ## <a name="step-3-design-your-report"></a>Passaggio 3: Progettare il report
 Si passerà ora alla visualizzazione Progettazione report. Si noti che quelli visualizzati sono solo dati segnaposto.

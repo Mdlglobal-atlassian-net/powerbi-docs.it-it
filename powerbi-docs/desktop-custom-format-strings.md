@@ -10,10 +10,10 @@ ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791592"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Usare stringhe di formato personalizzate in Power BI Desktop
@@ -43,7 +43,7 @@ Le tabelle seguenti definiscono la sintassi supportata in Power BI.
 
 La tabella seguente mostra i **simboli di data** supportati:
 
-| **Simbolo** | **Intervallo** |
+| **Simbolo** | **Range** |
 | --- | --- |
 | _d_ | 1-31 (giorno del mese senza zero iniziali) |
 | _dd_ | 01-31 (giorno del mese con uno zero iniziale) |
@@ -56,7 +56,7 @@ La tabella seguente mostra i **simboli di data** supportati:
 
 La tabella seguente mostra i **simboli di ora** supportati:
 
-| **Simbolo** | **Intervallo** |
+| **Simbolo** | **Range** |
 | --- | --- |
 | _h_ | 0-23 (1-12 seguito da &quot;AM&quot; o &quot;PM&quot;) (ora del giorno senza zero iniziali) |
 | _hh_ | 00-23 (01-12 seguito da &quot;AM&quot; o &quot;PM&quot;) (ora del giorno con uno zero iniziale) |
@@ -78,7 +78,7 @@ Di seguito sono riportati alcuni esempi di formati diversi per diverse stringhe 
 | --- | --- | --- | --- | --- |
 | **Valori** | **0.00;-0.0;&quot;Zero&quot;** | **0.00;;** | **0.00;-0.0;** | **0.00;** |
 | **-1.234** | -1.2 | &quot;&quot; | -1.2 | &quot;&quot; |
-| **0** | &quot;Zero&quot; | &quot;&quot; | &quot;&quot; | 0.00 |
+| **0** | &quot;Zero&quot; | &quot;&quot; | &quot;&quot; | 0,00 |
 | **1.234** | 1.23 | 1.23 | 1.23 | 1.23 |
 
 La tabella seguente identifica i **formati di data e ora con nome** predefiniti:
@@ -134,7 +134,7 @@ La tabella seguente identifica i caratteri che è possibile usare per creare **f
 
 | **Carattere** | **Descrizione** |
 | --- | --- |
-| Nessuno | Visualizzare il numero senza formattazione. |
+| nessuno | Visualizzare il numero senza formattazione. |
 | ( **0** ) | Segnaposto della cifra. Visualizzare una cifra o uno zero. Se nell'espressione è presente una cifra nella posizione del valore 0 nella stringa di formato, visualizzarla; in caso contrario, visualizzare uno zero. Se il numero include meno cifre del numero di zeri presenti (in entrambi i lati del decimale) nell'espressione di formato, visualizzare zeri iniziali o finali. Se il numero ha più cifre a destra del separatore decimale del numero di zeri a destra del separatore decimale nell'espressione di formato, arrotondare il numero al numero di cifre decimali corrispondente al numero di zeri. Se il numero ha più cifre a sinistra del separatore decimale del numero di zeri a sinistra del separatore decimale nell'espressione di formato, visualizzare le cifre aggiuntive senza alcuna modifica. |
 | ( **#** ) | Segnaposto della cifra. Visualizzare una cifra o nessun elemento. Se nell'espressione è presente una cifra nella posizione di # nella stringa di formato, visualizzarla; in caso contrario, non visualizzare alcun elemento. Questo simbolo viene usato allo stesso modo del segnaposto 0 cifre, ad eccezione del fatto che gli zeri iniziali e finali non vengono visualizzati se il numero ha un numero di cifre uguale o inferiore al numero di caratteri # in entrambi i lati del separatore decimale nell'espressione di formato. |
 | ( **.** ) | Segnaposto decimale. In alcune impostazioni locali viene usata la virgola come separatore decimale. Il segnaposto decimale determina il numero di cifre visualizzate a sinistra e a destra del separatore decimale. Se l'espressione di formato contiene solo cancelletti a sinistra di questo simbolo, i numeri inferiori a 1 iniziano con un separatore decimale. Per visualizzare uno zero iniziale con i numeri frazionari, usare 0 come primo segnaposto di cifra a sinistra del separatore decimale. Il carattere effettivo usato come segnaposto decimale nell'output formattato dipende dal formato numerico riconosciuto dal sistema. |

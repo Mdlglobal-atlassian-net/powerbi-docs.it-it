@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4730e835c511153232f79c193de5bbd56d63b963
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410913"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX: Uso appropriato delle funzioni di errore
@@ -26,7 +26,7 @@ Sebbene queste funzioni possano essere utili e possano contribuire a scrivere es
 
 La maggior parte degli errori in fase di valutazione è dovuta a valori vuoti o zero imprevisti oppure a una conversione del tipo di dati non valida.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 È preferibile evitare di usare le funzioni ISERROR e IFERROR. In alternativa, applicare strategie difensive durante lo sviluppo del modello e la scrittura di espressioni, Possibili strategie:
 
@@ -63,5 +63,5 @@ Profit Margin
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
-- [Informazioni di riferimento su DAX (Data Analysis Expressions)](/dax/)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- [Riferimento a Data Analysis Expressions (DAX)](/dax/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

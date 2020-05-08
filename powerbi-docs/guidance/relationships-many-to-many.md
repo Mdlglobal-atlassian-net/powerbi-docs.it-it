@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260452"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Linee guida per le relazioni molti-a-molti
@@ -298,5 +298,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

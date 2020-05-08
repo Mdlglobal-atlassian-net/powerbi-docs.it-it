@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78290572"
 ---
 # <a name="referencing-power-query-queries"></a>Fare riferimento a query di Power Query
@@ -38,7 +38,7 @@ L'uso della funzione [Table.Buffer](/powerquery-m/table-buffer) in **Query1** no
 > [!NOTE]
 > L'architettura di memorizzazione nella cache di Power Query è complessa e non è l'argomento principale di questo articolo. Power Query è in grado di memorizzare nella cache i dati recuperati da un'origine dati. Tuttavia, quando esegue una query può recuperare i dati dall'origine dati più di una volta.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 In generale, si consiglia di fare riferimento alle query per evitare la duplicazione della logica nelle query. Tuttavia, come descritto in questo articolo, questo approccio di progettazione può contribuire a rallentare gli aggiornamenti dei dati e a sovraccaricare le origini dati.
 
@@ -54,5 +54,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Preparazione dei dati self-service in Power BI](../service-dataflows-overview.md)
 - [Creazione e uso di flussi di dati in Power BI](../service-dataflows-create-use.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

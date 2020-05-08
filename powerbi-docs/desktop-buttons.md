@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439826"
 ---
 # <a name="use-buttons-in-power-bi"></a>Usare i pulsanti in Power BI
@@ -47,9 +47,9 @@ I pulsanti in Power BI presentano tre stati: predefinito (aspetto dei pulsanti q
 
 Le sezioni seguenti nel riquadro **Visualizzazioni** consentono di modificare la formattazione o il comportamento di un pulsante in base ai relativi tre stati:
 
-* Testo pulsante
+* Testo del pulsante
 * Icona
-* Bordo
+* Struttura
 * Riempimento
 
 Per specificare l'aspetto del pulsante per ogni stato, espandere una di queste sezioni e selezionare l'elenco a discesa visualizzato nella parte superiore della sezione. Nella figura seguente è visualizzata la sezione **Icona** espansa con l'elenco a discesa selezionato per mostrare i tre stati.

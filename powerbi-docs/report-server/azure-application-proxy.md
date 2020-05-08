@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: maggies
 ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922598"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configurare Server di report di Power BI con Azure Application Proxy
@@ -119,7 +119,7 @@ Configurare le impostazioni di delega nell'account del servizio del server di re
     Inizia con MSSQLSVC.
 
 1. Aggiungere i nomi dell'entità servizio.
-2. Seleziona **OK**. A questo punto verrà visualizzato il nome SPN nell'elenco.
+2. Selezionare **OK**. A questo punto verrà visualizzato il nome SPN nell'elenco.
 
 Questi passaggi consentono di configurare Server di report di Power BI per usare il meccanismo di autenticazione Kerberos e ottenere la connessione di test all'origine dati presente nel computer locale.
 
@@ -162,7 +162,7 @@ Usare le impostazioni seguenti per pubblicare Server di report di Power BI trami
 L'URL esterno configurato per l'ambiente è `https://pbirsazureapp-umacontoso2410.msappproxy.net/`.
 
 - **Metodo di autenticazione preliminare**: Azure Active Directory.
-- **Gruppo di connettori**: Impostazione predefinita.
+- **Gruppo di connettori**: Valore predefinito.
 
 ![Gruppo di connettori predefinito](media/azure-application-proxy/report-server-application-proxy-1.png)
 

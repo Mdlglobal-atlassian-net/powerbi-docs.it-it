@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041609"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Relazioni nei modelli in Power BI Desktop
@@ -87,9 +87,9 @@ Ogni relazione del modello deve essere definita con una direzione filtro incroci
 
 | Tipo di cardinalità | Opzioni di filtro incrociato |
 | --- | --- |
-| Uno-a-molti (o Molti-a-uno) | Singola<br>Entrambi |
-| Uno-a-uno | Entrambi |
-| Molti-a-molti | Single (da Table1 a Table2)<br>Single (da Table2 a Table1)<br>Entrambi |
+| Uno-a-molti (o Molti-a-uno) | Single<br>Entrambe |
+| Uno-a-uno | Entrambe |
+| Molti-a-molti | Single (da Table1 a Table2)<br>Single (da Table2 a Table1)<br>Entrambe |
 
 La direzione filtro incrociato _Singola_ significa "singola direzione" e _Entrambe_ significa "entrambe le direzioni". Una relazione che consente di filtrare in entrambe le direzioni viene comunemente descritta come _bidirezionale_.
 
@@ -232,5 +232,5 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 - [Linee guida per la relazione bidirezionale](guidance/relationships-bidirectional-filtering.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](guidance/relationships-troubleshoot.md)
 - Video: [The Do's and Don'ts of Power BI Relationships](https://www.youtube.com/watch?v=78d6mwR8GtA) (Operazioni consigliate e sconsigliate nelle relazioni di Power BI)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -14,7 +14,7 @@
           href: walkthrough-push-data.md
         - name: Ottenere un token di accesso per l'autenticazione
           href: walkthrough-push-data-get-token.md
-        - name: Crea un set di dati
+        - name: Creare un set di dati
           href: walkthrough-push-data-create-dataset.md
         - name: Ottenere un set di dati per aggiungere righe
           href: walkthrough-push-data-get-datasets.md
@@ -24,15 +24,15 @@
       items:
         - name: Criteri di conservazione automatici per dati in tempo reale
           href: api-automatic-retention-policy-for-real-time-data.md
-        - name: Push dei dati
+        - name: Effettuare il push dei dati
           items:
             - name: Limitazioni dell'API REST di Power BI
               href: api-rest-api-limitations.md
-            - name: Proprietà dei set di dati
+            - name: Proprietà del set di dati
               href: api-dataset-properties.md
             - name: Controllo delle versioni del modello di dati
               href: api-data-model-versioning.md
-    - name: Procedura
+    - name: Procedure
       items:
         - name: Configurare le credenziali
           href: configure-credentials.md
@@ -46,7 +46,7 @@
           href: walkthrough-push-data-complete-code.md
     - name: Risorse
       items:
-        - name: Dev Center
+        - name: Centro per sviluppatori
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: 'Repository Git C# per Power BI'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'

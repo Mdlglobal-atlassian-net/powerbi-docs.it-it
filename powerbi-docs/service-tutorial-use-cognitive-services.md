@@ -11,10 +11,10 @@ ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527818"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Esercitazione: Usare Servizi cognitivi in Power BI
@@ -23,7 +23,7 @@ Power BI mette a disposizione un set di funzioni di Servizi cognitivi di Azure p
 
 Le trasformazioni di Servizi cognitivi sono supportate nella [preparazione dei dati self-service per i flussi di dati](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/). Per iniziare, usare gli esempi dettagliati per l'analisi del testo e l'aggiunta di tag alle immagini riportati di seguito.
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 
 > [!div class="checklist"]
 > * Importare dati in Power BI

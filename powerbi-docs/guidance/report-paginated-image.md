@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
 ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920722"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Linee guida per l'uso di immagini nei report impaginati
@@ -32,7 +32,7 @@ Possono quindi essere usate in diversi contesti nei layout di un report:
 - Sfondo per determinati elementi del report:
   - Corpo del report
   - Casella di testo
-  - Rettangolo
+  - Rectangle
   - Un'area dati Tablix (tabella, matrice o elenco)
 
 ## <a name="suggestions"></a>Suggerimenti
@@ -54,5 +54,5 @@ Per offrire layout di report professionali, facilità di gestione e prestazioni 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Che cosa sono i report impaginati in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

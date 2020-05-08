@@ -11,10 +11,10 @@ ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040200"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Visualizzare il contenuto in modo più dettagliato: modalità messa a fuoco e modalità schermo intero
@@ -32,7 +32,7 @@ La modalità schermo intero e la modalità messa a fuoco sono due modi diversi p
 |Dashboard     |   Non consentita     | sì |
 |Pagina del report   | Non consentita  | sì|
 |Oggetto visivo del report | sì    | sì |
-|Riquadro del dashboard | sì    | Non consentita |
+|Riquadro Dashboard | sì    | Non consentita |
 |Windows 10 Mobile | Non consentita | Sì |
 
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero

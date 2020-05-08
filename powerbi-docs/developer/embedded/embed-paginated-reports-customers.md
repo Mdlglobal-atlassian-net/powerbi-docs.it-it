@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
 ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403766"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti (anteprima)
@@ -22,7 +22,7 @@ Con **Power BI Embedded in Azure** o l'**incorporamento di Power BI in Office**,
 
 ![Incorporare report di Power BI](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
-In questa esercitazione viene illustrato come:
+In questa esercitazione verranno illustrate le procedure per:
 > [!div class="checklist"]
 > * Registrare un'applicazione in Azure.
 > * Incorporare un report impaginato di Power BI in un'applicazione.
@@ -36,7 +36,7 @@ Per iniziare, è necessario avere:
 * Configurazione del [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md)
 * Una [capacità](#create-a-dedicated-capacity) minima A4 o P1 con il carico di lavoro [report impaginati](../../service-admin-premium-workloads.md#paginated-reports) abilitato
 
-Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
 
 > [!IMPORTANT]
 > * È necessario usare un'**entità servizio**. L'utente master non è supportato.
@@ -197,7 +197,7 @@ Compilare il campo **tenant** con l'ID tenant di Azure. È possibile ottenere qu
 
 3. È ora possibile visualizzare il report nell'applicazione di esempio.
 
-    ![Visualizzare l'applicazione](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
+    ![Visualizza applicazione](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Incorporare report impaginati di Power BI nell'applicazione
 
