@@ -10,13 +10,13 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 2c09f21565cdf9987aad2027a148823fb32e2e55
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76538983"
 ---
-# <a name="get-webpage-data-by-providing-examples"></a>Ottenere i dati della pagina Web fornendo esempi
+# <a name="get-webpage-data-by-providing-examples"></a>Ottenere i dati della pagina Web offrendo esempi
 
 L'acquisizione di dati da una pagina Web consente agli utenti di estrarre con facilità dati da pagine Web e importarli in *Power BI Desktop*. Spesso, tuttavia, i dati nelle pagine Web non sono in tabelle ordinate facili da estrarre. Il recupero di dati da tali pagine può risultare complesso, anche se i dati sono strutturati e coerenti.
 
@@ -65,7 +65,7 @@ Da qui, è possibile creare oggetti visivi o usare i dati della pagina Web in mo
 
 * [Aggiungere una colonna da un esempio in Power BI Desktop](desktop-add-column-from-example.md)
 * [Connettersi a pagine Web da Power BI Desktop](desktop-connect-to-web.md)
-* [Origini di dati in Power BI Desktop](desktop-data-sources.md)
+* [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Data shaping e combinazione di dati in Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a cartelle di lavoro di Excel in Power BI Desktop](desktop-connect-excel.md)
 * [Connettersi a file CSV in Power BI Desktop](desktop-connect-csv.md)

@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114950"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
@@ -94,7 +94,7 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. Selezionare **Next** (Avanti).
+3. Selezionare **Avanti**.
 
 4. Fornire un **nome** per l'applicazione che si sta aggiungendo. 
 
@@ -112,7 +112,7 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
    urn:ietf:wg:oauth:2.0:oob
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. Selezionare **Next** (Avanti).
+7. Selezionare **Avanti**.
 
 8. Fornire l'URL del server di report. Si tratta dell'URL esterno che raggiungerà il proxy applicazione Web. Deve essere nel formato seguente.
 
@@ -122,17 +122,17 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
    *https://< url server di report >/*
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. Selezionare **Next** (Avanti).
+9. Selezionare **Avanti**.
 
 10. Scegliere i **Criteri di controllo di accesso** idonei alle esigenze della propria organizzazione.
 
     ![AD FS - Aggiunta guidata gruppo di applicazioni 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. Selezionare **Next** (Avanti).
+11. Selezionare **Avanti**.
 
-12. Fare clic su **Avanti**.
+12. Selezionare **Avanti**.
 
-13. Selezionare **Next** (Avanti).
+13. Selezionare **Avanti**.
 
 14. Selezionare **Chiudi**.
 
@@ -185,7 +185,7 @@ Per configurare la delega vincolata, eseguire le operazioni seguenti.
 
     ![Vincolato da WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Seleziona **OK**.
+11. Scegliere **OK**.
 
 ### <a name="add-wap-application"></a>Aggiungere applicazione WAP
 
@@ -195,7 +195,7 @@ Mentre è possibile pubblicare applicazioni nella console di gestione di accesso
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| Parametro | Commenti |
+| parametro | Commenti |
 | --- | --- |
 | **ADFSRelyingPartyName** |Il nome dell'API Web creato come parte del gruppo di applicazioni all'interno di ADFS. |
 | **ExternalCertificateThumbprint** |Il certificato da usare per gli utenti esterni. È importante che il certificato sia valido per i dispositivi mobili e provenga da un'autorità di certificazione attendibile. |
@@ -232,7 +232,7 @@ Quando si seleziona **Connetti** si viene indirizzati alla pagina di accesso di 
 
 Dopo aver selezionato **Accedi**, vengono visualizzati gli elementi dal server di Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+## <a name="multi-factor-authentication"></a>Autenticazione a più fattori
 
 È possibile abilitare Multi-Factor Authentication per applicare una protezione aggiuntiva per l'ambiente. Per altre informazioni, vedere [Configurare AD FS 2016 e Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 

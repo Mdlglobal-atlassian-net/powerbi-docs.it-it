@@ -1,6 +1,6 @@
 ---
 title: Nozioni di DAX in Power BI Desktop
-description: Nozioni di DAX in Power BI Desktop
+description: Nozioni di base di DAX in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760636"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Applicare le nozioni di DAX in Power BI Desktop
@@ -44,7 +44,7 @@ Prima di creare formule personalizzate, verrà esaminata la sintassi della formu
 
 Questa formula include gli elementi di sintassi seguenti:
 
-**A.** Nome della misura, **Total Sales**.
+**R.** Nome della misura, **Total Sales**.
 
 **B.** Operatore di segno uguale ( **=** ). Indica l'inizio della formula. Quando calcolata, restituirà un risultato.
 
@@ -146,7 +146,7 @@ DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microso
 
 * Una funzione DAX fa sempre riferimento a una colonna o una tabella completa. Se si vogliono usare solo particolari valori di una tabella o colonna, è possibile aggiungere filtri alla formula.
 * Se è necessario personalizzare i calcoli riga per riga, in DAX sono disponibili funzioni che consentono di usare il valore della riga corrente o un valore correlato come un tipo di argomento, per eseguire calcoli che variano in base al contesto. Si apprenderanno altre informazioni sul contesto più avanti.
-* DAX include numerose funzioni che restituiscono una tabella anziché un valore. La tabella non viene visualizzata, ma viene usata per fornire input ad altre funzioni. Ad esempio, è possibile recuperare una tabella e quindi contare i valori distinti in essa contenuti o calcolare somme dinamiche nelle tabelle o colonne filtrate.
+* DAX include numerose funzioni che restituiscono una tabella anziché un valore. La tabella non viene visualizzata, ma viene usata per fornire input ad altre funzioni. Ad esempio, è possibile recuperare una tabella e contare i valori distinti in essa contenuti o calcolare somme dinamiche nelle tabelle o colonne filtrate.
 * Dax include varie funzionalità di Business Intelligence per le gerarchie temporali. Queste funzioni consentono di definire o selezionare intervalli di date ed eseguire calcoli dinamici basati su di essi. Ad esempio, è possibile confrontare somme in periodi paralleli.
 * Excel offre una funzione diffusa, VLOOKUP. Le funzioni DAX non prendono come riferimento una cella o un intervallo di celle così come fa VLOOKUP in Excel, ma una colonna o una tabella. Tenere presente che in Power BI Desktop si lavora con un modello dati relazionale. La ricerca di valori in un'altra tabella è semplice e, nella maggior parte dei casi, non è affatto necessario creare alcuna formula.
   
@@ -182,7 +182,7 @@ Per meglio comprendere questa formula, è possibile suddividerla, proprio come c
 
 Questa formula include gli elementi di sintassi seguenti:
 
-**A.** Nome della misura, **Store Sales**.
+**R.** Nome della misura, **Store Sales**.
 
 **B.** Operatore di segno uguale ( **=** ). Indica l'inizio della formula.
 
@@ -209,7 +209,7 @@ Come è facile immaginare, la possibilità di definire il contesto di filtro all
 
 Le risposte vengono fornite alla fine di questo articolo.
 
-## <a name="summary"></a>Riepilogo
+## <a name="summary"></a>Summary
 Ora che sono state apprese le nozioni di base dei concetti più importanti in DAX, è possibile iniziare a creare formule DAX per misure personalizzate. DAX può essere effettivamente un po' complesso da apprendere, ma sono disponibili molte risorse di approfondimento. Dopo aver letto questo articolo e sperimentato con alcune delle formule personalizzate, sarà possibile apprendere altri concetti e formule DAX che consentono di risolvere altri problemi aziendali. Sono disponibili molte risorse DAX, la più importante delle quali è l'articolo [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx).
 
 Poiché DAX è stato rilasciato da diversi anni in altri strumenti Microsoft BI, ad esempio Power Pivot e i modelli tabulari di Analysis Services, esiste molta disponibilità di informazioni. È possibile trovare altre informazioni in libri, white paper e blog pubblicati da Microsoft e dai principali professionisti di Business Intelligence. Anche la pagina [Wiki del centro risorse DAX su TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) è un ottimo punto di partenza.

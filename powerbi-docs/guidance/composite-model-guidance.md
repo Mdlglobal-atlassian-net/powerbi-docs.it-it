@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fa9ecd66d30839e169252065f7f736189b71b6ce
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889481"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Linee guida per i modelli compositi in Power BI Desktop
@@ -48,7 +48,7 @@ Un modello composito può essere ottimizzato configurando le [modalità di archi
 In un modello composito è possibile configurare la modalità di archiviazione per ogni tabella, ad eccezione delle tabelle calcolate:
 
 - **DirectQuery**: è consigliabile impostare questa modalità per le tabelle che rappresentano volumi di dati di grandi dimensioni o che devono offrire risultati quasi in tempo reale. I dati non verranno mai importati nelle tabelle. In genere, queste tabelle saranno tabelle di tipo fact, ovvero tabelle usate per il riepilogo.
-- **Importa**: è consigliabile impostare questa modalità per le tabelle di tipo dimensione, ovvero le tabelle usate per filtri e raggruppamento. Infatti, è l'unica opzione per le tabelle basate sulle origini non supportate dalla modalità DirectQuery. Le tabelle calcolate sono sempre di tipo importazione.
+- **Import**: è consigliabile impostare questa modalità per le tabelle di tipo dimensione, ovvero le tabelle usate per filtri e raggruppamento. Infatti, è l'unica opzione per le tabelle basate sulle origini non supportate dalla modalità DirectQuery. Le tabelle calcolate sono sempre di tipo importazione.
 - **Doppia**: si consiglia di impostare questa modalità per le tabelle di tipo dimensione, quando esiste la possibilità che queste tabelle vengano sottoposte a query insieme con le tabelle di tipo fact DirectQuery dalla stessa origine.
 
 Esistono diversi scenari in cui Power BI esegue una query su un modello composito:
@@ -67,7 +67,7 @@ Riepilogando, è consigliabile:
 - Ottimizzare le origini dati DirectQuery con gli indici appropriati per join, filtri e raggruppamento efficienti
 - Non caricare dati sensibili in tabelle di importazione o doppie se è presente il rischio che una query nativa venga intercettata. Per altre informazioni, vedere [Usare modelli compositi in Power BI Desktop (Implicazioni per la sicurezza)](../desktop-composite-models.md#security-implications)
 
-### <a name="aggregations"></a>Aggregazioni
+### <a name="aggregations"></a>Aggregations
 
 È possibile aggiungere aggregazioni alle tabelle DirectQuery nel modello composito. Le aggregazioni vengono memorizzate nella cache del modello e pertanto si comportano come tabelle di importazione, sebbene non possano essere usate come una tabella del modello. Il loro scopo è quello di migliorare le prestazioni per le query a "granularità più elevata". Per altre informazioni, vedere [Aggregazioni in Power BI Desktop](../desktop-aggregations.md).
 
@@ -85,5 +85,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Origini dati di Power BI](../power-bi-data-sources.md)
 - [Modalità di archiviazione in Power BI Desktop](../desktop-storage-mode.md)
 - [Aggregazioni in Power BI Desktop](../desktop-aggregations.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

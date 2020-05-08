@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 1f5cedba1c32f152cd6e4a9f9f51d0355ac05ce5
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77497334"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Esercitazione: Analizzare i dati di Facebook con Power BI Desktop
@@ -32,7 +32,7 @@ In questa esercitazione vengono usati i dati della [pagina Facebook di Microsoft
    
 2. Nella finestra di dialogo **Recupera dati** selezionare **Facebook** nel gruppo **Servizi online** e quindi scegliere **Connetti**.
    
-   ![Recupera dati](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Recuperare i dati](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Verrà visualizzata una finestra di dialogo che avvisa in merito ai rischi legati all'uso di un servizio di terze parti.
    
@@ -42,7 +42,7 @@ In questa esercitazione vengono usati i dati della [pagina Facebook di Microsoft
    
 4. Nella finestra di dialogo **Facebook** immettere il nome della pagina **microsoftbi** come **nome utente**, selezionare **post** dall'elenco a discesa **Connessione** e quindi selezionare **OK**.
    
-   ![Connetti](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Connessione](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Alla richiesta di credenziali, accedere all'account Facebook e consentire l'accesso di Power BI al proprio account.
    
@@ -50,7 +50,7 @@ In questa esercitazione vengono usati i dati della [pagina Facebook di Microsoft
 
    Dopo la connessione alla pagina Facebook di Power BI, viene visualizzata un'anteprima dei dati dei post della pagina. 
    
-   ![Anteprima dei dati](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
+   ![Anteprima dati](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
 ## <a name="shape-and-transform-the-imported-data"></a>Modellare e trasformare i dati importati
 
@@ -198,7 +198,7 @@ La visualizzazione è migliore, ma tutte le etichette dei dati hanno la cifra de
    
    L'icona nell'intestazione di colonna diventa **123**, per indicare il tipo di dati **Numero intero**.
    
-   ![Modificare il tipo di dati](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   ![Cambia tipo di dati](media/desktop-tutorial-facebook-analytics/change-datatype.png)
    
 3. Per applicare le modifiche, selezionare **File** > **Chiudi e applica** o **File** > **Applica** per mantenere aperta la finestra **Editor di Power Query**. 
 

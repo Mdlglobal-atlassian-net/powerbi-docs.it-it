@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77179221"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introduzione ai set di dati in aree di lavoro diverse (anteprima)
@@ -51,7 +51,7 @@ Se si creano set di dati, quando si crea un set di dati che altri utenti possono
 
 ## <a name="licensing"></a>Gestione delle licenze
 
-Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set di dati condiviso sono concesse in licenza in base ai rispettivi scenari esistenti. ad esempio:
+Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set di dati condiviso sono concesse in licenza in base ai rispettivi scenari esistenti. Ad esempio:
 
 - L'individuazione e la connessione a set di dati condivisi sono generalmente disponibili a tutti gli utenti, non si tratta di una funzionalità limitata ai piani Premium.
 - Gli utenti che non hanno una licenza Pro possono usare set di dati di tutte le aree di lavoro per la creazione di report solo se tali set di dati si trovano nell'area di lavoro personale dell'utente o in un'area di lavoro supportata da un piano Premium. La stessa restrizione di licenza si applica indipendentemente dal fatto che la creazione di report avvenga in Power BI Desktop o nel servizio Power BI.
@@ -59,7 +59,7 @@ Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set d
 - Per copiare report da un'app, è richiesta una licenza Pro, come era necessario per i pacchetti di contenuto dell'organizzazione.
 - Per la promozione e la certificazione dei set di dati è necessaria una licenza Pro.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 - L'editore di un'app deve assicurarsi che il gruppo di destinatari abbia accesso ai set di dati all'esterno dell'area di lavoro. In caso contrario, gli utenti avranno problemi durante l'interazione con l'app: senza l'accesso ai set di dati i report non si apriranno e i riquadri dei dashboard verranno visualizzati come bloccati. Gli utenti, poi, non saranno in grado di aprire l'app se il primo elemento di spostamento di questa è un report senza accesso al set di dati.
 - La compilazione di un report basato su un set di dati in un'area di lavoro diversa richiede la nuova esperienza delle aree di lavoro su due fronti: Il report deve risiedere in una nuova esperienza delle aree di lavoro e il set di dati deve trovarsi in una nuova esperienza delle aree di lavoro. I report di una nuova esperienza di area di lavoro possono essere copiati solo in un'altra nuova esperienza di area di lavoro e non nelle aree di lavoro classiche o nell'area di lavoro personale. 
@@ -72,4 +72,4 @@ Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set d
 - [Alzare di livello i set di dati](service-datasets-promote.md)
 - [Certificare i set di dati](service-datasets-certify.md)
 - [Controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

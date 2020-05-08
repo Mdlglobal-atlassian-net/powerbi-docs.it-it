@@ -11,10 +11,10 @@ ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758107"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
@@ -63,7 +63,7 @@ Prima di poter personalizzare la visualizzazione, è necessario crearla.
 Sono disponibili molte funzionalità personalizzabili per l'asse X. È possibile aggiungere e modificare le etichette dati e il titolo dell'asse X. Per le categorie, è possibile modificare la larghezza, le dimensioni e la spaziatura interna di barre, colonne, linee e aree. Per i valori è possibile modificare le unità visualizzate, le posizioni decimali e le linee della griglia. L'esempio seguente mostra la personalizzazione di un istogramma. Aggiungere alcune personalizzazioni per acquisire familiarità con le opzioni, quindi esplorare il resto autonomamente.
 
 ### <a name="customize-the-x-axis-labels"></a>Personalizzare le etichette dell'asse X
-Le etichette dell'asse X vengono visualizzate sotto le colonne del grafico. Al momento, sono grigie, piccoli e difficili da leggere, quindi verranno cambiate.
+Le etichette dell'asse X vengono visualizzate sotto le colonne del grafico. Al momento, sono grigie, piccoli e difficili da leggere, A tale scopo, seguire questa procedura.
 
 1. Nel riquadro **Visualizzazioni** selezionare **Formato** (icona del rullo ![Screenshot dell'icona del rullo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png). ) per visualizzare le opzioni di personalizzazione.
 

@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039988"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
@@ -87,7 +87,7 @@ Sono disponibili le risorse seguenti per muovere i primi passi:
 * [Community](https://community.powerbi.com/) in cui è possibile porre domande
 * Per altri suggerimenti, vedere [10 suggerimenti per chiedere assistenza](../service-tips-for-finding-help.md)
 
-## <a name="what-browsers-does-power-bi-support"></a>Quali browser supporta Power BI?
+## <a name="what-browsers-does-power-bi-support"></a>Quali browser support Power BI?
 
 Di seguito è riportato un elenco completo di [browser supportati per Power BI](../service-browser-support.md).
 

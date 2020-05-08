@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205781"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Tecniche di riduzione dei dati per i modelli di importazione
@@ -30,7 +30,7 @@ Nonostante il livello di efficienza del motore di archiviazione VertiPaq, è imp
 
 In questo articolo sono illustrate otto tecniche diverse per la riduzione dei dati. Queste tecniche includono:
 
-- [Rimuovere le colonne inutili](#remove-unnecessary-columns)
+- [Rimuovere le colonne non necessarie](#remove-unnecessary-columns)
 - [Rimuovere le righe inutili](#remove-unnecessary-rows)
 - [Raggruppare e riepilogare](#group-by-and-summarize)
 - [Ottimizzare i tipi di dati delle colonne](#optimize-column-data-types)
@@ -104,4 +104,4 @@ Per altre informazioni sulla struttura di un modello di importazione di Power BI
 
 - [Usare modelli compositi in Power BI Desktop](../desktop-composite-models.md)
 - [Modalità di archiviazione in Power BI Desktop](../desktop-storage-mode.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

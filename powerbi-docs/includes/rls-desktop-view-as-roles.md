@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 8dc488a47ac2b5b4e7980b7404b2722b1120b6ab
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464407"
 ---
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>Convalidare i ruoli in Power BI Desktop
@@ -29,7 +29,7 @@ Dopo aver creato i ruoli è possibile testare i risultati corrispondenti all'int
 
    All'interno di Power BI Desktop l'opzione **Altro utente** visualizza risultati diversi solo se si usa la sicurezza dinamica basata sulle espressioni DAX. 
 
-5. Seleziona **OK**. 
+5. Scegliere **OK**. 
 
    Il rendering del report viene eseguito in base ai dati visibili all'utente.
 

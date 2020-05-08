@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609705"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate e Power BI
@@ -47,7 +47,7 @@ In questa attività viene usato un modello per creare un semplice flusso che vie
     ![Risultati della ricerca](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>Compilare il flusso
+### <a name="build-the-flow"></a>Creare il flusso
 Questo modello prevede un trigger (avviso per i dati di Power BI per le nuove medaglie olimpiche all'Irlanda) e un'azione (inviare un messaggio di posta elettronica). Quando si seleziona un campo, Power Automate visualizza il contenuto dinamico che è possibile includere.  In questo esempio il valore e l'URL del riquadro sono inseriti nel corpo del messaggio.
 
 ![Modello di flusso](media/service-flow-integration/power-bi-template1.png)

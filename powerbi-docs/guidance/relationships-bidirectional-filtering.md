@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263692"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Linee guida per la relazione bidirezionale
@@ -139,5 +139,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Linee guida per relazioni uno-a-uno](relationships-one-to-one.md)
 - [Linee guida per le relazioni molti-a-molti](relationships-many-to-many.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

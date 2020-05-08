@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79201540"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Applicare la funzionalità di data/ora automatica in Power BI Desktop
@@ -28,7 +28,7 @@ Quando l'opzione è abilitata, Power BI Desktop crea una tabella di data/ora aut
 - Il tipo di dati della colonna è data o data/ora
 - La colonna non è il lato "molti" di una relazione del modello
 
-## <a name="how-it-works"></a>Come funziona
+## <a name="how-it-works"></a>Funzionamento
 
 Ogni tabella di data/ora automatica è di fatto una [tabella calcolata](desktop-calculated-tables.md) che genera righe di dati tramite la funzione [CALENDAR](/dax/calendar-function-dax) di DAX. Ogni tabella include anche sei colonne calcolate: **Giorno**, **NumMese**, **Mese**, **NumTrimestre**, **Trimestre** e **Anno**.
 
@@ -100,5 +100,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Linee guida per Data/ora automatica in Power BI Desktop](guidance/auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](desktop-date-tables.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

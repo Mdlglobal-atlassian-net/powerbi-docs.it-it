@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802027"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
@@ -28,18 +28,18 @@ L'app Power BI per dispositivi mobili supporta gli scenari di configurazione seg
 
 L'app Power BI per iOS e Android consente agli amministratori di eseguire il push in modalità remota della configurazione del server di report nei dispositivi registrati.
 
-| Key | Tipo | Descrizione |
+| Chiave | Type | Description |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ServerURL | Stringa | URL del server di report.<br><br>Deve iniziare con http/https.|
-| com.microsoft.powerbi.mobile.ServerUsername | Stringa | [facoltativo]<br><br>Nome utente da usare per connettere il server.<br><br>Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.|
-| com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
+| com.microsoft.powerbi.mobile.ServerURL | String | URL del server di report.<br><br>Deve iniziare con http/https.|
+| com.microsoft.powerbi.mobile.ServerUsername | String | [facoltativo]<br><br>Nome utente da usare per connettere il server.<br><br>Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.|
+| com.microsoft.powerbi.mobile.ServerDisplayName | String | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori inviati lasciando le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
 ## <a name="data-protection-settings-ios-and-android"></a>Impostazioni di protezione dei dati (iOS e Android)
 
 L'app Power BI per dispositivi mobili per iOS e Android offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. Per iOS è possibile imporre agli utenti di specificare Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI per dispositivi mobili. Per Android è possibile imporre agli utenti l'uso dell'autenticazione biometrica (ID impronta digitale).
 
-| Key | Tipo | Descrizione |
+| Chiave | Type | Description |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | Il valore predefinito è False. <br><br>Per consentire agli utenti di accedere all'app nel loro dispositivo, possono essere richiesti dati biometrici come TouchID o FaceID (iOS) o ID impronta digitale (Android). Quando richiesto, oltre all'autenticazione vengono usati dati biometrici.<br><br>Se si usano criteri di protezione delle app, è consigliabile disabilitare questa impostazione per impedire le richieste di doppio accesso. |
 
@@ -53,12 +53,12 @@ L'app Power BI per iOS e Android offre agli amministratori la possibilità di co
 >[!NOTE]
 >Non tutte le interazioni sono attualmente supportate in tutti i dispositivi. Vedere [Configurare le impostazioni di interazione con i report](mobile-app-interaction-settings.md) per un grafico che mostra la disponibilità attuale tra i dispositivi.
 
-| Key | Tipo | Valori | Descrizione |
+| Chiave | Type | Valori | Description |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Stringa |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Consente di specificare se il tocco su un oggetto visivo consentirà anche di selezionare un punto dati. |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | String |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Consente di specificare se il tocco su un oggetto visivo consentirà anche di selezionare un punto dati. |
 | com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | Consente di specificare se un tocco su un punto dati sostituirà la selezione corrente o verrà aggiunto alla stessa. |
-| com.microsoft.powerbi.mobile.RefreshAction | Stringa |  <nobr>pull-to-refresh</nobr><br>. | Consente di specificare se l'utente avrà a disposizione un pulsante per aggiornare il report o se dovrà trascinare verso il basso. |
-| com.microsoft.powerbi.mobile.FooterAppearance | Stringa |  docked<br>dinamico | Consente di specificare se il piè di pagina del report sarà ancorato alla parte inferiore del report o nascosto automaticamente. |
+| com.microsoft.powerbi.mobile.RefreshAction | String |  <nobr>pull-to-refresh</nobr><br>. | Consente di specificare se l'utente avrà a disposizione un pulsante per aggiornare il report o se dovrà trascinare verso il basso. |
+| com.microsoft.powerbi.mobile.FooterAppearance | String |  docked<br>dinamico | Consente di specificare se il piè di pagina del report sarà ancorato alla parte inferiore del report o nascosto automaticamente. |
 
 ## <a name="deploying-app-configuration-settings"></a>Distribuzione delle impostazioni di configurazione dell'app
 

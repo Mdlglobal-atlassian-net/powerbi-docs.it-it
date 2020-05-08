@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77154144"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Linee guida per Data/ora automatica in Power BI Desktop
@@ -36,7 +36,7 @@ L'elenco puntato seguente descrive le considerazioni e le possibili limitazioni 
 - **Dimensioni del modello:** Ogni colonna data che genera una tabella data/ora automatica nascosta produce un incremento delle dimensioni del modello e prolunga il tempo necessario per l'aggiornamento dei dati.
 - **Altri strumenti di reporting:** non è possibile usare le tabelle di data/ora automatiche quando si esegue [Analizza in Excel](../service-analyze-in-excel.md) o ci si connette al modello tramite strumenti di progettazione dei report non Power BI.
 
-## <a name="recommendations"></a>Raccomandazioni
+## <a name="recommendations"></a>Consigli
 
 È consigliabile mantenere attivata l'opzione _Data/ora automatica_ solo quando si lavora con periodi di tempo del calendario e si hanno requisiti di modellazione semplici in termini di tempo. L'uso di questa opzione può risultare pratico anche quando si creano modelli ad hoc o si esegue l'esplorazione dei dati o la profilatura.
 
@@ -50,5 +50,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Data/ora automatica in Power BI Desktop](../desktop-auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](../desktop-date-tables.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

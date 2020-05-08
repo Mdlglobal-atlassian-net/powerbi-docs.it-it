@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920988"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creare i parametri per i report impaginati nel servizio Power BI
@@ -60,7 +60,7 @@ La figura seguente illustra la visualizzazione di progettazione in Generatore Re
   
     -   Per nascondere il parametro e impedire che venga modificato sul server di report dopo la pubblicazione del report, selezionare **Interno**. Il parametro del report, quindi, potrà essere visualizzato solo nella definizione del report. Per questa opzione, è necessario impostare un valore predefinito o consentire al parametro di accettare un valore Null.  
   
-9. Seleziona **OK**. 
+9. Scegliere **OK**. 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 

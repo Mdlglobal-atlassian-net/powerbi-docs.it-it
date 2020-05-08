@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921149"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Esempi di espressioni nel Generatore report di Power BI
@@ -37,7 +37,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
 ## <a name="functions"></a>Funzioni  
  Molte espressioni incluse in un report contengono funzioni. È possibile formattare i dati, applicare la logica e accedere ai metadati del report usando le funzioni. È possibile scrivere espressioni che usano funzioni dalla libreria di runtime di Microsoft Visual Basic e dagli spazi dei nomi `xref:System.Convert` e `xref:System.Math`. È possibile aggiungere i riferimenti alle funzioni nel codice personalizzato. È anche possibile usare le classi di Microsoft .NET Framework, tra cui `xref:System.Text.RegularExpressions`.  
   
-##  <a name="VisualBasicFunctions"></a> Funzioni di Visual Basic  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Funzioni di Visual Basic  
  È possibile usare le funzioni di Visual Basic per manipolare i dati visualizzati nelle caselle di testo o usati per parametri, proprietà o altre aree del report. Questa sezione include esempi che illustrano alcune funzioni. Per altre informazioni, vedere [Membri della libreria di runtime di Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) su MSDN.  
   
  .NET Framework offre numerose opzioni di formato personalizzato, ad esempio per formati di data specifici. Per altre informazioni, vedere [Formattazione di tipi](/dotnet/standard/base-types/formatting-types).  
@@ -56,7 +56,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Funzioni di data  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Funzioni di data  
   
 -   La funzione **Today** visualizza la data corrente. Questa espressione può essere usata in una casella di testo per visualizzare la data nel report o in un parametro per filtrare i dati in base alla data corrente.  
   
@@ -161,7 +161,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
 |Un anno fa|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |Due anni fa|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Funzioni di stringa  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Funzioni di stringa  
   
 -   Combinare più campi usando operatori di concatenazione e costanti di Visual Basic. L'espressione seguente restituisce due campi, ognuno in una riga separata nella stessa casella di testo:  
   
@@ -195,7 +195,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     = Join(Parameters!MySelection.Value)  
     ```  
   
-     L'esempio seguente esegue la stessa operazione dell'esempio precedente e visualizza una stringa di testo prima dell'elenco di valori selezionati.  
+     Nell'esempio riportato di seguito viene eseguita la stessa operazione dell'esempio precedente e viene visualizzata una stringa di testo prima dell'elenco dei valori selezionati.  
   
     ```  
     ="Report for " & JOIN(Parameters!MySelection.Value, " & ")  
@@ -227,7 +227,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Funzioni di conversione  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Funzioni di conversione  
  È possibile usare le funzioni di Visual Basic per convertire un campo di un tipo di dati in un tipo di dati diverso. Le funzioni di conversione possono essere usate per convertire il tipo di dati predefinito di un campo nel tipo di dati necessario per i calcoli oppure per combinare testo.  
   
 -   L'espressione seguente converte la costante 500 nel tipo Decimal per poterla confrontare con un tipo di dati money di Transact-SQL nel campo del valore di un'espressione di filtro.  
@@ -242,7 +242,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Funzioni di decisione  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Funzioni di decisione  
   
 -   La funzione **Iif** restituisce uno dei due valori a seconda che l'espressione sia true o meno. L'espressione seguente usa la funzione **Iif** per restituire un valore booleano **True** se il valore di `LineTotal` supera 100. In caso contrario, restituisce **False**:  
   
@@ -297,10 +297,10 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
   
     ```  
   
-##  <a name="ReportFunctions"></a> Funzioni di report  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Funzioni di report  
  In un'espressione è possibile aggiungere un riferimento a funzioni di report aggiuntive che modificano i dati in un report. Questa sezione include esempi di due di queste funzioni. 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   La funzione **Sum** somma i valori in un gruppo o un'area dati. Questa funzione può essere utile nell'intestazione o nel piè di pagina di un gruppo. L'espressione seguente visualizza la somma dei dati nel gruppo o nell'area dati Order (Ordine):  
   
@@ -314,7 +314,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   La funzione **RowNumber**, usata in una casella di testo all'interno di un'area dati, visualizza il numero di riga per ogni istanza della casella di testo in cui è presente l'espressione. Questa funzione può essere utile per numerare le righe di una tabella. Può essere utile anche per attività più complesse, ad esempio l'inserimento di interruzioni di pagina in base al numero di righe. Per altre informazioni, vedere [Interruzioni di pagina](#PageBreaks) in questo argomento.  
   
@@ -324,10 +324,10 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Aspetto dei dati del report  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Aspetto dei dati del report  
  È possibile usare le espressioni per modificare l'aspetto dei dati in un report. Ad esempio, è possibile visualizzare i valori di due campi in una singola casella di testo, visualizzare informazioni sul report o controllare il modo in cui vengono inserite le interruzioni di pagina nel report.  
   
-###  <a name="PageHeadersandFooters"></a> Intestazioni e piè di pagina  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Intestazioni e piè di pagina  
  Quando si progetta un report, è possibile che si voglia visualizzare il nome del report e il numero di pagina nel piè di pagina del report. A tale scopo, è possibile usare le espressioni seguenti:  
   
 -   L'espressione seguente restituisce il nome del report e l'ora di esecuzione. Può essere inserita in una casella di testo nel piè di pagina del report o nel corpo del report. L'ora è formattata con la stringa di formattazione per la data breve di .NET Framework:  
@@ -367,7 +367,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
 > [!NOTE]  
 >  È possibile fare riferimento a un solo elemento del report per ogni espressione in un'intestazione o in un piè di pagina. È anche possibile fare riferimento al nome della casella di testo, ma non all'espressione dati effettiva all'interno della casella di testo, nelle espressioni dell'intestazione e del piè di pagina.  
   
-###  <a name="PageBreaks"></a> Interruzioni di pagina  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Interruzioni di pagina  
  In alcuni report è possibile che si voglia inserire un'interruzione di pagina alla fine di un numero specificato di righe in alternativa o in aggiunta alle interruzioni inserire nei gruppi o negli elementi del report. A tale scopo, creare un gruppo che contiene i gruppi o i record di dettaglio desiderati, aggiungere un'interruzione di pagina al gruppo e quindi aggiungere un'espressione di raggruppamento per raggruppare in base a un numero specificato di righe.  
   
 -   L'espressione seguente, inserita nell'espressione di raggruppamento, assegna un numero a ogni set di 25 righe. Quando viene definita un'interruzione di pagina per il gruppo, questa espressione inserisce un'interruzione di pagina ogni 25 righe.  
@@ -382,10 +382,10 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Proprietà  
+##  <a name="properties"></a><a name="Properties"></a> Proprietà  
  Le espressioni non vengono usate soltanto per visualizzare i dati nelle caselle di testo. Possono essere usate anche per modificare il modo in cui le proprietà vengono applicate agli elementi del report. È possibile modificare le informazioni sullo stile per un elemento del report o modificarne la visibilità.  
   
-###  <a name="Formatting"></a> Formattazione  
+###  <a name="formatting"></a><a name="Formatting"></a> Formattazione  
   
 -   L'espressione seguente, usata nella proprietà Color di una casella di testo, modifica il colore del testo in base al valore del campo `Profit`:  
   
@@ -415,7 +415,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
 ### <a name="chart-colors"></a>Colori del grafico  
  Per specificare i colori per un grafico forma, è possibile usare un codice personalizzato per controllare l'ordine in cui i colori vengono mappati ai valori dei punti dati. Ciò consente di usare colori coerenti per più grafici con gli stessi gruppi di categorie. 
   
-###  <a name="Visibility"></a> Visibilità  
+###  <a name="visibility"></a><a name="Visibility"></a> Visibilità  
  È possibile visualizzare e nascondere gli elementi in un report usando le proprietà di visibilità per l'elemento del report. In un'area dati, ad esempio una tabella, è possibile nascondere inizialmente le righe di dettaglio in base al valore in un'espressione.  
   
 -   L'espressione seguente, usata per la visibilità iniziale delle righe di dettaglio in un gruppo, visualizza le righe di dettaglio per tutte le vendite che superano il 90% nel campo `PctQuota`:  
@@ -436,7 +436,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URL  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URL  
  È possibile personalizzare gli URL usando i dati del report e controllare in modo condizionale l'aggiunta degli URL come azione per una casella di testo.  
   
 -   L'espressione seguente, usata come azione in una casella di testo, genera un URL personalizzato che specifica il campo del set di dati `EmployeeID` come parametro URL.  
@@ -451,10 +451,10 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Dati del report  
+##  <a name="report-data"></a><a name="ReportData"></a> Dati del report  
  Le espressioni possono essere usate per modificare i dati usati nel report. È possibile fare riferimento a parametri e ad altre informazioni del report. È anche possibile modificare la query usata per recuperare i dati per il report.  
   
-###  <a name="Parameters"></a> Parametri  
+###  <a name="parameters"></a><a name="Parameters"></a> Parametri  
  È possibile usare le espressioni in un parametro per variare il valore predefinito per il parametro. Ad esempio, è possibile usare un parametro per filtrare i dati di un utente specifico in base all'ID utente usato per eseguire il report.  
   
 -   L'espressione seguente, usata come valore predefinito per un parametro, recupera l'ID utente della persona che esegue il report:  
@@ -475,7 +475,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Codice personalizzato  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Codice personalizzato  
  È possibile usare codice personalizzato incorporato in un report. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Uso di variabili di gruppo per l'aggregazione personalizzata  

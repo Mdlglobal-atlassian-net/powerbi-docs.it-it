@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401187"
 ---
-# <a name="get-power-bi-desktop"></a>Scarica Power BI Desktop
+# <a name="get-power-bi-desktop"></a>Ottenere Power BI Desktop
 Power BI Desktop consente di creare query, modelli e report avanzati per la visualizzazione dei dati. Con Power BI Desktop, è possibile creare modelli di dati e report, nonché condividere il proprio lavoro pubblicandolo nel servizio Power BI. Il download di Power BI Desktop è gratuito.
 
 È possibile ottenere Power BI Desktop in due modi, ognuno dei quali viene descritto nelle sezioni seguenti:
@@ -97,11 +97,11 @@ Di seguito sono elencati i requisiti minimi per l'esecuzione di Power BI Desktop
 * .NET 4.5
 * Internet Explorer 10 o versioni successive
 * Memoria (RAM): almeno 1 GB disponibile, 1,5 GB o più consigliati.
-* Display: almeno 1440x900 o 1600x900 (16:9) consigliato. Le risoluzioni più basse come 1024x768 o 1280x800 non sono consigliate perché alcuni controlli (ad esempio la chiusura della schermata iniziale) vengono visualizzati con risoluzioni più alte.
+* Visualizzazione: almeno 1440x900 o 1600x900 (16:9) consigliato. Le risoluzioni più basse come 1024x768 o 1280x800 non sono consigliate perché alcuni controlli (ad esempio la chiusura della schermata iniziale) vengono visualizzati con risoluzioni più alte.
 * Impostazioni di visualizzazione di Windows: se si configurano le impostazioni di visualizzazione per la modifica delle dimensioni di testo, app e altri elementi fino a un valore superiore al 100%, potrebbe non essere possibile visualizzare alcune finestre di dialogo con cui si deve interagire per continuare a usare Power BI Desktop. Se si verifica questo problema, controllare le impostazioni dello schermo passando a **Impostazioni** > **Sistema** > **Schermo** in Windows, quindi usare il dispositivo di scorrimento per ripristinare il valore 100% per le impostazioni di visualizzazione.
 * CPU: 1 gigahertz (GHz) o più veloce. È consigliato un processore x86 a 32 o 64 bit.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Microsoft intende offrire un'esperienza straordinaria con Power BI Desktop. Poiché in alcuni casi potrebbe verificarsi un problema relativo a Power BI Desktop, questa sezione contiene soluzioni o suggerimenti per risolvere gli eventuali problemi riscontrati. 
 
@@ -152,7 +152,7 @@ Se si distribuisce Power BI Desktop agli utenti con uno strumento che richiede u
     
     ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
 
-    ad esempio:
+    Ad esempio:
 
     ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
 
@@ -192,7 +192,7 @@ Dopo aver installato Power BI Desktop, vedere i contenuti seguenti per imparare 
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)
-* [Origini dati in Power BI Desktop](desktop-data-sources.md)
+* [Origini di dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)
 * [Data shaping e combinazione di dati in Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   

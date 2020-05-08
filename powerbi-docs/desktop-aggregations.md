@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427658"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Usare le aggregazioni in Power BI Desktop
@@ -46,11 +46,11 @@ Dopo aver creato la nuova tabella con i campi desiderati, nel riquadro **Campi**
 La finestra di dialogo **Gestisci aggregazioni** mostra una riga per ogni colonna della tabella, in cui è possibile specificare il comportamento di aggregazione. Nell'esempio seguente le query sulla tabella dei dettagli **Sales** vengono reindirizzate internamente alla tabella delle aggregazioni **Sales Agg**. 
 
 L'elenco a discesa **Riepilogo** della finestra di dialogo **Gestisci aggregazioni** include i valori seguenti:
-- Conteggio
+- Count
 - GroupBy
 - Max
 - Min
-- Somma
+- Sum
 - Count table rows
 
 ![finestra di dialogo Gestisci aggregazioni](media/desktop-aggregations/aggregations_07.jpg)
@@ -117,10 +117,10 @@ Creare invece la tabella delle aggregazioni **Sales Agg**. Nella tabella **Sales
 Se le tabelle delle dimensioni seguenti sono le più usate per le query con valore di business elevato, possono filtrare **Sales Agg**, usando relazioni *uno-a-molti* o *molti-a-uno*.
 
 - Geografia
-- Cliente
+- Customer
 - Data
 - Product Subcategory
-- Categoria prodotto
+- Product Category
 
 L'immagine seguente mostra questo modello.
 
@@ -153,7 +153,7 @@ Le relazioni forti includono le combinazioni seguenti di modalità di archiviazi
 | Tabella sui lati *molti* | Tabella sul lato *uno* |
 | ------------- |----------------------| 
 | Doppia          | Doppia                 | 
-| Importa        | Importa o Doppia       | 
+| Importazione        | Importa o Doppia       | 
 | DirectQuery   | DirectQuery o Doppia  | 
 
 Una relazione *tra origini diverse* è considerata forte esclusivamente se entrambe le tabelle sono impostate su Import. Le relazioni molti-a-molti sono sempre considerate deboli.
