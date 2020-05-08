@@ -62,7 +62,7 @@
             - name: Domande e risposte in linguaggio naturale
               items:
                 - name: Introduzione a Domande e risposte
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Introduzione agli strumenti per Domande e risposte
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Strumenti avanzati per Domande e risposte
@@ -83,7 +83,7 @@
               href: ../paginated-reports/report-builder-data.md
             - name: Origini dati supportate
               href: ../paginated-reports/paginated-reports-data-sources.md
-            - name: Suggerimenti per la progettazione
+            - name: Suggerimenti relativi alla progettazione
               href: ../paginated-reports/report-builder-design-tips.md
             - name: 'Tabelle, matrici, elenchi'
               href: ../paginated-reports/report-builder-tables-matrices-lists.md
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Domande frequenti sui report impaginati
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Pipeline di distribuzione
+          items:
+            - name: Introduzione alle pipeline di distribuzione
+              href: deployment-pipelines-overview.md
+            - name: Informazioni sul processo di distribuzione
+              href: deployment-pipelines-process.md
+            - name: Procedure consigliate
+              href: deployment-pipelines-best-practices.md
     - name: Guide pratiche
       items:
         - name: Report di Power BI
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Creare pulsanti di drill-through
               href: ../desktop-drill-through-buttons.md
+            - name: Usare la funzionalità di drill-through
+              href: ../desktop-drillthrough.md
+            - name: Usare la funzionalità di drill-through tra report
+              href: ../desktop-cross-report-drill-through.md
             - name: Creare segnalibri per salvare e condividere le informazioni dettagliate
               href: ../desktop-bookmarks.md
             - name: Usare i temi dei report
               href: ../desktop-report-themes.md
             - name: Usare i filtri nei report
               href: ../power-bi-report-filter.md
-            - name: Usare la funzionalità di drill-through
-              href: ../desktop-drillthrough.md
-            - name: Usare la funzionalità di drill-through tra report
-              href: ../desktop-cross-report-drill-through.md
+            - name: Aggiungere un filtro a un report
+              href: ../power-bi-report-add-filter.md
             - name: Applicare il raggruppamento e la creazione di contenitori
               href: ../desktop-grouping-and-binning.md
-            - name: Creare oggetti visivi di Power BI con R
-              href: ../desktop-r-visuals.md
-            - name: Scaricare e usare oggetti visivi di Power BI basati su R
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Applicare le linee guida della griglia e del blocco alla griglia
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Applicare le impostazioni di visualizzazione della pagina nei report
@@ -147,12 +153,14 @@
               href: ../desktop-add-custom-column.md
             - name: Usare le etichette di gerarchia inline
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Filtro dei dati
+            - name: Filtri dei dati
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Filtri dei dati per l'intervallo numerico
               href: ../desktop-slicer-numeric-range.md
             - name: Filtri dei dati e filtri per la data relativa
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Filtri dei dati e filtri per l'ora relativa
+              href: slicer-filter-relative-time.md
             - name: Creare un filtro dei dati ridimensionabile
               href: ../power-bi-slicer-filter-responsive.md
             - name: Aggiungere più campi a un filtro dei dati
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Creare un report da un set di dati
               href: ../service-report-create-new.md
-            - name: Aggiungere un filtro a un report
-              href: ../power-bi-report-add-filter.md
             - name: Salvare un report
               href: ../service-report-save.md
             - name: Interagire con un report nella visualizzazione di modifica
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Creare un codice a matrice per un report
               href: ../service-create-qr-code-for-report.md
+            - name: Consentire agli utenti finali di personalizzare gli oggetti visivi (anteprima)
+              href: power-bi-personalize-visuals.md
             - name: Esportare un report in Power BI Desktop (Preview)
               href: ../service-export-to-pbix.md
             - name: Pubblicare set di dati e report
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: Oggetti visivi R
               href: ../visuals/service-r-visuals.md
+            - name: Creare oggetti visivi di Power BI con R
+              href: ../desktop-r-visuals.md
+            - name: Scaricare e usare oggetti visivi di Power BI basati su R
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Grafici di misuratore radiale
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Grafici a nastri
@@ -325,7 +337,7 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Creare un report con un set di dati condiviso di Power BI
               href: ../paginated-reports/report-builder-shared-datasets.md
-            - name: Creare un parametro
+            - name: Creare parametri
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Sottoreport
               href: ../paginated-reports/subreports.md
@@ -359,7 +371,7 @@
               href: ../service-set-data-alerts.md
             - name: 'Aggiungere un''immagine, una casella di testo, un video o un codice a un dashboard'
               href: ../service-dashboard-add-widget.md
-            - name: Modifica di un riquadro
+            - name: Modificare un riquadro
               href: ../service-dashboard-edit-tile.md
             - name: Suggerimenti per la progettazione di un dashboard ottimale
               href: ../service-dashboards-design-tips.md
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Temi del dashboard
               href: ../service-dashboard-themes.md
+        - name: Pipeline di distribuzione
+          items:
+            - name: Inizia
+              href: deployment-pipelines-get-started.md
+            - name: Risoluzione dei problemi
+              href: deployment-pipelines-troubleshooting.md
         - name: Altre attività
           items:
             - name: Rinominare il contenuto

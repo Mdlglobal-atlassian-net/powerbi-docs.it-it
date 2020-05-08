@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874958"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867784"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introduzione a Domande e risposte di Power BI
 
-A volte il modo più rapido per ottenere una risposta dai dati consiste nell'eseguire una ricerca nei dati usando il linguaggio naturale. La funzionalità Domande e risposte di Power BI consente di esplorare i dati con le proprie parole usando il linguaggio naturale. Domande e risposte è una funzionalità interattiva ed è anche divertente. Una domanda porta spesso a formulare altre domande man mano che le visualizzazioni rivelano percorsi interessanti da seguire. Porre la domanda è solo l'inizio. È possibile spostarsi tra i dati perfezionando o espandendo una domanda, scoprendo nuove informazioni e usando le funzionalità di zoom avanti o indietro per concentrarsi sui dettagli oppure ottenere una visualizzazione più ampia. L'esperienza è interattiva e veloce ed è basata su una tecnologia di archiviazione in memoria. 
+A volte il modo più rapido per ottenere una risposta dai dati consiste nell'eseguire una ricerca nei dati usando il linguaggio naturale. La funzionalità Domande e risposte di Power BI consente di esplorare i dati con le proprie parole usando il linguaggio naturale. Domande e risposte è una funzionalità interattiva ed è anche divertente. Una domanda porta spesso a formulare altre domande man mano che le visualizzazioni rivelano percorsi interessanti da perseguire. Porre la domanda è solo l'inizio. È possibile spostarsi tra i dati perfezionando o espandendo una domanda, scoprendo nuove informazioni e usando le funzionalità di zoom avanti o indietro per concentrarsi sui dettagli oppure ottenere una visualizzazione più ampia. L'esperienza è interattiva e veloce ed è basata su una tecnologia di archiviazione in memoria. 
 
 Domande e risposte di Power BI è una funzionalità gratuita e disponibile per tutti gli utenti. In Power BI Desktop, i designer di report possono usare Domande e risposte per esplorare i dati e creare visualizzazioni. Nel servizio Power BI, tutti gli utenti possono esplorare i propri dati con Domande e risposte. Se si dispone dell'autorizzazione per modificare un dashboard o un report, è possibile anche aggiungere i risultati di Domande e risposte.
 
@@ -67,7 +67,7 @@ Quando si digita la domanda, Domande e risposte tenta di interpretare e visualiz
 - Grafico a linee
 - Grafico a barre
 - Matrice
-- Tabella
+- Table
 - Scheda
 - Area
 - Grafico a torta
