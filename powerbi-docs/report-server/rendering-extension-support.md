@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
 ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76819515"
 ---
 # <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Conformità dell'estensione per il rendering PDF alle specifiche ISO 14289-1 - Server di report di Power BI e SSRS
@@ -24,7 +24,7 @@ Questo documento descrive la conformità dell'estensione per il rendering PDF de
 > [!NOTE]
 > Per salvare o stampare questo white paper, selezionare **Stampa** nel browser, quindi selezionare **Salva come PDF**.
 
-## <a name="1--scope"></a>1.  Ambito
+## <a name="1--scope"></a>1.  Scope
 
 Non applicabile
 
@@ -102,7 +102,7 @@ Non applicabile
 
 ## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
+© 2017 Microsoft Corporation. Tutti i diritti sono riservati. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
 Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 

@@ -11,10 +11,10 @@ ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576829"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelle nei report e nei dashboard di Power BI
@@ -47,7 +47,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 
 ## <a name="create-a-table"></a>Creare una tabella
@@ -129,7 +129,7 @@ Con la formattazione condizionale per le tabelle, è possibile specificare icone
 
     ![segno di spunta per Mostra solo barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. Seleziona **OK**.
+1. Selezionare **OK**.
 
     Le barre dei dati sostituiscono i valori numerici nella tabella, rendendo più semplice l'analisi.
 

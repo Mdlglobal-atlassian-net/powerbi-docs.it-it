@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80979823"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866415"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creare e usare oggetti visivi R in Power BI
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Visualizzazione di oggetti visivi R nel servizio Power BI

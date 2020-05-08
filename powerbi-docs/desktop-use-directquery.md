@@ -10,10 +10,10 @@ ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427232"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usare DirectQuery in Power BI Desktop
@@ -29,7 +29,7 @@ Quando si usa **Recupera dati** per connettersi a un'origine dati supportata da 
 
 Di seguito sono spiegate le differenze tra le modalità **Importa** e **DirectQuery**.
 
-- **Importa**: le tabelle e le colonne selezionate vengono importate in Power BI Desktop. Quando si crea o si interagisce con una visualizzazione, Power BI Desktop usa i dati importati. Per visualizzare eventuali modifiche apportate ai dati sottostanti dopo l'importazione iniziale o l'aggiornamento più recente, è necessario aggiornare i dati, in modo da importare nuovamente il set di dati completo.
+- **Import**: le tabelle e le colonne selezionate vengono importate in Power BI Desktop. Quando si crea o si interagisce con una visualizzazione, Power BI Desktop usa i dati importati. Per visualizzare eventuali modifiche apportate ai dati sottostanti dopo l'importazione iniziale o l'aggiornamento più recente, è necessario aggiornare i dati, in modo da importare nuovamente il set di dati completo.
 
 - **DirectQuery**: nessun dato viene importato o copiato in Power BI Desktop. Per le origini relazionali, le tabelle e le colonne selezionate vengono visualizzate nell'elenco **Campi**. Per origini multidimensionali, ad esempio SAP Business Warehouse, le dimensioni e misure del cubo selezionato vengono visualizzate nell'elenco **Campi**. Quando si crea o si interagisce con una visualizzazione, Power BI Desktop esegue una query sull'origine dati sottostante, in modo che i dati visualizzati siano sempre correnti.
 
@@ -37,7 +37,7 @@ Quando si usa DirectQuery, sono disponibili molte modellazioni e trasformazioni 
 
 L'articolo [Power BI e DirectQuery](desktop-directquery-about.md) descrive DirectQuery nel dettaglio. Per altre informazioni su vantaggi, limitazioni e considerazioni importanti relative all'utilizzo di DirectQuery, vedere le sezioni seguenti.
 
-## <a name="benefits-of-using-directquery"></a>Vantaggi dell'uso di DirectQuery
+## <a name="benefits-of-using-directquery"></a>Vantaggi di DirectQuery
 L'uso di DirectQuery offre alcuni vantaggi:
 
 - DirectQuery consente di creare visualizzazioni su set di dati molto grandi, in cui in caso contrario non sarebbe fattibile importare prima tutti i dati con la pre-aggregazione.
@@ -100,5 +100,5 @@ Per altre informazioni su DirectQuery, vedere le risorse seguenti:
 - [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 - [Data sources supported by DirectQuery](power-bi-data-sources.md) (Origini dati supportate da DirectQuery)
 - [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
-- [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+- [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)
 - [Informazioni sul gateway dati locale](service-gateway-onprem.md)
