@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496310"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
@@ -24,7 +24,7 @@ ms.locfileid: "77496310"
 
 Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di disegno, che usa le visualizzazioni per raccontare una storia. Essendo limitato a una pagina, un dashboard ben progettato contiene solo gli elementi più importanti per tale storia.
 
-![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
 Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e vengono *aggiunte* al dashboard dai *progettisti* dei report. Nella maggio parte dei casi, selezionando un riquadro viene aperta la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
 
@@ -53,7 +53,7 @@ I report sono spesso confusi con i dashboard poiché sono composti da troppe are
 | Filtro |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |Permette di creare avvisi per e-mail quando vengono soddisfatte determinate condizioni |No |
 | In primo piano |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |N. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>Sviluppatori di dashboard e utenti di dashboard

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263807"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Linee guida per relazioni uno-a-uno
@@ -90,7 +90,7 @@ Si vedrà ora cosa accade quando i campi di entrambe le tabelle vengono aggiunti
 
 Si noti che il valore **Category** per lo SKU CL-02 di prodotto è vuoto. Questo è dovuto al fatto che per questo prodotto non è presente alcuna riga nella tabella **Product Category**.
 
-### <a name="recommendations"></a>Raccomandazioni
+### <a name="recommendations"></a>Consigli
 
 Se possibile, è consigliabile evitare di creare relazioni di modelli uno-a-uno quando i dati delle righe si estendono su più tabelle del modello. Questo è dovuto al fatto che questo tipo di progettazione può:
 
@@ -150,5 +150,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c8806adce3fc729208effb3bd22c57c7274915d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878930"
 ---
 # <a name="creating-reports-in-power-bi-using-accessibility-tools"></a>Creazione di report in Power BI con gli strumenti di accessibilità
@@ -33,7 +33,7 @@ Quando si naviga in Power BI Desktop, è possibile spostare lo stato attivo sull
 3. Riquadri (ognuno separatamente, da sinistra a destra per quelli aperti)
 4. Strumento di navigazione viste
 5. Piè di pagina
-6. Accedi
+6. Accesso
 7. Avviso giallo/errore/barra degli aggiornamenti
 
 Nella maggior parte dei casi, in Power BI è una procedura comune usare **INVIO** per selezionare o accedere a un'area e quindi usare **ESC** per uscirne.

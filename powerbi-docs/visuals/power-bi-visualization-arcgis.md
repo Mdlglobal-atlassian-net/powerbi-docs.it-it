@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77652543"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Creare mappe di ArcGIS Maps in Power BI Desktop
@@ -63,7 +63,7 @@ Questa esercitazione usa Power BI Desktop e il [file Retail Analysis Sample PBIX
 
 1. Aprire **Retail Analysis Sample** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>Creare una visualizzazione mappa di ArcGIS Maps for Power BI
@@ -144,7 +144,7 @@ Vengono forniti quattro temi di mappa. Power BI seleziona automaticamente i temi
 <td>Traccia punti dati o confini riempiti sulla mappa in base al campo aggiunto al bucket Posizione.</td>
 </tr>
 <tr>
-<td>Heat Map</td>
+<td>Mappa termica</td>
 <td>Traccia l'intensità dei dati sulla mappa. Le aree di maggiore attività o valore sono rappresentate da colori più forti e luminosi. </td>
 </tr>
 <tr>
@@ -248,7 +248,7 @@ Ogni strumento ha un ruolo specifico per la selezione dei dati:
 
 <br/>
 
-## <a name="getting-help"></a>Chiedere assistenza
+## <a name="getting-help"></a>Risorse della Guida
 **Esri** fornisce una [documentazione completa](https://go.microsoft.com/fwlink/?LinkID=828772) nel set di funzionalità di **Mappe ArcGIS per Power BI**.
 
 È possibile porre domande, ottenere informazioni aggiornate, segnalare problemi e trovare risposte nel [thread della community di Power BI correlato a **Mappe ArcGIS per Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
@@ -274,10 +274,10 @@ In PowerBI.com gli amministratori tenant possono disattivare ArcGIS Maps for Pow
 Power BI Desktop supporta l'uso di **Criteri di gruppo** per disabilitare ArcGIS Maps for Power BI in tutti i computer distribuiti in un'organizzazione.
 
 <table>
-<tr><th>Attributo</th><th>Valore</th>
+<tr><th>Attributo</th><th>valore</th>
 </tr>
 <tr>
-<td>chiave</td>
+<td>Key</td>
 <td>Software\Policies\Microsoft\Power BI Desktop&lt;/td&gt;
 </tr>
 <tr>

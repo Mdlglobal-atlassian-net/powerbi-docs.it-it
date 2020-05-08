@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859191"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicurezza a livello di riga (RLS) nel server di report di Power BI
@@ -105,7 +105,7 @@ Gli autori di report non hanno accesso alla visualizzazione dei dati del report 
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>È possibile usare la sicurezza a livello di riga per limitare le colonne o le misure accessibili agli utenti? 
 
-No. Se un utente può accedere a una riga specifica di dati, può visualizzare tutte le colonne di dati per tale riga. 
+N. Se un utente può accedere a una riga specifica di dati, può visualizzare tutte le colonne di dati per tale riga. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>La sicurezza a livello di riga consente di nascondere i dati dettagliati ma di concedere l'accesso al riepilogo dati negli oggetti visivi? 
 

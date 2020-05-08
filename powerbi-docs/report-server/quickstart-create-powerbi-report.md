@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
 ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975011"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
@@ -22,7 +22,7 @@ ms.locfileid: "76975011"
 
 Ecco quattro passaggi rapidi per iniziare.
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Passaggio 1: Installare Power BI Desktop ottimizzato per il server di report di Power BI
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Passaggio 1: Installare Power BI Desktop ottimizzato per il Server di report di Power BI
 
 Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pronti per creare report di Power BI per il server di report di Power BI. Si consiglia di installare la versione di Power BI Desktop ottimizzata per il server di report di Power BI: in tal modo, ci si assicura che il server e l'app siano sempre sincronizzati. È possibile avere entrambe le versioni di Power BI Desktop nello stesso computer.
 
@@ -63,7 +63,7 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
     ![Selezionare l'origine dati](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. Compilare i campi **Server** e, facoltativamente, **Database**. Assicurarsi che **Connessione dinamica** sia selezionato > **OK**.
    
-    ![Nome del server](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)
+    ![Nome server](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)
 4. Scegliere il server di report in cui si salveranno i report.
    
     ![Selezione del server di report](media/quickstart-create-powerbi-report/report-server-select-server.png)
@@ -101,8 +101,8 @@ Esistono tantissime ottime risorse per creare report in Power BI Desktop. Questi
 * [Introduzione a Power BI Desktop](../desktop-getting-started.md)
 * Apprendimento guidato: [Esplorare Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
-### <a name="power-bi-report-server"></a>Server di report Power BI
-* [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
+### <a name="power-bi-report-server"></a>Server di report di Power BI
+* [Installare Power BI Desktop ottimizzato per il Server di report di Power BI](install-powerbi-desktop.md)  
 * [Che cos'è Server di report di Power BI?](get-started.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

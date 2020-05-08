@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260854"
 ---
 # <a name="power-bi-videos"></a>Video di Power BI
-È disponibile un canale YouTube per Power BI! È possibile visitare il [canale](https://www.youtube.com/user/mspowerbi/videos) dove, per chi non ha esperienza con Power BI, è disponibile una [serie dedicata ad analisi e visualizzazione dei dati con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) che rappresenta un buon punto di partenza.
+È disponibile un canale YouTube per Power BI! È possibile visitare [il nostro canale](https://www.youtube.com/user/mspowerbi/videos). Se non si ha esperienza con Power BI, è consigliabile seguire la [playlist per analizzare e visualizzare i dati con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
 Ecco alcuni video dalla playlist utili per iniziare.
 

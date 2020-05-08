@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ed6832bd92ca2bea0d64bbaeb41569b6a8fb6ddc
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77026693"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Creare oggetti visivi e report con il connettore Gestione costi di Azure in Power BI Desktop
@@ -34,7 +34,7 @@ Per usare il connettore **Gestione costi di Azure** in Power BI Desktop, seguire
 2.  Selezionare **Azure** dall'elenco delle categorie di dati.
 3.  Selezionare **Gestione costi di Azure**.
 
-    ![Recupera dati](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
+    ![Recuperare i dati](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
 4. Nella finestra di dialogo visualizzata immettere l'**ID del profilo di fatturazione** per il **Contratto del cliente Microsoft** o il **numero di registrazione** per il **Contratto Enterprise**. 
 
@@ -79,7 +79,7 @@ Eseguita l'autenticazione, viene visualizzata una finestra di **navigazione** co
 | --- | --- |
 | **Balance summary** | Riepilogo del saldo per i contratti Enterprise. |
 | **Billing events** | Registro eventi delle nuove fatture, degli acquisti con carta di credito e così via. Solo per il Contratto del cliente Microsoft. |
-| **Budgets** | Dettagli sui budget per visualizzare i costi effettivi o l'utilizzo rispetto ai target di budget esistenti. |
+| **Budget** | Dettagli del budget per visualizzare i costi o l'utilizzo effettivi rispetto a destinazioni di budget esistenti. |
 | **Charges** | Riepilogo mensile dell'utilizzo di Azure, degli addebiti per Marketplace e di altri addebiti fatturati separatamente. Solo per il Contratto del cliente Microsoft. |
 | **Credit lots** | Dettagli sugli acquisti in lotto con credito Azure per il profilo di fatturazione specificato. Solo per il Contratto del cliente Microsoft. |
 | **Pricesheets** | Tariffe applicabili dal contatore per il profilo di fatturazione o la registrazione EA specificati. |

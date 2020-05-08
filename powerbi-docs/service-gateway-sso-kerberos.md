@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
 ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558633"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurare il Single Sign-On basato su Kerberos dal servizio Power BI alle origini dati locali
@@ -132,7 +132,7 @@ Ecco come configurare le impostazioni di delega:
 
    In questo esempio il nome SPN inizia con *MSSQLSvc*. Se sono stati aggiunti sia il nome di dominio completo sia il nome dell'entità servizio NetBIOS, verranno selezionati entrambi, ma potrebbe esserne visibile solo uno.
 
-9. Seleziona **OK**. 
+9. Selezionare **OK**. 
 
    A questo punto il nome SPN verrà visualizzato nell'elenco dei servizi a cui l'account del servizio gateway può presentare le credenziali delegate.
 
@@ -231,7 +231,7 @@ Se Azure AD Connect non è configurato, seguire questa procedura per mappare un 
     
         Individuare la proprietà `msDS-cloudExtensionAttribute1` e fare doppio clic su di essa. Impostare il valore sul nome utente completo (UPN) dell'utente usato per accedere al servizio Power BI.
     
-    1. Seleziona **OK**.
+    1. Selezionare **OK**.
     
         ![Finestra Editor attributo stringa](media/service-gateway-sso-kerberos/edit-attribute.png)
     
@@ -268,4 +268,4 @@ Per altre informazioni sul gateway dati locale e su DirectQuery, vedere le risor
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)
