@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
 ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525262"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Separare i report dai modelli in Power BI Desktop
@@ -70,5 +70,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Connettersi ai set di dati nel servizio Power BI da Power BI Desktop](../desktop-report-lifecycle-datasets.md)
 - [Visualizzare il contenuto correlato nel servizio Power BI](../consumer/end-user-related.md)
 - [Derivazione dei dati](../collaborate-share/service-data-lineage.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

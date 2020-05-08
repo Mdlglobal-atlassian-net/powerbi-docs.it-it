@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404871"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
@@ -30,7 +30,7 @@ Ecco i passaggi che verranno completati in questa esercitazione:
 > * Formattare la valuta.
 > * Caricare il report nel servizio Power BI.
 
-Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
  
 ## <a name="prerequisites"></a>Prerequisiti  
 
@@ -57,13 +57,13 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
   
 4.  Nella pagina **Scegliere un set di dati** selezionare **Creare un set di dati** > **Avanti**.  
 
-    ![Crea un set di dati](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
+    ![Creare un set di dati](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
 5.  Nella pagina **Scegliere una connessione a un'origine dati** selezionare **Nuova**. 
 
     ![Nuova origine dati](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
-     Viene visualizzata la finestra di dialogo **Proprietà origine dati**.  
+     Verrà visualizzata la finestra di dialogo **Proprietà origine dati** .  
   
 6.  È possibile assegnare il nome desiderato all'origine dati, usando caratteri e caratteri di sottolineatura. Per questa esercitazione, nella casella **Nome** digitare **MyAzureDataSource**.  
   
@@ -95,7 +95,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 
     ![Stringa di connessione origine dati](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
-1. Seleziona **OK**.
+1. Selezionare **OK**.
   
 9. Nella pagina **Scegliere una connessione a un'origine dati** viene visualizzata l'indicazione "(in questo report)" sotto la connessione dati appena creata. Selezionare tale origine dati > **Avanti**.  
 
@@ -106,8 +106,8 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 10. Nella pagina **Progetta query** espandere SalesLT, espandere Tabelle e selezionare queste tabelle:
 
     - Indirizzo
-    - Cliente
-    - Product
+    - Customer
+    - Prodotto
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
@@ -120,7 +120,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
  
      ![Risultati query](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. Selezionare **Next** (Avanti). 
+18. Selezionare **Avanti**. 
 
 19. Nella pagina **Scegliere un set di dati** scegliere il set di dati appena creato > **Avanti**.
 
@@ -144,7 +144,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 
 24. Nella pagina **Scegliere il layout** mantenere tutte le impostazioni predefinite, ma deselezionare **Espandi/comprimi gruppi**. In generale, la funzionalità Espandi/comprimi gruppi è molto utile, ma in questo caso si vuole che la tabella venga estesa su più pagine.
 
-1. Selezionare **Avanti** > **Fine**. La tabella viene visualizzata nell'area di progettazione.
+1. Selezionare **Next** > **Finish** (Avanti > Fine). La tabella viene visualizzata nell'area di progettazione.
  
 ## <a name="what-youve-created"></a>Risultati
 
@@ -166,7 +166,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 
     - CompanyName
     - Sales Order
-    - Product Name
+    - Nome prodotto
 
     Questa matrice non include gruppi di colonne.
 

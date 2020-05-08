@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114843"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
@@ -88,7 +88,7 @@ Una volta completati i prerequisiti, si è pronti per provare l'analista virtual
 Vedere la sezione dedicata al riconoscimento vocale della pagina sulle [novità di iOS](https://go.microsoft.com/fwlink/?linkid=845624) nelle Guide per gli sviluppatori iOS Apple.
 
 ## <a name="help-and-feedback"></a>Guida e commenti e suggerimenti
-* Serve aiuto? Basta dire "Ciao" o "Aiuto" per ottenere assistenza su come iniziare una nuova domanda.
+* Richiesta di assistenza Basta dire "Ciao" o "Aiuto" per ottenere assistenza su come iniziare una nuova domanda.
 * Si vuole inviare commenti e suggerimenti sui risultati? Effettuare un tocco prolungato su un grafico o un altro risultato, quindi toccare la faccina sorridente o imbronciata.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)

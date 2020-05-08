@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675685"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurare l'aggiornamento pianificato
@@ -44,13 +44,13 @@ Se è stato configurato un gateway personale che è online, è possibile selezio
 
 Si può anche selezionare il gateway aziendale, se disponibile. Un gateway aziendale è disponibile solo se il proprio account è elencato nella scheda **Utenti** dell'origine dati configurata per un determinato gateway.
 
-## <a name="data-source-credentials"></a>Credenziali origine dati
+## <a name="data-source-credentials"></a>Credenziali dell'origine dati
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 
 Se si usa il gateway personale per aggiornare i dati, è necessario specificare le credenziali usate per connettersi all'origine dati back-end. Se si è connessi a un pacchetto di contenuto da un servizio online, le credenziali immesse per la connessione vengono usate anche per l'aggiornamento pianificato.
 
-![Credenziali origine dati](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
+![Credenziali dell'origine dati](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
 
 L'accesso a un'origine dati viene richiesto solo al primo aggiornamento del set di dati. Una volta immesse, le credenziali vengono mantenute con il set di dati.
 
@@ -114,7 +114,7 @@ Per informazioni sulle origini dati supportate, vedere [Origini dati supportate 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 A volte, l'aggiornamento dei dati non funziona come previsto. In genere si tratta di un problema relativo al gateway. Consultare gli articoli sulla risoluzione dei problemi del gateway per individuare gli strumenti utili e i problemi noti.
 
-- [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)
+- [Risoluzione dei problemi relativi al gateway dati locale](service-gateway-onprem-tshoot.md)
 - [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Passaggi successivi
@@ -122,7 +122,7 @@ A volte, l'aggiornamento dei dati non funziona come previsto. In genere si tratt
 - [Aggiornamento dei dati in Power BI](refresh-data.md)  
 - [Power BI Gateway - Personale](service-gateway-personal-mode.md)  
 - [Gateway dati locale (modalità personale)](service-gateway-onprem.md)  
-- [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
+- [Risoluzione dei problemi relativi al gateway dati locale](service-gateway-onprem-tshoot.md)  
 - [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
