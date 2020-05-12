@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 084702c9a90dbe98f227aa4343111a0f11c4198e
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77576829"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866970"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelle nei report e nei dashboard di Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,8 +50,10 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
 
 ## <a name="create-a-table"></a>Creare una tabella
 
@@ -129,7 +134,7 @@ Con la formattazione condizionale per le tabelle, è possibile specificare icone
 
     ![segno di spunta per Mostra solo barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
     Le barre dei dati sostituiscono i valori numerici nella tabella, rendendo più semplice l'analisi.
 

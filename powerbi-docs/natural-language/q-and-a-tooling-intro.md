@@ -1,18 +1,18 @@
 ---
 title: Introduzione agli strumenti di Domande e risposte per il training di Domande e risposte di Power BI (anteprima)
 description: Introduzione agli strumenti di Domande e risposte di Power BI
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
-ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/17/2020
+ms.author: maggies
+ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874948"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866075"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introduzione agli strumenti di Domande e risposte per il training di Domande e risposte di Power BI (anteprima)
 
@@ -36,29 +36,44 @@ Gli strumenti di Domande e risposte sono disponibili solo in Power BI Desktop e 
 1. Aprire Power BI Desktop e usare Domande e risposte per creare un oggetto visivo. 
 2. Dall'angolo dell'oggetto visivo selezionare l'icona a forma di ingranaggio. 
 
-    ![Icona a forma di ingranaggio dell'oggetto visivo Domande e risposte](media/qna-visual-gear.png)
+    ![Icona a forma di ingranaggio dell'oggetto visivo Domande e risposte](media/q-and-a-tooling-intro/qna-visual-gear.png)
 
     Verrà visualizzata la pagina Attività iniziali.  
 
-    ![Attività iniziali di Domande e risposte](media/qna-tooling-dialog.png)
+    ![Attività iniziali di Domande e risposte](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
 ### <a name="review-questions"></a>Rivedi le domande
 
 Selezionare **Rivedi le domande** per visualizzare un elenco di set di dati usati nel servizio Power BI per il tenant. Nella pagina **Rivedi le domande** sono visualizzati anche il proprietario del set di dati, l'area di lavoro e la data dell'ultimo aggiornamento. Da qui è possibile selezionare un set di dati e vedere quali domande sono state poste dagli utenti. Nei dati visualizzati sono incluse anche le parole che non sono state riconosciute. Tutti i dati visualizzati qui sono relativi agli ultimi 28 giorni.
 
-![Rivedi domande in Domande e risposte](media/qna-tooling-review-questions.png)
+![Rivedi domande in Domande e risposte](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>Insegna a Domande e risposte
 
 La sezione **Insegna a Domande e risposte** consente di sottoporre a training Domande e risposte per migliorare la capacità di riconoscimento delle parole. Per iniziare, digitare una domanda contenente una o più parole che Domande e risposte non è in grado di riconoscere. Domande e risposte chiederà di specificare la definizione del termine. Immettere un filtro o un nome di campo che corrisponda a ciò che rappresenta tale parola. Domande e risposte reinterpreterà la domanda originale. Se si è soddisfatti dei risultati, è possibile salvare l'input. Per altre informazioni, vedere [Insegnare a Domande e risposte](q-and-a-tooling-teach-q-and-a.md).
 
-![Anteprima di sinonimo in Insegna a Domande e risposte](media/qna-tooling-teach-fixpreview.png)
+![Anteprima di sinonimo in Insegna a Domande e risposte](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
 ### <a name="manage-terms"></a>Gestisci termini
 
 In questa sezione vengono visualizzate tutte le informazioni salvate in Insegna a Domande e risposte per consentire di rivedere o eliminare i termini definiti. Attualmente non è possibile modificare una definizione esistente e quindi, per ridefinire un termine, è necessario eliminarlo e crearlo di nuovo.
 
-![Gestisci termini in Domande e risposte](media/qna-manage-terms.png)
+![Gestisci termini in Domande e risposte](media/q-and-a-tooling-intro/qna-manage-terms.png)
+
+### <a name="suggest-questions"></a>Suggerisci domande
+
+Senza alcuna impostazione particolare, l'oggetto visivo Domande e riposte suggerirà diverse domande per iniziare. Queste domande vengono generate automaticamente in base al modello di dati. In **Suggerisci domande**, è possibile sovrascrivere le domande generate automaticamente con le proprie domande. 
+
+Per iniziare, digitare la domanda che si vuole aggiungere nella casella di testo. Nella sezione Anteprima verrà visualizzato il risultato che sarà disponibile nell'oggetto visivo Domande e risposte. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-suggest-questions.png" alt-text="Suggerisci domande per Domande e risposte":::
+ 
+Selezionare il pulsante **Aggiungi** per aggiungere la domanda in **Domande suggerite**. Ogni domanda aggiuntiva viene aggiunta alla fine di questo elenco. Le domande verranno visualizzate nell'oggetto visivo Domande e risposte nello stesso ordine in cui si compaiono in questo elenco. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Salvare le domande suggerite":::
+ 
+Assicurarsi di selezionare **Salva** per visualizzare l'elenco di domande suggerite nell'oggetto visivo Domande e risposte. 
+
 
 ## <a name="other-qa-settings"></a>Altre impostazioni di Domande e risposte
 
@@ -70,7 +85,7 @@ Nella scheda **Modellazione** di Power BI Desktop sono disponibili altre opzioni
 
 2. Selezionare un campo o una tabella per visualizzare il riquadro **Proprietà**.  Questo riquadro viene visualizzato sul lato destro dell'area di disegno e include diverse azioni di Domande e risposte. Una delle opzioni è **Sinonimi**. Nella casella **Sinonimi** è possibile definire rapidamente le alternative per la tabella o il campo selezionato. I sinonimi possono essere definiti anche nella sezione **Insegna a Domande e risposte**, ma questa opzione è più utile per definire rapidamente i sinonimi per numerosi campi di una tabella.
 
-    ![Sinonimi nel riquadro Modellazione di Domande e risposte](media/qna-modelling-pane-synonyms.png)
+    ![Sinonimi nel riquadro Modellazione di Domande e risposte](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
 
 3. Per definire più sinonimi per un singolo campo, usare le virgole per indicare il sinonimo successivo.
 
@@ -100,6 +115,4 @@ In Power BI è possibile sottoporre a training e migliorare il motore del lingua
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per migliorare il motore del linguaggio naturale è disponibile una serie di procedure consigliate. Per altre informazioni, vedere l'articolo seguente:
-
-* [Procedure consigliate per Domande e risposte](q-and-a-best-practices.md)
+Per migliorare il motore del linguaggio naturale è disponibile una serie di procedure consigliate. Per altre informazioni, vedere [Procedure consigliate per Domande e risposte](q-and-a-best-practices.md).

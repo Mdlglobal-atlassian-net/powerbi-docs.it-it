@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802130"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841780"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -131,7 +131,7 @@ Gli autori del report possono [definire il drill-through](https://docs.microsoft
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Creare report ottimizzati per le app per telefoni di Power BI](../../desktop-create-phone-report.md)
+* [Creare report ottimizzati per le app Power BI per dispositivi mobili](../../desktop-create-phone-report.md)
 * [Creare una visualizzazione telefono di un dashboard in Power BI](../../service-create-dashboard-mobile-phone-view.md)
 * [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](../../visuals/desktop-create-responsive-visuals.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206954"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866726"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Usare la vista dati in Power BI Desktop
 
 La *visualizzazione Dati* consente di esaminare, esplorare e interpretare i dati nel modello di *Power BI Desktop*. È diversa dal modo in cui sono visualizzati i dati, le tabelle e le colonne nell'*editor di Power Query*. Nella visualizzazione Dati si possono esaminare i dati *dopo* il caricamento nel modello.
+
+> [!NOTE]
+> Poiché la visualizzazione Dati mostra i dati dopo il caricamento nel modello, l'icona Visualizzazione Dati non è visibile se tutte le origini dati sono basate su DirectQuery. 
 
 Durante la modellazione dei dati, talvolta è opportuno verificare il contenuto effettivo di una tabella o una colonna, senza creare un elemento visivo nell'area di disegno del report, fino a raggiungere il livello di riga. Questo livello di visualizzazione risulta particolarmente utile per la creazione di misure e colonne calcolate o quando è necessario identificare un tipo di dati o una categoria di dati.
 
@@ -48,3 +51,14 @@ Nella visualizzazione Dati è anche possibile filtrare e ordinare i dati. In ogn
 
 > [!NOTE]
 > Quando un modello di Power BI viene creato con impostazioni cultura diverse da quelle dell'interfaccia utente corrente, la casella di ricerca viene visualizzata nell'interfaccia utente della visualizzazione Dati solo per i campi di testo. Questo è il caso, ad esempio, di un modello creato in inglese (Stati Uniti) e visualizzato in spagnolo.
+
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
+
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
+* [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
+* [Tipi di dati in Power BI Desktop](desktop-data-types.md)
+* [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)

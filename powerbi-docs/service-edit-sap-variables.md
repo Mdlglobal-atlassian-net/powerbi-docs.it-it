@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010870"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841044"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Modificare le variabili SAP nel servizio Power BI
 
-Quando si usa SAP Business Warehouse o SAP HANA con DirectQuery, gli autori di report ora possono consentire agli utenti finali di modificare le variabili SAP nel **servizio Power BI** per le aree di lavoro Premium e condivise. Si noti che questa funzionalità NON funziona per i report nella scheda Condivisi con l'utente corrente dell'area di lavoro personale. 
+Quando si usa SAP Business Warehouse o SAP HANA con DirectQuery, gli autori di report ora possono consentire agli utenti finali di modificare le variabili SAP nel **servizio Power BI** per le aree di lavoro Premium e condivise. Si noti che questa funzionalità NON è disponibile per i report nella scheda Condivisi con l'utente corrente dell'area di lavoro personale e delle app create da area di lavoro V1. 
 
 ![Finestra di dialogo Modifica variabili](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
@@ -82,5 +82,5 @@ Per altre informazioni su SAP HANA, SAP BW o DirectQuery, vedere gli articoli se
 
 - [Usare SAP HANA in Power BI Desktop](desktop-sap-hana.md)
 - [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
-- [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+- [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)
 - [Uso di DirectQuery in Power BI](desktop-directquery-about.md)

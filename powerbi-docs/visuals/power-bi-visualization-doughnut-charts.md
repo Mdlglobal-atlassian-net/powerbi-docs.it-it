@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2e2c108a5d05c7095526a813d33bed718f68f4c4
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757723"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865346"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Creare e usare grafici ad anello in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -32,8 +34,11 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selezione ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.    
 
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello
 

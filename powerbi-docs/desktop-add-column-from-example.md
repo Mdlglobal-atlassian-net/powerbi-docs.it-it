@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76538522"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Aggiungere una colonna dagli esempi in Power BI Desktop
@@ -71,7 +71,7 @@ Guardare questo video per vedere la funzionalità **Aggiungi colonna da esempi**
 [Power BI Desktop: Add Column From Examples](https://www.youtube.com/watch?v=-ykbVW9wQfw) (Power BI Desktop: Aggiungi colonna da esempi). 
 
 ## <a name="list-of-supported-transformations"></a>Elenco di trasformazioni supportate
-Quando si usa **Aggiungi colonna da esempi**, sono disponibili molte trasformazioni, ma non tutte. L'elenco seguente mostra le trasformazioni supportate:
+Quando si usa **Aggiungi colonna da esempi** sono disponibili molte trasformazioni, ma non tutte. L'elenco seguente mostra le trasformazioni supportate:
 
 **Generale**
 

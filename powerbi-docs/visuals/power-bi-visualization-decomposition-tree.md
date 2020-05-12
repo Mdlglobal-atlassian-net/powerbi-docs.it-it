@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885279"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865569"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Creare e visualizzare oggetti visivi albero di scomposizione in Power BI (anteprima)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 L'oggetto visivo albero di scomposizione in Power BI consente di visualizzare i dati in più dimensioni. Aggrega automaticamente i dati e consente di eseguire il drill-down nelle dimensioni in qualsiasi ordine. È anche una visualizzazione di intelligenza artificiale a cui è possibile chiedere di trovare la dimensione successiva in cui eseguire il drill-down in base a criteri specifici. Questo lo rende uno strumento prezioso per l'esplorazione ad hoc e l'esecuzione dell'analisi della causa radice.
@@ -29,8 +32,10 @@ Questa esercitazione usa due esempi:
 - Uno scenario di catena di approvvigionamento che analizza la percentuale di prodotti della società inclusi in ordini arretrati (esauriti).  
 - Uno scenario di vendita che suddivide le vendite di videogiochi in base a diversi fattori, ad esempio il tipo di gioco e l'editore.
 
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.    
 
-## <a name="get-started"></a>Introduzione
+## <a name="get-started"></a>Inizia
 Selezionare l'icona dell'albero di scomposizione dal riquadro Visualizzazioni.
 ![Filigrana albero di scomposizione](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
@@ -140,7 +145,7 @@ L'albero di scomposizione non è supportato negli scenari seguenti:
 Le suddivisioni di intelligenza artificiale non sono supportate negli scenari seguenti:  
 -   Azure Analysis Services
 -   Query diretta
--   Server di report di Power BI
+-   Server di report Power BI
 -   Pubblica sul Web
 -   Misure complesse e misure tratte da schemi di estensione in "Analizza"
 

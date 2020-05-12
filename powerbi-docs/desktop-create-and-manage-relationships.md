@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76709956"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866335"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Creare e gestire le relazioni in Power BI Desktop
 Quando si importano più tabelle, è probabile che si eseguano analisi relative ai dati inclusi nelle tabelle. Le relazioni tra le tabelle sono necessarie per calcolare con precisione i risultati e visualizzare le informazioni corrette nei report. Power BI Desktop semplifica la creazione di queste relazioni. Nella maggior parte dei casi, infatti, tutte le operazioni vengono eseguite automaticamente dalla funzionalità Rilevamento automatico. Talvolta, tuttavia, può essere necessario creare manualmente le relazioni oppure apportarvi alcune modifiche. È quindi importante comprendere le relazioni in Power BI Desktop e capire come crearle e modificarle.
@@ -107,25 +107,25 @@ La prima tabella, **ProjectHours**, è un record di ticket di lavoro che registr
 | 1002 |Brewer, Alan |26 |Rosso |2/1/2013 |
 | 1003 |Ito, Shu |34 |Giallo |12/4/2012 |
 | 1004 |Brewer, Alan |13 |Arancione |1/2/2012 |
-| 1005 |Bowen, Eli |29 |Purple |1/10/2013 |
-| 1006 |Bento, Nuno |35 |Green |2/1/2013 |
-| 1007 |Hamilton, David |10 |Giallo |1/10/2013 |
+| 1005 |Bowen, Eli |29 |Purple |10/1/2013 |
+| 1006 |Bento, Nuno |35 |Verde |2/1/2013 |
+| 1007 |Hamilton, David |10 |Giallo |10/1/2013 |
 | 1008 |Han, Mu |28 |Orange |1/2/2012 |
 | 1009 |Ito, Shu |22 |Viola |2/1/2013 |
-| 1010 |Bowen, Eli |28 |Green |1/10/2013 |
+| 1010 |Bowen, Eli |28 |Verde |10/1/2013 |
 | 1011 |Bowen, Eli |9 |Blu |10/15/2013 |
 
 La seconda tabella, **CompanyProject**, è un elenco di progetti a cui è stata assegnata una priorità di tipo A, B o C. 
 
 **CompanyProject**
 
-| **ProjName** | **Priorità** |
+| **ProjName** | **Priority** |
 | --- | --- |
-| Blu |Una  |
-| Red |b |
-| Green |C |
+| Blu |A |
+| Red |B |
+| Verde |C |
 | Yellow |C |
-| Viola |b |
+| Viola |B |
 | Arancione |C |
 
 Si noti che ogni tabella contiene una colonna del progetto. Ogni colonna ha un nome leggermente diverso, ma i valori sono simili. Si tratta di un aspetto importante, che verrà esaminato a breve.
@@ -134,7 +134,7 @@ Dopo avere importato le due tabelle in un modello, è possibile creare un report
 
 ![Selezionare Priority e Hours dal riquadro Campi](media/desktop-create-and-manage-relationships/candmrel_reportfiltersnorel.png)
 
-Se si esamina la tabella nell'area di disegno del report, il numero di ore visualizzato è 256 per ogni progetto e questo valore corrisponde anche al totale. Evidentemente il numero non è corretto. Perché? Questo problema dipende dal fatto che non è possibile calcolare una somma totale dei valori di una tabella (**Hours** nella tabella **Project**), suddivisi in base ai valori di un'altra tabella (**Priority** nella tabella **CompanyProject**) senza una relazione tra le due tabelle.
+Se si esamina la tabella nell'area di disegno del report, il numero di ore visualizzato è 256 per ogni progetto e questo valore corrisponde anche al totale. Evidentemente il numero non è corretto. Questo problema dipende Questo problema dipende dal fatto che non è possibile calcolare una somma totale dei valori di una tabella (**Hours** nella tabella **Project**), suddivisi in base ai valori di un'altra tabella (**Priority** nella tabella **CompanyProject**) senza una relazione tra le due tabelle.
 
 È quindi necessario creare una relazione tra le due tabelle.
 
@@ -199,20 +199,20 @@ La tabella **CompanyProjectPriority** seguente è un elenco di tutti i progetti 
 
 **CompanyProjectPriority**
 
-| **ProjName** | **Priorità** |
+| **ProjName** | **Priority** |
 | --- | --- |
-| Blu |Una  |
-| Red |b |
-| Green |C |
+| Blu |A |
+| Red |B |
+| Verde |C |
 | Yellow |C |
-| Viola |b |
+| Viola |B |
 | Arancione |C |
 
 **ProjectBudget**
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 |:--- | ---:| ---:|
-| Blu |40.000 |12/1/2012 |
+| Blu |40,000 |12/1/2012 |
 | Rosso |100,000 |12/1/2012 |
 | Green |50.000 |12/1/2012 |
 
@@ -222,13 +222,13 @@ Se si crea una relazione tra la colonna **Approved Projects** nella tabella **Pr
 
 Il motivo per cui Power BI configura queste impostazioni è dato dal fatto che, per Power BI Desktop, la combinazione ideale delle due tabelle è la seguente:
 
-| **ProjName** | **Priorità** | **BudgetAllocation** | **AllocationDate** |
+| **ProjName** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
-| Blue |Una  |40,000 |12/1/2012 |
-| Rosso |b |100,000 |12/1/2012 |
-| Green |C |50,000 |12/1/2012 |
+| Blue |A |40,000 |12/1/2012 |
+| Rosso |B |100.000 |12/1/2012 |
+| Verde |C |50,000 |12/1/2012 |
 | Giallo |C |<br /> |<br /> |
-| Viola |b |<br /> |<br /> |
+| Viola |B |<br /> |<br /> |
 | Arancione |C |<br /> |<br /> |
 
 Esiste una relazione uno-a-uno tra le due tabelle, poiché la colonna **ProjName** della tabella combinata non include valori ripetuti. La colonna **ProjName** è univoca, poiché ogni valore è presente una sola volta e pertanto le righe delle due tabelle possono essere combinate direttamente senza duplicazioni.
@@ -239,7 +239,7 @@ Si supponga tuttavia che siano previste modifiche ai dati al successivo aggiorna
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 | --- | ---:| ---:|
-| Blu |40.000 |12/1/2012 |
+| Blu |40,000 |12/1/2012 |
 | Rosso |100,000 |12/1/2012 |
 | Green |50.000 |12/1/2012 |
 | Blu |80,000 |6/1/2013 |
@@ -247,16 +247,16 @@ Si supponga tuttavia che siano previste modifiche ai dati al successivo aggiorna
 
  Queste righe aggiuntive indicano che la combinazione migliore delle due tabelle ha ora un aspetto simile al seguente: 
 
-| **ProjName** | **Priorità** | **BudgetAllocation** | **AllocationDate** |
+| **ProjName** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
-| Blue |Una  |40,000 |12/1/2012 |
-| Rosso |b |100,000 |12/1/2012 |
-| Green |C |50,000 |12/1/2012 |
+| Blue |A |40,000 |12/1/2012 |
+| Rosso |B |100.000 |12/1/2012 |
+| Verde |C |50,000 |12/1/2012 |
 | Giallo |C |<br /> |<br /> |
-| Viola |b |<br /> |<br /> |
+| Viola |B |<br /> |<br /> |
 | Arancione |C |<br /> |<br /> |
-| Blu |Una  |80000 |6/1/2013 |
-| Rosso |b |90000 |6/1/2013 |
+| Blu |A |80000 |6/1/2013 |
+| Rosso |B |90000 |6/1/2013 |
 
 In questa nuova tabella combinata, la colonna **ProjName** include valori ripetuti. Le due tabelle originali non avranno una relazione uno-a-uno dopo l'aggiornamento della tabella. In questo caso, poiché si è a conoscenza del fatto che gli aggiornamenti futuri determineranno la presenza di duplicati nella colonna **ProjName**, si decide di impostare il campo **Cardinalità** su **Molti-a-uno (\*:1)** , con il lato *molti* su **ProjectBudget** e il lato *uno* su **CompanyProjectPriority**.
 
@@ -271,7 +271,7 @@ Con il filtro incrociato a direzione singola, se si crea un report di riepilogo 
 
  ![Direzione del filtro incrociato](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-La specifica del filtro procederà da **CompanyProject** a **CompanyEmployee**, come illustrato nella figura seguente, ma senza raggiungere **CompanyEmployee**. 
+La specifica del filtro procederà da **CompanyProject** a **ProjectHours**, come illustrato nella figura seguente, ma senza raggiungere **CompanyEmployee**. 
 
  ![Esempio di filtro incrociato](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 
@@ -314,12 +314,12 @@ Esaminiamo un esempio. La prima tabella è **ProjectTickets** e la seconda è **
 | 1002 |Roman, Daniel |Brewer, Alan |26 |Rosso |2/1/2013 |
 | 1003 |Roth, Daniel |Ito, Shu |34 |Giallo |12/4/2012 |
 | 1004 |Perham, Tom |Brewer, Alan |13 |Arancione |1/2/2012 |
-| 1005 |Roman, Daniel |Bowen, Eli |29 |Purple |1/10/2013 |
-| 1006 |Roth, Daniel |Bento, Nuno |35 |Green |2/1/2013 |
-| 1007 |Roth, Daniel |Hamilton, David |10 |Giallo |1/10/2013 |
+| 1005 |Roman, Daniel |Bowen, Eli |29 |Purple |10/1/2013 |
+| 1006 |Roth, Daniel |Bento, Nuno |35 |Verde |2/1/2013 |
+| 1007 |Roth, Daniel |Hamilton, David |10 |Giallo |10/1/2013 |
 | 1008 |Perham, Tom |Han, Mu |28 |Orange |1/2/2012 |
 | 1009 |Roman, Daniel |Ito, Shu |22 |Viola |2/1/2013 |
-| 1010 |Roth, Daniel |Bowen, Eli |28 |Green |1/10/2013 |
+| 1010 |Roth, Daniel |Bowen, Eli |28 |Verde |10/1/2013 |
 | 1011 |Perham, Tom |Bowen, Eli |9 |Blu |10/15/2013 |
 
 **EmployeeRole**

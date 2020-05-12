@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113901"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613535"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Ottenere un oggetto visivo Power BI certificato
 
@@ -82,8 +82,6 @@ Usare la versione più recente di [powerbi-visuals-tools](https://www.npmjs.com/
 
 È necessario compilare l'oggetto visivo di Power BI con `pbiviz package`. Se si usano script di compilazione personalizzati, specificare un comando di compilazione `npm run package` personalizzato.
 
-
-
 ### <a name="source-code-requirements"></a>Requisiti del codice sorgente
 
 Verificare di attenersi all'elenco dei criteri per la [certificazione aggiuntiva degli oggetti visivi di Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Se l'invio non rispetta queste linee guida, il Centro per i partner invierà un messaggio di posta elettronica di rifiuto includendo i numeri dei criteri elencati in questo collegamento.
@@ -150,6 +148,25 @@ Quando un oggetto visivo di Power BI viene certificato, riceve un badge designat
     ![Oggetto visivo di Power BI certificato nell'interfaccia di Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * È possibile visualizzare solo gli oggetti visivi di Power BI certificati selezionando l'opzione di filtro *Certificati da Power BI*.
+
+## <a name="publication-timeline"></a>Tempistiche per la pubblicazione
+
+La distribuzione in AppSource è un processo che può richiedere del tempo. Al termine del processo, l'oggetto visivo di Power BI sarà disponibile per il download da AppSource.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>Quando potranno scaricare l'oggetto visivo gli utenti?
+
+* Se è il primo invio di un oggetto visivo di Power BI, gli utenti potranno scaricarlo poche ore dopo la ricezione di un messaggio di posta elettronica da AppSource.
+
+* Nel caso dell'invio di un aggiornamento per un oggetto visivo di Power BI esistente, gli utenti potranno scaricarlo entro un mese dall'invio.
+
+    >[!NOTE]
+    > Il campo della *versione* in AppSource verrà aggiornato con il giorno di approvazione dell'oggetto visivo di Power BI da AppSource, circa una settimana dopo l'invio. Gli utenti potranno scaricare l'oggetto visivo aggiornato, ma le funzionalità aggiornate non verranno applicate. Le nuove funzionalità dell'oggetto visivo verranno applicate ai report dell'utente dopo circa un mese. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Quando verrà visualizzato un badge di certificazione per l'oggetto visivo di Power BI inviato?
+
+* Nel caso del primo invio di un oggetto visivo di Power BI, il badge di certificazione verrà visualizzato entro un giorno dalla ricezione del messaggio di posta elettronica di approvazione da AppSource.
+
+* Se si richiede la certificazione per un oggetto visivo di Power BI esistente, il badge di certificazione sarà visibile entro un mese dall'invio.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

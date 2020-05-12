@@ -10,10 +10,10 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853332"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un riquadro in Power BI da usare nelle app per dispositivi mobili
@@ -54,5 +54,5 @@ Power BI genera il codice a matrice come file JPG, pronto per la stampa.
 * [Connettersi ai dati di Power BI dal mondo reale](consumer/mobile/mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
 * [Scansionare un codice a matrice di Power BI dal dispositivo mobile](consumer/mobile/mobile-apps-qr-code.md)
 * [Creare un codice a matrice per un report](service-create-qr-code-for-report.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

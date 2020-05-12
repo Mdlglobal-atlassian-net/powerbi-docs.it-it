@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329628"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866795"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Pubblicare in Power BI da Microsoft Excel
 Con Microsoft Excel 2016 e versioni successive è possibile pubblicare le cartelle di lavoro di Excel direttamente nell'area di lavoro di [Power BI](https://powerbi.microsoft.com), in cui si possono creare report e dashboard estremamente interattivi basati sui dati contenuti nella cartella di lavoro. È quindi possibile condividere le informazioni con altri utenti dell'organizzazione.
@@ -42,7 +42,7 @@ Excel supporta la pubblicazione dei file di Excel locali. Non è necessario che 
 > È possibile pubblicare file locali solo se si usa Excel 2016 (o versione successiva) con un abbonamento a Office 365. Le installazioni autonome di Excel 2016 possono pubblicare in Power BI, ma solo se la cartella di lavoro viene salvata in OneDrive for business o SharePoint Online.
 > 
 
-Quando si seleziona **Pubblica** è possibile selezionare l'area di lavoro in cui pubblicare. L'area di lavoro può essere l'area di lavoro personale dell'utente o un'area di lavoro del gruppo a cui si ha accesso, come illustrato nella figura seguente.
+Quando si seleziona **Pubblica** è possibile selezionare l'area di lavoro in cui pubblicare. Se il file di Excel si trova in OneDrive for Business, è possibile pubblicare solo in *Area di lavoro personale*. Se il file di Excel si trova in un'unità locale, è possibile eseguire la pubblicazione in *Area di lavoro personale* o in un'area di lavoro condivisa a cui si ha accesso.
 
 ![Pubblica in Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 

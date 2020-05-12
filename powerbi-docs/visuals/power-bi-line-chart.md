@@ -2,27 +2,35 @@
 title: Grafici a linee in Power BI
 description: Grafici a linee in Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871069"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867025"
 ---
 # <a name="line-charts-in-power-bi"></a>Grafici a linee in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Un grafico a linee è costituito da una serie di punti dati uniti da linee rette. Un grafico a linee può includere una o più linee. I grafici a linee hanno un asse X e un asse Y. 
 
 ![grafico a linee semplice](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Creare un grafico a linee
 In queste istruzioni viene usata l'app Sales and Marketing Sample per creare un grafico a linee che mostra le vendite dell'anno in corso suddivise per categoria. Per seguire le istruzioni, scaricare l'app di esempio da appsource.com.
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
 
 1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report in [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
