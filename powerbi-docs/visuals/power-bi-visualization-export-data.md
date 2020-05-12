@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585391"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781732"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Esportare i dati usati per creare una visualizzazione
 
@@ -196,7 +196,7 @@ I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Pe
 
 ### <a name="set-the-export-options"></a>Impostare le opzioni di esportazione
 
-I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Le scelte disponibili sono:
+I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Scegliere tra:
 
 - Consenti agli utenti finali di esportare i dati di riepilogo dal servizio Power BI o da Server di report di Power BI
 
@@ -265,6 +265,8 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
   1. Selezionare **Carica dati esterni** > **Da testo**.
   
   1. Passare alla cartella locale in cui è archiviato il file e selezionare il file con estensione *csv*.
+
+- Quando si esporta in *file CSV* alcuni caratteri verranno preceduti dal carattere di escape **'** .
 
 - Gli amministratori di Power BI possono disabilitare l'esportazione dei dati.
 

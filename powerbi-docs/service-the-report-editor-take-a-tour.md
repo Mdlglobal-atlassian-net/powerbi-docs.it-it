@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871356"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Presentazione dell'editor di report in Power BI
@@ -139,7 +139,7 @@ Power BI usa una serie di icone diverse per indicare i tipi di campi in un repor
 |![Campo numerico](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Campo numerico: i campi numerici sono aggregati che possono essere sommati o di cui è possibile calcolare la media, ad esempio. Gli aggregati vengono importati con i dati e definiti nel modello di dati su cui si basa il report. Per altre informazioni, vedere [Aggregati nei report di Power BI](service-aggregates.md). |
 |![Colonna calcolata non numerica](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Colonna calcolata con un tipo di dati non numerico: nuova colonna non numerica creata con una formula DAX (Data Analysis Expressions) che definisce i valori della colonna. Altre informazioni sulle [colonne calcolate](desktop-calculated-columns.md). |
 |![Colonna calcolata numerica](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Colonna calcolata numerica: nuova colonna creata con una formula DAX (Data Analysis Expressions) che definisce i valori della colonna. Altre informazioni sulle [colonne calcolate](desktop-calculated-columns.md). |
-|![Misura](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Misura: una misura calcolata ha una propria formula hardcoded. Non è possibile modificare il calcolo; ad esempio, se è una somma, può essere solo una somma. I valori non vengono archiviati in una colonna. Vengono calcolati in tempo reale, esclusivamente a seconda della loro posizione in un oggetto visivo. Per altre informazioni, vedere [Informazioni sulle misure](desktop-measures.md). |
+|![Measure](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Misura: una misura calcolata ha una propria formula hardcoded. Non è possibile modificare il calcolo; ad esempio, se è una somma, può essere solo una somma. I valori non vengono archiviati in una colonna. Vengono calcolati in tempo reale, esclusivamente a seconda della loro posizione in un oggetto visivo. Per altre informazioni, vedere [Informazioni sulle misure](desktop-measures.md). |
 |![Gruppo di misure](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Gruppo di misure  |
 |![Icona dell'indicatore KPI](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Altre informazioni sugli oggetti visivi [indicatore di prestazioni chiave (KPI)](visuals/power-bi-visualization-kpi.md) |
 |![Icona della gerarchia](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Gerarchia dei campi: selezionare la freccia per visualizzare i campi che costituiscono la gerarchia.  Per altre informazioni, guardare su YouTube questo video di Power BI su come [creare e usare le gerarchie](https://www.youtube.com/watch?v=q8WDUAiTGeU). |

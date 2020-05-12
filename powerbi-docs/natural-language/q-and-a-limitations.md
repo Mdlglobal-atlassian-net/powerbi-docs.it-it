@@ -1,18 +1,18 @@
 ---
 title: Limitazioni di Domande e risposte di Power BI
 description: Limitazioni attuali di Domande e risposte di Power BI
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9f1beed3408d53a58a0fb725f9d98a4a95bb1b7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 04/21/2020
+ms.author: maggies
+ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874893"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866772"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitazioni di Domande e risposte di Power BI
 
@@ -27,7 +27,7 @@ Domande e risposte di Power BI supporta le configurazioni seguenti di origini da
 - Modalità importazione
 - Connessione dinamica ad Azure Analysis Services
 - Connessione dinamica a SQL Server Analysis Services (con un gateway)
-- Set di dati Power BI. Quando si usa un set di dati di Power BI, Power BI Desktop segnala un errore relativo a Domande e risposte. Tuttavia, quando si pubblica il report nel servizio Power BI, l'errore scompare.
+- Set di dati Power BI.
 
 In ognuna di queste configurazioni è supportata anche la sicurezza a livello di riga.
 
@@ -36,7 +36,7 @@ In ognuna di queste configurazioni è supportata anche la sicurezza a livello di
 Domande e risposte di Power BI attualmente non supporta le configurazioni seguenti:
 
 - Sicurezza a livello di oggetto con qualsiasi tipo di origine dati
-- DirectQuery su qualsiasi origine. Una soluzione alternativa a questo problema è quella di usare Live Connect con Azure Analysis Services, che usa DirectQuery.
+- DirectQuery su qualsiasi origine. Una soluzione alternativa è quella di usare la connessione dinamica con Azure Analysis Services, che usa DirectQuery.
 - Modelli compositi
 - Reporting Services 
 
@@ -61,11 +61,14 @@ Insegna a Domande e risposte consente di correggere due tipi di errori:
 
 Attualmente non è supportata la ridefinizione di un termine riconosciuto o la definizione di altri tipi di condizioni o frasi. Inoltre, quando si definiscono condizioni di filtro, è possibile usare solo un subset limitato del linguaggio, ad esempio:
 
-- "Paese" uguale a "Stati Uniti"
-- "Paese" diverso da "Stati Uniti"
-- "Peso" > 2000
-- "Peso" = 2000
-- "Peso" < 2000
+- Country which is USA
+- Country which is not USA
+- Products > 100
+- Products greater than 100
+- Products = 100
+- Products is 100
+- Products < 100
+- Products smaller than 100
 
 > [!NOTE]
 > Gli strumenti di Domande e risposte supportano solo la modalità di importazione. Non è ancora supportata la connessione a un'origine dati locale o di Azure Analysis Services. Questa limitazione verrà rimossa nelle versioni successive di Power BI.
@@ -75,3 +78,7 @@ Attualmente non è supportata la ridefinizione di un termine riconosciuto o la d
 - L'uso di misure nelle condizioni non è attualmente supportato. Per risolvere il problema, è possibile convertire le misure in colonne calcolate.
 - La definizione di più condizioni non è supportata. Per risolvere il problema, creare una colonna calcolata DAX che valuti un valore booleano di formulazione con più condizioni e usare in alternativa questo campo.
 - Se non si specifica una condizione di filtro quando Domande e risposte richiede un subset di dati, non è possibile salvare la definizione, anche se l'intera formulazione non ha sottolineature rosse.
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Per migliorare il motore del linguaggio naturale è disponibile una serie di procedure consigliate. Per altre informazioni, vedere [Procedure consigliate per Domande e risposte](q-and-a-best-practices.md).

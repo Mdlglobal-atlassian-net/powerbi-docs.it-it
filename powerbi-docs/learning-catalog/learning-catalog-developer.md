@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268605"
 ---
 # <a name="developer-learning-catalog"></a>Catalogo delle risorse di apprendimento per sviluppatori
@@ -20,12 +20,12 @@ ms.locfileid: "81268605"
 Nel catalogo seguente le conoscenze sono organizzate da quelle di base ai domini specifici e dalle più semplici alle più avanzate. Se il contenuto è disponibile in più formati, verrà comunicato all'utente in modo che possa scegliere il formato di training più adatto alle proprie esigenze.
 
 ## <a name="get-started"></a>Introduzione<a name="get-started"></a>
-| Contenuto | Descrizione | Formato  | Lunghezza      |
+| Contenuto | Descrizione | Format  | Length      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Canale YouTube di Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos)  | Canale YouTube con contenuto del team del prodotto Power BI di Microsoft   | Video  |             |
 | [How Microsoft Is Changing BI Data Protection](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence) | Questo webinar illustra come proteggere i dati di business intelligence anche quando vengono esportati. Abilitare le classificazioni di riservatezza e l'analisi dei rischi in tempo reale per definire le autorizzazioni di accesso. | Webinar | 18 min e 49 sec |
 ## <a name="embedded"></a>Embedded<a name="embedded"></a>
-| Contenuto | Descrizione | Formato  | Lunghezza      |
+| Contenuto | Descrizione | Format  | Length      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Procedure consigliate per la gestione delle analisi di Power BI Embedded per le distribuzioni multi-tenant](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded è un servizio avanzato che consente di inserire Power BI nelle applicazioni come prodotto "white-label". Questo webinar illustra come gestire le distribuzioni di Power BI Embedded.   | Webinar       |                |
 | [Learn about Power BI Embedded in 20 minutes](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html) (Iniziare a conoscere Power BI Embedded in 20 minuti)  | Questo webinar è un'introduzione a Power BI Embedded. Al termine del webinar gli utenti dovrebbero essere in grado di comprendere cos'è Power BI Embedded, i passaggi successivi per iniziare a usare il prodotto e dove trovare assistenza e risorse. | Webinar       |                |
@@ -34,12 +34,12 @@ Nel catalogo seguente le conoscenze sono organizzate da quelle di base ai domini
 | [Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Con Power BI Embedded in Azure o l'incorporamento di Power BI in Office è possibile incorporare report, dashboard e riquadri in un'applicazione usando il modello App Owns Data.  | Documentazione |                |
 | [Learn about Power BI Embedded in 20 minutes](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html) (Iniziare a conoscere Power BI Embedded in 20 minuti)  | Questo webinar è un'introduzione a Power BI Embedded. Al termine del webinar gli utenti dovrebbero essere in grado di comprendere cos'è Power BI Embedded, i passaggi successivi per iniziare a usare il prodotto e dove trovare assistenza e risorse. | Webinar       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
-| Contenuto | Descrizione | Formato  | Lunghezza      |
+| Contenuto | Descrizione | Format  | Length      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Practical DAX for Power BI by Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs) (Una pratica libreria DAX per Power BI, di Phil Seamark)  | In aggiunta al suo nuovo libro, Phil Seamark illustra alcune procedure consigliate per la libreria DAX pratica in Power BI   | Video di YouTube | 59 min e 41 sec |
 | [Creative DAX solutions by Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) (Soluzioni DAX creative, di Philip Seamark) | Il linguaggio DAX non si limita alla semplice esecuzione di una somma in una colonna o al conteggio delle righe in una tabella. DAX è anche uno dei database più veloci in circolazione. Charles Sterling e Philip Seamark illustrano alcuni scenari insoliti e creativi che difficilmente sarebbero considerati possibili. | Webinar       | 58 min e 12 sec |
 ## <a name="development"></a>Sviluppo<a name="development"></a>
-| Contenuto | Descrizione | Formato  | Lunghezza      |
+| Contenuto | Descrizione | Format  | Length      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Supercharge Your Applications Using the Power BI JavaScript API](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html) (Arricchire le applicazioni con l'API JavaScript di Power BI)   | Questo webinar illustra come usare le API JavaScript di Power BI per incorporare oggetti visivi straordinari nelle applicazioni. L'analisi di Power BI Embedded consente di mettere in evidenza le applicazioni nel marketplace. È possibile soddisfare le richieste dei clienti più velocemente e aiutarli a prendere decisioni informate, facendo in modo che i tecnici rimangano concentrati sul prodotto principale.  | Webinar |             |
 | [Using App-only Authentication with Power BI Embedding](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Webinar-Using-App-only-Authentication-with-Power-BI-Embedding/td-p/642230) (Uso dell'autenticazione solo app con l'incorporamento di Power BI)   | Ted Pattison, Microsoft MVP, illustra come sfruttare il nuovo supporto di autenticazione solo app attualmente in anteprima per l'incorporamento di Power BI e l'API del servizio Power BI. Ted presenta anche le procedure consigliate emergenti con il modello App Owns Data di Microsoft e spiega perché è consigliabile eseguire la migrazione dalle precedenti progettazioni di applicazioni basate sull'autenticazione con un account utente master. Ted spiega i concetti e dimostra come acquisire i token di accesso solo app tramite Azure AD e come configurare le aree di lavoro per le app in Power BI per fornire l'accesso alle entità servizio dietro le applicazioni Azure AD. | Webinar | 1 ora e 43 sec   |

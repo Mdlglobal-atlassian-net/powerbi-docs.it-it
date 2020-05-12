@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548583"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Connettersi a Office365Mon con Power BI
@@ -34,7 +34,7 @@ Connettersi all'[app modello Office365Mon](https://msit.powerbi.com/groups/me/ge
 3. Selezionare **Office365Mon** \> **Recupera**.
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. In Metodo di autenticazione selezionare **oAuth2** \> **Accedi**.
+4. Per Metodo di autenticazione selezionare **oAuth2** \> **Accedi**.
    
    Quando richiesto, immettere le credenziali dell'account amministratore di Office365Mon e seguire il processo di autenticazione.
    

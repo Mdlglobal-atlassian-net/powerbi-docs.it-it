@@ -4,16 +4,16 @@ description: Informazioni sull'installazione, la personalizzazione e la distribu
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436112"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781685"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Installare e distribuire le app modello nell'organizzazione
 
@@ -65,7 +65,7 @@ Per installare, personalizzare e distribuire un'app modello, è necessario:
 
 1. Fare clic su **Connetti**.
     
-    Verrà visualizzata una finestra di dialogo o una serie di finestre di dialogo in cui è possibile sostituire l'origine dati dei dati di esempio con la propria origine dati. Questo significa in genere ridefinire i parametri del set di dati e le credenziali dell'origine dati. Vedere [Limitazioni note](service-template-apps-tips.md#known-limitations).
+    Verrà visualizzata una finestra di dialogo o una serie di finestre di dialogo in cui è possibile sostituire l'origine dati dei dati di esempio con la propria origine dati. Questo significa in genere ridefinire i parametri del set di dati e le credenziali dell'origine dati. Vedere [Limitazioni note](service-template-apps-overview.md#known-limitations).
     
     Nell'esempio seguente, la connessione ai dati include due finestre di dialogo.
 
@@ -95,14 +95,18 @@ Dopo aver apportato le modifiche desiderate agli artefatti nell'area di lavoro, 
 
 Di tanto in tanto, gli autori di app modello rilasciano nuove versioni migliorate delle app modello, tramite AppSource, collegamenti diretti o entrambi i metodi.
 
-Se l'app è stata originariamente scaricata da AppSource, quando una nuova versione dell'app modello diventa disponibile, nel servizio Power BI viene visualizzato un banner di aggiornamento che informa che è disponibile una nuova versione dell'app.
+Se l'app è stata originariamente scaricata da AppSource, quando diventa disponibile una nuova versione dell'app modello, si riceve una notifica in due modi:
+* Nel servizio Power BI viene visualizzato un banner di aggiornamento che informa che è disponibile una nuova versione dell'app.
+  ![Notifica di aggiornamento dell'app modello](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Si riceve una notifica nel riquadro delle notifiche di Power BI.
 
-  ![Notifica di aggiornamento dell'app modello](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Notifica di aggiornamento dell'app modello](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Se l'app è stata originariamente ottenuta tramite collegamento diretto anziché tramite AppSource, l'unico modo per stabilire quando è disponibile una nuova versione è contattare l'autore dell'app modello.
 
-  Per installare l'aggiornamento, fare clic su **Scarica adesso** nel banner di notifica oppure ritrovare l'app in AppSource e scegliere **Scarica adesso**. Se si è ottenuto un collegamento diretto per l'aggiornamento dall'autore dell'app modello, è sufficiente fare clic sul collegamento.
+  Per installare l'aggiornamento, fare clic su **Scarica adesso** nel banner di notifica o nel centro notifiche oppure ritrovare l'app in AppSource e scegliere **Scarica adesso**. Se si è ottenuto un collegamento diretto per l'aggiornamento dall'autore dell'app modello, è sufficiente fare clic sul collegamento.
   
   Verrà chiesto se si desidera sovrascrivere la versione corrente o installare la nuova versione in una nuova area di lavoro. Per impostazione predefinita, è selezionata l'opzione "Sovrascrivi".
 

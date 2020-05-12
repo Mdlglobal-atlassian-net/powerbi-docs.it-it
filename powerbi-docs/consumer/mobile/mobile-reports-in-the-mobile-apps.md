@@ -1,21 +1,21 @@
 ---
-title: Esplorare i report nelle app Power BI per dispositivi mobili
+title: Esplorare i report nelle app per dispositivi mobili di Power BI
 description: Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop e quindi interagire con essi nelle app per dispositivi mobili.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435767"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841734"
 ---
-# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
+# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app per dispositivi mobili di Power BI
 Si applica a:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telefono Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tablet Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivi Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
@@ -40,12 +40,12 @@ Negli elenchi e nei menu viene visualizzata un'icona accanto al nome del report 
 
 Sono disponibili due icone per i report nelle app per dispositivi mobili Power BI:
 
-* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app. L'aspetto sarà identico a quello visualizzato in un browser.
+* ![Icona di report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app. L'aspetto sarà identico a quello visualizzato in un browser.
 
 * ![Icona del report per il telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina del report ottimizzata per il telefono che verrà visualizzata con orientamento verticale.
 
 > [!NOTE]
-> Quando si tiene il telefono con un orientamento orizzontale, si otterrà sempre il layout orizzontale, anche se la pagina del report è nel layout telefono.
+> Quando si tiene il telefono con un orientamento orizzontale, si otterrà sempre il layout orizzontale, anche se alla pagina del report è applicato il layout per dispositivi mobili.
 
 Per passare a un report da un dashboard, toccare **Altre opzioni** (...) nell'angolo superiore destro di un riquadro e quindi toccare **Apri report**:
   
@@ -127,7 +127,7 @@ Quando si tocca il pulsante **Altre opzioni** (...) nel piè di pagina del repor
 ![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 È possibile che alcune azioni siano disabilitate perché dipendono dalle funzionalità specifiche del report.
-ad esempio:
+Ad esempio:
 
 **Segnalibri** è presente solo se nel report sono stati impostati [segnalibri](mobile-reports-in-the-mobile-apps.md#bookmarks). Vengono visualizzati sia i segnalibri personali che è possibile definire nel servizio Power BI che i segnalibri definiti dall'autore del report. Se uno dei segnalibri è stato definito come segnalibro predefinito, il report viene aperto su tale vista quando viene caricato.
 
@@ -165,5 +165,5 @@ Per informazioni su come modificare queste impostazioni, vedere le [impostazioni
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)
 * [Creare una versione di un report ottimizzata per i telefoni](../../desktop-create-phone-report.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

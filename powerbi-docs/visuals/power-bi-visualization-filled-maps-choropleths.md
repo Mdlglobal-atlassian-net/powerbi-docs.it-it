@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436066"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865461"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creare e usare mappe colorate (coropletiche) in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -53,17 +55,10 @@ Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://downl
 
 1. Aprire il **file Sales and Marketing Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
-
-## <a name="create-a-basic-filled-map"></a>Creare una mappa colorata di base
-Il video seguente mostra come creare una mappa di base e convertirla in una mappa colorata.
-   > [!NOTE]
-   > Questo video usa una versione precedente di Power BI Desktop.
-   > 
-   > 
-
-> [VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.    
 
 ### <a name="create-a-filled-map"></a>Creare una mappa colorata
 1. Nel riquadro Campi selezionare il campo **Geo** \> **State**.    

@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 04/02/2020
-ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.date: 05/01/2020
+ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80647708"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692859"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parametri URL nei report impaginati in Power BI
 
@@ -35,7 +35,7 @@ Le richieste URL per Power BI contengono parametri elaborati dal servizio. Il mo
 
 ## <a name="url-access-syntax"></a>Sintassi di accesso con URL 
 
-Le richieste URL possono contenere più parametri, elencati in qualsiasi ordine. I parametri sono separati da una e commerciale (&). Le coppie nome/valore sono separate da un segno di uguale (=). ad esempio:
+Le richieste URL possono contenere più parametri, elencati in qualsiasi ordine. I parametri sono separati da una e commerciale (&). Le coppie nome/valore sono separate da un segno di uguale (=). Ad esempio:
 
 ```
 powerbiserviceurl?rp:parametervalueh&rdl:parameter=value  
@@ -45,7 +45,7 @@ powerbiserviceurl?rp:parametervalueh&rdl:parameter=value
 
 ### <a name="powerbiserviceurl"></a>powerbiserviceurl 
 
-URL del servizio Web del tenant di Power BI. ad esempio: 
+URL del servizio Web del tenant di Power BI. Ad esempio: 
 
 **&** Usato per separare le coppie di nome e valore dei parametri di accesso con URL.
 
@@ -68,11 +68,15 @@ Per esempi relativi al passaggio di parametri di report nell'URL, vedere  [Pas
 
 ### <a name="report-commands-rdl"></a>Comandi del report (`rdl:`) 
 
-**Formato di esportazione** Specifica il formato per il rendering e l'esportazione di un report. I valori disponibili sono:
+**Formato di esportazione** Specifica il formato per il rendering e l'esportazione di un report.
+
+Esempio: rdl:format=PDF
+
+I valori disponibili sono:
  
 - PPTX (PowerPoint)
 - MHTML 
-- IMMAGINE 
+- IMAGE 
 - EXCELOPENXML (EXCEL) 
 - WORDOPENXML (WORD) 
 - CSV 

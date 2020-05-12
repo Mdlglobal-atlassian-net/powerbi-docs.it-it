@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881109"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
@@ -31,7 +31,7 @@ Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-dat
 1. Nel dashboard selezionare la casella della domanda di Domande e risposte.   Si noti che le domande e risposte si sono già state utili con la visualizzazione di un elenco di termini presenti nel set di dati.
 2. Per ampliare l'elenco, selezionare l'icona a forma di ingranaggio nell'angolo in alto a destra di Power BI.  
    ![Icona a forma di ingranaggio](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. Selezionare **Impostazioni** &gt; **Set di dati** &gt; **Esempio di analisi delle vendite al dettaglio** &gt; **Domande in primo piano di Domande e risposte**.  
+3. Selezionare **Impostazioni** &gt; **Set di dati** &gt; **Retail Analysis Sample** &gt; **Domande in primo piano di Domande e risposte**.  
 4. Selezionare **Aggiungi una domanda**.
    
    ![Menu Impostazioni](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
@@ -47,7 +47,7 @@ Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-dat
 
 - [Domande e risposte per i consumer](consumer/end-user-q-and-a.md)  
 - [Usare Domande e risposte in dashboard e report](power-bi-tutorial-q-and-a.md)  
-- [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
+- [Concetti di base del servizio Power BI](service-basic-concepts.md)  
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

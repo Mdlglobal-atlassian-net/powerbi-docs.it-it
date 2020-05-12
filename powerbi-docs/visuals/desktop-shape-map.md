@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525661"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866542"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Creare oggetti visivi forme mappa in Power BI Desktop (anteprima)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
 
 Gli oggetti visivi **forme mappa** si basano sulle mappe TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
 
 ## <a name="creating-shape-maps"></a>Creazione di forme mappa
 È possibile testare il controllo **Mappa forme** con le mappe fornite con questa versione di anteprima oppure usare una mappa personalizzata, purché soddisfi i requisiti descritti nella sezione **Usare le mappe personalizzate**.
@@ -126,7 +131,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | au-nsw |NSW |AU-NSW |Nuovo Galles del Sud |NSW |
 | au-act |ACT |AU-ACT |Territorio della Capitale Australiana |ACT |
 
-### <a name="austria-states"></a>Austria: stati
+### <a name="austria-states"></a>Austria: Stati
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
@@ -140,7 +145,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | at-ka |AT-2 |Kärnten |Carinzia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brasile: stati
+### <a name="brazil-states"></a>Brasile: Stati
 
 | ID |
 | --- |
@@ -176,7 +181,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Zona contesa 3 |
 | Zona contesa 4 |
 
-### <a name="canada-provinces"></a>Canada: province
+### <a name="canada-provinces"></a>Canada: Province
 
 | ID | iso | name | postale |
 | --- | --- | --- | --- |
@@ -194,14 +199,14 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | ca-bc |CA-BC |Columbia Britannica |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Francia: regioni
+### <a name="france-regions"></a>Francia: Regioni
 
 | ID | name | nome-it |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Bretagna |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Centro-Valle della Loira |Centre-Val de Loire |Centro-Valle della Loira |
 | Corse |Corse |Corsica |
 | Grand Est |  |  |
 | Guadalupa | |   |
@@ -216,28 +221,28 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Germania: stati
+### <a name="germany-states"></a>Germania: Stati
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlino |Berlino |BE |
+| de-be |DE-BE |Berlin |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Sassonia-Anhalt |ST |
 | de-sn |DE-SN |Sachsen |Sassonia |SN |
-| de-mv |de-mv |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern |MV |
-| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
+| de-mv |de-mv |Mecklenburg-Vorpommern |Meclemburgo-Pomerania Anteriore |MV |
+| de-bb |DE-BB |Brandenburg |Brandeburgo |BB |
 | de-sh |DE-SH |Schleswig Holstein |Schleswig Holstein |SH |
 | de-sl |DE-SL |Saarland |Saarland |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Renania Palatinato |RP |
 | de-nw |DE-NW |Nordrhein Westfalen |Renania Settentrionale-Vestfalia |NW |
 | de-ni |DE-NI |Niedersachsen |Bassa Sassonia |NI |
 | de-he |DE-HE |Hessen |Assia |HE |
-| de-hh |DE-HH |Hamburg |Hamburg |HH |
-| de-hb |DE-HB |Brema |Brema |HB |
+| de-hh |DE-HH |Hamburg |Amburgo |HH |
+| de-hb |DE-HB |Bremen |Brema |HB |
 | de-by |DE-BY |Bayern |Baviera |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
-### <a name="ireland-counties"></a>Irlanda: contee
+### <a name="ireland-counties"></a>Irlanda: Contee
 
 | ID |
 | --- |
@@ -268,7 +273,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italia: regioni
+### <a name="italy-regions"></a>Italia: Regioni
 
 | ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
@@ -293,7 +298,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | it-pu |IT-75 |Puglia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Messico: stati
+### <a name="mexico-states"></a>Messico: Stati
 
 | ID | abbreviazione | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
@@ -326,28 +331,28 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
 | mx-chp |Chris. |MX-CHP |Chiapas |Chiapas |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
-| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baja California Sur |BS |
-| mx-bcn |B.C. |MX-BCN |Bassa California |Bassa California |BN |
+| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Bassa California del Sud |BS |
+| mx-bcn |B.C. |MX-BCN |Baja California |Bassa California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Paesi Bassi: province
+### <a name="netherlands-provinces"></a>Paesi Bassi: Province
 
 | ID | iso | name | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
-| nl-ze |NL-ZE |Zelanda |Zelanda |
+| nl-ze |NL-ZE |Zeeland |Zelanda |
 | nl-ut |NL-UT |Utrecht |Utrecht |
 | nl-ov |NL-OV |Overijssel |Overijssel |
 | nl-nh |NL-NH |Noord-Holland |Olanda Settentrionale |
 | nl-nb |NL-NB |Noord-Brabant |Brabante Settentrionale |
 | nl-li |NL-LI |Limburg |Limburg |
-| nl-gr |NL-GR |Groningen |Groningen |
-| nl-ge |NL-GE |Gelderland |Gelderland |
+| nl-gr |NL-GR |Groningen |Groninga |
+| nl-ge |NL-GE |Gelderland |Gheldria |
 | nl-fr |NL-FR |Fryslân |Frisia |
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Regno Uniti: paesi
+### <a name="uk-countries"></a>Regno Unito: Paesi
 
 | ID | iso | name |
 | --- | --- | --- |
@@ -356,7 +361,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | gb-nir |GB-NIR |Irlanda del Nord |
 | gb-eng |GB-ENG |Inghilterra |
 
-### <a name="usa-states"></a>Stati Uniti: stati
+### <a name="usa-states"></a>USA: Stati
 
 | ID | name | postale |
 | --- | --- | --- |
@@ -373,8 +378,8 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-nm |Nuovo Messico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
-| us-nc |North Carolina |NC |
-| us-ok |Oklahoma |O K |
+| us-nc |Carolina del Nord |NC |
+| us-ok |Oklahoma |OK |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |

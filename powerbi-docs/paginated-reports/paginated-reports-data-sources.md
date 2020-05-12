@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255775"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692880"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origini dati supportate per i report impaginati di Power BI
 
@@ -23,10 +23,10 @@ In questo articolo sono elencate le origini dati supportate per i report impagin
 
 I report impaginati supportano in modalità nativa l'elenco di origini dati seguente:
 
-| Origine dati | Autenticazione | Note |
+| origine dati | Authentication | Note |
 | --- | --- | --- |
-| Database SQL di Azure <br>Azure SQL Data Warehouse | Di base, Single Sign-On (SSO), OAuth2 |   |
-| Istanza gestita di SQL di Azure | Di base | tramite un endpoint pubblico o privato (l'endpoint privato deve essere instradato tramite il gateway aziendale)  |
+| database SQL di Azure <br>Azure SQL Data Warehouse | Di base, Single Sign-On (SSO), OAuth2 | È possibile usare un gateway aziendale con il database SQL di Azure. Tuttavia, non è possibile usare SSO oppure oAuth2 per l'autenticazione in questi scenari.   |
+| Istanza gestita di SQL di Azure | Basic | tramite un endpoint pubblico o privato (l'endpoint privato deve essere instradato tramite il gateway aziendale)  |
 | Azure Analysis Services | SSO, OAuth2 | Il firewall AAS deve essere disabilitato o configurato in modo da consentire tutti gli intervalli IP.|
 | Set di dati di Power BI | SSO | Set di dati di Power BI Premium e non Premium. Richiede l'autorizzazione di lettura |
 | Set di dati di Power BI Premium (XMLA) | SSO |   |

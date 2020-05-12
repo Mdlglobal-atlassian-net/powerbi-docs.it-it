@@ -7,17 +7,19 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.author: mihart
+ms.date: 04/22/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436089"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867002"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creare e usare grafici combinati in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -34,6 +36,9 @@ I grafici combinati rappresentano un'ottima scelta nelle seguenti situazioni:
 * per verificare se una misura incontra la destinazione definita da un'altra misura
 * per risparmiare spazio nell'area di disegno.
 
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
+
 ### <a name="prerequisites"></a>Prerequisiti
 Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -43,7 +48,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selezione ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 
 
@@ -99,7 +104,7 @@ La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, pe
 
 ## <a name="add-titles-to-the-axes"></a>Aggiungere titoli agli assi
 1. Selezionare l'icona del rullo ![Icona del rullo](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro Formato.
-1. Selezionare la freccia rivolta verso il basso per espandere le opzioni relative all'**asse Y**.
+1. Selezionare la freccia rivolta verso il basso per espandere le opzioni relative all' **asse Y** .
 1. Per **Asse Y (colonna)** , impostare **Posizione** su **A sinistra**, **Titolo** su **Sì**, **Stile** su **Mostra solo titolo** e **Unità visualizzate** su **Milioni**.
 
    ![Esempio di asse Y nel grafico combinato](media/power-bi-visualization-combo-chart/power-bi-open-y.png)

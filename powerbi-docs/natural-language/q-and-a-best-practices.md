@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841918"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866852"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Procedure consigliate per ottimizzare Domande e risposte in Power BI
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Lo è ancora di più quando i dati restituiscono una risposta, proprio come fa Domande e risposte di Power BI.
@@ -195,8 +195,10 @@ Questa procedura si applica specificatamente a Domande e risposte e non ai repor
 
 Questo passaggio può essere importante. Anche con nomi di tabelle e colonne estremamente semplici, gli utenti di Domande e risposte pongono domande usando i primi termini che vengono loro in mente. Non scelgono da un elenco predefinito di colonne. Aggiungendo i sinonimi più probabili e frequenti, è possibile migliorare l'esperienza degli utenti con i report. Per aggiungere sinonimi, in Power BI Desktop passare a Visualizzazione modello, fare clic sulla scheda Modellazione e selezionare un campo o una tabella. Nel riquadro Proprietà è visualizzata la casella **Sinonimi**, in cui è possibile aggiungere sinonimi.
 
-
-
-![Sinonimi nel riquadro Proprietà di Domande e risposte](media/qna-modelling-pane-synonyms.png)
+![Sinonimi nel riquadro Proprietà di Domande e risposte](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Aggiungere i sinonimi con attenzione. L'aggiunta dello stesso sinonimo a più di una colonna o tabella può generare ambiguità. Domande e risposte, laddove possibile, usa il contesto per scegliere tra sinonimi ambigui, ma non tutte le domande presentano contesto sufficiente. Se gli utenti pongono la domanda "conta i clienti" e nel modello sono presenti tre elementi con il sinonimo "cliente", la risposta restituita potrebbe non essere quella prevista. In casi come questo, assicurarsi che il sinonimo primario sia univoco, poiché è quello che viene usato nella riformulazione. Ad esempio, la riformulazione "mostra il numero di record dei clienti archiviati" potrebbe avvisare l'utente dell'ambiguità suggerendo di porre la domanda in modo diverso.
+
+## <a name="next-steps"></a>Passaggi successivi
+
+[Introduzione a Domande e risposte di Power BI](q-and-a-intro.md)

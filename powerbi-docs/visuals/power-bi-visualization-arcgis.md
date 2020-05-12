@@ -8,20 +8,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/29/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77652543"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865691"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Creare mappe di ArcGIS Maps in Power BI Desktop
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa di ArcGIS Maps for Power BI. Quando un *progettista* condivide una mappa di ArcGIS Maps for Power BI con un collega, quest'ultimo potrà vederla e interagire con essa, ma non salvare le modifiche. Per altre informazioni sulla visualizzazione di una mappa di ArcGIS Maps, vedere [Interazione con le mappe ArcGIS in Power BI](power-bi-visualizations-arcgis.md).
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
 
 Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. È possibile scegliere tra mappe di base, tipi di posizione, temi, stili per i simboli e livelli di riferimento per creare visualizzazioni mappa ricche di dettagli e di grande impatto visivo. La combinazione di livelli di dati autorevoli su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nella visualizzazione.
 
@@ -63,7 +68,7 @@ Questa esercitazione usa Power BI Desktop e il [file Retail Analysis Sample PBIX
 
 1. Aprire **Retail Analysis Sample** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>Creare una visualizzazione mappa di ArcGIS Maps for Power BI
@@ -144,7 +149,7 @@ Vengono forniti quattro temi di mappa. Power BI seleziona automaticamente i temi
 <td>Traccia punti dati o confini riempiti sulla mappa in base al campo aggiunto al bucket Posizione.</td>
 </tr>
 <tr>
-<td>Mappa termica</td>
+<td>Heat Map</td>
 <td>Traccia l'intensità dei dati sulla mappa. Le aree di maggiore attività o valore sono rappresentate da colori più forti e luminosi. </td>
 </tr>
 <tr>
@@ -248,7 +253,7 @@ Ogni strumento ha un ruolo specifico per la selezione dei dati:
 
 <br/>
 
-## <a name="getting-help"></a>Risorse della Guida
+## <a name="getting-help"></a>Chiedere assistenza
 **Esri** fornisce una [documentazione completa](https://go.microsoft.com/fwlink/?LinkID=828772) nel set di funzionalità di **Mappe ArcGIS per Power BI**.
 
 È possibile porre domande, ottenere informazioni aggiornate, segnalare problemi e trovare risposte nel [thread della community di Power BI correlato a **Mappe ArcGIS per Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
@@ -274,10 +279,10 @@ In PowerBI.com gli amministratori tenant possono disattivare ArcGIS Maps for Pow
 Power BI Desktop supporta l'uso di **Criteri di gruppo** per disabilitare ArcGIS Maps for Power BI in tutti i computer distribuiti in un'organizzazione.
 
 <table>
-<tr><th>Attributo</th><th>valore</th>
+<tr><th>Attributo</th><th>Valore</th>
 </tr>
 <tr>
-<td>Key</td>
+<td>chiave</td>
 <td>Software\Policies\Microsoft\Power BI Desktop&lt;/td&gt;
 </tr>
 <tr>

@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: b5a3abd76cd8dd09c89ac62831b3389091ae3bd3
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268536"
 ---
 # <a name="administrators-learning-catalog"></a>Catalogo delle risorse di apprendimento per amministratori
@@ -20,11 +20,11 @@ ms.locfileid: "81268536"
 Nel catalogo seguente le conoscenze sono organizzate da quelle di base ai domini specifici e dalle più semplici alle più avanzate. Se il contenuto è disponibile in più formati, verrà comunicato all'utente in modo che possa scegliere il formato di training più adatto alle proprie esigenze.
 
 ## <a name="get-started"></a>Introduzione<a name="get-started"></a>
-| Contenuto | Descrizione  | Formato | Lunghezza |
+| Contenuto | Descrizione  | Format | Length |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------|--------|--------|
 | [Canale YouTube di Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos) | Canale YouTube con contenuto del team del prodotto Power BI di Microsoft | Video |        |
 ## <a name="deploy"></a>Distribuzione<a name="deploy"></a>
-| Contenuto | Descrizione  | Formato | Lunghezza |
+| Contenuto | Descrizione  | Format | Length |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------|--------|--------|
 | [Power BI Adoption Framework Webinar Part 1: Adoption Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Webinar sul framework di adozione di Power BI - Parte 1: Adozione Adottare una cultura basata sui dati)                                | Convincere l'organizzazione dell'importanza delle impostazioni cultura basate sui dati e registrarsi alla serie di webinar che illustra un framework di adozione per Power BI di Microsoft. L'adozione della business intelligence in modalità self-service è complessa e l'acquisizione degli strumenti è solo il primo passo del processo. Per il successo dell'adozione è necessario un cambiamento in termini di persone, processi e tecnologia. Questo webinar è il primo di una serie in cinque parti che sblocca il potenziale di Power BI per l'organizzazione. Nella parte 1 viene illustrato come creare un approccio strutturato per agevolare l'adozione di Power BI e passare a un modello basato sui dati per l'organizzazione.   | Webinar |                 |
 | [Power BI Adoption Framework Webinar Part 2: Governance](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Webinar sul framework di adozione di Power BI - Parte 2: Governance)  | Implementare correttamente l'adozione della business intelligence self-service di Microsoft Power BI. Il webinar illustra il ruolo della governance nell'adozione di Power BI. Vengono illustrati i diversi approcci di governance per i diversi tipi di soluzioni di business intelligence, oltre ai ruoli e alle responsabilità necessari per usare in modo efficace la business intelligence self-service.  | Webinar |                 |

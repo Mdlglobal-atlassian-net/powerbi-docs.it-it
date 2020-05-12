@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699269"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Usare i gateway personali in Power BI
@@ -36,7 +36,7 @@ La tabella seguente descrive le differenze tra un gateway dati locale e un gatew
 |Può eseguire l'installazione solo come amministratore del computer |Sì |No |
 |Gestione centralizzata di origini dati e gateway |Sì |No |
 |Importare dati e pianificare l'aggiornamento |Sì |Sì |
-|Supporto per DirectQuery |Sì |No |
+|Supporto di DirectQuery |Sì |No |
 |Supporto di LiveConnect per Analysis Services |Sì |No |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Installare il gateway dati locale (modalità personale)
@@ -73,29 +73,29 @@ La combinazione rapida per un gateway personale consente di ignorare i livelli d
 
 ## <a name="frequently-asked-questions-faq"></a>Domande frequenti
 
-**Domanda**: È possibile eseguire il gateway dati locale (modalità personale) contemporaneamente al gateway dati locale (precedentemente noto come versione aziendale del gateway)?
+**Domanda:** È possibile eseguire il gateway dati locale (modalità personale) contemporaneamente al gateway dati locale (precedentemente noto come versione aziendale del gateway)?
   
-**Risposta**: Sì, è possibile eseguirli contemporaneamente.
+**Risposta:** Sì, è possibile eseguirli contemporaneamente.
 
-**Domanda**: È possibile eseguire il gateway dati locale (modalità personale) come servizio?
+**Domanda:** È possibile eseguire il gateway dati locale (modalità personale) come servizio?
   
-**Risposta**: No. Il gateway dati locale (modalità personale) può essere eseguito solo come applicazione. Se è necessario eseguirlo come servizio o in modalità amministratore, occorre prendere in considerazione il [gateway dati locale](/data-integration/gateway/service-gateway-onprem) (precedentemente noto come gateway aziendale).
+**Risposta:** No. Il gateway dati locale (modalità personale) può essere eseguito solo come applicazione. Se è necessario eseguirlo come servizio o in modalità amministratore, occorre prendere in considerazione il [gateway dati locale](/data-integration/gateway/service-gateway-onprem) (precedentemente noto come gateway aziendale).
 
-**Domanda**: Con quale frequenza viene aggiornato il gateway dati locale (modalità personale)?
+**Domanda:** Con quale frequenza viene aggiornato il gateway dati locale (modalità personale)?
   
-**Risposta**: l'obiettivo è aggiornare il gateway personale ogni mese.
+**Risposta:** l'obiettivo è aggiornare il gateway personale ogni mese.
 
-**Domanda**: Per quale motivo viene chiesto di aggiornare le credenziali?
+**Domanda:** Per quale motivo viene chiesto di aggiornare le credenziali?
   
-**Risposta**: molte situazioni possono attivare una richiesta di credenziali, la più comune delle quali è la reinstallazione del gateway dati locale (modalità personale) in un computer diverso rispetto al gateway Power BI personale. Potrebbe anche esserci un problema nell'origine dati e Power BI non è riuscito a eseguire una connessione di prova oppure si è verificato un timeout o un errore di sistema. Per aggiornare le credenziali nel servizio Power BI, selezionare l'icona dell'ingranaggio, quindi **Impostazioni** > **Set di dati**. Individuare il set di dati in questione e selezionare **Credenziali origine dati**.
+**Risposta:** molte situazioni possono attivare una richiesta di credenziali, la più comune delle quali è la reinstallazione del gateway dati locale (modalità personale) in un computer diverso rispetto al gateway Power BI personale. Potrebbe anche esserci un problema nell'origine dati e Power BI non è riuscito a eseguire una connessione di prova oppure si è verificato un timeout o un errore di sistema. Per aggiornare le credenziali nel servizio Power BI, selezionare l'icona dell'ingranaggio, quindi **Impostazioni** > **Set di dati**. Individuare il set di dati in questione e selezionare **Credenziali origine dati**.
 
-**Domanda**: Per quanto tempo il gateway personale precedente sarà offline durante l'aggiornamento?
+**Domanda:** Per quanto tempo il gateway personale precedente sarà offline durante l'aggiornamento?
   
-**Risposta**: L'aggiornamento del gateway personale alla nuova versione richiederà solo alcuni minuti.
+**Risposta:** L'aggiornamento del gateway personale alla nuova versione richiederà solo alcuni minuti.
 
-**Domanda**: Sto usando gli script R e Python. Sono supportati?
+**Domanda:** Sto usando gli script R e Python. Sono supportati?
   
-**Risposta**: Gli script R e Python sono supportati per la modalità personale.
+**Risposta:** Gli script R e Python sono supportati per la modalità personale.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

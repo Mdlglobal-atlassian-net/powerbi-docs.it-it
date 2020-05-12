@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802096"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841711"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -24,6 +24,14 @@ per le relative informazioni incluse nelle "Novità", vedere:
 
 >[!NOTE]
 >Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>Aprile 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>La condivisione dalle aree di lavoro è ora disponibile
+È stata aggiunta la possibilità di condividere report e dashboard dalle aree di lavoro. È ora possibile condividere il contenuto da "Area di lavoro personale" e da altre aree di lavoro se il proprietario dell'area di lavoro lo consente, esattamente come nel servizio Power BI. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>I dashboard ora supportano la modalità schermo intero (iOS e Android)
+Ora è possibile visualizzare i dashboard in modalità schermo intero, per usufruire di più spazio per il contenuto del dashboard. 
 
 ## <a name="march-2020"></a>Marzo 2020
 
@@ -470,7 +478,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di lu
 #### <a name="all-devices"></a>Tutti i dispositivi
 **Aggiungere app ai Preferiti** È già possibile aggiungere un dashboard ai Preferiti. Recentemente [in Power BI sono state aggiunte le app](../../service-create-distribute-apps.md) ed è ora possibile aggiungere anche le app ai Preferiti. 
 
-### <a name="may-2017"></a>Maggio 2017
+### <a name="may-2017"></a>maggio 2017
 #### <a name="all-devices"></a>Tutti i dispositivi
 **Nuovo menu: Condivisi con l'utente corrente** Passare al menu Condivisi con l'utente corrente per visualizzare tutto il contenuto che è stato condiviso con l'utente.
 
@@ -550,7 +558,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di ge
 #### <a name="ios"></a>iOS
 **Autenticazione SSRS con l'anteprima di Active Directory Federation Services (ADFS)** È ora possibile accedere ai server di SQL Server Reporting Services in locale dal dispositivo mobile con l'account aziendale. Altre informazioni sull'[uso di OAuth per la connessione ai server SSRS](mobile-oauth-ssrs.md).
 
-#### <a name="android"></a>Telefoni
+#### <a name="android"></a>Android
 **Autenticazione SSRS con l'anteprima di Active Directory Federation Services (ADFS)** È ora possibile accedere ai server di SQL Server Reporting Services in locale dal dispositivo mobile con l'account aziendale. Altre informazioni sull'[uso di OAuth per la connessione ai server SSRS](mobile-oauth-ssrs.md).
 
 **Novità e miglioramenti: Annotare e condividere le informazioni rapidamente** La condivisione e l'annotazione sono ora completamente funzionali nei dispositivi Android. Il menu migliorato rende più semplice e rapido aggiungere annotazioni e condividere informazioni ed è anche possibile condividere un report con annotazioni o direttamente dall'app Power BI.
@@ -584,7 +592,7 @@ Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario 
 
 È ora possibile aggiornare i dati di Apple Watch direttamente dall'app Watch. Nella pagina di indice del dashboard premere forte per aggiornare i dati. Per il corretto funzionamento, l'app Power BI per dispositivi mobili deve essere in esecuzione in background nell'iPhone.
 
-#### <a name="android"></a>Telefoni
+#### <a name="android"></a>Android
 **URL personalizzato nel riquadro immagine**
 
 Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario del dashboard, quando si tocca il riquadro si passa direttamente a tale URL senza aprire il riquadro nella modalità messa a fuoco. In più, i riquadri del dashboard che contengono gli URL personalizzati predefiniti possono ora reindirizzare i lettori a report all'interno dell'app.
@@ -715,7 +723,7 @@ Il Centro notifiche dell'app per dispositivi mobili di Power BI mostra nuovi dat
 * **Report per dispositivi mobili di SQL Server 2016 con tema**: vedere i temi per i report per dispositivi mobili nel dispositivo.
 * **Filtro geografico**: è possibile filtrare i report in base alla località corrente.
 
-### <a name="april-2016"></a>Aprile 2016
+### <a name="april-2016"></a>aprile 2016
 Per altri dettagli, vedere [Blog di Microsoft Power BI: Power BI Mobile Apps Update](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) (Aggiornamento per le app Power BI per dispositivi mobili).
 
 #### <a name="all-apps"></a>Tutte le app
@@ -768,7 +776,7 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 **Raccolta report** Aprire i report direttamente nella raccolta report.​
 
 ### <a name="february-2016"></a>Febbraio 2016
-#### <a name="android"></a>Telefoni
+#### <a name="android"></a>Android
 Visualizzare i dashboard in [modalità orizzontale sui telefoni Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>App Power BI per dispositivi Windows 10
@@ -850,7 +858,7 @@ Leggere il [post di blog su Power BI per dispositivi mobili di metà ottobre](ht
 ### <a name="september-2015"></a>Settembre 2015
 Miglioramenti delle app Power BI per dispositivi mobili: Android, iOS (iPhone e iPad) e Windows. Leggere il [post di blog su Power BI per dispositivi mobili di metà settembre](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
-#### <a name="android"></a>Telefoni
+#### <a name="android"></a>Android
 * Supporto per le aree di lavoro di gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
 * Supporto per gli utenti non autenticati:  nei rari casi in cui gli utenti non riescono ad accedere all'app, è stato aggiunto un modo pratico e veloce per contattare il supporto e inviare commenti e suggerimenti.
 * Miglioramento dell'esperienza utente per l'accesso ai dashboard con la sicurezza basata sui ruoli.          
@@ -871,4 +879,4 @@ Miglioramenti delle app Power BI per dispositivi mobili: Android, iOS (iPhone e 
 * Miglioramento del rendering delle tessere mappa nello stato attivo per ingrandire l'area dello schermo.
 * Miglioramento dell'esperienza utente per l'accesso ai dashboard con la sicurezza basata sui ruoli. 
 * Una nuova funzionalità consente di spostarsi avanti e indietro tra i riquadri del dashboard esplorandoli direttamente nello stato attivo senza dover tornare al dashboard per selezionare il riquadro successivo.
-* Ulteriori miglioramenti alla stabilità e alle prestazioni. 
+* Ulteriori miglioramenti alla stabilità e alle prestazioni.

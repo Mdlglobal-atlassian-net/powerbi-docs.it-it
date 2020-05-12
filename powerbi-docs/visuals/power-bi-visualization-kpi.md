@@ -3,32 +3,28 @@ title: Oggetti visivi indicatore di prestazioni chiave (KPI)
 description: Creare oggetti visivi indicatore di prestazioni chiave (KPI) in Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974988"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865174"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Creare oggetti visivi indicatore di prestazioni chiave (KPI) in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Per altre informazioni sugli indicatori KPI, vedere [Indicatori di prestazioni chiave (KPI) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
 
-Il video seguente mostra come creare singoli oggetti visivi di metrica: misuratori, schede e indicatori KPI.
-   > [!NOTE]
-   > Questo video usa una versione precedente di Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Quando usare un indicatore KPI
 
@@ -55,6 +51,9 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 1. Aprire il **file PBIX di Retail Analysis Sample** in visualizzazione report. ![Screenshot dell'icona della visualizzazione report.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Selezionare **+** per aggiungere una nuova pagina. ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.    
 
 ## <a name="how-to-create-a-kpi"></a>Come creare un indicatore KPI
 
@@ -85,7 +84,7 @@ In questo esempio verrà creato un indicatore KPI che misura lo stato di avanzam
 
 1. È facoltativamente possibile formattare l'indicatore KPI selezionando l'icona del rullo per aprire il riquadro formattazione.
 
-    * **Indicatore** - controlla l'unità di visualizzazione dell'indicatore e i decimali.
+    * **Indicatore**: controlla l'unità di visualizzazione dell'indicatore e i decimali.
 
     * **Asse tendenza**: se impostato su **Attiva**, l'oggetto visivo mostra l'asse della tendenza come sfondo dell'oggetto visivo indicatore KPI.  
 

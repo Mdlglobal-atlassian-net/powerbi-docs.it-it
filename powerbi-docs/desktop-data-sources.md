@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207253"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866818"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 
@@ -45,7 +45,7 @@ La finestra di dialogo **Recupera dati** organizza i tipi di dati nelle categori
 * Power Platform
 * Azure
 * Servizi online
-* Altri
+* Altro
 
 La categoria **Tutti** include tutti i tipi di connessione dati di tutte le categorie.
 
@@ -72,7 +72,7 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Database SQL Server
 * Database di Access
 * Database di SQL Server Analysis Services
-* Oracle Database
+* Database Oracle
 * Database IBM DB2
 * Database Informix IBM (Beta)
 * IBM Netezza
@@ -125,7 +125,7 @@ L'immagine seguente mostra la finestra **Recupera dati** per **Power Platform**.
 
 La categoria **Azure** fornisce le connessioni dati seguenti:
 
-* database SQL di Azure
+* Database SQL di Azure
 * Azure SQL Data Warehouse
 * Database di Azure Analysis Services
 * Database di Azure per PostgreSQL
@@ -139,7 +139,7 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * HDInsight Interactive Query
 * Esplora dati di Azure (Kusto)
 * Gestione costi di Azure
-* Azure Time Series Insights (Beta)
+
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
@@ -191,6 +191,9 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Quick Base
 * TeamDesk (beta)
 * Workplace Analytics (Beta)
+* Projectplace for Power BI (Beta)
+* Webtrends Analytics (Beta)
+* Zoho Creator (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 
@@ -213,6 +216,7 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
+* Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
 * Jamf Pro (Beta)
@@ -220,13 +224,15 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
-* Siteimprove (beta)
+* Siteimprove
 * SurveyMonkey (Beta)
-* Tenforce (Smart)List (Beta)
 * TIBCO(R) Data Virtualization (Beta)
 * Vena (beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
+* Tenforce (Smart)List
+* Shortcuts Business Insights (Beta)
+* Vessel Insight (Beta)
 * Query vuota
 
 La figura seguente mostra la finestra **Recupera dati** per **Altro**.
