@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464594"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278814"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Oggetti visivi dell'organizzazione in Power BI
 
@@ -37,13 +37,11 @@ Per altre informazioni su come amministrare, distribuire e gestire gli oggetti v
 > [!WARNING]
 > Un oggetto visivo di Power BI installato da un file può contenere codice che comporta rischi per la sicurezza o la privacy. Assicurarsi che l'autore e l'origine del file dell'oggetto visivo di Power BI siano attendibili prima di distribuirlo nel repository dell'organizzazione.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 Esistono diverse considerazioni e limitazioni di cui è necessario tenere conto.
 
 Amministratore:
-
-* Non sono supportati gli oggetti visivi di Power BI legacy (ad esempio gli oggetti visivi di Power BI non creati sulla base delle nuove API con controllo della versione)
 
 * Se un oggetto visivo di Power BI proveniente da ApSource o un file viene eliminato dal repository, non verrà più eseguito il rendering di tutti i report esistenti che usano l'oggetto visivo eliminato. L'operazione di eliminazione dal repository non è reversibile. Per disabilitare temporaneamente un oggetto visivo di Power BI proveniente da ApSource o un file, usare la funzionalità "Disabilita".
 
@@ -55,7 +53,7 @@ Utenti finali:
 
 * Non viene eseguito il rendering degli oggetti visivi Visio, PowerApps, Mappa e GlobeMap dal Marketplace AppSource se vengono distribuiti tramite il repository dell'organizzazione.
 
-## <a name="troubleshoot"></a>Risolvere problemi
+## <a name="troubleshoot"></a>Risoluzione dei problemi
 
 Per informazioni sulla risoluzione dei problemi, vedere [Risoluzione dei problemi relativi agli oggetti visivi di Power BI](power-bi-custom-visuals-troubleshoot.md).
 

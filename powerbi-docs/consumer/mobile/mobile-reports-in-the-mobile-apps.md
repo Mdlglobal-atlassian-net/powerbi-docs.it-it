@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841734"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279504"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app per dispositivi mobili di Power BI
 Si applica a:
@@ -27,7 +27,7 @@ Si applica a:
 
 Un report di Power BI è una vista interattiva dei dati con elementi visivi che rappresentano conclusioni e approfondimenti diversi ottenuti da tali dati. La visualizzazione dei report nella app Power BI per dispositivi mobili è il terzo passaggio in un processo in tre fasi:
 
-1. [Creare report in Power BI Desktop](../../desktop-report-view.md). In Power BI Desktop è persino possibile [ottimizzare un report per i telefoni](mobile-apps-view-phone-report.md).
+1. [Creare report in Power BI Desktop](../../create-reports/desktop-report-view.md). In Power BI Desktop è persino possibile [ottimizzare un report per i telefoni](mobile-apps-view-phone-report.md).
 2. Pubblicare i report nel servizio Power BI [(https://powerbi.com)](https://powerbi.com) o in [Server di report di Power BI](../../report-server/get-started.md).  
 3. Interagire con i report nelle app Power BI per dispositivi mobili.
 
@@ -100,7 +100,7 @@ Gli autori del report possono definire gerarchie nei dati e relazioni tra le pag
 Quando si tocca una parte specifica di un oggetto visivo e quindi si tocca l'opzione *Drill-through*, Power BI passa a un'altra pagina nel report, filtrata in base al valore toccato. L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere l'opzione di cui eseguire il drill-through. Il pulsante Indietro consente di tornare alla pagina precedente.
 
 
-Per altre informazioni, vedere [come aggiungere il drill-through in Power BI Desktop](../../desktop-drillthrough.md).
+Per altre informazioni, vedere [come aggiungere il drill-through in Power BI Desktop](../../create-reports/desktop-drillthrough.md).
    
    > [!IMPORTANT]
    > Nelle app Power BI per dispositivi mobili, le azioni di drill negli oggetti visivi matrice e tabella vengono abilitate solo tramite i valori delle celle e non tramite le intestazioni di colonna o di riga.
@@ -164,6 +164,5 @@ Per informazioni su come modificare queste impostazioni, vedere le [impostazioni
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)
-* [Creare una versione di un report ottimizzata per i telefoni](../../desktop-create-phone-report.md)
+* [Creare una versione di un report ottimizzata per i telefoni](../../create-reports/desktop-create-phone-report.md)
 * Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-

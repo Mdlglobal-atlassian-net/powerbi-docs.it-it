@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435813"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279550"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -29,7 +29,7 @@ Si applica a:
 > [!WARNING]
 > Le notifiche di avviso basate sui dati forniscono informazioni sui dati. Se il dispositivo viene rubato, è consigliabile disattivare tutte le regole di avviso basate sui dati usando il servizio Power BI. 
 > 
-> Altre informazioni sulla [gestione degli avvisi per i dati nel servizio Power BI](../../service-set-data-alerts.md).
+> Altre informazioni sulla [gestione degli avvisi per i dati nel servizio Power BI](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ Si applica a:
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Gestire gli avvisi nell'iPhone o iPad
-È possibile gestire i singoli avvisi nel dispositivo mobile o [tutti gli avvisi nel servizio Power BI](../../service-set-data-alerts.md).
+È possibile gestire i singoli avvisi nel dispositivo mobile o [tutti gli avvisi nel servizio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. In un dashboard toccare il riquadro di tipo numero o misuratore che contiene un avviso.  
    
@@ -92,7 +92,7 @@ Si applica a:
 8. Toccare **Salva**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Gestire gli avvisi in un dispositivo Android
-È possibile gestire i singoli avvisi nell'app Power BI per dispositivi mobili o [tutti gli avvisi nel servizio Power BI](../../service-set-data-alerts.md).
+È possibile gestire i singoli avvisi nell'app Power BI per dispositivi mobili o [tutti gli avvisi nel servizio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. In un dashboard toccare il riquadro di tipo scheda o misuratore che contiene un avviso.  
 2. Toccare l'icona a forma di campanello ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ Si applica a:
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Gestire gli avvisi per i dati in un dispositivo Windows
-È possibile gestire i singoli avvisi nell'app Power BI per dispositivi mobili o [tutti gli avvisi nel servizio Power BI](../../service-set-data-alerts.md).
+È possibile gestire i singoli avvisi nell'app Power BI per dispositivi mobili o [tutti gli avvisi nel servizio Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. In un dashboard toccare il riquadro di tipo scheda o misuratore che contiene un avviso.  
 2. Toccare l'icona a forma di campanello ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ Le origini dati vengono spesso impostate in modo da essere aggiornate quotidiana
 * Gli avvisi non funzionano con i riquadri contenenti dati di streaming.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Gestire gli avvisi nel servizio Power BI](../../service-set-data-alerts.md)
+* [Gestire gli avvisi nel servizio Power BI](../../create-reports/service-set-data-alerts.md)
 * [Centro notifiche di Power BI per dispositivi mobili](mobile-apps-notification-center.md)
 * Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-

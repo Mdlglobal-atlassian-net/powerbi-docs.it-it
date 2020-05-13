@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492607"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279389"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI Embedded
 
@@ -59,7 +59,7 @@ Quando si incorporano più report nello stesso iFrame, non generare un nuovo iFr
 
 Le organizzazioni con capacità Power BI Premium o Power BI Embedded possono sfruttare la memorizzazione di query nella cache per velocizzare la produzione di report associati a un set di dati.
 
-[Altre informazioni sulla memorizzazione di query nella cache in Power BI](../../power-bi-query-caching.md).
+[Altre informazioni sulla memorizzazione di query nella cache in Power BI](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Precaricamento
 
@@ -99,7 +99,7 @@ Il rendering dei dati memorizzati nella cache viene eseguito quando disponibile 
 Per esaminare le prestazioni degli elementi del report, è possibile usare l'analizzatore prestazioni in Power BI Desktop.
 L'analizzatore prestazioni consente di visualizzare e registrare log che misurano le prestazioni di ogni report.
 
-[Altre informazioni sull'analizzatore prestazioni](../../desktop-performance-analyzer.md).
+[Altre informazioni sull'analizzatore prestazioni](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Ricordarsi sempre di confrontare le prestazioni del report incorporato con le prestazioni in powerbi.com. Questo può essere utile per comprendere l'origine dei problemi di prestazioni
