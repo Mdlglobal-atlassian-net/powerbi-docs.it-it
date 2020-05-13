@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525331"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274858"
 ---
 # <a name="dataset-impact-analysis"></a>Analisi di impatto del set di dati
 
@@ -54,7 +54,7 @@ Le metriche di utilizzo sono relative agli ultimi 30 giorni, escluso il giorno c
 
 ## <a name="notify-contacts"></a>Inviare una notifica ai contatti
 
-Se è stata apportata una modifica a un set di dati o si sta pensando di farlo, potrebbe essere necessario contattare gli utenti interessati per informarli. Quando si invia una notifica ai contatti, viene inviato un messaggio di posta elettronica agli [elenchi di contatti](../service-create-the-new-workspaces.md#workspace-contact-list) di tutte le aree di lavoro interessate. Il nome del mittente viene visualizzato nel messaggio di posta elettronica in modo che i contatti possano trovarlo e rispondere in un nuovo thread di posta elettronica. 
+Se è stata apportata una modifica a un set di dati o si sta pensando di farlo, potrebbe essere necessario contattare gli utenti interessati per informarli. Quando si invia una notifica ai contatti, viene inviato un messaggio di posta elettronica agli [elenchi di contatti](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) di tutte le aree di lavoro interessate. Il nome del mittente viene visualizzato nel messaggio di posta elettronica in modo che i contatti possano trovarlo e rispondere in un nuovo thread di posta elettronica. 
 
 1. Fare clic su **Notifica i contatti** nel riquadro laterale Analisi di impatto. Verrà visualizzata la finestra di dialogo Notifica i contatti.
 
@@ -89,5 +89,6 @@ Quando si apporta una modifica a un set di dati in Power BI Desktop e quindi lo 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Introduzione ai set di dati in aree di lavoro diverse (anteprima)](../service-datasets-across-workspaces.md)
+* [Introduzione ai set di dati in aree di lavoro diverse (anteprima)](../connect-data/service-datasets-across-workspaces.md)
 * [Derivazione dei dati](service-data-lineage.md)
+

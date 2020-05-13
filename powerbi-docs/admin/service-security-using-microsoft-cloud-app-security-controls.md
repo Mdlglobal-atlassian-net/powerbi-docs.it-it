@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537394"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131982"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Uso dei controlli di Microsoft Cloud App Security in Power BI (anteprima)
 
@@ -60,7 +60,7 @@ Cloud App Security dispone anche di due criteri di rilevamento predefiniti dedic
 
 Le etichette di riservatezza consentono di classificare e proteggere contenuti sensibili per consentire agli utenti di un'organizzazione di collaborare con partner esterni, pur continuando a prestare attenzione ai contenuti e ai dati sensibili. 
 
-È possibile leggere l'articolo sulle [etichette di riservatezza in Power BI](../designer/service-security-apply-data-sensitivity-labels.md), che illustra in dettaglio l'uso di queste etichette per Power BI. Vedere di seguito per un [esempio di criterio di Power BI basato sulle etichette di riservatezza](#example).
+È possibile leggere l'articolo sulle [etichette di riservatezza in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md), che illustra in dettaglio l'uso di queste etichette per Power BI. Vedere di seguito per un [esempio di criterio di Power BI basato sulle etichette di riservatezza](#example).
 
 ## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Rilevamenti di Microsoft Cloud App Security predefiniti per Power BI
 
@@ -136,7 +136,7 @@ In questo articolo è stato illustrato come Microsoft Cloud App Security può of
 
 * [Panoramica della protezione dei dati in Power BI](service-security-data-protection-overview.md)
 * [Abilitare le etichette di riservatezza dei dati in Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Applicare le etichette di riservatezza dei dati in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Applicare le etichette di riservatezza dei dati in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 Possono essere interessanti anche gli articoli seguenti relativi ad Azure e alla sicurezza:
 

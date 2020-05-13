@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865254"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272857"
 ---
 # <a name="create-and-use-funnel-charts"></a>Creare e usare grafici a imbuto
 
@@ -94,20 +94,23 @@ Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nel
      
      ![Dettagli per la barra di proposta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Salvare il report](../service-report-save.md).
+6. [Salvare il report](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../create-reports/power-bi-report-add-filter.md).
 
 Evidenziando una barra in un grafico a imbuto viene applicato il filtro incrociato nelle altre visualizzazioni della pagina del report e viceversa. Proseguire aggiungendo altri oggetti visivi alla pagina del report che contiene il grafico a imbuto.
 
 1. Nel grafico a imbuto selezionare la barra **Proposta**. per evidenziare in modo incrociato le altre visualizzazioni nella pagina. Per selezionare più elementi, premere CTRL.
    
    ![Breve video che illustra interazioni con oggetti visivi](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](../service-reports-visual-interactions.md).
+2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Grafici a misuratore radiale in Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

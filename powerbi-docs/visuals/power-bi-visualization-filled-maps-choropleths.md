@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865461"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272903"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creare e usare mappe colorate (coropletiche) in Power BI
 
@@ -92,12 +92,12 @@ Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://downl
 7. L'ombreggiatura applicata alla mappa colorata delle valutazioni è di colore verde e rosso, in cui il rosso rappresenta valori di valutazione inferiori e il verde valori superiori, corrispondenti a una valutazione più positiva.  Per visualizzare altri dettagli, trascinare un campo nell'area delle descrizioni comandi.  In questo esempio è stato aggiunto il campo **SalesFact** > **Sentiment gap**. L'evidenziazione dello stato dell'Idaho (ID) indica che il gap del sentiment è basso, ovvero 6.
    ![mappa colorata che mostra le descrizioni comandi per l'Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [Salvare il report](../service-report-save.md).
+10. [Salvare il report](../create-reports/service-report-save.md).
 
 Power BI consente un ampio controllo sull'aspetto della mappa colorata. Sperimentare con questi controlli per i colori dei dati fino a ottenere l'aspetto voluto. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../create-reports/power-bi-report-add-filter.md).
 
 Evidenziando una località in una mappa colorata viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report e viceversa.
 
@@ -136,3 +136,5 @@ Per ulteriori informazioni sulle visualizzazioni mappa, vedere [Suggerimenti e c
 [Forme mappa](desktop-shape-map.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

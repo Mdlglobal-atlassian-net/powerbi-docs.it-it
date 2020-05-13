@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220071"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278860"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualizzare report e indicatori KPI locali dei server di report nelle app Power BI per dispositivi mobili
 
@@ -107,7 +107,7 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
   > Attualmente l'esecuzione di drill-down e drill-up non è abilitata nei report di Power BI in un Server di report di Power BI.
   
     ![Report di Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* In Power BI Desktop, i proprietario dei report possono [ottimizzare un report](../../desktop-create-phone-report.md) per le app Power BI per dispositivi mobili. Sul telefono cellulare, i report ottimizzati hanno un layout e un'icona speciale, ![Icona del report ottimizzato di Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png).
+* In Power BI Desktop, i proprietario dei report possono [ottimizzare un report](../../create-reports/desktop-create-phone-report.md) per le app Power BI per dispositivi mobili. Sul telefono cellulare, i report ottimizzati hanno un layout e un'icona speciale, ![Icona del report ottimizzato di Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png).
   
     ![Report ottimizzato di Power BI per dispositivi mobili](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Toccare un indicatore KPI per visualizzarlo in modalità messa a fuoco.
@@ -133,4 +133,3 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
 ## <a name="next-steps"></a>Passaggi successivi
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)  
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

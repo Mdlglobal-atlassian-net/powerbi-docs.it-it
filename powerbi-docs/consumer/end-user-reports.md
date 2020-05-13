@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114237"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277457"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 
@@ -76,7 +76,7 @@ Oppure si può essere un *consumer*, ovvero una persona che riceve i report da a
 
 * Iniziare con una [presentazione del servizio Power BI](end-user-basic-concepts.md) in cui viene spiegato dove trovare i report e i relativi strumenti.
 * Informazioni su come [aprire un report](end-user-report-open.md) e su tutte le [interazioni disponibili per i consumer](end-user-reading-view.md).
-* Per acquisire familiarità con i report, eseguire la presentazione di uno degli [esempi](../sample-tutorial-connect-to-the-samples.md) forniti.  
+* Per acquisire familiarità con i report, eseguire la presentazione di uno degli [esempi](../create-reports/sample-tutorial-connect-to-the-samples.md) forniti.  
 * Per vedere il set di dati usato nel report e i dashboard contenenti gli oggetti visivi del report (*elementi aggiunti*), vedere [Visualizzare il contenuto correlato nel servizio Power BI](end-user-related.md).
 
 > [!TIP]
@@ -86,3 +86,4 @@ Oppure si può essere un *consumer*, ovvero una persona che riceve i report da a
 
 [Aprire e visualizzare un report](end-user-report-open.md)    
 [Dashboard nel servizio Power BI](end-user-dashboards.md)
+

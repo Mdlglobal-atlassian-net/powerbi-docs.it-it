@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145140"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Pianificazione della capacità per le funzionalità di analisi incorporata di Power BI
 
@@ -51,7 +51,7 @@ Di seguito sono riportati alcuni esempi che illustrano come è possibile usare l
 
 Per vedere gli effetti del test di carico nell'app per le metriche dopo l'esecuzione del test, seguire le istruzioni riportate di seguito. Aspettarsi un ritardo fino a 15 minuti tra il momento in cui il test inizia a generare il carico e il momento in cui il carico è visibile nelle metriche.
 
-1. Espandere la scheda **Set di dati** della pagina di destinazione dell'app per le [metriche](../../service-admin-premium-monitor-capacity.md).
+1. Espandere la scheda **Set di dati** della pagina di destinazione dell'app per le [metriche](../../admin/service-admin-premium-monitor-capacity.md).
 2. Avviare un aggiornamento su richiesta facendo clic su **Aggiorna ora**. Questa operazione deve essere eseguita dagli amministratori.
 
     ![Power BI Premium Capacity Metrics](media/embedded-capacity-planning/embedded-capacity-planning.png)

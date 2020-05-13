@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260452"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278331"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Linee guida per le relazioni molti-a-molti
 
@@ -161,7 +161,7 @@ L'oggetto visivo presenta un risultato accurato. Tuttavia, l'utilità del modell
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Indicazioni per la correlazione di fatti molti-a-molti
 
-In genere, non è consigliabile correlare due tabelle di tipo fatto direttamente usando la cardinalità molti-a-molti. Il motivo principale è che il modello non garantirà flessibilità nelle modalità di filtro o raggruppamento degli oggetti visivi dei report. Nell'esempio, negli oggetti visivi è possibile filtrare o raggruppare solo in base alla colonna **OrderID** della tabella **Order**. Un ulteriore motivo è correlato alla qualità dei dati. Se i dati sono soggetti a problemi di integrità, è possibile che alcune righe vengano omesse durante l'esecuzione di query a causa della natura della _relazione debole_. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../desktop-relationships-understand.md#relationship-evaluation).
+In genere, non è consigliabile correlare due tabelle di tipo fatto direttamente usando la cardinalità molti-a-molti. Il motivo principale è che il modello non garantirà flessibilità nelle modalità di filtro o raggruppamento degli oggetti visivi dei report. Nell'esempio, negli oggetti visivi è possibile filtrare o raggruppare solo in base alla colonna **OrderID** della tabella **Order**. Un ulteriore motivo è correlato alla qualità dei dati. Se i dati sono soggetti a problemi di integrità, è possibile che alcune righe vengano omesse durante l'esecuzione di query a causa della natura della _relazione debole_. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Anziché correlare direttamente le tabelle di tipo fatto, è consigliabile adottare i principi di progettazione dello [schema star](star-schema.md). A tale scopo, aggiungere tabelle di tipo dimensione. Le tabelle di tipo dimensione vengono quindi correlate alle tabelle di tipo fatto usando relazioni uno-a-molti. Questo approccio di progettazione è affidabile perché offre opzioni di reporting flessibili. Consente infatti di filtrare o raggruppare in base a una qualsiasi delle colonne di tipo dimensione e di riepilogare qualsiasi tabella di tipo fatto correlata.
 
@@ -184,7 +184,7 @@ L'applicazione dei principi di progettazione di uno schema star offre i vantaggi
 - Gli oggetti visivi del report possono _filtrare o raggruppare_ in base a qualsiasi colonna visibile delle tabelle di tipo dimensione
 - Gli oggetti visivi del report possono _riepilogare_ qualsiasi colonna visibile delle tabelle di tipo fatto
 - I filtri applicati alle tabelle **OrderLine**, **OrderDate** o **Product** verranno propagati a entrambe le tabelle di tipo fatto
-- Tutte le relazioni sono uno-a-molti e ogni relazione è una _relazione forte_. I problemi di integrità dei dati non verranno mascherati. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../desktop-relationships-understand.md#relationship-evaluation).
+- Tutte le relazioni sono uno-a-molti e ogni relazione è una _relazione forte_. I problemi di integrità dei dati non verranno mascherati. Per altre informazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Correlare fatti con granularità più elevata
 
@@ -209,7 +209,7 @@ Una relazione tra le tabelle **Date** e **Target** deve essere una relazione uno
 
 È tuttavia necessario prestare attenzione per garantire che i filtri a livello di mese o data producano un risultato significativo. Senza alcuna logica di calcolo specifica, gli oggetti visivi del report possono segnalare che le date di destinazione sono letteralmente il primo giorno di ogni anno. Tutti gli altri giorni, e tutti i mesi ad eccezione di gennaio, riepilogheranno la quantità di destinazione come BLANK.
 
-L'oggetto visivo matrice seguente illustra cosa accade quando l'utente del report esegue il drill-down da un anno ai relativi mesi. L'oggetto visivo sta riepilogando la colonna **TargetQuantity** (l'opzione [Mostra elementi senza dati](../desktop-show-items-no-data.md) è stata abilitata per le righe della matrice).
+L'oggetto visivo matrice seguente illustra cosa accade quando l'utente del report esegue il drill-down da un anno ai relativi mesi. L'oggetto visivo sta riepilogando la colonna **TargetQuantity** (l'opzione [Mostra elementi senza dati](../create-reports/desktop-show-items-no-data.md) è stata abilitata per le righe della matrice).
 
 ![Un oggetto visivo matrice mostra che la quantità di destinazione dell'anno 2020 è pari a 270. Se espanso per mostrare i mesi del 2020, gennaio è pari a 270 e ogni altra quantità di destinazione a livello di mese è BLANK.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Quando occorre correlare una tabella di tipo dimensione a una tabella di tipo fa
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
+- [Relazioni nei modelli in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

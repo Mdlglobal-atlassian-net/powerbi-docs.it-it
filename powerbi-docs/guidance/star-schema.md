@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273455"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
@@ -42,7 +42,7 @@ Si tenga presente che ogni oggetto visivo di report Power BI genera una query ch
 - Le tabelle delle dimensioni supportano il _filtraggio_ e il _raggruppamento_
 - Le tabelle dei fatti supportano la _generazione di riepiloghi_
 
-Non è presente alcuna proprietà di tabella che i modeler impostano per configurare il tipo di tabella dimensione o fact. Il tipo è determinato dalle relazioni tra modelli. Una relazione tra modelli stabilisce un percorso di propagazione dei filtri tra due tabelle ed è la proprietà **Cardinality** della relazione a determinare il tipo di tabella. Una cardinalità di relazione comune è _uno-a-molti_ o il relativo inverso _molti-a-uno_. Il lato "uno" è sempre rappresentato da una tabella di tipo dimensione mentre il lato "molti" corrisponde sempre a una tabella di tipo fatto. Per altre informazioni sulle relazioni, vedere [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md).
+Non è presente alcuna proprietà di tabella che i modeler impostano per configurare il tipo di tabella dimensione o fact. Il tipo è determinato dalle relazioni tra modelli. Una relazione tra modelli stabilisce un percorso di propagazione dei filtri tra due tabelle ed è la proprietà **Cardinality** della relazione a determinare il tipo di tabella. Una cardinalità di relazione comune è _uno-a-molti_ o il relativo inverso _molti-a-uno_. Il lato "uno" è sempre rappresentato da una tabella di tipo dimensione mentre il lato "molti" corrisponde sempre a una tabella di tipo fatto. Per altre informazioni sulle relazioni, vedere [Relazioni nei modelli in Power BI Desktop](../transform-model/desktop-relationships-understand.md).
 
 ![Schema a stella concettuale](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Questo approccio di progettazione basato su relazioni molti-a-molti è ben docum
 Per altre informazioni sulla progettazione di uno schema a stella o di un modello di Power BI, vedere gli articoli seguenti:
 
 - [Articolo di Wikipedia sulla modellazione dimensionale](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Creare e gestire le relazioni in Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Creare e gestire le relazioni in Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md)
 - [Linee guida per relazioni uno-a-uno](relationships-one-to-one.md)
 - [Linee guida per le relazioni molti-a-molti](relationships-many-to-many.md)
 - [Linee guida per la relazione bidirezionale](relationships-bidirectional-filtering.md)
 - [Linee guida per relazioni attive e inattive](relationships-active-inactive.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
+
+

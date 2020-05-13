@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867600"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279205"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Usare un filtro dei dati e un filtro per intervalli temporali relativi in Power BI
 
@@ -24,7 +24,7 @@ Con la sempre maggiore diffusione di scenari che richiedono l'aggiornamento rapi
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Esempio di intervallo temporale relativo":::
 
-Non è necessario usare questa funzionalità insieme alla funzionalità di [aggiornamento automatico della pagina](../desktop-automatic-page-refresh.md). Tuttavia, molti scenari correlati agli intervalli temporali relativi si abbinano perfettamente alla funzionalità di aggiornamento automatico della pagina.  
+Non è necessario usare questa funzionalità insieme alla funzionalità di [aggiornamento automatico della pagina](../create-reports/desktop-automatic-page-refresh.md). Tuttavia, molti scenari correlati agli intervalli temporali relativi si abbinano perfettamente alla funzionalità di aggiornamento automatico della pagina.  
 
 > [!NOTE]
 > Quando si applica un filtro o un filtro dei dati per intervalli temporali relativi a livello di pagina o di report, tutti gli oggetti visivi presenti nella pagina o nel report vengono filtrati in base allo stesso intervallo temporale esatto, usando un *orario di riferimento* condiviso. Poiché gli oggetti visivi potrebbero avere orari di esecuzione leggermente diversi, questo orario di riferimento condiviso garantisce la sincronizzazione degli oggetti visivi nella pagina o nel report. In questo articolo sono disponibili altre informazioni sull'[orario di riferimento](#understanding-anchor-time).
@@ -107,4 +107,3 @@ Al filtro dei dati e al filtro per intervalli temporali relativi si applicano at
 
 - [Usare un filtro dei dati e un filtro per la data relativa in Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [Filtri dei dati in Power BI](../visuals/power-bi-visualization-slicers.md)
-

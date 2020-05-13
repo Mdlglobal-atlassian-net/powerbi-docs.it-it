@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496264"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142300"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Presentare contenuto in primo piano nella home page di Power BI dei colleghi
 
@@ -24,9 +24,9 @@ ms.locfileid: "79496264"
 
 ## <a name="who-can-feature-content"></a>Chi può presentare contenuto in primo piano
 
-È compito dell'amministratore del tenant di Power BI abilitare la funzionalità per presentare il contenuto in primo piano nel tenant. L'amministratore sceglie anche chi può presentare il contenuto. Per informazioni dettagliate, vedere l'articolo del [portale di amministrazione](../service-admin-portal.md#featured-content).
+È compito dell'amministratore del tenant di Power BI abilitare la funzionalità per presentare il contenuto in primo piano nel tenant. L'amministratore sceglie anche chi può presentare il contenuto. Per informazioni dettagliate, vedere l'articolo del [portale di amministrazione](../admin/service-admin-portal.md#featured-content).
 
-Se si fa parte di un gruppo selezionato nell'organizzazione con tale responsabilità, è necessario avere una licenza di Power BI Pro. Per presentare dashboard e report in primo piano, è necessario avere il ruolo di Amministratore, Membro o Collaboratore nell'area di lavoro. Per presentare l'app stessa in primo piano, è necessario avere il ruolo di Amministratore o Membro nell'area di lavoro. Per informazioni dettagliate, vedere [Ruoli nelle nuove aree di lavoro](../service-new-workspaces.md#roles-in-the-new-workspaces).
+Se si fa parte di un gruppo selezionato nell'organizzazione con tale responsabilità, è necessario avere una licenza di Power BI Pro. Per presentare dashboard e report in primo piano, è necessario avere il ruolo di Amministratore, Membro o Collaboratore nell'area di lavoro. Per presentare l'app stessa in primo piano, è necessario avere il ruolo di Amministratore o Membro nell'area di lavoro. Per informazioni dettagliate, vedere [Ruoli nelle nuove aree di lavoro](service-new-workspaces.md#roles-in-the-new-workspaces).
 
 ## <a name="who-sees-featured-content"></a>Chi può vedere il contenuto in primo piano
 
@@ -58,7 +58,6 @@ Tutti gli utenti autorizzati ad accedere a questa app potranno vederla nella sez
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Come si condividono i dashboard e i report e in che modo ci si collabora?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Gestire il contenuto in primo piano nel portale di amministrazione](../service-admin-portal.md#manage-featured-content)
+* [Come si condividono i dashboard e i report e in che modo ci si collabora?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Gestire il contenuto in primo piano nel portale di amministrazione](../admin/service-admin-portal.md#manage-featured-content)
 * Domande? [Provare la community di Power BI](https://community.powerbi.com/)
-

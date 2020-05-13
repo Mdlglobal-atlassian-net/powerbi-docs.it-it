@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377743"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277848"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estendere gli oggetti visivi con descrizioni comando per le pagine dei report
 
-Questo articolo è destinato ai progettisti di report di Power BI. Fornisce suggerimenti e consigli per la creazione di [descrizioni comando basate sulle pagine del report](../desktop-tooltips.md).
+Questo articolo è destinato ai progettisti di report di Power BI. Fornisce suggerimenti e consigli per la creazione di [descrizioni comando basate sulle pagine del report](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Suggerimenti
 
@@ -29,7 +29,7 @@ Le descrizioni comando delle pagine del report possono migliorare l'esperienza d
 > [!NOTE]
 > Un oggetto visivo del report può mostrare una descrizione comando della pagina solo quando i filtri della pagina della descrizione comando sono compatibili con la progettazione dell'oggetto visivo. Ad esempio, un oggetto visivo che crea un raggruppamento per _prodotto_ è compatibile con una pagina di descrizione comando che applica un filtro per _prodotto_.
 >
-> Le descrizioni comando delle pagine non supportano l'interattività. Se si vuole che gli utenti del report interagiscano, creare invece una [pagina drill-through](../desktop-drillthrough.md).
+> Le descrizioni comando delle pagine non supportano l'interattività. Se si vuole che gli utenti del report interagiscano, creare invece una [pagina drill-through](../create-reports/desktop-drillthrough.md).
 >
 > Gli oggetti visivi di Power BI non supportano le descrizioni comando delle pagine.
 
@@ -65,7 +65,7 @@ Le intestazioni degli oggetti visivi possono essere configurate per mostrare le 
 
 È interessante notare che pulsanti, immagini, caselle di testo e forme possono anche mostrare una descrizione comando di pagina per l'intestazione di un oggetto visivo.
 
-L'esempio seguente illustra che cosa accade quando l'utente del report passa il cursore sull'[icona dell'intestazione dell'oggetto visivo](../desktop-visual-elements-for-reports.md).
+L'esempio seguente illustra che cosa accade quando l'utente del report passa il cursore sull'[icona dell'intestazione dell'oggetto visivo](../create-reports/desktop-visual-elements-for-reports.md).
 
 ![Un utente del report ha passato il cursore sull'icona dell'intestazione di un oggetto visivo (icona del punto interrogativo). È apparsa una descrizione comando con formattazione RTF.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ In fase di progettazione del report, è consigliabile seguire queste procedure:
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Creare descrizioni comando basate sulle pagine del report in Power BI Desktop](../desktop-tooltips.md)
-- [Personalizzazione delle descrizioni comando in Power BI Desktop](../desktop-custom-tooltips.md)
-- [Usare gli elementi visivi per migliorare i report di Power BI](../desktop-visual-elements-for-reports.md)
+- [Creare descrizioni comando basate sulle pagine del report in Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Personalizzazione delle descrizioni comando in Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [Usare gli elementi visivi per migliorare i report di Power BI](../create-reports/desktop-visual-elements-for-reports.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867025"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274191"
 ---
 # <a name="line-charts-in-power-bi"></a>Grafici a linee in Power BI
 
@@ -32,7 +32,7 @@ In queste istruzioni viene usata l'app Sales and Marketing Sample per creare un 
 > [!NOTE]
 > Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium.
 
-1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report in [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report in [Visualizzazione di modifica](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
 2. Nel riquadro Campi selezionare **SalesFact** \> **Total units**, quindi selezionare **Date** > **Month**.  Power BI crea un istogramma nell'area di disegno del report.
 
@@ -74,7 +74,7 @@ Per visualizzare valori altamente divergenti nello stesso grafico, usare un graf
    ![valori altamente divergenti](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../create-reports/power-bi-report-add-filter.md).
 
 La selezione di un punto dati su un grafico a linee ha l'effetto di applicare l'evidenziazione incrociata e il filtro incrociato alle altre visualizzazioni nella pagina del report e viceversa. Per seguire le istruzioni, aprire la scheda **Market Share** (Quota di mercato).  
 
@@ -86,7 +86,7 @@ In questo esempio è stato selezionato un punto dati che include i dati seguenti
 
 È possibile notare l'evidenziazione incrociata dell'istogramma e il filtro incrociato del misuratore.
 
-Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
+Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * Un unico grafico a linee non può avere due assi Y.  È necessario usare in alternativa un grafico combinato.
@@ -95,5 +95,8 @@ Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incroci
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

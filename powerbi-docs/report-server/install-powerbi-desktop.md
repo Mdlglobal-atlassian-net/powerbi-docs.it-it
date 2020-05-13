@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bdbd604c552f9efa29fc8738e474b0907ad44f2e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81122245"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278354"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il Server di report di Power BI
 
@@ -81,7 +81,7 @@ I report di Server di report di Power BI supportano tutte le visualizzazioni, in
 
 I report del server di report di Power BI supportano tutte le funzionalità di base nelle [app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md), tra cui:
 
-* [Layout del report per il telefono](../desktop-create-phone-report.md): è possibile ottimizzare un report per le app Power BI per dispositivi mobili. Sul telefono cellulare i report ottimizzati hanno un layout e un'icona speciale, ![Icona del layout del report per il telefono](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png).
+* [Layout del report per il telefono](../create-reports/desktop-create-phone-report.md): è possibile ottimizzare un report per le app Power BI per dispositivi mobili. Sul telefono cellulare i report ottimizzati hanno un layout e un'icona speciale, ![Icona del layout del report per il telefono](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png).
   
     ![Report ottimizzati per i telefoni](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
@@ -115,3 +115,4 @@ Ora che è stato installato Power BI Desktop, è possibile iniziare a creare i r
 [Che cos'è Server di report di Power BI?](get-started.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+

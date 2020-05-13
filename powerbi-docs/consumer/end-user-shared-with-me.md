@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302490"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277526"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizzare i dashboard e i report condivisi con l'utente corrente
 
@@ -26,7 +26,7 @@ Quando un collega condivide contenuto con un altro utente tramite il pulsante **
 
 ![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Il video seguente illustra l'elenco dei contenuti **Condivisi con l'utente corrente** e dimostra come accedervi e filtrarlo. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli. Per poter visualizzare i dashboard condivisi con l'utente è necessario disporre di una licenza Power BI Pro. Per informazioni dettagliate, leggere [Che cos'è Power BI Premium?](../service-premium-what-is.md).
+Il video seguente illustra l'elenco dei contenuti **Condivisi con l'utente corrente** e dimostra come accedervi e filtrarlo. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli. Per poter visualizzare i dashboard condivisi con l'utente è necessario disporre di una licenza Power BI Pro. Per informazioni dettagliate, leggere [Che cos'è Power BI Premium?](../admin/service-premium-what-is.md).
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Le azioni disponibili dipenderanno dalle impostazioni assegnate dal *progettista
 * [Visualizzare le informazioni dettagliate](end-user-insights.md) trovate da Power BI nei dati ![Icona Informazioni dettagliate](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > Per informazioni sulle classificazioni EGRC, selezionare il pulsante **Classificazione** o vedere [Classificazione dei dati del dashboard](../service-data-classification.md).
+  > Per informazioni sulle classificazioni EGRC, selezionare il pulsante **Classificazione** o vedere [Classificazione dei dati del dashboard](../create-reports/service-data-classification.md).
   > 
 
 

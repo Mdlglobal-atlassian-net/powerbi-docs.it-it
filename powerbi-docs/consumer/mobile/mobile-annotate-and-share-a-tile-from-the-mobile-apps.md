@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205505"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149198"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Annotare e condividere un riquadro, un report o un oggetto visivo nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -28,7 +28,7 @@ Si applica a:
 
 *Un report con annotazioni*
 
-Il messaggio di posta elettronica con lo snapshot del riquadro, del report o dell'oggetto visivo include anche un collegamento all'oggetto effettivo nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). I destinatari possono fare clic sul collegamento e passare direttamente a tale riquadro, report o oggetto visivo, se l'utente e i destinatari hanno licenze Power BI Pro o il contenuto ha una [capacità Premium](../../service-premium-what-is.md) e si è già condiviso l'elemento con essi. 
+Il messaggio di posta elettronica con lo snapshot del riquadro, del report o dell'oggetto visivo include anche un collegamento all'oggetto effettivo nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). I destinatari possono fare clic sul collegamento e passare direttamente a tale riquadro, report o oggetto visivo, se l'utente e i destinatari hanno licenze Power BI Pro o il contenuto ha una [capacità Premium](../../admin/service-premium-what-is.md) e si è già condiviso l'elemento con essi. 
 
 È possibile [condividere un riquadro anche dall'app Power BI per dispositivi mobili Windows 10](mobile-windows-10-phone-app-get-started.md), ma non annotarlo.
 
@@ -74,4 +74,3 @@ Il messaggio di posta elettronica con lo snapshot del riquadro, del report o del
 ## <a name="next-steps"></a>Passaggi successivi
 * [Condividere un dashboard dall'app Power BI per dispositivi mobili](mobile-share-dashboard-from-the-mobile-apps.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114069"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273271"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 
@@ -69,7 +69,7 @@ Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - C
 3. Per chiudere il menu delle azioni, selezionare un'area vuota nell'area di disegno.
 
 ### <a name="select-click-a-tile"></a>Selezionare (fare clic su) un riquadro
-Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è stato creato il riquadro e se contiene un [collegamento personalizzato](../service-dashboard-edit-tile.md). Se è presente, selezionando il riquadro si viene reindirizzati a tale collegamento. In caso contrario viene visualizzato il report, la cartella di lavoro di Excel Online, il report SSRS locale o la domanda di Domande e risposte da cui è stato creato il riquadro.
+Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è stato creato il riquadro e se contiene un [collegamento personalizzato](../create-reports/service-dashboard-edit-tile.md). Se è presente, selezionando il riquadro si viene reindirizzati a tale collegamento. In caso contrario viene visualizzato il report, la cartella di lavoro di Excel Online, il report SSRS locale o la domanda di Domande e risposte da cui è stato creato il riquadro.
 
 > [!NOTE]
 > Fanno eccezione i riquadri video creati direttamente nel dashboard con **Aggiungi riquadro**. Se si seleziona un riquadro video creato in questo modo, il video viene riprodotto direttamente nel dashboard.   
@@ -85,6 +85,8 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 * Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Se ad esempio il *designer* ha aggiunto un grafico a linee da un report che è stato convertito successivamente in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Aggiornamento dei dati](../refresh-data.md)
+[Aggiornamento dei dati](../connect-data/refresh-data.md)
 
 [Power BI - Concetti di base](end-user-basic-concepts.md)
+
+

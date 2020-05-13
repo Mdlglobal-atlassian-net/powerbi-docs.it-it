@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525377"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145203"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Esercitazione: Incorporare un contenuto di Power BI nell'applicazione per cloud nazionali
 
@@ -38,7 +38,7 @@ I vari cloud nazionali sono:
 
 ![Dashboard incorporato](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Per eseguire questa procedura dettagliata, è necessario un account **Power BI**. Se non si ha un account configurato, è possibile scegliere il cloud nazionale appropriato in base al tipo di ente pubblico o al paese. È possibile registrarsi per un [account di Power BI per il Governo degli Stati Uniti](../../service-govus-signup.md), un [account di Power BI per il cloud Germania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o un [account di Power BI per il cloud Cina](https://www.21vbluecloud.com/powerbi/).
+Per eseguire questa procedura dettagliata, è necessario un account **Power BI**. Se non si ha un account configurato, è possibile scegliere il cloud nazionale appropriato in base al tipo di ente pubblico o al paese. È possibile registrarsi per un [account di Power BI per il Governo degli Stati Uniti](../../admin/service-govus-signup.md), un [account di Power BI per il cloud Germania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o un [account di Power BI per il cloud Cina](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Se invece si vuole incorporare un dashboard per l'organizzazione, vedere [Integrare un dashboard in un'app per l'organizzazione](embed-sample-for-your-organization.md).

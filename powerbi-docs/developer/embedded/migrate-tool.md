@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7415750d59155f690cf0ff1ced25b31669f73710
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114567"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149001"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
 
@@ -271,7 +271,7 @@ Per altre informazioni, vedere [Come eseguire la migrazione del contenuto della 
 
 [Incorporamento con Power BI](embedding.md)  
 [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI](migrate-from-powerbi-embedded.md)  
-[Power BI Premium: di cosa si tratta?](../../service-premium-what-is.md)  
+[Power BI Premium: di cosa si tratta?](../../admin/service-premium-what-is.md)  
 [Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Esempio per incorporare JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

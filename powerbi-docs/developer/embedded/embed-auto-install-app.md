@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148083"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Installare automaticamente le app di Power BI durante l'incorporamento per l'organizzazione
 
-Per incorporare contenuto da un'app, l'utente che si occupa dell'incorporamento deve disporre di [accesso all'app](../../service-create-distribute-apps.md). Se l'app viene installata per l'utente, l'incorporamento viene eseguito correttamente. Per altre informazioni, vedere [Incorporare report o dashboard da app](embed-from-apps.md). È possibile definire in PowerBI.com che tutte le app devono essere [installate automaticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Tuttavia, questa azione viene eseguita a livello del tenant e si applica a tutte le app.
+Per incorporare contenuto da un'app, l'utente che si occupa dell'incorporamento deve disporre di [accesso all'app](../../collaborate-share/service-create-distribute-apps.md). Se l'app viene installata per l'utente, l'incorporamento viene eseguito correttamente. Per altre informazioni, vedere [Incorporare report o dashboard da app](embed-from-apps.md). È possibile definire in PowerBI.com che tutte le app devono essere [installate automaticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Tuttavia, questa azione viene eseguita a livello del tenant e si applica a tutte le app.
 
 ## <a name="auto-install-app-on-embedding"></a>Installare automaticamente un'app durante l'incorporamento
 

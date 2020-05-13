@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290587"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278078"
 ---
 # <a name="use-report-page-drillthrough"></a>Usare il drill-through nelle pagine dei report
 
-Questo articolo è destinato agli autori di report che progettano report di Power BI. Fornisce suggerimenti e consigli per la creazione di funzionalità di [drill-through nelle pagine dei report](../desktop-drillthrough.md).
+Questo articolo è destinato agli autori di report che progettano report di Power BI. Fornisce suggerimenti e consigli per la creazione di funzionalità di [drill-through nelle pagine dei report](../create-reports/desktop-drillthrough.md).
 
 È consigliabile progettare il report in modo da consentire agli utenti dei report di ottenere il flusso seguente:
 
@@ -58,8 +58,8 @@ In fase di progettazione del report, è consigliabile seguire queste procedure:
 - **Filtri di drill-through:** impostare i filtri di drill-through in modo da poter visualizzare in anteprima un risultato realistico durante la progettazione della pagina di drill-through. Assicurarsi di rimuovere questi filtri prima di pubblicare il report.
 - **Funzionalità aggiuntive:** una pagina di drill-through è come una pagina qualsiasi del report. È anche possibile migliorarla con funzionalità interattive aggiuntive, inclusi filtri dei dati o filtri.
 - **Valori BLANK:** evitare di aggiungere oggetti visivi che potrebbero visualizzare valori BLANK o produrre errori quando vengono applicati i filtri di drill-through.
-- **Visibilità della pagina:** considerare la possibilità di nascondere le pagine di drill-through. Se si decide di mantenere visibile una pagina di drill-through, assicurarsi di aggiungere un pulsante che consenta agli utenti di cancellare tutti i filtri di drill-through impostati in precedenza. Assegnare un [segnalibro](../desktop-bookmarks.md) al pulsante. Il segnalibro deve essere configurato per rimuovere tutti i filtri.
-- **Pulsante Indietro:** un [pulsante](../desktop-buttons.md) Indietro viene aggiunto automaticamente quando si assegna un filtro di drill-through. È consigliabile mantenerlo. In questo modo, gli utenti del report possono tornare facilmente alla pagina di origine.
+- **Visibilità della pagina:** considerare la possibilità di nascondere le pagine di drill-through. Se si decide di mantenere visibile una pagina di drill-through, assicurarsi di aggiungere un pulsante che consenta agli utenti di cancellare tutti i filtri di drill-through impostati in precedenza. Assegnare un [segnalibro](../create-reports/desktop-bookmarks.md) al pulsante. Il segnalibro deve essere configurato per rimuovere tutti i filtri.
+- **Pulsante Indietro:** un [pulsante](../create-reports/desktop-buttons.md) Indietro viene aggiunto automaticamente quando si assegna un filtro di drill-through. È consigliabile mantenerlo. In questo modo, gli utenti del report possono tornare facilmente alla pagina di origine.
 - **Individuazione:** contribuire a promuovere la conoscenza di una pagina di drill-through impostando il testo dell'icona dell'intestazione dell'oggetto visivo o aggiungendo istruzioni in una casella di testo. È anche possibile progettare una sovrimpressione, come descritto in [questo post di blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
@@ -69,6 +69,6 @@ In fase di progettazione del report, è consigliabile seguire queste procedure:
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Usare il drill-through in Power BI Desktop](../desktop-drillthrough.md)
+- [Usare il drill-through in Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

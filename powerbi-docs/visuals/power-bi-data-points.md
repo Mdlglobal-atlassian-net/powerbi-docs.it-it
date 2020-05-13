@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381446"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274168"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Applicare limiti e strategie per i punti dati in base al tipo di oggetto visivo
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Durante il rendering di un oggetto visivo in Power BI, la visualizzazione deve essere veloce e accurata. Ciò richiede la configurazione di algoritmi sottostanti per ogni tipo di oggetto visivo. Gli oggetti visivi in Power BI devono essere sufficientemente flessibili da gestire diverse dimensioni dei set di dati. Alcuni set di dati includono solo pochi punti dati, mentre altri set di dati ne includono svariati petabyte. Questo articolo illustra le strategie usate da Power BI per il rendering delle visualizzazioni.
 
@@ -57,7 +59,7 @@ I limiti dinamici vengono applicati automaticamente quando il server è in grado
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Strategie e limiti dei punti dati in base al tipo di oggetto visivo
 
 ### <a name="area-chart"></a>Grafico ad area
-Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Grafico a barre/istogramma
 - In modalità per categorie
@@ -97,10 +99,10 @@ La mappa colorata può usare statistiche o limiti dinamici. Power BI tenta di us
 - Ultimi 3.500
 
 ### <a name="line-chart"></a>Grafico a linee
-Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Grafico a linee, alta densità
-Vedere [Campionamento ad alta densità](../desktop-high-density-sampling.md)
+Vedere [Campionamento ad alta densità](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Mappa 
 - Max punti: 3.500
@@ -109,9 +111,9 @@ A seconda della configurazione, una mappa può avere:
 - Posizione: primi 3.500
 - Posizione, dimensioni: primi 3.500
 - Aggregazioni di posizione, latitudine e longitudine (+/-dimensioni): primi 3.500
-- Latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](desktop-high-density-scatter-charts.md)
+- Latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](../create-reports/desktop-high-density-scatter-charts.md)
 - Latitudine, longitudine, dimensioni: primi 3.500
-- Legenda, latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](desktop-high-density-scatter-charts.md)
+- Legenda, latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](../create-reports/desktop-high-density-scatter-charts.md)
 - Legenda, latitudine, longitudine, dimensioni: prime 233 legende, primi 15 valori di latitudine e longitudine (potrebbero essere usati limiti dinamici o statistiche)
 - Posizione, legenda, longitudine e latitudine come aggregazioni (+/-dimensioni): prime 233 posizioni, prime 15 legende (potrebbero essere usati limiti dinamici o statistiche)
 

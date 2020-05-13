@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621565"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144740"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -23,7 +23,7 @@ I report impaginati possono avere molte pagine. Ad esempio, questo report contie
 
 ![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, `https://app.powerbi.com`. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](../service-admin-premium-workloads.md#paginated-reports) nel portale di amministrazione di Power BI. 
+È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, `https://app.powerbi.com`. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](../admin/service-admin-premium-workloads.md#paginated-reports) nel portale di amministrazione di Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Creare report in Generatore report di Power BI
 

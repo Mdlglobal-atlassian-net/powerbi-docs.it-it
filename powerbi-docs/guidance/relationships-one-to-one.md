@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263807"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278262"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Linee guida per relazioni uno-a-uno
 
@@ -99,7 +99,7 @@ Se possibile, è consigliabile evitare di creare relazioni di modelli uno-a-uno 
 - Limitare la possibilità di creare gerarchie, poiché i livelli di queste devono basarsi su colonne della _stessa tabella_
 - Generare risultati imprevisti se le righe nelle diverse tabelle non corrispondono esattamente
 
-I consigli specifici possono variare a seconda che la relazione uno-a-uno sia _all'interno dell'isola_ o _tra isole_. Per altre informazioni sulla valutazione delle relazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../desktop-relationships-understand.md#relationship-evaluation).
+I consigli specifici possono variare a seconda che la relazione uno-a-uno sia _all'interno dell'isola_ o _tra isole_. Per altre informazioni sulla valutazione delle relazioni, vedere [Relazioni di modelli in Power BI Desktop (valutazione della relazione)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Relazione uno-a-uno all'interno dell'isola
 
@@ -107,7 +107,7 @@ Se tra le tabelle esiste una relazione uno-a-uno _all'interno dell'isola_, è co
 
 I passaggi seguenti presentano una metodologia che consente di consolidare e modellare i dati correlati da una relazione uno-a-uno:
 
-1. **Unione delle query**: quando si [combinano le due query](../desktop-shape-and-combine-data.md#combine-queries), prestare attenzione alla completezza dei dati in ognuna. Se una query contiene un set di righe completo (come un elenco master), unire l'altra query. Configurare la trasformazione di unione in modo che usi un _left outer join_, il tipo di join predefinito. Questo tipo di join garantisce il mantenimento di tutte le righe della prima query e l'integrazione di queste con le righe corrispondenti della seconda query. Espandere tutte le colonne obbligatorie della seconda query nella prima query.
+1. **Unione delle query**: quando si [combinano le due query](../connect-data/desktop-shape-and-combine-data.md#combine-queries), prestare attenzione alla completezza dei dati in ognuna. Se una query contiene un set di righe completo (come un elenco master), unire l'altra query. Configurare la trasformazione di unione in modo che usi un _left outer join_, il tipo di join predefinito. Questo tipo di join garantisce il mantenimento di tutte le righe della prima query e l'integrazione di queste con le righe corrispondenti della seconda query. Espandere tutte le colonne obbligatorie della seconda query nella prima query.
 2. **Disabilitazione del caricamento delle query**: assicurarsi di [disabilitare il caricamento](import-modeling-data-reduction.md#disable-power-query-query-load) della seconda query. In questo modo, il risultato non verrà caricato come tabella del modello. Questa configurazione riduce le dimensioni di archiviazione del modello di dati e consente di evitare l'ingombro del riquadro **Campi**.
 
     Nell'esempio, gli autori di report trovano ora un'unica tabella denominata **Product** nel riquadro **Campi** con tutti i campi relativi ai prodotti.
@@ -131,11 +131,11 @@ In questo esempio, gli autori di report possono trovare il campo **Category** al
 
 ![Il riquadro Campi visualizza il campo Category all'interno della cartella di visualizzazione Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Se si decide comunque di definire relazioni uno-a-uno all'interno dell'isola nel modello, verificare, quando possibile, che siano presenti righe corrispondenti nelle tabelle correlate. Poiché una relazione uno-a-uno all'interno dell'isola viene valutata come [relazione forte](../desktop-relationships-understand.md#strong-relationships), i problemi di integrità dei dati possono essere rappresentati negli oggetti visivi dei report come spazi vuoti. È possibile vedere un esempio di raggruppamento vuoto nel primo oggetto visivo tabella presentato in questo articolo.
+Se si decide comunque di definire relazioni uno-a-uno all'interno dell'isola nel modello, verificare, quando possibile, che siano presenti righe corrispondenti nelle tabelle correlate. Poiché una relazione uno-a-uno all'interno dell'isola viene valutata come [relazione forte](../transform-model/desktop-relationships-understand.md#strong-relationships), i problemi di integrità dei dati possono essere rappresentati negli oggetti visivi dei report come spazi vuoti. È possibile vedere un esempio di raggruppamento vuoto nel primo oggetto visivo tabella presentato in questo articolo.
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relazione uno-a-uno tra isole
 
-Se tra tabelle diverse esiste una relazione uno-a-uno _tra isole_, non esiste alcun tipo di progettazione di modello alternativa, a meno che non si esegua prima il consolidamento dei dati nelle origini dati. Power BI valuterà la relazione di modello uno-a-uno come [relazione debole](../desktop-relationships-understand.md#weak-relationships). Assicurarsi quindi che le righe presenti nelle tabelle correlate corrispondano, poiché le righe non corrispondenti verranno eliminate dai risultati delle query.
+Se tra tabelle diverse esiste una relazione uno-a-uno _tra isole_, non esiste alcun tipo di progettazione di modello alternativa, a meno che non si esegua prima il consolidamento dei dati nelle origini dati. Power BI valuterà la relazione di modello uno-a-uno come [relazione debole](../transform-model/desktop-relationships-understand.md#weak-relationships). Assicurarsi quindi che le righe presenti nelle tabelle correlate corrispondano, poiché le righe non corrispondenti verranno eliminate dai risultati delle query.
 
 Si vedrà ora cosa accade quando a un oggetto visivo tabella vengono aggiunti campi di entrambe le tabelle ed esiste una relazione debole tra le tabelle.
 
@@ -147,7 +147,7 @@ La tabella visualizza solo due righe. Lo SKU di prodotto CL-02 manca perché non
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
+- [Relazioni nei modelli in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

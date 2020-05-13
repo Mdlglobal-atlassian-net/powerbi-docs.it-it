@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219883"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148195"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualizzare il contenuto di Power BI condiviso con l'utente da un'organizzazione esterna
 
@@ -28,7 +28,7 @@ Si applica a:
 
 ## <a name="accessing-shared-content"></a>Accesso al contenuto condiviso
 
-**In primo luogo, è necessario che qualcuno appartenente a un'organizzazione esterna condivida un elemento.** Quando qualcuno [condivide un elemento con un altro utente](../../service-share-dashboards.md), dalla stessa organizzazione o da un'organizzazione esterna, l'altro utente riceve un messaggio di posta elettronica contenente un collegamento all'elemento condiviso. Seguendo il collegamento nel dispositivo mobile, si apre l'app Power BI per dispositivi mobili. Se l'app rileva che l'elemento è stato condiviso da un'organizzazione esterna, si riconnette a tale organizzazione con l'identità del destinatario. L'app carica quindi tutti gli elementi che sono stati condivisi con tale utente dall'organizzazione.
+**In primo luogo, è necessario che qualcuno appartenente a un'organizzazione esterna condivida un elemento.** Quando qualcuno [condivide un elemento con un altro utente](../../collaborate-share/service-share-dashboards.md), dalla stessa organizzazione o da un'organizzazione esterna, l'altro utente riceve un messaggio di posta elettronica contenente un collegamento all'elemento condiviso. Seguendo il collegamento nel dispositivo mobile, si apre l'app Power BI per dispositivi mobili. Se l'app rileva che l'elemento è stato condiviso da un'organizzazione esterna, si riconnette a tale organizzazione con l'identità del destinatario. L'app carica quindi tutti gli elementi che sono stati condivisi con tale utente dall'organizzazione.
 
 ![Elemento condiviso aperto di Power BI dal messaggio di posta elettronica ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

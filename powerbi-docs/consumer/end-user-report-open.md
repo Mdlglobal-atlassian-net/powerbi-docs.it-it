@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114341"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277618"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
 
@@ -99,14 +99,14 @@ I report possono essere aperti da un dashboard. La maggior parte dei [riquadri](
     ![Report aperto nella Visualizzazione di lettura](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Non tutti i riquadri portano a un report. Se si seleziona un riquadro [creato con Domande e risposte](end-user-q-and-a.md), verrà visualizzata la schermata Domande e risposte. Se si seleziona un riquadro [creato usando il widget **Aggiungi riquadro** del dashboard](../service-dashboard-add-widget.md), possono verificarsi varie situazioni, ad esempio la riproduzione di un video, l'apertura di in sito Web e altro.  
+> Non tutti i riquadri portano a un report. Se si seleziona un riquadro [creato con Domande e risposte](end-user-q-and-a.md), verrà visualizzata la schermata Domande e risposte. Se si seleziona un riquadro [creato usando il widget **Aggiungi riquadro** del dashboard](../create-reports/service-dashboard-add-widget.md), possono verificarsi varie situazioni, ad esempio la riproduzione di un video, l'apertura di in sito Web e altro.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Altri modi per aprire un report
 Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del servizio Power BI, sarà possibile individuare i flussi di lavoro ottimali per le proprie esigenze. Altri modi per accedere ai report:
 - Nel riquadro di spostamento usando [Preferiti](end-user-favorite.md) e [Recenti](end-user-recent.md)    
 - Tramite [Visualizza elementi correlati](end-user-related.md).    
-- In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
+- In un messaggio di posta elettronica in caso di [condivisione con l'utente](../collaborate-share/service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
 - Dal [centro notifiche](end-user-notification-center.md).    
 - Da un'area di lavoro
 - Altro

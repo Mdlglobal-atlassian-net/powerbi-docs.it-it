@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781617"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272029"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Pubblicare un report impaginato nel servizio Power BI
 
@@ -105,7 +105,7 @@ Come qualsiasi altro report di Power BI, se l'origine dati del report è in loca
 
    ![Gestire il report impaginato](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Per informazioni dettagliate e i passaggi successivi, vedere l'articolo sul servizio Power BI [Informazioni sul gateway dati locale](../service-gateway-onprem.md).
+1. Per informazioni dettagliate e i passaggi successivi, vedere l'articolo sul servizio Power BI [Informazioni sul gateway dati locale](../connect-data/service-gateway-onprem.md).
 
 
 
@@ -114,4 +114,5 @@ Come qualsiasi altro report di Power BI, se l'origine dati del report è in loca
 - [Visualizzare un report impaginato nel servizio Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embed-paginated-reports-customers.md)
+
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781732"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273018"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Esportare i dati usati per creare una visualizzazione
 
@@ -54,7 +54,7 @@ Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel 
 
 ## <a name="export-data-from-a-report"></a>Esportare dati da un report
 
-Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../sample-procurement.md) del servizio Power BI in modalità di visualizzazione Modifica. Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione, una gerarchia e un filtro a livello di visualizzazione.
+Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../create-reports/sample-procurement.md) del servizio Power BI in modalità di visualizzazione Modifica. Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione, una gerarchia e un filtro a livello di visualizzazione.
 
 ### <a name="create-a-stacked-column-chart"></a>Creare un istogramma a colonne in pila
 
@@ -94,7 +94,7 @@ Selezionare l'opzione **Riepilogo dati** se si vogliono esportare i dati di ciò
 
     - **Dati sottostanti**
 
-    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
+    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Quando si seleziona **Esporta**, Power BI esporta i dati in un file con estensio
 
     - **Dati sottostanti**
 
-    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
+    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Per gli amministratori e i progettisti di Power BI sono disponibili diverse stra
 
 - Gli amministratori di Power BI possono disattivare l'esportazione dei dati per l'organizzazione. 
 
-- I proprietari del set di dati possono impostare la sicurezza a livello di riga, che limita l'accesso agli utenti con diritti di sola lettura. Se tuttavia è stata configurata un'area di lavoro per le app e sono state assegnate le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Per altre informazioni, vedere [Sicurezza a livello di riga](../service-admin-rls.md).
+- I proprietari del set di dati possono impostare la sicurezza a livello di riga, che limita l'accesso agli utenti con diritti di sola lettura. Se tuttavia è stata configurata un'area di lavoro per le app e sono state assegnate le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Per altre informazioni, vedere [Sicurezza a livello di riga](../admin/service-admin-rls.md).
 
 - I progettisti di report possono nascondere le colonne in modo che non compaiano nell'elenco **Campi**. Per altre informazioni, vedere [Proprietà dei set di dati](../developer/automation/api-dataset-properties.md).
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114659"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149244"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Supporto di più aree geografiche per Power BI Embedded
 
 **Supporto di più aree geografiche per Power BI Embedded** significa che gli ISV e le organizzazioni che creano applicazioni che usano Power BI Embedded per incorporare funzionalità analitiche nelle proprie app possono ora distribuire i dati in aree diverse in tutto il mondo.
 
-I clienti che usano **Power BI Embedded** possono ora configurare una **capacità A** usando le opzioni per **più aree geografiche**, in base alle stesse funzionalità e limitazioni [supportate da Power BI Premium per l'uso di più aree geografiche](../../service-admin-premium-Multi-Geo.md).
+I clienti che usano **Power BI Embedded** possono ora configurare una **capacità A** usando le opzioni per **più aree geografiche**, in base alle stesse funzionalità e limitazioni [supportate da Power BI Premium per l'uso di più aree geografiche](../../admin/service-admin-premium-Multi-Geo.md).
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Creazione di una nuova risorsa capacità di Power BI Embedded con più aree geografiche
 
@@ -89,6 +89,6 @@ Per altre informazioni sulle capacità di Power BI Embedded e le opzioni per pi�
 
 * [Creare capacità di Power BI Embedded](azure-pbie-create-capacity.md)
 
-* [Supporto di più aree geografiche per Power BI Premium](../../service-admin-premium-multi-geo.md)
+* [Supporto di più aree geografiche per Power BI Premium](../../admin/service-admin-premium-multi-geo.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

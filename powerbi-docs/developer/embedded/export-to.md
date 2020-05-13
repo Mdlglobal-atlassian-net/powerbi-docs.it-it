@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525469"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144725"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Esportare report di Power BI in un file (anteprima)
 
@@ -34,7 +34,7 @@ La funzionalità di esportazione può essere usata in diversi modi. Ecco alcuni 
 
 ## <a name="using-the-api"></a>Uso dell'API
 
-Prima di usare l'API, verificare che siano abilitate le [impostazioni del tenant amministratore](../../service-admin-portal.md#tenant-settings) seguenti:
+Prima di usare l'API, verificare che siano abilitate le [impostazioni del tenant amministratore](../../admin/service-admin-portal.md#tenant-settings) seguenti:
 * **Esporta report come presentazioni di PowerPoint o documenti PDF**: abilitata per impostazione predefinita.
 * **Esporta report come file di immagine**: impostazione obbligatoria solo per i file *PNG* e disabilitata per impostazione predefinita.
 

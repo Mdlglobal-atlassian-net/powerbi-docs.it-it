@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866588"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279182"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creare oggetti visivi Matrice in Power BI
 
@@ -62,7 +62,7 @@ Lo stato di espansione della matrice viene salvato con il report. È possibile a
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Quando si crea un report in base a un modello multidimensionale di Analysis Services, è necessario tenere presenti alcune considerazioni speciali per l'espansione e la compressione se il modello usa la funzionalità Membro predefinito. Per altre informazioni, vedere [Usare i modelli multidimensionali in Power BI](../desktop-default-member-multidimensional-models.md)
+> Quando si crea un report in base a un modello multidimensionale di Analysis Services, è necessario tenere presenti alcune considerazioni speciali per l'espansione e la compressione se il modello usa la funzionalità Membro predefinito. Per altre informazioni, vedere [Usare i modelli multidimensionali in Power BI](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso del drill-down con l'oggetto visivo Matrice
 L'oggetto visivo Matrice consente di eseguire un'ampia varietà di interessanti attività di drill-down che in precedenza non erano disponibili. Tra queste, la possibilità di eseguire il drill-down usando righe e colonne e persino con sezioni e celle singole. Ecco una spiegazione del funzionamento di ognuna di queste attività.
@@ -211,7 +211,7 @@ Se è presente una colonna o una misura che contiene URL di siti Web, è possibi
 
 Abilitare **URL Web** e selezionare un campo da usare come URL per la colonna. Dopo essere stati applicati, i valori in quel campo (colonna) diventeranno collegamenti attivi. Passare il mouse per visualizzare il collegamento e selezionarlo per passare a tale pagina. 
 
-Per altre informazioni, vedere [Formattazione condizionale delle tabelle](../desktop-conditional-table-formatting.md)
+Per altre informazioni, vedere [Formattazione condizionale delle tabelle](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Ombreggiatura e colore carattere con gli oggetti visivi matrice
 Con l'oggetto visivo Matrice è possibile applicare la formattazione condizionale (colori, ombreggiatura e barre dei dati) allo sfondo delle celle nella matrice, nonché al testo e ai valori stessi.
@@ -233,3 +233,5 @@ Selezionare *Controlli avanzati* per visualizzare una finestra di dialogo che co
 [Oggetto visivo di Power Apps per Power BI](power-bi-visualization-powerapp.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615704"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272811"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Sottoreport nei report impaginati di Power BI
 
@@ -74,7 +74,7 @@ Ora che sono stati salvati entrambi i report nella stessa area di lavoro Premium
   
  È possibile inserire un sottoreport nel corpo principale del report o in un'area dati. Se si inserisce un sottoreport in un'area dati, il sottoreport viene ripetuto per ogni istanza del gruppo o della riga nell'area dati. È possibile passare un valore dal gruppo o dalla riga al sottoreport. Nella proprietà del valore del sottoreport usare un'espressione di campo per il campo contenente il valore che si vuole passare al parametro del sottoreport.  
   
- Per altre informazioni sull'uso di parametri e sottoreport, vedere [Aggiungere un sottoreport e i parametri](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md) nella documentazione di SQL Server Reporting Services.  
+ Per altre informazioni sull'uso di parametri e sottoreport, vedere [Aggiungere un sottoreport e i parametri](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) nella documentazione di SQL Server Reporting Services.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Visualizzare in anteprima i report impaginati in Report Builder
 

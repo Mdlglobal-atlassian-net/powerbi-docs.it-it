@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859191"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277986"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicurezza a livello di riga (RLS) nel server di report di Power BI
 
@@ -33,7 +33,7 @@ Per impostazione predefinita, i filtri per la sicurezza a livello di riga usano 
 
 Selezionare questa casella di controllo quando si implementa la [sicurezza dinamica a livello di riga](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basata sul nome utente o sull'ID di accesso. 
 
-Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](../desktop-bidirectional-filtering.md) e il whitepaper tecnico [Securing the Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
+Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) e il whitepaper tecnico [Securing the Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ Di seguito sono riportate le limitazioni correnti per la sicurezza a livello di 
 
 Gli utenti con report che usavano la funzione DAX username() noteranno un comportamento nuovo per cui viene restituito il Nome dell'entità utente (UPN), SALVO quando si usa DirectQuery con la sicurezza integrata.  Poiché la sicurezza a livello di riga (RLS) non viene rispettata in tale scenario, il comportamento resta invariato.
 
-È possibile definire la sicurezza a livello di riga solo per i set di dati creati con Power BI Desktop. Per abilitare la sicurezza a livello di riga per i set di dati creati con Excel, prima di tutto è necessario convertire i file in file di Power BI Desktop (con estensione pbix). Altre informazioni sulla [conversione di file di Excel](../desktop-import-excel-workbooks.md).
+È possibile definire la sicurezza a livello di riga solo per i set di dati creati con Power BI Desktop. Per abilitare la sicurezza a livello di riga per i set di dati creati con Excel, prima di tutto è necessario convertire i file in file di Power BI Desktop (con estensione pbix). Altre informazioni sulla [conversione di file di Excel](../connect-data/desktop-import-excel-workbooks.md).
 
 Sono supportate solo le connessioni Estrai, Trasforma, Carica (ETL) e DirectQuery che usano le credenziali archiviate. Le connessioni dinamiche ad Analysis Services e le connessioni DirectQuery che usano l'autenticazione integrata vengono gestite nell'origine dati sottostante. 
 
@@ -122,3 +122,4 @@ Sì, se sono già presenti ruoli definiti e membri assegnati nel server di repor
 [Manuale per l'amministratore](admin-handbook-overview.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+

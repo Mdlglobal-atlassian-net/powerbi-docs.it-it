@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263692"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273191"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Linee guida per la relazione bidirezionale
 
@@ -134,10 +134,11 @@ Nella tabella oggetti visivi seguente vengono visualizzate le statistiche relati
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Relazioni nei modelli in Power BI Desktop](../desktop-relationships-understand.md)
+- [Relazioni nei modelli in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](star-schema.md)
 - [Linee guida per relazioni uno-a-uno](relationships-one-to-one.md)
 - [Linee guida per le relazioni molti-a-molti](relationships-many-to-many.md)
 - [Linee guida per la risoluzione dei problemi relativi alle relazioni](relationships-troubleshoot.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
+

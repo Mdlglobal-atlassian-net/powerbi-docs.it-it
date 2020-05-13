@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435905"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273087"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -52,7 +52,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    I collegamenti possono indirizzare ad altri dashboard di Power BI o a un URL esterno. È possibile [toccare il collegamento](../../service-dashboard-edit-tile.md#hyperlink) per aprirlo nell'app Power BI. Nel caso di un sito esterno, Power BI chiederà l'autorizzazione prima di continuare.
+    I collegamenti possono indirizzare ad altri dashboard di Power BI o a un URL esterno. È possibile [toccare il collegamento](../../create-reports/service-dashboard-edit-tile.md#hyperlink) per aprirlo nell'app Power BI. Nel caso di un sito esterno, Power BI chiederà l'autorizzazione prima di continuare.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    I collegamenti possono indirizzare ad altri dashboard di Power BI o a un URL esterno. È possibile [toccare il collegamento](../../service-dashboard-edit-tile.md#hyperlink) per aprirlo nell'app Power BI. Nel caso di un sito esterno, Power BI chiederà l'autorizzazione prima di continuare.
+    I collegamenti possono indirizzare ad altri dashboard di Power BI o a un URL esterno. È possibile [toccare il collegamento](../../create-reports/service-dashboard-edit-tile.md#hyperlink) per aprirlo nell'app Power BI. Nel caso di un sito esterno, Power BI chiederà l'autorizzazione prima di continuare.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     Toccare **Apri report** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) per [visualizzare il report sottostante](mobile-reports-in-the-mobile-apps.md).
    
-    [Aprire il collegamento](../../service-dashboard-edit-tile.md#hyperlink), se presente. I collegamenti possono indirizzare a dashboard di Power BI o a un URL esterno.
+    [Aprire il collegamento](../../create-reports/service-dashboard-edit-tile.md#hyperlink), se presente. I collegamenti possono indirizzare a dashboard di Power BI o a un URL esterno.
 3. Toccare **Espandi riquadro** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Viene aperto in stato attivo in modo da visualizzare ed esplorare i dati del riquadro più facilmente. In questo stato è possibile:
    
    Ruotare un grafico a torta per visualizzare i valori della sezione nella parte superiore della torta.  
@@ -130,4 +130,3 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
 ## <a name="next-steps"></a>Passaggi successivi
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
 * Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-

@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525262"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277434"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Separare i report dai modelli in Power BI Desktop
 
 Quando si crea una nuova soluzione Power BI Desktop, una delle prime attività che è necessario eseguire è il recupero dei dati. Il recupero dei dati può generare due risultati nettamente diversi. Potrebbe:
 
-- Creare una [connessione dinamica](../desktop-report-lifecycle-datasets.md) a un modello già pubblicato, che può essere un set di dati di Power BI o un modello di Analysis Services ospitato in remoto.
+- Creare una [connessione dinamica](../connect-data/desktop-report-lifecycle-datasets.md) a un modello già pubblicato, che può essere un set di dati di Power BI o un modello di Analysis Services ospitato in remoto.
 - Dare il via allo sviluppo di un nuovo modello, che può essere un modello di importazione, DirectQuery o composito.
 
 Questo articolo riguarda il secondo scenario. Vengono fornite indicazioni per l'eventuale combinazione di un report e di un modello in un unico file di Power BI Desktop.
@@ -67,7 +67,7 @@ Si consiglia di contattare il proprietario di ogni artefatto correlato per avvis
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Connettersi ai set di dati nel servizio Power BI da Power BI Desktop](../desktop-report-lifecycle-datasets.md)
+- [Connettersi ai set di dati nel servizio Power BI da Power BI Desktop](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Visualizzare il contenuto correlato nel servizio Power BI](../consumer/end-user-related.md)
 - [Derivazione dei dati](../collaborate-share/service-data-lineage.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)

@@ -2,22 +2,25 @@
 title: Suggerimenti e consigli per le mappe (inclusa l'integrazione di Bing Maps)
 description: 'Suggerimenti e consigli per le viste mappa di Power BI, oggetti visivi, località, longitudine e latitudine e rispettivo funzionamento con Bing Maps. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525914"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277825"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione della mappa autonomamente, richiede l'aiuto di Bing Maps. 
 
 L'utente, o l'amministratore, potrebbe dover aggiornare il firewall per consentire l'accesso agli URL usati da Bing per la geocodifica.  Questi URL sono:
@@ -47,7 +50,7 @@ Se si ha accesso al set di dati usato per creare la visualizzazione della mappa,
 
 **1. Classificare i campi geografici in Power BI Desktop**
 
-In Power BI Desktop è possibile assicurarsi che la codifica geografica dei campi venga eseguita correttamente impostando la *categoria di dati* per i campi dati. In Vista dati selezionare la colonna desiderata. Sulla barra multifunzione selezionare la scheda **Modellazione** e impostare **Categoria di dati** su **Indirizzo**, **Città**, **Continente**, **Paese/area geografica**, **Regione**, **Codice postale**, **Stato** o **Provincia**. Queste categorie di dati consentiranno a Bing di codificare correttamente la data. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](../desktop-data-categorization.md). Se si esegue una connessione dinamica a SQL Server Analysis Services, sarà necessario impostare la categorizzazione dei dati all'esterno di Power BI usando [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+In Power BI Desktop è possibile assicurarsi che la codifica geografica dei campi venga eseguita correttamente impostando la *categoria di dati* per i campi dati. In Vista dati selezionare la colonna desiderata. Sulla barra multifunzione selezionare la scheda **Modellazione** e impostare **Categoria di dati** su **Indirizzo**, **Città**, **Continente**, **Paese/area geografica**, **Regione**, **Codice postale**, **Stato** o **Provincia**. Queste categorie di dati consentiranno a Bing di codificare correttamente la data. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](../transform-model/desktop-data-categorization.md). Se si esegue una connessione dinamica a SQL Server Analysis Services, sarà necessario impostare la categorizzazione dei dati all'esterno di Power BI usando [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Usare più colonne di località.**     
  In alcuni casi, anche l'impostazione delle categorie di dati per la creazione di mappe non è sufficiente per consentire a Bing di individuare correttamente la posizione. Alcune designazioni sono ambigue perché la località esiste in più paesi o aree geografiche. Ad esempio, esiste una città chiamata ***Southampton*** in Inghilterra, Pennsylvania e New York.
@@ -94,4 +97,5 @@ Quando si esaminano le gerarchie geografiche, è importante conoscere il funzion
 [Visualizzazioni di Power BI](power-bi-report-visualizations.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+
 

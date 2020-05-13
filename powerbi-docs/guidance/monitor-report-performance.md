@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525538"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279021"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorare le prestazioni dei report in Power BI
 
-Monitorare le prestazioni dei report in Power BI Desktop usando l'[app Power BI Premium Metrics](../service-premium-metrics-app.md) e scoprire come individuare i colli di bottiglia e migliorare le prestazioni dei report.
+Monitorare le prestazioni dei report in Power BI Desktop usando l'[app Power BI Premium Metrics](../admin/service-premium-metrics-app.md) e scoprire come individuare i colli di bottiglia e migliorare le prestazioni dei report.
 
 Il monitoraggio delle prestazioni è applicabile nelle situazioni seguenti:
 
@@ -39,7 +39,7 @@ Usare [Diagnostica query](/power-query/QueryDiagnostics) in Power BI Desktop per
 
 ## <a name="use-performance-analyzer"></a>Usare l'analizzatore prestazioni
 
-Usare [Analizzatore prestazioni](../desktop-performance-analyzer.md) in Power BI Desktop per esaminare le prestazioni di tutti gli elementi del report, ad esempio oggetti visivi e formule DAX. L'analizzatore prestazioni è particolarmente utile per determinare se il rendering della query o dell'oggetto visivo causa problemi di prestazioni.
+Usare [Analizzatore prestazioni](../create-reports/desktop-performance-analyzer.md) in Power BI Desktop per esaminare le prestazioni di tutti gli elementi del report, ad esempio oggetti visivi e formule DAX. L'analizzatore prestazioni è particolarmente utile per determinare se il rendering della query o dell'oggetto visivo causa problemi di prestazioni.
 
 ## <a name="use-sql-server-profiler"></a>Usare SQL Server Profiler
 
@@ -77,15 +77,15 @@ L'uso di SQL Server Profiler offre il vantaggio di poter salvare una traccia del
 
 ## <a name="monitor-premium-metrics"></a>Monitorare le metriche Premium
 
-Per le capacità di Power BI Premium, usare l'**app Power BI Premium Metrics** per monitorare l'integrità e la capacità della sottoscrizione Power BI Premium. Per altre informazioni, vedere [App Power BI Premium Metrics](../service-premium-metrics-app.md).
+Per le capacità di Power BI Premium, usare l'**app Power BI Premium Metrics** per monitorare l'integrità e la capacità della sottoscrizione Power BI Premium. Per altre informazioni, vedere [App Power BI Premium Metrics](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - [Diagnostica delle query](/power-query/QueryDiagnostics)
-- [Analizzatore prestazioni](../desktop-performance-analyzer.md)
+- [Analizzatore prestazioni](../create-reports/desktop-performance-analyzer.md)
 - [Risolvere i problemi relativi alle prestazioni dei report in Power BI](report-performance-troubleshoot.md)
-- [App Power BI Premium Metrics](../service-premium-metrics-app.md)
+- [App Power BI Premium Metrics](../admin/service-premium-metrics-app.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
