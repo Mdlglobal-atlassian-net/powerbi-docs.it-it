@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464683"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275985"
 landingContent:
-- title: Introduzione
+- title: Inizia
   linkLists:
   - linkListType: get-started
     links:
     - text: Usare la barra multifunzione aggiornata
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Panoramica dell'accessibilità
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Ottenere dati di esempio
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Importare e aprire pacchetti di esempio
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'Esempio COVID-19: dati USA'
@@ -51,40 +51,40 @@ landingContent:
       url: ../visuals/power-bi-map-tips-and-tricks.md
     - text: Esportare dati da un oggetto visivo
       url: ../visuals/power-bi-visualization-export-data.md
-    - text: Filtro dei dati
+    - text: Filtri dei dati
       url: ../visuals/power-bi-visualization-slicers.md
 - title: Progettare report
   linkLists:
   - linkListType: concept
     links:
     - text: Temi dei report
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Caselle di testo e forme
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Formattazione condizionale delle tabelle
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Usare il raggruppamento e la creazione di contenitori
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Aggiungere segnalibri a un report
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Progettare le interazioni del report
   linkLists:
   - linkListType: concept
     links:
     - text: Visualizzazione report in Power BI Desktop
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Esplorare i dati con Domande e risposte
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Usare il drill-through in un report
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Aggiungere segnalibri a un report
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Aggiungere filtri a un report
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Report impaginati di Power BI
   linkLists:
   - linkListType: overview
@@ -103,19 +103,19 @@ landingContent:
     links:
     - text: Creare un report in un set di dati condiviso
       url: ../paginated-reports/report-builder-shared-datasets.md
-    - text: Creare un parametro
+    - text: Creare parametri
       url: ../paginated-reports/paginated-reports-parameters.md
 - title: Dashboard
   linkLists:
   - linkListType: concept
     links:
     - text: Introduzione ai dashboard
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Creare un dashboard
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Aggiungere un riquadro a un dashboard
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Aggiungere immagini o video a un dashboard
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

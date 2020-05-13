@@ -6,74 +6,74 @@
       expanded: true
       items:
         - name: Che cos'è l'amministrazione di Power BI?
-          href: ../service-admin-administering-power-bi-in-your-organization.md
+          href: service-admin-administering-power-bi-in-your-organization.md
         - name: Dove si trova il tenant personale?
-          href: ../service-admin-where-is-my-tenant-located.md
+          href: service-admin-where-is-my-tenant-located.md
         - name: Che cos'è Power BI Premium?
-          href: ../service-premium-what-is.md
+          href: service-premium-what-is.md
     - name: Concetti
       expanded: true
       items:
         - name: Ruolo di amministrazione in Microsoft 365
-          href: ../service-admin-role.md
+          href: service-admin-role.md
         - name: Gestione delle licenze per l'organizzazione
-          href: ../service-admin-licensing-organization.md
+          href: service-admin-licensing-organization.md
         - name: Power BI per Governo degli Stati Uniti
           items:
             - name: Power BI per Governo degli Stati Uniti
-              href: ../service-govus-overview.md
+              href: service-govus-overview.md
             - name: Registrare un'organizzazione governativa degli Stati Uniti
-              href: ../service-govus-signup.md
+              href: service-govus-signup.md
         - name: Power BI nei cloud delle varie aree
           items:
             - name: Eseguire la migrazione alle aree tedesche "Go Local"
               href: service-admin-migrate-data-germany.md
             - name: Domande frequenti per i clienti del Cloud Germania
-              href: ../service-govde-faq.md
+              href: service-govde-faq.md
         - name: Domande frequenti
-          href: ../service-admin-faq.md
+          href: service-admin-faq.md
         - name: Domande frequenti su disponibilità elevata e failover
-          href: ../service-admin-failover.md
+          href: service-admin-failover.md
         - name: Power BI Premium
           items:
             - name: Gestire le capacità Premium
-              href: ../service-premium-capacity-manage.md
+              href: service-premium-capacity-manage.md
             - name: Ottimizzare le capacità Premium
-              href: ../service-premium-capacity-optimize.md
+              href: service-premium-capacity-optimize.md
             - name: Scenari delle capacità Premium
-              href: ../service-premium-capacity-scenarios.md
+              href: service-premium-capacity-scenarios.md
             - name: Domande frequenti su Power BI Premium
-              href: ../service-premium-faq.md
-    - name: Procedure
+              href: service-premium-faq.md
+    - name: Procedura
       items:
         - name: Gestione delle licenze e iscrizione
           items:
             - name: Ottenere Power BI per l'organizzazione
               href: service-admin-org-subscription.md
             - name: Acquista Power BI Pro
-              href: ../service-admin-purchasing-power-bi-pro.md
+              href: service-admin-purchasing-power-bi-pro.md
             - name: Disabilitare l'iscrizione in modalità self-service
               href: service-admin-disable-self-service.md
             - name: Visualizzare e gestire le licenze utente
               href: service-admin-manage-licenses.md
             - name: Iscriversi con una versione di valutazione di Microsoft 365
-              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Aggiungere Power BI con un partner Microsoft 365
-              href: ../service-admin-syndication-partner.md
+              href: service-admin-syndication-partner.md
         - name: Uso del portale di amministrazione
-          href: ../service-admin-portal.md
+          href: service-admin-portal.md
         - name: Trovare gli utenti che hanno eseguito l'accesso
-          href: ../service-admin-access-usage.md
+          href: service-admin-access-usage.md
         - name: Tenere traccia delle attività utente
-          href: ../service-admin-auditing.md
-        - name: Tenere traccia dell’integrità del servizio
-          href: ../service-admin-health.md
+          href: service-admin-auditing.md
+        - name: Tenere traccia dell'integrità del servizio
+          href: service-admin-health.md
         - name: Chiusura dell'account
-          href: ../service-admin-closing-your-account.md
+          href: service-admin-closing-your-account.md
         - name: Utilizzo di Azure AD B2B
-          href: ../service-admin-azure-ad-b2b.md
+          href: service-admin-azure-ad-b2b.md
         - name: Gestire il modulo di accesso di Power BI Desktop
-          href: ../desktop-admin-sign-in-form.md
+          href: desktop-admin-sign-in-form.md
         - name: Protezione dei dati
           items:
             - name: Panoramica della protezione dei dati
@@ -85,65 +85,65 @@
             - name: Report sulle metriche di protezione dei dati
               href: service-security-data-protection-metrics-report.md
         - name: Sicurezza a livello di riga
-          href: ../service-admin-rls.md
+          href: service-admin-rls.md
         - name: Configurare la certificazione di set di dati e flussi di dati
           href: service-admin-setup-certification.md
         - name: Configurare app per dispositivi mobili con Intune
-          href: ../service-admin-mobile-intune.md
+          href: service-admin-mobile-intune.md
         - name: Power BI Premium
           items:
             - name: Acquistare Power BI Premium
-              href: ../service-admin-premium-purchase.md
+              href: service-admin-premium-purchase.md
             - name: Configurare e gestire le capacità
-              href: ../service-admin-premium-manage.md
+              href: service-admin-premium-manage.md
             - name: Configurare i carichi di lavoro
-              href: ../service-admin-premium-workloads.md
+              href: service-admin-premium-workloads.md
             - name: Monitorare le capacità con l'app
-              href: ../service-admin-premium-monitor-capacity.md
+              href: service-admin-premium-monitor-capacity.md
             - name: Monitorare le metriche per carichi di lavoro Premium
-              href: ../service-premium-metrics-app.md
+              href: service-premium-metrics-app.md
             - name: Monitorare le capacità nel portale di amministrazione
-              href: ../service-admin-premium-monitor-portal.md
+              href: service-admin-premium-monitor-portal.md
             - name: Configurare modelli di grandi dimensioni (anteprima)
-              href: ../service-premium-large-models.md
+              href: service-premium-large-models.md
             - name: Configurare Multi-Geo
-              href: ../service-admin-premium-multi-geo.md
+              href: service-admin-premium-multi-geo.md
             - name: Usare chiavi di crittografia personalizzate
-              href: ../service-encryption-byok.md
+              href: service-encryption-byok.md
             - name: Riavviare una capacità Premium
-              href: ../service-admin-premium-restart.md
+              href: service-admin-premium-restart.md
             - name: Connettività ai set di dati con l'endpoint XMLA (anteprima)
-              href: ../service-premium-connect-tools.md
+              href: service-premium-connect-tools.md
     - name: Riferimento
       items:
         - name: 'PowerShell, API REST e .NET SDK'
-          href: ../service-admin-reference.md
+          href: service-admin-reference.md
         - name: Cmdlet di Power BI per PowerShell
           href: 'https://docs.microsoft.com/powershell/power-bi/'
           maintainContext: true
         - name: Riferimento URL del servizio
-          href: ../power-bi-whitelist-urls.md
+          href: power-bi-whitelist-urls.md
     - name: Risorse
       items:
         - name: Strategie di governance e distribuzione in Power BI
-          href: ../service-admin-governance.md
+          href: service-admin-governance.md
         - name: Sicurezza di Power BI
-          href: ../service-admin-power-bi-security.md
+          href: service-admin-power-bi-security.md
         - name: Livelli di privacy
-          href: ../desktop-privacy-levels.md
-    - name: Risolvere problemi
+          href: desktop-privacy-levels.md
+    - name: Risoluzione dei problemi
       items:
         - name: Non riesci ad accedere?
-          href: ../power-bi-cannot-sign-in.md
+          href: power-bi-cannot-sign-in.md
         - name: Opzioni di supporto di Power BI
-          href: ../service-support-options.md
+          href: service-support-options.md
         - name: Notifiche di interruzione del servizio
-          href: ../service-interruption-notifications.md
+          href: service-interruption-notifications.md
         - name: Password dimenticata per Power BI?
-          href: ../service-admin-forgot-your-password.md
+          href: service-admin-forgot-your-password.md
         - name: Acquisizione di informazioni diagnostiche aggiuntive per Power BI
-          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+          href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: Indirizzo di posta elettronica alternativo per Power BI
-          href: ../service-admin-alternate-email-address-for-power-bi.md
+          href: service-admin-alternate-email-address-for-power-bi.md
         - name: Come usare lo stesso account di accesso per Power BI e Azure
-          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+          href: service-admin-how-to-use-the-same-account-as-azure.md

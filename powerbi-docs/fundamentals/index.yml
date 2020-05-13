@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439596"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348782"
 landingContent:
 - title: Che cos'è Power BI?
   linkLists:
   - linkListType: overview
     links:
     - text: Che cos'è Power BI?
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Che cos'è Power BI Desktop?
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: Che cos'è il servizio Power BI?
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Confronto tra Power BI Desktop e il servizio
-      url: ../service-service-vs-desktop.md
+      url: service-service-vs-desktop.md
 - title: Novità
   linkLists:
   - linkListType: concept
     links:
     - text: Novità in Power BI Desktop
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: Novità del servizio
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: Introduzione a Learn
   linkLists:
   - linkListType: learn
@@ -52,16 +52,16 @@ landingContent:
   - linkListType: concept
     links:
     - text: Iscriversi a Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: Funzionalità in base al tipo di licenza
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: Risorse
   linkLists:
   - linkListType: reference
     links:
     - text: Video di Power BI
-      url: ../videos.md
+      url: videos.md
     - text: Video su Power BI Desktop
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: Webinar
-      url: ../webinars.md
+      url: webinars.md

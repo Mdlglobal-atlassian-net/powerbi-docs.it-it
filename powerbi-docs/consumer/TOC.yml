@@ -11,7 +11,7 @@
           href: end-user-basic-concepts.md
         - name: Visualizzare una presentazione del servizio Power BI
           href: end-user-reading-view.md
-    - name: Introduzione
+    - name: Inizia
       expanded: true
       items:
         - name: Orientarsi in Power BI
@@ -27,10 +27,10 @@
         - name: Informazioni su come porre domande in linguaggio naturale
           href: end-user-q-and-a.md
         - name: Esplorare il nuovo aspetto
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: '"Nuovo aspetto": dove sono le azioni?'
-          href: ../service-new-look-where-actions.md
-    - name: Procedure
+          href: service-new-look-where-actions.md
+    - name: Procedura
       items:
         - name: Dashboard
           items:
@@ -93,7 +93,7 @@
             - name: Eseguire il drill-down in una visualizzazione
               href: end-user-drill.md
             - name: Interagire con le mappe ArcGIS
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Attività comuni
           items:
             - name: Esportare i dati in Excel
@@ -120,7 +120,7 @@
               href: end-user-preview-features.md
             - name: Ottenere notifiche nel servizio Power BI
               href: end-user-notification-center.md
-        - name: Recuperare i dati
+        - name: Recupera dati
           items:
             - name: Aree di lavoro in Power BI
               href: end-user-workspaces.md
