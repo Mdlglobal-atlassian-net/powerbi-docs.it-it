@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a7de3dfbbd378ea96f56c1d6d37d273434f5c2f9
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866415"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349817"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Creare e usare oggetti visivi R in Power BI
 
 [!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
 
-Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../desktop-r-visuals.md).
+Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../create-reports/desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Visualizzazione di oggetti visivi R nel servizio Power BI
 Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti visivi creati con gli script R. Gli oggetti visivi creati con gli script R, comunemente denominati *oggetti visivi R*, possono presentare funzionalità avanzate di data shaping e analisi, ad esempio le previsioni, usando le funzionalità avanzate di analisi e visualizzazione di R.
@@ -34,7 +34,7 @@ L'immagine seguente mostra un dashboard di Power BI con una raccolta di oggetti 
 
 ![Screenshot dell'area di disegno report del servizio Power BI](media/service-r-visuals/power-bi-r-visuals.png)
 
-Gli oggetti visivi R vengono creati in un [report di Power BI Desktop](../desktop-get-the-desktop.md), simile al report mostrato nell'immagine seguente.
+Gli oggetti visivi R vengono creati in un [report di Power BI Desktop](../fundamentals/desktop-get-the-desktop.md), simile al report mostrato nell'immagine seguente.
 
 ![Report desktop con due oggetti visivi](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
@@ -44,7 +44,7 @@ Dopo aver creato il report in **Power BI Desktop**, è possibile pubblicare il r
 
 È possibile scaricare il [file Power BI Desktop di esempio](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (file PBIX) che contiene alcuni oggetti visivi R utili per vedere il funzionamento del servizio e provare a usarlo.
 
-Gli oggetti visivi R che vengono creati in **Power BI Desktop**, e quindi pubblicati nel servizio Power BI, nella maggior parte dei casi si comportano come qualsiasi altro oggetto visivo nel servizio Power BI; è possibile interagire con essi, filtrarli, suddividerli e quindi aggiungerli a un dashboard oppure condividerli con altri. Per maggiori informazioni sulla condivisione di dashboard e oggetti visivi, vedere [Condividere un dashboard con i colleghi e altri utenti](../service-share-dashboards.md). Rispetto ad altri oggetti visivi, gli oggetti visivi R non possono visualizzare descrizioni comandi e non possono essere usati per filtrare altri oggetti visivi.
+Gli oggetti visivi R che vengono creati in **Power BI Desktop**, e quindi pubblicati nel servizio Power BI, nella maggior parte dei casi si comportano come qualsiasi altro oggetto visivo nel servizio Power BI; è possibile interagire con essi, filtrarli, suddividerli e quindi aggiungerli a un dashboard oppure condividerli con altri. Per maggiori informazioni sulla condivisione di dashboard e oggetti visivi, vedere [Condividere un dashboard con i colleghi e altri utenti](../collaborate-share/service-share-dashboards.md). Rispetto ad altri oggetti visivi, gli oggetti visivi R non possono visualizzare descrizioni comandi e non possono essere usati per filtrare altri oggetti visivi.
 
 Come è possibile vedere nell'immagine seguente, gli oggetti visivi R nel servizio Power BI, in dashboard o report, nella maggior parte dei casi vengono visualizzati e si comportano come qualsiasi altro oggetto visivo e non richiedono la conoscenza dello script R sottostante da parte degli utenti.
 
@@ -69,9 +69,9 @@ Come ulteriore esempio, l'immagine seguente mostra il messaggio di errore visual
 ![Screenshot che mostra un errore di runtime](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Licenze
-Gli oggetti visivi R richiedono una licenza [Power BI Pro](../service-self-service-signup-for-power-bi.md) per il rendering nei report, l'aggiornamento, il filtro e il filtro incrociato. Per maggiori informazioni sulle licenze Power BI Pro e sugli aspetti che le distinguono dalle licenze gratuite, vedere [Contenuto Power BI Pro: di cosa si tratta?](../service-admin-purchasing-power-bi-pro.md)
+Gli oggetti visivi R richiedono una licenza [Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) per il rendering nei report, l'aggiornamento, il filtro e il filtro incrociato. Per maggiori informazioni sulle licenze Power BI Pro e sugli aspetti che le distinguono dalle licenze gratuite, vedere [Contenuto Power BI Pro: di cosa si tratta?](../admin/service-admin-purchasing-power-bi-pro.md)
 
-Gli utenti della versione di Power BI gratuita possono usare solo i riquadri condivisi nelle aree di lavoro Premium. Vedere [Acquisto di Power BI Pro](../service-admin-purchasing-power-bi-pro.md) per maggiori informazioni.
+Gli utenti della versione di Power BI gratuita possono usare solo i riquadri condivisi nelle aree di lavoro Premium. Vedere [Acquisto di Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md) per maggiori informazioni.
 
 La tabella seguente descrive le funzionalità degli oggetti visivi R in base alle licenze.
 
@@ -88,7 +88,7 @@ La tabella seguente descrive le funzionalità degli oggetti visivi R in base all
 ## <a name="known-limitations"></a>Limitazioni note
 Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:
 
-* Il supporto per gli oggetti visivi R è limitato ai pacchetti identificati in [Pacchetti R nel servizio Power BI](../service-r-packages-support.md). Attualmente non è disponibile il supporto per i pacchetti personalizzati.
+* Il supporto per gli oggetti visivi R è limitato ai pacchetti identificati in [Pacchetti R nel servizio Power BI](../connect-data/service-r-packages-support.md). Attualmente non è disponibile il supporto per i pacchetti personalizzati.
 * Limitazioni relative alle dimensioni di dati: i dati utilizzati dall’oggetto visivo R per il tracciato sono limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine. Inoltre, i dati di input hanno un limite di 250 MB.
 * Risoluzione: tutti gli oggetti visivi R vengono visualizzati a 72 DPI.
 * Dispositivo di tracciamento: è supportato solo il tracciamento nel dispositivo predefinito. 
@@ -119,7 +119,7 @@ I pacchetti R sono raccolte di funzioni, dati e codice compilato di R che vengon
 
 **Power BI Desktop** può usare qualsiasi tipo di pacchetti R senza alcuna limitazione. È possibile installare pacchetti R da usare in **Power BI Desktop** autonomamente (usando l'[IDE RStudio](https://www.rstudio.com/), ad esempio).
 
-Gli oggetti visivi R nel **servizio Power BI** sono supportati dai pacchetti reperibili nella sezione **Pacchetti supportati** in [questo articolo](../service-r-packages-support.md). Se nell'elenco dei pacchetti supportati non si trova un pacchetto a cui si è interessati, è possibile richiedere il supporto del pacchetto. Per informazioni su come richiedere assistenza, vedere [Pacchetti R nel servizio Power BI](../service-r-packages-support.md).
+Gli oggetti visivi R nel **servizio Power BI** sono supportati dai pacchetti reperibili nella sezione **Pacchetti supportati** in [questo articolo](../connect-data/service-r-packages-support.md). Se nell'elenco dei pacchetti supportati non si trova un pacchetto a cui si è interessati, è possibile richiedere il supporto del pacchetto. Per informazioni su come richiedere assistenza, vedere [Pacchetti R nel servizio Power BI](../connect-data/service-r-packages-support.md).
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>Requisiti e limitazioni dei pacchetti R
 Ci sono alcuni requisiti e limitazioni per i pacchetti R:
@@ -130,11 +130,10 @@ Ci sono alcuni requisiti e limitazioni per i pacchetti R:
   
   * Per gli oggetti visivi R, è possibile installare qualsiasi pacchetto, inclusi i pacchetti R personalizzati
   * Per gli oggetti visivi R personalizzati, sono supportati solo i pacchetti CRAN pubblici per l'installazione automatica dei pacchetti
-* Per motivi di privacy e sicurezza, attualmente non sono supportati i pacchetti R che forniscono query client-server sul Web (ad esempio RgoogleMaps) nel servizio. La rete è bloccata per tali tentativi. Per un elenco dei pacchetti R supportati e non supportati, vedere [Pacchetti R nel servizio Power BI](../service-r-packages-support.md).
+* Per motivi di privacy e sicurezza, attualmente non sono supportati i pacchetti R che forniscono query client-server sul Web (ad esempio RgoogleMaps) nel servizio. La rete è bloccata per tali tentativi. Per un elenco dei pacchetti R supportati e non supportati, vedere [Pacchetti R nel servizio Power BI](../connect-data/service-r-packages-support.md).
 * Il processo di approvazione per l'inclusione di un nuovo pacchetto R è caratterizzato da una struttura ad albero delle dipendenze; alcune dipendenze la cui installazione è richiesta nel servizio non possono essere supportate.
 
 ### <a name="supported-packages"></a>Pacchetti supportati:
 Per un lungo elenco di pacchetti R supportati (e il breve elenco dei pacchetti non supportati), vedere l'articolo seguente:
 
-* [Pacchetti R nel servizio Power BI](../service-r-packages-support.md)
-
+* [Pacchetti R nel servizio Power BI](../connect-data/service-r-packages-support.md)
