@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75304180"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279573"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Confronto tra funzione DIVIDE e operatore di divisione (/)
 
@@ -58,7 +58,7 @@ Si consiglia di usare la funzione DIVIDE ogni volta che il denominatore è un'es
 
 Se il denominatore è un valore costante, è consigliabile usare l'operatore di divisione. In questo caso, è garantita la riuscita della divisione e l'espressione offrirà prestazioni migliori, in quanto eviterà test superflui.
 
-Valutare attentamente se la funzione DIVIDE deve restituire un valore alternativo. Per le misure, la progettazione consigliata prevede in genere la restituzione di BLANK. La restituzione di BLANK è consigliata perché per impostazione predefinita gli oggetti visivi del report eliminano i raggruppamenti quando i riepiloghi sono BLANK. Questo consente all'oggetto visivo di concentrare l'attenzione sui gruppi in cui sono presenti dati. Quando necessario, è possibile configurare l'oggetto visivo per visualizzare tutti i gruppi (che restituiscono valori o BLANK) nel contesto di filtro abilitando l'opzione [Mostra elementi senza dati](../desktop-show-items-no-data.md).
+Valutare attentamente se la funzione DIVIDE deve restituire un valore alternativo. Per le misure, la progettazione consigliata prevede in genere la restituzione di BLANK. La restituzione di BLANK è consigliata perché per impostazione predefinita gli oggetti visivi del report eliminano i raggruppamenti quando i riepiloghi sono BLANK. Questo consente all'oggetto visivo di concentrare l'attenzione sui gruppi in cui sono presenti dati. Quando necessario, è possibile configurare l'oggetto visivo per visualizzare tutti i gruppi (che restituiscono valori o BLANK) nel contesto di filtro abilitando l'opzione [Mostra elementi senza dati](../create-reports/desktop-show-items-no-data.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -66,3 +66,4 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - [Riferimento a Data Analysis Expressions (DAX)](/dax/)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+

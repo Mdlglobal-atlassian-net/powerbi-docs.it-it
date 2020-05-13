@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700387"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279642"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Evitare di convertire risultati BLANK in valori
 
@@ -66,7 +66,7 @@ L'oggetto visivo tabella visualizza ora solo i clienti con vendite nel contesto 
 ![Lo stesso oggetto visivo tabella ora visualizza quattro righe di dati. Ogni riga è riferita a un cliente con un valore di vendita e con valori Profit Margin diversi da zero.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> Quando necessario, è possibile configurare un oggetto visivo per visualizzare tutti i raggruppamenti (che restituiscono valori o BLANK) nel contesto del filtro abilitando l'opzione [Mostra elementi senza dati](../desktop-show-items-no-data.md).
+> Quando necessario, è possibile configurare un oggetto visivo per visualizzare tutti i raggruppamenti (che restituiscono valori o BLANK) nel contesto del filtro abilitando l'opzione [Mostra elementi senza dati](../create-reports/desktop-show-items-no-data.md).
 
 ## <a name="recommendation"></a>Recommendation
 
@@ -80,3 +80,4 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - [Riferimento a Data Analysis Expressions (DAX)](/dax/)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498738"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279619"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Riferimenti a colonne e misure
 
@@ -43,7 +43,7 @@ In alcuni casi, tuttavia, sarà necessario usare riferimenti a colonne completi 
 
 ## <a name="measures"></a>Misure
 
-Una misura è un oggetto a livello di modello. Per questo motivo, i nomi delle misure devono essere univoci all'interno del modello. Tuttavia, nel riquadro **Campi** gli autori del report vedranno ogni misura associata a una singola tabella del modello. Questa associazione è impostata per motivi estetici ed è possibile configurarla impostando la proprietà **Tabella home** per la misura. Per altre informazioni, vedere [Misure in Power BI Desktop - Organizzazione delle misure](../desktop-measures.md#organizing-your-measures).
+Una misura è un oggetto a livello di modello. Per questo motivo, i nomi delle misure devono essere univoci all'interno del modello. Tuttavia, nel riquadro **Campi** gli autori del report vedranno ogni misura associata a una singola tabella del modello. Questa associazione è impostata per motivi estetici ed è possibile configurarla impostando la proprietà **Tabella home** per la misura. Per altre informazioni, vedere [Misure in Power BI Desktop - Organizzazione delle misure](../transform-model/desktop-measures.md#organizing-your-measures).
 
 È possibile usare una misura completa nelle espressioni. Anche DAX IntelliSense offre il suggerimento. Tuttavia, non è necessario e non è una procedura consigliata. Se si modifica la tabella home per una misura, qualsiasi espressione che usi un riferimento di misura completo verrà interrotta. Sarà quindi necessario modificare ogni formula interrotta per rimuovere (o aggiornare) il riferimento alla misura.
 
@@ -68,3 +68,4 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 
 - [Riferimento a Data Analysis Expressions (DAX)](/dax/)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487810"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279757"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Linee guida per le impostazioni di amministrazione del tenant
 
@@ -21,7 +21,7 @@ Questo articolo è destinato agli amministratori di Power BI responsabili della 
 
 Contiene le linee guida per le impostazioni specifiche del tenant che consentono di migliorare l'esperienza di Power BI o che possono esporre a rischio l'organizzazione. È consigliabile configurare sempre il tenant in base ai criteri e ai processi dell'organizzazione.
 
-Le [impostazioni del tenant](../service-admin-portal.md#tenant-settings) vengono gestite nel [portale di amministrazione](https://app.powerbi.com/admin-portal/tenantSettings) e possono essere configurate da un [amministratore del servizio Power BI](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Molte impostazioni del tenant possono limitare le funzionalità a un determinato set di utenti. È quindi consigliabile acquisire familiarità con le impostazioni per pianificare i gruppi di sicurezza necessari. Si noterà che è possibile applicare lo stesso gruppo di sicurezza a più impostazioni.
+Le [impostazioni del tenant](../admin/service-admin-portal.md#tenant-settings) vengono gestite nel [portale di amministrazione](https://app.powerbi.com/admin-portal/tenantSettings) e possono essere configurate da un [amministratore del servizio Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Molte impostazioni del tenant possono limitare le funzionalità a un determinato set di utenti. È quindi consigliabile acquisire familiarità con le impostazioni per pianificare i gruppi di sicurezza necessari. Si noterà che è possibile applicare lo stesso gruppo di sicurezza a più impostazioni.
 
 ## <a name="improve-power-bi-experience"></a>Migliorare l'esperienza di Power BI
 
@@ -88,7 +88,7 @@ L'impostazione **Condividi contenuto con utenti esterni** è abilitata per impos
 
 ### <a name="publish-to-web"></a>Pubblica sul Web
 
-La funzionalità [Pubblica sul Web](../service-publish-to-web.md) consente di pubblicare report pubblici sul Web. Se è usata in modo inappropriato, si corre il rischio che le informazioni riservate vengano rese disponibili sul Web.
+La funzionalità [Pubblica sul Web](../collaborate-share/service-publish-to-web.md) consente di pubblicare report pubblici sul Web. Se è usata in modo inappropriato, si corre il rischio che le informazioni riservate vengano rese disponibili sul Web.
 
 L'impostazione **Pubblica sul Web** è abilitata per impostazione predefinita per l'intera organizzazione, ma limita la capacità degli utenti non amministratori di creare codici di incorporamento. Si trova nel gruppo **Impostazioni di esportazione e condivisione**.
 
@@ -109,7 +109,7 @@ L'impostazione **Esporta dati** è abilitata per impostazione predefinita per l'
 È consigliabile assegnare uno o più gruppi di sicurezza. A questi gruppi è possibile concedere _o negare_ l'autorizzazione per la pubblicazione di report.
 
 > [!IMPORTANT]
-> La disabilitazione di questa impostazione limita anche l'utilizzo delle funzionalità [Analizza in Excel](../service-analyze-in-excel.md) e [Connessione dinamica](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) del servizio Power BI.
+> La disabilitazione di questa impostazione limita anche l'utilizzo delle funzionalità [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md) e [Connessione dinamica](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) del servizio Power BI.
 
 ![Visualizzazione dell'impostazione "Esporta dati".](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ L'impostazione **Esporta dati** è abilitata per impostazione predefinita per l'
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione
 
-È possibile consentire agli utenti guest esterni di modificare e gestire il contenuto di Power BI. Per altre informazioni, vedere [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B](../service-admin-azure-ad-b2b.md).
+È possibile consentire agli utenti guest esterni di modificare e gestire il contenuto di Power BI. Per altre informazioni, vedere [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 L'impostazione **Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione** è disabilitata per impostazione predefinita per l'intera organizzazione. Si trova nel gruppo **Impostazioni di esportazione e condivisione**.
 
@@ -141,7 +141,8 @@ Se non si ha intenzione di usare le API per sviluppatori per incorporare il cont
 
 Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
-- [Che cos'è l'amministrazione di Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Amministrazione di Power BI nel portale di amministrazione](../service-admin-portal.md)
+- [Che cos'è l'amministrazione di Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Amministrazione di Power BI nel portale di amministrazione](../admin/service-admin-portal.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)
+
