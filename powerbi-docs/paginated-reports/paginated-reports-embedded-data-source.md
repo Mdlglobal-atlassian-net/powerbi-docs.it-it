@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921770"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276905"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
@@ -27,11 +27,11 @@ Questo articolo descrive come creare e modificare un'origine dati incorporata pe
 - Oracle 
 - Teradata 
 
-Per le origini dati seguenti, usare l'opzione [Connessione SQL Server Analysis Services](../service-premium-connect-tools.md):
+Per le origini dati seguenti, usare l'opzione [Connessione SQL Server Analysis Services](../admin/service-premium-connect-tools.md):
 
 - Set di dati di Power BI Premium
 
-I report impaginati si connettono alle origini dati locali tramite un [gateway di Power BI](../service-gateway-onprem.md). che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI.
+I report impaginati si connettono alle origini dati locali tramite un [gateway di Power BI](../connect-data/service-gateway-onprem.md). che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI.
 
 Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-data.md) per informazioni più dettagliate.
 
@@ -93,3 +93,4 @@ I report impaginati connessi a set di dati di Power BI seguono le regole per i s
 
 - [Creare un set di dati incorporato per un report impaginato nel servizio Power BI](paginated-reports-create-embedded-dataset.md)
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+

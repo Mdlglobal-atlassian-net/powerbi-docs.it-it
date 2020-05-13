@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120276"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275525"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 
@@ -65,7 +65,7 @@ Quando si seleziona il collegamento nel messaggio di posta elettronica nel dispo
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Ottenere un'app dal sito Web Microsoft AppSource 
 
-In questo esempio verrà aperta una delle app di esempio Microsoft. In AppSource sono disponibili app per molti dei servizi usati per le attività aziendali,  ad esempio Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo e molti altri. Per altre informazioni, vedere [App per i servizi usati con Power BI](../service-connect-to-services.md). 
+In questo esempio verrà aperta una delle app di esempio Microsoft. In AppSource sono disponibili app per molti dei servizi usati per le attività aziendali,  ad esempio Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo e molti altri. Per altre informazioni, vedere [App per i servizi usati con Power BI](../connect-data/service-connect-to-services.md). 
 
 1. In un browser aprire [https://appsource.microsoft.com](https://appsource.microsoft.com) e selezionare **App Power BI**.
 
@@ -142,3 +142,4 @@ Gli autori di app possono rilasciare periodicamente nuove versioni delle app. Il
 * [Tornare alla panoramica delle app](end-user-apps.md)
 * [Visualizzare un report di Power BI](end-user-report-open.md)
 * [Altri modi per condividere il contenuto](end-user-shared-with-me.md)
+

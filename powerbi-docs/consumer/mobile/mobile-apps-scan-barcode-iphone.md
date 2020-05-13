@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802050"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276169"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Effettuare la scansione di un codice a barre con il dispositivo dall'app Power BI per dispositivi mobili
 Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
@@ -25,7 +25,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Telefoni Android |Tablet Android |
 
-Si supponga che un collega abbia [contrassegnato un campo di codice a barre in un report di Power BI Desktop](../../desktop-mobile-barcodes.md) e abbia condiviso il report con l'utente. 
+Si supponga che un collega abbia [contrassegnato un campo di codice a barre in un report di Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) e abbia condiviso il report con l'utente. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ Il valore del codice a barre di cui è stata effettuata la scansione esiste nel 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Non sono presenti report che possono essere filtrati in base ai codici a barre"
 Non sono disponibili report abilitati per il codice a barre. Lo scanner di codici a barre può filtrare solo i report che includono una colonna contrassegnata come **Codice a barre**.  
 
-Assicurarsi che il proprietario del report abbia contrassegnato una colonna come **Codice a barre** in Power BI Desktop. Altre informazioni su come [contrassegnare un campo di codice a barre in Power BI Desktop](../../desktop-mobile-barcodes.md)
+Assicurarsi che il proprietario del report abbia contrassegnato una colonna come **Codice a barre** in Power BI Desktop. Altre informazioni su come [contrassegnare un campo di codice a barre in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md)
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"Non è stato possibile filtrare il report. Questo codice a barre non esiste nei dati del report."
 Il report a cui si è scelto di applicare il filtro è basato su un modello di dati che non include questo valore di codice a barre. Il prodotto "acqua minerale" ad esempio, non è incluso nel report. È possibile effettuare la scansione di un prodotto diverso, scegliere un report diverso (se sono disponibili più report) oppure visualizzare il report senza filtri. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Contrassegnare un campo di codice a barre in Power BI Desktop](../../desktop-mobile-barcodes.md)
+* [Contrassegnare un campo di codice a barre in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md)
 * [Riquadri del dashboard in Power BI](../end-user-tiles.md)
 * [Dashboard in Power BI](../end-user-dashboards.md)
-

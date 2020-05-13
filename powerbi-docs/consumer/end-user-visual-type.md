@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377191"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279435"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
 
@@ -152,7 +152,7 @@ Gli sviluppatori di report possono creare un'app di Power Apps e incorporarla in
 ![Oggetti visivi Domande e risposte](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->Analogamente all'[esperienza Domande e risposte nei dashboard](../power-bi-tutorial-q-and-a.md), l'oggetto visivo Domande e risposte consente di porre domande sui dati usando il linguaggio naturale. 
+>Analogamente all'[esperienza Domande e risposte nei dashboard](../create-reports/power-bi-tutorial-q-and-a.md), l'oggetto visivo Domande e risposte consente di porre domande sui dati usando il linguaggio naturale. 
 
 Per altre informazioni, vedere [Oggetti visivi Domande e risposte in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ Quando si digitano query in linguaggio naturale con Domande e risposte di Power 
 ## <a name="next-steps"></a>Passaggi successivi
 [Interagire con gli oggetti visivi in report, dashboard e app](end-user-visualizations.md)    
 [Riferimento all'oggetto visivo a destra da sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

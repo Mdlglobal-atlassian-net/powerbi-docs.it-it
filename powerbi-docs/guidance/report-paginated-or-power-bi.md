@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920726"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127821"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando usare report impaginati in Power BI
 
 Questo articolo è destinato agli autori di report che progettano report per Power BI. Fornisce suggerimenti utili per decidere quando sviluppare [report impaginati di Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> La pubblicazione di report impaginati di Power BI richiede una sottoscrizione di Power BI Premium. Il rendering dei report viene eseguito solo quando i report si trovano in un'area di lavoro in una capacità dedicata con il [carico di lavoro Report impaginati abilitato](../service-admin-premium-workloads.md#paginated-reports).
+> La pubblicazione di report impaginati di Power BI richiede una sottoscrizione di Power BI Premium. Il rendering dei report viene eseguito solo quando i report si trovano in un'area di lavoro in una capacità dedicata con il [carico di lavoro Report impaginati abilitato](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 I report impaginati di Power BI sono ottimizzati per la **stampa** o la **generazione di PDF**. Consentono inoltre di creare layout molto precisi con formattazione avanzata. I report impaginati sono quindi ideali per la creazione di report operativi, ad esempio le fatture di vendita.
 
@@ -36,7 +36,7 @@ Si consiglia di usare un report impaginato di Power BI quando:
 
 Quando si hanno già report [RDL (Report Definition Language)](/sql/reporting-services/reports/report-definition-language-ssrs) di SQL Server Reporting Services (SSRS), è possibile scegliere di svilupparli di nuovo come [report di Power BI](../consumer/end-user-reports.md) oppure di eseguirne la migrazione in Power BI come report impaginati. Per altre informazioni, vedere [Eseguire la migrazione di report di SQL Server Reporting Services in Power BI](migrate-ssrs-reports-to-power-bi.md).
 
-Dopo la pubblicazione in un'area di lavoro di Power BI, i report impaginati sono disponibili affiancati ai report di Power BI. È quindi possibile distribuirli facilmente usando le [app Power BI](../service-create-distribute-apps.md).
+Dopo la pubblicazione in un'area di lavoro di Power BI, i report impaginati sono disponibili affiancati ai report di Power BI. È quindi possibile distribuirli facilmente usando le [app Power BI](../collaborate-share/service-create-distribute-apps.md).
 
 È possibile scegliere di sviluppare di nuovo i report SSRS, invece che eseguirne la migrazione. Ciò vale soprattutto per i report che hanno lo scopo di fornire esperienze analitiche. In questi casi, è probabile che i report di Power BI offrano esperienze utente migliori per i report.
 

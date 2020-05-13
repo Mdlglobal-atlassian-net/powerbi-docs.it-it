@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550963"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277020"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -21,7 +21,7 @@ La **sicurezza a livello di riga** può essere usata per limitare l'accesso degl
 
 Se si incorporano dati per utenti non Power BI (i dati sono di proprietà dell'app), ovvero un tipico scenario ISV, leggere questo articolo. Configurare il token di incorporamento per l'utente e il ruolo.
 
-Se l'incorporamento viene eseguito per utenti di Power BI (i dati sono di proprietà dell'utente) all'interno dell'organizzazione, la sicurezza a livello di riga funziona esattamente come nel servizio Power BI. Non è necessario eseguire altre operazioni nell'applicazione. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI](../../service-admin-rls.md).
+Se l'incorporamento viene eseguito per utenti di Power BI (i dati sono di proprietà dell'utente) all'interno dell'organizzazione, la sicurezza a livello di riga funziona esattamente come nel servizio Power BI. Non è necessario eseguire altre operazioni nell'applicazione. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI](../../admin/service-admin-rls.md).
 
 ![Elementi coinvolti con la sicurezza a livello di riga.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ Per sfruttare al meglio la sicurezza a livello di riga, è importante comprender
 
 **Utenti**: gli utenti finali visualizzano l'elemento (dashboard, riquadro, report o set di dati). In Power BI Embedded gli utenti vengono identificati tramite la proprietà username in un token di incorporamento.
 
-**Ruoli**: gli utenti appartengono a ruoli. Un ruolo è un contenitore di regole e può essergli assegnato un nome simile a *Responsabile vendite* o *Rappresentante vendite*. I ruoli vengono creati in Power BI Desktop. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI Desktop](../../desktop-rls.md).
+**Ruoli**: gli utenti appartengono a ruoli. Un ruolo è un contenitore di regole e può essergli assegnato un nome simile a *Responsabile vendite* o *Rappresentante vendite*. I ruoli vengono creati in Power BI Desktop. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI Desktop](../../create-reports/desktop-rls.md).
 
 **Regole** : i ruoli hanno regole e tali regole sono i filtri effettivi che vengono applicati ai dati. Le regole possono essere semplici, ad esempio "Paese = USA", oppure molto più dinamiche.
 La parte rimanente di questo articolo offre un esempio di creazione di sicurezza a livello di riga e del relativo utilizzo in un'applicazione incorporata. Il nostro esempio usa il file PBIX [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547) .
@@ -135,7 +135,7 @@ L'identità effettiva specificata per la proprietà username deve essere un uten
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configurazione del gateway dati locale
 
-Un [gateway dati locale](../../service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account master non è elencato, la sicurezza a livello di riga non viene applicata correttamente alla proprietà dei dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
+Un [gateway dati locale](../../connect-data/service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account master non è elencato, la sicurezza a livello di riga non viene applicata correttamente alla proprietà dei dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
 
 ### <a name="use-of-roles"></a>Uso dei ruoli
 
@@ -235,9 +235,9 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
 
 Per l'applicazione di filtri ai dati in un report, è possibile decidere di usare la **sicurezza a livello di riga** oppure **filtri JavaScript**.
 
-La [sicurezza a livello di riga](../../service-admin-rls.md) è una funzionalità che consente di filtrare i dati al livello del modello di dati. L'origine dati back-end consente di controllare le impostazioni della sicurezza a livello di riga. In base al modello di dati, la generazione del token di incorporamento imposta il nome utente e i ruoli per la sessione. Non può essere sottoposta a override, rimossa o controllata da codice sul lato client e per tale motivo è considerata sicura. È consigliabile usare la sicurezza a livello di riga per filtrare i dati in modo sicuro. È possibile filtrare i dati con la sicurezza a livello di riga usando una delle opzioni seguenti.
+La [sicurezza a livello di riga](../../admin/service-admin-rls.md) è una funzionalità che consente di filtrare i dati al livello del modello di dati. L'origine dati back-end consente di controllare le impostazioni della sicurezza a livello di riga. In base al modello di dati, la generazione del token di incorporamento imposta il nome utente e i ruoli per la sessione. Non può essere sottoposta a override, rimossa o controllata da codice sul lato client e per tale motivo è considerata sicura. È consigliabile usare la sicurezza a livello di riga per filtrare i dati in modo sicuro. È possibile filtrare i dati con la sicurezza a livello di riga usando una delle opzioni seguenti.
 
-* [Configurazione dei ruoli in un report di Power BI](../../desktop-rls.md).
+* [Configurazione dei ruoli in un report di Power BI](../../create-reports/desktop-rls.md).
 * Configurazione dei ruoli a livello di origine dati (solo connessione dinamica ad Analysis Services).
 * A livello di codice con un [token di incorporamento](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) usando `EffectiveIdentity`. Quando si usa un token di incorporamento, il filtro effettivo passa attraverso il token di incorporamento per una specifica sessione.
 

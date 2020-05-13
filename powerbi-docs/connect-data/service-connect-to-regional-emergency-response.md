@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279228"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Connettersi all'app Regional Emergency Response Dashboard
 Regional Emergency Response Dashboard è il componente per la creazione di report della [soluzione Microsoft Power Platform per gli interventi di emergenza locali](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Gli amministratori delle organizzazioni locali possono visualizzare il dashboard nel tenant di Power BI, dove potranno visualizzare rapidamente dati e metriche importanti che permetteranno loro di prendere decisioni efficaci.
@@ -82,21 +82,21 @@ Durante l'installazione della soluzione Regional Emergency Response, prendere no
 
 ## <a name="schedule-report-refresh"></a>Pianificare l'aggiornamento del report
 
-Al termine dell'aggiornamento dei dati [configurare una pianificazione dell'aggiornamento](../refresh-scheduled-refresh.md) per mantenete aggiornati i dati del report.
+Al termine dell'aggiornamento dei dati [configurare una pianificazione dell'aggiornamento](../connect-data/refresh-scheduled-refresh.md) per mantenete aggiornati i dati del report.
 
 1. Nella barra delle intestazioni superiore selezionare **Power BI**.
 
    ![Barra di navigazione di Power BI](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. Nel riquadro di spostamento a sinistra cercare l'area di lavoro Regional Emergency Response Dashboard in **Aree di lavoro** e seguire le istruzioni descritte nell'articolo [Configurare l'aggiornamento pianificato](../refresh-scheduled-refresh.md).
+1. Nel riquadro di spostamento a sinistra cercare l'area di lavoro Regional Emergency Response Dashboard in **Aree di lavoro** e seguire le istruzioni descritte nell'articolo [Configurare l'aggiornamento pianificato](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Personalizza e condividi
 
-Per informazioni dettagliate, vedere [Personalizzare e condividere l'app](../service-template-apps-install-distribute.md#customize-and-share-the-app). Assicurarsi di leggere le [dichiarazioni di non responsabilità](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) prima di pubblicare o distribuire l'app.
+Per informazioni dettagliate, vedere [Personalizzare e condividere l'app](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Assicurarsi di leggere le [dichiarazioni di non responsabilità](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) prima di pubblicare o distribuire l'app.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Informazioni sull'app Regional Emergency Response Dashboard](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Configurare e ottenere informazioni sul modello di esempio Crisis Communication in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-* [Che cosa sono le app modello di Power BI?](../service-template-apps-overview.md)
-* [Installare e distribuire le app modello nell'organizzazione](../service-template-apps-install-distribute.md)
+* [Che cosa sono le app modello di Power BI?](../connect-data/service-template-apps-overview.md)
+* [Installare e distribuire le app modello nell'organizzazione](../connect-data/service-template-apps-install-distribute.md)

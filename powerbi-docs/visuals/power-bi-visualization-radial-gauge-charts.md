@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866933"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276353"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Grafici a misuratore radiale in Power BI
 
@@ -116,7 +116,7 @@ Nel passaggio 2 Power BI ha usato il campo **Valore** per impostare automaticame
 
 ### <a name="step-5-save-your-report"></a>Passaggio 5: Salva il report
 
-1. [Salvare il report](../service-report-save.md).
+1. [Salvare il report](../create-reports/service-report-save.md).
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Usare le opzioni di formattazione manuale per impostare i valori minimo, massimo e di destinazione
 
@@ -151,3 +151,4 @@ Dopo aver completato questi passaggi si otterrà un grafico a misuratore simile 
 * [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+

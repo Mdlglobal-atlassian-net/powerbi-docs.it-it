@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866910"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276836"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
 
@@ -177,13 +177,13 @@ Se non è disponibile un elemento di questo tipo nei dati, creare un campo che c
 
 ![Screenshot di un grafico a dispersione con TempTime aggiunto all'area Dettagli.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Per creare un nuovo campo, [usare l'Editor di query di Power BI Desktop per aggiungere una colonna indice](../desktop-add-custom-column.md) al set di dati. Aggiungere quindi la colonna all'area **Dettagli** della visualizzazione.
+Per creare un nuovo campo, [usare l'Editor di query di Power BI Desktop per aggiungere una colonna indice](../create-reports/desktop-add-custom-column.md) al set di dati. Aggiungere quindi la colonna all'area **Dettagli** della visualizzazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Potrebbero essere interessanti anche gli articoli seguenti:
 
-* [Campionamento ad alta densità nei grafici a dispersione di Power BI](desktop-high-density-scatter-charts.md)
+* [Campionamento ad alta densità nei grafici a dispersione di Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 * [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Suggerimenti per ordinare e distribuire i tracciati di dati nei report di Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 

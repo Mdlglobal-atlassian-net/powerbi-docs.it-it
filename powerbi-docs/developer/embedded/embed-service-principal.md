@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751622"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275962"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporamento di contenuto di Power BI con entità servizio e segreto dell'applicazione
 
@@ -183,14 +183,14 @@ Quando il contenuto è incorporato, si è pronti a [passare alla produzione](emb
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
-* L'entità servizio funziona solo con le [nuove aree di lavoro](../../service-create-the-new-workspaces.md).
+* L'entità servizio funziona solo con le [nuove aree di lavoro](../../collaborate-share/service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.
 * La capacità dedicata è necessaria per passare alla produzione.
 * Non è possibile accedere al portale di Power BI usando l'entità servizio.
 * Per abilitare l'entità servizio nelle impostazioni sviluppatore all'interno del portale di amministrazione di Power BI sono necessari i diritti di amministratore di Power BI.
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non possono usare l'entità servizio.
-* La gestione dei [flussi di dati](../../service-dataflows-overview.md) non è supportata.
+* La gestione dei [flussi di dati](../../transform-model/service-dataflows-overview.md) non è supportata.
 * L'entità servizio attualmente non supporta le API di amministrazione.
 * Quando si usa un'entità servizio con un'origine dati di [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), l'entità servizio deve avere le autorizzazioni di un'istanza di Azure Analysis Services. L'uso di un gruppo di sicurezza che contiene l'entità servizio a questo scopo non è supportato.
 

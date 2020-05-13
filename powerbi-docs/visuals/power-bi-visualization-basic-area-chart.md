@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866966"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277158"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Creare e usare i grafici ad aree di base
 
@@ -68,7 +68,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
    d.  Per visualizzare il grafico in base al mese, selezionare i puntini di sospensione (in alto a destra dell'oggetto visivo) e scegliere **Ordina per mese**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e selezionare **Ordinamento crescente** oppure **Ordinamento decrescente**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../create-reports/power-bi-report-add-filter.md).
 
 Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. 
 
@@ -78,7 +78,7 @@ Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo sup
 
     ![Esempi di filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../service-reports-visual-interactions.md).
+Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../create-reports/service-reports-visual-interactions.md).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi   
@@ -87,4 +87,6 @@ Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](.
 
 ## <a name="next-step"></a>Passaggio successivo
 [Report in Power BI](power-bi-visualization-card.md)  
+
+
 

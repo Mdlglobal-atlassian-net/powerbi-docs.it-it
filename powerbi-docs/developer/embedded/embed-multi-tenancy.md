@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494953"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276008"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gestire il multi-tenancy con le funzionalità di analisi incorporata di Power BI
 
@@ -40,7 +40,7 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **Tenant di Power BI** - Set di risorse di Power BI associato a un singolo tenant AAD.
 
-**[Area di lavoro di Power BI](../../service-create-workspaces.md)** - Contenitore per il contenuto in Power BI.
+**[Area di lavoro di Power BI](../../collaborate-share/service-create-workspaces.md)** - Contenitore per il contenuto in Power BI.
 
 **Artefatti di Power BI** - Esistono diversi artefatti di Power BI nelle aree di lavoro di Power BI, ad esempio dashboard, report, set di dati e flussi di dati.
 
@@ -52,11 +52,11 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **Utente dell'applicazione AAD (entità servizio)**  - Identità che rappresenta l'applicazione SaaS di Power BI e usata dall'applicazione SaaS per le chiamate alle API di Power BI. Deve essere un'applicazione Web AAD. Può sostituire l'uso di un utente *master* per l'autenticazione con Power BI.
 
-**Capacità** - Set di risorse dedicate all'esecuzione del servizio Power BI. [Capacità Premium di Power BI](../../service-premium-what-is.md) - Destinate alle aziende di grandi dimensioni che usano Power BI internamente, mentre le [capacità di Power BI Embedded](azure-pbie-create-capacity.md) sono destinate agli sviluppatori per lo sviluppo di applicazioni SaaS per terze parti.
+**Capacità** - Set di risorse dedicate all'esecuzione del servizio Power BI. [Capacità Premium di Power BI](../../admin/service-premium-what-is.md) - Destinate alle aziende di grandi dimensioni che usano Power BI internamente, mentre le [capacità di Power BI Embedded](azure-pbie-create-capacity.md) sono destinate agli sviluppatori per lo sviluppo di applicazioni SaaS per terze parti.
 
-**[Licenza di Power BI Pro](../../service-admin-purchasing-power-bi-pro.md)** : licenza per utente che concede i diritti per pubblicare contenuti nelle aree di lavoro, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report.
+**[Licenza di Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)** : licenza per utente che concede i diritti per pubblicare contenuti nelle aree di lavoro, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report.
 
-**[Modalità di connettività dati](../../desktop-directquery-about.md)** - Connessione a origini dati in Power BI che può essere stabilita in modalità diverse:
+**[Modalità di connettività dati](../../connect-data/desktop-directquery-about.md)** - Connessione a origini dati in Power BI che può essere stabilita in modalità diverse:
 
    * Importazione, ovvero il modo più comune per ottenere i dati.
    * DirectQuery, per la connessione diretta ai dati nel relativo repository di origine.
@@ -104,9 +104,9 @@ Power BI Embedded supporta la distribuzione in più aree geografiche (funzionali
 
 ### <a name="cost"></a>Costo
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) usa un modello di acquisto basato sulle risorse, come **Power BI Premium**. Si acquistano una o più capacità con memoria e potenza di elaborazione fisse. Questa capacità è l'elemento di costo principale quando si usa **Power BI Embedded**. Non sono previsti limiti al numero di utenti che usano la capacità. L'unico limite è rappresentato dalle prestazioni della capacità. È richiesta una [licenza di Power BI Pro](../../service-admin-licensing-organization.md) per ogni utente *master* o per utenti specifici che devono accedere al portale di Power BI.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) usa un modello di acquisto basato sulle risorse, come **Power BI Premium**. Si acquistano una o più capacità con memoria e potenza di elaborazione fisse. Questa capacità è l'elemento di costo principale quando si usa **Power BI Embedded**. Non sono previsti limiti al numero di utenti che usano la capacità. L'unico limite è rappresentato dalle prestazioni della capacità. È richiesta una [licenza di Power BI Pro](../../admin/service-admin-licensing-organization.md) per ogni utente *master* o per utenti specifici che devono accedere al portale di Power BI.
 
-È consigliabile testare e misurare il carico previsto per la capacità simulando l'ambiente e l'utilizzo reali ed eseguendo test di carico sulla capacità. È possibile misurare il carico e le prestazioni con le varie metriche disponibili nella capacità di Azure oppure con l'[app Premium Capacity Metrics](../../service-admin-premium-monitor-capacity.md).
+È consigliabile testare e misurare il carico previsto per la capacità simulando l'ambiente e l'utilizzo reali ed eseguendo test di carico sulla capacità. È possibile misurare il carico e le prestazioni con le varie metriche disponibili nella capacità di Azure oppure con l'[app Premium Capacity Metrics](../../admin/service-admin-premium-monitor-capacity.md).
 
 ### <a name="content-customization-and-authoring"></a>Creazione e personalizzazione del contenuto
 
@@ -131,7 +131,7 @@ Esistono due approcci principali alla gestione dei dati del tenant.
 
 Se l'archiviazione delle applicazioni SaaS mantiene un database separato per ogni tenant, la scelta più ovvia è usare i set di dati a tenant singolo in Power BI con la stringa di connessione per ogni set di dati che punta al database corrispondente.
 
-Se l'archiviazione delle applicazioni SaaS usa un database multi-tenancy per tutti i tenant, è facile separare i tenant in base all'area di lavoro. È possibile configurare la connessione al database per il set di dati di Power BI con una query di database con parametri che recupera solo i dati del tenant pertinenti. È possibile aggiornare la connessione con [Power BI Desktop](../../desktop-query-overview.md) o usando l'[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parametri](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) nella query.
+Se l'archiviazione delle applicazioni SaaS usa un database multi-tenancy per tutti i tenant, è facile separare i tenant in base all'area di lavoro. È possibile configurare la connessione al database per il set di dati di Power BI con una query di database con parametri che recupera solo i dati del tenant pertinenti. È possibile aggiornare la connessione con [Power BI Desktop](../../transform-model/desktop-query-overview.md) o usando l'[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parametri](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) nella query.
 
 ### <a name="data-isolation"></a>Isolamento dei dati
 
@@ -193,7 +193,7 @@ Con l'isolamento basato sulla sicurezza a livello di riga, la separazione dei da
 
 ### <a name="scalability"></a>Scalabilità
 
-Con l'isolamento basato sulla sicurezza a livello di riga, i dati devono rientrare nel limite di dimensioni del set di dati, che attualmente corrisponde a 10 GB. Con l'introduzione dell'[aggiornamento incrementale](../../service-premium-incremental-refresh.md) e il prossimo rilascio di un endpoint XMLA per set di dati di Power BI, è previsto un aumento significativo del limite di dimensioni per i set di dati. Tuttavia, i dati devono comunque rientrare nella memoria della capacità, con una quantità di memoria rimanente sufficiente per l'esecuzione degli aggiornamenti dei dati. Per le distribuzioni su larga scala è necessaria una grande capacità per evitare che gli utenti riscontrano problemi a causa di requisiti di memoria che superano i limiti della capacità corrente. Alcuni modi alternativi per gestire la scalabilità includono l'uso di [aggregazioni](../../desktop-aggregations.md) o la connessione diretta all'origine dati tramite DirectQuery o una connessione dinamica, in alternativa alla memorizzazione nella cache di tutti i dati della capacità di Power BI.
+Con l'isolamento basato sulla sicurezza a livello di riga, i dati devono rientrare nel limite di dimensioni del set di dati, che attualmente corrisponde a 10 GB. Con l'introduzione dell'[aggiornamento incrementale](../../admin/service-premium-incremental-refresh.md) e il prossimo rilascio di un endpoint XMLA per set di dati di Power BI, è previsto un aumento significativo del limite di dimensioni per i set di dati. Tuttavia, i dati devono comunque rientrare nella memoria della capacità, con una quantità di memoria rimanente sufficiente per l'esecuzione degli aggiornamenti dei dati. Per le distribuzioni su larga scala è necessaria una grande capacità per evitare che gli utenti riscontrano problemi a causa di requisiti di memoria che superano i limiti della capacità corrente. Alcuni modi alternativi per gestire la scalabilità includono l'uso di [aggregazioni](../../transform-model/desktop-aggregations.md) o la connessione diretta all'origine dati tramite DirectQuery o una connessione dinamica, in alternativa alla memorizzazione nella cache di tutti i dati della capacità di Power BI.
 
 ### <a name="automation--operational-complexity"></a>Automazione e complessità operativa
 
@@ -244,17 +244,17 @@ Quando gli utenti finali modificano o creano report, possono usare il set di dat
 
 **Considerazioni e limitazioni per le capacità di Power BI:**
 
-* Ogni capacità può usare solo la memoria e i vCore allocati, in base allo [SKU acquistato](../../service-premium-what-is.md).
-* Per le dimensioni del set di dati consigliate per ogni SKU, vedere [Supporto per set di dati di grandi dimensioni in Power BI Premium](../../service-premium-what-is.md#large-datasets).
+* Ogni capacità può usare solo la memoria e i vCore allocati, in base allo [SKU acquistato](../../admin/service-premium-what-is.md).
+* Per le dimensioni del set di dati consigliate per ogni SKU, vedere [Supporto per set di dati di grandi dimensioni in Power BI Premium](../../admin/service-premium-what-is.md#large-datasets).
 * Le dimensioni massime per il set di dati in una capacità dedicata sono 10 GB.
 * Il numero di aggiornamenti pianificati per un set di dati in *modalità Importazione* al giorno è 48.
 * L'intervallo tra gli aggiornamenti pianificati per un set di dati in *modalità Importazione* è 30 minuti.
-* Per informazioni sul numero di aggiornamenti che è possibile eseguire contemporaneamente in una capacità, vedere [Ottimizzazione e gestione delle risorse della capacità Microsoft Power BI Premium](../../service-premium-what-is.md#capacity-nodes).
+* Per informazioni sul numero di aggiornamenti che è possibile eseguire contemporaneamente in una capacità, vedere [Ottimizzazione e gestione delle risorse della capacità Microsoft Power BI Premium](../../admin/service-premium-what-is.md#capacity-nodes).
 * Il tempo medio per il ridimensionamento di una capacità è compreso tra 1 e 2 minuti. Durante questo periodo, la capacità non è disponibile. È consigliabile usare un approccio scale-out per [evitare tempi di inattività](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Analisi incorporata con Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [Sicurezza a livello di riga](embedded-row-level-security.md)

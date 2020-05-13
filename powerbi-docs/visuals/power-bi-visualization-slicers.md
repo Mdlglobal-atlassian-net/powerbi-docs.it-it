@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585055"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276330"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 
@@ -24,11 +24,11 @@ Si supponga di voler consentire ai lettori dei report di esaminare le metriche r
 
 ![Animazione del filtro dei dati](media/power-bi-visualization-slicers/slicer2.gif)
 
-Questo articolo illustra la creazione e la formattazione di un filtro dei dati di base, tramite il pacchetto [Retail Analysis Sample](../sample-retail-analysis.md) gratuito. Spiega anche come è possibile controllare quali oggetti visivi sono interessati da un filtro dei dati e come eseguire la sincronizzazione con i filtri dei dati in altre pagine. Di seguito sono riportati alcuni altri articoli che illustrano come creare tipi specifici di filtri dei dati:
+Questo articolo illustra la creazione e la formattazione di un filtro dei dati di base, tramite il pacchetto [Retail Analysis Sample](../create-reports/sample-retail-analysis.md) gratuito. Spiega anche come è possibile controllare quali oggetti visivi sono interessati da un filtro dei dati e come eseguire la sincronizzazione con i filtri dei dati in altre pagine. Di seguito sono riportati alcuni altri articoli che illustrano come creare tipi specifici di filtri dei dati:
 
-- [Filtri dei dati per l'intervallo numerico](../desktop-slicer-numeric-range.md).
+- [Filtri dei dati per l'intervallo numerico](../create-reports/desktop-slicer-numeric-range.md).
 - [Filtro dei dati per la data relativa](desktop-slicer-filter-date-range.md).
-- [Filtri dei dati ridimensionabili](../power-bi-slicer-filter-responsive.md) reattivi.
+- [Filtri dei dati ridimensionabili](../create-reports/power-bi-slicer-filter-responsive.md) reattivi.
 - [Filtri dei dati per la gerarchia](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) con più campi.
 
 ## <a name="when-to-use-a-slicer"></a>Quando usare un filtro dei dati
@@ -92,7 +92,7 @@ Usare le interazioni degli oggetti visivi per impedire che alcune visualizzazion
 
    Per effetto di queste impostazioni, quando si selezionano nomi e intervalli di date nei filtri dei dati, il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) rimane invariato.
 
-Per altre informazioni sulla modifica delle interazioni, vedere [Modificare l'interazione degli oggetti visivi in un report di Power BI](../service-reports-visual-interactions.md).
+Per altre informazioni sulla modifica delle interazioni, vedere [Modificare l'interazione degli oggetti visivi in un report di Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizzare e usare i filtri dei dati in altre pagine
 A partire dall'aggiornamento di febbraio 2018 di Power BI, è possibile sincronizzare un filtro dei dati e usarlo in una pagina qualsiasi o in tutte le pagine di un report. 
@@ -134,7 +134,7 @@ Nel report corrente la pagina **District Monthly Sales** contiene un filtro dei 
 ## <a name="filtering-slicers"></a>Filtro dei filtri dei dati
 È possibile applicare filtri a livello di oggetto visivo ai filtri dei dati per ridurre l'elenco di valori visualizzati nel filtro dei dati. Ad esempio, si potrebbero escludere i valori vuoti da un filtro dei dati di elenco o escludere determinate date da un filtro dei dati di intervallo. Questa operazione ha effetto solo sui *valori visualizzati nel filtro dei dati*, non sul *filtro applicato dal filtro dei dati ad altri oggetti visivi* quando si effettua una selezione. Supponiamo ad esempio di applicare un filtro a un filtro dei dati di intervallo in modo da visualizzare solo determinate date. La selezione nel filtro dei dati mostrerà solo la prima e l'ultima data dell'intervallo, ma si dovrebbero vedere ancora le altre date negli altri oggetti visivi. Quando si cambia l'intervallo selezionato nel filtro dei dati, gli altri oggetti visivi vengono aggiornati. Se si deseleziona il filtro dei dati, vengono visualizzate nuovamente tutte le date.
 
-Per altre informazioni sui filtri a livello di oggetto visivo, vedere [Tipi di filtro](../power-bi-report-filter-types.md).
+Per altre informazioni sui filtri a livello di oggetto visivo, vedere [Tipi di filtro](../create-reports/power-bi-report-filter-types.md).
 
 ## <a name="format-slicers"></a>Formattare i filtri dei dati
 A seconda del tipo di filtro dei dati sono disponibili diverse opzioni di formattazione. Usando l'orientamento **Orizzontale**, il layout **Reattivo** e la colorazione **Elemento**, è possibile generare pulsanti o riquadri, anziché voci di elenco standard, e ridimensionare gli elementi del filtro dei dati in base a layout e dimensioni dello schermo differenti.  
@@ -169,7 +169,7 @@ A seconda del tipo di filtro dei dati sono disponibili diverse opzioni di format
 
     ![Opzioni orizzontali](media/power-bi-visualization-slicers/6-buttons.png)
 
-Per altre informazioni sugli orientamenti orizzontali e i layout reattivi, vedere [Creare un filtro dei dati reattivo e ridimensionabile in Power BI](../power-bi-slicer-filter-responsive.md).
+Per altre informazioni sugli orientamenti orizzontali e i layout reattivi, vedere [Creare un filtro dei dati reattivo e ridimensionabile in Power BI](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opzioni dei comandi di selezione (solo per filtri dei dati con elenco)
 1. In **Comandi di selezione** impostare **Mostra l'opzione "Seleziona tutto"** su **Sì** per aggiungere un elemento **Seleziona tutto** al filtro dei dati. 
@@ -222,4 +222,3 @@ Per altre informazioni, vedere gli articoli seguenti:
 - [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Tabelle in Power BI](power-bi-visualization-tables.md)
-

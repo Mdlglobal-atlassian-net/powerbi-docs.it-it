@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867002"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277181"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Creare e usare grafici combinati in Power BI
 
@@ -121,16 +121,19 @@ La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, pe
 
 Da qui è possibile:
 
-* [Aggiungere il grafico combinato come riquadro del dashboard](../service-dashboard-tiles.md).
-* [Salvare il report](../service-report-save.md).
+* [Aggiungere il grafico combinato come riquadro del dashboard](../create-reports/service-dashboard-tiles.md).
+* [Salvare il report](../create-reports/service-report-save.md).
 * [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Evidenziazione incrociata e filtro incrociato
 
-Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
+Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../create-reports/service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Grafici ad anello in Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

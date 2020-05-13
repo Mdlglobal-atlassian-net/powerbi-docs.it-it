@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802073"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276077"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scansionare un codice a matrice di Power BI dal dispositivo mobile
 Si applica a:
@@ -24,7 +24,7 @@ Si applica a:
 
 I codici a matrice in Power BI possono connettere qualsiasi elemento nel mondo reale direttamente a informazioni correlate di BI & #151 senza dover effettuare nessuno spostamento o ricerca.
 
-Si supponga che un collega abbia [creato un codice a matrice nel servizio Power BI](../../service-create-qr-code-for-tile.md) per report o un riquadro in un dashboard, abbia condiviso il dashboard o il report e abbia inserito il codice a matrice in un percorso chiave, ad esempio in un messaggio di posta elettronica o in un elemento specifico. 
+Si supponga che un collega abbia [creato un codice a matrice nel servizio Power BI](../../create-reports/service-create-qr-code-for-tile.md) per report o un riquadro in un dashboard, abbia condiviso il dashboard o il report e abbia inserito il codice a matrice in un percorso chiave, ad esempio in un messaggio di posta elettronica o in un elemento specifico. 
 
 È possibile scansionare il codice a matrice per l'accesso immediato al riquadro o al report rilevante, direttamente dal telefono, usando lo scanner nell'app Power BI o qualsiasi altro scanner installato nel telefono. 
 
@@ -75,8 +75,7 @@ Se il collega non ha condiviso il dashboard o report, è possibile richiedere l'
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Connettersi ai dati di Power BI dal mondo reale](mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
-* [Creare un codice a matrice per un riquadro nel servizio Power BI](../../service-create-qr-code-for-tile.md)
-* [Creare un codice a matrice per un report nel servizio Power BI](../../service-create-qr-code-for-report.md)
+* [Creare un codice a matrice per un riquadro nel servizio Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [Creare un codice a matrice per un report nel servizio Power BI](../../create-reports/service-create-qr-code-for-report.md)
 * È anche possibile eseguire la [scansione di un codice a matrice con l'app Power BI per realtà mista](mobile-mixed-reality-app.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

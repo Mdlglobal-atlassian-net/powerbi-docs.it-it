@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758624"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276560"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Visualizzare i dati sottostanti di un oggetto visivo
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Mostra i dati
 Una visualizzazione di Power BI viene costruita sulla base dei dati dei set di dati dell'utente. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI mostra i dati di sotto o accanto alla visualizzazione.
@@ -24,7 +26,7 @@ Una visualizzazione di Power BI viene costruita sulla base dei dati dei set di d
 È anche possibile esportare i dati usati per creare la visualizzazione in un file con estensione xlsx o csv e visualizzarlo in Excel. Per altre informazioni, vedere [Esportare dati da visualizzazioni di Power BI](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> Le opzioni *Mostra i dati* ed *Esporta dati* sono disponibili nel servizio Power BI e in Power BI Desktop. Tuttavia, Power BI Desktop offre un livello di dettaglio aggiuntivo: [*Visualizza record* mostra le righe del set di dati effettive](../desktop-see-data-see-records.md).
+> Le opzioni *Mostra i dati* ed *Esporta dati* sono disponibili nel servizio Power BI e in Power BI Desktop. Tuttavia, Power BI Desktop offre un livello di dettaglio aggiuntivo: [*Visualizza record* mostra le righe del set di dati effettive](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ Una visualizzazione di Power BI viene costruita sulla base dei dati dei set di d
 [Esportare dati da visualizzazioni di Power BI](power-bi-visualization-export-data.md)    
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114843"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276192"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -102,7 +102,7 @@ Vedere la sezione dedicata al riconoscimento vocale della pagina sulle [novità 
 * Seguire i [Suggerimenti per porre domande in Domande e risposte](../end-user-q-and-a-tips.md) nel servizio Power BI o nell'analista virtuale Domande e risposte nell'app per dispositivi mobili iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Come migliorare il set di dati
-* Migliorare il set di dati in Power BI Desktop o nel servizio Power BI per [verificare che i dati funzionino bene con Domande e risposte e l'analista virtuale Domande e risposte](../../service-prepare-data-for-q-and-a.md).
+* Migliorare il set di dati in Power BI Desktop o nel servizio Power BI per [verificare che i dati funzionino bene con Domande e risposte e l'analista virtuale Domande e risposte](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Domande e risposte nel servizio Power BI](../end-user-q-and-a.md)

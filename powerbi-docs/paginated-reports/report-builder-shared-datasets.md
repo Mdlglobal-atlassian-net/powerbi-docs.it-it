@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923196"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276629"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creare un report impaginato basato su un set di dati condiviso di Power BI
 
@@ -20,14 +20,14 @@ ms.locfileid: "78923196"
 
 ![Dal report di Power BI Desktop al report impaginato di Generatore Report](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Non è necessario che il set di dati si trovi in un'area di lavoro con capacità Premium né che l'utente sia membro di tale area di lavoro. È sufficiente avere l'[autorizzazione di creazione](../service-datasets-build-permissions.md) per il set di dati. Per pubblicare il report impaginato, è necessaria una licenza di Power BI Pro. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium.
+Non è necessario che il set di dati si trovi in un'area di lavoro con capacità Premium né che l'utente sia membro di tale area di lavoro. È sufficiente avere l'[autorizzazione di creazione](../connect-data/service-datasets-build-permissions.md) per il set di dati. Per pubblicare il report impaginato, è necessaria una licenza di Power BI Pro. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium.
 
 ## <a name="what-you-need"></a>Elementi necessari
 
 Ecco un elenco degli elementi necessari e non necessari per usare un set di dati condiviso in Generatore report di Power BI.
 
 - Generatore report di Power BI. [Scaricare e installare Generatore report di Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](../service-datasets-build-permissions.md).
+- Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](../connect-data/service-datasets-build-permissions.md).
 - Non è necessaria una licenza di Power BI Pro per creare un report impaginato in Generatore report. 
 - È necessaria una licenza di Power BI Pro per pubblicare il report impaginato. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium. 
 - Facoltativo: per seguire questo articolo, è possibile scaricare il [file con estensione pbix dell'esempio di analisi delle vendite al dettaglio](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) di Power BI Desktop, aprirlo in Power BI Desktop e aggiungere una tabella con numerose colonne. Nel riquadro **Formato** disattivare **Totali**. Pubblicare quindi il report in un'area di lavoro nel servizio Power BI.
@@ -74,7 +74,7 @@ Ecco i passaggi per ottenere la query.
 1. Aprire il report di Power BI (con estensione pbix) in Power BI Desktop.
 1. Assicurarsi che nel report sia presente una tabella contenente tutti i dati che devono essere presenti nel report impaginato. La tabella deve soddisfare questi due requisiti:
     - Deve essere una tabella flat, non una matrice o un altro oggetto visivo. Se non è una tabella, convertire ora l'oggetto in una tabella, eseguire i passaggi seguenti dell'analizzatore prestazioni e quindi riconvertire la tabella nell'oggetto visivo desiderato.
-    - Per i campi numerici, è necessario usare le *misure predefinite*, che sono contrassegnate da un simbolo di calcolatrice. Vedere le informazioni sulla [creazione di misure](../desktop-measures.md). 
+    - Per i campi numerici, è necessario usare le *misure predefinite*, che sono contrassegnate da un simbolo di calcolatrice. Vedere le informazioni sulla [creazione di misure](../transform-model/desktop-measures.md). 
 
         ![Icona di misura](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
