@@ -12,6 +12,10 @@
       items:
         - name: Sviluppare un oggetto visivo di Power BI
           href: custom-visual-develop-tutorial.md
+        - name: Creare oggetti visivi basati su React
+          href: create-react-visual.md
+        - name: Creare un grafico a barre
+          href: create-bar-chart.md
         - name: Aggiungere opzioni di formattazione
           href: custom-visual-develop-tutorial-format-options.md
         - name: Aggiungere unit test per il progetto di oggetto visivo
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Modalità di modifica avanzata
           href: advanced-edit-mode.md
-    - name: Procedure
+        - name: Funzionalità supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
+    - name: Procedura
       items:
         - name: Ottenere un oggetto visivo Power BI certificato
           href: power-bi-custom-visuals-certified.md
         - name: Pubblicare oggetti visivi di Power BI in AppSource
           href: office-store.md
+        - name: Testare un oggetto visivo di Power BI
+          href: submission-testing.md
         - name: Usare oggetti visivi di Power BI basati su R in Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Interazioni oggetti visivi
           href: visuals-interactions.md
         - name: Aggiungere selezioni
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Aggiungere il supporto del drill-down
           href: drill-down-support.md
+        - name: Aggiungere colori all'oggetto visivo
+          href: add-colors-power-bi-visual.md
         - name: Evidenziare i dati negli oggetti visivi
           href: highlight.md
         - name: Aggiungere il supporto per la modalità contrasto elevato
@@ -76,12 +88,16 @@
           href: mobile-development.md
         - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
           href: power-bi-custom-visuals-troubleshoot.md
-    - name: Informazioni di riferimento
+    - name: Riferimento
       items:
+        - name: Log delle modifiche
+          href: changelog.md
         - name: Pagina di destinazione
           href: landing-page.md
         - name: URL di avvio
           href: launch-url.md
+        - name: API per gli oggetti visivi
+          href: visual-api.md
         - name: API di archiviazione locale
           href: local-storage.md
         - name: Rendering di eventi
@@ -116,11 +132,11 @@
               href: utils-dataview.md
     - name: Risorse
       items:
-        - name: Centro per sviluppatori
+        - name: Dev Center
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Esempi di oggetti visivi di Power BI
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Archivio GIT di oggetti visivi di Power BI
+          href: samples.md
+        - name: Repository Git degli oggetti visivi personalizzati
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: Creazione del certificato SSL
           href: create-ssl-certificate.md
