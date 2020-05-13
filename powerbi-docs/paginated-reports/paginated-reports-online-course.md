@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675654"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349173"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Corso online: Report impaginati di Power BI
 
@@ -100,11 +100,11 @@ Al termine dell'estrazione, sarà presente la cartella **PowerBIPRIAD**, con le 
 Quando si è pronti a iniziare il primo lab, aprire il file **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Questo documento illustra come accedere al servizio Power BI, caricare un set di dati e quindi installare [Power BI Report Builder](report-builder-power-bi.md).
 
 > [!NOTE]
-> È necessario avere un account Power BI. Se non se ne ha già uno, vedere [Iscriversi a Power BI come utente singolo](../service-self-service-signup-for-power-bi.md).
+> È necessario avere un account Power BI. Se non se ne ha già uno, vedere [Iscriversi a Power BI come utente singolo](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > È necessario accedere a Power BI per pubblicare un file di Power BI Desktop in un'area di lavoro. La pubblicazione restituisce un set di dati usato come origine dati del report. Non è necessaria una licenza di Power BI Pro o una sottoscrizione di Power BI Premium per usare un set di dati come origine dati del report.
 >
-> Alcune attività del lab comportano tuttavia la pubblicazione del report impaginato in un'area di lavoro. È possibile aprire un report impaginato solo quando viene salvato in un'area di lavoro nella [capacità dedicata](../service-premium-what-is.md#dedicated-capacities), con il carico di lavoro dei report impaginati abilitato. Se non si ha accesso a un'area di lavoro appropriata, verrà fornito un collegamento per guardare un video che illustra invece come pubblicare il report.
+> Alcune attività del lab comportano tuttavia la pubblicazione del report impaginato in un'area di lavoro. È possibile aprire un report impaginato solo quando viene salvato in un'area di lavoro nella [capacità dedicata](../admin/service-premium-what-is.md#dedicated-capacities), con il carico di lavoro dei report impaginati abilitato. Se non si ha accesso a un'area di lavoro appropriata, verrà fornito un collegamento per guardare un video che illustra invece come pubblicare il report.
 
 ## <a name="instructor-kit"></a>Kit per docente
 

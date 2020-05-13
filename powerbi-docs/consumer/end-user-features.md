@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065756"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348414"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Elenco di funzionalità di Power BI per gli *utenti finali* e gli altri utenti con licenze gratuite
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065756"
 
 In qualità di *utente finale*, è possibile usare il servizio Power BI per esplorare i report e i dashboard e prendere così decisioni consapevoli a livello aziendale. Tali report e dashboard vengono creati da *progettisti* con licenze *Pro* di Power BI. Gli utenti Pro hanno la possibilità di condividere il contenuto con i colleghi e di controllare quali operazioni i colleghi possono e non possono eseguire su tale contenuto. A volte i progettisti condividono il contenuto inviando collegamenti e a volte il contenuto viene automaticamente installato e visualizzato in Power BI in **App** o in **Condivisi con l'utente corrente**.
 
-I progettisti possono condividere il contenuto in diversi modi, ma questo articolo è rivolto agli *utenti finali* di Power BI e quindi descrive solo come gli utenti finali ricevono il contenuto e come vi interagiscono. Per altre informazioni su come condividere il contenuto, vedere [Modalità per la condivisione del lavoro in Power BI](../service-how-to-collaborate-distribute-dashboards-reports.md).
+I progettisti possono condividere il contenuto in diversi modi, ma questo articolo è rivolto agli *utenti finali* di Power BI e quindi descrive solo come gli utenti finali ricevono il contenuto e come vi interagiscono. Per altre informazioni su come condividere il contenuto, vedere [Modalità per la condivisione del lavoro in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Riquadro di spostamento di Power BI](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ Quando un'organizzazione ha una sottoscrizione con capacità Premium, gli ammini
 ### <a name="licenses"></a>Licenze 
 Ogni utente del servizio Power BI dispone di una licenza gratuita o di una licenza Pro. Gli *utenti finali* hanno licenze gratuite.
 
-- **Licenza gratuita**: assegnata in genere agli *utenti finali* all'interno di un'organizzazione. Vedere la prima immagine sopra. Viene assegnata anche a chi si iscrive al servizio Power BI individualmente e vuole provare il [servizio Power BI in modalità autonoma](../service-self-service-signup-for-power-bi.md). Vedere la seconda immagine sotto. 
+- **Licenza gratuita**: assegnata in genere agli *utenti finali* all'interno di un'organizzazione. Vedere la prima immagine sopra. Viene assegnata anche a chi si iscrive al servizio Power BI individualmente e vuole provare il [servizio Power BI in modalità autonoma](../fundamentals/service-self-service-signup-for-power-bi.md). Vedere la seconda immagine sotto. 
 
     ![Schermata che mostra l'utente con licenza gratuita](media/end-user-features/power-bi-free-organization.png)
 

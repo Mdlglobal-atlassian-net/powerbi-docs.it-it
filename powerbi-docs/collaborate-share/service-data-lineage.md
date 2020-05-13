@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525400"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348207"
 ---
 # <a name="data-lineage"></a>Derivazione dei dati
 Nei moderni progetti di business intelligence (BI) una delle possibili problematiche da affrontare è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione. La sfida è ancora più complessa se sono stati compilati progetti di analisi avanzati che comprendono più origini dati, elementi e dipendenze. Rispondere a domande come "Che cosa accade se si modificano questi dati?" o "Perché questo report non è aggiornato?" può essere difficile. Per trovare una risposta potrebbe essere necessario un team di esperti o un'analisi approfondita. Per poter rispondere a queste domande, è stata creata una visualizzazione di derivazione dei dati.
@@ -88,9 +88,9 @@ La visualizzazione di derivazione è un canvas interattivo. È possibile usare i
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-- La visualizzazione di derivazione non è disponibile in Internet Explorer. Per informazioni dettagliate, vedere [Browser supportati per Power BI](../power-bi-browsers.md).
+- La visualizzazione di derivazione non è disponibile in Internet Explorer. Per informazioni dettagliate, vedere [Browser supportati per Power BI](../fundamentals/power-bi-browsers.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Introduzione ai set di dati in aree di lavoro diverse (anteprima)](../service-datasets-across-workspaces.md)
+* [Introduzione ai set di dati in aree di lavoro diverse (anteprima)](../connect-data/service-datasets-across-workspaces.md)
 * [Analisi di impatto del set di dati](service-dataset-impact-analysis.md)

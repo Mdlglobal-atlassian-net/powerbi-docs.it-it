@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922092"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348667"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
 
@@ -22,7 +22,7 @@ In questo articolo viene illustrata una funzionalità della nuova versione di Ge
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Per immettere i dati direttamente in un report impaginato, installare la nuova versione di [Generatore report dall'Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](../service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](../service-premium-what-is.md).
+- Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](../admin/service-premium-what-is.md).
 - Per salvare il report impaginato in un server di report, sono necessarie autorizzazioni per [modificare il file RSReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Introduzione a Microsoft Stream

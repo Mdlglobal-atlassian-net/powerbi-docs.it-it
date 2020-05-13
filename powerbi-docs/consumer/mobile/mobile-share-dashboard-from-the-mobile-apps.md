@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435790"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349334"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -25,7 +25,7 @@ Si applica a:
 >[!NOTE]
 >Il supporto delle app Power BI per dispositivi mobili per i **telefoni con Windows 10 Mobile** non sarà più disponibile dal 16 marzo 2021. [Altre informazioni](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-Con una [licenza di Power BI Pro](../../service-features-license-type.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../service-premium-what-is.md).
+Con una [licenza di Power BI Pro](../../fundamentals/service-features-license-type.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../admin/service-premium-what-is.md).
 
 Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con chiunque. 
 
@@ -42,7 +42,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    * Nell'app Power BI per dispositivi mobili toccare **Altre opzioni** (...) sulla barra di spostamento e scegliere ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente**.
    * Nel servizio Power BI fare clic su ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente** nel riquadro di spostamento sinistro.
    
-   Leggere altre [note sulla condivisione con i colleghi](../../service-share-dashboards.md).
+   Leggere altre [note sulla condivisione con i colleghi](../../collaborate-share/service-share-dashboards.md).
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>Annullare la condivisione dall'iPhone o iPad
 È possibile annullare la condivisione solo se si è il proprietario.
@@ -67,7 +67,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    * Nell'app Power BI per dispositivi mobili toccare **Altre opzioni** (...) sulla barra di spostamento e scegliere ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente**.
    * Nel servizio Power BI fare clic su ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente** nel riquadro di spostamento sinistro.
    
-   Leggere altre [note sulla condivisione con i colleghi](../../service-share-dashboards.md).
+   Leggere altre [note sulla condivisione con i colleghi](../../collaborate-share/service-share-dashboards.md).
 
 
 ### <a name="unshare-from-your-android-device"></a>Annullare la condivisione da un dispositivo Android
@@ -97,10 +97,9 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    * Nell'app Power BI per dispositivi mobili toccare **Altre opzioni** (...) sulla barra di spostamento e scegliere ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente**.
    * Nel servizio Power BI fare clic su ![Condivisi con l'utente corrente](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Condivisi con l'utente corrente** nel riquadro di spostamento sinistro.
    
-   Leggere altre [note sulla condivisione con i colleghi](../../service-share-dashboards.md).
+   Leggere altre [note sulla condivisione con i colleghi](../../collaborate-share/service-share-dashboards.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Annotate & share a snapshot of a tile, report, or visual in the mobile apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) (Aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo nelle app per dispositivi mobili)
-* [Condividere un dashboard o un report in Power BI](../../service-share-dashboards.md)
+* [Condividere un dashboard o un report in Power BI](../../collaborate-share/service-share-dashboards.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

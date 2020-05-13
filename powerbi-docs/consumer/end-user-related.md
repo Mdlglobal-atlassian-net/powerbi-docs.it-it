@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114374"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347333"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
 
@@ -47,12 +47,12 @@ Viene visualizzato il riquadro **Contenuto correlato**, Per un cruscotto digital
 
 ![Riquadro Contenuto correlato](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard o report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, è possibile visualizzare la data e l'ora dell'ultimo aggiornamento, selezionare [Analizza in Excel](../service-analyze-in-excel.md) e [Ottieni informazioni dettagliate](end-user-insights.md).  
+A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard o report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, è possibile visualizzare la data e l'ora dell'ultimo aggiornamento, selezionare [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md) e [Ottieni informazioni dettagliate](end-user-insights.md).  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Visualizzare il contenuto correlato di un set di dati
-Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un set di dati. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../sample-procurement.md).
+Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un set di dati. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../create-reports/sample-procurement.md).
 
 Nel riquadro di spostamento trovare l'intestazione **Aree di lavoro** e selezionare un'area di lavoro nell'elenco. Se è presente contenuto in un'area di lavoro, verrà visualizzato nell'area di disegno a destra. 
 
@@ -67,7 +67,7 @@ Selezionare l'icona per aprire il riquadro **Contenuto correlato**.
 
 ![Il riquadro Contenuto correlato viene aperto in primo piano rispetto alla visualizzazione del contenuto di Power BI](media/end-user-related/power-bi-dataset.png)
 
-A questo punto, è possibile intervenire direttamente sul contenuto correlato. Ad esempio, selezionare un nome di report o dashboard per aprirlo.  Per i dashboard nell'elenco, selezionare un'icona per [Condividere il dashboard con altri utenti](../service-share-dashboards.md) o per aprire la finestra **Impostazioni** per il dashboard. Per un report, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md), [Rinomina](../service-rename.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md).  
+A questo punto, è possibile intervenire direttamente sul contenuto correlato. Ad esempio, selezionare un nome di report o dashboard per aprirlo.  Per i dashboard nell'elenco, selezionare un'icona per [Condividere il dashboard con altri utenti](../collaborate-share/service-share-dashboards.md) o per aprire la finestra **Impostazioni** per il dashboard. Per un report, selezionare l'icona [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md), [Rinomina](../create-reports/service-rename.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Limitazioni e risoluzione dei problemi
 * Se l'opzione "Visualizza elementi correlati" non è disponibile, cercare invece l'icona ![icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png). Selezionare l'icona per aprire il riquadro **Contenuto correlato**.
@@ -75,6 +75,5 @@ A questo punto, è possibile intervenire direttamente sul contenuto correlato. A
 * La funzionalità Contenuto correlato non funziona per i set di dati di streaming.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione al servizio Power BI](../service-get-started.md)
+* [Introduzione al servizio Power BI](../fundamentals/service-get-started.md)
 * Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
-

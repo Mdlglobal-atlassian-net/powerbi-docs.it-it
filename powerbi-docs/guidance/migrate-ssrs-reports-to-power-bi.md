@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348184"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Eseguire la migrazione di report di SQL Server Reporting Services in Power BI
 
@@ -37,7 +37,7 @@ Prima di iniziare la migrazione, è necessario verificare che l'ambiente soddisf
 
 ### <a name="preparing-for-migration"></a>Preparazione alla migrazione
 
-In preparazione alla migrazione dei report in Power BI, verificare innanzitutto che l'organizzazione abbia una sottoscrizione di [Power BI Premium](../service-premium-what-is.md). Questa sottoscrizione è necessaria per ospitare ed eseguire i report impaginati di Power BI.
+In preparazione alla migrazione dei report in Power BI, verificare innanzitutto che l'organizzazione abbia una sottoscrizione di [Power BI Premium](../admin/service-premium-what-is.md). Questa sottoscrizione è necessaria per ospitare ed eseguire i report impaginati di Power BI.
 
 ### <a name="supported-versions"></a>Versioni supportate
 
@@ -112,12 +112,12 @@ In genere, i report impaginati di Power BI sono ottimizzati per la **stampa** o 
 
 L'obiettivo della fase di _preparazione_ è quello di preparare tutti gli elementi. In questa fase si configura l'ambiente Power BI, si pianificano gli aspetti relativi a sicurezza e pubblicazione dei report e si raccolgono idee per sviluppare di nuovo gli elementi SSRS di cui non verrà eseguita la migrazione.
 
-1. Verificare che il [carico di lavoro Report impaginati](../service-admin-premium-workloads.md#paginated-reports) sia abilitato per la capacità Power BI Premium e che disponga di memoria sufficiente.
-1. Verificare il supporto per le [origini dati](../paginated-reports/paginated-reports-data-sources.md) dei report e configurare un'istanza di [Power BI Gateway](../service-gateway-onprem.md) per consentire la connettività con le origini dati locali.
-1. Acquisire familiarità con la sicurezza di Power BI e pianificare [come verranno riprodotte le cartelle e le autorizzazioni di SSRS](/sql/reporting-services/security/secure-folders) con [aree di lavoro e ruoli dell'area di lavoro di Power BI ](../service-new-workspaces.md).
-1. Acquisire familiarità con la condivisione di Power BI e stabilire come verrà distribuito il contenuto mediante la pubblicazione di [app Power BI](../service-create-distribute-apps.md).
-1. Prendere in considerazione l'uso di [set di dati di Power BI condivisi](../service-datasets-build-permissions.md) al posto delle origini dati condivise di SSRS.
-1. Usare [Power BI Desktop](../desktop-what-is-desktop.md) per lo sviluppo di report ottimizzati per i dispositivi mobili, eventualmente usando l'[oggetto visivo personalizzato Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) al posto di indicatori KPI e report per dispositivi mobili di SSRS.
+1. Verificare che il [carico di lavoro Report impaginati](../admin/service-admin-premium-workloads.md#paginated-reports) sia abilitato per la capacità Power BI Premium e che disponga di memoria sufficiente.
+1. Verificare il supporto per le [origini dati](../paginated-reports/paginated-reports-data-sources.md) dei report e configurare un'istanza di [Power BI Gateway](../connect-data/service-gateway-onprem.md) per consentire la connettività con le origini dati locali.
+1. Acquisire familiarità con la sicurezza di Power BI e pianificare [come verranno riprodotte le cartelle e le autorizzazioni di SSRS](/sql/reporting-services/security/secure-folders) con [aree di lavoro e ruoli dell'area di lavoro di Power BI ](../collaborate-share/service-new-workspaces.md).
+1. Acquisire familiarità con la condivisione di Power BI e stabilire come verrà distribuito il contenuto mediante la pubblicazione di [app Power BI](../collaborate-share/service-create-distribute-apps.md).
+1. Prendere in considerazione l'uso di [set di dati di Power BI condivisi](../connect-data/service-datasets-build-permissions.md) al posto delle origini dati condivise di SSRS.
+1. Usare [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) per lo sviluppo di report ottimizzati per i dispositivi mobili, eventualmente usando l'[oggetto visivo personalizzato Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) al posto di indicatori KPI e report per dispositivi mobili di SSRS.
 1. Rivalutare l'uso del campo predefinito **ID utente** nei report. Se si fa affidamento sull'**ID utente** per proteggere i dati dei report, è necessario comprendere che per i report impaginati (se ospitati nel servizio Power BI) viene restituito il nome dell'entità utente (UPN, User Principal Name). Invece di restituire il nome dell'account NT, ad esempio _AW\mblythe_, il campo predefinito restituirà quindi qualcosa di simile a _m.blythe&commat;adventureworks.com_. Sarà necessario rivedere le definizioni del set di dati e, forse, i dati di origine. Dopo la revisione e la pubblicazione, è consigliabile testare accuratamente i report per verificare che le autorizzazioni per i dati funzionino come previsto.
 1. Rivalutare l'uso del campo predefinito **ExecutionTime** nei report. Per i report impaginati (se ospitati nel servizio Power BI), il campo predefinito restituisce la data e l'ora _nell'ora UTC_. Questo può influire sui valori predefiniti dei parametri dei report e sulle etichette dell'ora di esecuzione dei report, aggiunte in genere nel piè di pagina dei report.
 1. Se l'origine dati è SQL Server (locale), verificare che i report non usino visualizzazioni mappa. La visualizzazione mappa dipende dai tipi di dati spaziali di SQL Server e questi non sono supportati dal gateway. Per altre informazioni, vedere [Linee guida per il recupero dei dati per i report impaginati (tipi di dati complessi di SQL Server)](report-paginated-data-retrieval.md#sql-server-complex-data-types).
@@ -171,9 +171,9 @@ Dopo aver eseguito la migrazione dei report in Power BI, è necessario verificar
 
 È consigliabile completare le operazioni seguenti per garantire la migliore esperienza utente possibile per i report:
 
-1. Testare i report in ogni [browser supportato da Power BI](../power-bi-browsers.md) per verificare che il rendering venga eseguito correttamente.
+1. Testare i report in ogni [browser supportato da Power BI](../fundamentals/power-bi-browsers.md) per verificare che il rendering venga eseguito correttamente.
 1. Eseguire test per confrontare i tempi di rendering dei report in SSRS e Power BI. Verificare che il rendering dei report di Power BI venga eseguito in un tempo accettabile.
-1. Se non è possibile eseguire il rendering dei report di Power BI a causa di memoria insufficiente, allocare [risorse aggiuntive alla capacità Power BI Premium](../service-admin-premium-workloads.md#paginated-reports).
+1. Se non è possibile eseguire il rendering dei report di Power BI a causa di memoria insufficiente, allocare [risorse aggiuntive alla capacità Power BI Premium](../admin/service-admin-premium-workloads.md#paginated-reports).
 1. Per i report con tempi di rendering lunghi, è consigliabile impostare Power BI per recapitarli agli utenti come [sottoscrizioni di posta elettronica con report allegati](../consumer/paginated-reports-subscriptions.md).
 1. Per i report di Power BI basati su set di dati di Power BI, esaminare le progettazioni dei modelli per assicurarsi che siano completamente ottimizzate.
 
@@ -183,8 +183,8 @@ La fase post-migrazione è fondamentale per risolvere eventuali problemi e aspet
 
 Per altre informazioni su questi problemi, inclusi i passaggi specifici per comprenderli e attenuarli, vedere gli articoli seguenti:
 
-- [Ottimizzare le capacità Premium](../service-premium-capacity-optimize.md)
-- [Monitorare le capacità Premium con l'app](../service-admin-premium-monitor-capacity.md)
+- [Ottimizzare le capacità Premium](../admin/service-premium-capacity-optimize.md)
+- [Monitorare le capacità Premium con l'app](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -195,7 +195,7 @@ Per altre informazioni su questo articolo, vedere le risorse seguenti:
 - [Quando usare report impaginati in Power BI](report-paginated-or-power-bi.md)
 - [Report impaginati in Power BI: Domande frequenti](../paginated-reports/paginated-reports-faq.md)
 - [Corso online: Report impaginati di Power BI](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium FAQ](../service-premium-faq.md) (Domande frequenti su Power BI Premium)
+- [Power BI Premium FAQ](../admin/service-premium-faq.md) (Domande frequenti su Power BI Premium)
 - [Strumento di migrazione RDL](https://github.com/microsoft/RdlMigration)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

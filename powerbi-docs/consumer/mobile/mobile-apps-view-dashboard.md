@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205528"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349449"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -29,8 +29,8 @@ I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi
 
 Per visualizzare dashboard e report nel dispositivo mobile, è necessario creare tali elementi o accedervi da un Web browser. 
 
-1. Accedere al servizio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [iscriversi per creare un account](../../service-self-service-signup-for-power-bi.md).
-2. [Creare dashboard e report Power BI personalizzati](../../service-get-started.md) o connettersi ad [app Power BI](../../service-connect-to-services.md) esistenti per ottenere una vasta gamma di servizi, ad esempio [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
+1. Accedere al servizio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [iscriversi per creare un account](../../fundamentals/service-self-service-signup-for-power-bi.md).
+2. [Creare dashboard e report Power BI personalizzati](../../fundamentals/service-get-started.md) o connettersi ad [app Power BI](../../connect-data/service-connect-to-services.md) esistenti per ottenere una vasta gamma di servizi, ad esempio [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md).
 
 Ecco un dashboard di Power BI nel servizio Power BI:
 
@@ -45,14 +45,14 @@ Ecco un dashboard di Power BI nel servizio Power BI:
     ![Toccare il dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * Le stelle gialle ![stella Preferiti](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) indicano quali dashboard sono i preferiti. 
-   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
+   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../create-reports/service-data-classification.md).
    
    Per impostazione predefinita, i dashboard di Power BI hanno un aspetto leggermente diverso sull'iPhone. Tutti i riquadri hanno la stessa dimensione e sono disposti consecutivamente dall'alto verso il basso.
    
     ![Vista verticale del dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > I proprietari dei dashboard possono [creare una visualizzazione del dashboard in modo specifico per i telefoni](../../service-create-dashboard-mobile-phone-view.md) in modalità verticale nel servizio Power BI. 
+   > I proprietari dei dashboard possono [creare una visualizzazione del dashboard in modo specifico per i telefoni](../../create-reports/service-create-dashboard-mobile-phone-view.md) in modalità verticale nel servizio Power BI. 
    > 
    > 
    
@@ -85,7 +85,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
    ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Le stelle gialle ![stella Preferiti](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) indicano quali dashboard sono i preferiti. 
-   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
+   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../create-reports/service-data-classification.md).
 3. È possibile condividere un dashboard dall'area di lavoro. Toccare i puntini di sospensione ( **...** ) nell'angolo in basso a destra del riquadro del dashboard e toccare **Invita altri**.
    
    ![icona Invita](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 
     Le stelle gialle ![stella Preferiti](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) indicano quali dashboard sono i preferiti. 
 
-    La notazione sotto il nome di un dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
+    La notazione sotto il nome di un dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../create-reports/service-data-classification.md).
 
     I dashboard di Power BI hanno un aspetto leggermente diverso sul telefono Android. Tutti i riquadri hanno la stessa larghezza e sono disposti consecutivamente dall'alto verso il basso.
 
     ![Vista verticale del dashboard](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    I proprietari dei dashboard possono [creare una visualizzazione del dashboard in modo specifico per i telefoni](../../service-create-dashboard-mobile-phone-view.md) in modalità verticale nel servizio Power BI. 
+    I proprietari dei dashboard possono [creare una visualizzazione del dashboard in modo specifico per i telefoni](../../create-reports/service-create-dashboard-mobile-phone-view.md) in modalità verticale nel servizio Power BI. 
 
 1. Dal dashboard è possibile toccare il pulsante **Altre opzioni** (...) accanto al nome per invitare un collega, aggiornare o ottenere informazioni sul dashboard:
    
@@ -132,7 +132,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
    ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Le stelle gialle ![stella Preferiti](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) indicano quali dashboard sono i preferiti. 
-   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
+   * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../create-reports/service-data-classification.md).
 3. Dal dashboard è possibile toccare il pulsante **Altre opzioni** (...) accanto al nome per invitare un collega, aggiornare o ottenere informazioni sul dashboard:
    
    ![Menu con i puntini di sospensione](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ I proprietari dei dashboard possono creare una visualizzazione del dashboard in 
 
 ![Visualizzazione telefono del dashboard](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-Altre informazioni sulla [creazione di una visualizzazione telefono di un dashboard](../../service-create-dashboard-mobile-phone-view.md).
+Altre informazioni sulla [creazione di una visualizzazione telefono di un dashboard](../../create-reports/service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scaricare l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867) da Google Play  
 * [Introduzione all'app Android per Power BI](mobile-android-app-get-started.md)  
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

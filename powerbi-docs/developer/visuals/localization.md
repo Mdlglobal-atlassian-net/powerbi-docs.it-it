@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379873"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349288"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Aggiungere le impostazioni locali in Power BI per gli oggetti visivi di Power BI
 
 Gli oggetti visivi possono recuperare le impostazioni locali di Power BI per localizzare il contenuto nella lingua pertinente.
 
-Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per Power BI](./../../supported-languages-countries-regions.md)
+Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per Power BI](./../../fundamentals/supported-languages-countries-regions.md)
 
 È ad esempio possibile recuperare le impostazioni locali nell'oggetto visivo grafico a barre di esempio.
 

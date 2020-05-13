@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638526"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347931"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Acconsentire esplicitamente al nuovo aspetto per le aree di lavoro (anteprima)
 
-Le aree di lavoro hanno un nuovo aspetto coordinato con il [nuovo aspetto](../service-new-look.md) del servizio Power BI. Chiunque usi il servizio Power BI (app.powerbi.com) può acconsentire esplicitamente all'uso di questo nuovo aspetto. Quando si attiva il **nuovo aspetto** nella barra di intestazione nera, si acconsente esplicitamente ad applicare il nuovo aspetto a report e aree di lavoro. Tutte le aree di lavoro, sia classiche che nuove, possono trarre vantaggio dal nuovo aspetto.
+Le aree di lavoro hanno un nuovo aspetto coordinato con il [nuovo aspetto](../consumer/service-new-look.md) del servizio Power BI. Chiunque usi il servizio Power BI (app.powerbi.com) può acconsentire esplicitamente all'uso di questo nuovo aspetto. Quando si attiva il **nuovo aspetto** nella barra di intestazione nera, si acconsente esplicitamente ad applicare il nuovo aspetto a report e aree di lavoro. Tutte le aree di lavoro, sia classiche che nuove, possono trarre vantaggio dal nuovo aspetto.
 
-Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la barra multifunzione aggiornata in Power BI Desktop](../desktop-ribbon.md).
+Per informazioni sul nuovo aspetto di **Power BI Desktop**, vedere [Usare la barra multifunzione aggiornata in Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Funzionalità del nuovo aspetto
 
@@ -50,7 +50,6 @@ Se è necessario tornare all'aspetto precedente, è sufficiente scorrere per tor
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Usare la barra multifunzione aggiornata in Power BI Desktop](../desktop-ribbon.md)
-- [Nuovo aspetto del servizio Power BI](../service-new-look.md)
+- [Usare la barra multifunzione aggiornata in Power BI Desktop](../create-reports/desktop-ribbon.md)
+- [Nuovo aspetto del servizio Power BI](../consumer/service-new-look.md)
 - Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-

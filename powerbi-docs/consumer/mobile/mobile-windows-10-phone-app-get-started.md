@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435951"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349357"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Iniziare a usare l'app Power BI per dispositivi mobili con Windows 10
 Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile accedere a informazioni aziendali aggiornate tramite tablet o telefoni abilitati per il tocco, nonché visualizzare e interagire con i dashboard aziendali ovunque ci si trovi, direttamente dalla [schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
 ![Riquadro animato di Windows](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-È possibile [creare dashboard e report nel servizio Power BI](../../service-get-started.md) con i propri dati. 
+È possibile [creare dashboard e report nel servizio Power BI](../../fundamentals/service-get-started.md) con i propri dati. 
 
 È quindi possibile interagire con i dashboard e i report, esplorare i dati e condividerli con l'app per dispositivi mobili Power BI per Windows 10.
 
@@ -38,7 +38,7 @@ Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile acced
 Se non è ancora stata effettuata l'iscrizione, passare al [servizio Power BI](https://powerbi.com/). Registrare un account per creare e archiviare i dashboard e report e riunire i dati. Accedere quindi a Power BI dal dispositivo Windows 10 per visualizzare i propri dashboard ovunque ci si trovi.
 
 1. Nel servizio Power BI toccare [Iscriviti](https://go.microsoft.com/fwlink/?LinkID=513879) per creare un account di Power BI.
-2. Iniziare a [creare dashboard e report personalizzati](../../service-get-started.md).
+2. Iniziare a [creare dashboard e report personalizzati](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introduzione all'app Power BI
 1. Nella schermata Start del dispositivo Windows 10 aprire l'app Power BI.
@@ -110,7 +110,7 @@ Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi m
 Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositivi Windows 10 con dashboard e report di Power BI e con report per dispositivi mobili di Reporting Services e indicatori KPI nel portale Web di Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboard e report di Power BI
-* Visualizzare le [app](../../service-create-distribute-apps.md).
+* Visualizzare le [app](../../collaborate-share/service-create-distribute-apps.md).
 * Visualizzare i [dashboard](mobile-apps-view-dashboard.md).
 * [Aggiungere riquadri e dashboard di Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) alla schermata Start del dispositivo come riquadri animati.
 * [Condividere riquadri](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositi
 * [Scaricare l'app Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) da Windows Store  
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
 * Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
-

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126260"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349219"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Confronto tra Power BI Desktop e il servizio Power BI
 
@@ -23,7 +23,7 @@ In un diagramma di Venn che mette a confronto Power BI Desktop e il servizio Pow
 
 ![Diagramma di Venn di Power BI Desktop e del servizio](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** è uno strumento completo per l'analisi dei dati e la creazione di report, installato come applicazione gratuita nel computer locale. Include l'Editor di query, in cui è possibile connettersi a molte origini dati diverse e combinare i dati (attività spesso denominata modellazione) in un modello di dati. È quindi possibile progettare un report basato sul modello di dati. Il processo viene illustrato nella [Guida introduttiva a Power BI Desktop](../desktop-getting-started.md).
+**Power BI Desktop** è uno strumento completo per l'analisi dei dati e la creazione di report, installato come applicazione gratuita nel computer locale. Include l'Editor di query, in cui è possibile connettersi a molte origini dati diverse e combinare i dati (attività spesso denominata modellazione) in un modello di dati. È quindi possibile progettare un report basato sul modello di dati. Il processo viene illustrato nella [Guida introduttiva a Power BI Desktop](desktop-getting-started.md).
 
 Il **servizio Power BI** è un servizio basato sul cloud. Consente di apportare piccole modifiche ai report e favorisce la collaborazione di team e aziende. Anche il servizio Power BI consente di connettersi alle origini dati, ma la modellazione è limitata. 
 
@@ -50,19 +50,18 @@ Questo video illustra l'editor di report in Power BI Desktop.
 ### <a name="collaborating"></a>Collaborazione
 
 
-Dopo aver creato i report, è possibile salvarli in un'*area di lavoro* del **servizio Power BI** in cui si collabora con i colleghi. Oltre ai report è possibile creare *dashboard*. Dashboard e report possono quindi essere condivisi con gli utenti dei report all'interno e all'esterno dell'organizzazione. Gli utenti visualizzano i report nel servizio Power BI in una *visualizzazione di lettura*, non nella visualizzazione di modifica. Non hanno infatti accesso a tutte le funzionalità disponibili per gli autori dei report.  È anche possibile condividere i set di dati che gli altri utenti potranno usare per creare i propri report. Continuare per altre informazioni sulla [collaborazione nel servizio Power BI](../service-new-workspaces.md).
+Dopo aver creato i report, è possibile salvarli in un'*area di lavoro* del **servizio Power BI** in cui si collabora con i colleghi. Oltre ai report è possibile creare *dashboard*. Dashboard e report possono quindi essere condivisi con gli utenti dei report all'interno e all'esterno dell'organizzazione. Gli utenti visualizzano i report nel servizio Power BI in una *visualizzazione di lettura*, non nella visualizzazione di modifica. Non hanno infatti accesso a tutte le funzionalità disponibili per gli autori dei report.  È anche possibile condividere i set di dati che gli altri utenti potranno usare per creare i propri report. Continuare per altre informazioni sulla [collaborazione nel servizio Power BI](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Preparazione dei dati self-service con flussi di dati
 
-I flussi di dati aiutano le organizzazioni a unificare i dati provenienti da origini diverse e prepararli per la modellazione. Gli analisti possono creare facilmente i flussi di dati, usando strumenti familiari e self-service. Gli analisti usano i flussi di dati per inserire, trasformare, integrare e arricchire i Big Data con la definizione di connessioni a origini dati, logica ETL, pianificazioni degli aggiornamenti e altro ancora. Continuare per altre informazioni sulla [preparazione dei dati self-service con flussi di dati](../service-dataflows-overview.md).
+I flussi di dati aiutano le organizzazioni a unificare i dati provenienti da origini diverse e prepararli per la modellazione. Gli analisti possono creare facilmente i flussi di dati, usando strumenti familiari e self-service. Gli analisti usano i flussi di dati per inserire, trasformare, integrare e arricchire i Big Data con la definizione di connessioni a origini dati, logica ETL, pianificazioni degli aggiornamenti e altro ancora. Continuare per altre informazioni sulla [preparazione dei dati self-service con flussi di dati](../transform-model/service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cos'è Power BI Desktop?](../desktop-what-is-desktop.md)
+[Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 
-[Creare un report](../service-report-create-new.md) nel servizio Power BI
+[Creare un report](../create-reports/service-report-create-new.md) nel servizio Power BI
 
-[Concetti di base per responsabili di progettazione di report](../service-basic-concepts.md)
+[Concetti di base per responsabili di progettazione di report](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
-
