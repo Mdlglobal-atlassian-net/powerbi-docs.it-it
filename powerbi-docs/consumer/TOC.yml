@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: Aggiungere un elemento in evidenza a un report
               href: end-user-spotlight.md
+            - name: Personalizzare un oggetto visivo
+              href: end-user-personalize-visuals.md
             - name: Report impaginati in Power BI
               items:
                 - name: Report impaginati
