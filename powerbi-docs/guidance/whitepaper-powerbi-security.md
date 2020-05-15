@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279090"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407524"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -263,7 +263,7 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
     &ensp;&ensp;oggetto. Per i report creati con Excel per Office 365, nella cache non viene memorizzato alcun valore.
 
-    &ensp;&ensp;b. Per i report di Power BI, i dati relativi agli oggetti visivi presenti vengono memorizzati nella cache crittografati nel database SQL di Azure.
+    &ensp;&ensp;b. Per Power BI report, i dati per gli oggetti visivi dei report visualizzati vengono memorizzati nella cache e archiviati nella cache dei dati visivi descritta nella sezione seguente.
  
 
 4. File originali di Power BI Desktop (PBIX) o Excel (XLSX) pubblicati in Power BI
@@ -272,11 +272,20 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboard e riquadri del dashboard
 
-1. Cache: i dati necessari per gli oggetti visivi nel dashboard in genere vengono memorizzati nella cache e archiviati crittografati nel database SQL di Azure. Altri riquadri, ad esempio gli oggetti visivi aggiunti da Excel o SQL Server Reporting Services, vengono archiviati in BLOB di Azure come immagini e vengono anche crittografati.
+1. Cache: i dati necessari agli oggetti visivi nel dashboard vengono in genere memorizzati nella cache e archiviati nella cache dei dati visivi descritta nella sezione seguente. Altri riquadri, ad esempio gli oggetti visivi aggiunti da Excel o SQL Server Reporting Services, vengono archiviati in BLOB di Azure come immagini e vengono anche crittografati.
 
 2. Dati statici, che includono elementi come immagini di sfondo e oggetti visivi Power BI archiviati, crittografati, nell'archivio BLOB di Azure.
 
-Indipendentemente dal metodo di crittografia in uso, Microsoft gestisce la crittografia delle chiavi per conto dei clienti, in un archivio segreto o in Azure Key Vault.
+Indipendentemente dal metodo di crittografia usato, Microsoft gestisce la crittografia delle chiavi per conto dei clienti.
+
+#### <a name="visual-data-cache"></a>Cache dei dati visivi
+
+I dati visivi vengono memorizzati nella cache in posizioni diverse a seconda che il set di dati sia ospitato in una capacità Power BI Premium. Per i set di dati che non sono ospitati in una capacità, i dati visivi vengono memorizzati nella cache e archiviati crittografati in un database SQL di Azure. Per i set di dati ospitati in una capacità, i dati visivi possono essere memorizzati nella cache in uno dei percorsi seguenti:
+
+* Archiviazione BLOB di Azure
+* File Premium di Azure
+* Nodo della capacità di Power BI Premium
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Dati archiviati Transiently temporaneamente in dispositivi non volatili
 
@@ -462,7 +471,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 * Le connessioni stabilite per i clienti con sottoscrizioni di Power BI Premium implementano un processo di autorizzazione [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) usando Azure Active Directory (AD) per abilitare il controllo di accesso e autorizzazione. Power BI gestisce le connessioni provenienti dai sottoscrittori di Power BI Premium verso le risorse di Power BI Premium esattamente come gestisce qualsiasi altro utente di Azure AD.
 
-## <a name="conclusion"></a>Conclusioni
+## <a name="conclusion"></a>Conclusione
 
 L'architettura del servizio Power BI è basata su due cluster: il cluster Web front-end (WFE) e il cluster back-end. Il cluster WFE è responsabile della connessione e dell'autenticazione iniziale al servizio Power BI e, dopo l'autenticazione, il cluster Back End gestisce tutte le successive interazioni con l'utente. Power BI usa Azure Active Directory (AAD) per archiviare e gestire le identità degli utenti e gestisce l'archiviazione di dati e metadati usando rispettivamente l'archivio BLOB di Azure e il database SQL di Azure.
 
