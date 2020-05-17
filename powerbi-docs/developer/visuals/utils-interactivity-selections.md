@@ -186,7 +186,7 @@ I punti dati contengono in genere selezioni e valori. L'interfaccia estende l'in
     }
     ```
 
-5. Per gestire il clic sugli elementi, chiamare il metodo *dell'oggetto di selezione*d3`on`. Questo vale anche per `elementsSelection` e `clearCatcherSelection`.
+5. Per gestire il clic sugli elementi, chiamare il metodo `on` dell'oggetto di selezione *d3*. Questo vale anche per `elementsSelection` e `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {
