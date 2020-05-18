@@ -44,7 +44,7 @@
           href: advanced-edit-mode.md
         - name: Funzionalità supportsKeyboardFocus
           href: supportskeyboardfocus-feature.md
-        - name: supportsMultiVisualSelection-feature.md
+        - name: Funzionalità supportsMultiVisualSelection
           href: supportsmultivisualselection-feature.md
     - name: Procedura
       items:
