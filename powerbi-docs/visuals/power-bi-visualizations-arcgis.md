@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115309"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130969"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>Interagire con le mappe ArcGIS in Power BI
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 Questo argomento è stato scritto dal punto di vista di una persona che usa una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando un progettista condivide un oggetto visivo di ArcGIS Maps for Power BI, è possibile interagire con esso in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione sulle mappe ArcGIS di Esri](../visuals/power-bi-visualization-arcgis.md).
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium. Vedere l'articolo sulla [condivisione di report](../collaborate-share/service-share-reports.md).
 
 Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. La prima cosa che fa un progettista di report è associare livelli di dati demografici alla mappa. La combinazione di livelli di dati basati sulla località (ad esempio dati di censimento) su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nelle visualizzazioni.
 

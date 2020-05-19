@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274444"
+ms.locfileid: "83382739"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Connettività ai set di dati con l'endpoint XMLA (anteprima)
 
@@ -29,6 +29,9 @@ Le aree di lavoro e i set di dati di Power BI Premium al livello di compatibilit
 Power BI Premium usa il protocollo [XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) per le comunicazioni tra le applicazioni client e il motore che gestisce le aree di lavoro e i set di dati di Power BI. Queste comunicazioni avvengono attraverso elementi comunemente chiamati endpoint XMLA. XMLA è lo stesso protocollo di comunicazione usato dal motore di Microsoft Analysis Services che esegue in background la modellazione semantica, la governance, il ciclo di vita e la gestione dei dati di Power BI.
 
 Per impostazione predefinita, la connettività in *sola lettura* che usa l'endpoint è abilitata per il **carico di lavoro Set di dati** in una capacità. In sola lettura, le applicazioni e gli strumenti di visualizzazione dei dati possono eseguire query nei dati del modello, nei metadati, negli eventi e nello schema del set di dati. Le operazioni in *lettura/scrittura* che usano l'endpoint possono essere abilitate specificando gestione, governance, modellazione semantica avanzata, debug e monitoraggio del set di dati. Con la lettura/scrittura abilitata, i set di dati di Power BI Premium hanno maggiore parità con gli strumenti e i processi di modellazione tabulare a livello aziendale di Azure Analysis Services e SQL Server Analysis Services.
+
+> [!NOTE]
+> Si consiglia di usare l'esperienza delle aree di lavoro moderna, soprattutto quando ci si connette ai set di dati usando l'endpoint XMLA. Alcune operazioni, ad esempio la creazione o l'eliminazione di set di dati, non sono supportate con le aree di lavoro classiche. Per aggiornare le aree di lavoro classiche all'esperienza moderna, vedere [Aggiornare le aree di lavoro classiche in Power BI](../collaborate-share/service-upgrade-workspaces.md).
 
 ## <a name="data-modeling-and-management-tools"></a>Strumenti di gestione e modellazione dei dati
 
@@ -182,7 +185,7 @@ Dopo aver specificato la proprietà Server di distribuzione, è possibile distri
 
 L'elaborazione non riesce perché, a differenza di quando si esegue la distribuzione in un'istanza di Azure o SQL Server Analysis Server in cui le credenziali dell'origine dati vengono richieste come parte dell'operazione di distribuzione, quando si distribuisce in un'area di lavoro Premium le credenziali dell'origine dati non possono essere specificate durante l'operazione di distribuzione. Al contrario, dopo la distribuzione dei metadati e la creazione del set di dati, le credenziali dell'origine dati vengono specificate nel servizio Power BI nelle impostazioni del set di dati. Nell'area di lavoro fare clic su **Set di dati** > **Impostazioni** > **Credenziali origine dati** > **Modifica credenziali**.
 
-![Credenziali dell'origine dati](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
+![Credenziali origine dati](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
 Quando vengono specificate le credenziali dell'origine dati, è possibile aggiornare il set di dati nel servizio Power BI, configurare l'aggiornamento pianificato o elaborare (aggiornare) da SQL Server Management Studio per caricare i dati nel set di dati.
 

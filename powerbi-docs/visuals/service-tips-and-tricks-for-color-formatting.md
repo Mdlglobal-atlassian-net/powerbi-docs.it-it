@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895007"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276606"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Suggerimenti e consigli per la formattazione dei colori in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 In Power BI sono disponibili vari modi per personalizzare i dashboard e i report. Questo articolo presenta una raccolta di suggerimenti utili per fare in modo che le visualizzazioni di Power BI siano più accattivanti, interessanti e personalizzate in base alle proprie esigenze.
 
 Sono forniti i suggerimenti seguenti. Se si hanno suggerimenti interessanti, è possibile inviarli. Verranno valutati e, se ritenuti utili, verranno aggiunti a questo elenco.
@@ -40,7 +43,7 @@ Quando vengono visualizzati i riquadri **Filtri** e **Visualizzazioni** a destra
 ![Canvas del report in modalità di modifica](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 ## <a name="apply-a-theme"></a>Applicare un tema
-I temi dei report consentono di applicare modifiche alla struttura dell'intero report, ad esempio usando i colori aziendali, modificando i set di icone o applicando una nuova formattazione visuale predefinita. Quando si applica un tema del report, tutti gli oggetti visivi del report usano i colori e la formattazione del tema selezionato. Per altre informazioni, vedere [Usare i temi dei report](../desktop-report-themes.md)
+I temi dei report consentono di applicare modifiche alla struttura dell'intero report, ad esempio usando i colori aziendali, modificando i set di icone o applicando una nuova formattazione visuale predefinita. Quando si applica un tema del report, tutti gli oggetti visivi del report usano i colori e la formattazione del tema selezionato. Per altre informazioni, vedere [Usare i temi dei report](../create-reports/desktop-report-themes.md)
 
 ![Cambiare l'icona del tema nella barra dei menu](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
 
@@ -120,7 +123,7 @@ Per usare scale di colori divergenti, selezionare la casella di controllo **Dive
 
 ![Finestra di dialogo Colore predefinito con scala dei colori selezionata](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-Quando il dispositivo di scorrimento **Divergente** è attivato, è possibile impostare separatamente i colori per **Minimo**, **Massimo** e **Centrale**. Nell'immagine seguente **Al centro** è impostato su 0,2 per **% Market Share SPLY YTD**, quindi le barre con valori al di sopra di 0,2 sono in una sfumatura di verde e le barra al di sotto di questo valore sono in una sfumatura di rosso.
+Quando il dispositivo di scorrimento **Divergente** è attivato, è possibile impostare separatamente i colori per **Minimo**, **Massimo** e **Centrale** . Nell'immagine seguente **Al centro** è impostato su 0,2 per **% Market Share SPLY YTD**, quindi le barre con valori al di sopra di 0,2 sono in una sfumatura di verde e le barra al di sotto di questo valore sono in una sfumatura di rosso.
 
 ![istogramma con barre rosse e verdi](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 
@@ -146,9 +149,11 @@ Per rimuovere tutte le modifiche apportate in una scheda Formattazione, selezion
 
 ![Scheda Formattazione con opzione Ripristina valori predefiniti nella parte inferiore](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Commenti
-Se si hanno suggerimenti da condividere, è possibile inviarli. Verranno valutati e, se ritenuti utili, verranno inseriti qui.
+## <a name="feedback"></a>Commenti e suggerimenti
+Se si hanno suggerimenti da condividere, è possibile inviarli. è possibile inviarli. Verranno valutati e, se ritenuti utili, verranno inseriti qui.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione alla formattazione dei colori e alle proprietà degli assi](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+[Condivisione di report](../collaborate-share/service-share-reports.md).
 

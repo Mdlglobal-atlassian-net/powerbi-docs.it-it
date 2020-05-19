@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403766"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276054"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti (anteprima)
 
@@ -22,7 +22,7 @@ Con **Power BI Embedded in Azure** o l'**incorporamento di Power BI in Office**,
 
 ![Incorporare report di Power BI](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
-In questa esercitazione verranno illustrate le procedure per:
+In questa esercitazione viene illustrato come:
 > [!div class="checklist"]
 > * Registrare un'applicazione in Azure.
 > * Incorporare un report impaginato di Power BI in un'applicazione.
@@ -34,14 +34,14 @@ Per iniziare, è necessario avere:
 * Un'[entità servizio (token solo app)](embed-service-principal.md)
 * Una sottoscrizione di [Microsoft Azure](https://azure.microsoft.com/)
 * Configurazione del [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md)
-* Una [capacità](#create-a-dedicated-capacity) minima A4 o P1 con il carico di lavoro [report impaginati](../../service-admin-premium-workloads.md#paginated-reports) abilitato
+* Una [capacità](#create-a-dedicated-capacity) minima A4 o P1 con il carico di lavoro [report impaginati](../../admin/service-admin-premium-workloads.md#paginated-reports) abilitato
 
-Se non si ha una sottoscrizione di Azure, creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
+Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 > [!IMPORTANT]
 > * È necessario usare un'**entità servizio**. L'utente master non è supportato.
 > * Le origini dati che richiedono il Single Sign-On (SSO) non sono supportate.
-> * Il set di dati di Power BI non è supportato come [origine dati](../../service-get-data.md).
+> * Il set di dati di Power BI non è supportato come [origine dati](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 
@@ -49,12 +49,12 @@ Per incorporare un report impaginato è necessario assegnare un'area di lavoro a
 
 ### <a name="create-an-app-workspace"></a>Crea area di lavoro per le app
 
-Se invece si usa l'[entità servizio](embed-service-principal.md) per accedere all'applicazione, è necessario usare le [nuove aree di lavoro](../../service-create-the-new-workspaces.md). In qualità di *entità servizio*, è anche necessario essere un amministratore o un membro delle aree di lavoro per le app coinvolte nell'applicazione.
+Se invece si usa l'[entità servizio](embed-service-principal.md) per accedere all'applicazione, è necessario usare le [nuove aree di lavoro](../../collaborate-share/service-create-the-new-workspaces.md). In qualità di *entità servizio*, è anche necessario essere un amministratore o un membro delle aree di lavoro per le app coinvolte nell'applicazione.
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
 
 Prima di importare o caricare un report impaginato da incorporare, l'area di lavoro contenente il report deve essere assegnata almeno a una capacità A4 o P1. In Power BI è possibile scegliere tra due tipi di capacità:
-* **Power BI Premium**: per incorporare un report impaginato, è necessaria una capacità SKU *P*. Quando si incorpora il contenuto di Power BI, questa soluzione viene definita *incorporamento di Power BI*. Per altre informazioni su questa sottoscrizione, vedere [Che cos'è Power BI Premium?](../../service-premium-what-is.md)
+* **Power BI Premium**: per incorporare un report impaginato, è necessaria una capacità SKU *P*. Quando si incorpora il contenuto di Power BI, questa soluzione viene definita *incorporamento di Power BI*. Per altre informazioni su questa sottoscrizione, vedere [Che cos'è Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: è possibile acquistare una capacità dedicata dal [portale di Microsoft Azure](https://portal.azure.com). Questa sottoscrizione usa gli SKU *A*. Per l'incorporamento di report impaginati è necessaria almeno una sottoscrizione *A4*. Per informazioni dettagliate su come creare una capacità per Power BI Embedded, vedere [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Creare capacità per Power BI Embedded nel portale di Azure).
 
 La tabella seguente descrive le risorse e i limiti di ogni SKU. Per determinare la capacità più adatta alle proprie esigenze, vedere la tabella [Quale SKU devo acquistare per il mio scenario](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
@@ -197,7 +197,7 @@ Compilare il campo **tenant** con l'ID tenant di Azure. È possibile ottenere qu
 
 3. È ora possibile visualizzare il report nell'applicazione di esempio.
 
-    ![Visualizza applicazione](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
+    ![Visualizzare l'applicazione](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Incorporare report impaginati di Power BI nell'applicazione
 
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Creare il token di incorporamento
 
-Generare un token di incorporamento che possa essere usato dall'API JavaScript. Per creare un token incorporato per l'incorporamento dei report impaginati di Power BI, usare l'API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup).
+Generare un token di incorporamento che possa essere usato dall'API JavaScript. Per creare un token incorporato per l'incorporamento dei report impaginati di Power BI, usare l'API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
 
 Un esempio di creazione di un token di incorporamento è disponibile nel file  *Services\EmbedService.cs* dell'[applicazione di esempio](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
