@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'Corso online: Report impaginati'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: Creare un report impaginato e caricarlo
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Esempi

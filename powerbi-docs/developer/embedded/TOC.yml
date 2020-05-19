@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: Autorizzazioni di Power BI
           href: power-bi-permissions.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Incorporare da un'app
           href: embed-from-apps.md
@@ -62,7 +62,7 @@
           href: embed-dynamic-binding.md
         - name: Incorporamento di domande e risposte
           href: qanda.md
-        - name: Risoluzione dei problemi dell'applicazione incorporata
+        - name: Risolvere i problemi dell'applicazione incorporata
           href: embedded-troubleshoot.md
         - name: Gestire le capacità in Azure
           items:
@@ -74,9 +74,9 @@
               href: azure-pbie-scale-capacity.md
             - name: Sospendere e avviare una capacità in Azure
               href: azure-pbie-pause-start.md
-        - name: Eseguire la migrazione da raccolte di aree di lavoro
+        - name: Eseguire la migrazione dalle raccolte di aree di lavoro
           items:
-            - name: Come eseguire la migrazione da raccolte di aree di lavoro di Power BI
+            - name: Come eseguire la migrazione dalle raccolte di aree di lavoro di Power BI
               href: migrate-from-powerbi-embedded.md
             - name: Strumento di migrazione
               href: migrate-tool.md
@@ -86,10 +86,10 @@
       items:
         - name: API
           items:
-            - name: API REST di Gestione delle risorse di Azure
+            - name: API REST di gestione delle risorse di Azure
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: API REST di Power BI
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: Librerie di Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Incorporare layout personalizzati in un'app
@@ -100,9 +100,9 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Strumento di installazione dell'incorporamento
           href: 'https://aka.ms/embedsetup'
-        - name: Esempio di playground JavaScript
+        - name: Esempio JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki JavaScript Power BI
+        - name: Wiki JavaScript di Power BI
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Esempi e script per sviluppatori
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
