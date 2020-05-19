@@ -1,20 +1,23 @@
 ---
 title: Usare l'oggetto visivo Domande e risposte di Power BI
 description: Come configurare l'oggetto visivo Domande e risposte di Power BI
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762279"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148357"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introduzione agli oggetti visivi Domande e risposte di Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -45,10 +48,12 @@ L'oggetto visivo Domande e risposte è costituito da quattro componenti principa
 
 1. Aprire il file nella visualizzazione Report. ![Screenshot dell'icona della visualizzazione Report.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selezione ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
+Se viene visualizzato un errore durante la creazione di un oggetto visivo Domande e risposte, assicurarsi di consultare la sezione delle [limitazioni](../natural-language/q-and-a-limitations.md) per verificare se la configurazione dell'origine dati è supportata.    
 
-Se viene visualizzato un errore durante la creazione di un oggetto visivo Domande e risposte, assicurarsi di consultare la sezione delle [limitazioni](../natural-language/q-and-a-limitations.md) per verificare se la configurazione dell'origine dati è supportata.
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium. Vedere l'articolo sulla [condivisione di report](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Creare un oggetto visivo Domande e risposte usando una domanda suggerita
 In questo esercizio verrà selezionata una delle domande suggerite per creare l'oggetto visivo Domande e risposte. 

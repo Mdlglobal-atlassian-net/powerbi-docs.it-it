@@ -2,28 +2,28 @@
 title: Parte 1, Aggiungere visualizzazioni a un report di Power BI
 description: Parte 1, Aggiungere visualizzazioni a un report di Power BI
 author: mihart
-ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
+ms.reviewer: rien
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b275d4e7fdb4e289d2331a2f58db504071ea609b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fda9c63abbf20eb08adbebacc3f9351c80a2847b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758601"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148014"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Aggiungere oggetti visivi a un report di Power BI (parte 1)
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Questo articolo offre un'introduzione rapida alla creazione di una visualizzazione in un report. Le informazioni si applicano sia al servizio Power BI che a Power BI Desktop. Per contenuti più avanzati, [vedere la parte 2](power-bi-report-add-visualizations-ii.md) di questa serie. Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](../sample-datasets.md) per creare il proprio report.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
+Questo articolo offre un'introduzione rapida alla creazione di una visualizzazione in un report. Le informazioni si applicano sia al servizio Power BI che a Power BI Desktop. Per contenuti più avanzati, [vedere la parte 2](power-bi-report-add-visualizations-ii.md) di questa serie.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -35,7 +35,10 @@ Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://downl
 
 1. Aprire il **file Sales and Marketing Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium. Vedere l'articolo sulla [condivisione di report](../collaborate-share/service-share-reports.md)
 
 ## <a name="add-visualizations-to-the-report"></a>Aggiungere visualizzazioni al report
 
@@ -76,4 +79,3 @@ Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://downl
 * [Parte 2: Aggiungere visualizzazioni a un report di Power BI](power-bi-report-add-visualizations-ii.md)
 
 * [Interagire con le visualizzazioni](../consumer/end-user-reading-view.md) nel report.
-

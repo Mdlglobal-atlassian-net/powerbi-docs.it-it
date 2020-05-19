@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496526"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382762"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Esercitazione: Impostare gli avvisi per i dashboard di Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. Gli avvisi funzionano per misuratori, indicatori KPI e schede. Questa funzionalità è ancora in evoluzione, quindi fare riferimento alla [sezione Suggerimenti e risoluzione dei problemi di seguito](#tips-and-troubleshooting).
+Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. Gli avvisi possono essere impostati solo in riquadri aggiunti da oggetti visivi del report e solo su misuratori, indicatori KPI e schede. 
+
+Gli *utenti finali* possono aggiungere avvisi ai riquadri dei dashboard che hanno creato in **Area di lavoro personale**. Gli *utenti finali* possono anche aggiungere avvisi ai riquadri nei dashboard che sono stati condivisi con loro in una [capacità Premium](end-user-license.md). Se si ha una licenza di Power BI Pro, è anche possibile impostare gli avvisi per i riquadri in qualsiasi altra area di lavoro.
+Questa funzionalità è ancora in evoluzione, quindi fare riferimento alla [sezione Suggerimenti e risoluzione dei problemi di seguito](#tips-and-troubleshooting).
 
 ![riquadro, scheda, indicatore KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ In questa esercitazione vengono trattati gli argomenti seguenti.
 
 Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
-Questo esempio usa un riquadro di tipo scheda del dashboard dall'app di esempio Sales & Marketing. Questa app è disponibile in [Microsoft AppSource](https://appsource.microsoft.com). Per informazioni su come ottenere l'app, vedere [Installare e usare le app con Power BI](end-user-app-view.md).
+Questo esempio usa un riquadro di tipo scheda del dashboard dall'app di esempio Sales & Marketing. Questa app è disponibile in [Microsoft AppSource](https://appsource.microsoft.com). Per informazioni su come ottenere l'app, vedere [Installare e usare l'app Sales & Marketing](end-user-app-marketing.md).
 
 1. Selezionare i puntini di sospensione da un riquadro del misuratore, dell'indicatore KPI o della scheda del dashboard.
    
    ![riquadro di tipo scheda](media/end-user-alerts/power-bi-cards.png)
-2. Selezionare l'icona a forma di campana ![icona di avviso](media/end-user-alerts/power-bi-bell-icon.png) o **Gestisci avvisi** per aggiungere uno o più avvisi per **Total stores**.
+2. Selezionare l'icona a forma di campanello ![icona di avviso](media/end-user-alerts/power-bi-bell-icon.png) o **Gestisci avvisi** per aggiungere uno o più avvisi per **% Units market share**.
 
    ![riquadro di tipo scheda con puntini di sospensione selezionati](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -111,10 +114,10 @@ Sono disponibili molti modi per gestire gli avvisi: Dal riquadro del dashboard, 
 
 ## <a name="tips-and-troubleshooting"></a>Suggerimenti e risoluzione dei problemi 
 
-* Gli avvisi possono essere impostati solo per misuratori, indicatori KPI e schede.
-* Se non è possibile impostare un avviso per un misuratore, un indicatore KPI o una scheda, richiedere assistenza all'amministratore di sistema. A volte gli avvisi vengono disattivati o non sono disponibili per il dashboard o per tipi specifici di riquadri del dashboard.
+* Se non è possibile impostare un avviso per un misuratore, un indicatore KPI o una scheda, chiedere assistenza all'amministratore tenant. A volte gli avvisi vengono disattivati o non sono disponibili per il dashboard o per tipi specifici di riquadri del dashboard.
 * Gli avvisi possono essere usati solo con dati aggiornati. Non possono essere usati con dati statici. La maggior parte degli esempi forniti da Microsoft è statica. 
-* Gli *utenti finali* non creano dashboard personalizzati, mentre i *progettisti* creano dashboard e li condividono con gli utenti finali. Per poter ricevere e visualizzare contenuto condiviso è necessario avere una licenza di Power BI Pro o Premium. Per altre informazioni, vedere [Quali licenze sono disponibili?](end-user-license.md) 
+* Per poter ricevere e visualizzare contenuto condiviso è necessario avere una licenza di Power BI Pro o Premium. Per altre informazioni, vedere [Quali licenze sono disponibili?](end-user-license.md)
+* Gli avvisi possono essere impostati negli oggetti visivi creati da set di dati in streaming aggiunti da un report a un dashboard. Gli avvisi non possono essere impostati nei riquadri in streaming creati direttamente nel dashboard usando **Aggiungi riquadro** > **Dati in streaming personalizzati**.
 
 
 ## <a name="clean-up-resources"></a>Pulire le risorse

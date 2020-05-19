@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895232"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276583"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introduzione al riquadro di formattazione
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Se si hanno le autorizzazioni di modifica per un report, sono disponibili numerose opzioni di formattazione. Nei report di Power BI è possibile cambiare il colore delle serie di dati, dei punti dati e anche lo sfondo delle visualizzazioni. È inoltre possibile modificare il modo in cui vengono presentati l'asse X e l'asse Y, È anche possibile formattare le proprietà dei tipi di carattere di visualizzazioni, le forme e i titoli. Power BI offre il controllo completo sulla modalità di visualizzazione dei report.
 
 Per iniziare, aprire un report in Power BI Desktop o nel servizio Power BI. Entrambi offrono opzioni di formattazione quasi identiche. Quando si apre un report nel servizio Power BI, assicurarsi di selezionare **Modifica** dalla barra dei menu. 
@@ -41,7 +44,7 @@ Quando si seleziona **Formato**, nell'area sotto l'icona sono visualizzate le pe
 * Forme
 * Area del tracciato
 * Titolo
-* Background
+* Sfondo
 * Blocca proporzioni
 * Bordo
 * Descrizioni comando
@@ -154,8 +157,10 @@ E questa è l'immagine *dopo*.
 Queste sono solo alcune delle attività di formattazione possibili. Aprire un report in modalità di modifica e divertirsi a esplorare il riquadro Formattazione per creare visualizzazioni accattivanti e informative.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Per altre informazioni, vedere l'articolo seguente:  
+Per altre informazioni, vedere l'articolo seguente: 
+
+* [Condivisione di report](../collaborate-share/service-share-reports.md)
 
 * [Suggerimenti e consigli per la formattazione dei colori in Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Formattazione condizionale nelle tabelle](../desktop-conditional-table-formatting.md)
+* [Formattazione condizionale nelle tabelle](../create-reports/desktop-conditional-table-formatting.md)
 

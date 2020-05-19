@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893439"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277135"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizzare i titoli, gli sfondi e le legende delle visualizzazioni
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 Questa esercitazione illustra alcuni modi disponibili per personalizzare le visualizzazioni. Esistono numerose opzioni per la personalizzazione delle visualizzazioni. Il modo migliore per conoscerle tutte è esplorando il riquadro **Formato** (selezionare l'icona del rullo). Per iniziare, questo articolo illustra come personalizzare il titolo, la legenda e lo sfondo di una visualizzazione, nonché come aggiungere un tema.
 
@@ -30,12 +33,15 @@ Non è possibile personalizzare tutte le visualizzazioni. Vedere l'[elenco compl
 
 - Report Retail Analysis Sample
 
+> [!NOTE]
+> Per condividere il report con un collega di Power BI, è necessario che entrambi gli utenti abbiano licenze di Power BI Pro individuali o che il report venga salvato nella capacità Premium. Vedere l'articolo sulla [condivisione di report](../collaborate-share/service-share-reports.md).
+
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizzazione dei titoli delle visualizzazioni nei report
 
-Per seguire la procedura, accedere a Power BI Desktop e aprire il report [Retail Analysis Sample](../sample-datasets.md).
+Per seguire la procedura, accedere a Power BI Desktop e aprire il report [Retail Analysis Sample](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> quando si aggiunge una visualizzazione a un dashboard, questa diventa un riquadro del dashboard. È possibile personalizzare anche i riquadri, [ridimensionandoli e aggiungendo nuovi titoli, sottotitoli e collegamenti ipertestuali](../service-dashboard-edit-tile.md).
+> quando si aggiunge una visualizzazione a un dashboard, questa diventa un riquadro del dashboard. È possibile personalizzare anche i riquadri, [ridimensionandoli e aggiungendo nuovi titoli, sottotitoli e collegamenti ipertestuali](../create-reports/service-dashboard-edit-tile.md).
 
 1. Passare alla pagina **New Stores** del report **Retail Analysis Sample**.
 
@@ -133,32 +139,32 @@ Per applicare un tema al report, selezionare **Cambia tema** dalla barra dei men
 
 Ecco un elenco delle visualizzazioni e delle opzioni di personalizzazione disponibili per ognuna:
 
-| Visualizzazione | Title | Sfondo | Legenda |
+| Visualizzazione | Titolo | Sfondo | Legenda |
 |:--- |:--- |:--- |:--- |
-| Area | Sì | Sì |Sì |
-| Barre | Sì | Sì |Sì |
-| Scheda | Sì | Sì |n/a |
-| Scheda con più righe | Sì | Sì | n/a |
-| colonna | Sì | Sì | Sì |
-| Grafico combinato | Sì | Sì | Sì |
-| Grafico ad anello | Sì | Sì | Sì |
-| Mappa colorata | Sì | Sì | Sì |
-| Grafico a imbuto | Sì | Sì | n/a |
-| Misuratore | Sì | Sì | n/a |
-| Fattore di influenza chiave | Sì | Sì | n/a |
-| Indicatore KPI | Sì | Sì | n/a |
-| Linea | Sì | Sì | Sì |
-| Mappa | Sì | Sì | Sì |
-| Matrice | Sì | Sì | n/a |
-| Torta | Sì | Sì | Sì |
-| Domande e risposte | Sì | Sì | n/a |
-| Dispersione | Sì | Sì | Sì |
-| Forma | Sì | Sì | Sì |
-| Filtro dei dati | Sì | Sì | n/a |
-| Table | Sì | Sì | n/a |
-| Casella di testo | no | Sì | n/a |
-| Treemap | Sì | Sì | Sì |
-| Waterfall | Sì | Sì | Sì |
+| Area | sì | sì |sì |
+| Barre | sì | sì |sì |
+| Scheda | sì | sì |n/a |
+| Scheda con più righe | sì | sì | n/a |
+| Colonna | sì | sì | sì |
+| Grafico combinato | sì | sì | sì |
+| Grafico ad anello | sì | sì | sì |
+| Mappa colorata | sì | sì | sì |
+| Grafico a imbuto | sì | sì | n/a |
+| Misuratore | sì | sì | n/a |
+| Fattore di influenza chiave | sì | sì | n/a |
+| Indicatore KPI | sì | sì | n/a |
+| Linea | sì | sì | sì |
+| Mappa | sì | sì | sì |
+| Matrice | sì | sì | n/a |
+| Torta | sì | sì | sì |
+| Domande e risposte | sì | sì | n/a |
+| Dispersione | sì | sì | sì |
+| Forma | sì | sì | sì |
+| Filtro dei dati | sì | sì | n/a |
+| Tabella | sì | sì | n/a |
+| Casella di testo | no | sì | n/a |
+| Mappa ad albero | sì | sì | sì |
+| Waterfall | sì | sì | sì |
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -167,3 +173,5 @@ Ecco un elenco delle visualizzazioni e delle opzioni di personalizzazione dispon
 - [Introduzione alla formattazione dei colori e alle proprietà degli assi](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
+
+

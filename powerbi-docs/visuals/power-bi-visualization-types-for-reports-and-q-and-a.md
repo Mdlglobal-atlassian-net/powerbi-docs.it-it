@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381423"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276813"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
@@ -88,7 +88,7 @@ Un grafico dei fattori di influenza chiave visualizza i collaboratori principali
 
 Per altre informazioni, vedere [Grafici dei fattori di influenza chiave in Power BI](power-bi-visualization-influencers.md)
 
-### <a name="kpis"></a>Indicatori KPI
+### <a name="kpis"></a>KPI
 ![grafico KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -110,7 +110,7 @@ Per altre informazioni, vedere [Indicatori KPI in Power BI](power-bi-visualizati
 
 Per altre informazioni, vedere l'articolo relativo a [suggerimenti e consigli per le visualizzazioni mappa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mappe: mappe di ArcGIS
+### <a name="maps-arcgis-maps"></a>Mappe: Mappe di ArcGIS
 ![mappa di ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Per altre informazioni, vedere [Mappe ArcGIS in Power BI](power-bi-visualization-arcgis.md).
@@ -133,7 +133,7 @@ Per altre informazioni, vedere [Mappe delle forme in Power BI](desktop-shape-map
 
 
 ### <a name="matrix"></a>Matrice
-![matrice](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![matrix](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Una tabella supporta due dimensioni, ma una matrice rende più semplice visualizzare i dati in modo significativo su più dimensioni, supportando un layout con rientri. La matrice aggrega automaticamente i dati e consente il drill-down. 
@@ -157,7 +157,7 @@ Per altre informazioni, vedere [Aggiungere un oggetto visivo di Power Apps al re
 ![Oggetti visivi Domande e risposte](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->Analogamente all'[esperienza Domande e risposte nei dashboard](../power-bi-tutorial-q-and-a.md), l'oggetto visivo Domande e risposte consente di porre domande sui dati usando il linguaggio naturale. 
+>Analogamente all'[esperienza Domande e risposte nei dashboard](../create-reports/power-bi-tutorial-q-and-a.md), l'oggetto visivo Domande e risposte consente di porre domande sui dati usando il linguaggio naturale. 
 
 Per altre informazioni, vedere [Oggetti visivi Domande e risposte in Power BI](power-bi-visualization-q-and-a.md).
 
@@ -191,7 +191,7 @@ Per altre informazioni, vedere [Grafici a dispersione in Power BI](power-bi-visu
 >[!TIP]
 >Troppi punti dati in un oggetto visivo possono bloccarlo. Per garantire l'accuratezza della visualizzazione, viene quindi usato un algoritmo di campionamento sofisticato.
 
-Per altre informazioni, vedere [Grafici a dispersione ad alta densità in Power BI](desktop-high-density-scatter-charts.md).
+Per altre informazioni, vedere [Grafici a dispersione ad alta densità in Power BI](../create-reports/desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Filtri dei dati
 ![filtro dei dati](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Per altre informazioni, vedere [Filtri dei dati in Power BI](power-bi-visualizat
 ### <a name="standalone-images"></a>Immagini autonome
 ![oggetto visivo immagine autonoma](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Per altre informazioni, vedere [Aggiungere un widget di immagine a un dashboard](../service-dashboard-add-widget.md).
+Per altre informazioni, vedere [Aggiungere un widget di immagine a un dashboard](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tabelle
 ![oggetto visivo tabella](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -227,13 +227,16 @@ Per altre informazioni, vedere [Mappe ad albero in Power BI](power-bi-visualizat
 
 Per altre informazioni, vedere [Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md).
 
-## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare 
+## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare
 Quando si digitano query in linguaggio naturale con le Domande e risposte di Power BI, è possibile specificare il tipo di visualizzazione;  ad esempio:
 
 “***sales by state as a treemap***“
+
+Se il dashboard non ha un campo Domande e risposte, è possibile che sia stato disabilitato dall'amministratore tenant. 
 
 ![Casella della domanda di Domande e risposte che mostra il tipo di visualizzazione specificato](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)    
 [Riferimento all'oggetto visivo a destra da sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+
