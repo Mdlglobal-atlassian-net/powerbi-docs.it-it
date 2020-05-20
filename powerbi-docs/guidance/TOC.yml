@@ -118,6 +118,8 @@
           href: whitepapers.md
         - name: White paper sulla sicurezza di Power BI
           href: whitepaper-powerbi-security.md
+        - name: White paper sulla distribuzione aziendale di Power BI
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: Distribuzione di Power BI Premium
           href: whitepaper-powerbi-premium-deployment.md
         - name: Distribuire Power BI esternamente usando Azure Active Directory B2B

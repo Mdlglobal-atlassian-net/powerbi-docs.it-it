@@ -83,6 +83,8 @@
               href: service-dataflows-create-use.md
             - name: Alzare di livello o certificare i flussi di dati
               href: service-dataflows-promote-certify.md
+            - name: Usare DirectQuery con i flussi di dati in Power BI (anteprima)
+              href: service-dataflows-directquery.md
             - name: Usare il motore di calcolo avanzato con i flussi di dati
               href: service-dataflows-enhanced-compute-engine.md
             - name: Entità calcolate con Power BI Premium
