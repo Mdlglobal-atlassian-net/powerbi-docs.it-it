@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322011"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565788"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  
@@ -80,7 +80,7 @@ Se si seleziona un riquadro della cartella di lavoro, la cartella di lavoro coll
  ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-Funzionalità non supportate: Power BI usa Excel Services per recuperare i riquadri della cartella di lavoro. Di conseguenza, poiché alcune funzionalità di Excel non sono supportate nell'API REST di Excel Services, esse non verranno visualizzate nei riquadri in Power BI. Ad esempio: grafici sparkline, formattazione condizionale dei set di icone e filtri dei dati ora. Per un elenco completo delle funzionalità non supportate, vedere [Funzionalità non supportate nelle API REST di Excel Services](https://msdn.microsoft.com/library/office/ff394477.aspx).
+Funzionalità non supportate: Power BI usa Excel Services per recuperare i riquadri della cartella di lavoro. Di conseguenza, poiché alcune funzionalità di Excel non sono supportate nell'API REST di Excel Services, esse non verranno visualizzate nei riquadri in Power BI. Ad esempio: grafici sparkline, formattazione condizionale dei set di icone e filtri dei dati ora. Per un elenco completo delle funzionalità non supportate, vedere [Funzionalità non supportate nelle API REST di Excel Services](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Condividere un dashboard che include collegamenti a una cartella di lavoro di Excel](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)

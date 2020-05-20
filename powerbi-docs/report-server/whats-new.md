@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348161"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565147"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -180,7 +180,7 @@ Per informazioni dettagliate su tutte le nuove funzionalità, vedere il post di 
 
 L'aggiornamento di settembre 2019 di Server di report di Power BI offre numerose funzionalità per i report di Power BI. Ecco alcune delle principali:
 
-- **Filtri a livello di oggetto visivo per i filtri dei dati ** È possibile aggiungere un filtro a livello di oggetto visivo ai filtri dei dati. Funziona in modo analogo a qualsiasi altro filtro a livello di oggetto visivo, limitando l'applicazione dei filtri al filtro dei dati stesso e non ad altri oggetti visivi. Questo filtro è utile per escludere i dati vuoti o se si vogliono usare i filtri di misura.
+- **Filtri a livello di oggetto visivo per i filtri dei dati**  È possibile aggiungere un filtro a livello di oggetto visivo ai filtri dei dati. Funziona in modo analogo a qualsiasi altro filtro a livello di oggetto visivo, limitando l'applicazione dei filtri al filtro dei dati stesso e non ad altri oggetti visivi. Questo filtro è utile per escludere i dati vuoti o se si vogliono usare i filtri di misura.
 - **Set di icone per tabella e matrice** Con le icone KPI è possibile impostare regole per la visualizzazione di set di icone diversi nella tabella e nella matrice, in modo analogo ai set di icone in Excel.
 - **Raggruppamento di oggetti visivi** È ora possibile raggruppare gli oggetti visivi, le forme, le caselle di testo, le immagini e i pulsanti in una pagina del report come in PowerPoint. Quando si raggruppano gli oggetti, è possibile spostarli e ridimensionarli tutti insieme. Il raggruppamento semplifica la gestione in un report con molti oggetti disposti su vari livelli in ogni pagina.
 - **Nuovi temi predefiniti** Per coerenza con le nuove opzioni JSON per i temi, verranno aggiornati i temi disponibili per i report e verrà modificato il tema predefinito per i nuovi report. Il nuovo tema predefinito è più allineato al linguaggio di progettazione di Microsoft e segue le procedure di progettazione consigliate per gli oggetti visivi. 
@@ -247,7 +247,7 @@ Nella nuova visualizzazione di modellazione in Power BI Desktop è possibile vis
 
 #### <a name="accessible-visual-interaction"></a>Accessibilità per le interazioni con gli oggetti visivi
 
-È ora possibile accedere ai punti dati in molti degli oggetti visivi predefiniti spostandosi tramite la tastiera. Vedere altre informazioni sull'[accessibilità nei report di Power BI](../desktop-accessibility.md).
+È ora possibile accedere ai punti dati in molti degli oggetti visivi predefiniti spostandosi tramite la tastiera. Vedere altre informazioni sull'[accessibilità nei report di Power BI](../create-reports/desktop-accessibility-overview.md).
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Titoli di formattazione condizionale e azioni URL Web
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45f3aa4ccf92237085db0c7517c291fe8d0f0428
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113041"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564884"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Filtro incrociato per gli oggetti visivi in un report di Power BI
 
@@ -55,7 +55,7 @@ Definiamo questi termini aiutandoci con le pagine di report seguenti. Il grafico
     ![Pagina del report dopo la selezione del segmento Moderation del grafico ad anello](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Come usare i filtri dei report](../power-bi-how-to-report-filter.md)    
+[Come usare i filtri dei report](../consumer/end-user-report-filter.md)
 
 
-[Informazioni su filtri ed evidenziazione](end-user-report-filter.md). 
+[Informazioni su filtri ed evidenziazione](end-user-report-filter.md).

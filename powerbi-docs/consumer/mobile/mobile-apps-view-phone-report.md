@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273524"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565124"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -60,7 +60,7 @@ I report per il telefono offrono anche una modalità messa a fuoco, che consente
 
 * In un report per il telefono toccare i puntini di sospensione ( **...** ) nell'angolo in alto a destra di un oggetto visivo > **Espandi in modalità messa a fuoco**.
   
-    ![Espandi in modalità messa a fuoco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Espandi in modalità messa a fuoco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Le operazioni eseguite in modalità messa a fuoco si estendono all'area di disegno del report e viceversa. Se ad esempio si evidenzia un valore in un oggetto visivo e quindi si torna al report completo, questo viene filtrato in base al valore evidenziato nell'oggetto visivo.
 
@@ -72,7 +72,7 @@ Alcune azioni sono possibili solo in modalità messa a fuoco a causa di limitazi
   
     Per cancellare qualsiasi esplorazione da un oggetto visivo, toccare i puntini di sospensione ( **...** ) > **Annulla**.
   
-    ![Annulla](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Annulla](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     L'annullamento è disponibile a livello di report, per cancellare qualsiasi esplorazione da tutti gli oggetti visivi, oppure a livello di oggetto visivo, per cancellare l'esplorazione dall'oggetto visivo selezionato.   
 
@@ -86,14 +86,14 @@ Sono disponibili alcuni tipi di drill-down:
 2. Verrà visualizzata la descrizione comando e, se la gerarchia è definita, il piè di pagina della descrizione comando visualizzerà le frecce per il drill-down e per il drill-up.
 3. Toccare la freccia verso il basso per eseguire il drill-down
 
-    ![Toccare la freccia verso il basso](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Toccare la freccia verso il basso](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Toccare la freccia verso l'alto per eseguire il drill-up.
 
 ### <a name="drill-to-next-level"></a>Espansione del livello successivo
 1. In un report nel telefono toccare i puntini di sospensione ( **...** ) nell'angolo in alto a destra > **Espandi in modalità messa a fuoco**.
    
-    ![Espandi in modalità messa a fuoco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Espandi in modalità messa a fuoco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     In questo esempio le barre mostrano i valori per gli stati.
 2. Toccare l'icona Esplora ![Icona Esplora](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in basso a sinistra.
@@ -111,7 +111,7 @@ Sono disponibili alcuni tipi di drill-down:
     ![Ancora espansi a un livello inferiore](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Per tornare al livello originale, toccare di nuovo i puntini di sospensione ( **...** ) > **Annulla**.
    
-    ![Annulla](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Annulla](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Drill-through da un valore
 Il drill-through connette i valori in una pagina del report, con altre pagine del report. Quando si esegue il drill-through da un punto dati a un'altra pagina del report, i valori del punto dati vengono usati per filtrare la pagina a cui viene eseguito il drill-through, che altrimenti si troverà nel contesto dei dati selezionati.
@@ -121,11 +121,11 @@ Gli autori del report possono [definire il drill-through](https://docs.microsoft
 2. Verrà visualizzata la descrizione comando e, se il drill-through è definito, il piè di pagina della descrizione comando visualizzerà la freccia per il drill-through.
 3. Toccare la freccia per eseguire il drill-through
 
-    ![Toccare la freccia per il drill-through](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Toccare la freccia per il drill-through](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Scegliere la pagina del report per il drill-through
 
-    ![Choose report page](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Choose report page](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Usare il pulsante Indietro nell'intestazione dell'app per tornare alla pagina iniziale.
 
@@ -133,5 +133,5 @@ Gli autori del report possono [definire il drill-through](https://docs.microsoft
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare report ottimizzati per le app Power BI per dispositivi mobili](../../create-reports/desktop-create-phone-report.md)
 * [Creare una visualizzazione telefono di un dashboard in Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](../../visuals/desktop-create-responsive-visuals.md)
+* [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](../../visuals/power-bi-report-visualizations.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

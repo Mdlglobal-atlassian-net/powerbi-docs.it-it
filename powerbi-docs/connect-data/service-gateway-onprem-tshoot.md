@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 99d418b9a3d0a45fcdd22c0f9090b48393121f27
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302714"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565324"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Risolvere i problemi relativi ai gateway - Power BI
 
@@ -64,7 +64,7 @@ Se il messaggio di errore sottostante è simile al seguente, significa che l'acc
 
     The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
 
-Se il messaggio di errore sottostante è simile al seguente, l'account del servizio per Analysis Services potrebbe non includere l'attributo [token-groups-global-and-universal](https://msdn.microsoft.com/library/windows/desktop/ms680300.aspx) (TGGAU) della directory.
+Se il messaggio di errore sottostante è simile al seguente, l'account del servizio per Analysis Services potrebbe non includere l'attributo [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) della directory.
 
     The username or password is incorrect.
 

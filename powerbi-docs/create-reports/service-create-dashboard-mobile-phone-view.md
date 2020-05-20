@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314858"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565811"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Ottimizzare un dashboard per telefoni cellulari - Power BI 
 Quando si visualizzano i dashboard in modalità verticale in un telefono, si noterà che i riquadri del dashboard sono disposti uno dopo l'altro, tutti con le stesse dimensioni. Nel servizio Power BI è possibile creare una visualizzazione personalizzata di un dashboard, in particolare per la visualizzazione verticale nei telefoni. Anche se si crea una visualizzazione telefono, quando si posiziona il telefono in orizzontale l'aspetto del dashboard è uguale a quello nel servizio.
@@ -57,5 +57,5 @@ Per informazioni sulla visualizzazione dei dashboard in un dispositivo mobile, v
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare report ottimizzati per le app per telefoni di Power BI](desktop-create-phone-report.md)
-* [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](../visuals/desktop-create-responsive-visuals.md)
+* [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](../visuals/power-bi-report-visualizations.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

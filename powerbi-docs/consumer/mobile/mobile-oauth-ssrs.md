@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114950"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565719"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 
@@ -60,7 +60,7 @@ Per Reporting Services gli elementi da configurare sono limitati. È sufficiente
 
 Il nome dell'entità servizio (SPN) è un identificatore univoco per un servizio che usa l'autenticazione Kerberos. È necessario verificare di avere un nome SPN HTTP corretto per il server di report.
 
-Per informazioni su come configurare il corretto nome dell'entità servizio (SPN) per il server di report, vedere [Registrare un nome dell'entità servizio (SPN) per un server di report](https://msdn.microsoft.com/library/cc281382.aspx).
+Per informazioni su come configurare il corretto nome dell'entità servizio (SPN) per il server di report, vedere [Registrare un nome dell'entità servizio (SPN) per un server di report](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
 
 ### <a name="enabling-negotiate-authentication"></a>Abilitare la negoziazione dell'autenticazione
 
@@ -74,7 +74,7 @@ Per abilitare l'uso dell'autenticazione Kerberos in un server di report è neces
 </AuthenticationTypes>
 ```
 
-Per altre informazioni, vedere [Modificare un file di configurazione di Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx) e [Configurare l'autenticazione di Windows nel server di report](https://msdn.microsoft.com/library/cc281253.aspx).
+Per altre informazioni, vedere [Modificare un file di configurazione di Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) e [Configurare l'autenticazione di Windows nel server di report](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configurazione di Active Directory Federation Services (ADFS)
 
@@ -248,9 +248,9 @@ Se l'accesso funziona correttamente quando si usa Fiddler, potrebbe essere un pr
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Registrare un nome dell'entità servizio (SPN) per un server di report](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Modificare un file di configurazione di Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  
-[Configurare l'autenticazione di Windows in un server di report](https://msdn.microsoft.com/library/cc281253.aspx)  
+[Registrare un nome dell'entità servizio (SPN) per un server di report](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Modificare un file di configurazione di Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[Configurare l'autenticazione di Windows in un server di report](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Proxy applicazione Web in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Pubblicazione di applicazioni usando la preautenticazione di ADFS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

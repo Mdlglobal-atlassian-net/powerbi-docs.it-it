@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313386"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565857"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Applicare le nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e offre una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e una verifica delle conoscenze per testare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -66,7 +66,7 @@ Quando viene aggiunta a un report, questa misura calcola e restituisce valori so
 
 Si potrebbe ritenere che questa misura abbia lo stesso risultato della semplice aggiunta del campo SalesAmount al report, e in effetti è vero. Ma c'è un buon motivo per creare una misura personalizzata che sommi i valori del campo SalesAmount, e cioè che è possibile usarla come argomento in altre formule. Tutto ciò può sembrare poco chiaro al momento, ma con l'aumentare delle competenze sulle formule DAX la conoscenza di questa misura aumenterà l'efficienza di formule e modelli. In effetti, la misura Total Sales verrà visualizzata come argomento in altre formule più avanti.
 
-Verranno ora esaminati alcuni altri aspetti di questa formula. In particolare, è stata introdotta una funzione, [SUM](https://msdn.microsoft.com/library/ee634387.aspx). Le funzioni sono formule pre-scritte che semplificano l'esecuzione di calcoli e modifiche complessi con numeri, date, ora, testo e altro. Si apprenderanno altre informazioni sulle funzioni più avanti.
+Verranno ora esaminati alcuni altri aspetti di questa formula. In particolare, è stata introdotta una funzione, [SUM](/dax/sum-function-dax). Le funzioni sono formule pre-scritte che semplificano l'esecuzione di calcoli e modifiche complessi con numeri, date, ora, testo e altro. Si apprenderanno altre informazioni sulle funzioni più avanti.
 
 Come si può osservare, il nome della colonna [SalesAmount] è preceduta dalla tabella Sales a cui appartiene la colonna. Questo nome è noto come nome di colonna completo, perché include il nome della colonna preceduto dal nome della tabella. Le colonne a cui si fa riferimento nella stessa tabella non richiedono che il nome della tabella venga incluso nella formula. Questo può rendere più brevi e facili da leggere le formule lunghe che fanno riferimento a molte colonne. È tuttavia consigliabile includere il nome della tabella nelle formule della misura, anche quando si trovano nella stessa tabella.
 
@@ -121,7 +121,7 @@ L'operazione è stata completata. È stata creata una misura complessa usando DA
 
 Sono appena stati introdotti diversi aspetti importanti delle formule DAX: 
 
-- Questa formula includeva due funzioni. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx), una funzionalità di Business Intelligence per le gerarchie temporali, è annidata come argomento passato a [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx), una funzione di filtro. 
+- Questa formula includeva due funzioni. [PREVIOUSQUARTER](/dax/previousquarter-function-dax), una funzionalità di Business Intelligence per le gerarchie temporali, è annidata come argomento passato a [CALCULATE](/dax/calculate-function-dax), una funzione di filtro. 
 
    Le formule DAX possono contenere fino a 64 funzioni annidate. È improbabile che una formula contenga così tante funzioni annidate. In effetti, sarebbe difficile creare ed eseguire il debug di tale formula e probabilmente non sarebbe neanche molto veloce.
 
@@ -142,7 +142,7 @@ Le risposte vengono fornite alla fine di questo articolo.
 ### <a name="functions"></a>Funzioni
 Le funzioni sono formule predefinite che eseguono calcoli usando valori specifici, detti argomenti, in una struttura o un ordine particolare. Gli argomenti possono essere altre funzioni, un'altra formula, un'espressione, riferimenti di colonna, numeri, testo, valori logici quali TRUE o FALSE o costanti.
 
-DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microsoft.com/library/ee634786.aspx), [Business Intelligence per le gerarchie temporali](https://msdn.microsoft.com/library/ee634763.aspx), [informative](https://msdn.microsoft.com/library/ee634552.aspx), [logiche](https://msdn.microsoft.com/library/ee634365.aspx), [matematiche](https://msdn.microsoft.com/library/ee634241.aspx), [statistiche](https://msdn.microsoft.com/library/ee634822.aspx), [testuali](https://msdn.microsoft.com/library/ee634938.aspx), [padre-figlio](https://msdn.microsoft.com/library/mt150102.aspx) e [altre](https://msdn.microsoft.com/library/mt150101.aspx). Se si ha familiarità con le funzioni nelle formule di Excel, molte delle funzioni in DAX appariranno simili. Tuttavia, le funzioni DAX sono univoche nei modi seguenti:
+DAX include le seguenti categorie di funzioni: [data e ora](/dax/date-and-time-functions-dax), [Business Intelligence per le gerarchie temporali](/dax/time-intelligence-functions-dax), [informative](/dax/information-functions-dax), [logiche](/dax/logical-functions-dax), [matematiche](/dax/math-and-trig-functions-dax), [statistiche](/dax/statistical-functions-dax), [testuali](/dax/text-functions-dax), [padre-figlio](/dax/parent-and-child-functions-dax) e [altre](/dax/other-functions-dax). Se si ha familiarità con le funzioni nelle formule di Excel, molte delle funzioni in DAX appariranno simili. Tuttavia, le funzioni DAX sono univoche nei modi seguenti:
 
 * Una funzione DAX fa sempre riferimento a una colonna o una tabella completa. Se si vogliono usare solo particolari valori di una tabella o colonna, è possibile aggiungere filtri alla formula.
 * Se è necessario personalizzare i calcoli riga per riga, in DAX sono disponibili funzioni che consentono di usare il valore della riga corrente o un valore correlato come un tipo di argomento, per eseguire calcoli che variano in base al contesto. Si apprenderanno altre informazioni sul contesto più avanti.
@@ -150,7 +150,7 @@ DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microso
 * Dax include varie funzionalità di Business Intelligence per le gerarchie temporali. Queste funzioni consentono di definire o selezionare intervalli di date ed eseguire calcoli dinamici basati su di essi. Ad esempio, è possibile confrontare somme in periodi paralleli.
 * Excel offre una funzione diffusa, VLOOKUP. Le funzioni DAX non prendono come riferimento una cella o un intervallo di celle così come fa VLOOKUP in Excel, ma una colonna o una tabella. Tenere presente che in Power BI Desktop si lavora con un modello dati relazionale. La ricerca di valori in un'altra tabella è semplice e, nella maggior parte dei casi, non è affatto necessario creare alcuna formula.
   
-  Come si può vedere, le funzioni in DAX consentono di creare formule molto potenti. Finora sono state illustrate solo le nozioni di base delle funzioni. Con l'aumentare delle competenze in DAX, si creeranno formule usando molte funzioni diverse. Uno dei migliori articoli da consultare, che contiene informazioni su ciascuna delle funzioni DAX, è [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
+  Come si può vedere, le funzioni in DAX consentono di creare formule molto potenti. Finora sono state illustrate solo le nozioni di base delle funzioni. Con l'aumentare delle competenze in DAX, si creeranno formule usando molte funzioni diverse. Uno dei migliori articoli da consultare, che contiene informazioni su ciascuna delle funzioni DAX, è [Riferimento a Data Analysis Expressions (DAX)](/dax/).
 
 ### <a name="functions-quickquiz"></a>Quiz veloce sulle funzioni
 1. A che cosa fa sempre riferimento una funzione?
@@ -210,7 +210,7 @@ Come è facile immaginare, la possibilità di definire il contesto di filtro all
 Le risposte vengono fornite alla fine di questo articolo.
 
 ## <a name="summary"></a>Summary
-Ora che sono state apprese le nozioni di base dei concetti più importanti in DAX, è possibile iniziare a creare formule DAX per misure personalizzate. DAX può essere effettivamente un po' complesso da apprendere, ma sono disponibili molte risorse di approfondimento. Dopo aver letto questo articolo e sperimentato con alcune delle formule personalizzate, sarà possibile apprendere altri concetti e formule DAX che consentono di risolvere altri problemi aziendali. Sono disponibili molte risorse DAX, la più importante delle quali è l'articolo [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx).
+Ora che sono state apprese le nozioni di base dei concetti più importanti in DAX, è possibile iniziare a creare formule DAX per misure personalizzate. DAX può essere effettivamente un po' complesso da apprendere, ma sono disponibili molte risorse di approfondimento. Dopo aver letto questo articolo e sperimentato con alcune delle formule personalizzate, sarà possibile apprendere altri concetti e formule DAX che consentono di risolvere altri problemi aziendali. Sono disponibili molte risorse DAX, la più importante delle quali è l'articolo [Riferimento a Data Analysis Expressions (DAX)](/dax/).
 
 Poiché DAX è stato rilasciato da diversi anni in altri strumenti Microsoft BI, ad esempio Power Pivot e i modelli tabulari di Analysis Services, esiste molta disponibilità di informazioni. È possibile trovare altre informazioni in libri, white paper e blog pubblicati da Microsoft e dai principali professionisti di Business Intelligence. Anche la pagina [Wiki del centro risorse DAX su TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) è un ottimo punto di partenza.
 
@@ -224,11 +224,10 @@ Funzioni:
 
 1. Una tabella e una colonna.
 2. Sì. Una formula può contenere fino a 64 funzioni annidate.
-3. [Funzioni di testo](https://msdn.microsoft.com/library/ee634938.aspx).
+3. [Funzioni di testo](/dax/text-functions-dax).
 
 Contesto:
 
 1. Contesto di riga e contesto di filtro.
 2. Uno o più filtri in un calcolo che determina un singolo valore.
 3. La riga corrente.
-

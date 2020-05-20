@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205666"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565170"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Presentazione della home page dell'app per dispositivi mobili
 In questa presentazione si acquisisce familiarità con la home page dell'app Power BI per dispositivi mobili e con gli strumenti di navigazione che offre per ottenere rapidamente le informazioni necessarie.
@@ -41,7 +41,7 @@ Il feed attività aiuta a tenere traccia di ciò che accade al contenuto di Powe
 Gli aggiornamenti disponibili nel feed includono:
 * **Dati aggiornati**: quando vengono aggiornati i dati sottostanti in uno dei report o dei dashboard in Preferiti o in Recenti.
 * **Nuovi commenti**: quando gli utenti creano un commento in un report o in un dashboard presente in Preferiti o in Recenti oppure quando qualcuno vi fa riferimento in un commento.
-* **Avvisi dati**: quando i dati raggiungono una soglia precedentemente impostata in un [avviso dati](../../mobile-set-data-alerts-in-the-mobile-apps.md).
+* **Avvisi dati**: quando i dati raggiungono una soglia precedentemente impostata in un [avviso dati](mobile-set-data-alerts-in-the-mobile-apps.md).
 * **Aggiornamenti di app**: quando l'autore di un'app pubblica un aggiornamento per un'app che si sta usando.
 
  Toccare un elemento di attività per passare alla posizione pertinente e approfondire l'esplorazione.
@@ -57,13 +57,13 @@ In fondo alla pagina è disponibile la barra di spostamento.
 La barra di spostamento consente di accedere rapidamente agli elementi seguenti:
 
 * ![icona Home page](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **Home page**: consente di tornare alla home page.
-* ![icona Preferiti](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Preferiti**: report, dashboard e app contrassegnati come [preferiti](../../mobile-apps-favorites.md).
+* ![icona Preferiti](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Preferiti**: report, dashboard e app contrassegnati come [preferiti](mobile-apps-favorites.md).
 * ![icona App](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **App**: le app installate nell'account.
 * ![icona Aree di lavoro](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **Aree di lavoro**: cartelle di lavoro che riuniscono i report e i dashboard creati dagli autori di contenuti.
 * ![icona Recenti](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **Recenti**: gli elementi visualizzati di recente.
 * ![icona Condivisi con l'utente corrente](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **Condivisi con l'utente corrente**: gli elementi che altre persone hanno condiviso con l'utente.
 * ![icona Esempi](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **Esempi**: esempi di Power BI da usare per acquisire familiarità con le funzionalità di Power BI.
-* ![icona Scanner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Scanner**: fotocamera del dispositivo che può essere usata per digitalizzare [codici a barre](../../mobile-apps-scan-barcode-iphone.md) e [codici a matrice](../../mobile-apps-qr-code.md).
+* ![icona Scanner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Scanner**: fotocamera del dispositivo che può essere usata per digitalizzare [codici a barre](mobile-apps-scan-barcode-iphone.md) e [codici a matrice](mobile-apps-qr-code.md).
 
 ## <a name="header"></a>Intestazione
 
@@ -72,11 +72,11 @@ Nella parte superiore della pagina, l'intestazione mostra il nome della pagina, 
 ![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 L'intestazione fornisce gli elementi di navigazione seguenti:
-* **Immagine o avatar del profilo**: apre il pannello laterale che consente di [spostarsi tra l'account del servizio Power BI e l'account del server di report](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md), oltre che di accedere alle impostazioni dell'app Power BI per dispositivi mobili.
+* **Immagine o avatar del profilo**: apre il pannello laterale che consente di [spostarsi tra l'account del servizio Power BI e l'account del server di report](mobile-app-ssrs-kpis-mobile-on-premises-reports.md), oltre che di accedere alle impostazioni dell'app Power BI per dispositivi mobili.
 
     ![pannello laterale](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **Notifiche**: apre la [pagina Notifiche](../../mobile-apps-notification-center.md) in cui è possibile visualizzare e accedere alle notifiche. Un punto sull'icona di notifica a forma di campana indica che sono presenti nuove notifiche.
+* **Notifiche**: apre la [pagina Notifiche](mobile-apps-notification-center.md) in cui è possibile visualizzare e accedere alle notifiche. Un punto sull'icona di notifica a forma di campana indica che sono presenti nuove notifiche.
 
     ![pagina Notifiche](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ L'intestazione fornisce gli elementi di navigazione seguenti:
 
 ## <a name="next-steps"></a>Passaggi successivi
 In questa presentazione è stata esplorata la home page dell'app Power BI per dispositivi mobili. È possibile leggere altre informazioni sull'app Power BI per dispositivi mobili. 
-* [Esplorare dashboard e report](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [Esplorare i report nelle app per dispositivi mobili di Power BI](../../mobile-reports-in-the-mobile-apps.md)
+* [Esplorare dashboard e report](mobile-apps-quickstart-view-dashboard-report.md)
+* [Esplorare i report nelle app per dispositivi mobili di Power BI](mobile-reports-in-the-mobile-apps.md)

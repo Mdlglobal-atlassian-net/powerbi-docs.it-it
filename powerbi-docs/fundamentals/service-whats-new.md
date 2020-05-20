@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361199"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566064"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -224,7 +224,7 @@ Vedere anche i canali di YouTube per informazioni su novità e caratteristiche.
 
 ### <a name="june-2017"></a>Giugno 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibile a livello generale.
-* Numerosi miglioramenti alle API per [automatizzare l'aggiornamento pianificato](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonare e riassociare report](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [aggiornare le associazioni dei gateway](https://msdn.microsoft.com/library/mt784650.aspx) e molto altro ancora.
+* Numerosi miglioramenti alle API per [automatizzare l'aggiornamento pianificato](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonare e riassociare report](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [aggiornare le associazioni dei gateway](/rest/api/power-bi/) e molto altro ancora.
 * Collegamenti relativi nelle app Power BI dai riquadri dei dashboard ad altri dashboard e report.
 * [Connettore Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) disponibile a livello generale in Power BI Desktop.
 * Estensione delle funzionalità relative agli oggetti visivi di Power BI con [oggetti visivi di Power BI R interattivi](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).

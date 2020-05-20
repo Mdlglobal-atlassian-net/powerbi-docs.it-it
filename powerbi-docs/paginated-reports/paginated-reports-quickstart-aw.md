@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145213"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565650"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
 
@@ -42,7 +42,7 @@ Questi sono i prerequisiti per la creazione del report impaginato:
 
 Questi sono i prerequisiti per il caricamento del report impaginato nel servizio Power BI:
 
-- È necessaria una [licenza di Power BI Pro](../service-admin-power-bi-pro-in-your-organization.md).
+- È necessaria una [licenza di Power BI Pro](../admin/service-admin-licensing-organization.md).
 - È necessaria un'area di lavoro nel servizio in una [capacità Power BI Premium](../admin/service-premium-what-is.md). È contraddistinta da un'icona a forma di diamante ![icona a forma di diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) accanto al nome dell'area di lavoro.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creare la matrice con una procedura guidata

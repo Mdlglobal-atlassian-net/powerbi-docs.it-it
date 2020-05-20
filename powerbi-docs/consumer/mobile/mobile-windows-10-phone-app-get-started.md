@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349357"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565696"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Iniziare a usare l'app Power BI per dispositivi mobili con Windows 10
 Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile accedere a informazioni aziendali aggiornate tramite tablet o telefoni abilitati per il tocco, nonché visualizzare e interagire con i dashboard aziendali ovunque ci si trovi, direttamente dalla [schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -118,8 +118,8 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositi
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Report per dispositivi mobili e indicatori KPI di Reporting Services
 * [Visualizzare report per dispositivi mobili di Reporting Services e indicatori KPI](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) nell'app Power BI per dispositivi Windows 10.
-* Creare [indicatori KPI nel portale Web di Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
-* [Creare report per dispositivi mobili personalizzati con SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx) e pubblicarli nel portale Web di Reporting Services.
+* Creare [indicatori KPI nel portale Web di Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services).
+* [Creare report per dispositivi mobili personalizzati con SQL Server Mobile Report Publisher](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) e pubblicarli nel portale Web di Reporting Services.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scaricare l'app Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) da Windows Store  

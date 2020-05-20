@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277825"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565903"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 
@@ -55,7 +55,7 @@ In Power BI Desktop è possibile assicurarsi che la codifica geografica dei camp
 **2. Usare più colonne di località.**     
  In alcuni casi, anche l'impostazione delle categorie di dati per la creazione di mappe non è sufficiente per consentire a Bing di individuare correttamente la posizione. Alcune designazioni sono ambigue perché la località esiste in più paesi o aree geografiche. Ad esempio, esiste una città chiamata ***Southampton*** in Inghilterra, Pennsylvania e New York.
 
-Power BI usa il [servizio del modello URL non strutturato](https://msdn.microsoft.com/library/ff701714.aspx) di Bing per ottenere le coordinate di latitudine e longitudine, in base a un set di valori di indirizzo per qualsiasi paese. Se i dati non contengano dati sufficienti sulla posizione, aggiungere tali colonne e classificarle in modo appropriato.
+Power BI usa il [servizio del modello URL non strutturato](/bingmaps/rest-services/locations/find-a-location-by-address) di Bing per ottenere le coordinate di latitudine e longitudine, in base a un set di valori di indirizzo per qualsiasi paese. Se i dati non contengano dati sufficienti sulla posizione, aggiungere tali colonne e classificarle in modo appropriato.
 
  Ad esempio, se si ha solo una colonna Città, Bing potrebbe riscontrare problemi nella geocodifica. Aggiungere altre colonne geografiche per ovviare alle ambiguità della località.  A volte non serve altro che aggiungere un'altra colonna di località al set di dati, in questo caso stato/provincia. Non dimenticare poi di suddividerlo correttamente in categorie (vedere il punto 1).
 
@@ -97,5 +97,3 @@ Quando si esaminano le gerarchie geografiche, è importante conoscere il funzion
 [Visualizzazioni di Power BI](power-bi-report-visualizations.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
-
-
