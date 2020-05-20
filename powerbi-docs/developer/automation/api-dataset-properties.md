@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079670"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561502"
 ---
 # <a name="dataset-properties"></a>Proprietà dei set di dati
 
@@ -46,8 +46,8 @@ isHidden     | Boolean        | Se true, la tabella verrà nascosta dagli strume
 Name  |Type  |Description  |Sola lettura  |Obbligatorio
 ---------|---------|---------|---------|---------
 name     |  String        | Nome della colonna definito dall'utente.        |  False       | True       
-dataType     |  String       |  [Tipi di dati EDM](https://msdn.microsoft.com/library/ee382832.aspx) e restrizioni supportati. Vedere [Restrizioni del tipo di dati](#data-type-restrictions).      |  False       | True        
-formatString     | String        | Stringa che descrive come deve essere formattato il valore quando viene visualizzato. Per altre informazioni sulla formattazione delle stringhe, vedere [Contenuto di FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
+dataType     |  String       |  [Tipi di dati EDM](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) e restrizioni supportati. Vedere [Restrizioni del tipo di dati](#data-type-restrictions).      |  False       | True        
+formatString     | String        | Stringa che descrive come deve essere formattato il valore quando viene visualizzato. Per altre informazioni sulla formattazione delle stringhe, vedere [Contenuto di FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | False        
 sortByColumn    | String        |   Nome stringa di una colonna nella stessa tabella da usare per ordinare la colonna corrente.     | False        | False       
 dataCategory     | String        |  Valore stringa da usare per la categoria di dati che descrive i dati all'interno della colonna. Alcuni valori comuni includono: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
 isHidden    |  Boolean       |  Proprietà che indica se la visualizzazione della colonna è nascosta. L'impostazione predefinita è false.       | False        | False        
@@ -59,7 +59,7 @@ Name  |Type  |Description  |Sola lettura  |Obbligatorio
 ---------|---------|---------|---------|---------
 name     | String        |  Nome della misura definito dall'utente.       |  False       | True        
 expression     | String        | Espressione DAX valida.        | False        |  True       
-formatString     | String        |  Stringa che descrive come deve essere formattato il valore quando viene visualizzato. Per altre informazioni sulla formattazione delle stringhe, vedere [Contenuto di FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
+formatString     | String        |  Stringa che descrive come deve essere formattato il valore quando viene visualizzato. Per altre informazioni sulla formattazione delle stringhe, vedere [Contenuto di FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | False        
 isHidden     | String        |  Se true, la tabella verrà nascosta dagli strumenti client.       |  False       | False       
 
 ## <a name="relationship"></a>Relazione

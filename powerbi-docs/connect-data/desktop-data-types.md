@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293169"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561571"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -72,7 +72,7 @@ Power BI Desktop supporta cinque tipi di dati Data/Ora in visualizzazione Query.
 **True/False** : valore booleano True o False.
 
 ### <a name="blanksnulls-type"></a>Tipo spazi vuoti/valori Null
-**Vuoto** : è un tipo di dati in DAX che rappresenta e sostituisce i valori Null di SQL. È possibile creare uno spazio vuoto usando la funzione [BLANK](https://msdn.microsoft.com/library/ee634820.aspx), nonché verificare la presenza di spazi vuoti usando la funzione logica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Vuoto** : è un tipo di dati in DAX che rappresenta e sostituisce i valori Null di SQL. È possibile creare uno spazio vuoto usando la funzione [BLANK](/dax/blank-function-dax), nonché verificare la presenza di spazi vuoti usando la funzione logica [ISBLANK](/dax/isblank-function-dax).
 
 ### <a name="binary-data-type"></a>Tipo di dati binario
 
@@ -86,7 +86,7 @@ Il tipo di dati binario può essere usato per rappresentare qualsiasi altro tipo
 > 
 
 ### <a name="table-data-type"></a>Tipo di dati tabella
-DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e calcoli della funzionalità di Business Intelligence per le gerarchie temporali. Alcune funzioni richiedono un riferimento a una tabella, mentre altre restituiscono una tabella che può quindi essere usata come input per altre funzioni. In alcune funzioni che richiedono una tabella come input è possibile specificare un'espressione che restituisce una tabella. Per alcune funzioni è necessario un riferimento a una tabella di base. Per informazioni sui requisiti di funzioni specifiche, vedere [Riferimento alle funzioni DAX](https://msdn.microsoft.com/library/ee634396.aspx).
+DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e calcoli della funzionalità di Business Intelligence per le gerarchie temporali. Alcune funzioni richiedono un riferimento a una tabella, mentre altre restituiscono una tabella che può quindi essere usata come input per altre funzioni. In alcune funzioni che richiedono una tabella come input è possibile specificare un'espressione che restituisce una tabella. Per alcune funzioni è necessario un riferimento a una tabella di base. Per informazioni sui requisiti di funzioni specifiche, vedere [Riferimento alle funzioni DAX](/dax/dax-function-reference).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>Conversione implicita ed esplicita dei tipi di dati nelle formule DAX
 Ogni funzione DAX prevede requisiti specifici relativi ai tipi di dati usati come input e output. Alcune funzioni, ad esempio, richiedono numeri interi per determinati argomenti e date per altri. Altre funzioni richiedono testo o tabelle.
@@ -197,4 +197,3 @@ La modalità di gestione degli spazi vuoti nelle operazioni, ad esempio addizion
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Errore |
 | BLANK AND BLANK |BLANK |Errore |
-

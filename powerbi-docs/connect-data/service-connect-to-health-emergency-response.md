@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279251"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407574"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Connettersi a Hospital Emergency Response Decision Support Dashboard
 L'app modello Hospital Emergency Response Decision Support Dashboard è il componente per la creazione di report della [soluzione Microsoft Power Platform per la risposta alle emergenze sanitarie](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Il dashboard mostra i dati aggregati dei responsabili della gestione dell'emergenza nel rispettivo sistema sanitario per consentire loro di prendere decisioni tempestive e corrette.
@@ -32,11 +32,11 @@ Quando si installa la soluzione Hospital Emergency Response Power Platform, pren
 
 ## <a name="install-the-app"></a>Installare l'app
 
-1. Per ottenere l'app, fare clic sul collegamento seguente: [App modello Hospital Emergency Response Decision Support Dashboard](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. Per ottenere l'app, fare clic sul collegamento seguente: [App modello Hospital Emergency Response Decision Support Dashboard](https://aka.ms/AppSource_Hospital_offer)
 
-1. Nella pagina di AppSource per l'app selezionare [**Scarica adesso**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare).
+1. Nella pagina di AppSource per l'app selezionare [**Scarica adesso**](https://aka.ms/AppSource_Hospital_offer).
 
-    [![App Hospital Emergency Response Decision Support Dashboard in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![App Hospital Emergency Response Decision Support Dashboard in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. Leggere le informazioni in **Per finire** e selezionare **Continua**.
 

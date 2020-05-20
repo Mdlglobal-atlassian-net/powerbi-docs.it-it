@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277158"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563847"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Creare e usare i grafici ad aree di base
 
@@ -82,11 +82,8 @@ Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](.
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi   
-* [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md)
+* [Rendere il report più accessibile agli utenti con particolari esigenze](../create-reports/desktop-accessibility-overview.md)
 * I grafici ad aree di base non sono efficaci per il confronto di valori a causa dell'occlusione sulle aree su più livelli. Power BI usa la trasparenza per indicare la sovrapposizione di aree. Questo, tuttavia, risulta efficace solo in presenza di due o tre aree diverse. Quando si deve confrontare la tendenza con più di tre misure, provare a usare i grafici a linee. Quando si deve confrontare il volume con più di tre misure, provare a usare la mappa ad albero.
 
 ## <a name="next-step"></a>Passaggio successivo
 [Report in Power BI](power-bi-visualization-card.md)  
-
-
-
