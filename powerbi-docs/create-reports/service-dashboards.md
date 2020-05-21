@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348851"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564553"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
 
@@ -22,7 +22,7 @@ Un *dashboard* di Power BI è costituito da una singola pagina, spesso chiamata 
 
 ![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-I dashboard sono una funzionalità solo del servizio Power BI. Non sono disponibili in Power BI Desktop. Non è possibile creare dashboard nei dispositivi mobili, ma è possibile [visualizzarli e condividerli]..../consumer/mobile/mobile-apps-view-dashboard.md) in tali dispositivi.
+I dashboard sono una funzionalità solo del servizio Power BI. Non sono disponibili in Power BI Desktop. Non è possibile creare dashboard nei dispositivi mobili, ma è possibile [visualizzarli e condividerli](../consumer/mobile/mobile-apps-view-dashboard.md) in tali dispositivi.
 
 ## <a name="dashboard-basics"></a>Nozioni di base sui dashboard 
 
