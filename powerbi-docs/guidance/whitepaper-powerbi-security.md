@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407524"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565278"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407524"
 
 **Power BI** è un servizio software online (_SaaS_, Software as a Service) offerto da Microsoft che consente di creare in modo semplice e rapido dashboard, report, set di dati e visualizzazioni di business intelligence in modalità self-service. Con Power BI è possibile connettersi a numerose origini dati diverse, combinare e definire le proprietà della forma dei dati provenienti dalle connessioni, quindi creare report e dashboard che possono essere condivisi con altri utenti.
 
-Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del [Framework di conformità di Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del Framework di conformità di Microsoft 365. Scopri di più sulla conformità nel [Centro protezione Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Questo articolo descrive la sicurezza di Power BI illustrando l'architettura di Power BI, la modalità di autenticazione degli utenti per Power BI e di creazione delle connessioni dati e infine descrivendo in che modo Power BI archivia e trasferisce i dati attraverso il servizio. L'ultima sezione è dedicata alle domande sulla sicurezza e alle relative risposte.
 
@@ -87,13 +87,13 @@ Power BI usa due repository principali per l'archiviazione e la gestione dei dat
 
 Ad esempio, quando un utente importa una cartella di lavoro di Excel nel servizio Power BI, viene creato un database tabulare di Analysis Services in memoria e i dati vengono archiviati in memoria per un massimo di un'ora (o fino a quando si verifica un utilizzo elevato di memoria nel sistema). I dati vengono inviati anche all'archiviazione **BLOB di Azure**.
 
-I metadati della sottoscrizione di Power BI di un utente, ad esempio dashboard, report, origini dati recenti, aree di lavoro, informazioni sull'organizzazione, informazioni sul tenant e altri metadati del sistema vengono archiviati e aggiornati nel **database SQL di Azure**. Tutte le informazioni archiviate nel database SQL di Azure vengono crittografate completamente usando la tecnologia [Transparent Data Encryption](https://msdn.microsoft.com/library/dn948096.aspx) (TDE) di SQL di Azure. Vengono crittografati anche tutti i dati archiviati nell'archiviazione BLOB di Azure. Altre informazioni sul processo di caricamento, archiviazione e spostamento dei dati sono disponibili nella sezione **Archiviazione dati e spostamento**.
+I metadati della sottoscrizione di Power BI di un utente, ad esempio dashboard, report, origini dati recenti, aree di lavoro, informazioni sull'organizzazione, informazioni sul tenant e altri metadati del sistema vengono archiviati e aggiornati nel **database SQL di Azure**. Tutte le informazioni archiviate nel database SQL di Azure vengono crittografate completamente usando la tecnologia [Transparent Data Encryption](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) di SQL di Azure. Vengono crittografati anche tutti i dati archiviati nell'archiviazione BLOB di Azure. Altre informazioni sul processo di caricamento, archiviazione e spostamento dei dati sono disponibili nella sezione **Archiviazione dati e spostamento**.
 
 ## <a name="tenant-creation"></a>Creazione del tenant
 
 Un tenant è un'istanza dedicata del servizio Azure AD ricevuta e assegnata a un'organizzazione quando questa effettua l'iscrizione a un servizio cloud Microsoft, ad esempio Azure, Microsoft Intune, Power BI oppure Office 365. Ogni tenant di Azure AD è distinto e separato dagli altri tenant di Azure AD.
 
-Un tenant ospita gli utenti di un'azienda e le informazioni su di essi, ad esempio password dati del profilo utente, autorizzazioni e così via. Contiene anche gruppi, applicazioni e altre informazioni relative all'azienda e alla sicurezza. Per ulteriori informazioni, vedere [che cos'è un tenant di Azure ad](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant).
+Un tenant ospita gli utenti di un'azienda e le informazioni su di essi, ad esempio password dati del profilo utente, autorizzazioni e così via. Contiene anche gruppi, applicazioni e altre informazioni relative all'azienda e alla sicurezza. Per ulteriori informazioni, vedere [che cos'è un tenant di Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
 Viene creato un tenant di Power BI nel data center ritenuto più vicino al paese o area e alle informazioni sullo stato specificate per il tenant in Azure Active Directory durante il provisioning iniziale di Office 365 o del servizio Power BI. Attualmente il tenant di Power BI non viene spostato dalla posizione del data center.
 
@@ -198,7 +198,7 @@ La chiave di crittografia delle chiavi usata per crittografare la chiave di crit
 
 Le chiavi di crittografia del gateway basate sulla chiave di ripristino non lasciano mai l'infrastruttura locale. Power BI non può accedere ai valori delle credenziali locali crittografate e non può intercettarle. I client Web crittografano le credenziali con una chiave pubblica associata al gateway specifico con cui stanno comunicando.
 
-Per le origini dati basate su cloud, il ruolo di spostamento dei dati consente di crittografare le chiavi di crittografia usando i metodi [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Per altre informazioni, vedere [Always Encrypted (motore di database)](https://msdn.microsoft.com/library/mt163865.aspx).
+Per le origini dati basate su cloud, il ruolo di spostamento dei dati consente di crittografare le chiavi di crittografia usando i metodi [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine). Per altre informazioni, vedere [Always Encrypted (motore di database)](/sql/relational-databases/security/encryption/always-encrypted-database-engine).
 
 #### <a name="datasets"></a>Set di dati
 
@@ -381,7 +381,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 **In che modo gli utenti possono connettersi e ottenere l'accesso alle origini dati con Power BI?**
 
-* Credenziali **Power bi e credenziali di dominio:** Gli utenti possono accedere a Power BI usando un indirizzo di posta elettronica; Quando un utente tenta di connettersi a una risorsa di dati, Power BI passa l'indirizzo di posta elettronica di accesso Power BI come credenziali. Per le risorse connesse a un dominio (locale o basato sul cloud), l'indirizzo di posta elettronica di accesso viene associato a un _nome dell'entità utente_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) dal servizio directory per determinare se sono presenti credenziali sufficienti per consentire l'accesso. Per le organizzazioni che usano gli indirizzi di posta elettronica basati su lavoro per accedere a Power BI (lo stesso indirizzo di posta elettronica usato per accedere alle risorse di lavoro, ad esempio _david@contoso.com_ ), il mapping può essere eseguito senza interruzioni. per le organizzazioni che non utilizzano indirizzi di posta elettronica basati su lavoro (ad esempio _david@contoso.onmicrosoft.com_ ), è necessario stabilire il mapping delle directory per consentire l'accesso alle risorse locali con Power bi credenziali
+* Credenziali **Power bi e credenziali di dominio:** Gli utenti possono accedere a Power BI usando un indirizzo di posta elettronica; Quando un utente tenta di connettersi a una risorsa di dati, Power BI passa l'indirizzo di posta elettronica di accesso Power BI come credenziali. Per le risorse connesse a un dominio (locale o basato sul cloud), l'indirizzo di posta elettronica di accesso viene associato a un _nome dell'entità utente_ ([UPN](/windows/win32/secauthn/user-name-formats)) dal servizio directory per determinare se sono presenti credenziali sufficienti per consentire l'accesso. Per le organizzazioni che usano gli indirizzi di posta elettronica basati su lavoro per accedere a Power BI (lo stesso indirizzo di posta elettronica usato per accedere alle risorse di lavoro, ad esempio _david@contoso.com_ ), il mapping può essere eseguito senza interruzioni. per le organizzazioni che non utilizzano indirizzi di posta elettronica basati su lavoro (ad esempio _david@contoso.onmicrosoft.com_ ), è necessario stabilire il mapping delle directory per consentire l'accesso alle risorse locali con Power bi credenziali
 
 * **SQL Server Analysis Services e Power bi:** Per le organizzazioni che usano SQL Server Analysis Services locali, Power BI offre il Power BI gateway dati locale, ovvero un **gateway**, come a cui si fa riferimento nelle sezioni precedenti.  Il gateway dati locale di Power BI è in grado di applicare la sicurezza a livello di ruolo sulle origini dati. Per altre informazioni sulla sicurezza a livello di ruolo, vedere **Autenticazione utente alle origini dati** più indietro in questo documento. Per altre informazioni sui gateway, vedere [gateway dati locale](../connect-data/service-gateway-onprem.md).
 
@@ -487,9 +487,9 @@ Per altre informazioni su Power BI, vedere le risorse seguenti.
 
 - [Gruppi in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Introduzione a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Riferimento all'API di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Gateway dati locale](../connect-data/service-gateway-onprem.md)
+- [Panoramica dell'API REST di Power BI](/rest/api/power-bi/)
+- [Riferimento all'API di Power BI](/rest/api/power-bi/)
+- [On-premises data gateway (Gateway dati locale)](../connect-data/service-gateway-onprem.md)
 - [Cloud nazionali di Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Usare Kerberos per l'accesso SSO da Power BI alle origini dati locali](../connect-data/service-gateway-sso-overview.md)
