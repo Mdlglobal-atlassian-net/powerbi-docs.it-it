@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565278"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792924"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -91,11 +91,11 @@ I metadati della sottoscrizione di Power BI di un utente, ad esempio dashboard, 
 
 ## <a name="tenant-creation"></a>Creazione del tenant
 
-Un tenant è un'istanza dedicata del servizio Azure AD ricevuta e assegnata a un'organizzazione quando questa effettua l'iscrizione a un servizio cloud Microsoft, ad esempio Azure, Microsoft Intune, Power BI oppure Office 365. Ogni tenant di Azure AD è distinto e separato dagli altri tenant di Azure AD.
+Un tenant è un'istanza dedicata del servizio Azure AD che un'organizzazione riceve e possiede quando si iscrive a un servizio cloud Microsoft, ad esempio Azure, Microsoft Intune, Power BI o Microsoft 365. Ogni tenant di Azure AD è distinto e separato dagli altri tenant di Azure AD.
 
 Un tenant ospita gli utenti di un'azienda e le informazioni su di essi, ad esempio password dati del profilo utente, autorizzazioni e così via. Contiene anche gruppi, applicazioni e altre informazioni relative all'azienda e alla sicurezza. Per ulteriori informazioni, vedere [che cos'è un tenant di Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
-Viene creato un tenant di Power BI nel data center ritenuto più vicino al paese o area e alle informazioni sullo stato specificate per il tenant in Azure Active Directory durante il provisioning iniziale di Office 365 o del servizio Power BI. Attualmente il tenant di Power BI non viene spostato dalla posizione del data center.
+Un tenant di Power BI viene creato nel Data Center considerato più vicino al paese (o all'area geografica) e alle informazioni di stato fornite per il tenant in Azure Active Directory, che è stato fornito quando è stato inizialmente eseguito il provisioning di Microsoft 365 o servizio Power BI. Attualmente il tenant di Power BI non viene spostato dalla posizione del data center.
 
 ### <a name="multiple-geographies-multi-geo"></a>Aree geografiche multiple (Multi-Geo)
 
@@ -129,7 +129,7 @@ Per altre informazioni su dove vengono archiviati i dati e su come vengono usati
 
 ## <a name="user-authentication"></a>Autenticazione dell'utente
 
-L'autenticazione utente per il servizio Power BI è costituita da una serie di richieste, risposte e operazioni di reindirizzamento tra il browser dell'utente e il servizio Power BI o i servizi di Azure usati da Power BI. Tale sequenza descrive il processo di autenticazione dell'utente in Power BI. Per altre informazioni sulle opzioni per i modelli di autenticazione utente di un'organizzazione (i modelli di accesso), vedere [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/) (Scelta di un modello di accesso per Office 365).
+L'autenticazione utente per il servizio Power BI è costituita da una serie di richieste, risposte e operazioni di reindirizzamento tra il browser dell'utente e il servizio Power BI o i servizi di Azure usati da Power BI. Tale sequenza descrive il processo di autenticazione dell'utente in Power BI. Per ulteriori informazioni sulle opzioni per i modelli di autenticazione utente di un'organizzazione (modelli di accesso), vedere [scelta di un modello di accesso per Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Sequenza di autenticazione
 
@@ -245,9 +245,9 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
 1. Metadati (definizione del report)
 
-   a. I report possono essere report di Excel per Office 365 o report di Power BI. Per i metadati si applica quanto segue in base al tipo di report:
+   a. I report possono essere Excel per Microsoft 365 report o Power BI report. Per i metadati si applica quanto segue in base al tipo di report:
         
-    &ensp;&ensp;oggetto. I metadati del rapporto di Excel vengono archiviati crittografati in SQL Azure. I metadati vengono archiviati anche in Office 365.
+    &ensp;&ensp;oggetto. I metadati del rapporto di Excel vengono archiviati crittografati in SQL Azure. I metadati vengono archiviati anche in Microsoft 365.
 
     &ensp;&ensp;b. I report Power BI vengono archiviati crittografati nel database SQL di Azure.
 
@@ -255,13 +255,13 @@ Power BI offre il monitoraggio dell'integrità dei dati nei modi seguenti:
 
    I dati statici includono elementi come immagini di sfondo e Power BI oggetti visivi.
 
-    &ensp;&ensp;oggetto. Per i report creati con Excel per Office 365, non viene memorizzato alcun valore.
+    &ensp;&ensp;oggetto. Per i report creati con Excel per Microsoft 365, non viene archiviato alcun elemento.
 
     &ensp;&ensp;b. Per i report di Power BI, i dati statici vengono archiviati e crittografati in Archiviazione BLOB di Azure.
 
 3. Cache
 
-    &ensp;&ensp;oggetto. Per i report creati con Excel per Office 365, nella cache non viene memorizzato alcun valore.
+    &ensp;&ensp;oggetto. Per i report creati con Excel per Microsoft 365, nessun elemento viene memorizzato nella cache.
 
     &ensp;&ensp;b. Per Power BI report, i dati per gli oggetti visivi dei report visualizzati vengono memorizzati nella cache e archiviati nella cache dei dati visivi descritta nella sezione seguente.
  
