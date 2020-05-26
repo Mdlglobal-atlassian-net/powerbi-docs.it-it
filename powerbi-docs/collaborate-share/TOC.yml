@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Collaborare in un'area di lavoro classica
               href: service-collaborate-power-bi-workspace.md
-            - name: Gestire il gruppo in Power BI e Office 365
+            - name: Gestire il gruppo in Power BI e Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Pubblicare e condividere il lavoro
           items:
@@ -71,6 +71,8 @@
           items:
             - name: Analizza in Excel
               href: service-analyze-in-excel.md
+            - name: Tabelle in primo piano di Power BI in Excel
+              href: service-excel-featured-tables.md
             - name: Risolvere i problemi di Analizza in Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'

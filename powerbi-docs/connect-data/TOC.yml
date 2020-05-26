@@ -174,7 +174,7 @@
           items:
             - name: Usa i set di dati in tutte le aree di lavoro
               href: service-datasets-across-workspaces.md
-            - name: Condividere set di dati (anteprima)
+            - name: Condividere set di dati
               href: service-datasets-share.md
             - name: Autorizzazione di compilazione per set di dati condivisi
               href: service-datasets-build-permissions.md
