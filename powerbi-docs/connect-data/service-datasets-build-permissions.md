@@ -1,22 +1,22 @@
 ---
-title: Autorizzazione per creazione report per set di dati condivisi (anteprima)
+title: Autorizzazione di compilazione per set di dati condivisi
 description: Informazioni su come controllare l'accesso ai dati usando l'autorizzazione per creazione report.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285349"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793001"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Autorizzazione per creazione report per set di dati condivisi (anteprima)
+# <a name="build-permission-for-shared-datasets"></a>Autorizzazione di compilazione per set di dati condivisi
 
 Quando si crea un report in Power BI Desktop, i dati del report vengono archiviati in un *modello di dati*. Quando si pubblicano i report nel servizio Power BI, i dati vengono pubblicati anche come *set di dati*. È possibile concedere ad altri l'*autorizzazione di creazione* per il report specifico, in modo da poter individuare e riutilizzare il set di dati condiviso. Questo articolo illustra come controllare l'accesso ai dati usando l'autorizzazione per creazione report.
 
@@ -57,7 +57,7 @@ A un certo punto potrebbe essere necessario rimuovere l'autorizzazione per creaz
 1. In un'area di lavoro passare alla pagina di elenco **Set di dati**. 
 1. Selezionare **Altre opzioni** (...) accanto al set di dati > **Gestisci autorizzazioni**.
 
-    ![Gestione delle autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Gestisci autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Selezionare **Altre opzioni** (...) accanto a un nome > **Rimuovi autorizzazione per creazione report**.
 
@@ -87,7 +87,7 @@ Si supponga di aver distribuito un'app da un'area di lavoro a un gruppo di perso
 1. Nell'area di lavoro passare alla pagina di elenco **Set di dati**. 
 1. Selezionare **Altre opzioni** (...) accanto al set di dati > **Gestisci autorizzazioni**.
 
-    ![Gestione delle autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Gestisci autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Selezionare **Altre opzioni** (...) accanto al nome > **Rimuovi autorizzazione per creazione report**.
 
@@ -107,5 +107,5 @@ Le autorizzazioni per creazione report possono essere rimosse. In questo caso, g
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Usare set di dati in aree di lavoro diverse (anteprima)](service-datasets-across-workspaces.md)
+- [Usare set di dati in tutte le aree di lavoro](service-datasets-across-workspaces.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
