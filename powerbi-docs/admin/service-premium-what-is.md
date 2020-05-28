@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274375"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438247"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -59,6 +59,7 @@ Con Power BI Premium si ottengono *capacità dedicate*. A differenza di una capa
 * Cartelle di lavoro di Excel, a meno che i dati vengano prima importati in Power BI Desktop
 * [Set di dati di push](/rest/api/power-bi/pushdatasets)
 * [Set di dati in streaming](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [Domande e risposte](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Le aree di lavoro si trovano all'interno delle capacità. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. È possibile creare aree di lavoro aggiuntive chiamate **aree di lavoro** per consentire la collaborazione. Per impostazione predefinita, le aree di lavoro, incluse le aree di lavoro personale, vengono create nella capacità condivisa. Se si hanno capacità Premium, a queste possono essere assegnate sia aree di lavoro personali che aree di lavoro.
 
@@ -68,7 +69,7 @@ Come descritto nella sezione [Sottoscrizioni e licenze](#subscriptions-and-licen
 
 L'elaborazione avviene tramite un determinato numero di vCore, suddiviso equamente tra back-end e front-end.
 
-I **vCore di back-end** sono responsabili della funzionalità di Power BI relativa alla memoria centrale che include elaborazione delle query, gestione della cache, esecuzione dei servizi R, aggiornamento dei modelli, elaborazione del linguaggio naturale (Domande e risposte) e rendering lato server di report e immagini. Ai vCore di back-end viene assegnata una quantità fissa di memoria che viene usata principalmente per ospitare i modelli, noti anche come set di dati attivi.
+I **vCore di back-end** sono responsabili della funzionalità principali di Power BI, tra cui elaborazione delle query, gestione della cache, esecuzione dei servizi R, aggiornamento dei modelli e rendering sul lato server di report e immagini. Ai vCore di back-end viene assegnata una quantità fissa di memoria che viene usata principalmente per ospitare i modelli, noti anche come set di dati attivi.
 
 I **vCore di front-end** sono responsabili della gestione dei documenti relativi a servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
 
@@ -216,7 +217,7 @@ In Power BI Premium i report impaginati sono un carico di lavoro che deve essere
 
 Per altre informazioni, vedere [Report impaginati in Power BI Premium](../paginated-reports/paginated-reports-report-builder-power-bi.md). Per altre informazioni sull'abilitazione del carico di lavoro dei report impaginati, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
-## <a name="power-bi-report-server"></a>Server di report di Power BI
+## <a name="power-bi-report-server"></a>Server di report Power BI
  
 Incluso in Power BI Premium, Server di report di Power BI è un server di report *locale* con un portale Web. È possibile creare un ambiente BI locale e distribuire i report dietro il firewall dell'organizzazione. Server di report offre agli utenti l'accesso a report interattivi avanzati e le funzionalità di creazione di report aziendali di SQL Server Reporting Services. Gli utenti possono esplorare visivamente i dati e individuare rapidamente modelli per prendere decisioni migliori e più rapide. Server di report offre una governance personalizzata. Quando opportuno, Server di report di Power BI semplifica la migrazione nel cloud dove l'organizzazione può usare al meglio tutte le funzionalità di Power BI Premium.
 
