@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143645"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693882"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporare una web part report in SharePoint Online
 
@@ -79,7 +79,7 @@ Incorporare un report in SharePoint Online non autorizza automaticamente gli ute
 > [!IMPORTANT]
 > Assicurarsi di controllare chi può visualizzare il report all'interno del servizio Power BI e concedere l'accesso a chi non è elencato.
 
-Esistono due modi per consentire l'accesso ai report in Power BI. Il primo modo, se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online, è aggiungere l'utente come membro dell'**area di lavoro all'interno del servizio Power BI** e della **pagina SharePoint**. Per altre informazioni, vedere come [gestire un'area di lavoro](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Esistono due modi per consentire l'accesso ai report in Power BI. Il primo modo, se si usa un gruppo di Microsoft 365 per creare il sito del team di SharePoint Online, è aggiungere l'utente come membro dell'**area di lavoro all'interno del servizio Power BI** e della **pagina SharePoint**. Per altre informazioni, vedere come [gestire un'area di lavoro](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 Il secondo consiste nell'incorporare un report all'interno di un'app e condividerlo direttamente con gli utenti:  
 
@@ -106,7 +106,7 @@ Il secondo consiste nell'incorporare un report all'interno di un'app e condivide
 
 A questo punto l'utente finale può passare al sito del team in SharePoint Online e visualizzare i report nella pagina.
 
-## <a name="multi-factor-authentication"></a>Autenticazione a più fattori
+## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
 Se l'ambiente di Power BI richiede di eseguire l'accesso con l'autenticazione a più fattori, potrà essere richiesto di accedere con un dispositivo di sicurezza per verificare la propria identità. Ciò si verifica se non si è eseguito l'accesso a SharePoint Online usando l'autenticazione a più fattori, ma l'ambiente di Power BI richiede un dispositivo di sicurezza per convalidare un account.
 
@@ -122,7 +122,7 @@ Di seguito sono riportate le impostazioni che è possibile regolare per la web p
 | Proprietà | Descrizione |
 | --- | --- |
 | Nome pagina |Imposta la pagina predefinita della web part. Selezionare un valore nell'elenco a discesa. Se non viene visualizzata alcuna pagina, il report contiene una sola pagina o l'URL incollato contiene un nome di pagina. Rimuovere la sezione del report dall'URL per selezionare una pagina specifica. |
-| Visualizzazione |Adatta il report all'interno della pagina di SharePoint Online. |
+| Visualizza |Adatta il report all'interno della pagina di SharePoint Online. |
 | Mostra il riquadro di spostamento |Visualizza o nasconde il riquadro di spostamento nella pagina. |
 | Show Filter Pane |Mostra o nasconde il riquadro filtri. |
 
@@ -143,7 +143,7 @@ Contattare il proprietario della pagina di SharePoint Online per risolvere il pr
 
 Gli utenti che visualizzano un report in SharePoint devono avere una **licenza di Power BI Pro** oppure il contenuto deve essere in un'area di lavoro che si trova in una **[capacità Premium di Power BI (SKU EM o P)](../admin/service-admin-premium-purchase.md)** .
 
-## <a name="known-issues-and-limitations"></a>Problemi noti e limitazioni
+## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
 
 * Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, stato risposta http: 400, codice errore server 10001, messaggio: Token di aggiornamento mancante"
   
@@ -157,7 +157,7 @@ Gli utenti che visualizzano un report in SharePoint devono avere una **licenza d
 
 * Power BI non supporta le stesse lingue localizzate supportate da SharePoint Online. Di conseguenza, la localizzazione all'interno del report incorporato potrebbe non essere corretta.
 
-* Se si usa Internet Explorer 10, potrebbero verificarsi problemi. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Se si usa Internet Explorer 10, potrebbero verificarsi problemi. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * La web part Power BI non è disponibile per i [cloud nazionali](https://powerbi.microsoft.com/clouds/).
 

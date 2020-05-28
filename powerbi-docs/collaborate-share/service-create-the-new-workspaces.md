@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144257"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693755"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creare le nuove aree di lavoro in Power BI
 
@@ -22,8 +22,8 @@ Power BI ha introdotto una nuova esperienza di area di lavoro. Le aree di lavoro
 
 Ecco quali sono le differenze. Nelle nuove aree di lavoro è possibile:
 
-- Assegnare ruoli dell'area di lavoro a gruppi di utenti: gruppi di sicurezza, liste di distribuzione, gruppi di Office 365 e singoli utenti.
-- Creare un'area di lavoro in Power BI senza creare un gruppo di Office 365.
+- Assegnare ruoli dell'area di lavoro a gruppi di utenti: gruppi di sicurezza, liste di distribuzione, gruppi di Microsoft 365 e singoli utenti.
+- Creare un'area di lavoro in Power BI senza creare un gruppo di Microsoft 365.
 - Usare ruoli dell'area di lavoro con maggiore granularità per aumentare la flessibilità di gestione delle autorizzazioni in un'area di lavoro.
 
 Pronti per la migrazione dell'area di lavoro classica? Per informazioni dettagliate, vedere [Aggiornare le aree di lavoro classiche alle nuove aree di lavoro in Power BI](service-upgrade-workspaces.md).
@@ -43,7 +43,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
    
      ![Nuova esperienza delle aree di lavoro](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Se si seleziona **Ripristina versione classica**, si crea un'[area di lavoro basata su un gruppo di Office 365](service-create-workspaces.md). 
+     Se si seleziona **Ripristina versione classica**, si crea un'[area di lavoro basata su un gruppo di Microsoft 365](service-create-workspaces.md). 
 
 2. Assegnare un nome all'area di lavoro. Se il nome non è disponibile, modificarlo in modo da ottenere un nome univoco.
    
@@ -55,7 +55,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
     
     [Aggiungere un **Elenco contatti**](#workspace-contact-list). Per impostazione predefinita, gli amministratori dell'area di lavoro sono i contatti. 
     
-    [Specificare un **OneDrive area di lavoro**](#workspace-onedrive) digitando solo il nome, non l'URL, di un gruppo di Office 365 esistente. Ora questa area di lavoro può usare la posizione di archiviazione dei file del gruppo di Office 365. 
+    [Specificare un **OneDrive area di lavoro**](#workspace-onedrive) digitando solo il nome, non l'URL, di un gruppo di Microsoft 365 esistente. Ora questa area di lavoro può usare la posizione di archiviazione dei file del gruppo di Microsoft 365.
 
     ![Specificare un percorso di OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
 ## <a name="workspace-onedrive"></a>OneDrive area di lavoro
 
-La funzionalità OneDrive area di lavoro consente di configurare un gruppo di Office 365 la cui archiviazione file nella raccolta documenti di SharePoint è disponibile per gli utenti dell'area di lavoro. Per prima cosa si crea il gruppo all'esterno di Power BI. 
+La funzionalità OneDrive area di lavoro consente di configurare un gruppo di Microsoft 365 la cui archiviazione file nella raccolta documenti di SharePoint è disponibile per gli utenti dell'area di lavoro. Per prima cosa si crea il gruppo all'esterno di Power BI.
 
-Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configurati per l'accesso all'area di lavoro con l'appartenenza a un gruppo di Office 365. È consigliabile consentire l'[accesso all'area di lavoro](#give-access-to-your-workspace) allo stesso gruppo di Office 365 di cui si configura l'archiviazione file in questa impostazione. Gestire quindi l'accesso all'area di lavoro usando l'appartenenza al gruppo Office 365. 
+Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configurati per l'accesso all'area di lavoro con l'appartenenza a un gruppo di Microsoft 365. È consigliabile consentire l'[accesso all'area di lavoro](#give-access-to-your-workspace) allo stesso gruppo di Microsoft 365 di cui si configura l'archiviazione file in questa impostazione. Gestire quindi l'accesso all'area di lavoro usando l'appartenenza al gruppo Microsoft 365.
 
 1. Accedere alla nuova impostazione **OneDrive area di lavoro** in uno dei due modi seguenti:
 
@@ -99,7 +99,7 @@ Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configura
 
     ![Impostazioni dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. In **Avanzate** > **OneDrive area di lavoro** digitare il nome del gruppo di Office 365 creato in precedenza. Power BI seleziona automaticamente il OneDrive per il gruppo.
+2. In **Avanzate** > **OneDrive area di lavoro** digitare il nome del gruppo di Microsoft 365 creato in precedenza. Power BI seleziona automaticamente il OneDrive per il gruppo.
 
     ![Specificare un percorso di OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ Nella nuova esperienza di area di lavoro non è possibile creare o usare pacchet
 
     ![Elenco del contenuto dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Aggiungere a queste aree di lavoro gruppi di sicurezza, liste di distribuzione, gruppi di Office 365 o singoli utenti come visualizzatori, membri, collaboratori o amministratori. Per una spiegazione dei diversi ruoli disponibili, vedere [Ruoli nelle nuove aree di lavoro](service-new-workspaces.md#roles-in-the-new-workspaces).
+1. Aggiungere a queste aree di lavoro gruppi di sicurezza, liste di distribuzione, gruppi di Microsoft 365 o singoli utenti come visualizzatori, membri, collaboratori o amministratori. Per una spiegazione dei diversi ruoli disponibili, vedere [Ruoli nelle nuove aree di lavoro](service-new-workspaces.md#roles-in-the-new-workspaces).
 
     ![Aggiunta di membri, amministratori, collaboratori alle aree di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

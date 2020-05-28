@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142792"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693855"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorare le metriche di utilizzo nella nuova esperienza dell'area di lavoro
 
@@ -82,7 +82,7 @@ Il report sulle metriche di utilizzo migliorato include le pagine seguenti:
 | Generare report sull'utilizzo | Unique viewers | Un visualizzatore è un utente che ha aperto il report almeno una volta durante il periodo di tempo (in base all'account utente di AAD). |
 | Generare report sull'utilizzo | View trend | La tendenza di visualizzazione rispecchia le variazioni del numero di visualizzazioni nel tempo. Confronta la prima metà del periodo di tempo selezionato con la seconda metà. |
 | Generare report sull'utilizzo | Date slicer | È possibile modificare il periodo di tempo nella pagina Report usage (Utilizzo report), ad esempio per calcolare le tendenze settimanali o quindicinali. Nell'angolo inferiore sinistro della pagina Report usage (Utilizzo report) è possibile determinare la data meno recente e quella più recente per cui sono disponibili i dati di utilizzo per il report selezionato. |
-| Generare report sull'utilizzo | Rank | In base al numero di visualizzazioni, la classificazione indica la popolarità di un report rispetto a tutti gli altri report nell'organizzazione.   |
+| Generare report sull'utilizzo | Classifica | In base al numero di visualizzazioni, la classificazione indica la popolarità di un report rispetto a tutti gli altri report nell'organizzazione.   |
 | Generare report sull'utilizzo | Report views per day | Numero totale di visualizzazioni al giorno. |
 | Generare report sull'utilizzo | Report viewers per day | Numero totale di utenti diversi che hanno visualizzato il report (in base all'account utente AAD). |
 | Generare report sull'utilizzo | Distribution method | Il modo in cui gli utenti hanno ottenuto accesso al report, ad esempio in quanto membri di un'area di lavoro, come destinatari della condivisione del report o tramite l'installazione di un'app. |
@@ -118,7 +118,7 @@ Usare la procedura seguente per acquisire la proprietà di un set di dati Report
 
 1. In **Credenziali dell'origine dati** selezionare **Modifica credenziali**.
 
-    ![Modificare le credenziali](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
+    ![Modifica credenziali](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
 2. Nella finestra di dialogo **Configura Report sulle metriche di utilizzo** selezionare **Accedi**.
 
@@ -132,7 +132,7 @@ Usare la procedura seguente per acquisire la proprietà di un set di dati Report
 
 ## <a name="disable-usage-metrics-reports"></a>Disabilitare i report sulle metriche di utilizzo
 
-I report sulle metriche di utilizzo sono una funzionalità che l'amministratore di Power BI o Office 365 può attivare o disattivare. Gli amministratori hanno un controllo granulare sugli utenti autorizzati ad accedere alle metriche di utilizzo. L'accesso alle metriche è attivato per impostazione predefinita per tutti gli utenti dell'organizzazione. Vedere [Controllare le metriche di utilizzo](../admin/service-admin-portal.md#control-usage-metrics) nell'articolo del portale di amministrazione per informazioni dettagliate su queste impostazioni.
+I report sulle metriche di utilizzo sono una funzionalità che l'amministratore di Power BI o Microsoft 365 può attivare o disattivare. Gli amministratori hanno un controllo granulare sugli utenti autorizzati ad accedere alle metriche di utilizzo. L'accesso alle metriche è attivato per impostazione predefinita per tutti gli utenti dell'organizzazione. Vedere [Controllare le metriche di utilizzo](../admin/service-admin-portal.md#control-usage-metrics) nell'articolo del portale di amministrazione per informazioni dettagliate su queste impostazioni.
 
 > [!NOTE]
 > Solo gli amministratori del tenant di Power BI possono vedere il portale di amministrazione e modificare le impostazioni.
@@ -241,7 +241,7 @@ Quando ci si connette ai dati di utilizzo in Excel, è possibile creare tabelle 
 
 Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli stessi livelli di sicurezza, privacy, conformità e trasparenza della versione globale di Power BI, in combinazione con un modello univoco per le normative locali per l'erogazione dei servizi, la residenza dei dati, l'accesso e il controllo. A causa di questo modello univoco per i regolamenti locali, le metriche di utilizzo non sono disponibili nei cloud nazionali. Per altre informazioni, vedere [Cloud nazionali](https://powerbi.microsoft.com/clouds/).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 È importante comprendere le differenze che si possono riscontrare quando si confrontano il report sulle metriche di utilizzo migliorato con quello precedente. In particolare, le metriche di utilizzo sono ora basate sui dati delle attività raccolti dal servizio Power BI. Le versioni precedenti del report sulle metriche di utilizzo si basavano sui dati di telemetria del client, non sempre corrispondenti alle metriche di utilizzo raccolte dal servizio. Inoltre, il report sulle metriche di utilizzo migliorato usa una definizione diversa per "visualizzazione". Una visualizzazione è un evento di apertura del report, così come viene registrato nel servizio ogni volta che un utente apre un report. Cambiare pagina del report non è più considerata una visualizzazione aggiuntiva.
 
@@ -328,7 +328,7 @@ La piattaforma indica la tecnologia usata da un visualizzatore per aprire un rep
 
 ## <a name="troubleshoot-delete-the-dataset"></a>Risoluzione dei problemi: Eliminare il set di dati
 
-Se si sospettano problemi di coerenza dei dati o di aggiornamento, può essere utile eliminare il set di dati Report sulle metriche di utilizzo esistente. Eseguire quindi di nuovo Visualizza metriche di utilizzo per generare un nuovo set di dati con i report sulle metriche di utilizzo migliorati associati. Seguire questa procedura.
+Se si sospettano problemi di coerenza dei dati o di aggiornamento, può essere utile eliminare il set di dati Report sulle metriche di utilizzo esistente. Eseguire quindi di nuovo Visualizza metriche di utilizzo per generare un nuovo set di dati con i report sulle metriche di utilizzo migliorati associati. Attenersi a questa procedura.
 
 ### <a name="delete-the-dataset"></a>Eliminare il set di dati
 

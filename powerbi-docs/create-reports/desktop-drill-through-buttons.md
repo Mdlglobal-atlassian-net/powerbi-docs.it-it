@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301518"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694041"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Creare un pulsante di drill-through in Power BI (anteprima)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Creare un pulsante di drill-through in Power BI
 
-Quando si crea un pulsante in Power BI, è possibile selezionare l'azione **Drill-through (anteprima)** . Questo tipo di azione crea un pulsante che esegue il drill-through in una pagina specifica con dettagli filtrati in base a un contesto selezionato.
+Quando si crea un pulsante in Power BI, è possibile selezionare l'azione **Drill-through**. Questo tipo di azione crea un pulsante che esegue il drill-through in una pagina specifica con dettagli filtrati in base a un contesto selezionato.
 
 Un pulsante di drill-through può essere utile se si vogliono rendere più facilmente individuabili scenari di drill-through importanti nei report.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348276"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693578"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -64,7 +64,7 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 5. In **Autorizzazioni** decidere chi ha accesso all'app e quali operazioni può eseguire. 
 
     - Nelle [aree di lavoro classiche](service-create-workspaces.md): tutti gli utenti nell'organizzazione, utenti specifici o gruppi di sicurezza di Azure Active Directory (Azure AD).
-    - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di Azure AD e gruppi di Office 365. Viene concesso automaticamente l'accesso all'app per l'area di lavoro a tutti gli utenti dell'area di lavoro.
+    - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di Azure AD e gruppi di Microsoft 365. Viene concesso automaticamente l'accesso all'app per l'area di lavoro a tutti gli utenti dell'area di lavoro.
     - È possibile consentire agli utenti dell'app di connettersi a set di dati sottostanti dell'app concedendo loro l'autorizzazione di compilazione. Questi set di dati verranno visualizzati durante la ricerca dei set di dati condivisi. Per altre informazioni su come [consentire agli utenti di connettersi ai set di dati dell'app](#allow-users-to-connect-to-datasets), vedere più avanti in questo articolo.
     - Gli utenti con l'autorizzazione di compilazione possono anche avere l'autorizzazione per copiare i report da questa app a un'altra area di lavoro. Per altre informazioni su come [consentire agli utenti di copiare i report nell'app](#allow-users-to-copy-reports), vedere più avanti in questo articolo.
     

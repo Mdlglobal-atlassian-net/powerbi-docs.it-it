@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4fd350ae5d4a916e6753f7cd66e1fca52137efd5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2657580a27eb1be42c96ffad5881555df168d459
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83288661"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562128"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Creare un report in un elenco SharePoint
 
@@ -44,7 +44,7 @@ Guardare questo video di esercitazione di cinque minuti o scorrere verso il bass
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth1.png" alt="choose Microsoft account" width="500"/>
 
-7. Selezionare **Accedi** e immettere il nome utente e la password usati per accedere a Microsoft Office 365.
+7. Selezionare **Accedi** e immettere il nome utente e la password usati per accedere a Microsoft 365.
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth2.png" alt="sign in" width="500"/>
 
@@ -56,7 +56,7 @@ Guardare questo video di esercitazione di cinque minuti o scorrere verso il bass
 
 10. Selezionare **Carica**.  Power BI carica i dati dell'elenco in un nuovo report.
 
-## <a name="part-2-create-a-report"></a>Parte 2: Creare un report
+## <a name="part-2-create-a-report"></a>Parte 2: Creare un report.
 
 1. Sul lato sinistro selezionare l'icona **Dati** per verificare che i dati dell'elenco SharePoint siano stati caricati.
 

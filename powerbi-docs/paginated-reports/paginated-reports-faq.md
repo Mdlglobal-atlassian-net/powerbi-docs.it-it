@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585004"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565627"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: Domande frequenti 
 
@@ -21,7 +21,7 @@ Questo articolo include le risposte alle domande frequenti sui report impaginati
 
 Questo articolo risponde a molte domande comuni sui report impaginati in Power BI Premium e su Generatore report, lo strumento autonomo per la creazione di report impaginati. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. 
 
-## <a name="administration"></a>Amministrazione
+## <a name="administration"></a>Administration
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Quale capacità Premium è necessaria per i report impaginati?
 
@@ -41,7 +41,7 @@ L'amministratore della capacità può abilitare o disabilitare il carico di lavo
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Come è possibile monitorare l'utilizzo dei report impaginati nel tenant?
 
-I log di controllo di Office 365 offrono informazioni dettagliate sull'utilizzo di questo tipo di report negli eventi seguenti: 
+I log di controllo offrono informazioni dettagliate sull'utilizzo di questo tipo di report negli eventi seguenti:
 
 - View Power BI Report (Visualizza report Power BI)
 - Delete Power BI report (Elimina report Power BI)
@@ -113,7 +113,7 @@ Attualmente, i report impaginati non supportano quanto segue:
 - Origini dati condivise
 - Set di dati condivisi
 - Drill-through e click-through in altri report
-- report collegati
+- Report collegati
 - Tipi di carattere personalizzati
 
 Viene visualizzato un messaggio di errore se si prova a caricare un file con una funzionalità non supportata nel servizio Power BI, diversa da attivazione/disattivazione e ordinamento.
@@ -152,7 +152,7 @@ Sì, è supportata la possibilità di eseguire il codice nei report come in SSRS
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>È possibile usare Power BI Embedded per incorporare i report impaginati in un'app ospitata?
 
-L'incorporamento SaaS, incluso il supporto per Secure embed, è già disponibile. Per l'incorporamento PaaS, vedere l'esercitazione [Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embed-paginated-reports-customers.md).
+L'incorporamento SaaS, incluso il supporto per Secure embed, è già disponibile. Per l'incorporamento PaaS, vedere l'esercitazione [Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embedded/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>È possibile eseguire il drill-through da un report di Power BI a un report impaginato?
 

@@ -1,5 +1,5 @@
 ---
-title: Tenere traccia dell'integrità del servizio Power BI in Office 365
+title: Tenere traccia dell'integrità del servizio Power BI in Microsoft 365
 description: Informazioni su come visualizzare l'integrità del servizio corrente e cronologica nell'interfaccia di amministrazione di Microsoft 365.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139806"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563705"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Tenere traccia dell'integrità del servizio Power BI in Office 365
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Tenere traccia dell'integrità del servizio Power BI in Microsoft 365
 
 L'interfaccia di amministrazione di Microsoft 365 offre strumenti importanti per gli amministratori di Power BI. Gli strumenti includono informazioni correnti e cronologiche sull'integrità dei servizi. Per accedere alle informazioni sull'integrità dei servizi è necessario appartenere a uno dei ruoli seguenti:
 
 * Amministratore del servizio Power BI
 
-* Amministratore globale di Office 365
+* Amministratore globale
 
 Per altre informazioni sui ruoli, vedere [Ruoli di amministratore correlati a Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 

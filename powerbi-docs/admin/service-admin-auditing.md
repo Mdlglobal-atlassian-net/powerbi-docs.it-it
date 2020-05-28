@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129067"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564616"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Tenere traccia delle attività degli utenti in Power BI
 
-Il fatto di sapere chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è essenziale per aiutare l'organizzazione a soddisfare i propri requisiti, ad esempio la conformità alle normative e la gestione dei record. Con Power BI sono disponibili due opzioni per tenere traccia delle attività degli utenti: Il [log attività di Power BI](#use-the-activity-log) e il [log di controllo di Office 365 unificato](#use-the-audit-log). Questi log contengono entrambi una copia completa dei [dati di controllo di Power BI](#operations-available-in-the-audit-and-activity-logs), ma esistono alcune differenze fondamentali, come riepilogato nella tabella seguente.
+Il fatto di sapere chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è essenziale per aiutare l'organizzazione a soddisfare i propri requisiti, ad esempio la conformità alle normative e la gestione dei record. Con Power BI sono disponibili due opzioni per tenere traccia delle attività degli utenti: Il [log attività di Power BI](#use-the-activity-log) e il [log di controllo unificato](#use-the-audit-log). Questi log contengono entrambi una copia completa dei [dati di controllo di Power BI](#operations-available-in-the-audit-and-activity-logs), ma esistono alcune differenze fondamentali, come riepilogato nella tabella seguente.
 
-| **Log di controllo di Office 365 unificato** | **Log attività di Power BI** |
+| **Log di controllo unificato** | **Log attività di Power BI** |
 | --- | --- |
 | Include eventi da SharePoint Online, Exchange Online, Dynamics 365 e altri servizi oltre agli eventi di controllo di Power BI. | Include solo gli eventi di controllo di Power BI. |
 | Hanno accesso solo gli utenti con le autorizzazioni di sola visualizzazione per i log di controllo o per i log di controllo, come gli amministratori globali e i revisori. | Gli amministratori globali e gli amministratori del servizio Power BI hanno accesso. |
-| Gli amministratori globali e i revisori possono eseguire ricerche nel log di controllo unificato usando Centro sicurezza e conformità di Office 365, il Centro sicurezza Microsoft 365 e il Centro conformità Microsoft 365. | Non esiste ancora un'interfaccia utente per la ricerca nel log attività. |
+| Gli amministratori globali e i revisori possono eseguire ricerche nel log di controllo unificato usando il Centro sicurezza Microsoft 365 e il Centro conformità Microsoft 365. | Non esiste ancora un'interfaccia utente per la ricerca nel log attività. |
 | Gli amministratori globali e i revisori possono scaricare le voci del log di controllo usando le API e i cmdlet di gestione di Office 365. | Gli amministratori globali e gli amministratori del servizio Power BI possono scaricare le voci del log attività usando un'API REST e un cmdlet di gestione di Power BI. |
 | Conserva i dati di controllo per 90 giorni | Conserva i dati delle attività per 30 giorni (anteprima pubblica). |
 | Mantiene i dati di controllo, anche se il tenant viene spostato in un'altra area di Azure. | Non mantiene i dati delle attività se il tenant viene spostato in un'altra area di Azure. |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>Usare il log di controllo
 
-Se l'attività consiste nel tenere traccia delle attività degli utenti in Power BI e Office 365, è possibile usare le funzionalità di controllo nel Centro sicurezza e conformità di Office 365 o usare PowerShell. Il controllo si basa su funzionalità in Exchange Online, di cui viene eseguito automaticamente il provisioning per il supporto di Power BI.
+Se l'attività consiste nel tenere traccia delle attività degli utenti in Power BI e Microsoft 365, è possibile usare le funzionalità di controllo nel Centro sicurezza e conformità di Office 365 o usare PowerShell. Il controllo si basa su funzionalità in Exchange Online, di cui viene eseguito automaticamente il provisioning per il supporto di Power BI.
 
 È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È anche possibile scaricare le attività in un file con estensione csv (valori delimitati da virgole) per l'analisi offline.
 
@@ -184,7 +184,7 @@ L'area **Risultati** contiene le informazioni seguenti per ogni evento restituit
 
 #### <a name="view-the-details-for-an-event"></a>Visualizzare i dettagli di un evento
 
-Per visualizzare altri dettagli su un evento selezionare il record dell'evento nell'elenco dei risultati della ricerca. Viene visualizzata una pagina **Dettagli** che contiene le proprietà dettagliate del record dell'evento. Le proprietà visualizzate nella pagina **Dettagli** dipendono dal servizio Office 365 in cui si verifica l'evento.
+Per visualizzare altri dettagli su un evento selezionare il record dell'evento nell'elenco dei risultati della ricerca. Viene visualizzata una pagina **Dettagli** che contiene le proprietà dettagliate del record dell'evento. Le proprietà visualizzate nella pagina **Dettagli** dipendono dal servizio Microsoft 365 in cui si verifica l'evento.
 
 Per visualizzare questi dettagli, selezionare **Altre informazioni**. Tutte le voci di Power BI hanno un valore pari a 20 per la proprietà RecordType. Per informazioni su altre proprietà, vedere [Proprietà dettagliate nel log di controllo](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279711"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565995"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Linee guida per Data/ora automatica in Power BI Desktop
 
@@ -34,9 +34,12 @@ L'elenco puntato seguente descrive le considerazioni e le possibili limitazioni 
     Per questo motivo è importante che l'implementazione di filtri o il raggruppamento avvengano in base alla colonna **Anno**. Quando si esegue il drill-down usando la gerarchia l'anno verrà filtrato, salvo se il livello **Anno** viene rimosso intenzionalmente. Se non è presente alcun filtro o raggruppamento in base all'anno, un raggruppamento in base al mese, ad esempio, riepiloga i valori di tutti gli anni per quel mese.
 - **Applicazione di filtro data a una sola tabella:** Poiché ogni colonna della data produce una propria tabella di data/ora automatica (nascosta), non è possibile applicare un filtro ora a una tabella e propagarlo a più tabelle modello. L'applicazione di filtri con questa modalità è un requisito di modellazione comune durante la creazione di report su più soggetti (tabelle di tipo fact), come vendite e budget di vendite. Quando si usa la data/ora automatica, l'autore del report deve applicare filtri a ogni singola colonna data.
 - **Dimensioni del modello:** Ogni colonna data che genera una tabella data/ora automatica nascosta produce un incremento delle dimensioni del modello e prolunga il tempo necessario per l'aggiornamento dei dati.
-- **Altri strumenti di reporting:** non è possibile usare le tabelle di data/ora automatiche quando si esegue [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md) o ci si connette al modello tramite strumenti di progettazione dei report non Power BI.
+- **Altri strumenti di reporting:** Non è possibile usare le tabelle di data/ora automatiche quando:
+  - Si usa [Analizza in Excel](../collaborate-share/service-analyze-in-excel.md).
+  - Si usano finestre di progettazione query di Analysis Services per i report impaginati di Power BI.
+  - Ci si connette al modello usando finestre di progettazione report non di Power BI.
 
-## <a name="recommendations"></a>Consigli
+## <a name="recommendations"></a>Raccomandazioni
 
 È consigliabile mantenere attivata l'opzione _Data/ora automatica_ solo quando si lavora con periodi di tempo del calendario e si hanno requisiti di modellazione semplici in termini di tempo. L'uso di questa opzione può risultare pratico anche quando si creano modelli ad hoc o si esegue l'esplorazione dei dati o la profilatura.
 
@@ -50,5 +53,5 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Data/ora automatica in Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](../transform-model/desktop-date-tables.md)
-- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

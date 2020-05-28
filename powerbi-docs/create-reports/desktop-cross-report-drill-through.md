@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297838"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694061"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usare il drill-through tra report in Power BI
 
@@ -31,7 +31,7 @@ L'azione di drill-through apre la *pagina di destinazione* nel *report di destin
 Questo articolo illustra come configurare e usare il drill-through tra report per i report di Power BI.
 
 > [!NOTE]
-> Non è possibile usare il drill-through tra i report con i singoli [report condivisi con l'utente corrente](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) in **Area di lavoro personale**. Per usare il drill-through tra report, è necessario accedere ai report nell'area di lavoro da cui sono stati condivisi.
+> Non è possibile usare il drill-through tra i report con i singoli [report condivisi con l'utente corrente](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report). Per usare il drill-through tra report, è necessario accedere ai report nelle aree di lavoro di cui si è membri.
 
 ## <a name="enable-cross-report-drillthrough"></a>Abilitare il drill-through tra report
 
@@ -44,7 +44,7 @@ Dopo aver convalidato i modelli, consentire al report di origine di usare il dri
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**. 
 1. Nel riquadro di spostamento a sinistra nella finestra **Opzioni**, nella parte inferiore della sezione **File corrente** selezionare **Impostazioni report**. 
 1. In basso a destra, in **Drill-through tra report** selezionare **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report**. 
-1. Scegliere **OK**. 
+1. Seleziona **OK**. 
    
    ![Abilitare il drill-through tra report in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 

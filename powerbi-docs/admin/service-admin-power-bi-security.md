@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275410"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564387"
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 
@@ -45,9 +45,9 @@ La linea tratteggiata nell'immagine del cluster **Back-End**, riportata sopra, i
 
 ## <a name="user-authentication"></a>Autenticazione dell'utente
 
-Power BI usa Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) per autenticare gli utenti che eseguono l'accesso al servizio Power BI e, a sua volta, usa le credenziali di accesso di Power BI ogni volta che un utente prova ad accedere a risorse che richiedono l'autenticazione. Gli utenti eseguono l'accesso al servizio Power BI tramite l'indirizzo di posta elettronica usato per definire il proprio account di Power BI. Power BI usa il messaggio di posta elettronica di accesso come *nome utente effettivo*, che viene quindi passato alle risorse ogni volta che l'utente prova a connettersi ai dati. Il *nome utente effettivo* viene quindi mappato a un *nome dell'entità utente* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) e risolto con l'account di dominio di Windows associato, a cui viene applicata l'autenticazione.
+Power BI usa Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) per autenticare gli utenti che eseguono l'accesso al servizio Power BI e, a sua volta, usa le credenziali di accesso di Power BI ogni volta che un utente prova ad accedere a risorse che richiedono l'autenticazione. Gli utenti eseguono l'accesso al servizio Power BI tramite l'indirizzo di posta elettronica usato per definire il proprio account di Power BI. Power BI usa il messaggio di posta elettronica di accesso come *nome utente effettivo*, che viene quindi passato alle risorse ogni volta che l'utente prova a connettersi ai dati. Il *nome utente effettivo* viene quindi mappato a un [*nome dell'entità utente* (UPN)](/windows/win32/secauthn/user-name-formats) e risolto con l'account di dominio di Windows associato, a cui viene applicata l'autenticazione.
 
-Per le organizzazioni che usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI (ad esempio <em>david@contoso.com</em>, il *nome utente effettivo*) il mapping UPN è diretto. Per le organizzazioni che non usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI, ad esempio <em>david@contoso.onmicrosoft.com</em>, il mapping tra AAD e le credenziali locali richiede la [sincronizzazione delle directory](https://technet.microsoft.com/library/jj573653.aspx) per il corretto funzionamento.
+Per le organizzazioni che usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI (ad esempio <em>david@contoso.com</em>, il *nome utente effettivo*) il mapping UPN è diretto. Per le organizzazioni che non usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI, ad esempio <em>david@contoso.onmicrosoft.com</em>, il mapping tra AAD e le credenziali locali richiede la [sincronizzazione delle directory](/azure/active-directory-domain-services/synchronization) per il corretto funzionamento.
 
 La sicurezza della piattaforma per Power BI include anche la sicurezza dell'ambiente multi-tenant, la sicurezza delle reti e la possibilità di aggiungere misure di sicurezza aggiuntive basate su AAD.
 
@@ -68,4 +68,3 @@ Gli amministratori di rete e IT possono imporre il requisito dell'uso della vers
 **Power BI Desktop** rispetta le impostazioni delle chiavi del Registro di sistema descritte in tali articoli e crea connessioni solo usando la versione di TLS consentita in base a su tali impostazioni del Registro di sistema, se presenti.
 
 Per altre informazioni sull'impostazione di queste chiavi del Registro di sistema, vedere l'articolo [Impostazioni del Registro di sistema TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-

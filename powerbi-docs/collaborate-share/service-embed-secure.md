@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348138"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693823"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporare un report in un portale o un sito Web sicuro
 
@@ -50,7 +50,7 @@ L'opzione **Incorpora** supporta [filtri URL](service-url-filters.md) e impostaz
 
 L'opzione **Incorpora** non consente automaticamente agli utenti di visualizzare il report. Le autorizzazioni di visualizzazione sono impostate nel servizio Power BI.
 
-Nel servizio Power BI è possibile condividere report incorporati con gli utenti richiedendo l'accesso. Se si usa un gruppo di Office 365, è possibile elencare l'utente come membro dell'area di lavoro. Per altre informazioni, vedere come [gestire l'area di lavoro in Power BI e Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Nel servizio Power BI è possibile condividere report incorporati con gli utenti richiedendo l'accesso. Se si usa un gruppo di Microsoft 365 è possibile elencare l'utente come membro dell'area di lavoro. Per altre informazioni, vedere come [gestire l'area di lavoro in Power BI e Microsoft 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Gestione delle licenze
 
@@ -119,7 +119,7 @@ report.src = newUrl;
 
 È possibile aggiungere tutti i pulsanti desiderati per creare un'esperienza personalizzata con poco codice. 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 * I report impaginati sono supportati con gli scenari di incorporamento sicuri, come anche i report impaginati con parametri URL. Per altre informazioni, vedere [Passare un parametro di report in un URL per un report impaginato in Power BI](../paginated-reports/report-builder-url-pass-parameters.md).
 

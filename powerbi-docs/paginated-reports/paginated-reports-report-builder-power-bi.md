@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144740"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565507"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -76,7 +76,7 @@ L'elenco seguente include alcune altre funzionalità non supportate nella versio
 
 - Aggiunta di pagine del report o oggetti visivi a dashboard di Power BI. È comunque possibile aggiungere visualizzazioni a un dashboard di Power BI da un report impaginato in locale in un Server di report di Power BI o un server di report di Reporting Services. Per altre informazioni, vedere [Pin Reporting Services items to Power BI Dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) (Aggiungere elementi di Reporting Services ai dashboard di Power BI).
 - Mappe documento.
-- Sottoreport e report drill-through.  È tuttavia possibile prendere in considerazione l'uso di parametri URL con i report impaginati per ottenere scenari di drill-through.
+- Report drill-through.  Prendere in considerazione l'uso di parametri URL con i report impaginati per gli scenari di drill-through.
 - Origini dati condivise e set di dati condivisi.
 
  
@@ -85,4 +85,4 @@ L'elenco seguente include alcune altre funzionalità non supportate nella versio
 - [Installare Generatore report di Power BI dall'Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Esercitazione: Creare un report impaginato](paginated-reports-quickstart-aw.md)
 - [Immettere i dati direttamente in un report impaginato](paginated-reports-enter-data.md)
-- [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embed-paginated-reports-customers.md)
+- [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](../developer/embedded/embed-paginated-reports-customers.md)

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291927"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563053"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Connettersi ai dati di Project Online con Power BI Desktop
 È possibile connettersi ai dati in Project Online con Power BI Desktop.
 
-## <a name="step-1-download-power-bi-desktop"></a>Passaggio 1: scaricare Power BI Desktop
+## <a name="step-1-download-power-bi-desktop"></a>Passaggio 1: Scarica Power BI Desktop
 1. [Scaricare Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662), quindi eseguire il programma di installazione per installare **Power BI Desktop** nel computer.
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>Passaggio 2: connettersi a Project Online con OData
+## <a name="step-2-connect-to-project-online-with-odata"></a>Passaggio 2: Connettersi a Project Online con OData
 1. Aprire **Power BI Desktop**.
 2. Nella schermata *Introduzione* selezionare **Recupera dati**.
 3. Scegliere **Feed OData** e selezionare **Connetti**.
@@ -35,7 +35,7 @@ ms.locfileid: "83291927"
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop richiederà di eseguire l'autenticazione con l'account Office 365. Selezionare l'account aziendale e quindi immettere le proprie credenziali.
+5. Power BI Desktop richiederà di eseguire l'autenticazione con l'account aziendale o dell'istituto di istruzione. Selezionare l'account aziendale e quindi immettere le proprie credenziali.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

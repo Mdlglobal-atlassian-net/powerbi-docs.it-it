@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347448"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692954"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Installare e distribuire le app modello nell'organizzazione
 
@@ -59,11 +59,19 @@ Per installare, personalizzare e distribuire un'app modello, è necessario:
 
 ## <a name="connect-to-data"></a>Connettersi ai dati
 
-1. Selezionare **Vai all'app**. Viene visualizzata la finestra **Operazioni iniziali con la nuova app**.
+1. Selezionare **Vai all'app**.
 
-   ![Operazioni iniziali con la nuova app](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. Nella finestra **Operazioni iniziali con la nuova app** selezionare **Esplora**.
 
-1. Fare clic su **Connetti**.
+   ![Schermata iniziale dell'app modello](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   L'app viene aperta e visualizza dati di esempio.
+
+1. Selezionare il collegamento **Connettere i dati** nel banner nella parte superiore della pagina.
+
+   ![Collegamento Connettere i dati dell'app GitHub](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     Verrà visualizzata una finestra di dialogo o una serie di finestre di dialogo in cui è possibile sostituire l'origine dati dei dati di esempio con la propria origine dati. Questo significa in genere ridefinire i parametri del set di dati e le credenziali dell'origine dati. Vedere [Limitazioni note](service-template-apps-overview.md#known-limitations).
     
@@ -71,19 +79,20 @@ Per installare, personalizzare e distribuire un'app modello, è necessario:
 
    ![Finestre di dialogo per la connessione ai dati](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    Al termine della compilazione delle finestre di dialogo di connessione, viene avviato il processo di connessione. Un banner informa che si stanno visualizzando dati di esempio.
+    Al termine della compilazione delle finestre di dialogo di connessione, viene avviato il processo di connessione. Un banner informa che i dati vengono aggiornati e che nel frattempo vengono visualizzati dati di esempio.
 
     ![Visualizzazione di dati di esempio](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    Attendere il completamento della connessione e dell'aggiornamento dei dati. Per sapere quando il processo viene completato, controllare l'indicatore di stato nella riga (nuovo aspetto) o nella scheda (aspetto precedente) del set di dati.
-
-   Al termine della connessione e dell'aggiornamento dei dati, aggiornare il browser. Il banner indica ora che è necessario aggiornare l'app per applicare le eventuali modifiche apportate all'app e condividerla.
-
-    ![Personalizzare e condividere l'app](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   I dati del report verranno aggiornati automaticamente una volta al giorno, a meno che l'aggiornamento non sia stato disabilitato durante il processo di accesso. Volendo, è anche possibile [configurare un aggiornamento pianificato](./refresh-scheduled-refresh.md) per mantenere aggiornati i dati del report.
 
 ## <a name="customize-and-share-the-app"></a>Personalizzare e condividere l'app
 
-Dopo aver aggiornato il browser al termine della connessione e dell'aggiornamento dei dati, viene visualizzata l'area di lavoro associata all'app. A questo punto è possibile modificare gli eventuali artefatti presenti, come in qualsiasi area di lavoro. Tuttavia, tenere presente che le modifiche apportate verranno sovrascritte quando si aggiorna l'app con una nuova versione, a meno che non si salvino gli elementi modificati con nomi diversi. [Vedere informazioni dettagliate sulla sovrascrittura](#overwrite-behavior).
+Dopo aver stabilito la connessione ai dati e averne completato l'aggiornamento, è possibile personalizzare i report e i dashboard inclusi nelle app, nonché condividere l'app con i colleghi. Tenere tuttavia presente che le modifiche apportate verranno sovrascritte quando si aggiorna l'app con una nuova versione, a meno che non si salvino gli elementi modificati con nomi diversi. [Vedere informazioni dettagliate sulla sovrascrittura](#overwrite-behavior).
+
+Per personalizzare e condividere l'app, selezionare l'icona della matita nell'angolo in alto a destra della pagina.
+
+![Modificare l'app](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 Per informazioni sulla modifica degli artefatti nell'area di lavoro, vedere
 * [Presentazione dell'editor di report in Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Se l'app è stata originariamente scaricata da AppSource, quando diventa disponi
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Creare aree di lavoro con i colleghi in Power BI](../collaborate-share/service-create-workspaces.md)
+[Creare aree di lavoro con i colleghi in Power BI](../collaborate-share/service-create-the-new-workspaces.md)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149001"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564168"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
 
@@ -40,7 +40,7 @@ Un piano di migrazione è costituito dai metadati disponibili in Power BI Embedd
 
 È consigliabile iniziare creando un nuovo piano di migrazione. Per creare un nuovo piano di migrazione, eseguire le operazioni seguenti.
 
-1. Selezionare **File** > **New Migration Plan** (Nuovo piano di migrazione).
+1. Selezionare **File** > **New Migration Plan**.
 
     ![Creare un piano](media/migrate-tool/migrate-tool-plan.png)
 
@@ -49,23 +49,23 @@ Un piano di migrazione è costituito dai metadati disponibili in Power BI Embedd
 3. Verrà richiesto di eseguire l'accesso. Usare i dati di accesso della sottoscrizione di Azure.
 
    > [!IMPORTANT]
-   > **Non** si tratta dell'account aziendale di Office 365 con cui si accede a Power BI.
+   > **Non** si tratta dell'account aziendale con cui si accede a Power BI.
 
 4. Selezionare la sottoscrizione di Azure che archivia le raccolte di aree di lavoro di Power BI Embedded.
 
-    ![Resource group](media/migrate-tool/migrate-tool-select-resource-group.png)
-5. Sotto l'elenco di sottoscrizioni, selezionare il**gruppo di risorse** che contiene le raccolte di aree di lavoro e scegliere **Seleziona**.
+    ![Gruppo di risorse](media/migrate-tool/migrate-tool-select-resource-group.png)
+5. Sotto l'elenco delle sottoscrizioni, in **Resource Group** selezionare il gruppo di risorse che contiene le raccolte di aree di lavoro e scegliere **Select**.
 
     ![Selezionare il gruppo di risorse](media/migrate-tool/migrate-tool-select-resource-group2.png)
 
-6. Selezionare **Analyze** (Analizza). Verrà visualizzato un inventario degli elementi nella sottoscrizione di Azure con cui iniziare la creazione del piano.
+6. Selezionare **Analizza**. Verrà visualizzato un inventario degli elementi nella sottoscrizione di Azure per poter iniziare il piano.
 
     ![Analizzare il gruppo](media/migrate-tool/migrate-tool-analyze-group.png)
 
    > [!NOTE]
-   > Il processo di analisi potrebbe richiedere alcuni minuti, a seconda del numero di raccolte di aree di lavoro e della quantità di contenuto presente nella raccolta di aree di lavoro.
+   > Il processo di analisi potrebbe richiedere alcuni minuti a seconda del numero di raccolte di aree di lavoro e della quantità di contenuto presente nella raccolta di aree di lavoro.
 
-7. Al termine**dell'analisi**, verrà chiesto di salvare il piano di migrazione.
+7. Quando l'operazione **Analizza** è completata, verrà richiesto di salvare il piano di migrazione.
 
 A questo punto, il piano di migrazione è stato connesso alla sottoscrizione di Azure. Leggere quanto riportato di seguito per comprendere il flusso di utilizzo del piano di migrazione. Ciò include l'analisi e la pianificazione della migrazione, il download, la creazione di gruppi e l'upload.
 
@@ -75,11 +75,11 @@ A questo punto, il piano di migrazione è stato connesso alla sottoscrizione di 
 
 Per salvare il piano di migrazione, effettuare le operazioni seguenti.
 
-1. Selezionare **File** > **Save Migration Plan** (Salva piano di migrazione).
+1. Selezionare **File** > **Save Migration Plan**.
 
     ![Salvare il piano](media/migrate-tool/migrate-tool-save-plan.png)
 
-2. Assegnare un nome al file o usare il nome file generato e scegliere **Save** (Salva).
+2. Assegnare un nome al file o usare il nome file generato e selezionare **Save**.
 
 ### <a name="open-an-existing-migration-plan"></a>Aprire un piano di migrazione esistente
 
@@ -87,19 +87,19 @@ Per salvare il piano di migrazione, effettuare le operazioni seguenti.
 
 Per aprire il piano di migrazione esistente, eseguire le operazioni seguenti.
 
-1. Selezionare **File** > **Open Existing Migration Plan** (Apri piano di migrazione esistente).
+1. Selezionare **File** > **Open Existing Migration Plan**.
 
     ![Aprire il piano](media/migrate-tool/migrate-tool-open-plan.png)
 
-2. Selezionare il file di migrazione e quindi **Open** (Apri).
+2. Selezionare il file di migrazione, quindi scegliere **Open**.
 
 ## <a name="step-1-analyze--plan-migration"></a>Passaggio 1: Analisi e pianificazione della migrazione
 
 La scheda **Analyze & Plan Migration** (Analisi e pianificazione della migrazione) visualizza il contenuto attuale del gruppo di risorse della sottoscrizione di Azure.
 
-![Scheda per l'analisi e la pianificazione della migrazione](media/migrate-tool/migrate-tool-step1.png)
+![Scheda di analisi e pianificazione della migrazione](media/migrate-tool/migrate-tool-step1.png)
 
-Come esempio si analizzerà *SampleResourceGroup*.
+Come esempio, verrà esaminato *SampleResourceGroup*.
 
 ### <a name="paas-topology"></a>Topologia PaaS
 
@@ -114,17 +114,17 @@ Il colore rosso indica che alcuni report non possono essere scaricati. Il numero
 
 ### <a name="reports"></a>Report
 
-La sezione dei report elenca i report disponibili indicando se possono essere scaricati o meno.
+La sezione del report elencherà i report disponibili indicando se possono essere scaricati o no.
 
 ![Analizzare i report](media/migrate-tool/migrate-tool-analyze-reports.png)
 
 ### <a name="target-structure"></a>Struttura di destinazione
 
-La **struttura di destinazione** è la posizione in cui si indica allo strumento dove verranno scaricati gli elementi e come caricarli.
+La **struttura di destinazione** è quella in cui si indica allo strumento dove verranno scaricati i report e come caricarli.
 
 #### <a name="download-plan"></a>Piano di download
 
-Verrà creato automaticamente un percorso per l'utente, Se lo si desidera, è possibile modificare questo percorso. Se si modifica il percorso, sarà necessario selezionare **Update paths** (Aggiorna percorsi).
+Verrà creato automaticamente un percorso per l'utente, che è possibile modificare a piacimento. Se si modifica il percorso, è necessario selezionare **Update paths** (Aggiorna percorsi).
 
 > [!NOTE]
 > Questa operazione non esegue il download, ma consente solo di specificare la struttura in cui verranno scaricati i report.
@@ -140,7 +140,7 @@ Qui è possibile specificare un prefisso da usare per le aree di lavoro che verr
 
 Se si modifica il prefisso, è necessario selezionare **Generate Upload Plan**.
 
-È possibile fare clic con il pulsante destro del mouse su un gruppo e scegliere di rinominare il gruppo direttamente nel piano di upload, se necessario.
+È possibile fare clic con il pulsante destro su un gruppo e scegliere di rinominarlo all'interno del piano di upload direttamente, se necessario.
 
 ![Caricare il report e rinominare l'elemento](media/migrate-tool/migrate-tool-upload-report-rename-item.png)
 
@@ -156,23 +156,23 @@ Nella scheda **Download** verrà visualizzato l'elenco di report e metadati asso
 Sono disponibili due opzioni:
 
 * Selezionare i report specifici e selezionare **Scarica selezionato**
-* Selezionare **Download All** (Scarica tutto).
+* Selezionare **Scarica tutto**.
 
 ![Opzioni di download](media/migrate-tool/migrate-tool-download-options.png)
 
-In caso di esito positivo del download, verrà visualizzato lo stato *Done* (Fine), indicando l'esistenza del file PBIX.
+Lo stato *Fine* indicherà che il download è stato completato direttamente, riflettendo l'esistenza del file PBIX.
 
-Una volta completato il download, selezionare la scheda **Create Groups** (Creazione gruppi).
+Una volta completato il download, selezionare la scheda **Create Groups**.
 
 ## <a name="step-3-create-groups"></a>Passaggio 3: Crea gruppi
 
-Dopo avere scaricato i report disponibili, è possibile passare alla scheda **Create Groups** (Creazione gruppi). che creerà le aree di lavoro all'interno del servizio Power BI in base al piano di migrazione creato, con il nome specificato nella scheda **Upload** (Carica) in **Analyze & Plan Migration** (Analizza e pianifica migrazione).
+Dopo avere scaricato i report disponibili, è possibile passare alla scheda **Create Groups**, che creerà le aree di lavoro all'interno del servizio Power BI in base al piano di migrazione creato, con il nome specificato nella scheda **Upload** (Carica) in **Analyze & Plan Migration** (Analizza e pianifica migrazione).
 
-![Creare gruppi](media/migrate-tool/migrate-tool-create-groups.png)
+![Creare i gruppi](media/migrate-tool/migrate-tool-create-groups.png)
 
 Per creare le aree di lavoro, è possibile selezionare **Create Selected Groups** (Crea gruppi selezionati) o **Create All Missing Groups** (Crea tutti i gruppi mancanti).
 
-Quando si seleziona una di queste opzioni, verrà chiesto di accedere. *È consigliabile usare le credenziali per il servizio Power BI in cui si vogliono creare le aree di lavoro.*
+Quando si seleziona una di queste opzioni, verrà richiesto di accedere. *È consigliabile usare le credenziali per il servizio Power BI in cui si vogliono creare le aree di lavoro.*
 
 ![Creare l'accesso del gruppo](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
@@ -184,15 +184,15 @@ Verrà creata un'area di lavoro all'interno del servizio Power BI, ma i report n
 
 Dopo aver creato l'area di lavoro, è possibile passare alla scheda **Upload**.
 
-## <a name="step-4-upload"></a>Passaggio 4: Caricamento
+## <a name="step-4-upload"></a>Passaggio 4: Carica
 
-Nella scheda **Upload** verranno caricati i report nel servizio Power BI. Verrà visualizzato un elenco dei report scaricati nella scheda Download, insieme al nome del gruppo di destinazione basato sul piano di migrazione.
+Nella scheda **Upload** verranno caricati i report nel servizio Power BI. Verrà visualizzato un elenco dei report caricati nella scheda Download assieme al nome del gruppo di destinazione basato sul piano di migrazione.
 
 ![Scheda Carica](media/migrate-tool/migrate-tool-upload-tab.png)
 
-È possibile caricare i report selezionati o tutti i report. È anche possibile reimpostare lo stato di upload per caricare nuovamente gli elementi.
+È possibile caricare report selezionati o tutti i report. È anche possibile reimpostare lo stato di upload per caricare nuovamente gli elementi.
 
-Si ha anche la possibilità di selezionare cosa fare se esiste un report con lo stesso nome. Le opzioni disponibili sono **Abort** (Interrompi), **Ignore** (Ignora) e **Overwrite** (Sovrascrivi).
+Si ha anche la possibilità di selezionare cosa fare se esiste un report con lo stesso nome. È possibile scegliere tra **Abort** (Interrompi), **Ignore** (Ignora) e **Overwrite** (Sovrascrivi).
 
 ![Caricare report con lo stesso nome](media/migrate-tool/migrate-tool-upload-report-same-name.png)
 
@@ -232,7 +232,7 @@ Per l'elemento non riuscito, è possibile modificare il nome del valore SaaSTarg
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
-Sarà quindi possibile aprire nuovamente il piano nello strumento di migrazione e caricare il report con esito negativo.
+Sarà quindi possibile aprire nuovamente il piano nello strumento di migrazione e caricare il report non riuscito.
 
 Tornando a Power BI, si noterà che i report e i set di dati sono stati caricati nell'area di lavoro.
 
@@ -254,7 +254,7 @@ Dopo aver modificato il file XML, aprire nuovamente il piano nello strumento di 
 
 ### <a name="directquery-reports"></a>Report di DirectQuery
 
-È necessario eseguire l'aggiornamento per aggiornare la stringa di connessione per i report di DirectQuery. Questa operazione può essere eseguita all'interno di *powerbi.com* oppure è possibile eseguire una query a livello di codice sulla stringa di connessione da Power BI Embedded (PaaS). Per un esempio, vedere [Estrarre la stringa di connessione di DirectQuery dal report PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+È necessario eseguire l'aggiornamento per aggiornare la stringa di connessione per i report di DirectQuery. Questa operazione può essere eseguita all'interno di *powerbi.com* oppure è possibile eseguire una query a livello di codice sulla stringa di connessione da Power BI Embedded (PaaS). Per un esempio, vedere [Estrarre la stringa di connessione DirectQuery dal report PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
 È quindi possibile aggiornare la stringa di connessione per il set di dati all'interno del servizio Power BI (SaaS) e impostare le credenziali per l'origine dati. Esaminare gli esempi seguenti per informazioni su come eseguire questa operazione.
 
@@ -274,7 +274,7 @@ Per altre informazioni, vedere [Come eseguire la migrazione del contenuto della 
 [Power BI Premium: di cosa si tratta?](../../admin/service-premium-what-is.md)  
 [Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
-[Esempio per incorporare JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
+[Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

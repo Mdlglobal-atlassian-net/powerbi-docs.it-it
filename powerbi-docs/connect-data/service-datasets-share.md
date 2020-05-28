@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284797"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565461"
 ---
 # <a name="share-a-dataset-preview"></a>Condividere un set di dati (anteprima)
 
@@ -24,7 +24,7 @@ Gli utenti che creano *modelli di dati* in Power BI Desktop creano *set di dati*
 
 1. Iniziare creando un file con estensione pbix con un modello di dati in Power BI Desktop. Se si prevede di offrire questo set di dati a utenti che dovranno compilare report, si può persino non progettare un report nel file con estensione pbix.
 
-    È consigliabile salvare un file con estensione pbix in un gruppo di Office 365.
+    È consigliabile salvare un file con estensione pbix in un gruppo di Microsoft 365.
 
 1. Pubblicare il file con estensione pbix in un'[area di lavoro della nuova esperienza](../collaborate-share/service-create-the-new-workspaces.md) nel servizio Power BI.
     

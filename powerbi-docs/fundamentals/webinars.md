@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360923"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566041"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 [//]: # "Tatevik Tatero è un fornitore che collabora con Chauncy Freels alla manutenzione di questo elenco di webinar"
@@ -22,13 +22,20 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
+**What's the difference between Analytics and BI?** (Qual è la differenza tra analisi e business intelligence?)
+<br>di Nate Findley e Charles Feddersen, Microsoft
+<br>[Registrarsi per guardare il 3 giugno 2020 dalle 10:00 alle 11:00 PDT]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Webinar in primo piano
 
 Iniziare dai webinar on demand più popolari
+
+**Explore the Total Economic Impact di Microsoft Power BI** (Impatto economico totale di Microsoft Power BI)
+<br>di Megan Tomlin, Microsoft e Jonathan Lipsitz, Forrester Consulting
+<br>[Guardare adesso]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Analytics in Azure virtual event: Accelerate time to insight with Azure Synapse Analytics** (Analisi nell'evento virtuale di Azure: accelerare i tempi di acquisizione di dati analitici con Azure Synapse Analytics)
 <br>di Gayle Sheppard e John Macintyre
@@ -86,7 +93,7 @@ Iniziare dai webinar on demand più popolari
 <br>di Nimrod Shalit
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel, and Office 365: Optimize Your Enterprise Data** (Power BI, Excel e Office 365: ottimizzare i dati aziendali)
+**Power BI, Excel, and Microsoft 365: Optimize Your Enterprise Data** (Power BI, Excel e Office 365: ottimizzare i dati aziendali)
 <br>di Olaf Hubel e Miguel Martinez
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -100,7 +107,7 @@ Iniziare dai webinar on demand più popolari
 
 È possibile guardare le sessioni registrate in qualsiasi momento
 
-### <a name="getting-started"></a>Introduzione
+### <a name="getting-started"></a>Attività iniziali
 
 **Automate Day-to-Day Business Processes with Power BI, PowerApps, and Power Automate** (Automatizzare i processi aziendali quotidiani con Power BI, Power Apps e Power Automate)
 <br>di Wim Coorevits ed Enrique Plaza Garcia

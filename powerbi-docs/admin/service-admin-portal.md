@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275594"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564473"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
 Il portale di amministrazione consente di gestire un *tenant* Power BI per l'organizzazione. Il portale include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Microsoft 365 e le impostazioni.
 
-Il portale di amministrazione completo è accessibile a tutti gli utenti amministratori globali in Office 365 o a cui è stato assegnato il ruolo di amministratore del servizio Power BI. Se non si ha uno di questi ruoli, nel portale saranno visualizzate solo le **impostazioni di capacità**. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md).
+Il portale di amministrazione completo è accessibile a tutti gli utenti amministratori globali o a cui è stato assegnato il ruolo di amministratore del servizio Power BI. Se non si ha uno di questi ruoli, nel portale saranno visualizzate solo le **impostazioni di capacità**. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Come accedere al portale di amministrazione
 
-Per ottenere l'accesso al portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Office 365 o in Azure Active Directory (Azure AD) o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md). Per accedere al portale di amministrazione di Power BI, eseguire le operazioni seguenti.
+Per ottenere l'accesso al portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Microsoft 365 o in Azure Active Directory (Azure AD) o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md). Per accedere al portale di amministrazione di Power BI, eseguire le operazioni seguenti.
 
 1. Selezionare l'icona a forma di ingranaggio delle impostazioni in alto a destra nella pagina del servizio Power BI.
 
@@ -85,7 +85,7 @@ Con queste informazioni è possibile ottenere informazioni dettagliate reali in 
 
 ## <a name="control-usage-metrics"></a>Controllare le metriche di utilizzo
 
-I report sulle metriche di utilizzo sono una funzionalità che l'amministratore di Power BI o Office 365 può attivare o disattivare. Gli amministratori hanno un controllo granulare sugli utenti che hanno accesso alle metriche di utilizzo. Questa funzionalità è **attiva** per impostazione predefinita per tutti gli utenti dell'organizzazione.
+I report sulle metriche di utilizzo sono una funzionalità che l'amministratore di Power BI o Microsoft 365 può attivare o disattivare. Gli amministratori hanno un controllo granulare sugli utenti che hanno accesso alle metriche di utilizzo. Questa funzionalità è **attiva** per impostazione predefinita per tutti gli utenti dell'organizzazione.
 
 Gli amministratori possono anche stabilire se gli autori di contenuti possono vedere i dati per utente nelle metriche di utilizzo. 
 
@@ -189,10 +189,10 @@ Le aree di lavoro sono posizioni in cui gli utenti possono collaborare a dashboa
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Creare l'esperienza delle nuove aree di lavoro":::
 
-Per le aree di lavoro classiche basate su Gruppi di Office 365, l'amministrazione continua ad avvenire nel portale di amministrazione di Office 365 e in Azure Active Directory.
+Per le aree di lavoro classiche basate su gruppi di Microsoft 365, l'amministrazione continua ad avvenire nel portale di amministrazione e in Azure Active Directory.
 
 > [!NOTE]
-> Per impostazione predefinita, l'impostazione **Crea aree di lavoro (nuova esperienza delle aree di lavoro)** consente la creazione di nuove aree di lavoro di Power BI solo agli utenti autorizzati a creare gruppi di Office 365. Assicurarsi di impostare un valore nel portale di amministrazione di Power BI per garantire che le aree di lavoro possano essere create solo dagli utenti appropriati.
+> Per impostazione predefinita, l'impostazione **Crea aree di lavoro (nuova esperienza delle aree di lavoro)** consente la creazione di nuove aree di lavoro di Power BI solo agli utenti autorizzati a creare gruppi di Microsoft 365. Assicurarsi di impostare un valore nel portale di amministrazione di Power BI per garantire che le aree di lavoro possano essere create solo dagli utenti appropriati.
 
 **Elenco delle aree di lavoro**
 
@@ -334,7 +334,7 @@ La figura seguente mostra l'opzione **Intera organizzazione** quando si crea un 
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Creare app modello e pacchetti di contenuto dell'organizzazione
 
-Gli utenti dell'organizzazione possono creare app modello e pacchetti di contenuto dell'organizzazione che usano set di dati basati su un'origine dati in Power BI Desktop. Vedere altre informazioni sulle [app modello](../template-content-pack-authoring.md).
+Gli utenti dell'organizzazione possono creare app modello e pacchetti di contenuto dell'organizzazione che usano set di dati basati su un'origine dati in Power BI Desktop. Vedere altre informazioni sulle [app modello](../connect-data/service-template-apps-create.md).
 
 ### <a name="push-apps-to-end-users"></a>Push delle app agli utenti finali
 
@@ -625,7 +625,3 @@ Per informazioni sull'abilitazione del contenuto in primo piano, vedere [Contenu
 [Controllo di Power BI nell'organizzazione](service-admin-auditing.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-
-
-
-
