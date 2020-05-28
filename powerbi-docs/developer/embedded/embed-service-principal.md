@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275962"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121197"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporamento di contenuto di Power BI con entità servizio e segreto dell'applicazione
 
@@ -120,7 +120,7 @@ L'entità servizio non ha accesso al contenuto e alle API di Power BI. Per conse
 
 Esistono due modi per creare un gruppo di sicurezza di Azure AD:
 * Manualmente (in Azure)
-* Utilizzo di PowerShell
+* Uso di PowerShell
 
 ### <a name="create-a-security-group-manually"></a>Creare manualmente un gruppo di sicurezza
 
@@ -181,14 +181,13 @@ Per consentire all'app Azure AD di accedere ad artefatti come report, dashboard 
 
 Quando il contenuto è incorporato, si è pronti a [passare alla produzione](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limiti
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 * L'entità servizio funziona solo con le [nuove aree di lavoro](../../collaborate-share/service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.
 * La capacità dedicata è necessaria per passare alla produzione.
 * Non è possibile accedere al portale di Power BI usando l'entità servizio.
 * Per abilitare l'entità servizio nelle impostazioni sviluppatore all'interno del portale di amministrazione di Power BI sono necessari i diritti di amministratore di Power BI.
-* Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non possono usare l'entità servizio.
 * La gestione dei [flussi di dati](../../transform-model/service-dataflows-overview.md) non è supportata.
 * L'entità servizio attualmente non supporta le API di amministrazione.
