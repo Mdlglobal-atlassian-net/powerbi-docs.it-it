@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129967"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438017"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Risoluzione dei problemi di accesso per Power BI
 
@@ -26,7 +26,7 @@ Se invece si è un **amministratore tenant** dell'organizzazione e non si riesce
 
 Per prima cosa tentare di creare un ticket di supporto tramite la [pagina di supporto di Power BI](https://powerbi.microsoft.com/support/).
 
-Se non è possibile accedere alla pagina di supporto di Power BI, tentare di creare un ticket tramite la [pagina di supporto di Office 365](https://support.office.com/home/contact).
+Se non è possibile accedere alla pagina di supporto di Power BI, tentare di creare un ticket tramite la [pagina del supporto per Office](https://support.office.com/home/contact).
 
 Se non si è in grado di creare un ticket tramite una di queste pagine, provare a contattare il supporto tecnico tramite telefono:
 
@@ -34,7 +34,7 @@ Se non si è in grado di creare un ticket tramite una di queste pagine, provare 
 * Per i clienti in Europa, Medio Oriente e Asia (EMEA): + 44-844-800-2400
 * Per i clienti in India: + 1-800-419-5666
 
-Per contattare Microsoft e richiedere supporto, è anche possibile acquistare il [supporto tecnico Premier](https://support.microsoft.com/premier). Se l'organizzazione ha acquistato il supporto tecnico Premier e tuttavia non si riesce a creare un caso né tramite il canale di Power BI né tramite quello di Office 365, è possibile contattare il supporto tecnico Premier telefonicamente:
+Per contattare Microsoft e richiedere supporto, è anche possibile acquistare il [supporto tecnico Premier](https://support.microsoft.com/premier). Se l'organizzazione ha acquistato il supporto tecnico Microsoft Premier e tuttavia non si riesce a creare un caso né tramite il canale di Power BI né tramite il supporto di Office, è possibile contattare il supporto tecnico Premier telefonicamente:
 
 * Per i clienti negli Stati Uniti (US) e il resto delle Americhe: +1-800-936-3100
 * Per i clienti in Europa, Medio Oriente e Asia (EMEA): +44-844-800-8338
