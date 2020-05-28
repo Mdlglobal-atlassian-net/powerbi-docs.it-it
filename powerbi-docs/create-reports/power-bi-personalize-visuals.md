@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867117"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407603"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Consentire agli utenti di personalizzare gli oggetti visivi in un report
 
@@ -26,7 +26,7 @@ Quando si condivide un report con un ampio pubblico, è possibile che alcuni ute
  
 ## <a name="what-report-consumers-can-change"></a>Cosa possono modificare gli utenti finali del report
 
-Questa funzionalità consente agli utenti finali di ottenere ulteriori informazioni tramite l'esplorazione ad hoc degli oggetti visivi in un report di Power BI. Questa funzionalità è ideale per gli autori di report che vogliono abilitare scenari di esplorazione di base per i lettori del report. Di seguito sono riportate le modifiche che i lettori di report possono eseguire:
+Questa funzionalità consente agli utenti finali di ottenere ulteriori informazioni tramite l'esplorazione ad hoc degli oggetti visivi in un report di Power BI. Per informazioni su come usare questa funzionalità come utente finale, vedere [Personalizzare oggetti visivi in un report](../consumer/end-user-personalize-visuals.md). Questa funzionalità è ideale per gli autori di report che vogliono abilitare scenari di esplorazione di base per i lettori del report. Di seguito sono riportate le modifiche che i lettori di report possono eseguire:
 
 - Modificare il tipo di visualizzazione
 - Sostituire una misura o una dimensione
@@ -84,69 +84,6 @@ Scorrere per impostare **Personalizza oggetto visivo** >  **Attiva** o **Disatti
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Dispositivo di scorrimento per attivare o disattivare la personalizzazione dell'oggetto visivo":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Personalizzare gli oggetti visivi nel servizio Power BI
-
-Grazie alla personalizzazione di un oggetto visivo, gli utenti possono esplorare i dati in molti modi senza uscire dalla visualizzazione di lettura del report. Gli esempi seguenti illustrano i diversi modi in cui gli utenti possono modificare una visualizzazione per soddisfare le proprie esigenze. 
-
-1. Aprire un report nella visualizzazione di lettura nel servizio Power BI.
-
-2. Nell'angolo in alto a destra dell'oggetto visivo selezionare l'icona **Personalizza questo oggetto visivo** ![Icona Personalizza questo oggetto visivo](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-### <a name="change-the-visualization-type"></a>Modificare il tipo di visualizzazione
-
-È possibile applicare una rappresentazione diversa alla visualizzazione modificando **Tipo di visualizzazione**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Modificare il tipo di visualizzazione":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>Sostituire una misura o una dimensione
-È possibile sostituire una misura o una dimensione sull'asse X selezionando il campo che si vuole sostituire e quindi selezionando un'altra misura o dimensione.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Modificare l'asse":::
- 
-### <a name="add-or-remove-a-legend"></a>Aggiungere o rimuovere una legenda
-L'aggiunta di una legenda consente di applicare una codifica a colori a un oggetto visivo in base a una categoria. È possibile eliminare il codice a colori basato sulla categoria deselezionando la casella **Legenda** nel riquadro **Personalizza**. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Aggiungere o rimuovere la legenda":::
-
-### <a name="compare-two-or-more-different-measures"></a>Confrontare due o più misure diverse
-È possibile confrontare e contrapporre i valori per diverse misure usando l'icona + per aggiungere più misure per un oggetto visivo.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Confrontare misure":::
-
-### <a name="change-aggregations"></a>Modificare le aggregazioni
-È possibile modificare il modo in cui una misura viene calcolata modificando l'aggregazione nel riquadro **Personalizza**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Modificare le aggregazioni":::
-
-### <a name="capture-changes"></a>Acquisire le modifiche 
-Con i segnalibri personali è possibile acquisire le modifiche in modo da tornare alla visualizzazione personalizzata. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Creare un segnalibro":::
- 
-È anche possibile impostare il segnalibro come visualizzazione predefinita.
-
-### <a name="share-changes"></a>Condividere le modifiche 
-Se sono disponibili le autorizzazioni di lettura e ricondivisione, quando si condivide il report è possibile scegliere di includere le modifiche.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Condividire le modifiche":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>Reimpostare tutte le modifiche apportate a un report
-
-Selezionare **Ripristina impostazione predefinita** per rimuovere tutte le modifiche apportate al report e impostarle nuovamente sull'ultima visualizzazione salvata dell'autore del report.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Reimpostare tutte le modifiche":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>Reimpostare tutte le modifiche apportate a un oggetto visivo
-
-Selezionare **Reimposta oggetto visivo** per rimuovere tutte le modifiche apportate a un oggetto visivo specifico e impostarlo di nuovo sull'ultima visualizzazione salvata dell'autore di tale oggetto visivo.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Reimpostare tutte le modifiche di un oggetto visivo":::
- 
-### <a name="clear-recent-changes"></a>Cancellare le modifiche recenti
-
-Selezionare l'icona a forma di gomma per cancellare tutte le modifiche recenti apportate dall'apertura del riquadro **Personalizza**.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Cancellare le modifiche recenti":::
 
 ## <a name="limitations-and-known-issues"></a>Limitazioni e problemi noti
 
@@ -164,7 +101,8 @@ Sono presenti anche alcuni problemi in corso di risoluzione:
 
 ## <a name="next-steps"></a>Passaggi successivi
 
+[Personalizzare oggetti visivi nei report](../consumer/end-user-personalize-visuals.md).     
+
 Si consiglia di provare l'esperienza di personalizzazione degli oggetti visivi. Inviare commenti e suggerimenti su questa funzionalità e su come continuare a migliorarla nel [sito Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
-

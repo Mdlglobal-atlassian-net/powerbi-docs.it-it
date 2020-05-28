@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129186"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564496"
 ---
-# <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI a utenti guest esterni usando Azure AD B2B
+# <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
 Power BI consente la condivisione di contenuto con utenti guest esterni tramite Azure Active Directory Business-to-Business (Azure AD B2B).
 Con Azure AD B2B, un'organizzazione può abilitare e gestire la condivisione con utenti esterni da una posizione centrale. Per impostazione predefinita, gli utenti guest esterni possono usufruire di un'esperienza di solo consumo. Inoltre, è possibile consentire agli utenti guest all'esterno dell'organizzazione di modificare e gestire il contenuto all'interno dell'organizzazione.
@@ -130,7 +130,7 @@ Per aiutare gli utenti guest autorizzati ad accedere a Power BI, fornire loro l'
 * Alcune esperienze non sono disponibili per gli [utenti guest che possono modificare e gestire contenuto nell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Per aggiornare o pubblicare report, devono usare l'interfaccia utente Web del servizio Power BI, tra cui l'opzione Scarica i dati per caricare i file di Power BI Desktop.  Le esperienze seguenti non sono supportate:
     * Pubblicazione diretta da Power BI Desktop al servizio Power BI
     * Gli utenti guest non possono usare Power BI Desktop per connettersi ai set di dati del servizio nel servizio Power BI
-    * Aree di lavoro classiche associate a gruppi di Office 365:
+    * Aree di lavoro classiche associate a gruppi di Microsoft 365:
         * Gli utenti guest non possono creare queste aree di lavoro o esserne amministratori
         * Gli utenti guest possono essere membri
     * L'invio di inviti ad hoc non è supportato per gli elenchi di accesso all'area di lavoro
@@ -152,7 +152,7 @@ Per aiutare gli utenti guest autorizzati ad accedere a Power BI, fornire loro l'
 
 * Esistono impostazioni di Active Directory che possono limitare le operazioni eseguibili dagli utenti guest esterni all'interno dell'organizzazione. Ciò si applica anche all'ambiente di Power BI. Nella documentazione seguente vengono illustrate le impostazioni:
     * [Gestisci le impostazioni di collaborazione esterna](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [Consentire o bloccare gli inviti agli utenti B2B da organizzazioni specifiche](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+    * [Consentire o bloccare gli inviti agli utenti B2B di organizzazioni specifiche](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
     * [Consentire o bloccare l'accesso al servizio Power BI da parte di utenti guest](/azure/active-directory/conditional-access/overview)
     
 * La condivisione all'esterno dell'organizzazione non è supportata nei cloud nazionali. Creare invece all'interno dell'organizzazione account utente che gli utenti esterni possono usare per accedere al contenuto. 

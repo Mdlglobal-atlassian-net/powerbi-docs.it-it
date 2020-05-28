@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273639"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438224"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
@@ -105,12 +105,13 @@ Gli amministratori di Power BI possono usare i log di controllo di Power BI per 
 
 ### <a name="general"></a>Generale
 
-- In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di quindici minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
-- Per evitare che i messaggi di posta elettronica di sottoscrizione vengano deviati alla cartella della posta indesiderata, aggiungere l'alias di posta elettronica di Power BI ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) ai propri contatti. Se si usa Microsoft Outlook, fare clic con il pulsante destro del mouse sull'alias e selezionare **Aggiungi ai contatti di Outlook**.
+- Analogamente ad altri prodotti BI, il periodo di tempo per cui si imposta la sottoscrizione parte da quando la sottoscrizione inizia l'elaborazione.  Al termine dell'elaborazione del report, la sottoscrizione viene accodata e inviata ai destinatari del messaggio di posta elettronica.  Microsoft si impegna a elaborare e distribuire tutte le sottoscrizioni nel minor tempo possibile. Tuttavia, in corrispondenza di picchi della domanda è a volte possibile che si verifichi un ritardo più lungo a causa del numero di sottoscrizioni che Power BI può inviare contemporaneamente. La maggior parte dei clienti non dovrebbe riscontrare ritardi di oltre 15 minuti per l'elaborazione e l'invio dei report. Potrebbero essere necessari fino a 30 minuti per determinati orari e tenant con carico di utilizzo significativo.  Non è mai previsto un ritardo superiore a 60 minuti dal momento in cui viene pianificata la sottoscrizione.  Se si verifica un ritardo così lungo, assicurarsi prima di tutto che l'indirizzo `no-reply-powerbi@microsoft.com` sia inserito nell'elenco degli indirizzi consentiti dal provider di posta elettronica.  In caso affermativo, richiedere assistenza al supporto tecnico di Power BI.
 - Attualmente le sottoscrizioni tramite posta elettronica per report e dashboard che usano connessioni dinamiche non sono supportate per le sottoscrizioni di altri utenti, a eccezione dei report impaginati. È possibile eseguire la sottoscrizione a un report impaginato per altri utenti, usando il contesto di sicurezza. Per altre informazioni, vedere [Sottoscrizione di report impaginati](../consumer/paginated-reports-subscriptions.md).
 - Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non vengono visitati da più di due mesi. Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non viene sospeso anche nel caso in cui non sia stato visitato.
 - Se non si ricevono i messaggi di posta elettronica relativi alla sottoscrizione, assicurarsi che il Nome dell'entità utente sia in grado di ricevere messaggi di posta elettronica.
 - Se il dashboard o il report è nella capacità Premium, è possibile usare alias di posta elettronica di gruppo per le sottoscrizioni anziché eseguire le sottoscrizioni per un indirizzo alla volta. Gli alias sono basati sull'istanza corrente di Active Directory.
+- Se il contenuto non è incluso in una capacità Premium, solo gli utenti di Power BI Pro possono ricevere sottoscrizioni tramite posta elettronica. 
+- Le sottoscrizioni non supportano attualmente segnalibri.
 
 ### <a name="dashboards"></a>Dashboard
 
@@ -118,7 +119,7 @@ Gli amministratori di Power BI possono usare i log di controllo di Power BI per 
 - In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di quindici minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
 - Per le sottoscrizioni via posta elettronica dei dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.
 - Per le sottoscrizioni ai dashboard, alcuni tipi di riquadri non sono ancora supportati, tra cui: riquadri di streaming, riquadri video e riquadri di contenuto Web personalizzato.
-- Se si condivide un dashboard con un collega al di fuori del tenant, non è possibile creare anche una sottoscrizione per il collega *a meno che* il dashboard non sia incluso in un'area di lavoro o in un'app Premium. Di conseguenza, se si è aaron@contoso.com è possibile condividere con anyone@fabrikam.com, ma non è possibile sottoscrivere anyone@fabrikam.com che non può sottoscrivere contenuto condiviso.
+- Se si condivide un dashboard con un collega al di fuori del tenant, non è possibile creare anche una sottoscrizione per il collega *a meno che* il dashboard non sia incluso in un'area di lavoro o in un'app Premium. Di conseguenza, se si è `aaron@contoso.com` è possibile condividere con `anyone@fabrikam.com`, ma non è possibile sottoscrivere `anyone@fabrikam.com` che non può sottoscrivere contenuto condiviso.
 
 ### <a name="reports"></a>Report
 

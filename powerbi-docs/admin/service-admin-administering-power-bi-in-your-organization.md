@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129534"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438040"
 ---
 # <a name="what-is-power-bi-administration"></a>Che cos'è l'amministrazione di Power BI?
 
@@ -36,17 +36,17 @@ Esistono diversi ruoli correlati all'amministrazione di Power BI, descritti nell
 
 | **Tipo di amministratore** | **Ambito amministrativo** | **Ambito Power BI** |
 | --- | --- | --- |
-| Amministratore globale di Office 365 | Office 365 | Può gestire tutti gli aspetti di un tenant di Power BI e altri servizi. |
-| Amministratore fatturazione di Office 365 | Office 365 | Può acquisire licenze di Power BI tramite abbonamenti a Office 365. |
+| Amministratore globale | Microsoft 365 | Può gestire tutti gli aspetti di un tenant di Power BI e altri servizi. |
+| Amministratore fatturazione | Microsoft 365 | Può acquisire licenze di Power BI tramite abbonamenti a Office 365. |
 | Amministratore del servizio Power BI | Tenant di Power BI | Ha il controllo completo su un tenant di Power BI e sulle relative funzionalità di amministrazione (tranne che sulle licenze). |
 | Amministratore di capacità di Power BI Premium | Una singola capacità Premium | Ha il controllo completo su una capacità Premium e sulle relative funzionalità di amministrazione. |
 | Amministratore di capacità di Power BI Embedded | Una singola capacità Embedded | Ha il controllo completo su una capacità Embedded e sulle relative funzionalità di amministrazione. |
 
-Gli amministratori globali in Office 365 o Azure Active Directory hanno diritti di amministratore in Power BI. Un amministratore globale di Office 365 può assegnare altri utenti al ruolo Amministratore del servizio Power BI, che concede diritti amministrativi solo sulle funzionalità di Power BI.
+Gli amministratori globali in Microsoft 365 o Azure Active Directory hanno diritti di amministratore in Power BI. Un amministratore globale può assegnare altri utenti al ruolo Amministratore del servizio Power BI, che concede diritti amministrativi solo per le funzionalità di Power BI.
 
 Gli amministratori del servizio Power BI hanno accesso al portale di amministrazione di Power BI, che include diverse impostazioni a livello di tenant relative a funzionalità, sicurezza e monitoraggio. Gli amministratori del servizio hanno accesso completo a tutte le risorse di un tenant di Power BI. Nella maggior parte dei casi, gli amministratori del servizio identificano i problemi e quindi collaborano con i proprietari delle risorse per intraprendere misure correttive.
 
-Il ruolo di amministratore del servizio Power BI non concede la possibilità di assegnare licenze agli utenti o visualizzare i log di controllo in Office 365. Per questo motivo, attualmente gli utenti che sono membri esclusivamente del ruolo di amministratore del servizio Power BI non possono eseguire attività di amministrazione di Power BI.
+Il ruolo di amministratore del servizio Power BI non concede la possibilità di assegnare licenze agli utenti o visualizzare i log di controllo in Microsoft 365. Per questo motivo, attualmente gli utenti che sono membri esclusivamente del ruolo di amministratore del servizio Power BI non possono eseguire attività di amministrazione di Power BI.
 
 ## <a name="administrative-tasks"></a>Attività amministrative
 
@@ -84,5 +84,5 @@ Ci auguriamo che questo articolo sia stato utile per iniziare a comprendere il l
 - [Linee guida per le impostazioni di amministrazione del tenant](../guidance/admin-tenant-settings.md)
 - [Usare i cmdlet di PowerShell](/powershell/power-bi/overview)
 - [Domande frequenti sull'amministrazione di Power BI](service-admin-faq.md)
-- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 - Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)
